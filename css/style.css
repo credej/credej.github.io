@@ -1,15 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 
+/* TEXT */
 .textBox {
   padding:0 45px 25px;
 }
 
-#header {
-
+/* IMAGES */
+#gallery img, #gallery>.img {
+-webkit-box-shadow: 0 0 55px 3px #999999;
+box-shadow: 0 0 55px 3px #999999;
+margin-bottom:50px !important;
 }
 
-/*YOUTUE RESPONSIVE */
+/* YOUTUBE RESPONSIVE */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -32,7 +36,7 @@
 
 html {
   border-top: 5px solid #fff;
-  background: #E3E3E3;
+  background: #6E6E6E;
   color: #333333;
 }
 
@@ -43,7 +47,7 @@ html, body {
 }
 
 h1 {
-  color: #B5B5B5;
+  color: #8BFD34;
   text-align: center;
   font-weight: 400;
   font-family: Oswald, san-serif;
@@ -57,6 +61,7 @@ h2 {
   border-bottom:1px dashed #B5B5B5;
   font-family: Oswald, san-serif;
   text-transform: uppercase;
+  margin-top:75px;
 }
 
 h3 {
