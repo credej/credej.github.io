@@ -15,15 +15,25 @@ html, body {
 }
 
 h1 {
-  color: #333333;
+  color: #B5B5B5;
   text-align: center;
   font-weight: 400;
   font-family: Oswald, san-serif;
 }
 
+h2 {
+  color: #6E6E6E;
+  text-align: left;
+  font-weight: 400;
+  border-bottom:1px dashed #B5B5B5;
+  font-family: Oswald, san-serif;
+  text-transform: uppercase;
+}
+
 h3 {
   font-weight:200;
   font-family: Raleway, san-serif;
+  padding-bottom:15px;
 }
 
 #slider {
@@ -91,3 +101,77 @@ a.control_next {
   width: 160px;
   font-size: 18px;
 }
+
+
+
+/* SLIDER */
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:10px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
