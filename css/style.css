@@ -5,6 +5,15 @@
   padding:45px;
 }
 
+#header {
+
+}
+
+
+
+
+
+
 
 
 html {
@@ -24,6 +33,7 @@ h1 {
   text-align: center;
   font-weight: 400;
   font-family: Oswald, san-serif;
+  font-size:35px !important;
 }
 
 h2 {
