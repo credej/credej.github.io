@@ -65,41 +65,36 @@ $("iframe").each(function(){
     }
   </style>
 <body>
-<!--
-  <div class="container">
-    <div id="slides">
-      <img src="img/web_dtekChip.jpg" alt="">
-      <img src="img/design_dtek2.jpg" alt="">
-      <img src="img/web_covisus.jpg" alt="">
-      <img src="img/design_dtek1.jpg" alt="">
-      <img src="img/web_dtekApp1.jpg" alt="">
-      <img src="img/web_dtekApp3.jpg" alt="">
-      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
-    </div>
-  </div>
--->
-      <div id="header">
-        <h1>work</h1>
-      </div>
-      
+    <div id="header"><h1>my work</h1></div>
+    <h4>
+        <a href="http://google.com" target="_blank">email me </a>
+    </h4>
 
     <div id="gallery">
 
-
-
 <!-- ------------------------ SENITRON ---------------------------- -->
 
-        <h2>2014</h2>
+        <div class="box"></div><h2>2014<span style="color:#4A4A4A;"> / Senitron RFID</span></h2>
 
         <div class="textBox">
-            <h3><a href="http://www.senitron.net" target="_blank">Senitron</a> Corporation is the RFID solutions firm providing continuous real-time inventory and item level tracking solutions for automated retail store processes. Senitron's patent pending approach for reading large numbers of tags in dense populations, combined with multiplexing technology provides highly accurate item counts and location for store inventory, receiving and sales processes. Reliance on inaccurate periodic inventory accounting and manual RFID and barcode readers is greatly reduced and may even be eliminated. </h3>
+
+            <h3>UI/UX - HTML & CSS (w/ SASS) in Ruby/Rails framework - PostgreSQL- Foundation - Git</h3>
+            
+            <h5>Senitron designs both the hardware and software to read RFID tags in dense fields (100,000+ tags) and manage inventory with close to 100% accuracy in real time.  Below are screenshots of the web applications developed for pilot programs of early adopter companies like American Apparel, Verizon, and Intuitive Surgical. </h5>
+
+            <h5><a href="http://www.senitron.net" target="_blank">Senitron</a> Corporation is the RFID solutions firm providing continuous real-time inventory and item level tracking solutions for automated retail store processes. Senitron's approach for reading large numbers of tags in dense populations, combined with multiplexing technology provides highly accurate item counts and location for store inventory, receiving and sales processes. Reliance on inaccurate periodic inventory accounting and manual RFID and barcode readers is greatly reduced and may even be eliminated. </h5>
+        
         </div>
 
-            <div><img src="img/senitron1.png"></div>
-            <div><img src="img/senitron_aa.png"></div>
-            <!--
-            <div><img src="img/senitron_intuitive.png"></div> -->
+        <div>
+            <div class="images-container">
+                <img class="normal" src="img/web_sen_vzn.jpg">
+                <img class="hover" src="img/web_sen_vzn_2.jpg">
+            </div>
+        </div>
+
+        <div><img src="img/senitron_aa.png"></div>
+        <div><img src="img/web_sen_int.jpg"></div>
 
         <div class="textBox">
             <h3>Screenshots of inventory application used at American Apparel Melrose store (above) and promotional Senitron video (below).</h3>
@@ -125,15 +120,16 @@ $("iframe").each(function(){
         </div>
 
         <img src="img/web_dtekChip.jpg">
-        <img src="img/design_dtek2.jpg">
-        <img src="img/web_covisus.jpg">
-        
+            <div><img src="img/design_dtek2.jpg"></div>
+            <div><img src="img/web_covisus.jpg"></div>
+            <div><img src="img/design_dtek1.jpg"></div>
+            <div><img src="img/web_dtekApp1.jpg"></div>
+
         <div class="video-container img">
             <iframe src="http://www.youtube.com/embed/aJkNcyJE7ww?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <img src="img/design_dtek1.jpg">
-        <img src="img/web_dtekApp1.jpg">
+
         <!--
         <img src="img/web_dtekApp2.jpg")>
         -->
@@ -146,7 +142,7 @@ $("iframe").each(function(){
 
         <h2>2013</h2>
 
-        <div id="slideshow">
+        <div id="slideshow3">
             <div><img src="img/print_style0.jpg"></div>
             <div><img src="img/print_style1.jpg"></div>
             <div><img src="img/print_style2.jpg"></div>
@@ -158,13 +154,13 @@ $("iframe").each(function(){
 
         <h2>2012</h2>
 
-        <img src="img/print_fedor.jpg")
-        <img src="img/print_strikeforce.jpg">
-        <img src="img/web_metamma.jpg">
-        <img src="img/web_absolut2.jpg">
-        <img src="img/design_desk.jpg">
-        <img src="img/design_hgtv2.jpg">
-        <img src="img/design_hgtv1.jpg">
+            <div><img src="img/print_fedor.jpg"></div>
+            <div><img src="img/print_strikeforce.jpg"></div>
+            <div><img src="img/web_metamma.jpg"></div>
+            <div><img src="img/web_absolut2.jpg"></div>
+            <div><img src="img/design_desk.jpg"></div>
+            <div><img src="img/design_hgtv2.jpg"></div>
+            <div><img src="img/design_hgtv1.jpg"></div>
 
 
 <div class="galleryBreak"></div>
@@ -172,16 +168,16 @@ $("iframe").each(function(){
 
         <h2>2011</h2>
 
-        <img src="img/web_rtgla.jpg">
-        <img src="img/print_electron.jpg">
-        <img src="img/web_cja2.jpg">
+            <div><img src="img/web_rtgla.jpg"></div>
+            <div><img src="img/print_electron.jpg"></div>
+            <div><img src="img/web_cja2.jpg"></div>
+
         <!--
         <img src="img/web_CL.jpg")>
         -->
        
 
 
-<div class="galleryBreak"></div>
 <!-- ------------------------ ARCHITECTURE ---------------------------- -->
 
         <h2>2010</h2>
@@ -190,14 +186,11 @@ $("iframe").each(function(){
             <H5>-Rem Koolhaas<h5>
         </div>
 
-        <img src="img/arch_thesis1.jpg">
-        <img src="img/arch_thesis3.png">
-        <img src="img/arch_thesis2.jpg">
-        <img src="img/arch_hudson0.jpg">
-        <img src="img/arch_hudson3.jpg">
-
-
-
+            <div><img src="img/arch_thesis1.jpg"></div>
+            <div><img src="img/arch_thesis3.png"></div>
+            <div><img src="img/arch_thesis2.jpg"></div>
+            <div><img src="img/arch_hudson0.jpg"></div>
+            <div><img src="img/arch_hudson3.jpg"></div>
 
     </div>
 </body>
@@ -211,13 +204,107 @@ $("iframe").each(function(){
 
     setInterval(function() { 
       $('#slideshow > div:first')
-        .fadeOut(2000)
+        .fadeOut(1000)
         .next()
-        .fadeIn(2000)
+        .fadeIn(1000)
         .end()
         .appendTo('#slideshow');
-    },  5000);
+    },  3000);
 });
 </script>
 
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow1 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow1 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow1');
+    },  3000);
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow2 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow2 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow2');
+    },  3000);
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow3 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow3 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow3');
+    },  3000);
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow4 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow4 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow4');
+    },  3000);
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow5 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow5 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow5');
+    },  3000);
+});
+
+<script>
+  $(document).ready(function(){
+
+  $("#slideshow6 > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow6 > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow6');
+    },  3000);
+});
+</script>
 </html>
