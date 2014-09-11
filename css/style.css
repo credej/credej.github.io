@@ -54,13 +54,13 @@ html {
 }
 
 a:link, a:visited {
-    color: #C9C9C9 !important;
+    color: black !important;
     text-decoration: none;
     font-weight: 600;
 }
 
 a:hover, a:active {
-    color: red !important;
+    color: black !important;
     text-decoration: none;
     font-weight: 600;
 }
@@ -150,10 +150,14 @@ h3 {
   margin:10px 0 !important;
   color:#232525;
 }
-
-h3:hover {
-  color:orange;
+* {
+  cursor: default;
 }
+a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
 
 h4 {
   color:red !important;
