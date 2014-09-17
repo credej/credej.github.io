@@ -1,6 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 
+@media only screen and (max-device-width: 480px) {
+h1 {font-size:300px;}
+  }
+}
+
 div.images-container {
     position: relative;
     width: 940px;
@@ -60,11 +65,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-<<<<<<< HEAD
     color: red !important;
-=======
-    color: black !important;
->>>>>>> dev
     text-decoration: none;
     font-weight: 600;
 }
@@ -132,7 +133,7 @@ h1 {
   font-family: Raleway, san-serif;
   font-size:35px !important;
   text-decoration:none;
-  margin-bottom:-20px !important;
+  margin-bottom:-20px;
 }
 
 h2 {
@@ -153,7 +154,6 @@ h3 {
   font-weight: 700px;
   margin:10px 0 !important;
   color:#232525;
-<<<<<<< HEAD
 }
 * {
   cursor: default;
@@ -163,21 +163,11 @@ a:hover {
   text-decoration: underline !important;
 }
 h3:hover {
-  cursor: default;
-=======
->>>>>>> dev
-}
-* {
-  cursor: default;
-}
-a:hover {
-  cursor: pointer;
-  text-decoration: underline !important;
-}
-
-
-h4 {
   color:red !important;
+  cursor: default;
+}
+
+h4 {  
   font-weight:200;
   font-family: Raleway, san-serif;
   font-weight: 700px;
