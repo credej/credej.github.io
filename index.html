@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
  <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/example.css">
@@ -18,57 +19,48 @@ $("iframe").each(function(){
     else $(this).attr('src',ifr_source+'?'+wmode);
 });
 </script>
-    <style>
-
-    #gallery {max-width: 900px; margin:0 auto;}
-    #gallery img {width:100%; margin:0 auto;}
-    </style>
-<style>
-    #slides {
-      display: none
-    }
+<style type="text/css">
 
     .container {
-      margin: 0 auto
+        width: 84%;
+        margin:0 auto;
+        max-width:1140px;
     }
-
-    /* For tablets & smart phones */
-    @media (max-width: 767px) {
-      body {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      .container {
-        width: auto
-      }
+    header {
+        width: 100%;
+        margin:0px auto;
     }
-
-    /* For smartphones */
-    @media (max-width: 480px) {
-      .container {
-        width: auto
-      }
+    h1 {
+        text-align: center;
+        color:#F7F7F7;
+        font: 45px/1 "Oswald";
+        text-transform: uppercase;
+        display: block;
+        text-shadow:#006EFF 0 0 6px;
+        margin: 5% auto 5%;
     }
-
-    /* For smaller displays like laptops */
-    @media (min-width: 768px) and (max-width: 979px) {
-      .container {
-        width: 724px
-      }
-    }
-
-    /* For larger displays */
-    @media (min-width: 1200px) {
-      .container {
-        width: 1170px
-      }
-    }
-  </style>
+</style>
 <body>
-    <div id="header"><h1>my work</h1></div>
-    <h4>
-        email me: <a href="mailto:credej@gmx.com">credej@gmx.com </a>
-    </h4>
+
+<!--
+    <div class="container">
+        <header>
+            <h1 id="fittext1">work sample</h1>
+        </header>    
+-->
+    <div class="container">
+        <header>
+            <h1 id="neon-tubing">WORK <span>&#x25BC</span></h1>
+        </header>
+    </div>
+
+        <div id="contact">
+            <h3 id="fittext2">email: <a href="mailto:credej@gmx.com">credej@gmx.com </a></h3>
+            <h3 id="fittext3">mobile: <a href="mailto:credej@gmx.com">213.220.4874</a></h3>
+            <h3 id="fittext3">skype: <a href="mailto:credej@gmx.com">credej</a></h3>
+        </div>
+    </div>
+
 
     <div id="gallery">
 
@@ -197,6 +189,14 @@ $("iframe").each(function(){
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script type="text/javascript">
+    $("#fittext1").fitText();
+    $("#fittext2").fitText(1.2);
+    $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+</script>
+
 <script>
   $(document).ready(function(){
 
@@ -307,4 +307,11 @@ $("iframe").each(function(){
     },  3000);
 });
 </script>
+
+    <script type="text/javascript">
+        $("#fittext1").fitText();
+        $("#fittext2").fitText(1.2);
+        $("#fittext3").fitText(1.1, { minFontSize: '20px', maxFontSize: '45px' });
+    </script>
+
 </html>
