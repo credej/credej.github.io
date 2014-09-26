@@ -2,24 +2,22 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 
 
-
-
 div.images-container {
     position: relative;
-    width: 940px;
-    height: 550px;
+    width: 900px;
+    height: 545px;
 }
 
 div.images-container > img {
-    width: 940px;
+    width: 900px;
     display: block;
     position: absolute;
     /* transitions */
-    -webkit-transition: all 1.4s ease;
-       -moz-transition: all 1.4s ease;
-        -ms-transition: all 1.4s ease;
-         -o-transition: all 1.4s ease;
-            transition: all 1.4s ease;
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+         -o-transition: all .4s ease;
+            transition: all .4s ease;
     
 }
 /* solution 2: css2 solution, hide/show elements by class */
@@ -57,57 +55,37 @@ html {
 }
 
 a:link, a:visited {
-    color: black !important;
+    color: #747575 !important;
     text-decoration: none;
     font-weight: 600;
 }
-
+a {
+  padding:5px;
+}
 a:hover, a:active {
-    color: red !important;
+    color: #fff !important;
+    background-color: #2E2E2E;
+    padding:5px;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #gallery {width:100%;}
 
-/* TEXT */
-.textBox {
-  padding:0 0 25px;
-}
-
-/* IMAGES */
-#gallery img, #gallery>.img {
--webkit-box-shadow: 2px 2px 16px 1px #454545;
-box-shadow: 2px 2px 16px 1px #454545;
-margin-bottom:30px !important;
-}
-
-/* YOUTUBE RESPONSIVE */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 
 .galleryBreak {
-  width:940px;
-  height:150px;
+  width:900px;
+  height:60px;
+  text-align: center;
+  color:#BABABA;
+  font-size:20px;
 }
 
 html {
-  border-top: 5px solid #fff;
+  border-top: 5px solid #2E2E2E;
   background: #6E6E6E;
   color: #333333;
 }
@@ -122,6 +100,7 @@ html, body {
   max-width:900px;
   margin:0 auto;
   padding:0;
+  height:500px;
 }
 
 h1 {
@@ -130,6 +109,7 @@ h1 {
   font-weight: 400;
   font-size:35px;
   text-decoration:none;
+  margin-top:15px !important;
   margin-bottom:15px !important;
 }
 
@@ -141,26 +121,19 @@ h2 {
   font-family: Oswald, san-serif;
   text-transform: uppercase;
   font-size:24px !important;
-  width:940px;
-
+  width:900px;
+  margin-bottom:2px;
 }
 
 h3 {
+  font-size:19px;
   font-weight:200;
   font-family: Raleway, san-serif;
-  font-weight: 700px;
-  margin:10px 0 !important;
-  color:#232525;
+  font-weight: 900px;
+  color:#1F1F1F;
+  margin:0 0 15px 0 !important;
 }
 * {
-  cursor: default;
-}
-a:hover {
-  cursor: pointer;
-  text-decoration: underline !important;
-}
-h3:hover {
-  color:red !important;
   cursor: default;
 }
 
@@ -372,90 +345,51 @@ a.control_next {
     .wrapper { max-width:100% !important; }
 
 
+
 #contact {
-  text-align: center;
-  width:100%;}
-
-
-
-
-@font-face {
-
-    font-family: 'Neon80sRegular';
-
-    src: url('/assets/fonts/neon-webfont.woff') format('woff'),
-
-         url('/assets/fonts/neon-webfont.ttf') format('truetype'),
-
-         url('/assets/fonts/neon-webfont.svg#Neon80sRegular') format('svg');
-
-    font-weight: normal;
-
-    font-style: normal;
-
+  float:left;
+  width:100%;
+  text-align: right;
+  font-weight:200;
+  font-family: Raleway, san-serif;
+  font-weight: 700px;
+  color:#232525;
+  margin:-20px 0 55px 0 !important; text-align:right !important;
 }
 
 
 
 
 
-h1 { 
-
-background: #000; background-image: radial-gradient(center, ellipse farthest-corner, rgba(0,0,0,0), rgba(0,0,0,1)), 
-
-url(/assets/images/black-brick-wall-texture.jpg);
-
-width: 768px; text-align: center; font-family: Neon80sRegular, Arial Narrow, sans-serif; color: #fee; width: 768px; padding: 2rem; text-transform: uppercase; font-size: 6rem; letter-spacing: 2rem;
-
-text-shadow: 0 0 30px rgba(255,0,84,0.6), 0 0 60px rgba(255,0,84,0.4), 0 0 100px rgba(255,0,84,0.2), 0 0 90px rgba(255,0,84,0.1); }
 
 
 
 
-
-h1#neon-tubing {
-
-padding: 6rem; text-align: center;
-
-color: rgba(255,200,200,0.8);
-
-font-family: Neon80s, sans-serif;
-
-font-size: 8rem; letter-spacing: 2rem;
-
-background-size: cover;
-
+/* TEXT */
+.textBox {
+  padding:0 0 25px;
 }
 
-
-
-@keyframes neonspark  {
-
-0% { text-shadow: none; }
-
-30% { text-shadow: 0 0 30px rgba(255,0,84,0.6); }
-
-60% { text-shadow: 0 0 30px rgba(255,0,84,0.6), 0 0 60px rgba(255,0,84,0.4); }
-
-80% { text-shadow: none; }
-
-100% { text-shadow: 0 0 30px rgba(255,0,84,0.6),
-
-0 0 60px rgba(255,0,84,0.4), 
-
-0 0 100px rgba(255,0,84,0.2), 
-
-0 0 90px rgba(255,0,84,0.1);  }
-
+/* IMAGES */
+#gallery img, #gallery>.img {
+-webkit-box-shadow: 2px 2px 11px 1px #6E6E6E;
+box-shadow: 2px 2px 11px 1px #6E6E6E;
+margin-bottom:30px !important;
 }
 
-
-
-h1#neon-tubing { animation: neonspark 1s 3s forwards; }
-
-h1#neon-tubing span { animation: neonspark 4s 3s infinite;  }
-
-
-
-
-
+/* YOUTUBE RESPONSIVE */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
