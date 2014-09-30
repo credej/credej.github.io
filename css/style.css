@@ -235,13 +235,6 @@ body {
 .navbar {
   overflow: hidden; }
 
-@media all and (max-width: 620px) {
-  h1 {
-    font-size: 60px !important;
-    line-height: 55px; }
-
-  h2 {
-    font-size: 30px !important; } }
 #gallery {
   max-width: 900px;
   margin: 0 auto; }
@@ -298,3 +291,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%; }
+
+@media all and (max-width: 620px) {
+  h2 {
+    font-size: 55px !important; } }
