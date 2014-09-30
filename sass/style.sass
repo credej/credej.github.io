@@ -2,6 +2,16 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600)
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron)
 
+
+/* IMAGES
+
+#gallery
+  img, > .img
+    -webkit-box-shadow: 2px 2px 11px 1px #6E6E6E
+    box-shadow: 2px 2px 11px 1px #6E6E6E
+    margin-bottom: 10px !important
+
+
 div
   &.images-container
     position: relative
@@ -43,7 +53,7 @@ div
 /* hover
 
 html
-  background: #fff
+  background: #fff !important
 
 a
   &:link, &:visited
@@ -62,10 +72,11 @@ a
 
 #gallery
   width: 100%
+  margin-bottom: 50px
 
 .galleryBreak
   width: 900px
-  height: 60px
+  height: 65px 
   text-align: center
   color: #BABABA
   font-size: 20px
@@ -250,6 +261,22 @@ body
   img
     width: 100%
     margin: 0 auto
+    float: left
+
+.columnHalf 
+  height: 1000px
+  width: 50%
+  float: left
+
+.marginRight
+  div
+    margin-right: 15px
+
+.columnHalf img
+  float: left !important
+  margin: 5px !important
+  width: 90%
+  margin-bottom: 5px !important
 
 #slides
   display: none
@@ -266,20 +293,13 @@ body
   color: #969696
   margin: -20px 0 55px 0 !important
   text-align: right !important
-  font-size: 25px
+  font-size: 22px
 
 /* TEXT
 
 .textBox
   padding: 0 0 25px
 
-/* IMAGES
-
-#gallery
-  img, > .img
-    -webkit-box-shadow: 2px 2px 11px 1px #6E6E6E
-    box-shadow: 2px 2px 11px 1px #6E6E6E
-    margin-bottom: 30px !important
 
 /* YOUTUBE RESPONSIVE
 
@@ -295,3 +315,4 @@ body
     left: 0
     width: 100%
     height: 100%
+
