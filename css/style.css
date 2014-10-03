@@ -3,9 +3,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
 /* IMAGES */
 #gallery img, #gallery > .img {
-  -webkit-box-shadow: 2px 2px 11px 1px #6E6E6E;
-  box-shadow: 2px 2px 11px 1px #6E6E6E;
-  margin-bottom: 10px !important; }
+  -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
+  box-shadow: 2px 1px 8px 1px #A8A8A8;
+  margin-bottom: 15px !important; }
 
 div.images-container {
   position: relative;
@@ -69,7 +69,7 @@ a {
   height: 65px;
   text-align: center;
   color: #BABABA;
-  font-size: 20px; }
+  font-size: 28px; }
 
 html {
   border-top: 5px solid #2E2E2E;
@@ -294,4 +294,5 @@ body {
 
 @media all and (max-width: 620px) {
   h2 {
-    font-size: 55px !important; } }
+    font-size: 55px !important;
+    display: none !important; } }
