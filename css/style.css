@@ -71,11 +71,10 @@ a {
   color: #BABABA;
   font-size: 28px; }
 
-.smallImg img {
-  width: 435px; }
-
-#openModal img {
-  width: 435px; }
+#openModal {
+  width: 100%; }
+  #openModal img {
+    width: 1000px !important; }
 
 html {
   border-top: 5px solid #2E2E2E;
@@ -321,32 +320,26 @@ body {
     opacity: 1;
     pointer-events: auto; }
   .modalDialog > div {
-    width: 400px;
+    width: 900px;
     position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(white, #999999);
-    background: -webkit-linear-gradient(white, #999999);
-    background: -o-linear-gradient(white, #999999); }
+    margin: 0 auto;
+    padding: 5px 20px 13px 20px; }
+  .modalDialog h2 {
+    color: white;
+    border-bottom: 1px dashed #545454; }
+  .modalDialog h3 {
+    color: white; }
 
 .close {
   background: #606061;
   color: #FFFFFF;
-  line-height: 25px;
+  line-height: 22px;
   position: absolute;
-  right: -12px;
+  right: 20px;
+  top: 30px;
   text-align: center;
-  top: -10px;
   width: 24px;
-  text-decoration: none;
-  font-weight: bold;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-  -moz-box-shadow: 1px 1px 3px #000;
-  -webkit-box-shadow: 1px 1px 3px #000;
-  box-shadow: 1px 1px 3px #000; }
+  font-weight: bold; }
   .close:hover {
-    background: #00d9ff; }
+    background: red;
+    padding: 3px; }
