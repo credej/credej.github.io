@@ -330,7 +330,6 @@ body {
     color: white; }
 
 .close {
-  background: #606061;
   color: #FFFFFF;
   line-height: 22px;
   position: absolute;
@@ -341,4 +340,5 @@ body {
   font-weight: bold; }
   .close:hover {
     background: red;
-    padding: 3px; }
+    padding: 3px;
+    margin-top: 2px; }
