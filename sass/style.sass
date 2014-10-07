@@ -54,20 +54,6 @@ div
 html
   background: #fff !important
 
-a
-  &:link, &:visited
-    color: #747575 !important
-    text-decoration: none
-    font-weight: 600
-  padding: 5px 3px 3px
-  margin-left: -3px
-  &:hover, &:active
-    color: #fff !important
-    background-color: #2E2E2E
-    padding: 5px 8px
-    text-decoration: none
-    font-weight: 600
-    cursor: pointer
 
 #gallery
   width: 100%
@@ -86,7 +72,7 @@ a
     width: 1000px !important
 
 html
-  border-top: 5px solid #2E2E2E
+  border-top: 5px solid #636363
   background: #6E6E6E
   color: #333333
   margin: 0
@@ -287,16 +273,17 @@ body
   text-align: right
   font-family: Raleway, san-serif
   font-weight: 700px
-  color: #969696
-  margin: -20px 0 55px 0 !important
+  a
+    color: #292929 
+  color: #636363 
+  margin: -28px 0 55px 0 !important
   text-align: right !important
-  font-size: 22px
+  font-size: 20px
 
 /* TEXT
 
 .textBox
   padding: 0 0 25px 
-
 
 /* YOUTUBE RESPONSIVE
 
@@ -338,7 +325,7 @@ body
     opacity: 1
     pointer-events: auto
   > div
-    width: 900px
+    width: 875px
     position: relative
     margin: 0 auto
     padding: 5px 20px 13px 20px
@@ -349,7 +336,7 @@ body
     color: white
 
 .close
-  color: #FFFFFF
+  color: #FFFFFF !important
   line-height: 22px
   position: absolute
   right: 20px
@@ -357,7 +344,30 @@ body
   text-align: center
   width: 24px
   font-weight: bold
+  background: red
   &:hover
-    background: red
+    color: red !important
+    background: #333333
     padding: 3px
     margin-top: 2px
+
+
+
+a
+  &:link, &:visited
+    color: #000 !important
+    text-decoration: none
+    font-weight: 600
+  padding: 5px 3px 3px
+  margin-left: -3px
+  &:hover, &:active
+    color: #fff !important
+    background-color: black
+    padding: 5px 8px
+    text-decoration: none
+    font-weight: 600
+    cursor: pointer !important
+
+.columnHalf
+  &:hover  
+    cursor: default
