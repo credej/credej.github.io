@@ -9,8 +9,7 @@
 
 div.images-container {
   position: relative;
-  width: 900px;
-  height: 800px !important; }
+  width: 900px; }
   div.images-container > img {
     width: 900px;
     display: block;
