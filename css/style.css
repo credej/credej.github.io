@@ -1,7 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
-/* IMAGES */
+#contact {
+  letter-spacing: 3px;
+  margin-top: -15px !important;
+  z-index: 5000;
+  background: white;
+  position: fixed;
+  float: left;
+  width: 100%;
+  padding: 20px 0 15px;
+  border-bottom: 1px solid #D1D1D1;
+  -webkit-box-shadow: 0px 5px 25px 2px #ececec;
+  box-shadow: 0px 5px 25px 2px #ececec;
+  text-align: center;
+  font-family: Quicksand, Oswald, Raleway, san-serif;
+  font-weight: 700px;
+  color: #7D7D7D;
+  font-size: 20px; }
+  #contact a {
+    word-spacing: 100%;
+    color: #7D7D7D !important; }
+    #contact a:hover, #contact a:active {
+      color: #45C1FF !important; }
+
 #gallery img, #gallery > .img {
   -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
   box-shadow: 2px 1px 8px 1px #A8A8A8;
@@ -44,24 +66,16 @@ div:hover > img.hover {
 html {
   background: #fff !important; }
 
-#gallery {
-  width: 100%;
-  margin-bottom: 50px; }
-
-.galleryBreak {
-  width: 900px;
-  height: 65px;
-  text-align: center;
-  color: #BABABA;
-  font-size: 28px; }
-
 #openModal {
   width: 100%; }
+  #openModal div {
+    max-width: 900px;
+    margin: 0 auto; }
   #openModal img {
-    width: 1000px !important; }
+    max-width: 900px;
+    min-height: 100%; }
 
 html {
-  border-top: 5px solid #636363;
   background: #6E6E6E;
   color: #333333;
   margin: 0;
@@ -226,19 +240,33 @@ body {
 
 #gallery {
   max-width: 900px;
-  margin: 0 auto; }
+  margin: 150px auto 0;
+  width: 100%;
+  margin-bottom: 50px; }
   #gallery img {
     width: 100%;
     margin: 0 auto;
     float: left; }
 
-.columnHalf {
+.galleryBreak {
+  width: 900px;
+  height: 65px;
+  text-align: center;
+  color: #BABABA;
+  font-size: 28px; }
+
+.columnHalfLeft {
   height: 1000px;
-  width: 50%;
+  width: 49%;
+  float: left; }
+
+.columnHalfRight {
+  height: 1000px;
+  width: 49%;
   float: left; }
 
 .marginRight div {
-  margin-right: 15px; }
+  margin-right: 3%; }
 
 .columnHalf img {
   float: left !important;
@@ -252,20 +280,6 @@ body {
 .container {
   margin: 0 auto; }
 
-#contact {
-  float: left;
-  width: 100%;
-  text-align: right;
-  font-family: Raleway, san-serif;
-  font-weight: 700px;
-  color: #636363;
-  margin: -28px 0 55px 0 !important;
-  text-align: right !important;
-  font-size: 20px; }
-  #contact a {
-    color: #292929; }
-
-/* TEXT */
 .textBox {
   padding: 0 0 25px; }
 
@@ -283,10 +297,6 @@ body {
     width: 100%;
     height: 100%; }
 
-@media all and (max-width: 620px) {
-  h2 {
-    font-size: 55px !important;
-    display: none !important; } }
 /* MODAL */
 .modalDialog {
   position: fixed;
@@ -301,12 +311,13 @@ body {
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
-  pointer-events: none; }
+  pointer-events: none;
+  margin: 0 auto; }
   .modalDialog:target {
+    margin: 0 auto;
     opacity: 1;
     pointer-events: auto; }
   .modalDialog > div {
-    width: 875px;
     position: relative;
     margin: 0 auto;
     padding: 5px 20px 13px 20px; }
@@ -315,6 +326,9 @@ body {
     border-bottom: 1px dashed #545454; }
   .modalDialog h3 {
     color: white; }
+  .modalDialog img {
+    display: block;
+    margin: auto; }
 
 .close {
   color: #FFFFFF !important;
@@ -340,12 +354,17 @@ a {
     text-decoration: none;
     font-weight: 600; }
   a:hover, a:active {
-    color: #fff !important;
-    background-color: black;
-    padding: 5px 8px;
+    color: #45C1FF !important;
     text-decoration: none;
     font-weight: 600;
     cursor: pointer !important; }
 
 .columnHalf:hover {
   cursor: default; }
+
+@media all and (max-width: 620px) {
+  h2 {
+    font-size: 25px !important; } }
+@media all and (max-width: 620px) {
+  h2 {
+    font-size: 25px !important; } }
