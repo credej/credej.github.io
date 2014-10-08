@@ -4,7 +4,7 @@
 
 
 #contact
-  letter-spacing: 1.5px
+  letter-spacing: .5px
   margin-top: -15px !important
   z-index: 5000
   background: black
@@ -12,8 +12,8 @@
   float: left
   width: 100%
   padding: 20px 0 15px
-  -webkit-box-shadow: 0px 3px 15px 2px gray
-  box-shadow: 0px 3px 15px 2px gray
+  -webkit-box-shadow: 0px 3px 15px 2px #454545
+  box-shadow: 0px 3px 15px 2px #454545
   text-align: center
   font-family: Raleway, Quicksand, Oswald,Raleway, san-serif
   font-weight: 700px 
@@ -22,8 +22,24 @@
   a
     word-spacing: 100% 
     color: #ececec !important
-    &:hover, &:active
-      color: #45C1FF !important
+
+
+#gallery
+  max-width: 900px
+  margin: 90px auto 0
+  img
+    width: 100%
+    margin: 0 auto
+    float: left
+  width: 100%
+  margin-bottom: 50px
+
+.galleryBreak
+  width: 900px
+  height: 65px 
+  text-align: center
+  color: #BABABA
+  font-size: 28px
 
 #gallery
   img, > .img
@@ -114,21 +130,23 @@ h2
   color: #9E9E9E
   text-align: left
   font-weight: 700
-  border-bottom: 1px dashed #B5B5B5
   font-family: Hammersmith One, Quicksand, Oswald, san-serif !important
   letter-spacing: -2px !important
   text-transform: uppercase
   font-size: 28px !important
   width: 900px
-  margin-bottom: 2px
+  margin-bottom: 4px
+  line-height: 30px
 
 h3
+  text-transform: uppercase
   font-size: 19px
   font-weight: 200
   font-family: Raleway, san-serif
   font-weight: 900px
   color: #1F1F1F
   margin: 0 0 15px 0 !important
+  line-height: 22px
 
 *
   cursor: default
@@ -249,23 +267,6 @@ body
 .navbar
   overflow: hidden
 
-#gallery
-  max-width: 900px
-  margin: 120px auto 0
-  img
-    width: 100%
-    margin: 0 auto
-    float: left
-  width: 100%
-  margin-bottom: 50px
-
-.galleryBreak
-  width: 900px
-  height: 65px 
-  text-align: center
-  color: #BABABA
-  font-size: 28px
-
 .columnHalfLeft 
   height: 1000px
   width: 49%
@@ -357,23 +358,28 @@ body
   background: red
   &:hover
     color: red !important
-    background: #333333
     padding: 3px
     margin-top: 2px
 
 
 a
+  padding: 5px 3px 3px
+  margin-left: -3px
   &:link, &:visited
     color: #000 !important
     text-decoration: none
     font-weight: 600
-  padding: 5px 3px 3px
-  margin-left: -3px
   &:hover, &:active
-    color: #45C1FF !important
     text-decoration: none
     font-weight: 600
     cursor: pointer !important
+    // Firefox
+    color: white !important
+    background: red
+    // Chrome, Safari?
+    background: -webkit-linear-gradient(#fff, #424242)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 
 .columnHalf
   &:hover  
