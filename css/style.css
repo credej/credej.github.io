@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
+/* ADD VARIABLES */
 #contact {
   margin-top: -15px !important;
   z-index: 5000;
@@ -46,6 +47,7 @@ div.images-container {
   position: relative;
   width: 900px; }
   div.images-container > img {
+    cursor: pointer !important;
     width: 900px;
     display: block;
     position: absolute;
@@ -320,8 +322,7 @@ body {
     margin: 0 auto;
     padding: 5px 20px 13px 20px; }
   .modalDialog h2 {
-    color: white;
-    border-bottom: 1px dashed #545454; }
+    color: white; }
   .modalDialog h3 {
     color: white; }
   .modalDialog img {
