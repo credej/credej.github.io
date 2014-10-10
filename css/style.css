@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
 #contact {
-  letter-spacing: 0.5px;
   margin-top: -15px !important;
   z-index: 5000;
   background: black;
@@ -18,12 +17,11 @@
   color: #E0E0E0;
   font-size: 20px; }
   #contact a {
-    word-spacing: 100%;
     color: #ececec !important; }
 
 #gallery {
   max-width: 900px;
-  margin: 90px auto 0;
+  margin: 100px auto 0;
   width: 100%;
   margin-bottom: 50px; }
   #gallery img {
@@ -44,6 +42,7 @@
   margin-bottom: 15px !important; }
 
 div.images-container {
+  clear: both;
   position: relative;
   width: 900px; }
   div.images-container > img {
@@ -144,8 +143,9 @@ h4 {
   font-weight: 200;
   font-family: Raleway, san-serif;
   font-weight: 700px;
-  padding-bottom: 15px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important; }
 
 h5 {
   color: #353838;
@@ -365,5 +365,21 @@ a {
 
 @media all and (max-width: 820px) {
   h2 {
-    font-size: 45px !important;
-    display: none !important; } }
+    font-size: 45px !important; } }
+.arrow-up {
+  display: inline-block;
+  width: 0;
+  height: 20px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid black;
+  margin-bottom: 2px; }
+
+.arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 20px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid black;
+  margin-bottom: -18px; }

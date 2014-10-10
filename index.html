@@ -22,9 +22,9 @@
 
     <div id="gallery">
 
-        <h2>2014 &nbsp; <span style="color:#4A4A4A;"> <a href="http://www.senitron.net" target="_blank">Senitron</a> RFID Inventory Tracking</span></h2>
+        <h2><span style="color:#4A4A4A;"> <a href="http://www.senitron.net" target="_blank">Senitron</a> RFID Inventory Tracking</span></h2>
 
-        <h3>UI/UX (HTML, SCSS, & jQuery) in Ruby/Rails framework - PostgreSQL - Foundation framework </h3>
+        <h3>UI/UX (HTML, SCSS, & jQuery) in Ruby/Rails framework - PostgreSQL - Foundation</h3>
 
         <div class="textBox">
             <h5>Senitron is a leading developer of Radio Frequency IDentification hardware and software with a focus on inventory visibility and tracking.  They provide continuous real-time monitoring of RFID tags (attached to inventory items) in dense populations (100,000+ tags). Using a network of RFID readers and antennas, tagged inventory is tracked with close to 100% accuracy in real time. Below are screenshots of the web applications developed for pilot programs of early adopter companies.</h5>
@@ -36,14 +36,16 @@
             <img class="hover" src="img/senitron_app_retail_popup.png">
         </div>
 
+        <div style="text-align:center; margin-top:-10px;">
+            <h5><div class="arrow-up"></div> (hover or tap to view more) <div class="arrow-down"></div></h5>
+        </div>
+
         <img src="img/web_sen_int.jpg" title="Intuitive Surgical First-In-First-Out Inventory Applictation">
         <img src="img/web_sen_int_2.jpg" title="Intuitive Surgical First-In-First-Out Inventory Applictation">
 
         <div class="textBox">
             <h5>Intuitive   Surgical produces robotic-assisted surgery equipment. Their warehouses store inventory using the "first in, first out" method of organization. The grid shown in the UI above is representative of the warehouse floor. As equipment is removed for shipment or misplaced from a shelf location, duration and other key metrics are tracked in real time. It is also possible for users to choose a shelf of interest to see what inventory is currently stocked.</h5>
         </div>
-
-        <img src="img/senitron_app_Kohls.png" title="Intuitive Surgical First-In-First-Out Inventory Applictation">
 
         <img src="img/senitron_aa.png">
 
@@ -54,26 +56,27 @@
 
 <div class="galleryBreak">+</div>
 
-        <h2>2013 &nbsp;<span style="color:#4A4A4A;"> <a href="http://www.senitron.net" target="_blank">Covisus</a> Quantitative Optical Analysis</span></h2>
-        <h3>3D Design & Development - UI/UX - HTML, CSS, & jQuery in Ruby/Rails framework - Bootstrap framework</h3>
+        <h2><span style="color:#4A4A4A;"> <a href="http://www.senitron.net" target="_blank">Covisus</a> Quantitative Optical Analysis</span></h2>
+        <h3>3D Design & Development - UI/UX - HTML, CSS, & jQuery - Bootstrap </h3>
 
         <div class="textBox">
             <h5>Covisus, through its proprietary DTEK technology, can track and determine conformance of physical items to original manufacturing condition without the use of external tags. Material surfaces have a randomized structure at the micrometer and nanometer scale. Like a fingerprint, an iris scan, or a snow flake, these patterns are unique and intrinsic to each individual item and cannot be predicted or replicated</h5>
             <a href="http://www.covisus.com" target="_blank">Visit website...</a>
         </div>
-
-        <div><img src="img/design_dtek2.jpg"></div>
+        
         <div><img src="img/web_dtekChip_2.jpg"></div>
         <div><img src="img/web_dtekApp_3.jpg"></div> 
- 
-        <!-- <div><img src="img/web_dtekApp1.jpg"></div> -->
-        <div><img src="img/design_dtek1.jpg"></div>
-        
+
+        <div class="images-container" style="height:465px;">
+            <img class="normal" src="img/design_dtek1.jpg">
+            <img class="hover" src="img/design_dtek2.jpg">
+        </div>
+
            <!-- <img src="img/design_dtek.jpg"> -->
 
 &nbsp;<div class="galleryBreak">+</div>
         
-        <h2>2013 &nbsp;<span style="color:#4A4A4A;"> <a href="http://www.chromologic.com" target="_blank">Chromologic LLC</a> Style Guideline, Website, & SEO</span></h2>
+        <h2><span style="color:#4A4A4A;"> <a href="http://www.chromologic.com" target="_blank">Chromologic LLC</a> Style Guideline, Website, & SEO</span></h2>
         <h3>Wordpress - SEO </h3>
 
         <div class="textBox">
@@ -81,18 +84,16 @@
             <a href="http://www.chromologic.com" target="_blank">Visit website...</a>
         </div>
 
+        <div><img src="img/print_style0.jpg"></div>
+
         <div class="images-container" style="height:603px;">
             <img class="normal" src="img/print_style1.jpg">
             <img class="hover" src="img/print_style2.jpg">
         </div>
 
-        <div>
-            <img src="img/print_style0.jpg">
-        </div>
-
 &nbsp;<div class="galleryBreak">+</div>
 
-        <h2>2011-2012 &nbsp;<span style="color:#4A4A4A;"></a>Other Projects</span></h2>
+        <h2><span style="color:#4A4A4A;"></a>Misc. Projects</span></h2>
         <h3>Graphic, Web, Product, Furniture, Architectural, and Conceptual Designs</h3>
 
 
@@ -171,9 +172,17 @@
                 return $(window).width() + ' (' + $(document).width() + ') x ' + $(window).height() + ' (' + $(document).height() + ')';
             }
             $("#"+MEASUREMENTS_ID).text(getDimensions());
-            $(window).on("resize", function(){
+            $(window.on("resize", function(){
                 $("#"+MEASUREMENTS_ID).text(getDimensions());
             });
         });
     </script>
+    <!--
+    <script>
+        $( "img" ).click(function( event ) {
+            event.preventDefault();
+            $( this ).hide("slow");
+        });
+    </script>
+    -->
 </html>
