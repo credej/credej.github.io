@@ -89,19 +89,7 @@ div
 /* hover
 
 html
-  background: #fff !important
-
-#openModal
-  width: 100%
-  div
-    max-width: 900px
-    margin: 0 auto
-  img
-    max-width: 900px
-
-
-html
-  background: #6E6E6E
+  background: #fff
   color: #333333
   margin: 0
   padding: 0
@@ -129,14 +117,13 @@ h1
 
 h2
   color: #9E9E9E
-  text-align: left
   font-weight: 700
   font-family: Hammersmith One, Quicksand, Oswald, san-serif !important
   letter-spacing: -2px !important
   text-transform: uppercase
   font-size: 28px !important
   width: 900px
-  margin-bottom: 4px
+  margin-bottom: 0
   line-height: 30px
 
 h3
@@ -161,11 +148,12 @@ h4
   padding: 0 !important
 
 h5
-  color: #353838
+  color: #000
   font-family: Raleway, san-serif
   font-weight: 500
   margin: 0 0 10px 0
   font-size: 16px !important
+  letter-spacing: -0.5x
 
 #slider
   position: relative
@@ -260,15 +248,6 @@ body
           background-position: 0 -13px
         background-position: 0 -26px
 
-#slides a
-  &:link, &:visited
-    color: #333333
-  &:hover, &:active
-    color: #9e2020
-
-.navbar
-  overflow: hidden
-
 .columnHalfLeft 
   height: 1000px
   width: 49%
@@ -346,9 +325,16 @@ body
   img
     display: block
     margin: auto
+  width: 100%
+  div
+    max-width: 900px
+    margin: 0 auto
+  img
+    max-width: 900px
+    -webkit-box-shadow: 0px 3px 25px 2px black !important
+    box-shadow: 0px 3px 25px 2px black !important
 
-.close
-  color: #FFFFFF !important
+.close 
   line-height: 22px
   position: absolute
   right: 20px
@@ -358,7 +344,7 @@ body
   font-weight: bold
   background: red
   &:hover
-    color: red !important
+    color: white !important
     padding: 3px
     margin-top: 2px
 
@@ -386,6 +372,7 @@ a
   &:hover  
     cursor: default
 
+
 @media all and (max-width: 820px)
   h2
     font-size: 45px !important
@@ -407,3 +394,10 @@ a
   border-right: 6px solid transparent
   border-top: 6px solid black
   margin-bottom: -18px
+
+#otherProjects
+  text-align: center !important
+
+#close
+  img:hover
+    display: none !important
