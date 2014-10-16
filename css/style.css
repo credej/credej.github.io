@@ -205,37 +205,6 @@ body {
   color: #232525;
   padding-top: 10px; }
 
-#slides {
-  display: none; }
-  #slides .slidesjs-navigation {
-    margin-top: 3px; }
-  #slides .slidesjs-previous, #slides .slidesjs-next {
-    margin-right: 5px;
-    float: left; }
-
-.slidesjs-pagination {
-  margin: 6px 0 0;
-  float: right;
-  list-style: none; }
-  .slidesjs-pagination li {
-    float: left;
-    margin: 0 1px; }
-    .slidesjs-pagination li a {
-      display: block;
-      width: 13px;
-      height: 0;
-      padding-top: 13px;
-      background-image: url(img/pagination.png);
-      background-position: 0 0;
-      float: left;
-      overflow: hidden; }
-      .slidesjs-pagination li a.active {
-        background-position: 0 -13px; }
-      .slidesjs-pagination li a:hover {
-        background-position: 0 -26px; }
-        .slidesjs-pagination li a:hover.active {
-          background-position: 0 -13px; }
-
 .columnHalfLeft {
   height: 1000px;
   width: 49%;
@@ -343,8 +312,7 @@ a {
     text-decoration: none;
     font-weight: 600;
     cursor: pointer !important;
-    color: white !important;
-    background: red;
+    color: red !important;
     background: -webkit-linear-gradient(#fff, #424242);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
@@ -355,13 +323,24 @@ a {
 @media all and (max-width: 820px) {
   h2 {
     font-size: 45px !important; } }
+#otherProjects {
+  text-align: center !important; }
+
+#close img:hover {
+  display: none !important; }
+
+.note {
+  text-align: center; }
+  .note h5 {
+    color: gray !important; }
+
 .arrow-up {
   display: inline-block;
   width: 0;
   height: 20px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid black;
+  border-bottom: 6px solid gray;
   margin-bottom: 2px; }
 
 .arrow-down {
@@ -370,11 +349,5 @@ a {
   height: 20px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 6px solid black;
+  border-top: 6px solid gray;
   margin-bottom: -18px; }
-
-#otherProjects {
-  text-align: center !important; }
-
-#close img:hover {
-  display: none !important; }
