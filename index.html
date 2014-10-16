@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" >
     <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
 
     <div id="contact">
-            <a href="mailto:credej@gmx.com">credej@gmx.com </a>/&nbsp; 
-            <a href="img/Resume_JordanCrede.pdf" download="Resume_JordanCrede">resume </a>/&nbsp; 
+            <a href="mailto:credej@gmail.com">credej@gmail.com </a>/&nbsp; 
+            <a href="img/Resume_JordanCrede.pdf" download="Resume_JordanCrede">resume pdf</a>/&nbsp; 
             213.220.4874 
     </div>
 
@@ -24,7 +24,7 @@
         <h3>UI/UX (HTML, SCSS, & jQuery) in Ruby/Rails framework - PostgreSQL - Foundation</h3>
 
         <div class="textBox">
-            <h5>Senitron is a leading developer of Radio Frequency Identification hardware and software with a focus on inventory visibility and tracking.  They provide continuous real-time monitoring of RFID tags (attached to inventory items) in dense populations (100,000+ tags). Using a network of RFID tag-reading  antennas, tagged inventory is tracked with close to 100% accuracy in real time. </h5>
+            <h5>Senitron is a leading developer of radio frequency identification hardware and software with a focus on inventory visibility and tracking.  They provide continuous real-time monitoring of RFID tags (attached to inventory items) in dense populations (100,000+ tags). Using a network of RFID tag-reading  antennas, tagged inventory is tracked with close to 100% accuracy in real time. </h5>
             <a href="http://www.senitron.net" target="_blank">Visit website...</a>
         </div>
         <!--<img src="img/senitron_app_Kohls.png" title="Intuitive Surgical First-In-First-Out Inventory Applictation">-->
@@ -40,7 +40,6 @@
         <div class="note">
             <h5><div class="arrow-up"></div> (hover or tap some images to view more) <div class="arrow-down"></div></h5>
         </div>
-
 
         <img src="img/web_sen_int_blurred.jpg" title="Intuitive Surgical First-In-First-Out Inventory Applictation">
 
@@ -90,8 +89,8 @@
             <img class="normal" src="img/print_style1.jpg">
             <img class="hover" src="img/print_style2.jpg">
         </div>
-
-&nbsp;<div class="galleryBreak">+</div>
+    &nbsp;
+    <div class="galleryBreak">+</div>
         <div id="otherProjects">
             <h2><span style="color:#4A4A4A;"></a>Misc. Projects</span></h2>
 
@@ -117,32 +116,127 @@
                 </div>
             </div>
 
-            <div class="columnHalfLeft marginRight">
-                <div><a href="#openMeta"><img src="img/web_metamma.jpg" style='width:100%;' border="0" alt="Null"></a></div>
-                <div><a href="#openFedor"><img src="img/print_fedor.jpg" style='width:100%;' border="0" alt="Null"></a></div>
-
-                <div><img src="img/web_absolut2.jpg"></div>            
-                <div><img src="img/print_electron.jpg"></div>
-                <div><img src="img/web_cja2.jpg"></div>
-                <div><img src="img/web_CL.jpg")></div>
-                <div><img src="img/web_rtgla.jpg"></div>
+            <div id="openAbsolut" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Absolut Krusty</h2>
+                    <img src="img/web_absolut2.jpg">
+                </div>
             </div>
 
-            <div class="columnHalfRight">
-                <div><img src="img/arch_thesis1.jpg"></div>
-                <div><img src="img/arch_thesis3.jpg"></div>
-                <div><img src="img/arch_thesis2.jpg"></div>
-                <div><img src="img/design_hgtv1.jpg"></div>
-                <div><img src="img/design_hgtv2.jpg"></div>
-                <div><img src="img/design_desk.jpg"></div>
-                <div><img src="img/arch_hudson0.jpg"></div>
-                <div><img src="img/arch_hudson3.jpg"></div>
+            <div id="openElect" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Flying Electron Business Card</h2>
+                    <img src="img/print_electron.jpg">
+                </div>
+            </div>
 
+            <div id="openCJA" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Canizan Johnston & Associates Architects Website</h2>
+                    <img src="img/web_cja2.jpg">
+                </div>
+            </div>
+
+            <div id="openWebRTGLA" class="modalDialog">
+                <div>
+                    <a href="#close" class="close">X</a>
+                    <h2>RTGLA Website Header</h2>
+                    <img src="img/web_rtgla.jpg">
+                </div>
+            </div>
+
+            <div id="openThesis1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>72nd Avenue Subway Station</h2>
+                    <img src="img/arch_thesis1.jpg">
+                </div>
+            </div>
+
+            <div id="openThesis2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>72nd Avenue Subway Station</h2>
+                    <img src="img/arch_thesis2.jpg">
+                </div>
+            </div>
+
+            <div id="openThesis3" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>72nd Avenue Subway Station</h2>
+                    <img src="img/arch_thesis3.jpg">
+                </div>
+            </div>
+
+            <div id="openHGTV1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>HGTV Set Design</h2>
+                    <img src="img/design_hgtv1.jpg">
+                </div>
+            </div>
+
+            <div id="openHGTV2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>HGTV Set Design</h2>
+                    <img src="img/design_hgtv2.jpg">
+                </div>
+            </div>
+
+            <div id="openDesk" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Standing Desk</h2>
+                    <img src="img/design_desk.jpg">
+                </div>
+            </div>
+
+            <div id="openHudson1" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Hudson Square Highrise</h2>
+                    <img src="img/arch_hudson0.jpg">
+                </div>
+            </div>
+
+            <div id="openHudson2" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Hudson Square Highrise</h2>
+                    <img src="img/arch_hudson3.jpg">
+                </div>
+            </div>
+
+            <div id="columns">
+                <div class="columnHalfLeft marginRight">
+                    <div><a href="#openAbsolut"><img src="img/web_absolut2.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openDesk"><img src="img/design_desk.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openMeta"><img src="img/web_metamma.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openFedor"><img src="img/print_fedor.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openWebRTGLA"><img src="img/web_rtgla.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openCJA"><img src="img/web_cja2.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openElect"><img src="img/print_electron.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                </div>
+
+                <div class="columnHalfRight">
+                    <div><a href="#openThesis3"><img src="img/arch_thesis3.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openThesis1"><img src="img/arch_thesis1.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openThesis2"><img src="img/arch_thesis2.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openHGTV1"><img src="img/design_hgtv1.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openHGTV2"><img src="img/design_hgtv2.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openHudson1"><img src="img/arch_hudson0.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                    <div><a href="#openHudson2"><img src="img/arch_hudson3.jpg" style='width:100%;' border="0" alt="Null"></a></div>
+                </div>
             </div>
         </div>
     </div>
 </body>
-    <!-- NICE BIT OF CODE TO SHOW VIEWPORT SIZE -->
+    <!-- NICE BIT OF CODE TO SHOW VIEWPORT SIZE 
     <script>
         $(document).ready(function(){
             var MEASUREMENTS_ID = 'measurements'; // abstracted-out for convenience in renaming
@@ -166,4 +260,5 @@
             });
         });
     </script>
+    -->
 </html>
