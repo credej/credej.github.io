@@ -20,18 +20,7 @@
   #contact a {
     color: #ececec !important; }
 
-#gallery {
-  max-width: 900px;
-  margin: 100px auto 50px;
-  width: 100%; }
-  #gallery img {
-    width: 100%;
-    margin: 0 auto;
-    float: left; }
-  #gallery img, #gallery > .img {
-    -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
-    box-shadow: 2px 1px 8px 1px #A8A8A8;
-    margin-bottom: 15px !important; }
+
 
 .galleryBreak {
   width: 900px;
@@ -356,3 +345,20 @@ a {
 
 .modalImage > img {
   display: none !important; }
+
+#gallery {
+  max-width: 900px;
+  margin: 100px auto 50px;
+  width: 100%; }
+  #gallery img {
+    width: 100%;
+    margin: 0 auto;
+    float: left; }
+  #gallery img, #gallery > .img {
+    -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
+    box-shadow: 2px 1px 8px 1px #A8A8A8;
+    margin-bottom: 15px !important; }
+
+#columns img {
+  margin-bottom:0 !important;
+}
