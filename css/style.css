@@ -5,20 +5,22 @@
 #contact {
   margin-top: -15px !important;
   z-index: 5000;
-  background: black;
   position: fixed;
   float: left;
   width: 100%;
   padding: 20px 0 15px;
-  -webkit-box-shadow: 0px 3px 15px 2px #000;
-  box-shadow: 0px 3px 15px 2px #000;
+  -webkit-box-shadow: 3px 30px 15px 20px #fcfcfc;
+  box-shadow: 3px 30px 15px 20px #fcfcfc;
+  /*
+  color: #E0E0E0;
+  */
+  background: #fcfcfc;
   text-align: center;
   font-family: Raleway, Quicksand, Oswald, Raleway, san-serif;
   font-weight: 700px;
-  color: #E0E0E0;
   font-size: 20px; }
   #contact a {
-    color: #ececec !important; }
+    color: #000 !important; }
 
 
 
@@ -355,8 +357,8 @@ a {
     margin: 0 auto;
     float: left; }
   #gallery img, #gallery > .img {
-    -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
-    box-shadow: 2px 1px 8px 1px #A8A8A8;
+    -webkit-box-shadow: 2px 1px 8px 1px #D6D6D6;
+    box-shadow: 2px 1px 8px 1px #D6D6D6;
     margin-bottom: 15px !important; }
 
 #columns img {
