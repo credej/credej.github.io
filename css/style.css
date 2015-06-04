@@ -10,12 +10,12 @@
   float: left;
   width: 100%;
   padding: 20px 0 15px;
-  -webkit-box-shadow: 0 30px 40px 5px #fcfcfc;
-  box-shadow: 0 30px 40px 5px #fcfcfc;
+  -webkit-box-shadow: 0 30px 40px 5px #EDEDED;
+  box-shadow: 0 30px 40px 5px #EDEDED;
   /*
   color: #E0E0E0;
   */
-  background: #fcfcfc;
+  background: #EDEDED;
   text-align: center;
   font-family: Raleway, Quicksand, Oswald, Raleway, san-serif;
   font-weight: 700px;
