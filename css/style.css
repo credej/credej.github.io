@@ -380,10 +380,10 @@ a {
     font-size: 56px !important;
   }
   h5 {
-    line-height:20px;
+    line-height:20px !important;
   }
   h2 {
-    max-width:100%;
-    line-height:38px;
+    max-width:100% !important;
+    line-height:38px !important;
   }
 }
