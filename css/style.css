@@ -10,12 +10,12 @@
   float: left;
   width: 100%;
   padding: 20px 0 15px;
-  -webkit-box-shadow: 0 30px 40px 5px #F2F2F2;
-  box-shadow: 0 30px 40px 5px #F2F2F2;
+  -webkit-box-shadow: 0 30px 40px 5px #F5F5F5;
+  box-shadow: 0 30px 40px 5px #F5F5F5;
   /*
   color: #E0E0E0;
   */
-  background: #F2F2F2;
+  background: #F5F5F5;
   text-align: center;
   font-family: Raleway, Quicksand, Oswald, Raleway, san-serif;
   font-weight: 700px;
@@ -373,4 +373,10 @@ a {
   color:white;
   margin-bottom:18px !important;
   text-align:left !important;
+}
+
+@media all and (max-width: 699px) and (min-width: 20px) {
+  #contact {
+    font-size: 24px !important;
+  }
 }
