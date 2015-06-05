@@ -379,4 +379,11 @@ a {
   #contact {
     font-size: 56px !important;
   }
+  h5 {
+    line-height:20px;
+  }
+  h2 {
+    max-width:100%;
+    line-height:38px;
+  }
 }
