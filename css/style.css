@@ -2,28 +2,42 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
 /* ADD VARIABLES */
+
 #contact {
-  color: #828282;
   margin-top: -15px !important;
   z-index: 5000;
+  background: #F5F5F5;
   position: fixed;
   float: left;
   width: 100%;
   padding: 20px 0 15px;
-  -webkit-box-shadow: 0 30px 40px 5px #F5F5F5;
-  box-shadow: 0 30px 40px 5px #F5F5F5;
-  /*
-  color: #E0E0E0;
-  */
-  background: #F5F5F5;
+  -webkit-box-shadow: 0px 3px 15px 2px #000;
+  box-shadow: 0px 3px 15px 2px #000;
   text-align: center;
   font-family: Raleway, Quicksand, Oswald, Raleway, san-serif;
   font-weight: 700px;
+  color: gray;
   font-size: 20px; }
   #contact a {
-    color: #828282 !important; }
+    color: gray !important; }
+  #contact a:hover {
+    color: red !important; }
 
+#contact {
+  box-shadow: 0px 30px 30px 5px #F5F5F5; }
 
+#gallery {
+  max-width: 900px;
+  margin: 100px auto 50px;
+  width: 100%; }
+  #gallery img {
+    width: 100%;
+    margin: 0 auto;
+    float: left; }
+  #gallery img, #gallery > .img {
+    -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
+    box-shadow: 2px 1px 8px 1px #A8A8A8;
+    margin-bottom: 15px !important; }
 
 .galleryBreak {
   width: 900px;
@@ -47,7 +61,6 @@ div.images-container {
     -ms-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease; }
-
 div > img.normal {
   filter: alpha(opacity=100);
   /* IE stuff */
@@ -102,7 +115,6 @@ h2 {
   letter-spacing: -2px !important;
   text-transform: uppercase;
   font-size: 28px !important;
-  width: 900px;
   margin-bottom: 0;
   line-height: 30px; }
 
@@ -128,7 +140,7 @@ h4 {
   padding: 0 !important; }
 
 h5 {
-  color: #3D3D3D;
+  color: #000;
   font-family: Raleway, san-serif;
   font-weight: 500;
   margin: 0 0 10px 0;
@@ -325,7 +337,7 @@ a {
   height: 20px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid #ADADAD;
+  border-bottom: 6px solid gray;
   margin-bottom: 2px; }
 
 .arrow-down {
@@ -350,40 +362,12 @@ a {
 .modalImage > img {
   display: none !important; }
 
-#gallery {
-  max-width: 900px;
-  margin: 100px auto 50px;
-  width: 100%; }
-  #gallery img {
-    width: 100%;
-    margin: 0 auto;
-    float: left; }
-  #gallery img, #gallery > .img {
-    -webkit-box-shadow: 2px 1px 8px 1px #D6D6D6;
-    box-shadow: 2px 1px 8px 1px #D6D6D6;
-    margin-bottom: 15px !important; }
+/*# sourceMappingURL=style.css.map */
 
-#columns {
-  height:2550px;
-  margin-bottom:50px; }
-  #columns img {
-    margin-bottom:0 !important;}
-
-.modalDialog h4 {
-  color:white;
-  margin-bottom:18px !important;
-  text-align:left !important;
+@media only screen and (max-width : 600px) {
+  #contact {font-size:24px !important;}
+  #gallery {margin: 150px auto 50px !important; padding:15px;}
+  h3 {margin: 15px 0px 15px !important;}
+  #gallery>h2>span {line-height: 38px;}
 }
 
-@media all and (max-width: 699px) and (min-width: 20px) {
-  #contact {
-    font-size: 56px !important;
-  }
-  h5 {
-    line-height:20px !important;
-  }
-  h2 {
-    max-width:100% !important;
-    line-height:38px !important;
-  }
-}
