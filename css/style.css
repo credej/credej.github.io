@@ -127,7 +127,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-size: 19px;
-  font-weight: 200;
+  font-weight: 400;
   font-family: Raleway, sans-serif;
   font-weight: 900px;
   color: #1F1F1F;
@@ -393,7 +393,7 @@ a {
 
 h3 {color:#9E9E9E !important;}
 .note h5 {
-  color: #D6D6D6 !important;
+  color: #B5B5B5 !important;
   margin-bottom: 40px;
   font-style: italic;
 }
