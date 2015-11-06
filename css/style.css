@@ -46,6 +46,13 @@
   color: #BABABA;
   font-size: 28px; }
 
+.galleryBreak2 {
+  width: 900px;
+  height: 0;
+  text-align: center;
+  color: #BABABA;
+  font-size: 28px; }
+
 div.images-container {
   clear: both;
   position: relative;
