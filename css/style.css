@@ -26,15 +26,15 @@
 #contact {
   box-shadow: 0px 30px 30px 5px #F5F5F5; }
 
-#gallery {
+.gallery {
   max-width: 900px;
   margin: 100px auto 50px;
   width: 100%; }
-  #gallery img {
+  .gallery img {
     width: 100%;
     margin: 0 auto;
     float: left; }
-  #gallery img, #gallery > .img {
+  .gallery img, .gallery > .img {
     -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
     box-shadow: 2px 1px 8px 1px #A8A8A8;
     margin-bottom: 15px !important; }
@@ -109,7 +109,6 @@ h1 {
   margin-bottom: 15px !important; }
 
 h2 {
-  color: #9E9E9E;
   font-weight: 700;
   font-family: Hammersmith One, Quicksand, Oswald, san-serif !important;
   letter-spacing: -2px !important;
@@ -122,7 +121,7 @@ h3 {
   text-transform: uppercase;
   font-size: 19px;
   font-weight: 200;
-  font-family: Raleway, san-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 900px;
   color: #1F1F1F;
   margin: 0 0 15px 0 !important;
@@ -133,7 +132,7 @@ h3 {
 
 h4 {
   font-weight: 200;
-  font-family: Raleway, san-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700px;
   text-align: center;
   margin: 0 !important;
@@ -141,7 +140,7 @@ h4 {
 
 h5 {
   color: #000;
-  font-family: Raleway, san-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   margin: 0 0 10px 0;
   font-size: 16px !important;
@@ -204,12 +203,12 @@ a.control_next {
 body {
   -webkit-font-smoothing: antialiased;
   font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #232525;
   padding-top: 10px; }
 
 .marginRight div {
   margin-right: 3%; }
-
+.columnHalfRight img {margin-bottom: 15px;}
+.columnHalfLeft img {margin-bottom: 15px;}
 .columnHalf img {
   float: left !important;
   margin: 5px !important;
@@ -363,11 +362,31 @@ a {
   display: none !important; }
 
 /*# sourceMappingURL=style.css.map */
+  
 
-@media only screen and (max-width : 600px) {
-  #contact {font-size:24px !important;}
-  #gallery {margin: 150px auto 50px !important; padding:15px;}
-  h3 {margin: 15px 0px 15px !important;}
-  #gallery>h2>span {line-height: 38px;}
+
+@media (min-width:1px) and (max-width: 899px) {
+  h2 {font-size:36px !important;}
+  h3 {font-size:20px !important;}
+  .textBox h5 {font-size:16px !important;}
 }
 
+@media only screen and (max-width : 899px) {
+  #contact {font-size:24px !important;}
+  .gallery {margin: 150px auto 50px !important; padding:15px;}
+  h3 {margin: 15px 0px 15px !important;}
+  .gallery>h2>span {line-height: 38px;}
+  .images-container {display:none;}
+}
+
+
+@media all and (min-width: 900px) {
+  .imgNonRollover {display:none;}
+}
+
+h3 {color:#9E9E9E !important;}
+.note h5 {
+  color: #D6D6D6 !important;
+  margin-bottom: 40px;
+  font-style: italic;
+}
