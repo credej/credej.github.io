@@ -2,6 +2,60 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,200,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Hammersmith+One|Exo|Quicksand|Changa+One|Squada+One|Orbitron);
 /* ADD VARIABLES */
+body {
+  background: #222;
+  color: #eee;
+  margin-top: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+/* GALLERY STYLES */
+.pageCenter {
+  width: 900px;
+  margin: 0 auto;
+}
+.thumbnails {
+  float: right;
+  width: 80px;
+}
+.thumbnails img {
+  width: 100%;
+  height: auto;
+  margin: 0 10px 10px 0;
+  opacity:0.5;
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
+}
+.thumbnails img:hover {
+  cursor: pointer;
+  opacity:0.8;
+}
+.preview {
+  float: left;
+  width: 800px;
+}
+.preview img {
+  background-color:white;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.spacer {height:15px !important; clear:both; background-color:#F5F5F5;}
+.halfSpacer {height:25px !important; clear:both; background-color:#F5F5F5;}
+.gallery {clear:both;}
+
 
 #contact {
   margin-top: -15px !important;
@@ -10,7 +64,7 @@
   position: fixed;
   float: left;
   width: 100%;
-  padding: 20px 0 15px;
+  padding: 20px 0 0;
   -webkit-box-shadow: 0px 3px 15px 2px #000;
   box-shadow: 0px 3px 15px 2px #000;
   text-align: center;
@@ -33,26 +87,11 @@
   .gallery img {
     width: 100%;
     margin: 0 auto;
-    float: left; }
+    float: right; }
   .gallery img, .gallery > .img {
     -webkit-box-shadow: 2px 1px 8px 1px #A8A8A8;
     box-shadow: 2px 1px 8px 1px #A8A8A8;
     margin-bottom: 15px !important; }
-
-.galleryBreak {
-  width: 900px;
-  height: 65px;
-  text-align: center;
-  color: #BABABA;
-  font-size: 28px; }
-
-.galleryBreak2 {
-  width: 900px;
-  height: 0;
-  text-align: center;
-  color: #BABABA;
-  font-size: 28px; }
-
 div.images-container {
   clear: both;
   position: relative;
@@ -96,6 +135,7 @@ html {
   font-family: "Open Sans"; }
 
 body {
+  background-color:#F5F5F5;
   margin: 0;
   padding: 0;
   font-family: "Open Sans"; }
@@ -116,12 +156,14 @@ h1 {
   margin-bottom: 15px !important; }
 
 h2 {
+  color:#4A4A4A;
   font-weight: 700;
   font-family: Hammersmith One, Quicksand, Oswald, san-serif !important;
   letter-spacing: -2px !important;
   text-transform: uppercase;
   font-size: 28px !important;
   margin-bottom: 0;
+  margin-top:50px !important;
   line-height: 30px; }
 
 h3 {
@@ -138,20 +180,25 @@ h3 {
   cursor: default; }
 
 h4 {
-  font-weight: 200;
+  color: #000;
   font-family: Raleway, sans-serif;
-  font-weight: 700px;
-  text-align: center;
-  margin: 0 !important;
-  padding: 0 !important; }
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  font-size: 16px !important;
+  letter-spacing: -0.5x; 
+  line-height:22px;
+  text-align:justify;}
 
 h5 {
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 500;
-  margin: 0 0 10px 0;
+  margin: 0 0 40px 0;
   font-size: 16px !important;
-  letter-spacing: -0.5x; }
+  letter-spacing: -0.5x; 
+  line-height:22px;
+  text-align:justify;
+  }
 
 #slider {
   position: relative;
@@ -229,7 +276,7 @@ body {
   margin: 0 auto; }
 
 .textBox {
-  padding: 0 0 25px; }
+  padding: 0 0 5px; }
 
 /* YOUTUBE RESPONSIVE */
 .video-container {
@@ -402,3 +449,28 @@ h3 {color:#9E9E9E !important;}
   font-style: italic;
 }
 h2 {margin-bottom: 5px;}
+
+/*Some CSS*/
+* {margin: 0; padding: 0;}
+.magnify {width: 200px; margin: 50px auto; position: relative;}
+
+/*Lets create the magnifying glass*/
+.large {
+  width: 175px; height: 175px;
+  position: absolute;
+  border-radius: 100%;
+  
+  /*Multiple box shadows to achieve the glass effect*/
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+  0 0 7px 7px rgba(0, 0, 0, 0.25), 
+  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  
+  /*Lets load up the large image first*/
+  background: url('http://thecodeplayer.com/uploads/media/iphone.jpg') no-repeat;
+  
+  /*hide the glass by default*/
+  display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small { display: block; }
