@@ -1,0 +1,104 @@
+
+@mixin button-black
+	background-color: #000000
+	color: #ffffff
+	margin: 0 auto
+	padding: 15px 20px 
+@mixin h2
+	font-size: 18px 
+	margin: 0 0 20px 
+	color: #000000 
+	text-align: center 
+@mixin text-white
+	color: white 
+	font-family: Open Sans
+
+body
+	text-align: center 
+h1,h2,h3,h4,h5,p,.title,#mc-embedded-subscribe 
+	@include text-white
+
+#mc_embed_signup 
+	color: #fff !important 
+	padding: 20px 
+	text-align: center 
+	h2 
+		@include h2
+	input 
+		width: 200px 
+	.button 
+		@include button-black
+
+.home-signup
+	background: url("../img/bg-burger.jpg") no-repeat center center 
+	-webkit-background-size: cover 
+	-moz-background-size: cover 
+	-o-background-size: cover 
+	background-size: cover 
+	padding: 50px 0 50px
+.fas
+	margin: 20px 0
+.fdnm-text 
+	color: white 
+.greyed 
+	color: grey 
+	font-style: italic 
+	font-weight: 300 
+.landing-signup 
+	input 
+		border: 1px solid black 
+		border-radius: 6px 
+		font-size: 1.2em 
+		font-weight: 900 
+		width: 100% !important 
+		padding: 9px 0 
+		text-align: center 
+.logo 
+	padding: 50px 100px 
+	img 
+		width: 400px 
+		max-width: 100% 
+.page-footer 
+	text-align: left 
+	.col 
+		padding: 20px 100px 0 0
+.row
+	padding: 40px
+.signup-container 
+	color: #fff !important 
+	margin: 0 auto 
+	padding: 150px 150px !important
+	width: 80% 
+	border-radius: 6px 
+	text-shadow: -1px 3px 6px #878787 
+.signup-inner 
+	& > div 
+		padding: 8px 20px 
+.stat-section
+	padding: 40px 0 80px
+	background: #0f2027
+  	background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364)
+  	background: linear-gradient(to right, #0f2027, #203a43, #2c5364)
+  	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+	background: rgba(98,125,77,1);
+	background: -moz-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,125,77,1)), color-stop(100%, rgba(31,59,8,1)));
+	background: -webkit-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+	background: -o-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+	background: -ms-linear-gradient(left, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+	background: linear-gradient(to right, rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08', GradientType=1 );
+.stat-lg
+	font-family: Oswald
+	font-size: 4em
+	margin: 0 20px
+.stat-l
+	font-size: 1.2em
+	color: #ececec
+	margin: 0 20px
+.title 
+	margin: 0 auto 
+	width: 50% 
+
