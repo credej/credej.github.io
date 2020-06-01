@@ -33,6 +33,22 @@
 		"oAP": "/.htaccess",
 		"oF": 0
 		},
+	"/fonts/HKGrotesk-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/HKGrotesk-Regular.woff",
+		"oF": 0
+		},
+	"/fonts/Jost-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Jost-Regular.ttf",
+		"oF": 0
+		},
 	"/images/app-senitron-aa-1.jpg": {
 		"ft": 16384,
 		"iS": 104446,
@@ -204,7 +220,7 @@
 		"oAP": "/images/covisus-dtek-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/covisus-dtek-2.jpg": {
@@ -392,7 +408,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 611799247.84275496,
-	"displayValue": "credej.github.io new - backup",
+	"displayValue": "credej.github.io",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-unblue",
 	"iconImageWasSetByUser": 0
