@@ -101,7 +101,11 @@ body {
 
 @media(max-width: 600px) {
     .row {
-        padding: 0 var(--gutter-small);
+        padding: 0;
+    }
+    h2,
+    .header__text-box {
+        padding: 0 5rem;
     }
 }
 
