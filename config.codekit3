@@ -370,6 +370,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,

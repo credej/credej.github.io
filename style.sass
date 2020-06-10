@@ -70,18 +70,25 @@ body
 
 @media (max-width: 1240px)
   .row
-    padding: 0 var(--gutter-medium)
-
-@media (max-width: 600px)
-  .row
-    padding: 0 var(--gutter-normal)
+    padding: 0
 
 @media (max-width: 600px)
   .row
     padding: 0
 
-  h2, .header__text-box
+@media (max-width: 600px)
+
+  h2, 
+  .contact__info,
+  .about__content
     padding: 0 5rem
+
+  .header__text-box p
+    line-height: 3rem
+    padding: 1rem 4rem
+
+  .row
+    padding: 0
 
 section
   padding: var(--gutter-huge) 0
@@ -264,7 +271,7 @@ body:not(.user-is-tabbing)
 
 @media (max-width: 900px)
   .back-to-top
-    right: 2rem
+    right: 5rem
 
 @media (max-width: 500px)
   .back-to-top
@@ -277,7 +284,7 @@ body:not(.user-is-tabbing)
 .nav
   display: flex
   justify-content: flex-end
-  padding: var(--gutter-normal) 0
+  padding: 4rem
 
 .nav__items
   display: flex
@@ -355,9 +362,6 @@ body:not(.user-is-tabbing)
   .header
     text-align: center
 
-  .header__text p
-    transform: scale(0.8)
-
 /* ---------------------------------------
 /* ----- Work -----
 /* ---------------------------------------
@@ -380,12 +384,13 @@ body:not(.user-is-tabbing)
     margin-bottom: 5rem
 
 @media (max-width: 900px)
+  .work 
+    padding-top: 1.5em
   .work__box
-    padding: 5rem
+    margin-bottom: 0 !important
+    padding: 8rem 5rem
   .work__links
-    margin-bottom: 40px !important
-    padding-bottom: 50px 
-    display: none !important
+    padding-bottom: 20px 
 
 @media (min-width: 900px) and (max-width: 1280px)
   .work__box
