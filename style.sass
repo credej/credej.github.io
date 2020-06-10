@@ -76,16 +76,53 @@ body
   .row
     padding: 0
 
-@media (max-width: 600px)
+@media (max-width: 1240px)
 
   h2, 
+  .about__content,
   .contact__info,
-  .about__content
-    padding: 0 5rem
+  .header__text,
+  .work__boxes
+    padding: 0 5rem 
 
   .header__text-box p
     line-height: 3rem
-    padding: 1rem 4rem
+    padding: 1rem 0rem
+
+  .row
+    padding: 0
+
+@media (min-width: 600px) and (max-width: 900px)
+
+  h2, 
+  .about__content,
+  .contact__info,
+  .header__text,
+  .work__boxes
+    padding: 0 5rem 
+
+  .header__text-box p
+    line-height: 3rem
+    padding: 1rem 0rem
+
+  .row
+    padding: 0
+
+  .about__photo-container img
+    max-width: 50%
+
+@media (max-width: 600px)
+
+  h2, 
+  .about__content,
+  .contact__info,
+  .header__text,
+  .work__boxes
+    padding: 0 5rem 
+
+  .header__text-box p
+    line-height: 3rem
+    padding: 1rem 0rem
 
   .row
     padding: 0
@@ -147,9 +184,9 @@ h3
 p
   margin: var(--gutter-small-1) 0
 
-@media (max-width: 900px)
-  p
-    max-width: var(--container-small-width)
+/* @media (max-width: 900px)
+/*   p
+/*     max-width: var(--container-small-width)
 
 /* ---------------------------------------
 /* ----- Buttons and Links -----
