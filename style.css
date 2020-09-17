@@ -88,7 +88,6 @@ body {
   h2,
 .about__content,
 .contact__info,
-.header__text,
 .work__boxes {
     padding: 0 5rem;
   }
@@ -128,9 +127,12 @@ body {
   h2,
 .about__content,
 .contact__info,
-.header__text,
 .work__boxes {
     padding: 0 5rem;
+  }
+
+  .header__text {
+    padding: 0 3.5rem 0 0;
   }
 
   .header__text-box p {
@@ -445,11 +447,6 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   padding: 5px 0;
 }
 
-@media (max-width: 500px) {
-  .header {
-    text-align: center;
-  }
-}
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
