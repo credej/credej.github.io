@@ -67,6 +67,7 @@ body {
 .row {
   max-width: var(--container-max-width);
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 @media (max-width: 1340px) {
@@ -435,6 +436,10 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
 
 .header__text__subtext {
   margin: 4.5rem 0;
+}
+.header__text__subtext p {
+  line-height: 1.2em;
+  padding: 5px 0;
 }
 
 @media (max-width: 500px) {
