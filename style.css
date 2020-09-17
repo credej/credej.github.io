@@ -67,7 +67,6 @@ body {
 .row {
   max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: 0 50px;
 }
 
 @media (max-width: 1340px) {
@@ -96,7 +95,7 @@ body {
 
   .header__text-box p {
     line-height: 3rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
   }
 
   .row {
@@ -432,6 +431,10 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   max-width: var(--container-medium-width);
   font-family: "Jost", sans-serif;
   font-size: var(--font-size-normal);
+}
+
+.header__text-box {
+  padding: 0 50px;
 }
 
 .header__text__subtext {
