@@ -95,45 +95,44 @@ body
 
   h2, 
   .about__content,
-  .header__text,
-  .work__boxes
-    padding: 0 5rem 
-
+  .header__text
+    padding: 0 4rem 0
+  .about__photo-container img
+    max-width: 50%
   .header__text-box p
     line-height: 3rem
     padding: 1rem 0rem
-
   .row
     padding: 0
-
-  .about__photo-container img
-    max-width: 50%
+  .work__box
+    padding: 3rem 0
+  .work__boxes,
+  .work__text
+    padding: 6rem 
+  .work__image-box
+    padding: 1rem 0 0
 
 @media (max-width: 600px)
-  .work__text
-    padding: 6rem 4rem 0
-  .work__list
-    padding: 1rem
-  .work__image-box
-    padding: 1rem 0 6rem
 
   h2, 
   .about__content,
   .contact__info
     padding: 0 4rem 0
-  .work__boxes
-    padding: 0  
-
-
   .header__text
     padding: 0 3.5rem 0 0 
-
   .header__text-box p
     line-height: 3rem
     padding: 1rem 0rem
-
   .row
     padding: 0
+  .work__boxes
+    padding: 0  
+  .work__image-box
+    padding: 1rem 0 0
+  .work__list
+    padding: 1rem
+  .work__text
+    padding: 6rem 4rem 0
 
 section
   padding: var(--gutter-huge) 0
@@ -161,10 +160,12 @@ h1, h2, h3
 
 @media (max-width: 900px)
   .heading-primary
-    font-size: 6.5rem
-
+    font-size: var(--font-size-large)
+  p
+    margin: var(--gutter-small-1) 0
 h2
-  font-size: var(--font-size-large)
+  color: #5DAC81
+  font-size: var(--font-size-medium)
   margin-bottom: var(--gutter-medium)
 
   &::after
@@ -178,7 +179,6 @@ h2
 h3
   font-size: var(--font-size-medium-1)
   margin-bottom: var(--gutter-small)
-  text-transform: uppercase
 
 @media (max-width: 600px)
   .heading-primary
