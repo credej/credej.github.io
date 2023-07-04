@@ -1,20 +1,5 @@
-@font-face
-  font-family: 'Hk Grotesk'
-  font-style: normal
-  font-weight: 400
-  src: url('./fonts/HKGrotesk-Regular.woff') format("woff")
-
-@font-face
-  font-family: 'Jost'
-  font-style: normal
-  font-weight: 400
-  src: url('./fonts/Jost-Regular.ttf') format("woff")
-
-*
-  margin: 0
-  padding: 0
-  box-sizing: inherit
-  border: 1px solid green
+\::-moz-focus-inner
+  border: 0
 
 \:root
   --font-size-small:1.8rem
@@ -27,7 +12,12 @@
   --line-height-normal:1.7
   --line-height-small:1.2
   --black:#000
+  --grey:#c4c4c4
   --green:#5DAC81
+  --offwhite:#ececec
+  --orange:#ff7417
+  --steel:#636363
+  --midnight:#212121
   --white:#f0e9f2
   --white-1:#e5e5e6da
   --container-max-width:1380px
@@ -38,19 +28,16 @@
   --gutter-medium:5rem
   --gutter-normal:4.5rem
   --gutter-small-1:4.25rem
-  --gutter-small:4rem
+  --gutter-small:2.5rem
   --light:1px solid rgb(36, 35, 35)
 
-html
-  font-size: 62.5%
+*
+  margin: 0
+  padding: 0
+  box-sizing: inherit
 
-  /* (16/10)*100 = 62.5% => 1rem = 10px
-  box-sizing: border-box
-  scroll-behavior: smooth
-
-@media (max-width: 1000px)
-  html
-    font-size: 52%
+a
+  color: var(--orange)
 
 body
   font-size: var(--font-size-small)
@@ -58,178 +45,76 @@ body
   font-weight: 400
   color: var(--white-1)
   line-height: var(--line-height-normal)
-  background: var(--black)
   overflow-x: hidden
-
-.row
-  max-width: var(--container-max-width)
-  margin: 0 auto
-
-@media (max-width: 1340px)
-  .row
-    max-width: 1100px
-
-@media (max-width: 1240px)
-  .row
-    padding: 0
-
-@media (max-width: 600px)
-  .row
-    padding: 0
-
-@media (max-width: 1240px)
-
-  h2, 
-  .about__content,
-  .contact__info,
-  .work__boxes
-    padding: 0 5rem 
-
-  .header__text-box p
-    line-height: 3rem
-    padding: 1rem 0
-
-  .row
-    padding: 0
-
-@media (min-width: 600px) and (max-width: 900px)
-
-  h2, 
-  .about__content,
-  .header__text
-    padding: 0 4rem 0
-  .about__photo-container img
-    max-width: 50%
-  .header__text-box p
-    line-height: 3rem
-    padding: 1rem 0rem
-  .row
-    padding: 0
-  .work__box
-    padding: 3rem 0
-  .work__boxes,
-  .work__text
-    padding: 6rem 
-  .work__image-box
-    padding: 1rem 0 0
-
-@media (max-width: 600px)
-
-  h2, 
-  .about__content,
-  .contact__info
-    padding: 0 4rem 0
-  .header__text
-    padding: 0 3.5rem 0 0 
-  .header__text-box p
-    line-height: 3rem
-    padding: 1rem 0rem
-  .row
-    padding: 0
-  .work__boxes
-    padding: 0  
-  .work__image-box
-    padding: 1rem 0 0
-  .work__list
-    padding: 1rem
-  .work__text
-    padding: 6rem 4rem 0
-
-section
-  padding: var(--gutter-huge) 0
-  border-bottom: var(--border-light)
-
-img
-  /* border: 12px solid #ececec;
-  object-fit: contain
-  max-width: 100%
-
-/* ---------------------------------------
-/* ----- Headlines and Paragraphs -----
-/* ---------------------------------------
-
-h1, h2, h3
-  font-family: 'Jost', sans-serif
-  font-weight: 400
-  line-height: var(--line-height-small)
-  color: var(--white)
-
-.heading-primary
-  line-height: 1
-  font-size: var(--font-size-huge)
-  font-weight: 400
-
-@media (max-width: 900px)
-  .heading-primary
-    font-size: var(--font-size-large)
-  p
-    margin: var(--gutter-small-1) 0
-h2
-  color: #5DAC81
-  font-size: var(--font-size-medium)
-  margin-bottom: var(--gutter-medium)
-
-  &::after
-    content: ''
-    display: block
-    height: 2px
-    width: 10rem
-    background: var(--green)
-    margin: var(--gutter-small) 0
-
-h3
-  font-size: var(--font-size-medium-1)
-  margin-bottom: var(--gutter-small)
-
-@media (max-width: 600px)
-  .heading-primary
-    font-size: var(--font-size-large)
-
-  h2
-    font-size: var(--font-size-medium-1)
-
-  h3
-    font-size: var(--font-size-medium)
-
-  p
-    margin: var(--gutter-small-1) 0
-
-/* @media (max-width: 900px)
-/*   p
-/*     max-width: var(--container-small-width)
-
-/* ---------------------------------------
-/* ----- Buttons and Links -----
-/* ---------------------------------------
-
-a
-  color: var(--white)
-  font-weight: 400
-  font-family: 'Jost', sans-serif
-  transition: all .2s
-  outline: 2px solid transparent
-
-\::-moz-focus-inner
-  border: 0
-
-button:focus, a:focus
-  outline: 2px solid var(--green)
+  background: rgb(0,0,0)
 
 body:not(.user-is-tabbing)
   button:focus, a:focus
     outline: none
 
-.link:hover
-  color: var(--green)
+button:focus, a:focus
+  outline: 2px solid var(--green)
+
+html
+  font-size: 62.5%
+  box-sizing: border-box
+  scroll-behavior: smooth
+
+h1, h2, h3
+  font-family: 'Jost', sans-serif
+  font-weight: 400
+  line-height: var(--line-height-small)
+  color: var(--offwhite)
+
+h2
+  color: var(--gray)
+  font-size: var(--font-size-medium)
+
+  &::after
+    content: ''
+    display: block
+    height: 1px
+    width: 15rem
+    background: linear-gradient(280deg, rgba(0,0,0,1) 7%, rgba(99,99,99,1) 70%)
+    margin: var(--gutter-small) 0
+
+h3
+  font-size: var(--font-size-medium)
+  color: var(--white)
+  font-weight: 900
+  font-family: 'Jost', sans-serif
+  text-transform: uppercase
+  transition: all .2s
+  outline: 2px solid transparent
+
+p
+  margin: var(--gutter-small) 0
+
+img
+  object-fit: contain
+  max-width: 100%
+
+section
+  padding: var(--gutter-huge) 0
+  border-bottom: var(--border-light)
+
+.about__photo-container
+  margin-top: var(--gutter-lite) !important
+  margin-bottom: var(--gutter-lite)
+
+.about__content
+  display: flex
+  flex-direction: row-reverse
 
 .btn
+  background: rgba(var(--green), 0.8)
+  border: 1px solid var(--white)
   position: relative
   display: inline-block
   margin-top: 15px
   padding: 1rem 4.2rem
   text-decoration: none
   color: inherit
-  border: 1px solid var(--green)
   font-weight: 400
 
   &:focus
@@ -251,6 +136,30 @@ body:not(.user-is-tabbing)
     right: 0
     background: var(--green)
 
+.back-to-top
+  position: fixed
+  bottom: 4rem  
+  box-shadow: 0 0 8px var(--midnight)
+  right: 4rem
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 5.5rem
+  width: 5.5rem
+  background-color: var(--midnight)
+  border-radius: 50%
+  z-index: 10
+  visibility: hidden
+  transition: all .4s
+  &:hover
+    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
+    filter: invert(.8)
+  &:active
+    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
+    filter: invert(1)
+.back-to-top__image
+  height: 70%
+
 .btn--green
   background: var(--green)
   transition: all 0.2s
@@ -261,17 +170,97 @@ body:not(.user-is-tabbing)
   &:hover, &:focus
     background: transparent
 
-.far, .fas
+.client__logos
+  display: flex
+  justify-content: space-between
+  filter: invert(100%) grayscale(100%) opacity(0.8)
+  &:hover
+    filter: invert(100%) grayscale(100%) opacity(1)
+
+.client__logos>img:hover
+  display: flex
+  justify-content: space-between
+  filter: opacity(1)
+
+.client__logo
+  height: 90px
+  max-width: 150px
+
+.contact__info
+  max-width: var(--container-max-width)
+
+.fas
   font-size: 1.2em
   margin-left: 10px
+
+.footer
+  text-align: center
+  padding: var(--gutter-medium) 0 var(--gutter-normal)
+
+.footer__social-links
+  display: flex
+  justify-content: flex-start
+  padding: var(--gutter-normal) 0
+  list-style: none
+
+.footer__social-link-item:not(:last-of-type)
+  margin-right: var(--gutter-small)
+
+.footer__social-image
+  height: 4rem
+
+.footer__github-buttons
+  display: flex
+  justify-content: center
+  iframe
+    height: 2.5rem
+    width: 80px
+    transform: translateY(3px)
+
+.header
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/header.jpg')
+  height: 100vh
+  background-size: cover
+  background-position: center
+  background-attachment: fixed
+  font-size: var(--font-size-normal)
+
+.header__text
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+  p
+    margin: 0.5rem 0 0.5rem
+    max-width: var(--container-medium-width)
+    font-family: 'Jost', sans-serif
+    font-size: var(--font-size-normal)
+
+.header__text-box
+  padding: 0 50px
+  p
+    line-height: 3rem
+    padding: 1rem 0
+
+.header__text__subtext
+  margin: 4.5rem 0
+  p
+    line-height: 1.2em
+    padding: 5px 0
+
+.heading-primary
+  line-height: 1
+  font-size: var(--font-size-huge)
+  font-weight: 400
+
+.link:hover
+  color: var(--green)
 
 .link__text
   position: relative
   display: inline-block
-  // padding: .6rem
-  color: inherit
   text-decoration: none
-  border-bottom: 1px solid var(--green)
+  border-bottom: 1px solid var(--steel)
 
   &::after
     content: ''
@@ -292,41 +281,12 @@ body:not(.user-is-tabbing)
     right: 0
     background: var(--green)
 
+  &:hover
+    color: var(--green)
+
   span
     padding-left: 1rem
     font-family: sans-serif
-
-/* ----- Back to Top -----
-
-.back-to-top
-  position: fixed
-  bottom: 4rem
-  right: 4rem
-  display: flex
-  justify-content: center
-  align-items: center
-  height: 5.5rem
-  width: 5.5rem
-  background-color: var(--green)
-  border-radius: 50%
-  z-index: 10
-  visibility: hidden
-  transition: all .4s
-
-.back-to-top__image
-  height: 70%
-
-@media (max-width: 900px)
-  .back-to-top
-    right: 5rem
-
-@media (max-width: 600px)
-  .back-to-top
-    right: 1rem
-
-/* ---------------------------------------
-/* ----- Navigation -----
-/* ---------------------------------------
 
 .nav
   display: flex
@@ -339,18 +299,6 @@ body:not(.user-is-tabbing)
 
 .nav__item:not(:last-child)
   margin-right: var(--gutter-medium)
-
-@media (max-width: 600px)
-  .nav
-    justify-content: center
-
-@media (max-width: 400px)
-  .nav__item:not(:last-child)
-    margin-right: var(--gutter-normal)
-
-@media (max-width: 300px)
-  .nav
-    font-size: var(--font-size-small)
 
 .nav__link
   position: relative
@@ -379,210 +327,137 @@ body:not(.user-is-tabbing)
       height: 2px
       background: var(--green)
 
-/* ---------------------------------------
-/* ----- Header -----
-/* ---------------------------------------
-
-.header
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/header.jpg')
-  height: 100vh
-  background-size: cover
-  background-position: center
-  background-attachment: fixed
-  font-size: var(--font-size-normal)
-
-.header__text
-  position: absolute
-  top: 50%
-  transform: translateY(-50%)
-
-  p
-    margin: 0.5rem 0 0.5rem
-    max-width: var(--container-medium-width)
-    font-family: 'Jost', sans-serif
-    font-size: var(--font-size-normal)
-
-.header__text-box
-  padding: 0 50px
-
-.header__text__subtext
-  margin: 4.5rem 0
-  p
-    line-height: 1.2em
-    padding: 5px 0
-
-/* ---------------------------------------
-/* ----- Work -----
-/* ---------------------------------------
+.row
+  max-width: var(--container-max-width)
+  margin: 0 auto
 
 .spacer
-  height: 50px
+  height: 0
 
 .text__dark
   color: #000
-
   h3
     color: #000
 
-.work__box
-  display: flex
-  align-items: flex-start
-  padding: 100px
-
-  &:not(:last-child)
-    margin-bottom: 5rem
-
-@media (max-width: 900px)
-  .work 
-    padding-top: 1.5em
-  .work__box
-    margin-bottom: 0 !important
-    padding: 0
-  .work__links
-    padding-bottom: 20px 
-
-@media (min-width: 900px) and (max-width: 1280px)
-  .work__box
-    padding: 5rem
-
-@media (max-width: 900px)
-  .work__box
-    align-items: initial
-    flex-direction: column
-
-@media (max-width: 600px)
-  .work__box:not(:last-child)
-    margin-bottom: 20rem
-
-.work__links
-  display: flex
-  align-items: center
-
-.work__text
-  flex: 0 0 30%
-
-.work__list
-  /* list-style-type: square;
-  list-style-position: inside
-  margin-bottom: var(--gutter-normal)
-
-.work__boxes
-  margin-top: 50px
-
-.work__code
-  display: block
-  height: 3rem
-  margin-left: var(--gutter-normal)
-  transition: all .3s
-
-  &:hover
-    transform: scale(1.2)
-
-.work__image-box
-  /* margin-bottom: var(--gutter-normal);
-
-@media (min-width: 901px)
-  .work__image-box
-    flex: 1
-    margin: 0 0 0 10rem
-
-@media (max-width: 900px)
-  .work__code
-    height: 4rem
-
-/* ---------------------------------------
-/* ----- Clients -----
-/* ---------------------------------------
-
-.client__logos
-  display: flex
-  justify-content: space-between
-  filter: invert(100%) grayscale(100%) opacity(0.8)
-
-  &:hover
-    display: flex
-    justify-content: space-between
-    filter: invert(100%) grayscale(100%) opacity(1)
-
-.client__logo
-  height: 90px
-  max-width: 150px
-
-@media (max-width: 1240px)
-  .client__logos
-    overflow-x: scroll
-    padding: var(--gutter-normal)
-
-  .client__logo:not(:last-of-type)
-    margin-right: var(--gutter-medium)
-
-/* ---------------------------------------
-/* ----- About -----
-/* ---------------------------------------
-
-.about__content
-  display: flex
-  flex-direction: row-reverse
-  align-items: flex-start
-
-@media (max-width: 900px)
-  .about__content
-    flex-direction: column-reverse
-    align-items: initial
-
-.about__photo-container
-  margin-top: var(--gutter-lite) !important
-  margin-bottom: var(--gutter-lite)
+.title-bold
+  font-weight: 900
 
 .tools
   padding-bottom: 0
 
-@media (min-width: 901px)
+.container
+  display: flex
+  padding: 100px
+
+.work__image-box
+  img
+    display: flex
+    flex-direction: column
+    object-fit: contain
+    max-width: 100%
+
+
+.work__links
+  a
+    color: var(--grey)
+    cursor: pointer
+  display: flex
+  align-items: center
+  i 
+    color: var(--grey)
+
+.work__list
+  list-style-type: square
+  list-style-position: inside
+  margin-bottom: var(--gutter-normal)
+
+.work__text
+  flex: 0 0 30%
+
+
+@font-face
+  font-family: 'Hk Grotesk'
+  font-style: normal
+  font-weight: 400
+  src: url('./fonts/HKGrotesk-Regular.woff') format("woff")
+
+@font-face
+  font-family: 'Jost'
+  font-style: normal
+  font-weight: 400
+  src: url('./fonts/Jost-Regular.ttf') format("woff")
+
+@media (max-width: 1240px)
+  .client__logo:not(:last-of-type) 
+    margin-right: var(--gutter-medium)
+
+@media (min-width: 1px) and (max-width: 900px)
+  .about__photo-container img
+    max-width: 66%
+  .about__content
+    flex-direction: column-reverse
+    align-items: initial
+  .heading-primary
+    font-size: var(--font-size-large)
+  .header__text-box 
+    padding: 1rem 4rem
+    p
+      line-height: 3rem
+      padding: 1rem 0rem
+  .back-to-top
+    right: 5rem
+  .row 
+    padding: 0
+  .container
+    align-items: initial
+    flex-direction: column
+    margin-bottom: 0
+    padding: 2rem 0 0
+    border-bottom: 5px solid black
+  .work__image-box
+    padding: 1rem 0 0
+  .work__links
+    padding-bottom: 20px 
+  .work__text
+    padding: 4rem 3rem 
+  h2, 
+  .about__content,
+  .contact__info
+    padding: 0 4rem 0
+
+@media (min-width: 900px)
+  .about__text
+    padding-left: 2rem
+  .about__photo-container
+    flex: 1
+    margin: 0 var(--gutter-small) 0 0
   .about__text
     flex: 0 0 65%
     p
       margin: 0 0 3rem 
+  .client__logos
+    overflow-x: scroll
+    padding: var(--gutter-normal)
+  .client__logo:not(:last-of-type)
+    margin-right: var(--gutter-medium)
+  .container
+    padding: 4rem
+  .work__image-box
+    img
+      padding-left: 8rem
 
-  .about__photo-container
-    flex: 1
-    margin: 0 var(--gutter-small) 0 0
+.work__image-box
+  img:not(:last-child)
+    margin-bottom: 5rem
 
-/* ---------------------------------------
-/* ----- Contact -----
-/* ---------------------------------------
 
-.contact__info
-  max-width: var(--container-max-width)
+@media (max-width: 1240px)
+  .client__logos 
+    overflow-x: scroll
+    padding: var(--gutter-normal)
 
-/* ---------------------------------------
-/* ----- Footer -----
-/* ---------------------------------------
 
-.footer
-  text-align: center
-  padding: var(--gutter-medium) 0 var(--gutter-normal)
 
-.footer__social-links
-  display: flex
-  justify-content: flex-start
-  padding: var(--gutter-normal) 0
-  list-style: none
 
-.footer__social-link-item:not(:last-of-type)
-  margin-right: var(--gutter-small)
 
-.footer__social-image
-  height: 4rem
 
-.footer__github-buttons
-  display: flex
-  justify-content: center
-
-  iframe
-    height: 2.5rem
-    width: 80px
-    transform: translateY(3px)
-
-@media (max-width: 600px)
-  .footer
-    padding: var(--gutter-medium) 0
