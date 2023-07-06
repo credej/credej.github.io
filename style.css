@@ -1,7 +1,3 @@
-::-moz-focus-inner {
-  border: 0;
-}
-
 :root {
   --font-size-small:1.8rem;
   --font-size-normal:2.2rem;
@@ -9,28 +5,21 @@
   --font-size-medium-1:3.6rem;
   --font-size-large:5.5rem;
   --font-size-huge:7.5rem;
-  --font-stack:"Hk Grotesk", sans-serif;
-  --line-height-normal:1.7;
-  --line-height-small:1.2;
-  --black:#000;
-  --grey:#c4c4c4;
+  --font-stack-1: "Noto Serif Makasar", serif;
+  --font-stack-2: "Jost", sans-serif;
+  --font-stack-3: "Belanosima", sans-serif;
+  --font-stack-4: "Abel", sans-serif;
   --green:#5DAC81;
-  --offwhite:#ececec;
   --orange:#ff7417;
   --steel:#636363;
   --midnight:#212121;
   --white:#f0e9f2;
-  --white-1:#e5e5e6da;
-  --container-max-width:1380px;
-  --container-normal-width:800px;
-  --container-medium-width:700px;
-  --container-small-width:500px;
+  --offwhite:#dbdede;
   --gutter-huge:10rem;
   --gutter-medium:5rem;
   --gutter-normal:4.5rem;
-  --gutter-small-1:4.25rem;
+  --gutter-small-1:3.75rem;
   --gutter-small:2.5rem;
-  --light:1px solid rgb(36, 35, 35);
 }
 
 * {
@@ -39,16 +28,11 @@
   box-sizing: inherit;
 }
 
-a {
-  color: var(--orange);
-}
-
 body {
   font-size: var(--font-size-small);
-  font-family: var(--font-stack);
+  font-family: var(--font-stack-1);
   font-weight: 400;
-  color: var(--white-1);
-  line-height: var(--line-height-normal);
+  color: var(--offwhite);
   overflow-x: hidden;
   background: rgb(0, 0, 0);
 }
@@ -57,42 +41,42 @@ body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
   outline: none;
 }
 
-button:focus, a:focus {
-  outline: 2px solid var(--green);
-}
-
 html {
   font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
-  font-family: "Jost", sans-serif;
+h2, h3 {
+  font-family: var(--font-stack-2);
   font-weight: 400;
-  line-height: var(--line-height-small);
   color: var(--offwhite);
 }
 
-h2 {
-  color: var(--gray);
-  font-size: var(--font-size-medium);
+h1 {
+  color: var(--white);
+  font-family: var(--font-stack-3);
+  font-size: var(--font-size-medium-1);
 }
-h2::after {
+h1::after {
   content: "";
   display: block;
   height: 1px;
   width: 15rem;
   background: linear-gradient(280deg, rgb(0, 0, 0) 7%, rgb(99, 99, 99) 70%);
-  margin: var(--gutter-small) 0;
+  margin: 2.5rem 0 4rem;
+}
+
+h1:hover {
+  transform: translate3d(0, -4px, 22px);
+  color: var(--orange);
 }
 
 h3 {
+  font-family: var(--font-stack-4);
   font-size: var(--font-size-medium);
   color: var(--white);
   font-weight: 900;
-  font-family: "Jost", sans-serif;
-  text-transform: uppercase;
   transition: all 0.2s;
   outline: 2px solid transparent;
 }
@@ -111,19 +95,16 @@ section {
   border-bottom: var(--border-light);
 }
 
-.about__photo-container {
-  margin-top: var(--gutter-lite) !important;
-  margin-bottom: var(--gutter-lite);
-}
-
 .about__content {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .btn {
   background: rgba(var(--green), 0.8);
   border: 1px solid var(--white);
+  border-radius: 4px;
+  font-family: var(--font-stack-3);
   position: relative;
   display: inline-block;
   margin-top: 15px;
@@ -148,6 +129,7 @@ section {
   transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 .btn:hover::after, .btn:focus::after {
+  border: none !important;
   right: 0;
   background: var(--green);
 }
@@ -155,7 +137,6 @@ section {
 .back-to-top {
   position: fixed;
   bottom: 4rem;
-  box-shadow: 0 0 8px var(--midnight);
   right: 4rem;
   display: flex;
   justify-content: center;
@@ -192,6 +173,24 @@ section {
   background: transparent;
 }
 
+.contact a {
+  color: var(--green);
+  text-decoration: none;
+}
+.contact a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+.contact a:active {
+  color: var(--white);
+}
+
+.container {
+  display: flex;
+  padding: 100px;
+  margin-bottom: 6rem;
+}
+
 .client__logos {
   display: flex;
   justify-content: space-between;
@@ -210,10 +209,6 @@ section {
 .client__logo {
   height: 90px;
   max-width: 150px;
-}
-
-.contact__info {
-  max-width: var(--container-max-width);
 }
 
 .fas {
@@ -267,8 +262,6 @@ section {
 }
 .header__text p {
   margin: 0.5rem 0 0.5rem;
-  max-width: var(--container-medium-width);
-  font-family: "Jost", sans-serif;
   font-size: var(--font-size-normal);
 }
 
@@ -281,7 +274,7 @@ section {
 }
 
 .header__text__subtext {
-  margin: 4.5rem 0;
+  margin: 2rem 0 4rem;
 }
 .header__text__subtext p {
   line-height: 1.2em;
@@ -339,6 +332,7 @@ section {
 
 .nav__items {
   display: flex;
+  font-family: var(--font-stack-3);
   list-style: none;
 }
 
@@ -375,7 +369,7 @@ section {
 }
 
 .row {
-  max-width: var(--container-max-width);
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -390,24 +384,15 @@ section {
   color: #000;
 }
 
-.title-bold {
-  font-weight: 900;
-}
-
-.tools {
-  padding-bottom: 0;
-}
-
-.container {
-  display: flex;
-  padding: 100px;
-}
-
 .work__image-box img {
+  box-shadow: var(--midnight) 0px 10px 20px -10px;
   display: flex;
   flex-direction: column;
   object-fit: contain;
   max-width: 100%;
+}
+.work__image-box img:not(:last-child) {
+  margin-bottom: 5rem;
 }
 
 .work__links {
@@ -428,21 +413,9 @@ section {
   margin-bottom: var(--gutter-normal);
 }
 
-.work__text {
-  flex: 0 0 30%;
-}
-
 @font-face {
-  font-family: "Hk Grotesk";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/HKGrotesk-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/Jost-Regular.ttf") format("woff");
 }
 @media (max-width: 1240px) {
   .client__logo:not(:last-of-type) {
@@ -459,6 +432,9 @@ section {
   }
   .heading-primary {
     font-size: var(--font-size-large);
+  }
+  .header__text {
+    padding: 4rem 3rem;
   }
   .header__text-box {
     padding: 1rem 4rem;
@@ -477,8 +453,10 @@ section {
     align-items: initial;
     flex-direction: column;
     margin-bottom: 0;
-    padding: 2rem 0 0;
-    border-bottom: 5px solid black;
+    padding: 2rem 0 6rem;
+  }
+  .nav {
+    justify-content: center;
   }
   .work__image-box {
     padding: 1rem 0 0;
@@ -487,7 +465,8 @@ section {
     padding-bottom: 20px;
   }
   .work__text {
-    padding: 4rem 3rem;
+    padding: 4rem 8rem;
+    flex: 0 0 25%;
   }
   h2,
   .about__content,
@@ -511,22 +490,18 @@ section {
   }
   .client__logos {
     overflow-x: scroll;
-    padding: var(--gutter-normal);
   }
   .client__logo:not(:last-of-type) {
     margin-right: var(--gutter-medium);
   }
   .container {
-    padding: 4rem;
+    padding: 6rem;
   }
-  .work__image-box img {
-    padding-left: 8rem;
+  .work__text {
+    padding-right: 8rem;
+    flex: 0 0 33%;
   }
 }
-.work__image-box img:not(:last-child) {
-  margin-bottom: 5rem;
-}
-
 @media (max-width: 1240px) {
   .client__logos {
     overflow-x: scroll;

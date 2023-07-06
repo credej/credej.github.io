@@ -9,7 +9,10 @@
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/4803b48292.js" crossorigin="anonymous"></script>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600;700&family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
+  </head>
 
 <body>
   <header class="header" role="banner" id="top">
@@ -18,12 +21,8 @@
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -44,12 +43,12 @@
     <section class="work" id="work">
       <div class="row">
         <div class="">
-          <h2>Past Projects:</h2>
+          <h1>// Past Projects</h1>
 
           <!-- SCC -->
-          <div class="container" style="background-color: #0e0e0e;">
-            <div class="work__text">
-              <h3>Steel City Collectibles</h3></h4>E-commerce Store</h4>
+          <div class="container" style="background-color: #dbdede;">
+            <div class="work__text text__dark">
+              <h3>Steel City Collectibles E-commerce Store</h3>
               <p>My responsibility was to design and develop the user interface and experience for a new e-commerce storefront, from initial concept to testing and implementation.</p>
               <p>I also created and ran Google shopping and display remarketing campaigns that resulted in an over 45x return on ad spend, and improved search engine visibility resulting in an over 2x increase in monthly customer visits. Monthly recurring revenue also increased over 3x.</p>
               <ul class="work__list">
@@ -89,7 +88,7 @@
           </div>
 
           <!-- VERIZON -->
-          <div class="container" style="background-color: #0e0e0e;">
+          <div class="container text__dark" style="background-color: #ececec;">
             <div class="work__text">
               <h3>Verizon</h3><h4>Retail Inventory Management</h4>
               <p>For Verizon, I designed and developed a dashboard to help retail locations keep track of in-store inventory. </p>
@@ -110,7 +109,7 @@
           </div>
 
           <!-- AMERICAN APPAREL -->
-          <div class="container text__dark" style="background-color: #f6f6f6;">
+          <div class="container text__dark" style="background-color: #fff;">
             <div class="work__text">
               <h3>American Apparel</h3><h4>Retail Inventory Management</h4>
               <p>American Apparel stores traditionally used a manual item count system which takes roughly 240 man-hours per month to keep track of per store, leaving lots of potential for human error. After installing custom-built software to track RFID tags, employees are now able to monitor inventory in real-time as well as locate specific items at any time.</p>
@@ -180,39 +179,41 @@
     </section>
   </main>
 
-    <section class="client " id="clients">
-      <div class="row">
-        <h2>// software designed for </h2>
-        <div class="client__logos">
-          <img src="./images/client-aa.jpg" class="client__logo" alt="American Apparel" />
-          <img src="./images/client-intuitive.jpg" class="client__logo" alt="Intuitive Surgical" />
-          <img src="./images/client-kohls.jpg" class="client__logo" alt="Kohls" />
-          <img src="./images/client-nasa-jpl.jpg" class="client__logo" alt="NASA Jet Propulsion Laboratory" />
-          <img src="./images/client-scc.jpg" class="client__logo" alt="Steel City Collectibles" />
-          <img src="./images/client-verizon.jpg" class="client__logo" alt="Verizon" />
-        </div>
-      </div>
-    </section>
-
-    <section class="about container" id="about">
-      <div class="row">
-        <h2>// about myself</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>I enjoy designing and developing web application software that is simple and easy to use. My goals are to obtain a challenging developer role and to contribute to interesting projects. My creativity and drive for continuous learning has allowed me to adapt quickly in new environments.</p>
-            <p>The technologies I use for software development include HTML, CSS (SCSS), javascript, git for version control, Sketch for wireframing, and CodeKit for quick prototyping. I also have experience with Google Adwords & Analystics, Wordpress, Mailchimp, Adobe Suite, and Microsoft Office. I use a Macbook personally, but I'm comfortable developing software in all operating systems. </p>
-            <a href="/images/Resume - Jordan Crede.docx" class="btn" download="Resume - Jordan Crede.docx">Download my resume</a>
-          </div>
-          <div class="about__photo-container">
-            <img class="about__photo" width="1033" src="./images/jordan.jpg" alt="Jordan profile picture" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <section class="contact container" id="contact">
+  <section id="clients" class="client container">
     <div class="row">
-      <h2>// get in contact</h2>
+      <h1>// software designed for </h1>
+      <div class="client__logos">
+        <img src="./images/client-aa.jpg" class="client__logo" alt="American Apparel" />
+        <img src="./images/client-intuitive.jpg" class="client__logo" alt="Intuitive Surgical" />
+        <img src="./images/client-kohls.jpg" class="client__logo" alt="Kohls" />
+        <img src="./images/client-nasa-jpl.jpg" class="client__logo" alt="NASA Jet Propulsion Laboratory" />
+        <img src="./images/client-scc.jpg" class="client__logo" alt="Steel City Collectibles" />
+        <img src="./images/client-verizon.jpg" class="client__logo" alt="Verizon" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <div class="row">
+      <h1>// about myself</h1>
+      <div class="about__content">
+        <div class="about__photo-container">
+          <img class="about__photo" width="1033" src="./images/jordan.jpg" alt="Jordan profile picture" />
+        </div>
+        <div class="about__text">
+          <p>I enjoy designing and developing web application software that is simple and easy to use. My goals are to obtain a challenging developer role and to contribute to interesting projects. My creativity and drive for continuous learning has allowed me to adapt quickly in new environments.</p>
+          <p>The technologies I use for software development include HTML, CSS (SCSS), javascript, git for version control, Sketch for wireframing, and CodeKit for quick prototyping. I also have experience with Google Adwords & Analystics, Wordpress, Mailchimp, Adobe Suite, and Microsoft Office. I use a Macbook personally, but I'm comfortable developing software in all operating systems. </p>
+          <p>Aside from being with family my free time is spent practicing Brazilian jiu jitsu, playing League of Legends, and watching contact sports such as mixed martial arts and ice hockey.</p>
+          <a href="/images/Resume - Jordan Crede.docx" class="btn" download="Resume - Jordan Crede.docx"><h3>Download my resume</h3></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <div class="row">
+      <br>
+      <h1>// get in contact</h1>
       <div class="contact__info">
         <p>
           View my online resume and professional recommendations <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank">on LinkedIn</a>.&nbsp; Please feel free to reach out to me at <a href="mailto:credej@protonmail.com">credej@protonmail.com</a>&nbsp;regarding your business, project, or just to say hello. Thanks for viewing my work!
