@@ -7,7 +7,7 @@
       "uuidString" : "7ED06E69-82F1-4198-820E-861EA1571291"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34576",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -277,6 +277,71 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/cybergrad-dashboard-TM-closeup.jpg" : {
+      "ft" : 16384,
+      "iS" : 545888,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-dashboard-TM-closeup.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cybergrad-dashboard-TM.png" : {
+      "ft" : 32768,
+      "iS" : 740330,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-dashboard-TM.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cybergrad-login.png" : {
+      "ft" : 32768,
+      "iS" : 1875752,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-login.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cybergrad-modules-closeup.jpg" : {
+      "ft" : 16384,
+      "iS" : 312679,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-modules-closeup.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cybergrad-modules.jpg" : {
+      "ft" : 16384,
+      "iS" : 579478,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-modules.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/favicon.png" : {
       "ft" : 32768,
       "iS" : 4943,
@@ -300,9 +365,22 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/images\/header.jpg" : {
+    "\/images\/header-normal.jpg" : {
       "ft" : 16384,
       "iS" : 222254,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/header-normal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/header.jpg" : {
+      "ft" : 16384,
+      "iS" : 153859,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/header.jpg",
@@ -336,6 +414,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/pland-analytics-report.png" : {
+      "ft" : 32768,
+      "iS" : 158532,
+      "oA" : 0,
+      "oAP" : "\/images\/pland-analytics-report.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/Resume - Jordan Crede.docx" : {
       "cB" : 0,
       "ft" : 8192,
@@ -359,7 +450,7 @@
     },
     "\/images\/site-scc-1b.jpg" : {
       "ft" : 16384,
-      "iS" : 200701,
+      "iS" : 895382,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/site-scc-1b.jpg",
@@ -396,6 +487,18 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/index-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/index-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/index.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -427,6 +530,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/Luna Star Now You See Me Now You Ho Wifes Handjob Ivy Rose Porn [2317454].mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Luna Star Now You See Me Now You Ho Wifes Handjob Ivy Rose Porn [2317454].mp4",
+      "oF" : 0
+    },
     "\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -453,6 +564,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/tailwindcss" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/tailwindcss",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -1292,9 +1411,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -1306,6 +1422,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -1360,9 +1479,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0

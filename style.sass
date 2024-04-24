@@ -1,108 +1,65 @@
 \:root
-  --font-size-small:1.8rem
-  --font-size-normal:2.2rem
-  --font-size-medium:2.8rem
-  --font-size-medium-1:3.6rem
-  --font-size-large:5.5rem
-  --font-size-huge:7.5rem
   --font-stack-1: 'Noto Serif Makasar', serif
   --font-stack-2: 'Jost', sans-serif
   --font-stack-3: 'Belanosima', sans-serif
   --font-stack-4: 'Abel', sans-serif
-  --green:#5DAC81
+  --black:#151E3F
+  --green:#F4FF52
   --orange:#ff7417
   --steel:#636363
-  --midnight:#212121
-  --white:#f0e9f2
-  --offwhite:#dbdede
-  --gutter-huge:10rem
-  --gutter-medium:5rem
-  --gutter-normal:4.5rem
-  --gutter-small-1:3.75rem
-  --gutter-small:2.5rem
+  --midnight:#8A817C
+  --white:#F4F3EE
+  --offwhite:#BCB8B1
+  
 *
   margin: 0
   padding: 0
   box-sizing: inherit
+
 body
-  font-size: var(--font-size-small)
   font-family: var(--font-stack-1)
   font-weight: 400
   color: var(--offwhite)
   overflow-x: hidden
-  background: rgb(0,0,0)
+
 body:not(.user-is-tabbing)
   button:focus, a:focus
     outline: none
+
 html
-  font-size: 62.5%
   box-sizing: border-box
   scroll-behavior: smooth
-h2, h3
-  font-family: var(--font-stack-2)
-  font-weight: 400
-  color: var(--offwhite)
+
 h1
   color: var(--white)
-  font-family: var(--font-stack-3)
-  font-size: var(--font-size-medium-1)
-  &::after
-    content: ''
-    display: block
-    height: 1px
-    width: 15rem
-    background: linear-gradient(280deg, rgba(0,0,0,1) 7%, rgba(99,99,99,1) 70%)
-    margin: 2.5rem 0 4rem
-h1:hover 
-  transform: translate3d(0, -4px, 22px)
-  color: var(--orange)
-h3
+
+h2
   font-family: var(--font-stack-4)
-  font-size: var(--font-size-medium)
+  color: var(--offwhite)
+
+h3
+  font-family: var(--font-stack-3)
   color: var(--white)
-  font-weight: 900
-  transition: all .2s
+  line-height: 3.5rem
   outline: 2px solid transparent
+
 p
-  margin: var(--gutter-small) 0
+  margin: var(--gutter-small) 0 
+
+p,h1,h2,h3,h4,h5
+  cursor: default
+
+a
+  cursor: pointer
+
 img
   object-fit: contain
   max-width: 100%
-section
-  padding: var(--gutter-huge) 0
-  border-bottom: var(--border-light)
+
 .about__content
   display: flex
   flex-direction: row
-.btn
-  background: rgba(var(--green), 0.8)
-  border: 1px solid var(--white)
-  border-radius: 4px
-  font-family: var(--font-stack-3)
-  position: relative
-  display: inline-block
-  margin-top: 15px
-  padding: 1rem 4.2rem
-  text-decoration: none
-  color: inherit
-  font-weight: 400
-  &:focus
-    outline: none
-  &::after
-    content: ''
-    display: block
-    position: absolute
-    top: 0
-    left: 0
-    right: 100%
-    background: var(--white)
-    height: 100%
-    z-index: -1
-    transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9)
-  &:hover::after, &:focus::after
-    border: none !important
-    right: 0
-    background: var(--green)
+
 .back-to-top
   position: fixed
   bottom: 4rem  
@@ -123,15 +80,11 @@ section
   &:active
     -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
     filter: invert(1)
-.back-to-top__image
-  height: 70%
-.btn--green
-  background: var(--green)
-  transition: all 0.2s
-  &::after
-    display: none
-  &:hover, &:focus
-    background: transparent
+
+#contact
+  a
+    color: var(--green)
+
 .contact
   a
     color: var(--green)
@@ -141,75 +94,39 @@ section
       text-decoration: underline
     &:active
       color: var(--white)
+
 .container
   display: flex
   padding: 100px
   margin-bottom: 6rem
+
 .client__logos
   display: flex
   justify-content: space-between
   filter: invert(100%) grayscale(100%) opacity(0.8)
-  &:hover
-    filter: invert(100%) grayscale(100%) opacity(1)
+  img
+    padding: 0 24px
+
 .client__logos>img:hover
   display: flex
   justify-content: space-between
   filter: opacity(1)
+
 .client__logo
   height: 90px
   max-width: 150px
+
 .fas
-  font-size: 1.2em
   margin-left: 10px
-.footer
-  text-align: center
-  padding: var(--gutter-medium) 0 var(--gutter-normal)
-.footer__social-links
-  display: flex
-  justify-content: flex-start
-  padding: var(--gutter-normal) 0
-  list-style: none
-.footer__social-link-item:not(:last-of-type)
-  margin-right: var(--gutter-small)
-.footer__social-image
-  height: 4rem
-.footer__github-buttons
-  display: flex
-  justify-content: center
-  iframe
-    height: 2.5rem
-    width: 80px
-    transform: translateY(3px)
+
+/** 
+  border: 1px solid red !important*/
+
 .header
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/header.jpg')
-  height: 100vh
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./images/header.jpg')
   background-size: cover
-  background-position: center
-  background-attachment: fixed
-  font-size: var(--font-size-normal)
-.header__text
-  position: absolute
-  top: 50%
-  transform: translateY(-50%)
-  p
-    margin: 0.5rem 0 0.5rem
-    font-size: var(--font-size-normal)
-.header__text-box
-  padding: 0 50px
-  p
-    line-height: 3rem
-    padding: 1rem 0
-.header__text__subtext
-  margin: 2rem 0 4rem
-  p
-    line-height: 1.2em
-    padding: 5px 0
-.heading-primary
-  line-height: 1
-  font-size: var(--font-size-huge)
-  font-weight: 400
-.link:hover
-  color: var(--green)
+  background-attachment: static
+
 .link__text
   position: relative
   display: inline-block
@@ -236,22 +153,28 @@ section
   span
     padding-left: 1rem
     font-family: sans-serif
+
 .nav
   display: flex
   justify-content: flex-end
-  padding: 4rem
+
+.nav__item
+  color: var(--steel)
+
 .nav__items
   display: flex
   font-family: var(--font-stack-3)
   list-style: none
+
 .nav__item:not(:last-child)
   margin-right: var(--gutter-medium)
+
 .nav__link
   position: relative
   display: inline-block
   padding: 1rem 0
   text-decoration: none
-  color: inherit
+  color: #BCB8B1
   transition: all .2s
   &::after
     content: ''
@@ -269,24 +192,29 @@ section
       right: 0
       height: 2px
       background: var(--green)
+
 .row
   max-width: 1280px
   margin: 0 auto
+
 .spacer
   height: 0
+
 .text__dark
   color: #000
   h3
     color: #000
+
 .work__image-box
   img
-    box-shadow: var(--midnight) 0px 10px 20px -10px
+    box-shadow: var(--black) 0px 10px 20px -10px
     display: flex
     flex-direction: column
     object-fit: contain
     max-width: 100%
   img:not(:last-child)
     margin-bottom: 5rem
+
 .work__links
   a
     color: var(--grey)
@@ -295,33 +223,19 @@ section
   align-items: center
   i 
     color: var(--grey)
-.work__list
-  list-style-type: square
-  list-style-position: inside
-  margin-bottom: var(--gutter-normal)
-@font-face
+
+/*@font-face
   font-style: normal
-  font-weight: 400
-@media (max-width: 1240px)
-  .client__logo:not(:last-of-type) 
-    margin-right: var(--gutter-medium)
-@media (min-width: 1px) and (max-width: 900px)
+  font-weight: 400*/
+
+@media (max-width: 900px)
   .about__photo-container img
     max-width: 66%
   .about__content
     flex-direction: column-reverse
     align-items: initial
-  .heading-primary
-    font-size: var(--font-size-large)
   .header__text
     padding: 4rem 3rem
-  .header__text-box 
-    padding: 1rem 4rem
-    p
-      line-height: 3rem
-      padding: 1rem 0rem
-  .back-to-top
-    right: 5rem
   .row 
     padding: 0
   .container
@@ -329,8 +243,6 @@ section
     flex-direction: column
     margin-bottom: 0
     padding: 2rem 0 6rem
-  .nav
-    justify-content: center
   .work__image-box
     padding: 1rem 0 0
   .work__links
@@ -342,26 +254,3 @@ section
   .about__content,
   .contact__info
     padding: 0 4rem 0
-@media (min-width: 900px)
-  .about__text
-    padding-left: 2rem
-  .about__photo-container
-    flex: 1
-    margin: 0 var(--gutter-small) 0 0
-  .about__text
-    flex: 0 0 65% 
-    p
-      margin: 0 0 3rem 
-  .client__logos
-    overflow-x: scroll
-  .client__logo:not(:last-of-type)
-    margin-right: var(--gutter-medium)
-  .container
-    padding: 6rem
-  .work__text
-    padding-right: 8rem 
-    flex: 0 0 33%
-@media (max-width: 1240px)
-  .client__logos 
-    overflow-x: scroll
-    padding: var(--gutter-normal)

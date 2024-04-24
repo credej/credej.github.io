@@ -4,65 +4,111 @@
   <title>Jordan's Work</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jordan's Software Development Portfolio">
-  <meta name="keywords" content="Jordan Crede, software development, ui, ux, user interface, user experience" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
   <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/4803b48292.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600;700&family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
-  </head>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-<body>
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+<body class="flex justify-center text-xl bg-black">
+  <div class="max-w-screen-2xl">
+    <!-- HEADER -->
+    <header class="header py-24">
+      <!-- NAV -->
+      <nav class="nav bg-lime" role="navigation">
+        <ul class="nav__items bg-lime">
+          <li class="nav__item px-8">
+            <a href="#work" class="nav__link bg-lime">Past work</a>
+          </li>
+          <li class="nav__item px-8">
+            <a href="#customers" class="nav__link">Customers</a>
+          </li>
+          <li class="nav__item px-8">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item px-8">
+            <a href="#contact" class="nav__link">Get in contact</a>
+          </li>
         </ul>
       </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary"><span>Jordan Crede</span></h1>
-        <div class="header__text__subtext">
-          <p>UI/UX Designer based in Southern California</p>
-          <p>10 years of experience designing and developing websites and software applications</p>
-          <p>Unique, creative and collaborative thinker</p>
+      <!-- INTRO -->
+      <div class="py-32">
+        <h3 class="text-6xl py-8">
+          <span>Jordan Crede</span>
+        </h3>
+        <ul class="text-xl py-8">
+          <li class="py-2">UI/UX Designer based in Southern California</li>
+          <li class="py-2">10+ years of experience designing & developing software applications and websites</li>
+          <li class="py-2">Unique, creative and collaborative thinker</li>
+        </ul>
+        <div class="py-12">
+          <a href="#contact" class="rounded-lg border-2 border-yellow-400 text-yellow-500 text-xxl p-4 px-12 hover:text-white hover:border-white hover:bg-yellow-500">Get in contact</a>
         </div>
-        <a href="#contact" class="btn">Get in touch</a>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main role="main">
-    <section class="work" id="work">
-      <div class="row">
-        <div class="">
-          <h1>// Past Projects</h1>
+    <!-- WORK SAMPLES -->
+    <main role="main" class="max-w-screen-2xl flex justify-items-end">
+      <section id="work" class="py-36">
+        <div class="max-w-screen-2xl">
+          <h2 class="text-5xl pb-32">Past work:</h2>
+
+          <!-- Millennium CyberGrad -->
+          <div class="flex p-12" style="background-color: #071426;">
+            <div class="w-2/6 pr-12">
+              <h3 class="text-4xl py-4">CyberGrad Cybersecurity Training Software</h3>
+              <p class="text-md py-4">Custom Learning Management System, with an ambitious project timeline - 8 months from inception to project launch. My responsibility was to design and develop new features for a cyber security training application.</p>
+              <ul class="work__list py-4 list-disc list-decimal list-inside">
+                <li>UI/UX</li>
+                <li>Adobe XD</li>
+              </ul>
+              <div class="work__links py-4">
+                <a href="https://millgroupinc.com/" target="_blank" class="link__text">Learn more</a>
+              </div><br><br>
+            </div>
+            <div class="work__image-box p-4 w-4/6">
+              <img src="./images/cybergrad-login.png" class="" alt="cybergrad cybersecurity training login" /><div class="spacer"></div>
+              <img src="./images/cybergrad-modules-closeup.jpg" class="" alt="cybersecurity learning modules" /><div class="spacer"></div>
+              <img src="./images/cybergrad-dashboard-TM.png" class="" alt="cyber security user dashboard" /><div class="spacer"></div>
+            </div>
+          </div>
+
+          <!-- Millennium Pland and Scrolld -->
+          <div class="container" style="background-color: #283646;">
+            <div class="work__text text__light">
+              <h3 class="py-4">Pland Operation Management Software</h3>
+              <p class="py-4">My responsibility was to design and develop new features for a cyber security training application.</p>
+              <ul class="work__list py-4 list-disc list-decimal">
+                <li>UI/UX</li>
+                <li>Adobe XD</li>
+              </ul>
+              <div class="work__links py-4">
+                <a href="https://millgroupinc.com/" target="_blank" class="link__text">Learn more</a>
+              </div><br><br>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/pland-analytics-report.png" class="work__image" alt="Project 1" /><div class="spacer"></div>
+            </div>
+          </div>
 
           <!-- SCC -->
           <div class="container" style="background-color: #dbdede;">
             <div class="work__text text__dark">
-              <h3>Steel City Collectibles E-commerce Store</h3>
-              <p>My responsibility was to design and develop the user interface and experience for a new e-commerce storefront, from initial concept to testing and implementation.</p>
-              <p>I also created and ran Google shopping and display remarketing campaigns that resulted in an over 45x return on ad spend, and improved search engine visibility resulting in an over 2x increase in monthly customer visits. Monthly recurring revenue also increased over 3x.</p>
-              <ul class="work__list">
+              <h3 class="py-4">Steel City Collectibles Online Store</h3>
+              <p class="py-4">My responsibility was to design and develop the user interface and experience for a new e-commerce storefront, from initial concept to implementation.</p>
+              <p class="py-4">I also created and ran Google shopping and display remarketing campaigns that resulted in a vastly improved return on ad spend. Improved search engine visibility helped to increase monthly customer visits and monthly recurring revenue.</p>
+              <ul class="work__list py-4">
                 <li>HTML</li>
-                <li>SCSS</li>
-                <li>Vue.js</li>
+                <li>CSS (SASS)</li>
+                <li>Figma</li>
               </ul>
-              <div class="work__links">
+              <div class="work__links py-4">
                 <a href="https://www.steelcitycollectibles.com/" target="_blank" class="link__text">Visit Site</a>
                 <a href="https://www.steelcitycollectibles.com/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
               </div><br><br>
             </div>
             <div class="work__image-box">
-              <img src="./images/site-scc-1.jpg" class="work__image" alt="Project 1" /><div class="spacer"></div>
+              <img src="./images/site-scc-1b.jpg" class="work__image" alt="Project 1" /><div class="spacer"></div>
               <img src="./images/site-scc-2.jpg" class="work__iamge" alt="Project 2" />
             </div>
           </div>
@@ -70,16 +116,16 @@
           <!-- INTUITIVE SURGICAL -->
           <div class="container" style="background-color: #304E63;">
             <div class="work__text">
-              <h3>Intuitive Surgical</h3><h4>Warehouse Inventory Management</h4>
-              <p>The Senitron RFID tag tracking system delivers a hands-free solution for tracking items. This allows staff to stay on top of inventory levels 24/7 with extremely high accuracy. After installing hundreds of RFID tracking antennas at one of Intuitive's San Jose warehouses, a back-end developer and myself implemented a custom software application to track inventory for their da Vinci surgical robot system. I designed and developed the user interface and experience.</p>
-              <ul class="work__list">
+              <h3 class="py-4">Intuitive Surgical Warehouse Inventory Management</h3>
+              <p class="py-4">The Senitron RFID tag tracking system delivers a hands-free solution for tracking items. This allows staff to stay on top of inventory levels 24/7 with extremely high accuracy. After installing hundreds of RFID tracking antennas at one of Intuitive's San Jose warehouses, a back-end developer and myself implemented a custom software application to track inventory for their da Vinci surgical robot system. I designed and developed the user interface and experience. The 200,000 square feet warehouse enables asset tracking with excellent granularity down to particular shelves, aisles, and shelf-levels.</p>
+              <ul class="work__list py-4">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
               </ul>
-              <div class="work__links">
-                <a href="https://www.intuitive.com/en-us/products-and-services/da-vinci" target="_blank" class="link__text">Learn more</a>
-                <a href="https://www.intuitive.com/en-us/products-and-services/da-vinci" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
+              <div class="work__links py-4">
+                <a href="https://senitron.net/about-us-rfid-technology-company/" target="_blank" class="link__text">Learn more</a>
+                <a href="https://senitron.net/about-us-rfid-technology-company/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
               </div><br><br>
             </div>
             <div class="work__image-box">
@@ -87,38 +133,17 @@
             </div>
           </div>
 
-          <!-- VERIZON -->
-          <div class="container text__dark" style="background-color: #ececec;">
-            <div class="work__text">
-              <h3>Verizon</h3><h4>Retail Inventory Management</h4>
-              <p>For Verizon, I designed and developed a dashboard to help retail locations keep track of in-store inventory. </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://senitron.net/" target="_blank" class="link__text">Learn more</a>
-                <a href="https://senitron.net/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
-              </div><br><br>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/app-senitron-verizon-1.jpg" class="work__image" alt="Project 1" /><div class="spacer"></div>
-              <img src="./images/app-senitron-verizon-2.jpg" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
           <!-- AMERICAN APPAREL -->
           <div class="container text__dark" style="background-color: #fff;">
             <div class="work__text">
-              <h3>American Apparel</h3><h4>Retail Inventory Management</h4>
-              <p>American Apparel stores traditionally used a manual item count system which takes roughly 240 man-hours per month to keep track of per store, leaving lots of potential for human error. After installing custom-built software to track RFID tags, employees are now able to monitor inventory in real-time as well as locate specific items at any time.</p>
-              <ul class="work__list">
+              <h3 class="py-4">American Apparel Retail Inventory Management</h3>
+              <p class="py-4">American Apparel stores traditionally used a manual item count system which takes roughly 240 man-hours per month to keep track of per store, leaving lots of potential for human error. After installing custom-built software to track RFID tags, employees are now able to monitor inventory in real-time as well as locate specific items at any time.</p>
+              <ul class="work__list py-4">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
               </ul>
-              <div class="work__links">
+              <div class="work__links py-4">
                 <a href="https://www.globenewswire.com/news-release/2013/08/12/919555/0/en/American-Apparel-Improves-Inventory-Accuracy-and-On-Shelf-Availability-With-Impinj-Powered-RFID-Solution-From-Senitron-R.html" target="_blank" class="link__text">Learn more</a>
                 <a href="https://www.globenewswire.com/news-release/2013/08/12/919555/0/en/American-Apparel-Improves-Inventory-Accuracy-and-On-Shelf-Availability-With-Impinj-Powered-RFID-Solution-From-Senitron-R.html" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right text__dark"></i></a>
               </div><br><br>
@@ -134,37 +159,54 @@
           <!-- KOHLS -->
           <div class="container" style="background-color: #993E4F;">
             <div class="work__text">
-              <h3>Kohl's</h3><h4>Retail Inventory Management</h4>
-              <p>For Kohl's, I designed and developed a very simple inventory management dashboard. This software interface was not used in stores and was just a prototype.</p>
-              <ul class="work__list">
+              <h3 class="py-4">Kohl's Retail Inventory Management</h3>
+              <p class="py-4">For Kohl's, I designed and developed a very simple inventory management dashboard. This software interface was not used in stores and was just a prototype.</p>
+              <ul class="work__list py-4">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
               </ul>
-              <div class="work__links">
-                <a href="https://senitron.net/" target="_blank" class="link__text">Learn more</a>
-                <a href="https://senitron.net/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
-              </div><br><br>
             </div>
             <div class="work__image-box">
               <img src="./images/app-senitron-kohls-1.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
+          <!-- VERIZON -->
+          <div class="container text__dark" style="background-color: #ececec;">
+            <div class="work__text">
+              <h3 class="py-4">Verizon Retail Inventory Management</h3>
+              <p class="py-4">For Verizon, I designed and developed a dashboard to help retail locations keep track of in-store inventory. </p>
+              <ul class="work__list py-4">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="work__links py-4">
+                <a href="https://senitron.net/" target="_blank" class="link__text">Learn more</a>
+                <a href="https://senitron.net/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
+              </div><br><br>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/app-senitron-verizon-1.jpg" class="work__image" alt="Project 1" /><div class="spacer"></div>
+              <img src="./images/app-senitron-verizon-2.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
           <!-- DTEK -->
           <div class="container" style="background-color: #7092AE;">
             <div class="work__text">
-              <h3>Covisus DTEK</h3><h4>Counterfeit Detection System</h4>
-              <p>The DTEK system scans electronic components to analyze surface patterns and compare them to an original sample to identify counterfeit parts. I designed and developed the user interface that displays the results of four unique counterfeit tests done to help identify the electronic component as either original or counterfeit. </p>
-              <p>This was my first software development project. I also helped with the conceptual design of the physical hardware. </p>
-              <ul class="work__list">
+              <h3 class="py-4">Covisus DTEK Counterfeit Detection System</h3>
+              <p class="py-4">The DTEK system scans electronic components with the purpose of analyzing surface patterns and comparing them to an original sample to identify counterfeit parts. I designed and developed the UI that displays the results of four unique counterfeit tests done to help identify the electronic component as either original or counterfeit. </p>
+              <p class="py-4">This was my first software development project. I also helped with the conceptual design of the physical hardware. </p>
+              <ul class="work__list py-4">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>3-D design</li>
               </ul>
-              <div class="work__links">
-                <a href="https://covisus.com/" target="_blank" class="link__text">Learn more</a>
-                <a href="https://covisus.com/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
+              <div class="work__links py-4">
+                <a href="https://covisus.com/dtek/" target="_blank" class="link__text">Learn more</a>
+                <a href="https://covisus.com/dtek/" title="View Site" target="_blank"><i class="fas fa-arrow-circle-right"></i></a>
               </div><br><br>
             </div>
             <div class="work__image-box">
@@ -175,84 +217,86 @@
           </div>
 
         </div>
+      </section>
+    </main>
+    
+    <!-- CUSTOMERS -->
+    <section id="customers" class="py-36">
+      <div class="row">
+        <h2 class="py-16">Customers:</h2>
+        <div class="client__logos">
+          <img src="./images/client-aa.jpg" class="client__logo" alt="American Apparel" />
+          <img src="./images/client-intuitive.jpg" class="client__logo" alt="Intuitive Surgical" />
+          <img src="./images/client-kohls.jpg" class="client__logo" alt="Kohls" />
+          <img src="./images/client-nasa-jpl.jpg" class="client__logo" alt="NASA Jet Propulsion Laboratory" />
+          <img src="./images/client-scc.jpg" class="client__logo" alt="Steel City Collectibles" />
+          <img src="./images/client-verizon.jpg" class="client__logo" alt="Verizon" />
+        </div>
       </div>
     </section>
-  </main>
 
-  <section id="clients" class="client container">
-    <div class="row">
-      <h1>// software designed for </h1>
-      <div class="client__logos">
-        <img src="./images/client-aa.jpg" class="client__logo" alt="American Apparel" />
-        <img src="./images/client-intuitive.jpg" class="client__logo" alt="Intuitive Surgical" />
-        <img src="./images/client-kohls.jpg" class="client__logo" alt="Kohls" />
-        <img src="./images/client-nasa-jpl.jpg" class="client__logo" alt="NASA Jet Propulsion Laboratory" />
-        <img src="./images/client-scc.jpg" class="client__logo" alt="Steel City Collectibles" />
-        <img src="./images/client-verizon.jpg" class="client__logo" alt="Verizon" />
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="about container">
-    <div class="row">
-      <h1>// about myself</h1>
-      <div class="about__content">
-        <div class="about__photo-container">
-          <img class="about__photo" width="1033" src="./images/jordan.jpg" alt="Jordan profile picture" />
-        </div>
-        <div class="about__text">
-          <p>I enjoy designing and developing web application software that is simple and easy to use. My goals are to obtain a challenging developer role and to contribute to interesting projects. My creativity and drive for continuous learning has allowed me to adapt quickly in new environments.</p>
-          <p>The technologies I use for software development include HTML, CSS (SCSS), javascript, git for version control, Sketch for wireframing, and CodeKit for quick prototyping. I also have experience with Google Adwords & Analystics, Wordpress, Mailchimp, Adobe Suite, and Microsoft Office. I use a Macbook personally, but I'm comfortable developing software in all operating systems. </p>
-          <p>Aside from being with family my free time is spent practicing Brazilian jiu jitsu, playing League of Legends, and watching contact sports such as mixed martial arts and ice hockey.</p>
-          <a href="/images/Resume - Jordan Crede.docx" class="btn" download="Resume - Jordan Crede.docx"><h3>Download my resume</h3></a>
+    <!-- ABOUT -->
+    <section id="about" class="py-36">
+      <div class="row">
+        <h2 class="py-16">About me:</h2>
+        <div class="about__content">
+          <div class="about__photo-container">
+            <img class="about__photo" width="1033" src="./images/jordan.jpg" alt="Jordan profile picture" />
+          </div>
+          <div class="about__text px-16">
+            <p>I enjoy designing & developing web application software that is simple and easy to use. My goals are to obtain a challenging developer role and to contribute to interesting projects. My creativity and drive for continuous learning has allowed me to adapt quickly in new environments.</p>
+            <p>The technologies I use for software development include HTML, CSS (SCSS), javascript, git and CodeKit for quick prototypingfor. For UI/UX design I prefer Figma over Adobe XD for wireframing.. I also have experience with Google Adwords & Analystics, Wordpress, Mailchimp, Adobe Suite, and Microsoft Office. I use a Macbook personally, but I'm comfortable developing software in all operating systems. </p>
+            <p>Aside from being with family my free time is spent practicing Brazilian jiu jitsu, playing League of Legends, and watching contact sports such as mixed martial arts and ice hockey.</p>
+            <div class="flex justify-start">
+              <div class="flex">
+                <a href="/images/Resume - Jordan Crede.docx" class="btn" download="Resume - Jordan Crede.docx">Download resume .docx</a>
+              </div>
+              <!--
+              <div class="flex px-12">
+                <a href="/images/Resume - Jordan Crede.docx" class="btn" download="Resume - Jordan Crede.docx">Download resume .pdf</a>
+              </div>
+              -->
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    
+    <!-- CONTACT -->
+    <section id="contact" class="py-36">
+      <div class="row py-8">
+        <br>
+        <h2 class="py-16">Get in contact:</h2>
+        <div class="contact__info">
+          <p>
+            View my online resume and professional recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank">LinkedIn</a>.&nbsp; Please feel free to reach out to me at <a href="mailto:credej@protonmail.com">credej@protonmail.com</a>&nbsp;regarding your business, project, or just to say hello. Thanks for viewing my work!
+          </p>
 
-  <section id="contact" class="contact container">
-    <div class="row">
-      <br>
-      <h1>// get in contact</h1>
-      <div class="contact__info">
-        <p>
-          View my online resume and professional recommendations <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank">on LinkedIn</a>.&nbsp; Please feel free to reach out to me at <a href="mailto:credej@protonmail.com">credej@protonmail.com</a>&nbsp;regarding your business, project, or just to say hello. Thanks for viewing my work!
-        </p>
-
-
-        <div class="row">
-          <ul class="footer__social-links">
-
-            <li class="footer__social-link-item">
-              <a href="https://www.linkedin.com/in/jordan-crede-159887160" target="_blank">
-                <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-              </a>
-            </li>
-            <!--
-            <li class="footer__social-link-item">
-              <a href="https://twitter.com/satoshiseagal" target="_blank">
-                <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-              </a>
-            </li>
-            -->
-            <li class="footer__social-link-item">
-              <a href="https://github.com/credej/" target="_blank">
-                <img src="./images/github.svg" class="footer__social-image" alt="Github">
-              </a>
-            </li>
-          </ul>
-
+          <div class="row py-12">
+            <ul class="">
+              <li class="px-8">
+                <a href="https://www.linkedin.com/in/jordan-crede-159887160" target="_blank">
+                  <img src="./images/linkedin.svg" alt="Linkedin" height="35" width="35">
+                </a>
+              </li>
+              <li class="px-8">
+                <a href="https://github.com/credej/" target="_blank">
+                  <img src="./images/github.svg" alt="Github" height="35" width="35">
+                </a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img src="./images/arrow-up.svg" alt="Back to Top" height="50" width="50" />
+    </a>
 
-  <script src="./index.js"></script>
+    <script src="./index.js"></script>
+  </div>
 </body>
 
 </html>
