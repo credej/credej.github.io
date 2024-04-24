@@ -15,11 +15,6 @@
   --midnight:#212121;
   --white:#f0e9f2;
   --offwhite:#dbdede;
-  --gutter-huge:10rem;
-  --gutter-medium:5rem;
-  --gutter-normal:4.5rem;
-  --gutter-small-1:3.75rem;
-  --gutter-small:2.5rem;
 }
 
 * {
@@ -47,42 +42,35 @@ html {
   scroll-behavior: smooth;
 }
 
-h2, h3 {
-  font-family: var(--font-stack-2);
-  font-weight: 400;
-  color: var(--offwhite);
-}
-
 h1 {
   color: var(--white);
-  font-family: var(--font-stack-3);
-  font-size: var(--font-size-medium-1);
-}
-h1::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 15rem;
-  background: linear-gradient(280deg, rgb(0, 0, 0) 7%, rgb(99, 99, 99) 70%);
-  margin: 2.5rem 0 4rem;
 }
 
-h1:hover {
-  transform: translate3d(0, -4px, 22px);
-  color: var(--orange);
+h2 {
+  font-family: var(--font-stack-4);
+  font-size: var(--font-size-medium-1) !important;
+  font-weight: 40;
+  color: var(--offwhite);
 }
 
 h3 {
   font-family: var(--font-stack-4);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-medium) !important;
   color: var(--white);
   font-weight: 900;
-  transition: all 0.2s;
   outline: 2px solid transparent;
 }
 
 p {
   margin: var(--gutter-small) 0;
+}
+
+p, h1, h2, h3, h4, h5 {
+  cursor: default;
+}
+
+a {
+  cursor: pointer;
 }
 
 img {
@@ -173,6 +161,10 @@ section {
   background: transparent;
 }
 
+#contact a {
+  color: var(--green);
+}
+
 .contact a {
   color: var(--green);
   text-decoration: none;
@@ -193,11 +185,14 @@ section {
 
 .client__logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   filter: invert(100%) grayscale(100%) opacity(0.8);
 }
 .client__logos:hover {
   filter: invert(100%) grayscale(100%) opacity(1);
+}
+.client__logos img {
+  padding: 0 24px;
 }
 
 .client__logos > img:hover {
@@ -422,7 +417,7 @@ section {
     margin-right: var(--gutter-medium);
   }
 }
-@media (min-width: 1px) and (max-width: 900px) {
+@media (max-width: 900px) {
   .about__photo-container img {
     max-width: 66%;
   }
@@ -488,12 +483,6 @@ section {
   .about__text p {
     margin: 0 0 3rem;
   }
-  .client__logos {
-    overflow-x: scroll;
-  }
-  .client__logo:not(:last-of-type) {
-    margin-right: var(--gutter-medium);
-  }
   .container {
     padding: 6rem;
   }
@@ -504,7 +493,6 @@ section {
 }
 @media (max-width: 1240px) {
   .client__logos {
-    overflow-x: scroll;
     padding: var(--gutter-normal);
   }
 }
