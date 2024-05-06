@@ -1,3 +1,15 @@
+import PhotoSwipeLightbox from './node_modules/src/js/lightbox/lightbox.js';
+import 'photoswipe/style.css';
+
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('./node_modules/src/js/photoswipe.js')
+});
+
+lightbox.init();
+
+
 /* -----------------------------------------
   Have focus outline only for keyboard users 
  ---------------------------------------- */
@@ -41,3 +53,8 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+// test
+alert("Hello, World!");
+// the hello world program
+document.write('Hello, World!');

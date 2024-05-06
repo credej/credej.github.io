@@ -5,7 +5,7 @@
   --font-stack-4: "Abel", sans-serif;
   --black:#151E3F;
   --green:#F4FF52;
-  --orange:#ff7417;
+  --orange:#F45552;
   --steel:#636363;
   --midnight:#8A817C;
   --white:#F4F3EE;
@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  border: 1px solid red;
 }
 
 body {
@@ -206,15 +207,14 @@ img {
   margin-right: var(--gutter-medium);
 }
 
-.nav__link {
+.link {
   position: relative;
   display: inline-block;
   padding: 1rem 0;
   text-decoration: none;
-  color: #BCB8B1;
   transition: all 0.2s;
 }
-.nav__link::after {
+.link::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -225,10 +225,10 @@ img {
   background: var(--white);
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
-.nav__link:hover {
+.link:hover {
   color: var(--green);
 }
-.nav__link:hover::after {
+.link:hover::after {
   right: 0;
   height: 2px;
   background: var(--green);

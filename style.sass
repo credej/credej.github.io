@@ -1,3 +1,4 @@
+
 \:root
   --font-stack-1: 'Noto Serif Makasar', serif
   --font-stack-2: 'Jost', sans-serif
@@ -5,16 +6,17 @@
   --font-stack-4: 'Abel', sans-serif
   --black:#151E3F
   --green:#F4FF52
-  --orange:#ff7417
+  --orange:#F45552
   --steel:#636363
   --midnight:#8A817C
   --white:#F4F3EE
   --offwhite:#BCB8B1
-  
+
 *
   margin: 0
   padding: 0
   box-sizing: inherit
+  border: 1px solid red
 
 body
   font-family: var(--font-stack-1)
@@ -172,12 +174,11 @@ img
 .nav__item:not(:last-child)
   margin-right: var(--gutter-medium)
 
-.nav__link
+.link
   position: relative
   display: inline-block
   padding: 1rem 0
   text-decoration: none
-  color: #BCB8B1
   transition: all .2s
   &::after
     content: ''

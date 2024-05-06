@@ -5,35 +5,80 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <!-- <link rel="stylesheet" href="index.css" /> -->
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600;700&family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="photoswipe.css" />
+  <link rel="stylesheet" href="photoswipe.js" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600;700&family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css" type="text/css" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 </head>
 
 <body class="flex justify-center text-xl bg-black">
+
+  <div id="app">
+  <div class="pswp-gallery" id="my-gallery">
+    <a
+      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
+      data-pswp-width="1875"
+      data-pswp-height="2500"
+      target="_blank"
+    >
+      <img
+        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
+        alt=""
+      />
+    </a>
+    <a
+      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
+      data-pswp-width="1669"
+      data-pswp-height="2500"
+      target="_blank"
+    >
+      <img
+        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
+        alt=""
+      />
+    </a>
+    <a
+      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
+      data-pswp-width="2500"
+      data-pswp-height="1666"
+      target="_blank"
+    >
+      <img
+        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
+        alt=""
+      />
+    </a>
+  </div>
+</div>
+
   <div class="max-w-screen-2xl">
     <!-- HEADER -->
     <header class="header py-24">
       <!-- NAV -->
       <nav class="nav bg-lime" role="navigation">
-        <ul class="nav__items bg-lime">
+        <ul class="nav__items">
           <li class="nav__item px-8">
-            <a href="#work" class="nav__link bg-lime">Past work</a>
+            <a href="#work" class="link bg-lime">Past work</a>
           </li>
           <li class="nav__item px-8">
-            <a href="#customers" class="nav__link">Customers</a>
+            <a href="#customers" class="link">Customers</a>
           </li>
           <li class="nav__item px-8">
-            <a href="#about" class="nav__link">About me</a>
+            <a href="#about" class="link">About me</a>
           </li>
           <li class="nav__item px-8">
-            <a href="#contact" class="nav__link">Get in contact</a>
+            <a href="#contact" class="link">Get in contact</a>
           </li>
         </ul>
       </nav>
+
       <!-- INTRO -->
       <div class="py-32">
-        <h3 class="text-6xl py-8">
+        <h3 class="text-6xl py-8 text-midnight midnight">
           <span>Jordan Crede</span>
         </h3>
         <ul class="text-xl py-8">
@@ -42,7 +87,7 @@
           <li class="py-2">Unique, creative and collaborative thinker</li>
         </ul>
         <div class="py-12">
-          <a href="#contact" class="rounded-lg border-2 border-yellow-400 text-yellow-500 text-xxl p-4 px-12 hover:text-white hover:border-white hover:bg-yellow-500">Get in contact</a>
+          <a href="#contact" class="rounded-lg border-2 border-yellow-400 text-xxl p-4 px-12 hover:text-white hover:border-white hover:bg-yellow-500">Get in contact</a>
         </div>
       </div>
     </header>
@@ -55,21 +100,30 @@
 
           <!-- Millennium CyberGrad -->
           <div class="flex p-12" style="background-color: #071426;">
-            <div class="w-2/6 pr-12">
-              <h3 class="text-4xl py-4">CyberGrad Cybersecurity Training Software</h3>
-              <p class="text-md py-4">Custom Learning Management System, with an ambitious project timeline - 8 months from inception to project launch. My responsibility was to design and develop new features for a cyber security training application.</p>
+            <div class="w-2/6 pr-12 pr-24">
+              <h3 class="text-4xl pt-12">CyberGrad Cybersecurity Training Software</h3>
+              <p class="text-md py-4">Cybergrad was a custom built Learning Management Software commissioned by the Jordanian goverment to help train their employees in the field of cyber security. The training software allows teachers to assign lessons and quizzes, for students to view and work through those assignments, and for all users to manage their accounts and coursework progress. </p>
+              <p class="text-md py-4"> This custom LMS had an ambitious project timeline - 8 months from inception to project launch. My responsibility was to design and develop new features for a cyber security training application.</p>
+              <p class="text-md py-4">I was also responsible for creating graphic badge sets for the red and blue team courses. </p>
               <ul class="work__list py-4 list-disc list-decimal list-inside">
                 <li>UI/UX</li>
                 <li>Adobe XD</li>
+                <li>Adobe Illustrator</li>
               </ul>
-              <div class="work__links py-4">
-                <a href="https://millgroupinc.com/" target="_blank" class="link__text">Learn more</a>
-              </div><br><br>
             </div>
-            <div class="work__image-box p-4 w-4/6">
-              <img src="./images/cybergrad-login.png" class="" alt="cybergrad cybersecurity training login" /><div class="spacer"></div>
-              <img src="./images/cybergrad-modules-closeup.jpg" class="" alt="cybersecurity learning modules" /><div class="spacer"></div>
-              <img src="./images/cybergrad-dashboard-TM.png" class="" alt="cyber security user dashboard" /><div class="spacer"></div>
+            <div class="w-4/6">
+              <div class="flex flex-col py-12 text-center">
+                <img src="./images/cybergrad-login.png" class="" alt="cybergrad cybersecurity training login" />
+                <h2 class="pt-4 italic">Cybergrad login</h2>
+              </div>
+              <div class="flex flex-col py-12 text-center">
+                <img src="./images/cybergrad-dashboard-TM.png" class="" alt="cyber security user dashboard" />
+                <h2 class="pt-4 italic">Managing learning paths and viewing progress as a teacher</h2>
+              </div>
+              <div class="flex flex-col py-12 text-center">
+                <img src="./images/cybergrad-modules-closeup.jpg" class="" alt="cybersecurity learning modules" />
+                <h2 class="pt-4 italic">Red and Blue Team badge sets</h2>
+              </div>
             </div>
           </div>
 
