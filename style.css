@@ -4,7 +4,6 @@
   --font-stack-3: "Belanosima", sans-serif;
   --font-stack-4: "Abel", sans-serif;
   --black:#151E3F;
-  --green:#F4FF52;
   --orange:#F45552;
   --steel:#636363;
   --midnight:#8A817C;
@@ -193,10 +192,6 @@ img {
   justify-content: flex-end;
 }
 
-.nav__item {
-  color: var(--steel);
-}
-
 .nav__items {
   display: flex;
   font-family: var(--font-stack-3);
@@ -226,12 +221,12 @@ img {
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 .link:hover {
-  color: var(--green);
+  color: var(--white);
 }
 .link:hover::after {
   right: 0;
   height: 2px;
-  background: var(--green);
+  background: var(--white);
 }
 
 .row {
