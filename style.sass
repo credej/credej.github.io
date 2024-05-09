@@ -6,6 +6,7 @@
   --font-stack-4: 'Abel', sans-serif
   --black:#151E3F
   --orange:#F45552
+  --yellow:#facc15
   --steel:#636363
   --midnight:#8A817C
   --white:#F4F3EE
@@ -16,6 +17,9 @@
   padding: 0
   box-sizing: inherit
   border: 1px solid red
+
+a
+  cursor: pointer !important
 
 body
   font-family: var(--font-stack-1)
@@ -36,13 +40,17 @@ h1
 
 h2
   font-family: var(--font-stack-4)
-  color: var(--offwhite)
+  color: var(--yellow)
+  text-transform: uppercase
 
 h3
   font-family: var(--font-stack-3)
   color: var(--white)
   line-height: 3.5rem
   outline: 2px solid transparent
+
+h4
+  font-family: var(--font-stack-4)
 
 p
   margin: var(--gutter-small) 0 
@@ -101,17 +109,14 @@ img
   padding: 100px
   margin-bottom: 6rem
 
-.client__logos
-  display: flex
-  justify-content: space-between
-  filter: invert(100%) grayscale(100%) opacity(0.8)
-  img
-    padding: 0 24px
+.invert
+  filter: invert(100%) grayscale(100%) opacity(0.8) !important
 
-.client__logos>img:hover
+/* doesnt work ? */
+/*.client__logos>img:hover
   display: flex
   justify-content: space-between
-  filter: opacity(1)
+  filter: opacity(1)*/
 
 .client__logo
   height: 90px
@@ -126,12 +131,12 @@ img
 /** 
   border: 1px solid red !important*/
 
-.header
+.header-bg
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./images/header.jpg')
   background-size: cover
   background-attachment: static
 
-.link__text
+/*.link__text
   position: relative
   display: inline-block
   text-decoration: none
@@ -153,22 +158,10 @@ img
     right: 0
     background: var(--green)
   &:hover
-    color: var(--green)
+    color: var(--green)*/
   span
     padding-left: 1rem
     font-family: sans-serif
-
-.nav
-  display: flex
-  justify-content: flex-end
-  
-.nav__items
-  display: flex
-  font-family: var(--font-stack-3)
-  list-style: none
-
-.nav__item:not(:last-child)
-  margin-right: var(--gutter-medium)
 
 .link
   position: relative
@@ -187,11 +180,10 @@ img
     background: var(--white)
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9)
   &:hover
-    color: var(--white)
-    &::after
-      right: 0
-      height: 2px
-      background: var(--white)
+    color: var(--yellow)
+
+.material-symbols-outlined
+  color: var(--yellow)
 
 .row
   max-width: 1280px
@@ -216,6 +208,8 @@ img
     margin-bottom: 5rem
 
 .work__links
+  font-family: var(--font-stack-3)
+  text-transform: uppercase
   a
     color: var(--grey)
     cursor: pointer

@@ -5,6 +5,7 @@
   --font-stack-4: "Abel", sans-serif;
   --black:#151E3F;
   --orange:#F45552;
+  --yellow:#facc15;
   --steel:#636363;
   --midnight:#8A817C;
   --white:#F4F3EE;
@@ -16,6 +17,10 @@
   padding: 0;
   box-sizing: inherit;
   border: 1px solid red;
+}
+
+a {
+  cursor: pointer !important;
 }
 
 body {
@@ -40,7 +45,8 @@ h1 {
 
 h2 {
   font-family: var(--font-stack-4);
-  color: var(--offwhite);
+  color: var(--yellow);
+  text-transform: uppercase;
 }
 
 h3 {
@@ -48,6 +54,10 @@ h3 {
   color: var(--white);
   line-height: 3.5rem;
   outline: 2px solid transparent;
+}
+
+h4 {
+  font-family: var(--font-stack-4);
 }
 
 p {
@@ -118,21 +128,15 @@ img {
   margin-bottom: 6rem;
 }
 
-.client__logos {
-  display: flex;
-  justify-content: space-between;
-  filter: invert(100%) grayscale(100%) opacity(0.8);
-}
-.client__logos img {
-  padding: 0 24px;
+.invert {
+  filter: invert(100%) grayscale(100%) opacity(0.8) !important;
 }
 
-.client__logos > img:hover {
-  display: flex;
-  justify-content: space-between;
-  filter: opacity(1);
-}
-
+/* doesnt work ? */
+/*.client__logos>img:hover
+ * display: flex
+ * justify-content: space-between
+ * filter: opacity(1)*/
 .client__logo {
   height: 90px;
   max-width: 150px;
@@ -148,60 +152,38 @@ img {
 
 /** 
  * border: 1px solid red !important*/
-.header {
+.header-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/header.jpg");
   background-size: cover;
   background-attachment: static;
 }
 
-.link__text {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px solid var(--steel);
-}
-.link__text::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 100%;
-  background: var(--white);
-  height: 100%;
-  z-index: -1;
-  transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
-}
-.link__text:focus {
-  outline: none;
-}
-.link__text:hover::after, .link__text:focus:after {
-  right: 0;
-  background: var(--green);
-}
-.link__text:hover {
-  color: var(--green);
-}
-.link__text span {
-  padding-left: 1rem;
-  font-family: sans-serif;
-}
-
-.nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav__items {
-  display: flex;
-  font-family: var(--font-stack-3);
-  list-style: none;
-}
-
-.nav__item:not(:last-child) {
-  margin-right: var(--gutter-medium);
-}
-
+/*.link__text
+ * position: relative
+ * display: inline-block
+ * text-decoration: none
+ * border-bottom: 1px solid var(--steel)
+ * &::after
+ *  content: ''
+ *  display: block
+ *  position: absolute
+ *  top: 0
+ *  left: 0
+ *  right: 100%
+ *  background: var(--white)
+ *  height: 100%
+ *  z-index: -1
+ *  transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9)
+ * &:focus
+ *  outline: none
+ * &:hover::after, &:focus:after
+ *  right: 0
+ *  background: var(--green)
+ * &:hover
+ *  color: var(--green)*/
+ * span
+ *  padding-left: 1rem
+ *  font-family: sans-serif */
 .link {
   position: relative;
   display: inline-block;
@@ -221,12 +203,11 @@ img {
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 .link:hover {
-  color: var(--white);
+  color: var(--yellow);
 }
-.link:hover::after {
-  right: 0;
-  height: 2px;
-  background: var(--white);
+
+.material-symbols-outlined {
+  color: var(--yellow);
 }
 
 .row {
@@ -257,6 +238,8 @@ img {
 }
 
 .work__links {
+  font-family: var(--font-stack-3);
+  text-transform: uppercase;
   display: flex;
   align-items: center;
 }
