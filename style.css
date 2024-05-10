@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  border: 1px solid red;
 }
 
 a {
@@ -28,10 +27,6 @@ body {
   font-weight: 400;
   color: var(--offwhite);
   overflow-x: hidden;
-}
-
-body:not(.user-is-tabbing) button:focus, body:not(.user-is-tabbing) a:focus {
-  outline: none;
 }
 
 html {
@@ -122,12 +117,6 @@ img {
   color: var(--white);
 }
 
-.container {
-  display: flex;
-  padding: 100px;
-  margin-bottom: 6rem;
-}
-
 .invert {
   filter: invert(100%) grayscale(100%) opacity(0.8) !important;
 }
@@ -184,28 +173,6 @@ img {
  * span
  *  padding-left: 1rem
  *  font-family: sans-serif */
-.link {
-  position: relative;
-  display: inline-block;
-  padding: 1rem 0;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-.link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 100%;
-  display: inline-block;
-  height: 1rem;
-  background: var(--white);
-  transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
-}
-.link:hover {
-  color: var(--yellow);
-}
-
 .material-symbols-outlined {
   color: var(--yellow);
 }
