@@ -10,7 +10,7 @@
   --steel:#636363
   --midnight:#8A817C
   --white:#F4F3EE
-  --offwhite:#BCB8B1
+  --offwhite:#aaaaaa
 
 *
   margin: 0
@@ -19,6 +19,12 @@
 
 a
   cursor: pointer !important
+
+.nav a
+  color: grey
+
+a:hover
+  color: #facc15 !important
 
 body
   font-family: var(--font-stack-1)
@@ -35,7 +41,7 @@ h1
 
 h2
   font-family: var(--font-stack-4)
-  color: var(--yellow)
+  color: var(--yellow-700)
   text-transform: uppercase
 
 h3
@@ -48,9 +54,10 @@ h4
   font-family: var(--font-stack-4)
 
 p
+  line-height: 2.1rem
   margin: var(--gutter-small) 0 
 
-p,h1,h2,h3,h4,h5
+p,h1,h2,h3,h4,h5,li
   cursor: default
 
 a
@@ -60,13 +67,9 @@ img
   object-fit: contain
   max-width: 100%
 
-.about__content
-  display: flex
-  flex-direction: row
-
 .back-to-top
   position: fixed
-  bottom: 4rem  
+  bottom: 4rem
   right: 4rem
   display: flex
   justify-content: center
@@ -107,19 +110,12 @@ img
   display: flex
   justify-content: space-between
   filter: opacity(1)*/
-
-.client__logo
-  height: 90px
-  max-width: 150px
-
+  
 .fas
   margin-left: 10px
 
 .footer__social-image
   height: 4rem
-
-/** 
-  border: 1px solid red !important*/
 
 .header-bg
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./images/header.jpg')
@@ -215,7 +211,3 @@ img
   .work__text
     padding: 4rem 8rem 
     flex: 0 0 25%
-  h2, 
-  .about__content,
-  .contact__info
-    padding: 0 4rem 0

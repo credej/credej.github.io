@@ -1,13 +1,17 @@
-import PhotoSwipeLightbox from './node_modules/src/js/lightbox/lightbox.js';
-import 'photoswipe/style.css';
+/* -----------------------------------------
+  This breaks the arrow button code below FYI*******
+ ---------------------------------------- */
 
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('./node_modules/src/js/photoswipe.js')
-});
+// import PhotoSwipeLightbox from './node_modules/src/js/lightbox/lightbox.js';
+// import 'photoswipe/style.css';
 
-lightbox.init();
+// const lightbox = new PhotoSwipeLightbox({
+//   gallery: '#my-gallery',
+//   children: 'a',
+//   pswpModule: () => import('./node_modules/src/js/photoswipe.js')
+// });
+
+// lightbox.init();
 
 
 /* -----------------------------------------
@@ -54,7 +58,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// test
-alert("Hello, World!");
-// the hello world program
-document.write('Hello, World!');
+// // test
+// alert("Hello, World!");
+// document.write('Hello, World!');

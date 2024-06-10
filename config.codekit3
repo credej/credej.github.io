@@ -414,6 +414,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/mill-designsystem-icons.png" : {
+      "ft" : 32768,
+      "iS" : 532082,
+      "oA" : 0,
+      "oAP" : "\/images\/mill-designsystem-icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/pland-analytics-report.png" : {
       "ft" : 32768,
       "iS" : 158532,
