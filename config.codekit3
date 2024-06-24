@@ -277,6 +277,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/cybergrad-404.png" : {
+      "ft" : 32768,
+      "iS" : 231426,
+      "oA" : 0,
+      "oAP" : "\/images\/cybergrad-404.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/cybergrad-dashboard-TM-closeup.jpg" : {
       "ft" : 16384,
       "iS" : 545888,
@@ -386,7 +399,7 @@
       "oAP" : "\/images\/header.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -427,6 +440,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/pland-analytics-personnel-compliance.png" : {
+      "ft" : 32768,
+      "iS" : 1051454,
+      "oA" : 0,
+      "oAP" : "\/images\/pland-analytics-personnel-compliance.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/pland-analytics-personnel-locale.png" : {
+      "ft" : 32768,
+      "iS" : 925485,
+      "oA" : 0,
+      "oAP" : "\/images\/pland-analytics-personnel-locale.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/pland-analytics-report.png" : {
       "ft" : 32768,
       "iS" : 158532,
@@ -440,6 +479,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/pland-event-edit-history.png" : {
+      "ft" : 32768,
+      "iS" : 189235,
+      "oA" : 0,
+      "oAP" : "\/images\/pland-event-edit-history.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/pland-overdue-reports@2x.pxd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/pland-overdue-reports@2x.pxd",
+      "oF" : 0
+    },
     "\/images\/Resume - Jordan Crede.docx" : {
       "cB" : 0,
       "ft" : 8192,
@@ -447,6 +507,45 @@
       "oA" : 0,
       "oAP" : "\/images\/Resume - Jordan Crede.docx",
       "oF" : 0
+    },
+    "\/images\/scrolld-credential-details.png" : {
+      "ft" : 32768,
+      "iS" : 468735,
+      "oA" : 0,
+      "oAP" : "\/images\/scrolld-credential-details.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/scrolld-login-operations.png" : {
+      "ft" : 32768,
+      "iS" : 479615,
+      "oA" : 0,
+      "oAP" : "\/images\/scrolld-login-operations.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/scrolld-tool-admin.png" : {
+      "ft" : 32768,
+      "iS" : 134575,
+      "oA" : 0,
+      "oAP" : "\/images\/scrolld-tool-admin.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/images\/site-scc-1.jpg" : {
       "ft" : 16384,

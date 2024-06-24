@@ -10,7 +10,8 @@
   --steel:#636363
   --midnight:#8A817C
   --white:#F4F3EE
-  --offwhite:#aaaaaa
+  --offwhite:#bab8b8
+  --grey:#838383
 
 *
   margin: 0
@@ -18,13 +19,15 @@
   box-sizing: inherit
 
 a
+  color: #fef9c3
   cursor: pointer !important
 
 .nav a
-  color: grey
+  color: var(--grey)
 
 a:hover
   color: #facc15 !important
+  text-decoration: underline
 
 body
   font-family: var(--font-stack-1)
@@ -60,9 +63,6 @@ p
 p,h1,h2,h3,h4,h5,li
   cursor: default
 
-a
-  cursor: pointer
-
 img
   object-fit: contain
   max-width: 100%
@@ -76,7 +76,7 @@ img
   align-items: center
   height: 5.5rem
   width: 5.5rem
-  background-color: var(--midnight)
+  background-color: #1f1f1f
   border-radius: 50%
   z-index: 10
   visibility: hidden
@@ -118,7 +118,7 @@ img
   height: 4rem
 
 .header-bg
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./images/header.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/header.jpg')
   background-size: cover
   background-attachment: static
 
@@ -173,17 +173,6 @@ img
     max-width: 100%
   img:not(:last-child)
     margin-bottom: 5rem
-
-.work__links
-  font-family: var(--font-stack-3)
-  text-transform: uppercase
-  a
-    color: var(--grey)
-    cursor: pointer
-  display: flex
-  align-items: center
-  i 
-    color: var(--grey)
 
 /*@font-face
   font-style: normal
