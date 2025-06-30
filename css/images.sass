@@ -1,0 +1,279 @@
+.badge
+  p
+    color: #265E55 !important
+    text-indent: 0 !important
+
+.dw
+  -moz-column-gap: 0 
+  column-gap: 0 
+  position: relative
+
+.dw,
+.dw * 
+  box-sizing: border-box
+
+.dw__focus-curtain 
+  background-color: #000 
+  bottom: 0 
+  display: none 
+  left: 0 
+  opacity: 0.75 
+  position: fixed 
+  right: 0 
+  top: 0 
+  z-index: 2
+
+.dw-panel 
+  margin: 0 
+  padding: 5px
+
+.dw-panel--focus 
+  position: relative 
+  &:hover 
+    z-index: 3 
+    & ~ .dw__focus-curtain 
+      display: block
+
+.dw-panel--pulse 
+  perspective: 1000px 
+  transform-style: preserve-3d 
+  transition: transform 0.25s ease 0s 
+  &:hover 
+    transform: scale(1.02)
+
+.dw-panel__content 
+  border-radius: 10px 
+  overflow: hidden 
+  padding: 20px 
+  width: 100%
+
+.dw-flip 
+  perspective: 1000px 
+  &:hover 
+    .dw-flip__content 
+      transform: rotateY(180deg)
+
+.dw-flip--sm 
+  height: 200px
+
+.dw-flip--md 
+  height: 300px
+
+.dw-flip--lg 
+  height: 400px
+
+.dw-flip__panel 
+  backface-visibility: hidden 
+  border-radius: 10px 
+  height: 100% 
+  left: 0 
+  overflow: visible 
+  padding: 20px 
+  position: absolute 
+  top: 0 
+  width: 100%
+
+.dw-flip__panel--front 
+  transform: rotateY(0deg)
+  z-index: 2
+
+.dw-flip__panel--back 
+  transform: rotateY(180deg)
+
+.dw-flip__content 
+  height: 100% 
+  overflow: visible 
+  position: relative 
+  transform-style: preserve-3d 
+  transition: 0.25s
+
+.dw-cluster 
+  display: flex 
+  padding: 0
+
+.dw-cluster--horizontal 
+  flex-direction: column
+
+.dw-cluster__segment 
+  display: flex 
+  flex: 1 1 auto
+
+.dw-cluster__segment--row 
+  display: flex
+
+.dw-cluster__segment--col 
+  flex-direction: column
+
+.kg-card 
+  margin: 6rem 0
+
+.kg-embed-card 
+  align-items: flex-start 
+  display: flex 
+  flex-direction: column 
+  min-width: 100%
+
+.kg-image 
+  width: 100% 
+  max-width: 100%
+
+.kg-image-no-width 
+  max-width: 100%
+
+.kg-card 
+  figcaption 
+    color: var(--color-light) 
+    font-size: var(--font-xs)
+    font-weight: var(--font-bold) 
+    line-height: 1.4em 
+    padding: 1.8rem 
+    text-align: center
+
+.kg-card-large
+  padding-bottom: 6rem
+
+.kg-width-full, .kg-width-wide 
+  margin-left: 0 
+  max-width: 720px 
+  min-width: 100% 
+  position: relative
+
+.kg-width-full 
+  figcaption 
+    padding-left: 0 
+    padding-right: 0 
+    text-align: left 
+    padding-left: 6vw
+
+.kg-gallery-container 
+  margin-left: 0 
+  max-width: 720px 
+  min-width: 100%
+
+.kg-gallery-image 
+  & > a 
+    &:hover 
+      & > img 
+        transform: scale(1.1) 
+  &:hover 
+    & > img 
+      transform: scale(1.1) 
+  img 
+    transform: scale(1) 
+    transition: all 0.15s ease
+
+.kg-gallery-image-svg 
+  display: flex 
+  align-items: flex-start 
+  min-height: 450px 
+  padding: 2rem 2rem !important 
+  display: flex 
+  flex-direction: column 
+  align-items: center 
+  & > img 
+    width: 150px 
+  & > h3 
+    color: #51988A
+    cursor: default 
+    font-family: "Fugaz One", sans-serif 
+    font-family: "Reddit Mono", monospace 
+    font-family: "Yellowtail", monospace 
+    font-size: 1.4rem 
+    margin: 24px 0 0
+    text-align: center 
+    text-transform: uppercase 
+  & > p 
+    color: #2E524C
+    cursor: default 
+    font-family: "Yellowtail", monospace 
+    font-size: 0.8rem 
+    text-align: center
+
+.kg-gallery-card + .kg-gallery-card, .kg-gallery-card + .kg-image-card.kg-width-wide 
+  margin-top: calc(-7vw + 0.75em)
+
+.kg-image-card.kg-width-wide + .kg-gallery-card, .kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide
+  margin-top: calc(-7vw + 0.75em)
+
+.kg-bookmark-card 
+  margin: 2vw 0
+
+.kg-bookmark-container 
+  color: var(--color-base) 
+  display: flex 
+  min-height: 148px 
+  text-decoration: none 
+  &:hover 
+    text-decoration: none 
+    .kg-bookmark-title 
+      color: var(--color-primary) 
+      opacity: 1
+
+.kg-bookmark-content 
+  align-items: flex-start 
+  display: flex 
+  flex-direction: column 
+  flex-grow: 1 
+  justify-content: flex-start 
+  padding: calc(var(--margin) * 1.75) 0 
+  padding: var(--margin) 
+  order: 2
+
+.kg-bookmark-title 
+  color: var(--color-base) 
+  font-size: 100% 
+  font-weight: var(--font-bold) 
+  line-height: 1.5em
+
+.kg-bookmark-description 
+  display: -webkit-box 
+  font-size: 90% 
+  font-weight: var(--font-normal) 
+  line-height: 1.5em 
+  margin-top: var(--margin) 
+  max-height: 3em 
+  overflow-y: hidden 
+  -webkit-line-clamp: 2 
+  -webkit-box-orient: vertical
+
+.kg-bookmark-thumbnail 
+  max-height: 100% 
+  min-width: 33% 
+  position: relative 
+  min-height: 22rem 
+  order: 1 
+  width: 100% 
+  img 
+    height: 100% 
+    left: 0 
+    -o-object-fit: cover 
+    object-fit: cover 
+    position: absolute 
+    top: 0 
+    width: 100%
+
+.kg-bookmark-metadata 
+  align-items: center 
+  display: flex 
+  flex-wrap: wrap 
+  font-size: 90% 
+  font-weight: var(--font-normal) 
+  margin-top: var(--margin)
+
+.kg-bookmark-icon 
+  height: 24px 
+  margin-right: 8px 
+  width: 24px 
+
+.kg-bookmark-author
+  line-height: 1.5em 
+  &:before 
+    content: "—" 
+    margin: 0 6px 
+
+.kg-bookmark-publisher 
+  line-height: 1.5em 
+  max-width: 240px 
+  overflow: hidden 
+  text-overflow: ellipsis 
+  white-space: nowrap

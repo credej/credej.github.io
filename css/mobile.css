@@ -1,0 +1,198 @@
+@media (max-width:var(--xsmall )) {
+    .actions: not(.fixed) {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%!important;
+}
+}
+
+@media (max-width:800px) {
+    .kg-width-full {
+    width: 100vw;
+}
+}
+
+@media (max-width:850px) {
+    .kg-bookmark-card {
+    margin: 7vw 0;
+}
+}
+
+@media (max-width:500px) {
+    .kg-bookmark-container {
+    flex-direction: column;
+}
+}
+
+@media (max-width:800px) {
+    .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    flex-basis: 50%;
+    max-width: 50%
+}
+}
+@media (max-width:600px) {
+    .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    flex-basis: 100%;
+    max-width: 100%}
+}
+}
+
+@media (min-width:768px) {
+    .dw {
+        -moz-column-count: 2;
+        column-count: 2
+    }
+}
+
+@media (min-width:992px) {
+    .dw {
+        -moz-column-count: 4;
+        column-count: 4
+    }
+}
+
+@media (min-width:768px) {
+    .dw-panel {
+        page-break-inside: avoid;
+        -moz-column-break-inside: avoid;
+        break-inside: avoid
+    }
+}
+
+@media (max-width:430px) {
+    .dw-cluster--vertical {
+        flex-direction: column
+    }
+}
+
+@media (max-width:430px) {
+    .dw-cluster__segment--row {
+        flex-direction: column
+    }
+}
+
+@media (min-width:430px) {
+    .dw-cluster__segment--half {
+        flex-basis: 50%
+    }
+
+    .dw-cluster__segment--quart {
+        flex-basis: 25%
+    }
+}
+
+@media (max-width:1200px) {
+    .post-card.no-image .post-card-title {
+        font-size: 3.4rem
+    }
+}
+
+@media (max-width:700px) {
+    .post-card.no-image:before {
+        font-size: 50vw
+    }
+}
+
+@media (max-width:700px) {
+    .post-card {
+        flex: 1 1 100%;
+        height: 70vw
+    }
+}
+
+@media (max-width:500px) {
+    .post-content-body {
+        font-size: 1.7rem
+    }
+}
+
+@media (max-height:1000px) {
+    .site-head-scrolldown>.scrolldown-text {
+        display: block
+    }
+}
+
+@media (max-width:850px) {
+    .site-head {
+        padding: 0 0 20px
+    }
+
+    .site-head-container {
+        background: hsla(0, 0%, 100%, 0);
+        display: block
+    }
+
+    .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 3vw 0 0;
+        width: 100%
+    }
+
+    .site-head-center {
+        display: flex;
+        justify-content: left;
+        order: 1;
+        position: static;
+        z-index: auto
+    }
+
+    .social-links {
+        align-items: flex-start;
+        flex-direction: column
+    }
+}
+
+@media (max-width:800px) {
+    .site-wrapper {
+        padding: 72px 24px; {
+            p {border: 1px solid rebeccapurple;}
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .page-head-logo>pre {
+        font-size: 1.1rem;
+        line-height: 1.3rem
+    }
+}
+
+@media (max-width:700px) {
+    .post-card.with-image .post-card-content {
+        opacity: 1
+    }
+}
+
+@media (max-width: 768px) {
+  .date-field {
+    justify-content: space-evenly;
+  }
+  .date-field div.day-of-week {
+    display: none;
+  }
+  .date-field div.day-of-week-mobile {
+    display: inline-block;
+  }
+  .date-field div.day-of-week-mobile p {
+    font-size: 56px;
+    margin-top: -2px;
+  }
+}
+@media (max-width:550px) {
+  .date-field div.day-of-week-mobile p {
+    font-size: 50px;
+    margin-top: 0px;
+  }
+}
+@media (max-width:468px) {
+  .date-field div.day-of-week-mobile p {
+    font-size: 42px;
+  }
+}
+@media (max-width:400px) {
+  .date-field div.day-of-week-mobile p {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang=en>
+   <head>
+      <title>test</title>
+      <meta name=description content="my bookmarks">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="../../../components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="../../../components/header-min.js" type="text/javascript" defer></script>
+      <script src="../../../components/index-min.js" type="text/javascript" defer></script>
+
+      <!-- THREE.JS  -->
+      <script src='https://devildrey33.github.io/ObjetoCanvas/JS/three.min.js'></script>
+      <!-- Simplified object for 2D and THREE.js canvas (designed for my web page banners and for doing tests with them) -->
+      <!-- Can work in 2 ways, normal / test mode, and banner mode (for my web page headers) -->
+      <link rel='stylesheet' href='https://devildrey33.github.io/ObjetoCanvas/CSS/ObjetoCanvas.css'></link><script src='https://devildrey33.github.io/ObjetoCanvas/JS/ObjetoCanvas.js'></script></script>
+
+      <head-links></head-links>
+   </head>
+<style>
+* {
+    box-sizing: border-box;
+}
+ @-webkit-keyframes ticker {
+    0% {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+       visibility: visible;
+   }
+    100% {
+       -webkit-transform: translate3d(-100%, 0, 0);
+       transform: translate3d(-100%, 0, 0);
+   }
+}
+ @keyframes ticker {
+    0% {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+       visibility: visible;
+   }
+    100% {
+       -webkit-transform: translate3d(-100%, 0, 0);
+       transform: translate3d(-100%, 0, 0);
+   }
+}
+ .ticker-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 100%;
+    box-sizing: content-box;
+    text-transform: uppercase;
+    z-index: 9999;
+   font-family: "Doto", sans-serif;
+}
+ .ticker-wrap .ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+}
+ .ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: white;
+}
+ body {
+    padding-bottom: 5rem;
+}
+ h1, h2, p {
+    padding: 0 5%;
+}
+ 
+
+   </style>
+      <style>
+         @keyframes pulsate {
+           100% {
+               text-shadow: 
+               0 0 4px #fff, 
+               0 0 11px #fff, 
+               0 0 19px #fff, 
+               0 0 40px #5271ff, 
+               0 0 80px #5271ff, 
+               0 0 90px #5271ff, 
+               0 0 100px #5271ff, 
+               0 0 150px #5271ff;
+           }
+           0% {
+             text-shadow: 
+             0 0 4px #fff, 
+             0 0 10px #fff, 
+             0 0 18px #fff, 
+             0 0 38px #5271ff, 
+             0 0 73px #5271ff, 
+             0 0 80px #5271ff, 
+             0 0 94px #5271ff, 
+             0 0 140px #5271ff;
+          }
+
+         .neonText {
+           color: #fff;
+           text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #5271ff, 0 0 82px #5271ff, 0 0 92px #5271ff, 0 0 102px #5271ff, 0 0 151px #5271ff;
+            }  
+          .neon-bg {
+    background-image: radial-gradient(at 83% 22%, rgba(174, 239, 82, 1) 0px, transparent 50%), radial-gradient(at 88% 74%, rgba(234, 234, 102, 1) 0px, transparent 50%), radial-gradient(at 26% 1%, rgba(219, 87, 199, 1) 0px, transparent 50%), radial-gradient(at 74% 48%, rgba(237, 118, 94, 1) 0px, transparent 50%), radial-gradient(at 58% 15%, rgba(249, 102, 151, 1) 0px, transparent 50%), radial-gradient(at 87% 10%, rgba(219, 115, 97, 1) 0px, transparent 50%), radial-gradient(at 49% 16%, rgba(130, 136, 248, 1) 0px, transparent 50%); }
+
+         .site-wrapper {
+            background-color: none !important;
+         }
+
+         .box-shadow-pink {
+            box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+         }
+}
+      </style>
+   </head>
+
+   <body>
+      <div class="header-wrapper"><header-component></header-component></div>
+
+      <div class="ticker-wrap">
+         <div class="ticker">
+           <div class="ticker__item"><a href="https://www.tysonfoods.com/news/news-releases/2023/10/tyson-foods-announces-partnership-protix-more-sustainable-protein" target="_blank">Tyson Foods announces partnership with leading global insect ingredients company... </a></div>
+           <div class="ticker__item"><a href="https://www.youtube.com/results?search_query=nhl+game+highlights" target="_blank">NHL playoff highlights... </a></div>
+           <div class="ticker__item"><a href="https://www.theguardian.com/environment/2025/apr/22/uk-scientists-outdoor-geoengineering-experiments" target="_blank"></span>Bill Gates to block out the sun... </a></div>
+         </div>
+      </div>
+      
+      <!---------- MAIN ---------->
+      <div class="site-wrapper">
+         <main id=site-main class="site-main flex justify-center align-center">
+            <article class="post-content post page">
+               <h1 class="neonText text-center mt-24 article-content-title">Emma's Website</h1>
+               <div class=post-content-image>
+                  <a href="https://bitcoin.org/bitcoin.pdf"><img class="kg-image grayscale " src="images/banner-bookmark.jpg" alt=Bookmarks></a>
+               </div>
+               <div class="post-content-body columns-3 gap-x-36">
+               </div>
+
+            </article>
+                  
+            <div class="quote flex">
+               <p class="quote-text">"You don’t always know if you’re doing the right thing, but you always know when you’re doing the wrong thing”</p>
+               <p class="quote-by">- comedian Rich Vos</p>
+            </div>
+            
+            <div class="quote flex">
+               <p class="quote-text">"You can't keep blaming yourself - blame yourself, and move on"</p>
+               <p class="quote-by">- Homer Simpson</p>
+            </div>
+
+            <span class="material-symbols-outlined text-yellow-500">hotel_class</span>
+
+         </main>
+         <footer class=site-foot>
+            <a href="../index.html">back to top</a>
+            <a href="../index.html">next</a>
+         </footer>
+      </div>
+   </body>
+   /* CLOCK/DATE SCRIPT */
+   <script>
+         (() => {
+      const init = () => {
+         updateClock();
+         setInterval(() => {
+            updateClock();
+         }, 1000);
+      };
+
+      const updateClock = () => {
+         resetClock();
+         getCurrentTime();
+         displayCurrentTime();
+      };
+
+      const getCurrentTime = () => {
+         let fullDate = new Date();
+         let month = fullDate.getMonth();
+         let date = fullDate.getDate();
+         let year = fullDate.getFullYear();
+         let day = fullDate.getDay();
+         let   hours = fullDate.getHours();
+         let   minutes = fullDate.getMinutes();
+         let   seconds = fullDate.getSeconds();
+         let period = (hours >= 12) ? "pm" : "am";
+
+         window.clock = {};
+         window.clock.time = {
+            fullDate: fullDate,
+            month: month,
+            date: date,
+            year: year,
+            day: day,
+            hours: hours,
+            minutes: minutes,
+            seconds: seconds,
+            period: period
+         };
+      };
+
+      const displayCurrentTime = () => {
+         let day = window.clock.time.day;
+         let month = window.clock.time.month;
+         let date = window.clock.time.date;
+         let year = window.clock.time.year;
+         let hours = window.clock.time.hours;
+         let minutes = window.clock.time.minutes;
+         let seconds = window.clock.time.seconds;
+         let period = window.clock.time.period;
+
+         //formats hours and time zone
+         hours = (hours > 12) ? (hours - 19) : hours;
+         hours = (hours === 0) ? 12 : hours;
+         hours = (hours <= 9) ? ("0" + hours) : hours;
+         //formats minutes
+         minutes = (minutes <= 9) ? ("0" + minutes) : minutes;
+         //formats seconds
+         seconds = (seconds <= 9) ? ("0" + seconds) : seconds;
+         //formats day
+         let days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+         let dayText = ``;
+         if(days[day].length === 6) dayText = `<span style="color: #0a0a16;">ooo</span>${days[day]}`;
+         if(days[day].length === 7) dayText = `<span style="color: #0a0a16;">oo</span>${days[day]}`;
+         if(days[day].length === 8) dayText = `<span style="color: #0a0a16;">o</span>${days[day]}`;
+         if(days[day].length === 9) dayText = `<span style="color: #0a0a16;"></span>${days[day]}`;
+         //formats mobile day
+         let mobileDays = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+         //formats month
+         let months = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+         //formats date
+         date = (date <= 9) ? ("0" + date) : date;
+
+         // targets the html
+         const dayHtml = document.getElementsByClassName('day-alpha')[0];
+         const mobileDayHtml = document.getElementsByClassName('day-alpha-mobile')[0];
+         const monthHtml = document.getElementsByClassName('month-alpha')[0];
+         const dateHtml = document.getElementsByClassName('date-number')[0];
+         const yearHtml = document.getElementsByClassName('year-number')[0];
+         const hoursHtml = document.getElementsByClassName('hours')[0];
+         const minutesHtml = document.getElementsByClassName('minutes')[0];
+         const secondsHtml = document.getElementsByClassName('seconds')[0];
+         const periodHtml = document.getElementsByClassName(period)[0];
+
+         // changes the html values
+         dayHtml.innerHTML = dayText;
+         mobileDayHtml.innerHTML = mobileDays[day];
+         monthHtml.innerHTML = months[month];
+         dateHtml.innerHTML = date;
+         yearHtml.innerHTML = year;
+         hoursHtml.innerHTML = hours;
+         minutesHtml.innerHTML = minutes;
+         secondsHtml.innerHTML = seconds;
+         periodHtml.classList.add("light-on");
+      };
+
+      const resetClock = () => {
+         const lights = document.querySelectorAll(".light-on");
+
+         if(lights) {
+            lights.forEach(item => {
+               item.classList.remove("light-on")
+            });
+         }
+      };
+
+      return init();
+   })()
+   </script>   
+   <script>
+      /* Plantilla para crear banners animados en devildrey33.es */
+      // Constructor
+      var Banner_WormHole = function() {
+          
+          // Llamo al constructor del ObjetoBanner
+          if (ObjetoCanvas.call(this, { 
+              'Tipo'          : 'THREE',
+              'Ancho'         : 'Auto',
+              'Alto'          : 'Auto',
+              'Entorno'       : 'Normal',
+              'Idioma'        : 'en',
+              'MostrarFPS'    : true,
+              'Pausar'        : true,             // Pausa el canvas si la pestaña no tiene el foco del teclado
+              'ElementoRaiz'  : '',
+              'CapturaEjemplo': "WormHole.png"                // Captura de pantalla para el ejemplo a "WormHole.png" se le añadirá "https://devildrey33.es/Web/Graficos/250x200_"
+          }) === false) { return false; }
+      };
+
+      Banner_WormHole.prototype = Object.assign( Object.create(ObjetoCanvas.prototype) , {
+          constructor     : Banner_WormHole, 
+          // Datos de la animación [requerido]
+          Nombre          : "WormHole",
+          IdeaOriginal    : "devildrey33",
+          URL             : "/Lab/Ejemplos/BannerTest/WormHole.html",
+          NombreURL       : "Lab : WormHole",    
+          // Función que se llama al redimensionar el documento
+          Redimensionar   : function()     { },
+          // Función que se llama al hacer scroll en el documento    
+          Scroll          : function()     { },
+          // Función que se llama al mover el mouse por el canvas    
+          
+          Iniciar         : function() {
+              this.Escena = new THREE.Scene();
+
+              this.Camara = new THREE.PerspectiveCamera(75, this.Ancho / this.Alto, 0.5, 1000);
+              // Preparo la camara
+              this.Camara.position.set( 0, 0, 500 );
+              this.Escena.add(this.Camara);
+              this.H = 0;
+              this.H2 = 0.05;
+
+              this.TexturasCargadas = 0;
+              this.TotalTexturas = 2;
+              this.Tunel   = [];   // array de tuneles 
+              this.Textura = []; // array de texturas
+
+
+              this.TexturaCargada = function(Num, Textura) {
+                  Textura.wrapT = Textura.wrapS = THREE.RepeatWrapping;
+                  Textura.repeat.set( 1, 2 );
+                  this.Tunel[Num] = new THREE.Mesh(
+                      new THREE.CylinderGeometry( (Num * 10) + 50, (Num * 10) + 50, 1000, 16, 32, true ),
+                      new THREE.MeshBasicMaterial({ 
+                          color: 0x666666,
+                          transparent: true,
+                          alphaMap: Textura,
+                          side: THREE.BackSide,
+                          opacity: (Num === 0) ? 0.3 : 1 // El primer tubo es translucido con humo, el segundo es solido con rayos
+                      })
+                  );
+                  this.Tunel[Num].rotation.x = 90 * (Math.PI / 180);  // 45 grados
+                  this.Tunel[Num].position.z = 128 - Num;             // Por alguna razón que no entiendo, si la Z del segundo tubo es mayor o igual que la Z del primer tubo, el segundo tubo no se ve...
+                  this.Escena.add(this.Tunel[Num]);
+                  this.Textura[Num] = Textura;        
+
+                  this.TexturasCargadas ++;
+                  // La textura se ha cargado, retiro la ventana que avisa al usuario de la carga.
+                  if (this.TexturasCargadas === this.TotalTexturas) { this.Cargando(false); }
+              };
+              var Cargador = new THREE.TextureLoader();
+              Cargador.crossOrigin = "";
+              Cargador.load('https://cdn.rawgit.com/devildrey33/devildrey33/ddb01d71/Web/Graficos/Banner_WormHole11.jpg', this.TexturaCargada.bind(this, 0) );    
+              var Cargador2 = new THREE.TextureLoader();
+              Cargador2.crossOrigin = "";
+              Cargador2.load('https://cdn.rawgit.com/devildrey33/devildrey33/ddb01d71/Web/Graficos/Banner_WormHole1.2.jpg', this.TexturaCargada.bind(this, 1) );
+
+              this.Camara.lookAt(this.Escena.position);    
+          },
+          
+          // Función que pinta cada frame de la animación
+          Pintar          : function() {    
+              if (typeof(this.Tunel[0]) !== 'undefined') {
+                  this.H += 0.001;
+                  if (this.H > 1) { this.H = 0; }
+                  this.Tunel[0].material.color.setHSL(this.H, 0.7, 0.7);
+
+                  // Rotación del tunel
+                  this.Tunel[0].rotation.y += 0.02;
+                  // Textura infinita avanzando y rotando
+      //            this.Textura.offset.z += 0.01;
+                  this.Textura[0].offset.y -= 0.014;
+              }
+
+              if (typeof(this.Tunel[1]) !== 'undefined') {
+                  // Color del tunel
+                  this.H2 += 0.001;
+                  if (this.H2 > 1) { this.H2 = 0; }
+                  this.Tunel[1].material.color.setHSL(this.H2, 0.7, 0.7);
+
+                  // Rotación del tunel
+                  this.Tunel[1].rotation.y -= 0.017;
+                  // Textura infinita avanzando y rotando
+                  this.Textura[1].offset.y -= 0.019;
+              }        
+              this.Context.render(this.Escena, this.Camara);
+          }
+      });
+      var Canvas = new Banner_WormHole;
+   </script>
+</html>

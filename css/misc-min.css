@@ -1,0 +1,836 @@
+/* SPACE BG EFFECT
+body {background: #000 !important;}
+.space {
+    border: 1px solid pink !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -42vw -4vh 0px 0px #fff,25vw -41vh 0px 0px #fff,-20vw 49vh 0px 1px #fff,5vw 40vh 1px 1px #fff,29vw 19vh 1px 0px #fff,-44vw -13vh 0px 0px #fff,46vw 41vh 0px 1px #fff,-3vw -45vh 0px 1px #fff,47vw 35vh 1px 0px #fff,12vw -8vh 1px 0px #fff,-34vw 48vh 1px 1px #fff,32vw 26vh 1px 1px #fff,32vw -41vh 1px 1px #fff,0vw 37vh 1px 1px #fff,34vw -26vh 1px 0px #fff,-14vw -49vh 1px 0px #fff,-12vw 45vh 0px 1px #fff,-44vw -33vh 0px 1px #fff,-13vw 41vh 0px 0px #fff,-36vw -11vh 0px 1px #fff,-23vw -24vh 1px 0px #fff,-38vw -27vh 0px 1px #fff,16vw -19vh 0px 0px #fff,28vw 33vh 1px 0px #fff,-49vw -4vh 0px 0px #fff,16vw 32vh 0px 1px #fff,36vw -18vh 1px 0px #fff,-25vw -30vh 1px 0px #fff,-23vw 24vh 0px 1px #fff,-2vw -35vh 1px 1px #fff,-25vw 9vh 0px 0px #fff,-15vw -34vh 0px 0px #fff,-8vw -19vh 1px 0px #fff,-20vw -20vh 1px 1px #fff,42vw 50vh 0px 1px #fff,-32vw 10vh 1px 0px #fff,-23vw -17vh 0px 0px #fff,44vw 15vh 1px 0px #fff,-40vw 33vh 1px 1px #fff,-43vw 8vh 0px 0px #fff,-48vw -15vh 1px 1px #fff,-24vw 17vh 0px 0px #fff,-31vw 50vh 1px 0px #fff,36vw -38vh 0px 1px #fff,-7vw 48vh 0px 0px #fff,15vw -32vh 0px 0px #fff,29vw -41vh 0px 0px #fff,2vw 37vh 1px 0px #fff,7vw -40vh 1px 1px #fff,15vw 18vh 0px 0px #fff,25vw -13vh 1px 1px #fff,-46vw -12vh 1px 1px #fff,-18vw 22vh 0px 0px #fff,23vw -9vh 1px 0px #fff,50vw 12vh 0px 1px #fff,45vw 2vh 0px 0px #fff,14vw -48vh 1px 0px #fff,23vw 43vh 0px 1px #fff,-40vw 16vh 1px 1px #fff,20vw -31vh 0px 1px #fff,-17vw 44vh 1px 1px #fff,18vw -45vh 0px 0px #fff,33vw -6vh 0px 0px #fff,0vw 7vh 0px 1px #fff,-10vw -18vh 0px 1px #fff,-19vw 5vh 1px 0px #fff,1vw 42vh 0px 0px #fff,22vw 48vh 0px 1px #fff,39vw -8vh 1px 1px #fff,-6vw -42vh 1px 0px #fff,-47vw 34vh 0px 0px #fff,-46vw 19vh 0px 1px #fff,-12vw -32vh 0px 0px #fff,-45vw -38vh 0px 1px #fff,-28vw 18vh 1px 0px #fff,-38vw -46vh 1px 1px #fff,49vw -6vh 1px 1px #fff,-28vw 18vh 1px 1px #fff,10vw -24vh 0px 1px #fff,-5vw -11vh 1px 1px #fff,33vw -8vh 1px 0px #fff,-16vw 17vh 0px 0px #fff,18vw 27vh 0px 1px #fff,-8vw -10vh 1px 1px #fff;
+  */
+  /* stars were too big with the layers above but left the code in case no one cares  -- as in, if noone's just that  one other loner who actually cares    */
+  /*
+  box-shadow: 24vw 9vh 1px 0px #fff,12vw -24vh 0px 1px #fff,-45vw -22vh 0px 0px #fff,-37vw -40vh 0px 1px #fff,29vw 19vh 0px 1px #fff,4vw -8vh 0px 1px #fff,-5vw 21vh 1px 1px #fff,-27vw 26vh 1px 1px #fff,-47vw -3vh 1px 1px #fff,-28vw -30vh 0px 1px #fff,-43vw -27vh 0px 1px #fff,4vw 22vh 1px 1px #fff,36vw 23vh 0px 0px #fff,-21vw 24vh 1px 1px #fff,-16vw 2vh 1px 0px #fff,-16vw -6vh 0px 0px #fff,5vw 26vh 0px 0px #fff,-34vw 41vh 0px 0px #fff,1vw 42vh 1px 1px #fff,11vw -13vh 1px 1px #fff,48vw -8vh 1px 0px #fff,22vw -15vh 0px 0px #fff,45vw 49vh 0px 0px #fff,43vw -27vh 1px 1px #fff,20vw -2vh 0px 0px #fff,8vw 22vh 0px 1px #fff,39vw 48vh 1px 1px #fff,-21vw -11vh 0px 1px #fff,-40vw 45vh 0px 1px #fff,11vw -30vh 1px 0px #fff,26vw 30vh 1px 0px #fff,45vw -29vh 0px 1px #fff,-2vw 18vh 0px 0px #fff,-29vw -45vh 1px 0px #fff,-7vw -27vh 1px 1px #fff,42vw 24vh 0px 0px #fff,45vw -48vh 1px 0px #fff,-36vw -18vh 0px 0px #fff,-44vw 13vh 0px 1px #fff,36vw 16vh 0px 1px #fff,40vw 24vh 0px 0px #fff,18vw 11vh 0px 0px #fff,-15vw -23vh 1px 0px #fff,-24vw 48vh 0px 1px #fff,27vw -45vh 1px 0px #fff,-2vw -24vh 0px 1px #fff,-15vw -28vh 0px 0px #fff,-43vw 13vh 1px 0px #fff,7vw 27vh 1px 0px #fff,47vw 5vh 0px 0px #fff,-45vw 15vh 1px 1px #fff,-5vw -28vh 0px 1px #fff,38vw 25vh 1px 1px #fff,-39vw -1vh 1px 0px #fff,5vw 0vh 1px 0px #fff,49vw 13vh 0px 0px #fff,48vw 10vh 0px 1px #fff,19vw -28vh 0px 0px #fff,4vw 7vh 0px 0px #fff,21vw 21vh 1px 1px #fff,-15vw -15vh 0px 1px #fff,-6vw -42vh 1px 0px #fff,-15vw 48vh 1px 1px #fff,-23vw 25vh 1px 1px #fff,-48vw 25vh 0px 1px #fff,-31vw -19vh 0px 1px #fff,4vw 37vh 1px 1px #fff,-43vw 28vh 0px 0px #fff,3vw -25vh 0px 1px #fff,-39vw 14vh 0px 1px #fff,-40vw 31vh 0px 1px #fff,35vw -36vh 1px 1px #fff,16vw 49vh 0px 0px #fff,6vw 39vh 0px 0px #fff,3vw -35vh 0px 1px #fff,-44vw -2vh 1px 0px #fff,-6vw 21vh 1px 0px #fff,48vw 9vh 1px 1px #fff,-43vw 30vh 1px 1px #fff,29vw -12vh 1px 1px #fff,-48vw 13vh 1px 0px #fff,-42vw 32vh 1px 1px #fff,34vw 15vh 1px 1px #fff,29vw -37vh 1px 1px #fff,28vw 2vh 0px 0px #fff;
+  animation: zoom 16s alternate infinite; 
+}
+
+*/
+  /*
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+*/
+/*
+
+form
+  margin: 0 0 var(--margin) 0
+
+fieldset
+  border: 0
+  margin: 0
+  padding: 0
+
+label
+  color: var(--color-primary)
+  display: block
+  font-size: .9em
+  font-weight: var(--font-bold)
+  margin: 0 0 calc(var(--margin)*.5) 0
+
+input
+  &[type=email], &[type=password], &[type=search], &[type=tel], &[type=text], &[type=url]
+    background: var(--color-bg)
+    border: none
+    border: 1px solid var(--color-border)
+    border-radius: var(--radius)
+    color: inherit
+    display: block
+    outline: 0
+    padding: 0 .6em
+    text-decoration: none
+    width: 100%
+
+select, textarea
+  background: var(--color-bg)
+  border: none
+  border: 1px solid var(--color-border)
+  border-radius: var(--radius)
+  color: inherit
+  display: block
+  outline: 0
+  padding: 0 .6em
+  text-decoration: none
+  width: 100%
+
+  &:focus::-ms-value
+    background-color: transparent
+
+  &::-ms-expand
+    display: none
+
+
+input
+  &[type=email], &[type=password], &[type=search], &[type=tel], &[type=text], &[type=url]
+    background: var(--color-bg)
+    border: none
+    border: 1px solid var(--color-border)
+    border-radius: var(--radius)
+    color: inherit
+    display: block
+    outline: 0
+    padding: 0 .6em
+    text-decoration: none
+    width: 100%
+
+select, textarea
+  background: var(--color-bg)
+  border: none
+  border: 1px solid var(--color-border)
+  border-radius: var(--radius)
+  color: inherit
+  display: block
+  outline: 0
+  padding: 0 .6em
+  text-decoration: none
+  width: 100%
+
+input
+  &[type=email]:invalid, &[type=password]:invalid, &[type=search]:invalid, &[type=tel]:invalid, &[type=text]:invalid, &[type=url]:invalid
+    box-shadow: none
+
+select:invalid, textarea:invalid
+  box-shadow: none
+
+input
+  &[type=email]:focus, &[type=password]:focus, &[type=search]:focus, &[type=tel]:focus, &[type=text]:focus, &[type=url]:focus
+    border-color: var(--color-primary)
+    box-shadow: 0 0 0 1px var(--color-primary)
+
+select:focus, textarea:focus
+  border-color: var(--color-primary)
+  box-shadow: 0 0 0 1px var(--color-primary)
+
+select
+  height: var(--height)
+  padding-right: var(--height)
+  text-overflow: ellipsis
+
+  option
+    background: var(--color-bg)
+    color: var(--color-primary)
+
+*/
+
+/*
+
+
+.transition-fade
+  animation: slideUp 0.9s cubic-bezier(0.075, 0.82, 0.165, 1) forwards
+  opacity: 1
+  transform: translate3d(0, 4vh, 0)
+  transition: .25s
+  opacity: 0
+
+.img
+  background-position: 50%
+  background-size: cover
+  border-radius: 100%
+  display: block
+  height: 100%
+  width: 100%
+
+.error-head
+  height: 75vh
+  h1
+    font-size: 7rem
+    font-weight: var(--font-heavy)
+    letter-spacing: 10px
+    line-height: 1.1em
+    margin: 0
+  p
+    font-size: 1.4rem
+    letter-spacing: 1px
+    margin: 2vw 0 3vw
+    text-transform: uppercase
+
+.error-link
+  font-size: 1.5rem
+  margin-top: 1rem
+  text-decoration: underline
+  text-decoration-style: dotted
+  text-underline-offset: 3px
+
+.author-meta
+  justify-content: center
+  margin-bottom: 10px
+
+.author-links, .author-meta
+  align-items: center
+  display: flex
+
+.author-links
+  margin-top: 20px
+  a
+    display: block
+    margin: 0
+    padding: 0 12px
+    &:hover
+      text-decoration: none
+
+  .divider
+    display: inline-block
+    margin: 0 3px
+
+.actions
+  cursor: default
+  display: flex
+  list-style: none
+  margin: calc(var(--margin)*-.5)
+  padding-left: 0
+  li
+    padding: 0 0 0 calc(var(--margin)*.5)
+    vertical-align: middle
+
+  &.special
+    justify-content: center
+    margin-left: 0
+    width: 100%
+    li:first-child
+      padding-left: 0
+
+  &.stacked
+    flex-direction: column
+    margin-left: 0
+    li
+      padding: calc(var(--margin)*.65) 0 0 0
+      &:first-child
+        padding-top: 0
+
+  &.fit
+    width: calc(100% + var(--margin)*.5)
+    li
+      flex: 1 1 auto
+      width: 100%
+      > *
+        width: 100%
+    &.stacked
+      width: 100%
+
+      
+.actions:not(.fixed) li
+  flex: 1 1 auto
+  padding: calc(var(--margin)*.5) 0 0 0
+  text-align: center
+  width: 100%
+
+  > *
+    width: 100%
+
+  &:first-child
+    padding-top: 0
+
+  .button, button
+    width: 100%
+
+  input
+    &[type=button], &[type=reset], &[type=submit]
+      width: 100%
+
+  .button.icon:before, button.icon:before
+    margin-left: -.5rem
+
+  input
+    &[type=button].icon:before, &[type=reset].icon:before, &[type=submit].icon:before
+      margin-left: -.5rem
+
+
+*/
+/*
+
+select
+  height: var(--height)
+
+input
+  &[type=email], &[type=password], &[type=search], &[type=tel], &[type=text], &[type=url]
+    height: var(--height)
+
+.post-content-body
+  margin: 48px 0
+  table
+    border-collapse: separate
+    font-size: .8em
+    margin: 0 0 var(--margin) 0
+    width: 100%
+  th
+    color: var(--color-base)
+    font-size: .9em
+    font-weight: var(--font-bold)
+    padding: 0 .7em .4em
+    text-align: left
+  td
+    border-left-width: 0
+    border-top-width: 0
+    padding: .4em .7em
+    &:first-child
+      border-left-width: 1px
+  tbody
+    tr
+      border: 1px solid var(--color-border)
+      border-left: 0
+      border-right: 0
+      &:first-child td
+        border-top-width: 1px
+      &:nth-child(odd)
+        background-color: var(--color-bg)
+    td
+      border-bottom: 1px solid var(--color-border)
+      border-left-width: 1px
+      border-left: 0 solid var(--color-border)
+      border-right: 1px solid var(--color-border)
+      border-top-width: 1px
+      border-top: 0 solid var(--color-border)
+  tfoot
+    border-width: 0
+
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+.post-content-body
+  font-size: 1.9rem
+  line-height: 1.65em
+  padding: 12px 0
+  li
+    word-break: break-word
+    p
+      margin: 0
+    a
+      font-size: 3rem !important
+  iframe
+    margin: 0 auto
+  blockquote
+    margin: 0 0 1.5em
+    padding: 0 1.5em
+    p
+      color: inherit
+      font-style: italic
+      line-height: inherit
+      margin: 0 0 1em
+      &:last-child
+        margin-bottom: 0
+  >
+    code
+      padding: 2px 4px
+    p >
+      a > code, code
+        padding: 2px 4px
+
+  p code
+    word-break: normal
+
+  pre
+    line-height: 2.4rem
+    margin: 1.5em 0 3em
+    max-width: 100%
+    overflow-x: auto
+    padding: 10px
+
+  div.nocode pre
+    background: transparent
+    border: 0
+
+  pre code
+    background: transparent
+    line-height: inherit
+    padding: 0
+    \:not(span)
+      color: inherit
+
+  .fluid-width-video-wrapper
+    margin: 1.5em 0 3em
+
+  hr
+    height: 1px
+    margin: 4vw 0
+    width: 100%
+
+
+.post-meta
+  display: block
+  font-size: 1.8rem
+  margin-top: 5em
+  padding-top: 42px
+
+.post-meta-range-item
+  margin: 0 2px
+
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+
+
+.site-head-scrolldown
+  display: block
+  height: 2.1rem
+  width: 100%
+  > .scrolldown-text
+    animation: blink-animation .9s infinite
+    -webkit-animation: blink-animation .9s infinite
+    -moz-animation: blink-animation .9s infinite
+    -o-animation: blink-animation .9s infinite
+
+.site-head
+  font-family: "Cutive Mono", monospace
+  font-weight: 400
+  font-style: normal
+  font-size: 1.8rem
+  max-width: 987px
+
+.site-head-container
+  align-items: center
+  display: block
+  grid-template-columns: 1fr auto 1fr
+
+.row
+  display: flex
+  flex: 0 1 auto
+  flex-direction: row
+  flex-wrap: wrap
+  margin: 0 -1rem
+
+blockquote, p
+  margin: 0 0 1.5em
+
+blockquote
+  border-left: 0.5em solid var(--color-bg)
+  margin: 1.5em 0
+  padding: 0 1.6em
+
+  p
+    font-size: 1.2em
+    font-weight: var(--font-normal)
+    margin: .8em 0
+
+  small
+    display: inline-block
+    font-size: .9em
+    margin: .8em 0 .8em 1.5em
+
+    &:before
+      content: "\2014 \00A0"
+
+  cite
+    font-weight: var(--font-bold)
+
+    a
+      font-weight: var(--font-normal)
+
+del
+  text-decoration-thickness: 2px
+  
+ul
+  list-style-type: square
+
+  &.post-entries
+    list-style-type: none
+
+audio, canvas, iframe, img, svg, video
+  vertical-align: middle
+
+dt
+  display: block
+  font-weight: var(--font-bold)
+  margin: 0 0 calc(var(--margin)*.5) 0
+
+dd
+  margin-left: var(--margin)
+hr
+  border: 0
+  display: block
+  height: 1px
+  margin: 2.5em 0 3.5em
+  padding: 0
+  position: relative
+  width: 100%
+
+
+.button, button
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  border: 0
+  border-radius: var(--radius)
+  cursor: pointer
+  display: inline-block
+  font-family: var(--font-sans-serif)
+  font-size: 1.8rem
+  font-weight: var(--font-normal)
+  height: var(--height)
+  line-height: var(--height)
+  padding: 0 2rem
+  text-align: center
+  text-decoration: none
+  transition: .4s ease
+  white-space: nowrap
+
+input
+  &[type=button], &[type=checkbox], &[type=reset], &[type=submit]
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    border: 0
+    border-radius: var(--radius)
+    cursor: pointer
+    display: inline-block
+    font-family: var(--font-sans-serif)
+    font-size: 1.8rem
+    font-weight: var(--font-normal)
+    height: var(--height)
+    line-height: var(--height)
+    padding: 0 2rem
+    text-align: center
+    text-decoration: none
+    transition: .4s ease
+    white-space: nowrap
+
+  &[type=checkbox]
+    height: 2rem
+    margin-right: 0
+    width: 2rem
+
+.button.fit, button.fit
+  width: 100%
+
+input
+  &[type=button].fit, &[type=reset].fit, &[type=submit].fit
+    width: 100%
+
+.button.small, button.small
+  font-size: 1.2rem
+  height: calc(var(--height)*.9)
+  line-height: calc(var(--height)*.9)
+  padding: 0 1.5rem
+
+input
+  &[type=button].small, &[type=reset].small, &[type=submit].small
+    font-size: 1.2rem
+    height: calc(var(--height)*.9)
+    line-height: calc(var(--height)*.9)
+    padding: 0 1.5rem
+
+.button.large, button.large
+  font-size: 1.6rem
+  height: calc(var(--height)*1.14)
+  line-height: calc(var(--height)*1.14)
+  padding: 0 3rem
+
+input
+  &[type=button].large, &[type=reset].large, &[type=submit].large
+    font-size: 1.6rem
+    height: calc(var(--height)*1.14)
+    line-height: calc(var(--height)*1.14)
+    padding: 0 3rem
+
+.button
+  &.disabled, &:disabled
+    opacity: .4
+    pointer-events: none
+
+button
+  &.disabled, &:disabled
+    opacity: .4
+    pointer-events: none
+
+input
+  &[type=button]
+    &.disabled, &:disabled
+      opacity: .4
+      pointer-events: none
+
+  &[type=checkbox]
+    &.disabled, &:disabled
+      opacity: .4
+      pointer-events: none
+
+  &[type=reset]
+    &.disabled, &:disabled
+      opacity: .4
+      pointer-events: none
+
+  &[type=submit]
+    &.disabled, &:disabled
+      opacity: .4
+      pointer-events: none
+
+.button, button
+  background-color: transparent
+  box-shadow: inset 0 0 0 2px var(--color-primary)
+  color: var(--color-primary) !important
+
+input
+  &[type=button], &[type=checkbox], &[type=reset], &[type=submit]
+    background-color: transparent
+    box-shadow: inset 0 0 0 2px var(--color-primary)
+    color: var(--color-primary) !important
+
+.button:hover, button:hover
+  box-shadow: inset 0 0 0 2px var(--color-primary)
+  color: var(--color-bg) !important
+  text-decoration: none
+  transition: .2s ease
+
+input
+  &[type=button]:hover, &[type=checkbox]:hover, &[type=reset]:hover, &[type=submit]:hover
+    box-shadow: inset 0 0 0 2px var(--color-primary)
+    color: var(--color-bg) !important
+    text-decoration: none
+    transition: .2s ease
+
+.button.primary, button.primary
+  background-color: var(--color-primary)
+  box-shadow: none
+  color: #fff !important
+
+input
+  &[type=button].primary, &[type=reset].primary, &[type=submit].primary
+    background-color: var(--color-primary)
+    box-shadow: none
+    color: #fff !important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+legend
+  border: 0
+  padding: 0
+
+textarea
+  overflow: auto
+
+ul
+  list-style: none
+
+  line-height: normal
+
+  &:focus
+    outline: none
+
+  &[type=checkbox], &[type=radio]
+    box-sizing: border-box
+    padding: 0
+
+  &[type=number]
+    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+      height: auto
+
+  &[type=search]
+    -webkit-appearance: textfield
+    box-sizing: content-box
+
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration
+      -webkit-appearance: none
+
+input
+  &[type=checkbox], &[type=radio]
+    display: block
+    margin-right: -2em
+    opacity: 0
+    width: 1em
+    z-index: -1
+
+  &[type=checkbox] + label, &[type=radio] + label
+    align-items: center
+    color: var(--color-base)
+    cursor: pointer
+    display: flex
+    font-size: 1em
+    font-weight: var(--font-normal)
+    padding-left: calc(var(--height)*.6 + .75em)
+    padding-right: 2rem
+    position: relative
+    -webkit-user-select: none
+    -moz-user-select: none
+    user-select: none
+
+  &[type=checkbox] + label:before, &[type=radio] + label:before
+    background: var(--color-bg)
+    border: 1px solid var(--color-border)
+    border-radius: var(--radius)
+    content: ""
+    display: inline-block
+    height: calc(var(--height)*.6)
+    line-height: calc(var(--height)*.56)
+    margin-right: 1rem
+    text-align: center
+    width: calc(var(--height)*.6)
+
+  &[type=checkbox]:checked + label:before, &[type=radio]:checked + label:before
+    background: var(--color-primary)
+    border-color: var(--color-primary)
+    color: var(--color-bg)
+    content: "✓"
+
+  &[type=checkbox]:focus + label:before, &[type=radio]:focus + label:before
+    border-color: var(--color-primary)
+    box-shadow: 0 0 0 1px var(--color-primary)
+
+  &[type=checkbox] + label:before
+    border-radius: var(--radius)
+
+  &[type=radio] + label:before
+    border-radius: 100%
+
+button::-moz-focus-inner
+  border: 0
+  padding: 0
+
+input
+  &::-moz-focus-inner
+    border: 0
+    padding: 0
+
+
+input
+  &[type=reset], &[type=submit]
+    -webkit-appearance: button
+    cursor: pointer
+
+
+select
+  text-transform: none
+
+
+button, input, optgroup, select, textarea
+  color: inherit
+  font: inherit
+  margin: 0
+
+button[disabled], html input[disabled]
+  cursor: default
+
+button
+  border: none
+  overflow: visible
+  text-transform: none
+
+
+button, html input[type=button]
+  -webkit-appearance: button
+  cursor: pointer
+
+.breadcrumb:after 
+    animation: blink-animation .9s infinite
+    -webkit-animation: blink-animation .9s infinite
+    -moz-animation: blink-animation .9s infinite
+    -o-animation: blink-animation .9s infinite
+    content: "█"
+    padding-left: 14px
+    color: var(--color-border)
+
+q
+  &:after, &:before
+    content: ""
+    content: none
+
+
+html
+  box-sizing: border-box
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+
+blockquote
+  &:after, &:before
+    content: ""
+    content: none
+
+*, :after, :before
+  box-sizing: inherit
+
+dfn, em, i
+  font-style: italic
+
+img
+  max-width: 100%
+
+
+section.block
+  margin: 40px 0
+  padding: 24px 16px 0
+
+  h1, h2, h3, h4, h5
+    margin-top: 0
+
+
+sub
+  bottom: -.25em
+
+
+mark
+  background-color: #fdffb6
+
+
+sub
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+  top: -3.5em
+
+
+blockquote, q
+  quotes: none
+
+.page-head
+  align-items: flex-start
+  display: flex
+  flex-direction: column
+  justify-content: left
+  margin: 0
+  padding: 6vw 0
+  text-align: left
+*/

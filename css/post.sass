@@ -1,0 +1,168 @@
+.post-feed
+  display: block
+
+.post-pagination
+  display: block
+  margin: 6vw 0
+  > .pagination
+    font-size: 1.6rem
+
+.post-card
+  background: linear-gradient(135deg, #1f1f1f, #111) 50%
+  background-size: cover
+  counter-increment: posts
+  display: flex
+  flex: 1 1 50%
+  height: 35vw
+  overflow: hidden
+  position: relative
+
+.post-card-large
+  flex: 1 1 100%
+
+.post-card-link
+  display: block
+  flex: 1 1 auto
+
+.post-card-content
+  align-items: center
+  background: rgba(0, 0, 0, 0.3)
+  bottom: 0
+  color: #fff
+  display: flex
+  flex: 1 1 auto
+  justify-content: center
+  left: 0
+  opacity: 1
+  position: absolute
+  right: 0
+  top: 0
+  transition: opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1)
+
+.post-card.with-image .post-card-content
+  opacity: 0
+
+.post-card-link:hover .post-card-content
+  opacity: 1
+  transition: opacity 0.3s cubic-bezier(0.33, 0, 0.2, 1)
+
+.post-card-title
+  display: inline-block
+  font-size: 3.4rem
+  margin: 0
+  max-width: 70%
+  text-align: center
+  transition: all 0.3s cubic-bezier(0.33, 0, 0.2, 1)
+
+.post-card.no-image
+  &:before
+    bottom: -.15em
+    color: rgba(0, 0, 0, 0.2)
+    content: counter(posts)
+    display: block
+    font-size: 28vw
+    letter-spacing: -.1em
+    line-height: 1em
+    position: absolute
+    right: 5vw
+
+  .post-card-content
+    align-items: flex-start
+    justify-content: flex-start
+    padding: 4vw
+
+  .post-card-title
+    font-size: 5rem
+    line-height: 1.15em
+    text-align: left
+
+  &:hover .post-card-title
+    text-decoration: underline
+
+.post-entries
+  list-style: none
+  padding-left: 0
+  > .post-entry
+    font-size: 2rem
+    margin-bottom: 4vw
+    padding-left: 0
+    >
+      a
+        font-size: 2.4rem
+        >
+          .post-entry-date
+            display: block
+            float: right
+            font-size: 1.4rem
+            right: 0
+          .post-entry-cover
+            margin: 8px 0
+            > img
+              filter: grayscale(100%)
+              transition: all 0.5s linear
+        &:hover > .post-entry-cover > img
+          filter: f(0)
+          transition: all 1s linear
+      .post-entry-excerpt
+        font-size: 1.6rem
+
+.post-content
+  margin: 0
+  max-width: 987px
+
+.post-content
+  font-size: var(--font-l)
+
+.post-content-header
+  align-items: center
+  animation: pulsate 0.11s ease-in-out infinite alternate
+  display: flex
+  font-family: "Yellowtail", sans-serif
+  font-size: var(--font-xxl)
+  flex-direction: row
+  margin: 6vh 0 2vh
+
+.post-content-index
+  padding: 24px 0 128px
+  a 
+    color: var(--color-pgh-blue)
+
+.post-content-title
+  letter-spacing: 1.2rem !important
+  padding: 16px
+  font-family: "Courier Prime", monospace
+  font-family: "Yellowtail", monospace
+
+.post-content-title:after
+  animation: blink-animation .9s infinite
+  -webkit-animation: blink-animation .9s infinite
+  -moz-animation: blink-animation .9s infinite
+  -o-animation: blink-animation .9s infinite
+  content: "_"
+  padding-left: 8px
+
+.post-content-excerpt
+  font-family: "Cutive Mono", monospace !important
+  font-size: var(--font-m) !important
+  text-align: left
+  text-indent: 2vw
+
+.post-content-image
+  margin: 4vw 0
+  position: relative
+  width: 100%
+
+.post-content-image
+  margin: 4vw 0
+  position: relative
+  width: 100%
+  :hover
+    cursor: pointer
+    --tw-invert: invert(100%)
+    transition-duration: 5000ms
+
+.post-section-title
+  font-family: "Courier Prime", monospace
+  h3
+    font-size: var(--font-xl)
+    padding: 12px 0

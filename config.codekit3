@@ -4,625 +4,148 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "7ED06E69-82F1-4198-820E-861EA1571291"
+      "uuidString" : "19EDA167-4B97-41B6-991B-08369C163D59"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34689",
   "files" : {
-    "\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitignore",
-      "oF" : 0
-    },
-    "\/.gitignore~" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitignore~",
-      "oF" : 0
-    },
-    "\/.htaccess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.htaccess",
-      "oF" : 0
-    },
-    "\/fonts\/HKGrotesk-Regular.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/HKGrotesk-Regular.woff",
-      "oF" : 0
-    },
-    "\/fonts\/Jost-Regular.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/Jost-Regular.ttf",
-      "oF" : 0
-    },
-    "\/images\/app-senitron-aa-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 104446,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/app-senitron-aa-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/app-senitron-intuitive-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 121927,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/app-senitron-intuitive-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/app-senitron-kohls-1.png" : {
-      "ft" : 32768,
-      "iS" : 102307,
-      "oA" : 0,
-      "oAP" : "\/images\/app-senitron-kohls-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/app-senitron-verizon-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 77302,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/app-senitron-verizon-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/app-senitron-verizon-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 58944,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/app-senitron-verizon-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/arrow-up.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/arrow-up.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/client-aa.jpg" : {
-      "ft" : 16384,
-      "iS" : 5913,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-aa.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-intuitive.jpg" : {
-      "ft" : 16384,
-      "iS" : 2208,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-intuitive.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-jpl.jpg" : {
-      "ft" : 16384,
-      "iS" : 4794,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-jpl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-kohls.jpg" : {
-      "ft" : 16384,
-      "iS" : 3546,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-kohls.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-nasa-jpl.jpg" : {
-      "ft" : 16384,
-      "iS" : 5614,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-nasa-jpl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-scc.jpg" : {
-      "ft" : 16384,
-      "iS" : 5853,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-scc.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/client-verizon.jpg" : {
-      "ft" : 16384,
-      "iS" : 3842,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/client-verizon.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/codepen.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/codepen.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/covisus-dtek-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 12257,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/covisus-dtek-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/covisus-dtek-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 158860,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/covisus-dtek-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/covisus-dtek-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 52256,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/covisus-dtek-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/covisus-dtek-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 25031,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/covisus-dtek-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-404.png" : {
-      "ft" : 32768,
-      "iS" : 231426,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-404.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-dashboard-TM-closeup.jpg" : {
-      "ft" : 16384,
-      "iS" : 545888,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-dashboard-TM-closeup.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-dashboard-TM.png" : {
-      "ft" : 32768,
-      "iS" : 740330,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-dashboard-TM.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-login.png" : {
-      "ft" : 32768,
-      "iS" : 1875752,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-login.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-modules-closeup.jpg" : {
-      "ft" : 16384,
-      "iS" : 312679,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-modules-closeup.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/cybergrad-modules.jpg" : {
-      "ft" : 16384,
-      "iS" : 579478,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/cybergrad-modules.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/favicon.png" : {
-      "ft" : 32768,
-      "iS" : 4943,
-      "oA" : 0,
-      "oAP" : "\/images\/favicon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/github.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/github.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/header-normal.jpg" : {
-      "ft" : 16384,
-      "iS" : 222254,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/header-normal.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/header.jpg" : {
-      "ft" : 16384,
-      "iS" : 153859,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/header.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/jordan.jpg" : {
-      "ft" : 16384,
-      "iS" : 26150,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/jordan.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/linkedin.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/images\/linkedin.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/mill-designsystem-icons.png" : {
-      "ft" : 32768,
-      "iS" : 532082,
-      "oA" : 0,
-      "oAP" : "\/images\/mill-designsystem-icons.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/pland-analytics-personnel-compliance.png" : {
-      "ft" : 32768,
-      "iS" : 1051454,
-      "oA" : 0,
-      "oAP" : "\/images\/pland-analytics-personnel-compliance.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/pland-analytics-personnel-locale.png" : {
-      "ft" : 32768,
-      "iS" : 925485,
-      "oA" : 0,
-      "oAP" : "\/images\/pland-analytics-personnel-locale.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/pland-analytics-report.png" : {
-      "ft" : 32768,
-      "iS" : 158532,
-      "oA" : 0,
-      "oAP" : "\/images\/pland-analytics-report.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/pland-event-edit-history.png" : {
-      "ft" : 32768,
-      "iS" : 189235,
-      "oA" : 0,
-      "oAP" : "\/images\/pland-event-edit-history.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/pland-overdue-reports@2x.pxd" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/pland-overdue-reports@2x.pxd",
-      "oF" : 0
-    },
-    "\/images\/Resume - Jordan Crede.docx" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/Resume - Jordan Crede.docx",
-      "oF" : 0
-    },
-    "\/images\/scrolld-credential-details.png" : {
-      "ft" : 32768,
-      "iS" : 468735,
-      "oA" : 0,
-      "oAP" : "\/images\/scrolld-credential-details.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/scrolld-login-operations.png" : {
-      "ft" : 32768,
-      "iS" : 479615,
-      "oA" : 0,
-      "oAP" : "\/images\/scrolld-login-operations.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/scrolld-tool-admin.png" : {
-      "ft" : 32768,
-      "iS" : 134575,
-      "oA" : 0,
-      "oAP" : "\/images\/scrolld-tool-admin.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/site-scc-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 171345,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/site-scc-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/site-scc-1b.jpg" : {
-      "ft" : 16384,
-      "iS" : 895382,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/site-scc-1b.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/site-scc-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 117630,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/site-scc-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/site-senitron.jpg" : {
-      "ft" : 16384,
-      "iS" : 87035,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/site-senitron.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/index-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/index-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/index-min.js" : {
+    "\/components\/footer-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/index-min-min.js",
+      "oAP" : "\/components\/footer-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/index.css" : {
+    "\/components\/footer.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/footer-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/header-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/header-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/header.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/header-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/headlinks-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/headlinks-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/headlinks.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/headlinks-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/wormhole-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/wormhole-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/components\/wormhole.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/wormhole-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/css\/animation.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/animation-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/animation.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/animation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/clock.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/clock-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/images.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -630,9 +153,167 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/index-min.css",
+      "oAP" : "\/css\/images-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/css\/images.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/images.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/misc-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/misc-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/misc.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/misc-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/mobile.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/mobile-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/post.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/post-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/post.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/post.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/style.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/variables-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/variables.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/variables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.ico",
+      "oF" : 0
+    },
+    "\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 3820,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/images\/header.jpg" : {
+      "ft" : 16384,
+      "iS" : 147471,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/index.html" : {
       "cB" : 0,
@@ -642,76 +323,4815 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
+    "\/pages\/design\/arch\/img\/arch-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 131115,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/index-min.js",
+      "oAP" : "\/pages\/design\/arch\/img\/arch-banner.jpg",
       "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
+    "\/pages\/design\/arch\/img\/arch-cja-site-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 224656,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-cja-site-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-cja-site.jpg" : {
+      "ft" : 16384,
+      "iS" : 362129,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-cja-site.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-desk.jpg" : {
+      "ft" : 16384,
+      "iS" : 114213,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-desk.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hgtv-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 200950,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hgtv-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hgtv-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 165555,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hgtv-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson-0.jpg" : {
+      "ft" : 16384,
+      "iS" : 228907,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 145415,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 228984,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 159803,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 141001,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-hudson.jpg" : {
+      "ft" : 16384,
+      "iS" : 182686,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-hudson.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-katrina.jpg" : {
+      "ft" : 16384,
+      "iS" : 201496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-katrina.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-rome-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 535629,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-rome-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-rome-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 420198,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-rome-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-rome-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 2335989,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-rome-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-subway-0.jpg" : {
+      "ft" : 16384,
+      "iS" : 219031,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-subway-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-subway-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 67206,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-subway-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-subway-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 207850,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-subway-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-subway-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 1295976,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-subway-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
     },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/style.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
+    "\/pages\/design\/graphics\/img\/graphics-absolut.jpg" : {
+      "ft" : 16384,
+      "iS" : 286986,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/style-min.css",
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-absolut.jpg",
       "oF" : 0,
-      "pg" : 0
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/style.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
+    "\/pages\/design\/graphics\/img\/graphics-banner-original.jpeg" : {
+      "ft" : 16384,
+      "iS" : 396160,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/style.css",
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-banner-original.jpg",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/tailwind.config.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/tailwind.config-min.js",
+    "\/pages\/design\/graphics\/img\/graphics-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 179118,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-banner.jpg",
       "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-electron.jpg" : {
+      "ft" : 16384,
+      "iS" : 50911,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-electron.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-fedor.jpg" : {
+      "ft" : 16384,
+      "iS" : 275805,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-fedor.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-strikeforce.jpg" : {
+      "ft" : 16384,
+      "iS" : 206839,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-strikeforce.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-styleguide-0.jpg" : {
+      "ft" : 16384,
+      "iS" : 187050,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-styleguide-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-styleguide-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 207250,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-styleguide-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-styleguide-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 281510,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-styleguide-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/graphics-worksample.jpg" : {
+      "ft" : 16384,
+      "iS" : 60430,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/graphics-worksample.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/design\/sketch\/img\/arch-subway-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 67206,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/arch-subway-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-banner-backup.jpg" : {
+      "ft" : 16384,
+      "iS" : 681272,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-banner-backup.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 291296,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-bee.jpg" : {
+      "ft" : 16384,
+      "iS" : 3436513,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-bee.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-dog-max.jpg" : {
+      "ft" : 16384,
+      "iS" : 414999,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-dog-max.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-gemini-symbols.jpg" : {
+      "ft" : 16384,
+      "iS" : 139243,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-gemini-symbols.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-combined.jpg" : {
+      "ft" : 16384,
+      "iS" : 3353274,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-combined.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day-color.jpg" : {
+      "ft" : 16384,
+      "iS" : 1601419,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day-color.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day.jpg" : {
+      "ft" : 16384,
+      "iS" : 4791430,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night-color.jpg" : {
+      "ft" : 16384,
+      "iS" : 1544042,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night-color.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night.jpg" : {
+      "ft" : 16384,
+      "iS" : 9015643,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/img\/sketch-tattoo.jpg" : {
+      "ft" : 16384,
+      "iS" : 2944520,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/sketch\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/design\/web\/img\/web-banner-original.jpg" : {
+      "ft" : 16384,
+      "iS" : 4093505,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-banner-original.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 200160,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-cja.jpg" : {
+      "ft" : 16384,
+      "iS" : 211295,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-cja.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-covisus.jpg" : {
+      "ft" : 16384,
+      "iS" : 207871,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-covisus.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-ctc.jpg" : {
+      "ft" : 16384,
+      "iS" : 894179,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-ctc.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-f5.jpg" : {
+      "ft" : 16384,
+      "iS" : 352071,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-f5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-scc-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 822555,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-scc-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-scc-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 117630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-scc-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-scc-mobile.jpg" : {
+      "ft" : 16384,
+      "iS" : 219260,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-scc-mobile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/img\/web-senitron.jpg" : {
+      "ft" : 16384,
+      "iS" : 320728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/img\/web-senitron.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/web\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/web\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/diy\/cli\/images\/arduino-cli.gif" : {
+      "ft" : 4194304,
+      "iS" : 90075,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/arduino-cli.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/asciinema.gif" : {
+      "ft" : 4194304,
+      "iS" : 111851,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/asciinema.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/bandwhich.gif" : {
+      "ft" : 4194304,
+      "iS" : 57899,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/bandwhich.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/bat.gif" : {
+      "ft" : 4194304,
+      "iS" : 18443,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/bat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/bingrep.gif" : {
+      "ft" : 4194304,
+      "iS" : 171572,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/bingrep.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/bluetui.gif" : {
+      "ft" : 4194304,
+      "iS" : 93197,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/bluetui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/browsh.gif" : {
+      "ft" : 4194304,
+      "iS" : 127777,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/browsh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/btm.gif" : {
+      "ft" : 4194304,
+      "iS" : 79983,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/btm.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/chafa.gif" : {
+      "ft" : 4194304,
+      "iS" : 165057,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/chafa.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/code-minimap.gif" : {
+      "ft" : 4194304,
+      "iS" : 47855,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/code-minimap.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/cointop.gif" : {
+      "ft" : 4194304,
+      "iS" : 106771,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/cointop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/cover_hu2229503715050423789.jpg" : {
+      "ft" : 16384,
+      "iS" : 133993,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/cover_hu2229503715050423789.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/csview.gif" : {
+      "ft" : 4194304,
+      "iS" : 165443,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/csview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/ctop.gif" : {
+      "ft" : 4194304,
+      "iS" : 45378,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/ctop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/dasel.gif" : {
+      "ft" : 4194304,
+      "iS" : 264245,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/dasel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/delta.gif" : {
+      "ft" : 4194304,
+      "iS" : 119044,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/delta.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/dijo.gif" : {
+      "ft" : 4194304,
+      "iS" : 33393,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/dijo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/dust.gif" : {
+      "ft" : 4194304,
+      "iS" : 40736,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/dust.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/eva.gif" : {
+      "ft" : 4194304,
+      "iS" : 21983,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/eva.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/eza.gif" : {
+      "ft" : 4194304,
+      "iS" : 112114,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/eza.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/fzf.gif" : {
+      "ft" : 4194304,
+      "iS" : 157415,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/fzf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/gfold.gif" : {
+      "ft" : 4194304,
+      "iS" : 76785,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/gfold.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/git-crypt.gif" : {
+      "ft" : 4194304,
+      "iS" : 193252,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/git-crypt.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/git-journal.gif" : {
+      "ft" : 4194304,
+      "iS" : 85016,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/git-journal.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/gitui.gif" : {
+      "ft" : 4194304,
+      "iS" : 216123,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/gitui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/glow.gif" : {
+      "ft" : 4194304,
+      "iS" : 123286,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/glow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/gping.gif" : {
+      "ft" : 4194304,
+      "iS" : 127196,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/gping.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/gron.gif" : {
+      "ft" : 4194304,
+      "iS" : 24236,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/gron.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/hexyl.gif" : {
+      "ft" : 4194304,
+      "iS" : 2188992,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/hexyl.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/htmlq.gif" : {
+      "ft" : 4194304,
+      "iS" : 170966,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/htmlq.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/hugo.gif" : {
+      "ft" : 4194304,
+      "iS" : 82095,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/hugo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/hyperfine.gif" : {
+      "ft" : 4194304,
+      "iS" : 73517,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/hyperfine.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/imager.gif" : {
+      "ft" : 4194304,
+      "iS" : 35166,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/imager.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/jless.gif" : {
+      "ft" : 4194304,
+      "iS" : 170591,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/jless.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/kmon.gif" : {
+      "ft" : 4194304,
+      "iS" : 103701,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/kmon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/lemmeknow.gif" : {
+      "ft" : 4194304,
+      "iS" : 37424,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/lemmeknow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/lf.gif" : {
+      "ft" : 4194304,
+      "iS" : 199010,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/lf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/lnav.gif" : {
+      "ft" : 4194304,
+      "iS" : 156072,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/lnav.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/mc.gif" : {
+      "ft" : 4194304,
+      "iS" : 69864,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/mc.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/mdcat.gif" : {
+      "ft" : 4194304,
+      "iS" : 86166,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/mdcat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/mosh.gif" : {
+      "ft" : 4194304,
+      "iS" : 203671,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/mosh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/ncdu.gif" : {
+      "ft" : 4194304,
+      "iS" : 92120,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/ncdu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/no-preview.gif" : {
+      "ft" : 4194304,
+      "iS" : 18397,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/no-preview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/nvim.gif" : {
+      "ft" : 4194304,
+      "iS" : 49973,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/nvim.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/pastel.gif" : {
+      "ft" : 4194304,
+      "iS" : 25625,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/pastel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/procs.gif" : {
+      "ft" : 4194304,
+      "iS" : 82990,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/procs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/rad.gif" : {
+      "ft" : 4194304,
+      "iS" : 63582,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/rad.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/rates.gif" : {
+      "ft" : 4194304,
+      "iS" : 14168,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/rates.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/reader.gif" : {
+      "ft" : 4194304,
+      "iS" : 3200429,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/reader.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/resto.gif" : {
+      "ft" : 4194304,
+      "iS" : 81096,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/resto.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/rg.gif" : {
+      "ft" : 4194304,
+      "iS" : 162584,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/rg.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/rustscan.gif" : {
+      "ft" : 4194304,
+      "iS" : 127750,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/rustscan.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/shellcaster.gif" : {
+      "ft" : 4194304,
+      "iS" : 126224,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/shellcaster.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/silicon.gif" : {
+      "ft" : 4194304,
+      "iS" : 25067,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/silicon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/so.gif" : {
+      "ft" : 4194304,
+      "iS" : 104255,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/so.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/socat.gif" : {
+      "ft" : 4194304,
+      "iS" : 22761,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/socat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/superhighway84.gif" : {
+      "ft" : 4194304,
+      "iS" : 561491,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/superhighway84.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/syncthing.gif" : {
+      "ft" : 4194304,
+      "iS" : 72762,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/syncthing.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/taskwarrior-tui.gif" : {
+      "ft" : 4194304,
+      "iS" : 103932,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/taskwarrior-tui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/ticker.gif" : {
+      "ft" : 4194304,
+      "iS" : 27439,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/ticker.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/tickrs.gif" : {
+      "ft" : 4194304,
+      "iS" : 87132,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/tickrs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/tldr.gif" : {
+      "ft" : 4194304,
+      "iS" : 65463,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/tldr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/tmpmail.gif" : {
+      "ft" : 4194304,
+      "iS" : 15157,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/tmpmail.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/tre.gif" : {
+      "ft" : 4194304,
+      "iS" : 51123,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/tre.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/tz.gif" : {
+      "ft" : 4194304,
+      "iS" : 285452,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/tz.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/viu.gif" : {
+      "ft" : 4194304,
+      "iS" : 102286,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/viu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/vocage.gif" : {
+      "ft" : 4194304,
+      "iS" : 45790,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/vocage.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/websocat.gif" : {
+      "ft" : 4194304,
+      "iS" : 27425,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/websocat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/wikit.gif" : {
+      "ft" : 4194304,
+      "iS" : 155030,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/wikit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/xplr.gif" : {
+      "ft" : 4194304,
+      "iS" : 115373,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/xplr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/yj.gif" : {
+      "ft" : 4194304,
+      "iS" : 75975,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/yj.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/zeit.gif" : {
+      "ft" : 4194304,
+      "iS" : 144875,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/zeit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/images\/zenith.gif" : {
+      "ft" : 4194304,
+      "iS" : 144024,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/images\/zenith.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-orangeclock.jpg" : {
+      "ft" : 16384,
+      "iS" : 194382,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-orangeclock.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-pironman-1-web.jpg" : {
+      "ft" : 16384,
+      "iS" : 82353,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-pironman-1-web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-pironman-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 216451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-pironman-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-pironman-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 673748,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-pironman-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-pironman-pi5.jpg" : {
+      "ft" : 16384,
+      "iS" : 92071,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-pironman-pi5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembled.jpg" : {
+      "ft" : 16384,
+      "iS" : 1134152,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembled.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembly-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 777669,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembly-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembly.jpg" : {
+      "ft" : 16384,
+      "iS" : 1343091,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-seedsigner-assembly.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/images\/diy-seedsigner-pi-pico-w-wifi.jpg" : {
+      "ft" : 16384,
+      "iS" : 230918,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/images\/diy-seedsigner-pi-pico-w-wifi.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/diy\/homehacking\/images\/arduino-cli.gif" : {
+      "ft" : 4194304,
+      "iS" : 90075,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/arduino-cli.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/asciinema.gif" : {
+      "ft" : 4194304,
+      "iS" : 111851,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/asciinema.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/bandwhich.gif" : {
+      "ft" : 4194304,
+      "iS" : 57899,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/bandwhich.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/bat.gif" : {
+      "ft" : 4194304,
+      "iS" : 18443,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/bat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/bingrep.gif" : {
+      "ft" : 4194304,
+      "iS" : 171572,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/bingrep.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/bluetui.gif" : {
+      "ft" : 4194304,
+      "iS" : 93197,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/bluetui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/browsh.gif" : {
+      "ft" : 4194304,
+      "iS" : 127777,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/browsh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/btm.gif" : {
+      "ft" : 4194304,
+      "iS" : 79983,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/btm.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/chafa.gif" : {
+      "ft" : 4194304,
+      "iS" : 165057,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/chafa.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/code-minimap.gif" : {
+      "ft" : 4194304,
+      "iS" : 47855,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/code-minimap.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/cointop.gif" : {
+      "ft" : 4194304,
+      "iS" : 106771,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/cointop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/cover_hu2229503715050423789.jpg" : {
+      "ft" : 16384,
+      "iS" : 133993,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/cover_hu2229503715050423789.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/csview.gif" : {
+      "ft" : 4194304,
+      "iS" : 165443,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/csview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/ctop.gif" : {
+      "ft" : 4194304,
+      "iS" : 45378,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/ctop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/dasel.gif" : {
+      "ft" : 4194304,
+      "iS" : 264245,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/dasel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/delta.gif" : {
+      "ft" : 4194304,
+      "iS" : 119044,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/delta.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/dijo.gif" : {
+      "ft" : 4194304,
+      "iS" : 33393,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/dijo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/dust.gif" : {
+      "ft" : 4194304,
+      "iS" : 40736,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/dust.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/eva.gif" : {
+      "ft" : 4194304,
+      "iS" : 21983,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/eva.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/eza.gif" : {
+      "ft" : 4194304,
+      "iS" : 112114,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/eza.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/fzf.gif" : {
+      "ft" : 4194304,
+      "iS" : 157415,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/fzf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/gfold.gif" : {
+      "ft" : 4194304,
+      "iS" : 76785,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/gfold.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/git-crypt.gif" : {
+      "ft" : 4194304,
+      "iS" : 193252,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/git-crypt.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/git-journal.gif" : {
+      "ft" : 4194304,
+      "iS" : 85016,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/git-journal.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/gitui.gif" : {
+      "ft" : 4194304,
+      "iS" : 216123,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/gitui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/glow.gif" : {
+      "ft" : 4194304,
+      "iS" : 123286,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/glow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/gping.gif" : {
+      "ft" : 4194304,
+      "iS" : 127196,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/gping.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/gron.gif" : {
+      "ft" : 4194304,
+      "iS" : 24236,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/gron.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/hexyl.gif" : {
+      "ft" : 4194304,
+      "iS" : 2188992,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/hexyl.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/htmlq.gif" : {
+      "ft" : 4194304,
+      "iS" : 170966,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/htmlq.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/hugo.gif" : {
+      "ft" : 4194304,
+      "iS" : 82095,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/hugo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/hyperfine.gif" : {
+      "ft" : 4194304,
+      "iS" : 73517,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/hyperfine.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/imager.gif" : {
+      "ft" : 4194304,
+      "iS" : 35166,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/imager.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/jless.gif" : {
+      "ft" : 4194304,
+      "iS" : 170591,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/jless.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/kmon.gif" : {
+      "ft" : 4194304,
+      "iS" : 103701,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/kmon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/lemmeknow.gif" : {
+      "ft" : 4194304,
+      "iS" : 37424,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/lemmeknow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/lf.gif" : {
+      "ft" : 4194304,
+      "iS" : 199010,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/lf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/lnav.gif" : {
+      "ft" : 4194304,
+      "iS" : 156072,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/lnav.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/mc.gif" : {
+      "ft" : 4194304,
+      "iS" : 69864,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/mc.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/mdcat.gif" : {
+      "ft" : 4194304,
+      "iS" : 86166,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/mdcat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/mosh.gif" : {
+      "ft" : 4194304,
+      "iS" : 203671,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/mosh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/ncdu.gif" : {
+      "ft" : 4194304,
+      "iS" : 92120,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/ncdu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/no-preview.gif" : {
+      "ft" : 4194304,
+      "iS" : 18397,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/no-preview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/nvim.gif" : {
+      "ft" : 4194304,
+      "iS" : 49973,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/nvim.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/pastel.gif" : {
+      "ft" : 4194304,
+      "iS" : 25625,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/pastel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/procs.gif" : {
+      "ft" : 4194304,
+      "iS" : 82990,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/procs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/rad.gif" : {
+      "ft" : 4194304,
+      "iS" : 63582,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/rad.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/rates.gif" : {
+      "ft" : 4194304,
+      "iS" : 14168,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/rates.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/reader.gif" : {
+      "ft" : 4194304,
+      "iS" : 3200429,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/reader.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/resto.gif" : {
+      "ft" : 4194304,
+      "iS" : 81096,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/resto.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/rg.gif" : {
+      "ft" : 4194304,
+      "iS" : 162584,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/rg.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/rustscan.gif" : {
+      "ft" : 4194304,
+      "iS" : 127750,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/rustscan.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/shellcaster.gif" : {
+      "ft" : 4194304,
+      "iS" : 126224,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/shellcaster.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/silicon.gif" : {
+      "ft" : 4194304,
+      "iS" : 25067,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/silicon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/so.gif" : {
+      "ft" : 4194304,
+      "iS" : 104255,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/so.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/socat.gif" : {
+      "ft" : 4194304,
+      "iS" : 22761,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/socat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/superhighway84.gif" : {
+      "ft" : 4194304,
+      "iS" : 561491,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/superhighway84.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/syncthing.gif" : {
+      "ft" : 4194304,
+      "iS" : 72762,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/syncthing.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/taskwarrior-tui.gif" : {
+      "ft" : 4194304,
+      "iS" : 103932,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/taskwarrior-tui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/ticker.gif" : {
+      "ft" : 4194304,
+      "iS" : 27439,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/ticker.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/tickrs.gif" : {
+      "ft" : 4194304,
+      "iS" : 87132,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/tickrs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/tldr.gif" : {
+      "ft" : 4194304,
+      "iS" : 65463,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/tldr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/tmpmail.gif" : {
+      "ft" : 4194304,
+      "iS" : 15157,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/tmpmail.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/tre.gif" : {
+      "ft" : 4194304,
+      "iS" : 51123,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/tre.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/tz.gif" : {
+      "ft" : 4194304,
+      "iS" : 285452,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/tz.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/viu.gif" : {
+      "ft" : 4194304,
+      "iS" : 102286,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/viu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/vocage.gif" : {
+      "ft" : 4194304,
+      "iS" : 45790,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/vocage.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/websocat.gif" : {
+      "ft" : 4194304,
+      "iS" : 27425,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/websocat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/wikit.gif" : {
+      "ft" : 4194304,
+      "iS" : 155030,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/wikit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/xplr.gif" : {
+      "ft" : 4194304,
+      "iS" : 115373,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/xplr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/yj.gif" : {
+      "ft" : 4194304,
+      "iS" : 75975,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/yj.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/zeit.gif" : {
+      "ft" : 4194304,
+      "iS" : 144875,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/zeit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/images\/zenith.gif" : {
+      "ft" : 4194304,
+      "iS" : 144024,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/images\/zenith.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/diy\/homehacking\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/homehacking\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/cover_hu12322451730032233365.jpg" : {
+      "ft" : 16384,
+      "iS" : 81519,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/cover_hu12322451730032233365.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/j0l1y_hu8777215001284185508.jpg" : {
+      "ft" : 16384,
+      "iS" : 89865,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/j0l1y_hu8777215001284185508.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/j0l1y.jpg" : {
+      "ft" : 16384,
+      "iS" : 386448,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/j0l1y.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/m0t0k0_hu1835633147760078806.jpg" : {
+      "ft" : 16384,
+      "iS" : 96732,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/m0t0k0_hu1835633147760078806.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/m0t0k0.jpg" : {
+      "ft" : 16384,
+      "iS" : 296449,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/m0t0k0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n3m0_hu9940859379959561536.jpg" : {
+      "ft" : 16384,
+      "iS" : 61939,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n3m0_hu9940859379959561536.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n3m0-screenshot_hu10852177859776547050.jpg" : {
+      "ft" : 16384,
+      "iS" : 373282,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n3m0-screenshot_hu10852177859776547050.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n3m0-screenshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 311624,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n3m0-screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n3m0.jpg" : {
+      "ft" : 16384,
+      "iS" : 114968,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n3m0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5_hu16027284123740699164.jpg" : {
+      "ft" : 16384,
+      "iS" : 137424,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5_hu16027284123740699164.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5-screenshot_hu5367315515677445763.jpg" : {
+      "ft" : 16384,
+      "iS" : 241063,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5-screenshot_hu5367315515677445763.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5-screenshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 84086,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5-screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5.jpg" : {
+      "ft" : 16384,
+      "iS" : 1176101,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/n4u7i1u5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/p4bl0_hu1837266761042477071.jpg" : {
+      "ft" : 16384,
+      "iS" : 111676,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/p4bl0_hu1837266761042477071.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/img\/p4bl0.jpg" : {
+      "ft" : 16384,
+      "iS" : 275389,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/img\/p4bl0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/clockworkpi\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/clockworkpi\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/computers\/img\/computer-13mba-open.JPG" : {
+      "ft" : 16384,
+      "iS" : 4093505,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-13mba-open.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/computers\/img\/computer-13mba.jpg" : {
+      "ft" : 16384,
+      "iS" : 3221551,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-13mba.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/computers\/img\/computer-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 160716,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg" : {
+      "ft" : 16384,
+      "iS" : 2172271,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/computers\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/everydaycarry\/edc-keys.JPG" : {
+      "ft" : 16384,
+      "iS" : 1377464,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/edc-keys.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/edc-knife-front.JPG" : {
+      "ft" : 16384,
+      "iS" : 3892162,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/edc-knife-front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-diy-banner.JPG" : {
+      "ft" : 16384,
+      "iS" : 4007380,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-diy-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-diy-gameboy-inside.JPG" : {
+      "ft" : 16384,
+      "iS" : 3695814,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-diy-gameboy-inside.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-keyboard-repair-cross.JPG" : {
+      "ft" : 16384,
+      "iS" : 3095208,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-keyboard-repair-cross.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-keyboard-repair.JPG" : {
+      "ft" : 16384,
+      "iS" : 3965206,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-keyboard-repair.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-1.JPG" : {
+      "ft" : 16384,
+      "iS" : 2876286,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-2.JPG" : {
+      "ft" : 16384,
+      "iS" : 2770312,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-back.JPG" : {
+      "ft" : 16384,
+      "iS" : 2695968,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-back.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-front.JPG" : {
+      "ft" : 16384,
+      "iS" : 2655580,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-orangeclock-front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-phone-iphone-case-back.JPG" : {
+      "ft" : 16384,
+      "iS" : 2890582,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-phone-iphone-case-back.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-phone-pixel8-case-back.JPG" : {
+      "ft" : 16384,
+      "iS" : 3669225,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-phone-pixel8-case-back.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/gadgets-phone-pixel8-case-front.JPG" : {
+      "ft" : 16384,
+      "iS" : 3573452,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/gadgets-phone-pixel8-case-front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/anker-a1336.jpg" : {
+      "ft" : 16384,
+      "iS" : 268536,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/anker-a1336.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/flipper-zero.jpg" : {
+      "ft" : 16384,
+      "iS" : 999110,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/flipper-zero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/garmin-instinct-2x-solar-tactical-watchbands.jpg" : {
+      "ft" : 16384,
+      "iS" : 881605,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/garmin-instinct-2x-solar-tactical-watchbands.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/garmin-instinct-2x-solar-tactical.jpg" : {
+      "ft" : 16384,
+      "iS" : 189285,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/garmin-instinct-2x-solar-tactical.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/google-pixel-8.jpg" : {
+      "ft" : 16384,
+      "iS" : 2293089,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/google-pixel-8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/keys.jpg" : {
+      "ft" : 16384,
+      "iS" : 192550,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/keys.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/nomad-horween-leather-wallet.jpg" : {
+      "ft" : 16384,
+      "iS" : 399309,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/nomad-horween-leather-wallet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/nothing-ear-stick.jpg" : {
+      "ft" : 16384,
+      "iS" : 306702,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/nothing-ear-stick.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/images\/rama-works-ss-nfc-card-03.jpg" : {
+      "ft" : 16384,
+      "iS" : 180722,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/rama-works-ss-nfc-card-03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0574.JPG" : {
+      "ft" : 16384,
+      "iS" : 2683755,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0574.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0576.JPG" : {
+      "ft" : 16384,
+      "iS" : 2759853,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0576.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0580.JPG" : {
+      "ft" : 16384,
+      "iS" : 3065834,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0580.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0591.JPG" : {
+      "ft" : 16384,
+      "iS" : 2882858,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0591.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0593.JPG" : {
+      "ft" : 16384,
+      "iS" : 2735870,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0593.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0612.JPG" : {
+      "ft" : 16384,
+      "iS" : 3585535,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0612.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0618.JPG" : {
+      "ft" : 16384,
+      "iS" : 3761997,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0618.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0619.JPG" : {
+      "ft" : 16384,
+      "iS" : 4230619,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0619.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0620.JPG" : {
+      "ft" : 16384,
+      "iS" : 4048991,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0620.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0630.JPG" : {
+      "ft" : 16384,
+      "iS" : 4022845,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0630.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0647.JPG" : {
+      "ft" : 16384,
+      "iS" : 3961505,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0647.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0653.JPG" : {
+      "ft" : 16384,
+      "iS" : 3597456,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0653.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0718.jpg" : {
+      "ft" : 16384,
+      "iS" : 2685026,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0718.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0722.JPG" : {
+      "ft" : 16384,
+      "iS" : 4226819,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0722.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0723.JPG" : {
+      "ft" : 16384,
+      "iS" : 4117477,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0723.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0724.JPG" : {
+      "ft" : 16384,
+      "iS" : 3984155,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0724.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0727.JPG" : {
+      "ft" : 16384,
+      "iS" : 3933873,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0727.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0778.JPG" : {
+      "ft" : 16384,
+      "iS" : 3303317,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0778.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0786.JPG" : {
+      "ft" : 16384,
+      "iS" : 2749780,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0786.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/IMG_0787.JPG" : {
+      "ft" : 16384,
+      "iS" : 2740415,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/IMG_0787.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/everydaycarry\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/everydaycarry\/phone-15promax-case.jpg" : {
+      "ft" : 16384,
+      "iS" : 2322111,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/everydaycarry\/phone-15promax-case.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/arduino-cli.gif" : {
+      "ft" : 4194304,
+      "iS" : 90075,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/arduino-cli.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/asciinema.gif" : {
+      "ft" : 4194304,
+      "iS" : 111851,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/asciinema.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/bandwhich.gif" : {
+      "ft" : 4194304,
+      "iS" : 57899,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/bandwhich.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/bat.gif" : {
+      "ft" : 4194304,
+      "iS" : 18443,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/bat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/bingrep.gif" : {
+      "ft" : 4194304,
+      "iS" : 171572,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/bingrep.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/bluetui.gif" : {
+      "ft" : 4194304,
+      "iS" : 93197,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/bluetui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/browsh.gif" : {
+      "ft" : 4194304,
+      "iS" : 127777,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/browsh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/btm.gif" : {
+      "ft" : 4194304,
+      "iS" : 79983,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/btm.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/chafa.gif" : {
+      "ft" : 4194304,
+      "iS" : 165057,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/chafa.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/code-minimap.gif" : {
+      "ft" : 4194304,
+      "iS" : 47855,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/code-minimap.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/cointop.gif" : {
+      "ft" : 4194304,
+      "iS" : 106771,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/cointop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/cover_hu2229503715050423789.jpg" : {
+      "ft" : 16384,
+      "iS" : 133993,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/cover_hu2229503715050423789.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/csview.gif" : {
+      "ft" : 4194304,
+      "iS" : 165443,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/csview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/ctop.gif" : {
+      "ft" : 4194304,
+      "iS" : 45378,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/ctop.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/dasel.gif" : {
+      "ft" : 4194304,
+      "iS" : 264245,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/dasel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/delta.gif" : {
+      "ft" : 4194304,
+      "iS" : 119044,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/delta.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/dijo.gif" : {
+      "ft" : 4194304,
+      "iS" : 33393,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/dijo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/dust.gif" : {
+      "ft" : 4194304,
+      "iS" : 40736,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/dust.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/eva.gif" : {
+      "ft" : 4194304,
+      "iS" : 21983,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/eva.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/eza.gif" : {
+      "ft" : 4194304,
+      "iS" : 112114,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/eza.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/fzf.gif" : {
+      "ft" : 4194304,
+      "iS" : 157415,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/fzf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/gfold.gif" : {
+      "ft" : 4194304,
+      "iS" : 76785,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/gfold.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/git-crypt.gif" : {
+      "ft" : 4194304,
+      "iS" : 193252,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/git-crypt.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/git-journal.gif" : {
+      "ft" : 4194304,
+      "iS" : 85016,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/git-journal.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/gitui.gif" : {
+      "ft" : 4194304,
+      "iS" : 216123,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/gitui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/glow.gif" : {
+      "ft" : 4194304,
+      "iS" : 123286,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/glow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/gping.gif" : {
+      "ft" : 4194304,
+      "iS" : 127196,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/gping.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/gron.gif" : {
+      "ft" : 4194304,
+      "iS" : 24236,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/gron.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/hexyl.gif" : {
+      "ft" : 4194304,
+      "iS" : 2188992,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/hexyl.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/htmlq.gif" : {
+      "ft" : 4194304,
+      "iS" : 170966,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/htmlq.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/hugo.gif" : {
+      "ft" : 4194304,
+      "iS" : 82095,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/hugo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/hyperfine.gif" : {
+      "ft" : 4194304,
+      "iS" : 73517,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/hyperfine.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/imager.gif" : {
+      "ft" : 4194304,
+      "iS" : 35166,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/imager.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/jless.gif" : {
+      "ft" : 4194304,
+      "iS" : 170591,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/jless.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/kmon.gif" : {
+      "ft" : 4194304,
+      "iS" : 103701,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/kmon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/lemmeknow.gif" : {
+      "ft" : 4194304,
+      "iS" : 37424,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/lemmeknow.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/lf.gif" : {
+      "ft" : 4194304,
+      "iS" : 199010,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/lf.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/lnav.gif" : {
+      "ft" : 4194304,
+      "iS" : 156072,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/lnav.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/mc.gif" : {
+      "ft" : 4194304,
+      "iS" : 69864,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/mc.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/mdcat.gif" : {
+      "ft" : 4194304,
+      "iS" : 86166,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/mdcat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/mosh.gif" : {
+      "ft" : 4194304,
+      "iS" : 203671,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/mosh.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/ncdu.gif" : {
+      "ft" : 4194304,
+      "iS" : 92120,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/ncdu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/no-preview.gif" : {
+      "ft" : 4194304,
+      "iS" : 18397,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/no-preview.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/nvim.gif" : {
+      "ft" : 4194304,
+      "iS" : 49973,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/nvim.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/pastel.gif" : {
+      "ft" : 4194304,
+      "iS" : 25625,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/pastel.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/procs.gif" : {
+      "ft" : 4194304,
+      "iS" : 82990,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/procs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/rad.gif" : {
+      "ft" : 4194304,
+      "iS" : 63582,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/rad.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/rates.gif" : {
+      "ft" : 4194304,
+      "iS" : 14168,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/rates.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/reader.gif" : {
+      "ft" : 4194304,
+      "iS" : 3200429,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/reader.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/resto.gif" : {
+      "ft" : 4194304,
+      "iS" : 81096,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/resto.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/rg.gif" : {
+      "ft" : 4194304,
+      "iS" : 162584,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/rg.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/rustscan.gif" : {
+      "ft" : 4194304,
+      "iS" : 127750,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/rustscan.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/shellcaster.gif" : {
+      "ft" : 4194304,
+      "iS" : 126224,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/shellcaster.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/silicon.gif" : {
+      "ft" : 4194304,
+      "iS" : 25067,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/silicon.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/so.gif" : {
+      "ft" : 4194304,
+      "iS" : 104255,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/so.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/socat.gif" : {
+      "ft" : 4194304,
+      "iS" : 22761,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/socat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/superhighway84.gif" : {
+      "ft" : 4194304,
+      "iS" : 561491,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/superhighway84.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/syncthing.gif" : {
+      "ft" : 4194304,
+      "iS" : 72762,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/syncthing.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/taskwarrior-tui.gif" : {
+      "ft" : 4194304,
+      "iS" : 103932,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/taskwarrior-tui.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/ticker.gif" : {
+      "ft" : 4194304,
+      "iS" : 27439,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/ticker.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/tickrs.gif" : {
+      "ft" : 4194304,
+      "iS" : 87132,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/tickrs.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/tldr.gif" : {
+      "ft" : 4194304,
+      "iS" : 65463,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/tldr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/tmpmail.gif" : {
+      "ft" : 4194304,
+      "iS" : 15157,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/tmpmail.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/tre.gif" : {
+      "ft" : 4194304,
+      "iS" : 51123,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/tre.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/tz.gif" : {
+      "ft" : 4194304,
+      "iS" : 285452,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/tz.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/viu.gif" : {
+      "ft" : 4194304,
+      "iS" : 102286,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/viu.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/vocage.gif" : {
+      "ft" : 4194304,
+      "iS" : 45790,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/vocage.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/websocat.gif" : {
+      "ft" : 4194304,
+      "iS" : 27425,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/websocat.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/wikit.gif" : {
+      "ft" : 4194304,
+      "iS" : 155030,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/wikit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/xplr.gif" : {
+      "ft" : 4194304,
+      "iS" : 115373,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/xplr.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/yj.gif" : {
+      "ft" : 4194304,
+      "iS" : 75975,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/yj.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/zeit.gif" : {
+      "ft" : 4194304,
+      "iS" : 144875,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/zeit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/img\/zenith.gif" : {
+      "ft" : 4194304,
+      "iS" : 144024,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/img\/zenith.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/keyboards\/img\/ keyboard-banner.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/ keyboard-banner.mp4",
+      "oF" : 0
+    },
+    "\/pages\/gadgets\/keyboards\/img\/banner-keyboard.jpg" : {
+      "ft" : 16384,
+      "iS" : 1467642,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/banner-keyboard.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/gadgets-camera-canon.jpg" : {
+      "ft" : 16384,
+      "iS" : 355591,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/gadgets-camera-canon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/keyboard-banner-original.jpg" : {
+      "ft" : 16384,
+      "iS" : 1519458,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-banner-original.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/keyboard-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 362665,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/keyboard-corsair-darkrgbpro.jpg" : {
+      "ft" : 16384,
+      "iS" : 2279760,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-corsair-darkrgbpro.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/keyboard-matrix.jpg" : {
+      "ft" : 16384,
+      "iS" : 4301933,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-matrix.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/img\/keyboard-mouse.jpg" : {
+      "ft" : 16384,
+      "iS" : 4103561,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-mouse.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboards\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboards\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/bookmarks\/img\/bookmarks-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 1928551,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/bookmarks\/img\/bookmarks-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/bookmarks\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/bookmarks\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/contact\/img\/cover_hu10196997990768755921.jpg" : {
+      "ft" : 16384,
+      "iS" : 261191,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/contact\/img\/cover_hu10196997990768755921.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/contact\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/contact\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/goodeats\/img\/goodeats-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 343498,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/img\/goodeats-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/img\/header.jpg" : {
+      "ft" : 16384,
+      "iS" : 147471,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/img\/header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/img\/recipe-salad-spinach-poppy.jpg" : {
+      "ft" : 16384,
+      "iS" : 1134383,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/img\/recipe-salad-spinach-poppy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/images\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 1691864,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/images\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 2042375,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/quotes\/img\/header-sameshit-full.jpeg" : {
+      "ft" : 16384,
+      "iS" : 95438,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/header-sameshit-full.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/quotes\/img\/header-sameshit.jpg" : {
+      "ft" : 16384,
+      "iS" : 240367,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/header-sameshit.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/quotes\/img\/header-typewriter-wilde.jpeg" : {
+      "ft" : 16384,
+      "iS" : 1281809,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/header-typewriter-wilde.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/quotes\/img\/quotes-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 249935,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/quotes-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/quotes\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/test\/img\/banner-bookmark.jpg" : {
+      "ft" : 16384,
+      "iS" : 711740,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/test\/img\/banner-bookmark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/test\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/test\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 442942,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 119253,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/collectibles\/img\/web-steelcity-2.png" : {
+      "ft" : 32768,
+      "iS" : 252178,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 325785,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/collectibles\/img\/web-steelcity-5.jpg" : {
+      "ft" : 16384,
+      "iS" : 178107,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 181314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 181314,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 90411,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 80146,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 160483,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 135928,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 635413,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-404.png" : {
+      "ft" : 32768,
+      "iS" : 227033,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-404.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-accounts.png" : {
+      "ft" : 32768,
+      "iS" : 181973,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-accounts.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-blue-containment.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-blue-containment.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-blue-network-analysis.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-blue-network-analysis.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-extra-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-extra-2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-escalation.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-escalation.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-forensics.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-forensics.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-initialaccess.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-initialaccess.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-lateral.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-lateral.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-recon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-recon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-tradecraft.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badge-red-tradecraft.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badges-all.jpg" : {
+      "ft" : 16384,
+      "iS" : 210484,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badges-all.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-badges-sample.jpg" : {
+      "ft" : 16384,
+      "iS" : 148816,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-badges-sample.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-create-user@2x.png" : {
+      "ft" : 32768,
+      "iS" : 400073,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-create-user@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-dashboard-teammanager.png" : {
+      "ft" : 32768,
+      "iS" : 526691,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-dashboard-teammanager.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-login.png" : {
+      "ft" : 32768,
+      "iS" : 1103511,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-login.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-logo-2nf3.png" : {
+      "ft" : 32768,
+      "iS" : 159056,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-logo-2nf3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-logo-cybergrad.jpg" : {
+      "ft" : 16384,
+      "iS" : 96592,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-logo-cybergrad.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-logo-petra.jpg" : {
+      "ft" : 16384,
+      "iS" : 150117,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-logo-petra.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-module-details.png" : {
+      "ft" : 32768,
+      "iS" : 361354,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-module-details.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-module-import.png" : {
+      "ft" : 32768,
+      "iS" : 202429,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-module-import.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-modules-badges.jpg" : {
+      "ft" : 16384,
+      "iS" : 579478,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-modules-badges.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-modules@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 476940,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-modules@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-teamdetails.png" : {
+      "ft" : 32768,
+      "iS" : 189124,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-teamdetails.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-useraccounts.png" : {
+      "ft" : 32768,
+      "iS" : 177846,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-useraccounts.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/software\/inventory\/inventory-kohls.jpg" : {
+      "ft" : 16384,
+      "iS" : 244975,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/inventory-kohls.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/senitron_aa_2.png" : {
+      "ft" : 32768,
+      "iS" : 194349,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/senitron_aa_2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/senitron_app_retail_popup.png" : {
+      "ft" : 32768,
+      "iS" : 148585,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/senitron_app_retail_popup.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/senitron_app_retail.png" : {
+      "ft" : 32768,
+      "iS" : 321330,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/senitron_app_retail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/web_sen_int.jpg" : {
+      "ft" : 16384,
+      "iS" : 651228,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/web_sen_int.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/web_senitron_mobile.jpg" : {
+      "ft" : 16384,
+      "iS" : 320728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/web_senitron_mobile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/web-kohls-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 464911,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/web-kohls-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/inventory\/web-kohls.jpg" : {
+      "ft" : 16384,
+      "iS" : 474056,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/web-kohls.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/mill-designsystem_icons@2x.png" : {
+      "ft" : 32768,
+      "iS" : 532082,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/mill-designsystem_icons@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/mill-designsystem_spacing@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 108933,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/mill-designsystem_spacing@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/mill-ui-dashboard.jpg" : {
+      "ft" : 16384,
+      "iS" : 406584,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/mill-ui-dashboard.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     }
   },
   "hooks" : [
@@ -721,10 +5141,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 611799247.84275496,
-    "displayValue" : "credej.github.io",
+    "creationDate" : 758955842.78912497,
+    "displayValue" : "work",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-unblue",
+    "iconImageName" : "meme-ive",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -1023,18 +5443,16 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
-    "esLintECMAVersion" : 15,
+    "esLintECMAVersion" : 7,
     "esLintEnvironmentsMask" : 1,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
-        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false}"
+        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
       },
       "array-bracket-newline" : {
         "active" : 0,
@@ -1085,7 +5503,7 @@
       },
       "class-methods-use-this" : {
         "active" : 0,
-        "optionString" : "{'exceptMethods': []}"
+        "optionString" : "{'exceptMethods': [], 'enforceForClassFields': true}"
       },
       "comma-dangle" : {
         "active" : 1,
@@ -1105,7 +5523,7 @@
       },
       "computed-property-spacing" : {
         "active" : 0,
-        "optionString" : "'never'"
+        "optionString" : "'never', {'enforceForClassMembers': true}"
       },
       "consistent-return" : {
         "active" : 0,
@@ -1148,7 +5566,7 @@
         "optionString" : "'always', {'null': 'always'}"
       },
       "for-direction" : {
-        "active" : 0
+        "active" : 1
       },
       "func-call-spacing" : {
         "active" : 0,
@@ -1179,7 +5597,7 @@
         "optionString" : "{'before': true, 'after': false}"
       },
       "getter-return" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'allowImplicit': false}"
       },
       "grouped-accessor-pairs" : {
@@ -1225,10 +5643,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -1247,7 +5661,7 @@
       },
       "max-classes-per-file" : {
         "active" : 0,
-        "optionString" : "1"
+        "optionString" : "{'ignoreExpressions': false, 'max': 1}"
       },
       "max-depth" : {
         "active" : 0,
@@ -1281,10 +5695,6 @@
         "active" : 0,
         "optionString" : "{'max': 1}"
       },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
-      },
       "multiline-ternary" : {
         "active" : 0,
         "optionString" : "'always'"
@@ -1308,7 +5718,7 @@
         "active" : 0
       },
       "no-async-promise-executor" : {
-        "active" : 0
+        "active" : 1
       },
       "no-await-in-loop" : {
         "active" : 0
@@ -1327,7 +5737,7 @@
         "active" : 1
       },
       "no-compare-neg-zero" : {
-        "active" : 0
+        "active" : 1
       },
       "no-cond-assign" : {
         "active" : 1,
@@ -1335,17 +5745,17 @@
       },
       "no-confusing-arrow" : {
         "active" : 0,
-        "optionString" : "{'allowParens': true}"
+        "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
         "active" : 1
       },
       "no-constant-binary-expression" : {
-        "active" : 0
+        "active" : 1
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -1406,7 +5816,7 @@
         "active" : 1
       },
       "no-empty-static-block" : {
-        "active" : 0
+        "active" : 1
       },
       "no-eq-null" : {
         "active" : 0
@@ -1426,21 +5836,22 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
         "active" : 0,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
+        "optionString" : "'all'"
       },
       "no-extra-semi" : {
-        "active" : 1
+        "active" : 0
       },
       "no-fallthrough" : {
         "active" : 1,
-        "optionString" : ""
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1454,7 +5865,7 @@
       },
       "no-implicit-coercion" : {
         "active" : 0,
-        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'disallowTemplateShorthand': false, 'allow': []}"
       },
       "no-implicit-globals" : {
         "active" : 0
@@ -1469,7 +5880,7 @@
         "active" : 0
       },
       "no-inner-declarations" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "'functions'"
       },
       "no-invalid-regexp" : {
@@ -1482,7 +5893,7 @@
       },
       "no-irregular-whitespace" : {
         "active" : 1,
-        "optionString" : "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+        "optionString" : "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true, 'skipJSXText': true}"
       },
       "no-iterator" : {
         "active" : 0
@@ -1504,14 +5915,15 @@
         "active" : 0
       },
       "no-loss-of-precision" : {
-        "active" : 0
+        "active" : 1
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 1,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -1523,7 +5935,7 @@
       },
       "no-multi-assign" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'ignoreNonDeclaration': false}"
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -1549,10 +5961,10 @@
         "active" : 0
       },
       "no-new-native-nonconstructor" : {
-        "active" : 0
+        "active" : 1
       },
       "no-new-symbol" : {
-        "active" : 1
+        "active" : 0
       },
       "no-new-wrappers" : {
         "active" : 0
@@ -1587,7 +5999,7 @@
         "active" : 0
       },
       "no-prototype-builtins" : {
-        "active" : 0
+        "active" : 1
       },
       "no-redeclare" : {
         "active" : 1,
@@ -1632,17 +6044,17 @@
       },
       "no-sequences" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowInParentheses': true}"
       },
       "no-setter-return" : {
         "active" : 1
       },
       "no-shadow" : {
         "active" : 0,
-        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': [], 'ignoreOnInitialization': false}"
       },
       "no-shadow-restricted-names" : {
-        "active" : 0
+        "active" : 1
       },
       "no-sparse-arrays" : {
         "active" : 1
@@ -1679,7 +6091,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'enforceInClassFields': false, 'allowFunctionParams': true}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1711,34 +6123,34 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
       },
       "no-unused-labels" : {
         "active" : 1
       },
       "no-unused-private-class-members" : {
-        "active" : 0
+        "active" : 1
       },
       "no-unused-vars" : {
         "active" : 1,
-        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'all', 'ignoreRestSiblings': false}"
       },
       "no-use-before-define" : {
         "active" : 0,
-        "optionString" : "{'functions': true, 'classes': true, 'variables': true}"
+        "optionString" : "{'functions': true, 'classes': true, 'variables': true, 'allowNamedExports': false}"
       },
       "no-useless-backreference" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-call" : {
         "active" : 0
       },
       "no-useless-catch" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-computed-key" : {
         "active" : 0,
-        "optionString" : "{'enforceForClassMembers': false}"
+        "optionString" : "{'enforceForClassMembers': true}"
       },
       "no-useless-concat" : {
         "active" : 0
@@ -1747,7 +6159,7 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -1761,7 +6173,7 @@
       },
       "no-void" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowAsStatement': false}"
       },
       "no-warning-comments" : {
         "active" : 0,
@@ -1771,7 +6183,7 @@
         "active" : 0
       },
       "no-with" : {
-        "active" : 0
+        "active" : 1
       },
       "nonblock-statement-body-position" : {
         "active" : 0,
@@ -1873,13 +6285,14 @@
       },
       "require-atomic-updates" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -1902,11 +6315,11 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
       },
       "sort-keys" : {
         "active" : 0,
-        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
+        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2, 'allowLineSeparatedGroups': false, 'ignoreComputedKeys': false}"
       },
       "sort-vars" : {
         "active" : 0,
@@ -1961,7 +6374,7 @@
       },
       "use-isnan" : {
         "active" : 1,
-        "optionString" : "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+        "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -1986,7 +6399,7 @@
         "optionString" : "'never', {'exceptRange': false, 'onlyEquality': false}"
       }
     },
-    "esLintSourceType" : 2,
+    "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
@@ -1998,7 +6411,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 1,
+      "minifierStyle" : 0,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "transpilerStyle" : 1
@@ -2075,7 +6488,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 0,
+      "orderOutput" : 1,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -2104,7 +6517,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 1,
+      "sourceMapStyle" : 0,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -2147,7 +6560,7 @@
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "optimizerType" : 1,
-      "quality" : 100,
+      "quality" : 90,
       "webpOptimizationPresetUUID" : "lpckwebp-none",
       "webpRGBQuality" : 75
     },
@@ -2160,7 +6573,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {
@@ -2170,9 +6583,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 0,
       "purgeCSSStyle" : 0,
@@ -2289,6 +6700,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -2305,10 +6717,11 @@
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
     "tsExperimentalDecorators" : 0,
-    "tsForceConsistentCasingInFileNames" : 0,
+    "tsForceConsistentCasingInFileNames" : 1,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

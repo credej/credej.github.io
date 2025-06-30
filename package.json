@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
-  },
-  "dependencies": {
-    "photoswipe": "^5.4.3"
-  }
-}

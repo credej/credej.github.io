@@ -1,466 +1,293 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Jordan's Work</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-  <!-- <link rel="stylesheet" href="index.css" /> -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="photoswipe.css" />
-  <link rel="stylesheet" href="photoswipe.js" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600;700&family=Noto+Serif+Makasar&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,1,0" />
-  <!-- <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css" type="text/css" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
-</head>
+<!doctype html>
+<html lang=en>
+   <head>
+      <title>Home</title>
+      <meta name=description content="home">
+      <link rel=stylesheet type=text/css href="../../../css/style.css">
+      <head-links></head-links>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="../../../components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="../../../components/header-min.js" type="text/javascript" defer></script>
+      <script src="../../../components/index-min.js" type="text/javascript" defer></script>
+      <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />
+   </head>
 
-<body class="flex justify-center text-xl bg-black">
-<!-- 
-  <div id="app">
-  <div class="pswp-gallery" id="my-gallery">
-    <a
-      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"
-      data-pswp-width="1875"
-      data-pswp-height="2500"
-      target="_blank"
-    >
-      <img
-        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"
-        alt=""
-      />
-    </a>
-    <a
-      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
-      data-pswp-width="1669"
-      data-pswp-height="2500"
-      target="_blank"
-    >
-      <img
-        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"
-        alt=""
-      />
-    </a>
-    <a
-      href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
-      data-pswp-width="2500"
-      data-pswp-height="1666"
-      target="_blank"
-    >
-      <img
-        src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"
-        alt=""
-      />
-    </a>
-  </div>
-</div> -->
-
-  <div class="max-w-screen-2xl">
-    <!-- HEADER -->
-    <header class="header-bg py-12">
-      <!-- NAV -->
-      <nav class="nav text-2xl" role="navigation">
-        <ul class="flex justify-end">
-          <li class="px-8">
-            <h4><a class="hover:text-yellow-400" href="#work">Past work</a></h4>
-          </li>
-          <li class="px-8">
-            <h4><a class="hover:text-yellow-400" href="#customers">Customers</a></h4>
-          </li>
-          <li class="px-8">
-            <h4><a class="hover:text-yellow-400" href="#about">About</a></h4>
-          </li>
-          <li class="px-8">
-            <h4><a class="hover:text-yellow-400" href="#contact">Contact</a></h4>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- INTRO -->
-      <div class="pt-48 pb-64">
-
-        <h3 class="text-6xl pt-16">
-          <span>Jordan Crede</span>
-        </h3>
-        <ul class="text-2xl py-12">
-          <li class="py-2">User interface & experience designer based in southern California</li>
-          <li class="py-2">10+ years experience translating customer needs into intuitive UI/UX for web application software</li>
-          <li class="py-2">Creative, resourceful, and a unique thinker</li>
-        </ul> 
-
-        <a href="#contact">
-          <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 bg-yellow-400 border-yellow-400 text-black hover:bg-black duration-300 hover:bg-yellow-400">
-            <span class="flex text-4xl">
-              <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">cell_tower</span>
-              <h2 class="text-2xl cursor-pointer drop-shadow-2xl text-black">Get in contact</h2>
-            </span>
-          </button>
-        </a>
-
+   <body>
+      <header-component></header-component>
+      <!--
+      <div class="header-image-full">
+         <img src="pages/gadgets/keyboard/img/keyboard-banner.jpg">
       </div>
-    </header>
+      -->
+      <div class="site-wrapper header-bg">
 
-    <!-- WORK SAMPLES -->
-    <main role="main" class="max-w-screen-xl flex justify-items-end">
-      <section id="work" class="pt-16">
-        <div class="max-w-screen-2xl">
-          <h2 class="justify-end text-5xl pb- text-white"><span class="material-symbols-outlined text-3xl pr-4 pb-8 text-yellow-400">fast_rewind</span>Past work</h2>
-
-
-
-          <!-- Millennium CyberGrad -->
-          <div class="flex mb-64" style="background-color: #;">
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/cybergrad-login.png" class="" alt="cybergrad cybersecurity training login" />
-                <h4 class="pt-4 italic">Cybergrad login with custom logo</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/cybergrad-dashboard-TM.png" class="" alt="cyber security user dashboard" />
-                <h4 class="pt-4 italic">Managing lessons and viewing progress as a teacher</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/cybergrad-modules.jpg" class="" alt="cybersecurity learning modules" />
-                <h4 class="pt-4 italic">Red and Blue Team badge sets</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/cybergrad-404.png" class="" alt="cybersecurity learning modules" />
-                <h4 class="pt-4 italic">404 page design</h4>
-              </div>
+         <main id="site-main" class="site-main">
+            <div class="site-section">
+               <p>A collection of work, personal interests, and other useresources grouped into the following categories: <a href="#ux">Software UI/UX</a>, <a href="#design">Design</a>, <a href="#gadgets">Gadgets</a>, <a href="#diy">DIY</a>, <a href="#otherstuff">Other Stuff</a> & <a href="#travel">Travel</a> (coming soon!). Or scroll down to view all categories & sections. If you're reading this then <a>I'm available to work with</a>.</p>
             </div>
-            <div class="w-2/6 pl-16">
-              <h3 class="text-4xl pt-12 pb-6">CyberGrad: Cybersecurity Training Software</h3>
-              <p class="text-md py-4">Cybergrad was a custom built Learning Management Software commissioned by the Jordanian goverment to help train their employees in the field of cyber security. The training software allows teachers to assign lessons and quizzes, for students to view and work through those assignments, and for all users to manage their accounts and coursework progress. </p>
-              <p class="text-md py-4"> This custom LMS had an ambitious project timeline - 8 months from inception to project launch. My responsibility was to design and develop new features for a cyber security training application.</p>
-              <p class="text-md py-4">In addition to assisting with the app's UI/UX, I was responsible for creating the logo and a set of custom graphics that act as badges when students pass a lesson block.</p>
-              <p class="text-md py-4">I was also tasked with creating original new graphic badge sets for the red and blue team courses. </p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>UI/UX</li>
-                <li>Tailwind CSS</li>
-                <li>Adobe XD & Illustrator</li>
-              </ul>
+
+            <!-- UI UX SOFTWARE -->
+            <div id ="ux"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">public</span>
+                  <h2>UI/UX Software</h2>
+               </div>
+               <p class="flex flex-col">
+                  <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
+                  <a href="/pages/design/graphics/index.html">Red Team Operation Management</a>
+                  <a href="/pages/design/web/index.html">Online Collectibles Store</a>
+                  <a href="/pages/design/sketch/index.html">Inventory Tracking</a>
+                  <a href="/pages/design/sketch/index.html">Counterfeit Detection</a>
+               </p>
             </div>
-          </div>
 
-
-
-          <!-- Millennium Pland -->
-          <div class="flex mb-64" style="background-color: #;">
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/pland-event-edit-history.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Redesigning the sidebar overlay</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/pland-analytics-personnel-compliance.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Query Builder feature</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/pland-analytics-personnel-locale.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Query Builder feature</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/pland-analytics-report.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Query Builder feature</h4>
-              </div>
+            <!-- Design -->
+            <div id ="design"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">draw</span>
+                  <h2>Design</h2>
+               </div>
+               <p><a href="/pages/design/arch/index.html">Architecture</a>, <a href="/pages/design/graphics/index.html">Graphic Design</a>,  <a href="/pages/design/web/index.html">Web Design</a>, <a href="/pages/design/sketch/index.html">Sketching</a></p>
             </div>
-            <div class="w-2/6 pl-16">
-              <h3 class="text-4xl pt-12 pb-6">Pland: Operation Management Software</h3>
-              <p class="text-md py-4">My responsibility was to design new features for a red team mission scheduling and personel management software application </p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>UI/UX</li>
-                <li>Adobe XD</li>
-                <li>Adobe Illustrator</li>
-              </ul>
+
+            <div class="flex flex-row columns-2">
+
+               <div id="arch" class="header-home pr-12 pt-12">
+                  <a href="/pages/design/arch/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">square_foot</span>
+                           <h1>architecture</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image " src="http://localhost:5757/pages/design/arch/img/arch-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                     <!-- HEADER EXCERPT
+                     <div class="header-banner">
+                        <div class="header-excerpt">
+                           <p>An amorphous blob of digital resources. I use this page to access my bookmarks from anywhere. Follow the white rabbit...<a>view more</a></p>
+                        </div>
+                     </div>
+                     -->
+                  </a>
+               </div>
+
+               <div id="graphics" class="header-home pl-12 pt-12">
+                  <a class="" href="/pages/design/graphics/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">fragrance</span>
+                           <h1>graphics</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/design/graphics/img/graphics-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
             </div>
-          </div>
 
-
-
-          <!-- Millennium Scrolld -->
-          <div class="flex mb-64" style="background-color: #;">
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/scrolld-login-operations.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Taking inventory of the icons used across multiple applications</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/pland-analytics-report.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Query Builder feature</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/scrolld-credential-details.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Taking inventory of the icons used across multiple applications</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/scrolld-tool-admin.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Taking inventory of the icons used across multiple applications</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/mill-designsystem-icons.png" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Taking inventory of the icons used across multiple applications</h4>
-              </div>
+            <div class="flex flex-row columns-2">
+               <div id="web" class="header-home pr-12 pt-12">
+                  <a class="" href="/pages/design/web/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">web</span>
+                           <h1>web design</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/design/web/img/web-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+   
+               <div id="sketching" class="header-home pl-12 pt-12">
+                  <a class="" href="/pages/design/sketch/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">stylus_fountain_pen</span>
+                           <h1>sketching</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/design/sketch/img/sketch-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
             </div>
-            <div class="w-2/6 pl-16">
-              <h3 class="text-4xl pt-12 pb-6">Scrolld: Red Team Operation Logging Tool</h3>
-              <p class="text-md py-4">The Scrolld software applications enables users to gather and log red team cybersecurity operation details for auditing purposes. The user can log into any number of selected operations and view information like logs, log chains, reports, attachments, and more. </p>
-              <p class="text-md py-4">The majority of my time was spent working on a new Analytics section of the Scrolld application. This included reports, event stats, customer and personnel stats, logistics, and more.</p>
-              <p class="text-md py-4">My responsibility was to improve and design features.  </p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>UI/UX</li>
-                <li>Adobe XD</li>
-                <li>Adobe Illustrator</li>
-              </ul>
+
+            <!-- GADGETS -->
+            <div id ="gadgets"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">satellite_alt</span>
+                  <h2>Gadgets <span style="color: #595959;">(Coming soon!)</span></h2>
+               </div>
+               <p>No Crapple products, promise...</p>
             </div>
-          </div>
 
-
-
-          <!-- STEEL CITY COLLECTIBLES -->
-          <div class="flex mb-64">
-            <!-- TEXT -->
-            <div class="w-2/6 pr-16">
-              <h3 class="text-4xl pt-12 pb-6">Steel City Collectibles: Online Store</h3>
-              <p class="text-md py-4">This project did not use any CSS frameworks, but custom built styling and media queries for a fully responsive website.</p>
-              <p class="text-md py-4">My responsibility was to design and develop the user interface and experience for a new e-commerce storefront, from initial concept to implementation.</p>
-              <p class="text-md py-4">I also created and ran Google shopping and display remarketing campaigns that resulted in a greatly improved return on ad spend. Improved search engine visibility which also helped to increase monthly customer visits and monthly recurring revenue.</p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>HTML</li>
-                <li>CSS (SASS)</li>
-                <li>Figma</li>
-              </ul>
-              <div class="pt-8 text-2xl text-yellow-200 uppercase cursor-pointer hover:text-white hover:underline">
-                <h4><a href="https://www.steelcitycollectibles.com/" target="_blank">Visit Site >></a></h4>
-              </div>
+            <!-- DIY -->
+            <div id ="diy" style="height: 0 !important;"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">handyman</span>
+                  <h2>DIY <span style="color: #595959;">(Coming soon!)</span></h2>
+               </div>
+               <p>If you build it...</p>
             </div>
-            <!-- IMG -->
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/site-scc-1b.jpg" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Home page</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/site-scc-2.jpg" class="" alt="query builder mockup" />
-                <h4 class="pt-4 italic">Product page</h4>
-              </div>
+
+            <!-- OTHER STUFF -->
+            <div id ="otherstuff"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">globe</span>
+                  <h2 class="">Other Stuff</h2>
+               </div>
+               <p><a href="/pages/software/cybergrad/index.html">Bookmarks</a>, <a href="/pages/otherstuff/quotes/index.html">Quotes</a>, <a class="" href="/pages/otherstuff/goodeats/index.html">Good Eats</a></p>
             </div>
-          </div>
 
+            <div class="flex flex-row columns-2">
 
+               <div id="sketching" class="header-home pr-12 pt-12">
+                  <a class="" href="/pages/otherstuff/bookmarks/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">bookmarks</span>
+                           <h1>bookmarks</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/otherstuff/bookmarks/img/bookmarks-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
 
-          <!-- SENITRON INVENTORY MANANGEMENT -->
-          <div class="flex mb-64" style="background-color: #;">
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/app-senitron-intuitive-1.jpg" class="" alt="cyber security user dashboard" />
-                <h4 class="pt-4 italic">Managing lessons and viewing progress as a teacher</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/app-senitron-aa-1.jpg" class="work__image" alt="Project 3" />
-                <h4 class="pt-4 italic">UI designed for tracking inventory at a Los Angeles based American Apparel store</h4>
-              </div>
-<!--               <div class="flex flex-col py-12 text-center">
-                <img src="./images/app-senitron-kohls-1.png" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">caption</h4>
-              </div> -->
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/app-senitron-verizon-1.jpg" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">caption</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/app-senitron-verizon-2.jpg" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">caption</h4>
-              </div>
+               <div id="arch"  class="header-home pl-12 pt-12">
+                  <a href="/pages/otherstuff/quotes/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">fingerprint</span>
+                           <h1>quotes</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/otherstuff/quotes/img/quotes-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
             </div>
-            <div class="w-2/6 pl-16">
-              <h3 class="text-4xl pt-12 pb-6 text-stone-300">Senitron: Real-time Automated Inventory Tracking</h3>
-              <p class="py-4">
-                A series of physical installations that utilize RFID tracking antennas to monitor either a retail or warehouse's inventory. I was responsible for both designing and developing multiple user interfaces for the inventory tracking software.
-              </p>
-              <p class="py-4">
-                The <a href="https://senitron.net/Senitron" target="_blank" style="color: #fef9c3;"> RFID tag tracking system</a> delivers a hands-free solution for tracking items. This allows staff to stay on top of inventory levels 24/7 with extremely high accuracy. After installing hundreds of RFID tracking antennas at one of Intuitive's San Jose warehouses, a back-end developer and myself implemented a custom software application to track inventory for their da Vinci surgical robot system. I designed and developed the user interface and experience. The 200,000 square feet warehouse enables asset tracking with excellent granularity down to particular shelves, aisles, and shelf-levels.
-              </p>
-              <p class="py-4">
-                American Apparel stores traditionally used a manual item count system which takes roughly 240 man-hours per month to keep track of per store, leaving lots of potential for human error. After automating their inventory process <a href="https://www.globenewswire.com/news-release/2013/08/12/919555/0/en/American-Apparel-Improves-Inventory-Accuracy-and-On-Shelf-Availability-With-Impinj-Powered-RFID-Solution-From-Senitron-R.html" target="_blank" style="color: #fef9c3;"> using custom-built software to track RFID tags,</a> employees are now able to monitor inventory statistics in real-time as well as locate specific items at any time.
-              </p>
-              <p class="py-4">
-                For Verizon I helped develop a prototype dashboard for Verizon's many retail locations keep track of their in-store inventory in real time and 24/7. I was responsible for designing and developing the UI for the employees to search their store's inventory.
-              </p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>              
-              <div class="work__links pt-8 text-yellow-200 hover:text-white hover:underline">
-                <a href="https://senitron.net/about-us-rfid-technology-company/" target="_blank">Learn More >></a>
-              </div><br><br>
-            </div>
-          </div>
 
 
+            <!-- OTHER STUFF -->
+            <div id ="otherstuff"></div>
+            <div class="flex flex-row columns-2">
 
-          <!-- DTEK -->
-          <div class="flex mb-64">
-            <div class="w-2/6 pr-16">
-              <h3 class="text-4xl pt-12 pb-6">Covisus DTEK: Counterfeit Detection System</h3>
-              <p class="py-4">The DTEK system scans electronic components with the purpose of <a href="http://www.erai.com/customuploads/conference/2013/pdf/trainingtrack11covisus.pdf" target="_blank" style="color: #fef9c3;"> analyzing surface patterns and comparing them to an original sample to identify counterfeit parts</a>. I designed and developed the UI that displays the results of four unique counterfeit tests done to help identify the electronic component as either original or counterfeit. </p>
-              <p class="py-4">This was my first software development project. I also helped with the conceptual design of the physical hardware. </p>
-              <ul class="work__list py-4 list-disc list-decimal list-inside">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>3-D design</li>
-              </ul>
-              <div class="work__links pt-8 text-yellow-300 hover:text-white hover:underline">
-                <a href="https://covisus.com/dtek/" target="_blank">Learn More >></a>
-              </div>
+               <div id="sketching" class="header-home pr-12 pt-12">
+                  <a class="" href="/pages/otherstuff/goodeats/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">bookmarks</span>
+                           <h1>good eats</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/otherstuff/goodeats/img/goodeats-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+
+               <div id="arch" class="opacity-0 header-home pl-12 pt-12">
+                  <a href="/pages/otherstuff/quotes/index.html">
+                     <div class="header">
+                        <div class="header-title header-title-home">
+                           <span class="material-symbols-outlined">extension</span>
+                           <h1>test page</h1>
+                        </div>
+                     </div>
+                     <div class="header-banner">
+                        <div class="header-image bg-blue-200">
+                           <img class="kg-image" src="pages/otherstuff/quotes/img/quotes-banner.jpg" alt=Bookmarks>
+                        </div>
+                     </div>
+                  </a>
+               </div>
             </div>
-            <div class="w-4/6">
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/covisus-dtek-1.jpg" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">Covisus DTEK physical scanning system</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/covisus-dtek-3.jpg" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">Integrated circuits are placed on a tray and then ran through the DTEK system to be analyzed.</h4>
-              </div>
-              <div class="flex flex-col py-12 text-center">
-                <img src="./images/covisus-dtek-2.jpg" class="work__image" alt="Project 1" />
-                <h4 class="pt-4 italic">Proprietary software analyzes the chips surface and runs tests to determine if the component may be a counterfeit part</h4>
-              </div>
+
+            <!-- TRAVEL -->
+            <div id ="travel"></div>
+            <div class="home-heading">
+               <div class="home-heading-title flex items-center">
+                  <span class="material-symbols-outlined text-yellow-500 icon-menu">map</span>
+                  <h2>Travel <span style="color: #595959;">(Coming soon!)</span></h2>
+               </div>
+               <p>Where to next?</p>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    
-    <!-- CUSTOMERS -->
-    <section id="customers" class="py-32">
-      <div class="row">
-        <h2 class="text-5xl py-16 text-white"><span class="material-symbols-outlined text-4xl pr-6 text-yellow-400">diversity_3</span>Customers</h2>
-        <div class="flex justify-between invert">
-          <img src="./images/client-aa.jpg" width="150px" height="90px" alt="American Apparel" />
-          <img src="./images/client-intuitive.jpg" width="150px" height="90px" alt="Intuitive Surgical" />
-          <img src="./images/client-kohls.jpg" width="150px" height="90px" alt="Kohls" />
-          <img src="./images/client-nasa-jpl.jpg" width="150px" height="90px" alt="NASA Jet Propulsion Laboratory" />
-          <img src="./images/client-scc.jpg" width="150px" height="90px" alt="Steel City Collectibles" />
-          <img src="./images/client-verizon.jpg" width="150px" height="90px" alt="Verizon" />
-        </div>
+         </div>
+
+
+         </main>
+
+<!--          <div class="ascii-drawing"><pre>
+                        ◎
+                        │
+                        │                ┌─────────────────────┐
+                 ┌──────◇──────┐         │                     │
+                 │             │         │                     │
+             ┏■──┘━━━━━━━━━━━━━└──■┓     │                     │
+             ┃*━━━━━━━━━━━━━━━━━━━*┃     ◍     Bye friend!     │
+             ┃┃   ■■■■■   ■■■■■   ┃┃    ╱                      │
+             ┃┃   ■■■■■   ■■■■■   ┃┃   ╱                       │
+             ┃┃   ■■■■■   ■■■■■   ┃┃  ╱──◍                     │
+             ┃*━━━━━━━━━━━━━━━━━━━*┃     └─────────────────────┘
+            ◆─────◆─────◆─────◆─────◆
+            │╲***╱*╲***╱*╲***╱*╲***╱│
+            │*╲*╱***╲*╱***╲*╱***╲*╱*│
+            └──◆─────◆─────◆─────◆──┘
+             ┗━━━━━━━━━━━━━━━━━━━━━┛
+      ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┏━━━━━┃///////////////////////////////////┃━━━━━┓
+┃ ┌─┐ ┃.▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫▫.┃ ┌─┐ ┃
+┃ │ │ ┃.▫          ╔═════════╗          ▫.┃ │ │ ┃
+┗━│ │━┃.▫          ║   ┌┐ ●─○║          ▫.┃━│ │━┛
+  │ │ ◎─▣──────────▣   ││  ┌─▣──────────▣─◎ │ │
+  │ │ ┃.▫▨▨▨▨▨▨▨▨▨▨└┐ ┌┘└┐┌┘ ║▨▨▨▨▨▨▨▨▨▨▫.┃ │ │
+  │ │ ┃.▫◹◹◹◹◹◹◹◹◹◹║└─┘  └┘  ║◸◸◸◸◸◸◸◸◸◸▫.┃ │ │
+  │ │ ┃.           ╚═════════╝           .┃ │ │
+ ┏━━━┓┃.                                 .┃┏━━━┓
+ ┗━━━┛┃.     M  O  N  O  D  R  A  W      .┃┗━━━┛
+  │ │ ┃.                                 .┃ │ │
+  │ │ ┗━━━━━━///////////////////////━━━━━━┛ │ │
+  │ │       ┃◦                     ◦┃       │ │
+  │ │       ┃   ┏━━━━━━━━━━━━━━━┓   ┃       │ │
+  │ │       ┃◦  ┃▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤┃  ◦┃       │ │
+  │ │       ┃   ┗━━━━━━━━━━━━━━━┛   ┃       │ │
+┌──◎──┐     ┃◦                     ◦┃     ┌──◎──┐
+│ ┌─┐ │ ┏━━━━━━━━━━━━┓◬◬◬◬◬┏━━━━━━━━━━━━┓ │ ┌─┐ │
+└─┘ └─┘ ┃            ┃━━━━━┃            ┃ └─┘ └─┘
+        ┃            ┃     ┃            ┃
+        ┃            ┃     ┃            ┃</pre>
+         </div> -->
       </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="py-32">
-      <div class="row">
-        <h2 class="text-5xl py-16 text-white"><span class="material-symbols-outlined text-4xl pr-6 text-yellow-400">sports_hockey</span>About Me</h2>
-        <div class="">
-          <div class="pr-16 text-2xl">
-            <div class="pb-8">
-              <h4 class="pb-8">
-                I enjoy designing and developing web application software that is creative yet simple and easy to use. I listen carefully to partners and team members to implement solutions that meet all project requirements. My goal is to obtain a challenging designer role and to contribute to interesting projects. My creativity and drive for continuous learning has allowed me to always adapt quickly in a new environment.  
-              </h4>
-              <h4 class="pb-8">
-                Aside from annoying my daughter, my hobbies include practicing Brazilian jiu jitsu, playing video games, and watching contact sports like mixed martial arts and ice hockey.</h4>
-            </div>
-            <div class="flex justify-start">
-              <a href="/images/Resume - Jordan Crede.docx" class="btn pr-8" download="Resume - Jordan Crede.docx">
-                <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 bg-yellow-400 border-yellow-400 text-black hover:bg-black duration-300 hover:bg-yellow-400">
-                  <span class="flex text-4xl">
-                    <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">sim_card_download</span>
-                    <h2 class="text-2xl cursor-pointer drop-shadow-2xl text-black">Download <b>resume (.docx)</b></h2>
-                  </span>
-                </button>
-              </a>
-              <a href="/images/Resume - Jordan Crede.pdf" class="btn" download="Resume - Jordan Crede.pdf">
-                <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 bg-yellow-400 border-yellow-400 text-black hover:bg-black duration-300 hover:bg-yellow-400">
-                  <span class="flex text-4xl">
-                    <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">picture_as_pdf</span>
-                    <h2 class="text-2xl cursor-pointer drop-shadow-2xl text-black">Download <b>Work Sample (.pdf)</b></h2>
-                  </span>
-                </button>
-              </a>
-            </div>
-          </div>
-<!--           <div class="about__photo-container">
-            <img class="about__photo" width="1033" src="./images/jordan.jpg" alt="Jordan profile picture" />
-          </div> -->
-        </div>
-      </div>
-    </section>
-    
-    <!-- CONTACT -->
-    <section id="contact" class="py-32 header-bg-flip">
-      <div class="row">
-        <br>
-        <h2 class="text-5xl py-16 text-white"><span class="material-symbols-outlined text-4xl pr-6 text-yellow-400">cell_tower</span>Get in contact</h2>
-        <div class="pr-16 text-2xl">
-          <h4>View my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> and view the various software projects that I'm interested in here on <a href="https://github.com/credej?tab=stars" target="_blank" style="color: #facc15;">Github</a>.&nbsp; Feel free to reach out to me directly at <a href="mailto:credej@protonmail.com" style="color: #facc15;">credej@protonmail.com</a>&nbsp;regarding your project, business or just to say hello. Thanks for viewing my work!</h4>
-
-          <div class="py-12">
-            <ul class="flex flex-row">
-              <li class="pr-6">
-                <a href="https://www.linkedin.com/in/jordan-crede-159887160" target="_blank">
-                  <img src="./images/linkedin.svg" alt="Linkedin" height="35" width="35">
-                </a>
-              </li>
-              <li class="px-6">
-                <a href="https://github.com/credej?tab=stars" target="_blank">
-                  <img src="./images/github.svg" alt="Github" height="35" width="35">
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-<!--     <a href="#contact">
-      <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 border-red-700 text-red-700 hover:bg-red-100 duration-300">
-        <span class="flex text-4xl">
-          <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">warning</span>
-          <h2 class="text-2xl cursor-pointer drop-shadow-2xl">Danger</h2>
-        </span>
-      </button>
-    </a>
-
-
-    <a href="#contact">
-      <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 border-orange-700 text-orange-700 hover:bg-orange-100 duration-300">
-        <span class="flex text-4xl">
-          <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">warning</span>
-          <h2 class="text-2xl cursor-pointer drop-shadow-2xl">Bitcoin</h2>
-        </span>
-      </button>
-    </a>
-
-
-    <a href="#contact">
-      <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 border-purple-700 text-purple-700 hover:bg-purple-100 duration-300">
-        <span class="flex text-4xl">
-          <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">warning</span>
-          <h2 class="text-2xl cursor-pointer drop-shadow-2xl">Nostr</h2>
-        </span>
-      </button>
-    </a>
-
-    <a href="#contact">
-      <button class="flex justify-center items-center rounded-lg p-4 px-12 border-2 border-green-700 text-green-700 hover:bg-green-100 duration-300">
-        <span class="flex text-4xl">
-          <span class="flex justify-center items-center material-symbols-outlined pr-4 drop-shadow-2xl">warning</span>
-          <h2 class="text-2xl cursor-pointer drop-shadow-2xl">Open Source</h2>
-        </span>
-      </button>
-    </a>
- -->
-
-    <a href="#top" class="back-to-top" title="Back to Top">
-      <img src="./images/arrow-up.svg" alt="Back to Top" height="50" width="50" />
-    </a>
-
-    <script src="./index.js"></script>
-  </div>
-</body>
-
+      <footer class="footer">
+         <footer-component></footer-component>
+      </footer>
+   </body>
 </html>

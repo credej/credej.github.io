@@ -1,0 +1,1283 @@
+<!doctype html>
+<html lang=en>
+   <head>
+      <title>Command Line Interface Tools</title>
+      <meta name=description content="my quotes">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="../../../components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="../../../components/header-min.js" type="text/javascript" defer></script>
+      <script src="../../../components/index-min.js" type="text/javascript" defer></script>
+      <head-links></head-links>
+   </head>
+   <body>
+      <div class="header-wrapper"><header-component></header-component></div>
+
+      <div class=site-wrapper>
+         <header class=site-head>
+            <div class=site-head-container>               
+            	<div class="site-head-center text-4xl">
+                  <a class=site-head-logo href="../index.html" title=js work>
+                     <div class="my-8 text-amber-300">j's work >></div>
+                  </a>
+                  <span class="site-head-title">Pages > <b>CLI Tools</b></span>
+               </div>
+               <div class=site-head-scrolldown><span class="scrolldown-text text-clifford mx-5">[PROCEED WITH CAUTION]<span></div>
+               <div id=navigation class=site-head-menu>
+                  <nav class=site-head-menu-column-half>
+                     <h2 class=site-head-menu-title><a href="index.html" target=_self>Pages</a></h2>
+                     <ul class=site-head-menu-list>
+                        <li><a href="index.html" target=_self>Projects</a></li>
+                        <li><a href="../computer.html" target=_self>Computers</a></li>
+                        <li><a href="../keyboard/index.html" target=_self>Keyboards & Mice</a></li>
+                        <li class=active><a href="../command-line/index.html">CLI Tools</a></li>
+                        <li><a href="../infrastructure.html" target=_self>Open Source</a></li>
+                        <li><a href="../phone/index.html" target=_self>Phones</a></li>
+                        <li><a href="../camera.html" target=_self>Cameras</a></li>
+                        <li><a href="../edc/index.html" target=_self>EDC</a></li>
+                        <li><a href="../bookmarks/index.html" target=_self>Bookmarks</a></li>
+                        <li><a href="../contact/index.html" target=_self>Contact</a></li>
+                        <li><a href=https://github.com/credej target=_blank rel="external noreferrer nofollow noopener">GitHub</a></li>
+                        <!--<li><a href="index.xml" title=RSS target=_blank rel=noopener>RSS</a></li>-->
+                     </ul>
+                  </nav>
+                  <div class=site-head-menu-columns>
+                     <div class=site-head-menu-column>
+                        <h2 class=site-head-menu-title><a href="../collection/journal.html" target=_self>Journal</a></h2>
+                        <ul class=site-head-menu-list>
+                           <li><a href="../my-year-in-coffee-2024/index.html" target=_self>My Year in Coffee (2024)</a></li>
+                           <li><a href="../9barista-espresso-machine-one-year-later/index.html" target=_self>9Barista Espresso Machine: One Year Later</a></li>
+                           <li><a href="../throwback-thursday-kde-2-on-suse-linux-7-3/index.html" target=_self>Throwback Thursday: KDE 2 on SuSE Linux 7.3</a></li>
+                           <li><a href="../google-pixel-9-released-the-best-time-to-upgrade-to-the-pixel-8-and-grapheneos/index.html" target=_self>Google Pixel 9 released: The Best Time to Upgrade to the Pixel 8 (and
+                              GrapheneOS)</a>
+                           </li>
+                           <li><a href="../minimalist-and-functional-desktop-environment-without-xorg/index.html" target=_self>Minimalist and Functional Desktop Environment without Xorg</a></li>
+                           <li><a href="../committing-at-least-one-line-each-day-for-five-years/index.html" target=_self>Committing At Least One Line Each Day for Five Years</a></li>
+                           <li><a href="../collection/journal.html" target=_self>More ...</a></li>
+                        </ul>
+                     </div>
+                     <div class=site-head-menu-column>
+                        <h2 class=site-head-menu-title><a href="../collection/travel.html" target=_self>Travel</a></h2>
+                        <ul class=site-head-menu-list>
+                           <li><a href="../travel/japan/sapporo/index.html" target=_self>Sapporo, Japan</a></li>
+                           <li><a href="../travel/japan/osaka-2024/index.html" target=_self>Osaka, Japan</a></li>
+                           <li><a href="../travel/japan/tokyo-2024/index.html" target=_self>Tokyo, Japan</a></li>
+                           <li><a href="../travel/japan/yokohama/index.html" target=_self>Yokohama, Japan</a></li>
+                           <li><a href="../travel/spain/barcelona/index.html" target=_self>Barcelona, Spain</a></li>
+                           <li><a href="../travel/andorra/index.html" target=_self>Andorra</a></li>
+                           <li><a href="../collection/travel.html" target=_self>More ...</a></li>
+                        </ul>
+                     </div>
+                     <div class=site-head-menu-column>
+                        <h2 class=site-head-menu-title><a href="../collection/make.html" target=_self>Make</a></h2>
+                        <ul class=site-head-menu-list>
+                           <li><a href="hard-money-node/index.html" target=_self>Hard money node</a></li>
+                           <li><a href="../starshield-situational-awareness-for-the-star-labs-starbook/index.html" target=_self>Starshield: Situational Awareness for the Star Labs StarBook</a></li>
+                           <li><a href="../hibi-mia-botanical/index.html" target=_self>HIBI MIA Botanical</a></li>
+                           <li><a href="../ultra-portable-data-center-part-two/index.html" target=_self>Ultra-Portable Data Center: Part Two</a></li>
+                           <li><a href="../kunai-corne-v3/index.html" target=_self>Kunai Corne V3</a></li>
+                           <li><a href="../run-your-privacy-respecting-ai-on-gentoo-linux/index.html" target=_self>Run Your Privacy-Respecting AI on Gentoo Linux</a></li>
+                           <li><a href="../collection/make.html" target=_self>More ...</a></li>
+                        </ul>
+                     </div>
+                     <div class=site-head-menu-column>
+                        <h2 class=site-head-menu-title><a href="../collection/updates.html" target=_self>Updates</a></h2>
+                        <ul class=site-head-menu-list>
+                           <li><a href="../updates-2024-q4/index.html" target=_self>Updates 2024/Q4</a></li>
+                           <li><a href="../updates-2024-q3/index.html" target=_self>Updates 2024/Q3</a></li>
+                           <li><a href="../updates-2024-q2/index.html" target=_self>Updates 2024/Q2</a></li>
+                           <li><a href="../updates-2024-q1/index.html" target=_self>Updates 2024/Q1</a></li>
+                           <li><a href="../updates-2023-q4.html" target=_self>Updates 2023/Q4</a></li>
+                           <li><a href="../updates-2023-q3/index.html" target=_self>Updates 2023/Q3</a></li>
+                           <li><a href="../collection/updates.html" target=_self>More ...</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <main id=site-main class=site-main>
+            <article class="post-content post page">
+               <script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleBody":"An ever-chaning collection of command line tools that I find useful on\na daily basis or just fun to play with from time to time.\n","author":{"@type":"Person","givenName":"Marius","additionalName":"マリウス","email":"marius@マリウス.com"},"dateModified":"2024-03-01 12:51:46 -0500 -0500","datePublished":"2020-05-03 20:17:00 \u002b0100 \u002b0100","description":"An ever-chaning collection of command line tools that I find useful on\na daily basis or just fun to play with from time to time.\n","headline":"Command Line","mainEntityOfPage":{"@id":"\/command-line\/","@type":"WebPage"}}</script>
+               <div id=qrcode class=qrcode></div>
+               <script src="../qrcode.min.js"></script><script>var bgcolor=getComputedStyle(document.querySelector("body")).getPropertyValue("background-color"),qrcode=new QRCode({content:window.location.href,container:"svg-viewbox",join:!0,padding:0,color:bgcolor=="rgb(15, 18, 20)"?"#ffffff":"#0f1214",background:bgcolor=="rgb(15, 18, 20)"?"#0f1214":"#ffffff"}),svg=qrcode.svg();$qrcode=document.getElementById("qrcode"),$qrcode.style.width="100px",$qrcode.style.height="100px",$qrcode.style.margin="0 0 4rem 0",$qrcode.innerHTML=svg</script>
+               <header class=post-content-header>
+                  <h1 class="post-content-title text-6xl">Command Line Interface Tools</h1>
+               </header>
+               <p class=post-content-excerpt>An ever-chaning collection of command line tools that I find useful on
+                  a daily basis or just fun to play with from time to time.
+               </p>
+               <div class=post-content-image><img class=kg-image src="images/cover_hu2229503715050423789.jpg" alt="Command Line"></div>
+               <aside id=toc>
+                  <nav id=TableOfContents>
+                     <ul>
+                        <li><a href="index.html#the-environment">The Environment</a></li>
+                        <li>
+                           <a href="index.html#the-collection">The Collection</a>
+                           <ul>
+                              <li><a href="index.html#arduino-cli">homebrew</a></li>
+                              <li><a href="index.html#asciinema">wget</a></li>
+                              <li><a href="index.html#bandwhich">yt-dlp</a></li>
+                              <li><a href="index.html#bandwhich">aaaaaaaaa</a></li>
+                              <li><a href="index.html#arduino-cli">arduino-cli</a></li>
+                              <li><a href="index.html#asciinema">asciinema</a></li>
+                              <li><a href="index.html#bandwhich">bandwhich</a></li>
+                              <li><a href="index.html#bat">bat</a></li>
+                              <li><a href="index.html#battop">battop</a></li>
+                              <li><a href="index.html#bingrep">bingrep</a></li>
+                              <li><a href="index.html#bluetui">bluetui</a></li>
+                              <li><a href="index.html#bottom">bottom</a></li>
+                              <li><a href="index.html#browsh">browsh</a></li>
+                              <li><a href="index.html#chafa">chafa</a></li>
+                              <li><a href="index.html#code-minimap">code-minimap</a></li>
+                              <li><a href="index.html#cointop">cointop</a></li>
+                              <li><a href="index.html#conclusive">conclusive</a></li>
+                              <li><a href="index.html#csview">csview</a></li>
+                              <li><a href="index.html#ctop">ctop</a></li>
+                              <li><a href="index.html#dasel">dasel</a></li>
+                              <li><a href="index.html#delta">delta</a></li>
+                              <li><a href="index.html#dijo">dijo</a></li>
+                              <li><a href="index.html#dust">dust</a></li>
+                              <li><a href="index.html#endlessh">endlessh</a></li>
+                              <li><a href="index.html#eva">eva</a></li>
+                              <li><a href="index.html#eza">eza</a></li>
+                              <li><a href="index.html#fzf">fzf</a></li>
+                              <li><a href="index.html#gfold">gfold</a></li>
+                              <li><a href="index.html#git-crypt">git-crypt</a></li>
+                              <li><a href="index.html#git-journal">git-journal</a></li>
+                              <li><a href="index.html#gitui">gitui</a></li>
+                              <li><a href="index.html#glow">glow</a></li>
+                              <li><a href="index.html#gomphotherium">gomphotherium</a></li>
+                              <li><a href="index.html#gotty">gotty</a></li>
+                              <li><a href="index.html#gpg-tui">gpg-tui</a></li>
+                              <li><a href="index.html#gping">gping</a></li>
+                              <li><a href="index.html#gron">gron</a></li>
+                              <li><a href="index.html#hexyl">hexyl</a></li>
+                              <li><a href="index.html#htmlq">htmlq</a></li>
+                              <li><a href="index.html#hugo">hugo</a></li>
+                              <li><a href="index.html#hyperfine">hyperfine</a></li>
+                              <li><a href="index.html#imager">imager</a></li>
+                              <li><a href="index.html#irssi">irssi</a></li>
+                              <li><a href="index.html#jless">jless</a></li>
+                              <li><a href="index.html#jwt-cli">jwt-cli</a></li>
+                              <li><a href="index.html#kmon">kmon</a></li>
+                              <li><a href="index.html#lemmeknow">lemmeknow</a></li>
+                              <li><a href="index.html#lf">lf</a></li>
+                              <li><a href="index.html#lnav">lnav</a></li>
+                              <li><a href="index.html#matterhorn">matterhorn</a></li>
+                              <li><a href="index.html#mc">mc</a></li>
+                              <li><a href="index.html#mdcat">mdcat</a></li>
+                              <li><a href="index.html#mosh">mosh</a></li>
+                              <li><a href="index.html#ncdu">ncdu</a></li>
+                              <li><a href="index.html#neomutt">neomutt</a></li>
+                              <li><a href="index.html#neovim">neovim</a></li>
+                              <li><a href="index.html#oxipng">oxipng</a></li>
+                              <li><a href="index.html#pastel">pastel</a></li>
+                              <li><a href="index.html#pipe-rename">pipe-rename</a></li>
+                              <li><a href="index.html#procs">procs</a></li>
+                              <li><a href="index.html#radicle-cli">radicle-cli</a></li>
+                              <li><a href="index.html#rates">rates</a></li>
+                              <li><a href="index.html#reader">reader</a></li>
+                              <li><a href="index.html#restic">restic</a></li>
+                              <li><a href="index.html#resto">resto</a></li>
+                              <li><a href="index.html#ripgrep">ripgrep</a></li>
+                              <li><a href="index.html#rsnapshot">rsnapshot</a></li>
+                              <li><a href="index.html#rustscan">rustscan</a></li>
+                              <li><a href="index.html#shellcaster">shellcaster</a></li>
+                              <li><a href="index.html#silicon">silicon</a></li>
+                              <li><a href="index.html#so">so</a></li>
+                              <li><a href="index.html#socat">socat</a></li>
+                              <li><a href="index.html#superhighway84">superhighway84</a></li>
+                              <li><a href="index.html#syncthing">syncthing</a></li>
+                              <li><a href="index.html#taskwarrior-tui">taskwarrior-tui</a></li>
+                              <li><a href="index.html#tealdeer">tealdeer</a></li>
+                              <li><a href="index.html#ticker">ticker</a></li>
+                              <li><a href="index.html#tickrs">tickrs</a></li>
+                              <li><a href="index.html#tmpmail">tmpmail</a></li>
+                              <li><a href="index.html#tre">tre</a></li>
+                              <li><a href="index.html#tz">tz</a></li>
+                              <li><a href="index.html#viu">viu</a></li>
+                              <li><a href="index.html#vocage">vocage</a></li>
+                              <li><a href="index.html#websocat">websocat</a></li>
+                              <li><a href="index.html#wikit">wikit</a></li>
+                              <li><a href="index.html#xplr">xplr</a></li>
+                              <li><a href="index.html#yj">yj</a></li>
+                              <li><a href="index.html#zeit">zeit</a></li>
+                              <li><a href="index.html#zenith">zenith</a></li>
+                              <li><a href="index.html#zoxide">zoxide</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="index.html#snippets">Snippets</a></li>
+                     </ul>
+                  </nav>
+               </aside>
+               <div class=post-content-body>
+                  <p>While I do have a strong preference for single
+                     <a href=https://en.wikipedia.org/wiki/A.out><code>a.out</code></a> binaries without large dependency
+                     trees that do not require additional runtimes, I&rsquo;m also a strong believer of
+                     using the right technology for the right job. Hence, I obviously prefer C/C++,
+                     Rust, and Go programs, but I also don&rsquo;t mind using Python-, Node.js-, Ruby- or
+                     Elixir/Erlang-based helpers to get a job done. For example, I would definitely
+                     want a C/C++ or Rust alternative to <code>ls</code> – glad you&rsquo;re asking, have
+                     <a href=https://github.com/eza-community/eza>eza</a> <em>please and thank you</em> – over a
+                     Node.js version, simply because I want it to be instantly available and chew up
+                     as little CPU and memory as possible. That&rsquo;s also one of the reasons I try to
+                     stay at least 6 feet apart from everything Electron-based, and why I don&rsquo;t touch
+                     anything that requires the JVM even with a 10 foot pole.
+                  </p>
+                  <h2 id=the-environment>The Environment</h2>
+                  <p>I&rsquo;m using <a href=https://github.com/alacritty/alacritty>Alacritty</a> with a<br><a href=https://github.com/mrusme/dotfiles/blob/master/alacritty.yml>minimalist
+                     config</a>, the <a href=https://www.zsh.org>Z
+                     shell</a> with <a href=https://ohmyz.sh>Oh My Zsh</a> and a <a href=https://github.com/mrusme/dotfiles/blob/master/.zshrc>rather
+                     large <code>.zshrc</code></a>. I
+                     sometimes use <a href=https://github.com/tmux/tmux>tmux</a>.
+                  </p>
+                  <p>My color schemes change from time to time, but you can check my <a href=https://github.com/mrusme/dotfiles>dotfiles</a> to
+                     see what I&rsquo;m currently
+                     using.
+                  </p>
+                  <h2 id=the-collection>The Collection</h2>
+                  <h3 id=arduino-cli>arduino-cli</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/arduino-cli.gif" target=_blank>
+                        <img class=kg-image src="images/arduino-cli.gif">
+                        <figcaption>arduino-cli</figcaption>
+                     </a>
+                  </figure>
+                  <p>Arduino command line tool.</p>
+                  <a class=button target=_blank href=https://github.com/arduino/arduino-cli>Website</a>
+                  <hr>
+                  <h3 id=asciinema>asciinema</h3>
+                  <small>[python]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/asciinema.gif" target=_blank>
+                        <img class=kg-image src="images/asciinema.gif">
+                        <figcaption>asciinema</figcaption>
+                     </a>
+                  </figure>
+                  <p>asciinema <em>[as-kee-nuh-muh]</em> is a free and open source solution for recording terminal sessions and sharing them on the web.</p>
+                  <a class=button target=_blank href=https://asciinema.org>Website</a>
+                  <hr>
+                  <h3 id=bandwhich>bandwhich</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/bandwhich.gif" target=_blank>
+                        <img class=kg-image src="images/bandwhich.gif">
+                        <figcaption>bandwhich</figcaption>
+                     </a>
+                  </figure>
+                  <p>Terminal bandwidth utilization tool.</p>
+                  <a class=button target=_blank href=https://github.com/imsnif/bandwhich>Website</a>
+                  <hr>
+                  <h3 id=bat>bat</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/bat.gif" target=_blank>
+                        <img class=kg-image src="images/bat.gif">
+                        <figcaption>bat</figcaption>
+                     </a>
+                  </figure>
+                  <p>A cat(1) clone with wings.</p>
+                  <a class=button target=_blank href=https://github.com/sharkdp/bat>Website</a>
+                  <hr>
+                  <h3 id=battop>battop</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>battop</figcaption>
+                     </a>
+                  </figure>
+                  <p>battop is an interactive viewer, similar to top, htop and other top
+                     utilities, but about the batteries installed in your notebook.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/svartalf/rust-battop>Website</a>
+                  <hr>
+                  <h3 id=bingrep>bingrep</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/bingrep.gif" target=_blank>
+                        <img class=kg-image src="images/bingrep.gif">
+                        <figcaption>bingrep</figcaption>
+                     </a>
+                  </figure>
+                  <p>Universal Command Line Interface for Amazon Web Services.</p>
+                  <a class=button target=_blank href=https://github.com/m4b/bingrep>Website</a>
+                  <hr>
+                  <h3 id=bluetui>bluetui</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/bluetui.gif" target=_blank>
+                        <img class=kg-image src="images/bluetui.gif">
+                        <figcaption>bluetui</figcaption>
+                     </a>
+                  </figure>
+                  <p>TUI for managing bluetooth devices.</p>
+                  <a class=button target=_blank href=https://github.com/pythops/bluetui>Website</a>
+                  <hr>
+                  <h3 id=bottom>bottom</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/btm.gif" target=_blank>
+                        <img class=kg-image src="images/btm.gif">
+                        <figcaption>bottom</figcaption>
+                     </a>
+                  </figure>
+                  <p>A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.</p>
+                  <a class=button target=_blank href=https://github.com/ClementTsang/bottom>Website</a>
+                  <hr>
+                  <h3 id=browsh>browsh</h3>
+                  <small><a href=https://img.shields.io/badge/code-node.js-%2343853d>nodejs</a> ![code-go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/browsh.gif" target=_blank>
+                        <img class=kg-image src="images/browsh.gif">
+                        <figcaption>browsh</figcaption>
+                     </a>
+                  </figure>
+                  <p>A fully-modern text-based browser, rendering to TTY and browsers.</p>
+                  <a class=button target=_blank href=https://github.com/browsh-org/browsh>Website</a>
+                  <hr>
+                  <h3 id=chafa>chafa</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/chafa.gif" target=_blank>
+                        <img class=kg-image src="images/chafa.gif">
+                        <figcaption>chafa</figcaption>
+                     </a>
+                  </figure>
+                  <p>Chafa is a command-line utility that converts all kinds of images, including animated GIFs, into sixel or ANSI/Unicode character output that can be displayed in a terminal.</p>
+                  <a class=button target=_blank href=https://hpjansson.org/chafa/>Website</a>
+                  <hr>
+                  <h3 id=code-minimap>code-minimap</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/code-minimap.gif" target=_blank>
+                        <img class=kg-image src="images/code-minimap.gif">
+                        <figcaption>code-minimap</figcaption>
+                     </a>
+                  </figure>
+                  <p>This tool is for generating text minimaps at speed.</p>
+                  <a class=button target=_blank href=https://github.com/wfxr/code-minimap>Website</a>
+                  <hr>
+                  <h3 id=cointop>cointop</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/cointop.gif" target=_blank>
+                        <img class=kg-image src="images/cointop.gif">
+                        <figcaption>cointop</figcaption>
+                     </a>
+                  </figure>
+                  <p>A fast and lightweight interactive terminal based UI application for tracking
+                     cryptocurrencies.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/cointop-sh/cointop>Website</a>
+                  <hr>
+                  <h3 id=conclusive>conclusive</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>conclusive</figcaption>
+                     </a>
+                  </figure>
+                  <p>Conclusive. A command line client for Plausible Analytics.</p>
+                  <a class=button target=_blank href=https://github.com/mrusme/conclusive>Website</a>
+                  <hr>
+                  <h3 id=csview>csview</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/csview.gif" target=_blank>
+                        <img class=kg-image src="images/csview.gif">
+                        <figcaption>csview</figcaption>
+                     </a>
+                  </figure>
+                  <p>A high performance csv viewer with cjk/emoji support.</p>
+                  <a class=button target=_blank href=https://github.com/wfxr/csview>Website</a>
+                  <hr>
+                  <h3 id=ctop>ctop</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/ctop.gif" target=_blank>
+                        <img class=kg-image src="images/ctop.gif">
+                        <figcaption>ctop</figcaption>
+                     </a>
+                  </figure>
+                  <p>Top-like interface for container metrics</p>
+                  <a class=button target=_blank href=https://github.com/bcicen/ctop>Website</a>
+                  <hr>
+                  <h3 id=dasel>dasel</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/dasel.gif" target=_blank>
+                        <img class=kg-image src="images/dasel.gif">
+                        <figcaption>dasel</figcaption>
+                     </a>
+                  </figure>
+                  <p>Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a
+                     single tool. Supports conversion between formats and can be used as a Go
+                     package.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/tomwright/dasel/>Website</a>
+                  <hr>
+                  <h3 id=delta>delta</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/delta.gif" target=_blank>
+                        <img class=kg-image src="images/delta.gif">
+                        <figcaption>delta</figcaption>
+                     </a>
+                  </figure>
+                  <p>A viewer for git and diff output.</p>
+                  <a class=button target=_blank href=https://github.com/dandavison/delta>Website</a>
+                  <hr>
+                  <h3 id=dijo>dijo</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/dijo.gif" target=_blank>
+                        <img class=kg-image src="images/dijo.gif">
+                        <figcaption>dijo</figcaption>
+                     </a>
+                  </figure>
+                  <p>dijo is a habit tracker. It is curses-based, it runs in your terminal.</p>
+                  <a class=button target=_blank href=https://github.com/NerdyPepper/dijo>Website</a>
+                  <hr>
+                  <h3 id=dust>dust</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/dust.gif" target=_blank>
+                        <img class=kg-image src="images/dust.gif">
+                        <figcaption>dust</figcaption>
+                     </a>
+                  </figure>
+                  <p>du + rust = dust. Like du but more intuitive.</p>
+                  <a class=button target=_blank href=https://github.com/bootandy/dust>Website</a>
+                  <hr>
+                  <h3 id=endlessh>endlessh</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>endlessh</figcaption>
+                     </a>
+                  </figure>
+                  <p>SSH tarpit that slowly sends an endless banner.</p>
+                  <a class=button target=_blank href=https://github.com/skeeto/endlessh>Website</a>
+                  <hr>
+                  <h3 id=eva>eva</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/eva.gif" target=_blank>
+                        <img class=kg-image src="images/eva.gif">
+                        <figcaption>eva</figcaption>
+                     </a>
+                  </figure>
+                  <p>A calculator REPL, similar to bc(1).</p>
+                  <a class=button target=_blank href=https://github.com/NerdyPepper/eva>Website</a>
+                  <hr>
+                  <h3 id=eza>eza</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/eza.gif" target=_blank>
+                        <img class=kg-image src="images/eza.gif">
+                        <figcaption>eza</figcaption>
+                     </a>
+                  </figure>
+                  <p>A modern version of ‘ls’.</p>
+                  <a class=button target=_blank href=https://github.com/eza-community/eza>Website</a>
+                  <hr>
+                  <h3 id=fzf>fzf</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/fzf.gif" target=_blank>
+                        <img class=kg-image src="images/fzf.gif">
+                        <figcaption>fzf</figcaption>
+                     </a>
+                  </figure>
+                  <p>A command-line fuzzy finder.</p>
+                  <a class=button target=_blank href=https://github.com/junegunn/fzf>Website</a>
+                  <hr>
+                  <h3 id=gfold>gfold</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/gfold.gif" target=_blank>
+                        <img class=kg-image src="images/gfold.gif">
+                        <figcaption>gfold</figcaption>
+                     </a>
+                  </figure>
+                  <p>gfold is a CLI-driven application that helps you keep track of
+                     multiple Git repositories.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/nickgerace/gfold>Website</a>
+                  <hr>
+                  <h3 id=git-crypt>git-crypt</h3>
+                  <small>[c++]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/git-crypt.gif" target=_blank>
+                        <img class=kg-image src="images/git-crypt.gif">
+                        <figcaption>git-crypt</figcaption>
+                     </a>
+                  </figure>
+                  <p>Transparent file encryption in git.</p>
+                  <a class=button target=_blank href=https://github.com/AGWA/git-crypt>Website</a>
+                  <hr>
+                  <h3 id=git-journal>git-journal</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/git-journal.gif" target=_blank>
+                        <img class=kg-image src="images/git-journal.gif">
+                        <figcaption>git-journal</figcaption>
+                     </a>
+                  </figure>
+                  <p>The Git Commit Message and Changelog Generation Framework.</p>
+                  <a class=button target=_blank href=https://github.com/saschagrunert/git-journal>Website</a>
+                  <hr>
+                  <h3 id=gitui>gitui</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/gitui.gif" target=_blank>
+                        <img class=kg-image src="images/gitui.gif">
+                        <figcaption>gitui</figcaption>
+                     </a>
+                  </figure>
+                  <p>Blazing fast terminal-ui for Git written in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/extrawurst/gitui>Website</a>
+                  <hr>
+                  <h3 id=glow>glow</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/glow.gif" target=_blank>
+                        <img class=kg-image src="images/glow.gif">
+                        <figcaption>glow</figcaption>
+                     </a>
+                  </figure>
+                  <p>Render markdown on the CLI, with pizzazz!</p>
+                  <a class=button target=_blank href=https://github.com/charmbracelet/glow>Website</a>
+                  <hr>
+                  <h3 id=gomphotherium>gomphotherium</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>gomphotherium</figcaption>
+                     </a>
+                  </figure>
+                  <p>Gomphotherium (/ˌɡɒmfəˈθɪəriəm/; &ldquo;welded beast&rdquo;), a command line Mastodon
+                     client.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/mrusme/gomphotherium>Website</a>
+                  <hr>
+                  <h3 id=gotty>gotty</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>gotty</figcaption>
+                     </a>
+                  </figure>
+                  <p>Share your terminal as a web application.</p>
+                  <a class=button target=_blank href=https://github.com/yudai/gotty>Website</a>
+                  <hr>
+                  <h3 id=gpg-tui>gpg-tui</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>gpg-tui</figcaption>
+                     </a>
+                  </figure>
+                  <p>Manage your GnuPG keys with ease!</p>
+                  <a class=button target=_blank href=https://github.com/orhun/gpg-tui>Website</a>
+                  <hr>
+                  <h3 id=gping>gping</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/gping.gif" target=_blank>
+                        <img class=kg-image src="images/gping.gif">
+                        <figcaption>gping</figcaption>
+                     </a>
+                  </figure>
+                  <p>Ping, but with a graph.</p>
+                  <a class=button target=_blank href=https://github.com/orf/gping/>Website</a>
+                  <hr>
+                  <h3 id=gron>gron</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/gron.gif" target=_blank>
+                        <img class=kg-image src="images/gron.gif">
+                        <figcaption>gron</figcaption>
+                     </a>
+                  </figure>
+                  <p>Make JSON greppable!</p>
+                  <a class=button target=_blank href=https://github.com/TomNomNom/gron>Website</a>
+                  <hr>
+                  <h3 id=hexyl>hexyl</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/hexyl.gif" target=_blank>
+                        <img class=kg-image src="images/hexyl.gif">
+                        <figcaption>hexyl</figcaption>
+                     </a>
+                  </figure>
+                  <p>A command-line hex viewer.</p>
+                  <a class=button target=_blank href=https://github.com/sharkdp/hexyl>Website</a>
+                  <hr>
+                  <h3 id=htmlq>htmlq</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/htmlq.gif" target=_blank>
+                        <img class=kg-image src="images/htmlq.gif">
+                        <figcaption>htmlq</figcaption>
+                     </a>
+                  </figure>
+                  <p>Like jq, but for HTML.</p>
+                  <a class=button target=_blank href=https://github.com/mgdm/htmlq>Website</a>
+                  <hr>
+                  <h3 id=hugo>hugo</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/hugo.gif" target=_blank>
+                        <img class=kg-image src="images/hugo.gif">
+                        <figcaption>hugo</figcaption>
+                     </a>
+                  </figure>
+                  <p>Hugo is a static HTML and CSS website generator written in Go.</p>
+                  <a class=button target=_blank href=https://github.com/gohugoio/hugo>Website</a>
+                  <hr>
+                  <h3 id=hyperfine>hyperfine</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/hyperfine.gif" target=_blank>
+                        <img class=kg-image src="images/hyperfine.gif">
+                        <figcaption>hyperfine</figcaption>
+                     </a>
+                  </figure>
+                  <p>A command-line benchmarking tool.</p>
+                  <a class=button target=_blank href=https://github.com/sharkdp/hyperfine>Website</a>
+                  <hr>
+                  <h3 id=imager>imager</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/imager.gif" target=_blank>
+                        <img class=kg-image src="images/imager.gif">
+                        <figcaption>imager</figcaption>
+                     </a>
+                  </figure>
+                  <p>Automated image compression for efficiently distributing images on the web.</p>
+                  <a class=button target=_blank href=https://github.com/imager-io/imager>Website</a>
+                  <hr>
+                  <h3 id=irssi>irssi</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>irssi</figcaption>
+                     </a>
+                  </figure>
+                  <p>The client of the future.</p>
+                  <p>I use this IRC client in combination with <a href=https://github.com/znc/znc>ZNC</a>.</p>
+                  <a class=button target=_blank href=https://github.com/irssi/irssi>Website</a>
+                  <hr>
+                  <h3 id=jless>jless</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/jless.gif" target=_blank>
+                        <img class=kg-image src="images/jless.gif">
+                        <figcaption>jless</figcaption>
+                     </a>
+                  </figure>
+                  <p>jless is a command-line JSON viewer designed for reading, exploring, and
+                     searching through JSON data.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/PaulJuliusMartinez/jless>Website</a>
+                  <hr>
+                  <h3 id=jwt-cli>jwt-cli</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>jwt-cli</figcaption>
+                     </a>
+                  </figure>
+                  <p>A super fast CLI tool to decode and encode JWTs built in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/mike-engel/jwt-cli>Website</a>
+                  <hr>
+                  <h3 id=kmon>kmon</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/kmon.gif" target=_blank>
+                        <img class=kg-image src="images/kmon.gif">
+                        <figcaption>kmon</figcaption>
+                     </a>
+                  </figure>
+                  <p>Linux Kernel Manager and Activity Monitor.</p>
+                  <a class=button target=_blank href=https://github.com/orhun/kmon>Website</a>
+                  <hr>
+                  <h3 id=lemmeknow>lemmeknow</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/lemmeknow.gif" target=_blank>
+                        <img class=kg-image src="images/lemmeknow.gif">
+                        <figcaption>lemmeknow</figcaption>
+                     </a>
+                  </figure>
+                  <p>The fastest way to identify anything!</p>
+                  <a class=button target=_blank href=https://github.com/swanandx/lemmeknow>Website</a>
+                  <hr>
+                  <h3 id=lf>lf</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/lf.gif" target=_blank>
+                        <img class=kg-image src="images/lf.gif">
+                        <figcaption>lf</figcaption>
+                     </a>
+                  </figure>
+                  <p>Terminal file manager.</p>
+                  <a class=button target=_blank href=https://github.com/gokcehan/lf>Website</a>
+                  <hr>
+                  <h3 id=lnav>lnav</h3>
+                  <small>[c++]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/lnav.gif" target=_blank>
+                        <img class=kg-image src="images/lnav.gif">
+                        <figcaption>lnav</figcaption>
+                     </a>
+                  </figure>
+                  <p>Log file navigator.</p>
+                  <a class=button target=_blank href=https://github.com/tstack/lnav>Website</a>
+                  <hr>
+                  <h3 id=matterhorn>matterhorn</h3>
+                  <small>[haskell]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>matterhorn</figcaption>
+                     </a>
+                  </figure>
+                  <p>Matterhorn is a terminal client for the Mattermost chat system.</p>
+                  <a class=button target=_blank href=https://github.com/matterhorn-chat/matterhorn>Website</a>
+                  <hr>
+                  <h3 id=mc>mc</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/mc.gif" target=_blank>
+                        <img class=kg-image src="images/mc.gif">
+                        <figcaption>mc</figcaption>
+                     </a>
+                  </figure>
+                  <p>GNU Midnight Commander (also referred to as MC) is a user shell with
+                     text-mode full-screen interface.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/MidnightCommander/mc>Website</a>
+                  <hr>
+                  <h3 id=mdcat>mdcat</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/mdcat.gif" target=_blank>
+                        <img class=kg-image src="images/mdcat.gif">
+                        <figcaption>mdcat</figcaption>
+                     </a>
+                  </figure>
+                  <p>cat for markdown.</p>
+                  <a class=button target=_blank href=https://github.com/lunaryorn/mdcat>Website</a>
+                  <hr>
+                  <h3 id=mosh>mosh</h3>
+                  <small>[c++]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/mosh.gif" target=_blank>
+                        <img class=kg-image src="images/mosh.gif">
+                        <figcaption>mosh</figcaption>
+                     </a>
+                  </figure>
+                  <p>Mobile Shell.</p>
+                  <p><a href=https://www.jefftk.com/p/mosh>Here</a> is a good post on why Mosh makes sense.</p>
+                  <a class=button target=_blank href=https://github.com/mobile-shell/mosh>Website</a>
+                  <hr>
+                  <h3 id=ncdu>ncdu</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/ncdu.gif" target=_blank>
+                        <img class=kg-image src="images/ncdu.gif">
+                        <figcaption>ncdu</figcaption>
+                     </a>
+                  </figure>
+                  <p>Ncdu is a disk usage analyzer with an ncurses interface.</p>
+                  <a class=button target=_blank href=https://dev.yorhel.nl/ncdu>Website</a>
+                  <hr>
+                  <h3 id=neomutt>neomutt</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>neomutt</figcaption>
+                     </a>
+                  </figure>
+                  <p>NeoMutt was created when Richard Russon took all the old Mutt patches, sorted through them, fixed them up and documented them.</p>
+                  <a class=button target=_blank href=https://github.com/neomutt/neomutt>Website</a>
+                  <hr>
+                  <h3 id=neovim>neovim</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/nvim.gif" target=_blank>
+                        <img class=kg-image src="images/nvim.gif">
+                        <figcaption>neovim</figcaption>
+                     </a>
+                  </figure>
+                  <p>Vim-fork focused on extensibility and usability.</p>
+                  <a class=button target=_blank href=https://github.com/neovim/neovim>Website</a>
+                  <hr>
+                  <h3 id=oxipng>oxipng</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>oxipng</figcaption>
+                     </a>
+                  </figure>
+                  <p>Multithreaded PNG optimizer written in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/shssoichiro/oxipng>Website</a>
+                  <hr>
+                  <h3 id=pastel>pastel</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/pastel.gif" target=_blank>
+                        <img class=kg-image src="images/pastel.gif">
+                        <figcaption>pastel</figcaption>
+                     </a>
+                  </figure>
+                  <p>pastel is a command-line tool to generate, analyze, convert and
+                     manipulate colors.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/sharkdp/pastel>Website</a>
+                  <hr>
+                  <h3 id=pipe-rename>pipe-rename</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>pipe-rename</figcaption>
+                     </a>
+                  </figure>
+                  <p>pipe-rename takes a list of files as input, opens your $EDITOR of choice,
+                     then renames those files accordingly.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/marcusbuffett/pipe-rename>Website</a>
+                  <hr>
+                  <h3 id=procs>procs</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/procs.gif" target=_blank>
+                        <img class=kg-image src="images/procs.gif">
+                        <figcaption>procs</figcaption>
+                     </a>
+                  </figure>
+                  <p>A modern replacement for ps written in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/dalance/procs>Website</a>
+                  <hr>
+                  <h3 id=radicle-cli>radicle-cli</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/rad.gif" target=_blank>
+                        <img class=kg-image src="images/rad.gif">
+                        <figcaption>radicle-cli</figcaption>
+                     </a>
+                  </figure>
+                  <p>Radicle CLI.</p>
+                  <a class=button target=_blank href=https://github.com/radicle-dev/radicle-cli>Website</a>
+                  <hr>
+                  <h3 id=rates>rates</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/rates.gif" target=_blank>
+                        <img class=kg-image src="images/rates.gif">
+                        <figcaption>rates</figcaption>
+                     </a>
+                  </figure>
+                  <p>Rates is a scriptable CLI tool that brings currency exchange rates right
+                     into your terminal and supports 30+ fiat and 10K+ crypto currencies.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/lunush/rates>Website</a>
+                  <hr>
+                  <h3 id=reader>reader</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/reader.gif" target=_blank>
+                        <img class=kg-image src="images/reader.gif">
+                        <figcaption>reader</figcaption>
+                     </a>
+                  </figure>
+                  <p>reader is for your command line what the “readability” view is for modern
+                     browsers: A lightweight tool offering better readability of web pages on the
+                     CLI.
+                  </p>
+                  <a class=button target=_blank href=https://github.com/mrusme/reader>Website</a>
+                  <hr>
+                  <h3 id=restic>restic</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>restic</figcaption>
+                     </a>
+                  </figure>
+                  <p>Fast, secure, efficient backup program.</p>
+                  <a class=button target=_blank href=https://github.com/restic/restic>Website</a>
+                  <hr>
+                  <h3 id=resto>resto</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/resto.gif" target=_blank>
+                        <img class=kg-image src="images/resto.gif">
+                        <figcaption>resto</figcaption>
+                     </a>
+                  </figure>
+                  <p>A CLI app that can send pretty HTTP & API requests with TUI.</p>
+                  <a class=button target=_blank href=https://github.com/abdfnx/resto>Website</a>
+                  <hr>
+                  <h3 id=ripgrep>ripgrep</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/rg.gif" target=_blank>
+                        <img class=kg-image src="images/rg.gif">
+                        <figcaption>ripgrep</figcaption>
+                     </a>
+                  </figure>
+                  <p>ripgrep recursively searches directories for a regex pattern.</p>
+                  <a class=button target=_blank href=https://github.com/burntsushi/ripgrep>Website</a>
+                  <hr>
+                  <h3 id=rsnapshot>rsnapshot</h3>
+                  <small>[perl]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>rsnapshot</figcaption>
+                     </a>
+                  </figure>
+                  <p>A tool for backing up your data using rsync.</p>
+                  <a class=button target=_blank href=https://github.com/rsnapshot/rsnapshot>Website</a>
+                  <hr>
+                  <h3 id=rustscan>rustscan</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/rustscan.gif" target=_blank>
+                        <img class=kg-image src="images/rustscan.gif">
+                        <figcaption>rustscan</figcaption>
+                     </a>
+                  </figure>
+                  <p>The Modern Port Scanner.</p>
+                  <a class=button target=_blank href=https://github.com/RustScan/RustScan>Website</a>
+                  <hr>
+                  <h3 id=shellcaster>shellcaster</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/shellcaster.gif" target=_blank>
+                        <img class=kg-image src="images/shellcaster.gif">
+                        <figcaption>shellcaster</figcaption>
+                     </a>
+                  </figure>
+                  <p>Shellcaster is a terminal-based podcast manager, built in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/jeff-hughes/shellcaster>Website</a>
+                  <hr>
+                  <h3 id=silicon>silicon</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/silicon.gif" target=_blank>
+                        <img class=kg-image src="images/silicon.gif">
+                        <figcaption>silicon</figcaption>
+                     </a>
+                  </figure>
+                  <p>Create beautiful image of your source code.</p>
+                  <a class=button target=_blank href=https://github.com/Aloxaf/silicon>Website</a>
+                  <hr>
+                  <h3 id=so>so</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/so.gif" target=_blank>
+                        <img class=kg-image src="images/so.gif">
+                        <figcaption>so</figcaption>
+                     </a>
+                  </figure>
+                  <p>A terminal interface for StackOverflow written in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/samtay/so>Website</a>
+                  <hr>
+                  <h3 id=socat>socat</h3>
+                  <small>[c]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/socat.gif" target=_blank>
+                        <img class=kg-image src="images/socat.gif">
+                        <figcaption>socat</figcaption>
+                     </a>
+                  </figure>
+                  <p>&ldquo;netcat++&rdquo; (extended design, new implementation).</p>
+                  <a class=button target=_blank href=http://www.dest-unreach.org/socat/>Website</a>
+                  <hr>
+                  <h3 id=superhighway84>superhighway84</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/superhighway84.gif" target=_blank>
+                        <img class=kg-image src="images/superhighway84.gif">
+                        <figcaption>superhighway84</figcaption>
+                     </a>
+                  </figure>
+                  <p>USENET-inspired, uncensorable, decentralized internet discussion system running
+                     on IPFS & OrbitDB
+                  </p>
+                  <a class=button target=_blank href=https://github.com/mrusme/superhighway84>Website</a>
+                  <hr>
+                  <h3 id=syncthing>syncthing</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/syncthing.gif" target=_blank>
+                        <img class=kg-image src="images/syncthing.gif">
+                        <figcaption>syncthing</figcaption>
+                     </a>
+                  </figure>
+                  <p>Open Source Continuous File Synchronization.</p>
+                  <p>I use this as an open source alternative to Resilio Sync in cases in which I only require system-to-system sync and hence don&rsquo;t need mobile (iOS) support.</p>
+                  <a class=button target=_blank href=https://github.com/syncthing/syncthing>Website</a>
+                  <hr>
+                  <h3 id=taskwarrior-tui>taskwarrior-tui</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/taskwarrior-tui.gif" target=_blank>
+                        <img class=kg-image src="images/taskwarrior-tui.gif">
+                        <figcaption>taskwarrior-tui</figcaption>
+                     </a>
+                  </figure>
+                  <p>A Terminal User Interface for Taskwarrior.</p>
+                  <a class=button target=_blank href=https://github.com/kdheepak/taskwarrior-tui>Website</a>
+                  <hr>
+                  <h3 id=tealdeer>tealdeer</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/tldr.gif" target=_blank>
+                        <img class=kg-image src="images/tldr.gif">
+                        <figcaption>tealdeer</figcaption>
+                     </a>
+                  </figure>
+                  <p>A very fast implementation of tldr in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/dbrgn/tealdeer>Website</a>
+                  <hr>
+                  <h3 id=ticker>ticker</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/ticker.gif" target=_blank>
+                        <img class=kg-image src="images/ticker.gif">
+                        <figcaption>ticker</figcaption>
+                     </a>
+                  </figure>
+                  <p>Terminal stock ticker with live updates and position tracking.</p>
+                  <a class=button target=_blank href=https://github.com/achannarasappa/ticker>Website</a>
+                  <hr>
+                  <h3 id=tickrs>tickrs</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/tickrs.gif" target=_blank>
+                        <img class=kg-image src="images/tickrs.gif">
+                        <figcaption>tickrs</figcaption>
+                     </a>
+                  </figure>
+                  <p>Realtime ticker data in your terminal.</p>
+                  <a class=button target=_blank href=https://github.com/tarkah/tickrs>Website</a>
+                  <hr>
+                  <h3 id=tmpmail>tmpmail</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/tmpmail.gif" target=_blank>
+                        <img class=kg-image src="images/tmpmail.gif">
+                        <figcaption>tmpmail</figcaption>
+                     </a>
+                  </figure>
+                  <p>A temporary email right from your terminal written in POSIX sh.</p>
+                  <a class=button target=_blank href=https://github.com/sdushantha/tmpmail>Website</a>
+                  <hr>
+                  <h3 id=tre>tre</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/tre.gif" target=_blank>
+                        <img class=kg-image src="images/tre.gif">
+                        <figcaption>tre</figcaption>
+                     </a>
+                  </figure>
+                  <p>Tree command, improved.</p>
+                  <a class=button target=_blank href=https://github.com/dduan/tre>Website</a>
+                  <hr>
+                  <h3 id=tz>tz</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/tz.gif" target=_blank>
+                        <img class=kg-image src="images/tz.gif">
+                        <figcaption>tz</figcaption>
+                     </a>
+                  </figure>
+                  <p>A time zone helper.</p>
+                  <a class=button target=_blank href=https://github.com/oz/tz>Website</a>
+                  <hr>
+                  <h3 id=viu>viu</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/viu.gif" target=_blank>
+                        <img class=kg-image src="images/viu.gif">
+                        <figcaption>viu</figcaption>
+                     </a>
+                  </figure>
+                  <p>A small command-line application to view images from the terminal written in Rust.</p>
+                  <a class=button target=_blank href=https://github.com/atanunq/viu>Website</a>
+                  <hr>
+                  <h3 id=vocage>vocage</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/vocage.gif" target=_blank>
+                        <img class=kg-image src="images/vocage.gif">
+                        <figcaption>vocage</figcaption>
+                     </a>
+                  </figure>
+                  <p>Vocage is a minimalistic terminal-based vocabulary-learning tool.</p>
+                  <a class=button target=_blank href=https://github.com/proycon/vocage>Website</a>
+                  <hr>
+                  <h3 id=websocat>websocat</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/websocat.gif" target=_blank>
+                        <img class=kg-image src="images/websocat.gif">
+                        <figcaption>websocat</figcaption>
+                     </a>
+                  </figure>
+                  <p>Netcat, curl and socat for WebSockets.</p>
+                  <a class=button target=_blank href=https://github.com/vi/websocat>Website</a>
+                  <hr>
+                  <h3 id=wikit>wikit</h3>
+                  <small>[nodejs]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/wikit.gif" target=_blank>
+                        <img class=kg-image src="images/wikit.gif">
+                        <figcaption>wikit</figcaption>
+                     </a>
+                  </figure>
+                  <p>Wikipedia summaries from the command line.</p>
+                  <a class=button target=_blank href=https://github.com/KorySchneider/wikit>Website</a>
+                  <hr>
+                  <h3 id=xplr>xplr</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/xplr.gif" target=_blank>
+                        <img class=kg-image src="images/xplr.gif">
+                        <figcaption>xplr</figcaption>
+                     </a>
+                  </figure>
+                  <p>A hackable, minimal, fast TUI file explorer.</p>
+                  <a class=button target=_blank href=https://github.com/sayanarijit/xplr>Website</a>
+                  <hr>
+                  <h3 id=yj>yj</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/yj.gif" target=_blank>
+                        <img class=kg-image src="images/yj.gif">
+                        <figcaption>yj</figcaption>
+                     </a>
+                  </figure>
+                  <p>CLI - Convert between YAML, TOML, JSON, and HCL. Preserves map order.</p>
+                  <a class=button target=_blank href=https://github.com/sclevine/yj>Website</a>
+                  <hr>
+                  <h3 id=zeit>zeit</h3>
+                  <small>[go]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/zeit.gif" target=_blank>
+                        <img class=kg-image src="images/zeit.gif">
+                        <figcaption>zeit</figcaption>
+                     </a>
+                  </figure>
+                  <p>Zeit, erfassen. A command line tool for tracking time spent on activities.</p>
+                  <a class=button target=_blank href=https://github.com/mrusme/zeit>Website</a>
+                  <hr>
+                  <h3 id=zenith>zenith</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/zenith.gif" target=_blank>
+                        <img class=kg-image src="images/zenith.gif">
+                        <figcaption>zenith</figcaption>
+                     </a>
+                  </figure>
+                  <p>Sort of like top or htop but with zoom-able charts, network, and disk usage.</p>
+                  <a class=button target=_blank href=https://github.com/bvaisvil/zenith>Website</a>
+                  <hr>
+                  <h3 id=zoxide>zoxide</h3>
+                  <small>[rust]</small>
+                  <figure class="kg-card kg-image-card kg-card-hascaption">
+                     <a href="images/no-preview.gif" target=_blank>
+                        <img class=kg-image src="images/no-preview.gif">
+                        <figcaption>zoxide</figcaption>
+                     </a>
+                  </figure>
+                  <p>A smarter cd command. Supports all major shells.</p>
+                  <a class=button target=_blank href=https://github.com/ajeetdsouza/zoxide>Website</a>
+                  <hr>
+                  <h2 id=snippets>Snippets</h2>
+                  <p>This is a list of command snippets that I regularly need/use. I&rsquo;m putting them
+                     here in order to persist them in case my zsh history should be gone one day.
+                  </p>
+                  <ul>
+                     <li>
+                        Stream DSLR viewfinder via USB-C to <code>/dev/video0</code>:
+                        <div class=highlight>
+                           <pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>gphoto2 --stdout --capture-movie <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span><span class=p>|</span> ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads <span class=m>0</span> -f v4l2 /dev/video0
+</span></span></code></pre>
+                        </div>
+                     </li>
+                     <li>
+                        Set GTK theme:
+                        <div class=highlight>
+                           <pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>gsettings <span class=nb>set</span> org.gnome.desktop.interface gtk-theme <span class=s2>&#34;</span><span class=nv>$GTK_THEME</span><span class=s2>&#34;</span> <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span><span class=o>&amp;&amp;</span> gsettings <span class=nb>set</span> org.gnome.desktop.wm.preferences theme <span class=s2>&#34;</span><span class=nv>$GTK_THEME</span><span class=s2>&#34;</span>
+</span></span></code></pre>
+                        </div>
+                     </li>
+                     <li>
+                        Arduino compiling & uploading:
+                        <div class=highlight>
+                           <pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>arduino-cli compile --fqbn esp32:esp32:esp32s2 --clean -e ./ <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span><span class=o>&amp;&amp;</span> arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:esp32s2 <span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se></span>  -i ./build/esp32.esp32.esp32s2/*.ino.elf
+</span></span></code></pre>
+                        </div>
+                     </li>
+                     <li>
+                        Search font:
+                        <div class=highlight>
+                           <pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>fc-list <span class=p>|</span> rg <span class=nv>$FONT</span>
+</span></span></code></pre>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <br>
+               <p class=supportme>Enjoyed this? Support me via
+                  <a href=monero:47xsk5muV3VURKJLRqq39sHDS1XPbkY5cddvBeFBnSheRLk9ZPUxSsQJDU4hdbEnsBYSczoaKimwbWLdE9435AsSSqUGo2y>Monero</a>,
+                  <a href=bitcoin:bc1qedycy4xwcdlql0ku9c55z0fq4uuxvw470nxspp>Bitcoin</a>,
+                  <a href=lightning:mrus@getalby.com>Lightning</a>,
+                  or
+                  <a href=ethereum:0xcf29d9a44b151081c94f9c49152f4b90d5df6b4a>Ethereum</a>!
+                  &nbsp;<a href=https://github.com/mrusme#support>More info.</a>
+               </p>
+               <div class=post-meta>Published on
+                  <span class=post-meta-range-item>2020-05-03</span>
+                  and
+                  updated on
+                  <span class=post-meta-range-item>2024-03-01</span>
+               </div>
+            </article>
+         </main>
+         <footer class=site-foot>
+            <a href="../index.html">&copy; 2015-2025 マリウス</a> &#183;
+            <a href=https://keys.openpgp.org/vks/v1/by-fingerprint/4D3899AF73E7F5FE9B39C822272ED814BF63261F>4D38 99AF 73E7 F5FE 9B39 C822 272E D814 BF63 261F</a> &#183;
+            <a href="../contact/index.html">Contact</a> &#183;
+            <a href="../license/index.html" target=_self>BY-NC-SA 4.0</a><br><a href=http://z5yuzvitz4lynnaijdwmu6gkh2lnkjqmasv2jknf3biz6tkyxd4uszyd.onion target=_self>z5yuzvitz4lynnaijdwmu6gkh2lnkjqmasv2jknf3biz6tkyxd4uszyd.onion</a><br><a href=http://ltrrxt4aywqa2jzviwkacsoc22zfhfe7ljm2iknxjjsil6i4i7nq.b32.i2p target=_self>ltrrxt4aywqa2jzviwkacsoc22zfhfe7ljm2iknxjjsil6i4i7nq.b32.i2p</a><br><a href=https://github.com/mrusme#support target=_blank>Support this site</a><br>Birds aren't real.<br><br>
+            <div class=badges><a href=https://www.openbsd.org target=_blank><img class=openbsd src="../openbsd.012801fd1045572cf0176dd235e20cfa543dd5ceaacd285f983e33a4594257e4.gif"></a>
+               <a href=https://neovim.io target=_blank><img class=vim src="../vim.ef2a75d55e41b0278a37b4de2f33aafd87c7a980f49cc0624f75309e37222cc1.gif"></a>
+               <a href=https://www.mozilla.org/en-US/firefox/ target=_blank><img class=netscape src="../netscape.cf277bb005f54d4b4b1a8ea434fa8b6a0f51904113b4e7b9818e6dbf73c4e0ac.gif"></a>
+               <a href=https://www.torproject.org target=_blank><img class=aol src="../aol.d4c7ba1eaa3c0a357c0c40636c9c8967a577d8eebf6d17bf12814cd966749576.gif"></a>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>

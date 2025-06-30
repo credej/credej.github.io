@@ -1,0 +1,540 @@
+@import "animation.css";
+@import "clock.css";
+@import "images.css";
+@import "misc.css";
+@import "mobile.css";
+@import "post.css";
+@import "variables.css";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+::selection,
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.1);
+  color: #000;
+}
+
+#menu-btn,
+.breadcrumb {
+  color: var(--color-border);
+}
+#menu-btn :hover,
+.breadcrumb :hover {
+  color: var(--color-base);
+}
+
+#mobile-menu {
+  align-items: center;
+  height: 100vh;
+}
+
+.active {
+  font-style: italic;
+}
+
+.ascii-drawing {
+  display: flex;
+  justify-content: flex-end;
+}
+.ascii-drawing pre {
+  color: var(--color-retro-aqua);
+}
+
+.bookmark-section {
+  margin-left: 1rem;
+  text-indent: -1rem;
+  break-inside: avoid;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 6vh;
+}
+.bookmark-section h2 {
+  color: var(--color-title);
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-m);
+  padding: 0 0 1vh;
+}
+.bookmark-section li {
+  margin-left: 1rem;
+  text-indent: -1rem;
+}
+.bookmark-section a {
+  font-family: "Cutive Mono", monospace !important;
+  padding: 4px 0 4px 12px;
+}
+
+.bookmark {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+.bookmark :hover {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bookmark a {
+  color: var(--color-pgh-yellow);
+  padding: 8px 0;
+}
+.bookmark a:hover {
+  color: var(--color-pgh-yellow-highlight) !important;
+  text-decoration: uppercase !important;
+}
+.bookmark ul :hover {
+  border-left: none;
+}
+.bookmark li {
+  font-family: "Courier Prime", monospace;
+}
+.bookmark h2 {
+  padding: 0 16px;
+}
+.bookmark .wishlist-old a {
+  color: var(--color-border);
+  text-decoration: line-through;
+}
+.bookmark .wishlist-old a:hover {
+  color: var(--color-border) !important;
+}
+
+.breadcrumb {
+  font-family: "Cutive Mono", "Courier Prime", monospace;
+  display: flex;
+  align-items: center;
+  color: var(--color-border) !important;
+}
+
+.breadcrumb-home {
+  color: var(--color-light);
+  font-size: var(--font-l);
+  padding: 0 24px 0 0;
+}
+
+.comingSoon {
+  color: var(--color-light) !important;
+  opacity: 0.3;
+}
+
+.content-container {
+  margin: 12vh 0;
+}
+
+.content-excerpt {
+  font-family: "Yellowtail", monospace;
+  padding: 1vw 0;
+}
+
+.content-title {
+  font-family: "Cutive Mono", monospace;
+  font-size: var(--font-l);
+}
+
+.footer {
+  background-color: black;
+  height: 300px;
+}
+
+.footer-caution {
+  color: red;
+  display: block;
+  padding: 5vw;
+  width: 100%;
+}
+.footer-caution > .scrolldown-text {
+  animation: blink-animation 0.9s infinite;
+  -webkit-animation: blink-animation 0.9s infinite;
+  -moz-animation: blink-animation 0.9s infinite;
+  -o-animation: blink-animation 0.9s infinite;
+}
+
+.hashtag {
+  color: var(--color-code-bg);
+  padding: 0 0 0 24px;
+}
+
+.header-banner {
+  background-color: none !important;
+}
+
+.header-home {
+  break-inside: avoid;
+  display: flex;
+  flex-direction: column;
+  filter: grayscale(1);
+  opacity: 0.4;
+  transition: all 1.87s ease;
+  -webkit-transition: all 0.87s ease;
+}
+.header-home:hover {
+  cursor: pointer !important;
+  filter: grayscale(0);
+  opacity: 1;
+}
+.header-home:active {
+  opacity: 0.8;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+.header span, .header h1 {
+  color: var(--color-title);
+  padding: 4px 24px 0 0;
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  font-size: var(--font-xl);
+  letter-spacing: 1rem;
+  font-family: "Cutive Mono", monospace;
+  padding: 0;
+}
+.header h1:after {
+  animation: blink-animation 0.9s infinite;
+  -webkit-animation: blink-animation 0.9s infinite;
+  -moz-animation: blink-animation 0.9s infinite;
+  -o-animation: blink-animation 0.9s infinite;
+  content: "_";
+}
+
+.header-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/images/header.jpg");
+  background-size: contain;
+  background-attachment: static;
+  background-repeat: no-repeat;
+}
+
+.header-home span, .header-home h1 {
+  display: flex;
+  align-items: center;
+}
+.header-home h1 {
+  font-size: var(--font-xl);
+  letter-spacing: 0.25rem;
+}
+.header-home .header-excerpt {
+  background-color: transparent;
+  padding: 1.8rem 0;
+  text-indent: 0;
+}
+.header-home .header-image {
+  background-color: transparent;
+}
+.header-home .header-image img {
+  border-radius: 16px;
+}
+
+.header-excerpt {
+  display: flex;
+  padding: 2rem;
+  background-color: var(--color-bg-light);
+  border-radius: 0 16px 16px 0;
+  font-family: "Cutive Mono", monospace;
+  text-indent: 2vw;
+}
+.header-excerpt p {
+  background-color: none;
+}
+
+.header-title {
+  display: flex;
+}
+
+.header-image {
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+}
+.header-image img {
+  border-radius: 16px 0 0 16px;
+  box-shadow: 4px 8px 8px hsla(0, 0%, 0%, 0.38);
+}
+
+.header-intro {
+  display: flex;
+}
+
+.header-image-full img {
+  width: 100%;
+}
+
+.home-heading {
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  margin: 10rem 0 2rem;
+}
+.home-heading h2 {
+  font-size: var(--font-xl) !important;
+}
+.home-heading p {
+  font-family: "Courier Prime", monospace;
+  margin-left: 2.4rem;
+}
+.home-heading a {
+  color: var(--color-pgh-yellow);
+  padding: 2px 0;
+}
+.home-heading a:hover {
+  color: lightgoldenrodyellow;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home-heading-title {
+  color: var(--color-light);
+  font-family: "Fugaz One", sans-serif;
+  font-family: "Lexend Exa", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.home-heading-title span {
+  margin-right: 12px !important;
+}
+
+/* remove blinking effect from headers used on home page */
+.header-title-home h1:after {
+  animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  content: "";
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(187px);
+  width: 100%;
+}
+
+.navbar {
+  width: 1180px;
+}
+
+#navbar li,
+.breadcrumb li {
+  text-shadow: 1px 1px 2px black;
+}
+#navbar li a,
+.breadcrumb li a {
+  font-family: "Cutive Mono", monospace !important;
+  padding: 0 0 0 12px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 0 -12px;
+  padding: 0;
+}
+
+.nav-main {
+  width: 1180px;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-container {
+  break-inside: avoid;
+}
+
+.quote {
+  padding: 0 0 5vh;
+  text-align: right;
+}
+
+.quote-text {
+  background-color: var(--color-bg-light);
+  border-radius: 16px 16px 0 16px;
+  color: var(--color-light);
+  cursor: pointer;
+  font-family: "Reddit Mono", monospace;
+  font-family: "Lusitana", serif;
+  font-size: var(--font-m);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  line-height: 1.8rem;
+  margin-bottom: 12px;
+  padding: 36px 48px 56px;
+  text-align: left;
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
+}
+
+.quote-by {
+  color: var(--color-border);
+  cursor: default;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quote-link {
+  font-family: "Cutive Mono", "Courier Prime", monospace;
+}
+.quote-link a {
+  color: var(--color-indigo-100) !important;
+}
+.quote-link a:hover {
+  color: #8566ff !important;
+}
+
+.section-title {
+  font-family: "Courier Prime", monospace;
+}
+
+.site-head li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.site-head-menu span {
+  padding: 24px 12px 12px 0;
+}
+
+.site-head-menu-list {
+  display: flex;
+  flex-direction: column;
+}
+.site-head-menu-list a {
+  color: var(--color-retro-aqua);
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-s);
+  padding: 2px 0;
+}
+.site-head-menu-list a:hover {
+  color: var(--color-retro-aqua-highlight);
+}
+
+.site-head-menu-title-container {
+  display: flex;
+  padding: 0 0 4px;
+}
+.site-head-menu-title-container h2 {
+  font-family: "Yellowtail", monospace;
+  text-transform: uppercase;
+}
+
+.site-head-menu-title {
+  color: var(--color-light);
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  padding: 0 0 8px;
+}
+.site-head-menu-title em {
+  color: var(--color-border);
+}
+
+.site-section-title {
+  color: var(--color-light);
+  font-family: "Lexend Exa", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.site-section {
+  cursor: default;
+}
+.site-section h2 {
+  font-size: var(--font-xl) !important;
+}
+.site-section p {
+  color: var(--color-border);
+  font-family: "Courier Prime", monospace;
+  margin: 12px 0;
+  text-indent: 2rem;
+}
+.site-section a {
+  color: var(--color-retro-aqua);
+  font-family: "Yellowtail", monospace;
+}
+.site-section a:hover {
+  color: var(--color-retro-aqua-highlight);
+  cursor: default;
+}
+.site-section .article-section-title {
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-l);
+}
+
+@keyframes blink-animation {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes bg-blink-animation {
+  to {
+    background-color: transparent;
+  }
+}
+.site-head-menu-column {
+  cursor: default;
+  padding: 24px 0;
+}
+.site-head-menu-column :hover {
+  transition: 0.5s;
+}
+.site-head-menu-column h2 {
+  padding: 24px 0 12px;
+}
+.site-head-menu-column ul :hover {
+  border-left: none;
+}
+.site-head-menu-column li {
+  font-family: "Courier Prime", monospace;
+}
+
+.site-main {
+  color: var(--color-light);
+  padding-top: 24px;
+  width: 1180px;
+}
+
+.site-wrapper {
+  padding: 128px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
