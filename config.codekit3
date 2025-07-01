@@ -9,6 +9,30 @@
   ],
   "creatorBuild" : "34689",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
+    "\/.gitignore~" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore~",
+      "oF" : 0
+    },
+    "\/.htaccess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.htaccess",
+      "oF" : 0
+    },
     "\/components\/footer-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -152,7 +176,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/css\/images-min.css",
       "oF" : 0,
       "pg" : 0
@@ -590,6 +614,45 @@
       "oA" : 0,
       "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
+    },
+    "\/pages\/design\/graphics\/img\/cybergrad-badges-sample.jpg" : {
+      "ft" : 16384,
+      "iS" : 148816,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/cybergrad-badges-sample.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/cybergrad-badges.jpg" : {
+      "ft" : 16384,
+      "iS" : 583688,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/cybergrad-badges.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphics\/img\/cybergrad-logo-2nf3.png" : {
+      "ft" : 32768,
+      "iS" : 159056,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphics\/img\/cybergrad-logo-2nf3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/pages\/design\/graphics\/img\/graphics-absolut.jpg" : {
       "ft" : 16384,
@@ -4530,49 +4593,49 @@
     },
     "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg" : {
       "ft" : 16384,
-      "iS" : 442942,
+      "iS" : 822555,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg" : {
       "ft" : 16384,
-      "iS" : 119253,
+      "iS" : 224166,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/collectibles\/img\/web-steelcity-2.png" : {
-      "ft" : 32768,
-      "iS" : 252178,
+    "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 334110,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-2.png",
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
+      "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg" : {
+    "\/pages\/software\/collectibles\/img\/web-steelcity-4.jpg" : {
       "ft" : 16384,
       "iS" : 325785,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-3.jpg",
+      "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5142,7 +5205,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 758955842.78912497,
-    "displayValue" : "work",
+    "displayValue" : "credej.github.io",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-ive",
     "iconImageWasSetByUser" : 0
