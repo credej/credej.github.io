@@ -6,6 +6,8 @@
 @import "post.css"
 @import "variables.css"
 
+/* PAGE ELEMENTS*/
+
 html
   scroll-behavior: smooth
 
@@ -24,8 +26,9 @@ a
     background: rgba(255, 255, 255, 0.1)
     color: #000
 
-#menu-btn,
-.breadcrumb
+/* MENU */
+
+#menu-btn
   color: var(--color-border)
   :hover
     color: var(--color-base)
@@ -34,14 +37,7 @@ a
   align-items: center
   height: 100vh
 
-.active
-  font-style: italic
-
-.ascii-drawing
-  display: flex
-  justify-content: flex-end
-  pre
-    color: var(--color-retro-aqua)
+/* MAIN CSS RULES */
 
 .bookmark-section
   margin-left: 1rem
@@ -96,7 +92,9 @@ a
   font-family: "Cutive Mono", "Courier Prime", monospace
   display: flex
   align-items: center
-  color: var(--color-border) !important
+  color: var(--color-border)
+  :hover
+    color: var(--color-base)
 
 .breadcrumb-home
   color: var(--color-light)

@@ -1,5 +1,20 @@
 /*   
 
+REMOVED CSS
+
+.active
+  font-style: italic
+
+.ascii-drawing
+  display: flex
+  justify-content: flex-end
+  pre
+    color: var(--color-retro-aqua)
+
+
+
+
+
 SCROLL BAR STYLING  
 
 ::-webkit-scrollbar 
