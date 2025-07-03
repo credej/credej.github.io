@@ -90,7 +90,6 @@ a
 
 .breadcrumb
   font-family: "Cutive Mono", "Courier Prime", monospace
-  display: flex
   align-items: center
   color: var(--color-border)
   :hover
@@ -177,10 +176,11 @@ a
       content: "_"
 
 .header-bg
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/images/header.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg')
   background-size: contain
   background-attachment: static
   background-repeat: no-repeat
+  /* margin-top: 100px !important */
 
 .header-home
   span, h1
@@ -378,12 +378,6 @@ a
   em
     color: var(--color-border)
 
-.site-section-title
-  color: var(--color-light)
-  font-family: "Lexend Exa", sans-serif
-  text-transform: uppercase
-  font-weight: 400
-
 .site-section
   cursor: default
   h2
@@ -402,6 +396,12 @@ a
   .article-section-title
     font-family: "Yellowtail", monospace
     font-size: var(--font-l)
+    
+.site-section-title
+  color: var(--color-light)
+  font-family: "Lexend Exa", sans-serif
+  text-transform: uppercase
+  font-weight: 400
 
 @keyframes blink-animation
   to
