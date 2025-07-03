@@ -210,7 +210,7 @@ a {
 }
 
 .header-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url("/images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/header.jpg");
   background-size: contain;
   background-attachment: static;
   background-repeat: no-repeat;
@@ -454,7 +454,7 @@ a {
 
 .site-section {
   cursor: default;
-  font-size: var(--font-m) !important;
+  font-size: var(--font-s) !important;
 }
 .site-section h2 {
   font-size: var(--font-xl) !important;
