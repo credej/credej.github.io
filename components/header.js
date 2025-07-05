@@ -55,8 +55,7 @@ class Header extends HTMLElement {
                               </div>
                               <div class=site-head-menu-list>
                                  <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
-                                 <a href="/pages/design/graphics/index.html" target=_self>Graphic Design</a>
-                                 <a href="/pages/design/web/index.html" target=_self>Web Design</a>
+                                 <a href="/pages/design/web/index.html" target=_self>Graphic & Web</a>
                                  <a href="/pages/design/sketch/index.html" target=_self>Sketching</a>
                               </div>
                            </div>
