@@ -51,6 +51,13 @@
     }
 }
 
+@media (min-width:992px) {
+    .dw-4 {
+        -moz-column-count: 4;
+        column-count: 4
+    }
+}
+
 @media (min-width:768px) {
     .dw-panel {
         page-break-inside: avoid;

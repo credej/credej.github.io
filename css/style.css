@@ -275,10 +275,10 @@ a {
   display: flex;
   flex-direction: column;
   cursor: default;
-  margin: 10rem 0 2rem;
+  margin: 8rem 0 2rem;
 }
-.home-heading h2 {
-  font-size: var(--font-xl) !important;
+.home-heading h3 {
+  font-size: var(--font-l) !important;
 }
 .home-heading p {
   font-family: "Courier Prime", monospace;
