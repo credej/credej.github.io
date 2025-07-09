@@ -693,6 +693,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/design\/sketch\/img\/sketch-indians.jpg" : {
+      "ft" : 16384,
+      "iS" : 628362,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/sketch-indians.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-combined.jpg" : {
       "ft" : 16384,
       "iS" : 3353274,
@@ -859,7 +872,7 @@
     },
     "\/pages\/design\/web\/img\/graphics-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 179118,
+      "iS" : 194814,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/web\/img\/graphics-banner.jpg",
