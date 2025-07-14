@@ -216,7 +216,7 @@ a {
 }
 
 .header-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url("/images/header.jpg");
   background-size: contain;
   background-attachment: static;
   background-repeat: no-repeat;
@@ -460,6 +460,7 @@ a {
 
 .site-section {
   cursor: default;
+  font-family: "Yellowtail", monospace;
   font-size: var(--font-s) !important;
 }
 .site-section h2 {
@@ -474,7 +475,6 @@ a {
 }
 .site-section a {
   color: var(--color-retro-aqua);
-  font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
 }
 .site-section a:hover {

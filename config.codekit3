@@ -5214,6 +5214,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/software\/redteam\/millennium-project-dashboard-3.pxd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/millennium-project-dashboard-3.pxd",
+      "oF" : 0
+    },
     "\/pages\/software\/redteam\/pland-analytics-personnel-compliance.png" : {
       "ft" : 32768,
       "iS" : 169461,
@@ -5251,6 +5259,19 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/pland-event-date-proposal.jpg" : {
+      "ft" : 16384,
+      "iS" : 125678,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/pland-event-date-proposal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/pages\/software\/redteam\/pland-event-edit-history.png" : {
@@ -5292,11 +5313,50 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/pages\/software\/redteam\/scrolld-host-details@2x.png" : {
+      "ft" : 32768,
+      "iS" : 488920,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/scrolld-host-details@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/scrolld-hosts.png" : {
+      "ft" : 32768,
+      "iS" : 210392,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/scrolld-hosts.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/pages\/software\/redteam\/scrolld-login-operations.png" : {
       "ft" : 32768,
       "iS" : 479615,
       "oA" : 0,
       "oAP" : "\/pages\/software\/redteam\/scrolld-login-operations.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/scrolld-login@2x.png" : {
+      "ft" : 32768,
+      "iS" : 498194,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/scrolld-login@2x.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
