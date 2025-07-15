@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: var(--color-bg);
+  background-color: #010201;
 }
 
 table {
@@ -143,9 +143,41 @@ a {
   font-size: var(--font-l);
 }
 
-.footer {
-  background-color: black;
-  height: 300px;
+.footer-wrapper {
+  padding: 128px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-main {
+  color: var(--color-light);
+  padding-top: 24px;
+  width: 1180px;
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: space-between */
+  font-family: "Yellowtail", monospace;
+}
+.footer-main a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-main a:hover {
+  color: var(--color-retro-aqua-highlight) !important;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-caution {
@@ -509,7 +541,7 @@ a {
 .site-head-menu-column :hover {
   transition: 0.5s;
 }
-.site-head-menu-column h2 {
+.site-head-menu-column h2w {
   padding: 24px 0 12px;
 }
 .site-head-menu-column ul :hover {
@@ -526,7 +558,7 @@ a {
 }
 
 .site-wrapper {
-  padding: 128px 0 0;
+  padding: 128px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;

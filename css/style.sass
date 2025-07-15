@@ -12,7 +12,7 @@ html
   scroll-behavior: smooth
 
 body
-  background-color: var(--color-bg) 
+  background-color: #010201
 
 table
   border-collapse: collapse
@@ -120,9 +120,36 @@ a
   font-family: "Cutive Mono", monospace
   font-size: var(--font-l)
 
-.footer
-  background-color: black
-  height: 300px
+.footer-wrapper
+  padding: 128px 0 
+  display: flex
+  justify-content: center
+  align-items: center
+
+.footer-main
+  color: var(--color-light)
+  padding-top: 24px
+  width: 1180px
+  display: flex
+  justify-content: flex-end
+  /* justify-content: space-between */
+  font-family: "Yellowtail", monospace
+  a
+    display: flex
+    flex-direction: column
+    align-items: center
+  a:hover
+    color: var(--color-retro-aqua-highlight) !important
+
+.footer-links
+  display: flex
+  align-items: center
+  justify-content: center
+
+.footer-button
+  display: flex
+  align-items: center
+  justify-content: center
 
 .footer-caution
   color: red
@@ -423,7 +450,7 @@ a
   padding: 24px 0
   :hover
     transition: 0.5s
-  h2
+  h2w
     padding: 24px 0 12px
   ul
     :hover
@@ -437,7 +464,7 @@ a
   width: 1180px
 
 .site-wrapper
-  padding: 128px 0 0
+  padding: 128px 0
   display: flex
   flex-direction: column
   justify-content: center
