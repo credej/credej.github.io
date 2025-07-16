@@ -20,6 +20,7 @@ class Header extends HTMLElement {
                </div>
 
                <!---------- MENU ICON ---------->
+
                <div class="flex flex-end">
                   <button id="menu-btn" class="flex items-center text-gray-700 neon">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
@@ -29,11 +30,12 @@ class Header extends HTMLElement {
                </div>
             </div>
 
-            <!---------- EXPANDED MENU  ---------->
+            <!---------- EXPANDED MENU 1  ---------->
+
             <div id="mobile-menu" class="menu-container hidden fade-in">
+
                <div class="menu">
                   <div class="menu-column">
-
                      <div class="menu-category">
                         <div class="menu-category-title">
                            <span class="material-symbols-outlined text-yellow-500">public</span>
@@ -62,15 +64,17 @@ class Header extends HTMLElement {
                   </div>
                </div>
 
-               <div class="menu menu-center">
+               <!---------- EXPANDED MENU 2 ---------->
+
+               <div class="menu">
                   <div class="menu-column">
                      <div class="menu-category">
-                        <div class="menu-category-title">
-                           <span class="material-symbols-outlined text-yellow-500 icon-menu">satellite_alt</span>
+                        <div class="menu-category-title justify-center">
+                           <span class="material-symbols-outlined text-yellow-500">satellite_alt</span>
                            <h2>Gadgets <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
-                     <div>
+                     <div class="menu-category-list">
                         <div class="menu-list">
                            <a class="comingSoon" href="/pages/gadgets/computer/index.html" target=_self>Computers & Gaming Rigs</a>
                            <a class="comingSoon" href="/pages/gadgets/keyboard/index.html" target=_self>Keyboards & Mice</a>
@@ -80,10 +84,12 @@ class Header extends HTMLElement {
                         </div>
                      </div>
                      <div class="menu-category">
-                        <div class="menu-category-title">
-                           <span class="material-symbols-outlined text-yellow-500 icon-menu">handyman</span>
+                        <div class="menu-category-title justify-center">
+                           <span class="material-symbols-outlined text-yellow-500">handyman</span>
                            <h2>DIY <em>(Coming soon!)</em></h2>
                         </div>
+                     </div>
+                     <div class="menu-category-list">
                         <div class="menu-list">
                            <a class="comingSoon" href="/pages/diy/hardmoneynode/indexxx.html" target=_self>Command Line Interface</a>
                            <a class="comingSoon" href="/pages/diy/pihole/indexxx.html" target=_self>Decentralized Tech</a>
@@ -93,13 +99,17 @@ class Header extends HTMLElement {
                   </div>
                </div>
 
+               <!---------- EXPANDED MENU 3 ---------->
+
                <div class="menu">
                   <div class="menu-column">
                      <div class="menu-category">
-                        <div class="menu-category-title">
+                        <div class="menu-category-title justify-end">
                            <span class="material-symbols-outlined text-yellow-500">map</span>
                            <h2>Travel <em>(Coming soon!)</em></h2>
                         </div>
+                     </div>
+                     <div class="menu-category-list-right">
                         <div class=menu-list>
                            <a class="comingSoon" href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
                            <a class="comingSoon" href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
@@ -109,10 +119,11 @@ class Header extends HTMLElement {
                         </div>
                      </div>
                      <div class="menu-category">
-                        <div class="menu-category-title">
+                        <div class="menu-category-title justify-end">
                            <span class="material-symbols-outlined text-yellow-500">bookmarks</span>
                            <h2>Other Stuff</h2>
                         </div>
+                     <div class="menu-category-list-right">
                         <div class="menu-list">
                           <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                           <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>

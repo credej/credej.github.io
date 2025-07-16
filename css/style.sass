@@ -325,16 +325,12 @@ a
 .menu
   width: 100%
 
-.menu-center
-  display: flex
-
 .menu-column
-  width: 100%
   span
     padding: 0 12px 0 0
 
 .menu-category
-  padding: 3rem 0 0
+  padding: 4rem 0 0
 
 .menu-list
   display: flex
@@ -348,6 +344,7 @@ a
       color: var(--color-retro-aqua-highlight)
 
 .menu-category-title
+  cursor: default
   display: flex
   color: var(--color-light)
   font-family: "Fugaz One", sans-serif
@@ -361,8 +358,19 @@ a
   em
     color: var(--color-border)
 
+.menu-category-list
+  display: flex
+  justify-content: center
+  text-align: center
+
+.menu-category-list-right
+  display: flex
+  justify-content: flex-end
+  text-align: right
+
 #navbar
   display: flex
+  width: 100%
   justify-content: center
   backdrop-filter: blur(187px)
   width: 100%
