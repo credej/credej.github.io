@@ -29,8 +29,8 @@ class Header extends HTMLElement {
                </div>
             </div>
 
-            <!---------- EXPANDED MENU hidden ---------->
-            <div id="mobile-menu" class="menu-container fade-in">
+            <!---------- EXPANDED MENU  ---------->
+            <div id="mobile-menu" class="menu-container hidden fade-in">
                <div class="menu">
                   <div class="menu-column">
 
