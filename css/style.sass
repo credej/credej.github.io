@@ -6,7 +6,8 @@
 @import "post.css"
 @import "variables.css"
 
-/* PAGE ELEMENTS*/
+.border-red
+  border: 1px solid red !important
 
 html
   scroll-behavior: smooth
@@ -24,25 +25,12 @@ a
 #app,
 #logo,
 #badge
-  padding-top: 25px
+  padding-top: 125px
 
 ::selection,
 ::-moz-selection
     background: rgba(255, 255, 255, 0.1)
     color: #000
-
-/* MENU */
-
-#menu-btn
-  color: var(--color-border)
-  :hover
-    color: var(--color-base)
-
-#mobile-menu
-  align-items: center
-  height: 100vh
-
-/* MAIN CSS RULES */
 
 .bookmark-section
   margin-left: 1rem
@@ -99,6 +87,11 @@ a
   color: var(--color-border)
   :hover
     color: var(--color-base)
+  li
+    text-shadow: 1px 1px 2px black
+    a
+      font-family: "Cutive Mono", monospace !important
+      padding: 0 0 0 12px
 
 .breadcrumb-home
   color: var(--color-light)
@@ -169,6 +162,13 @@ a
 .header-banner 
   background-color: none !important
 
+.header-bg
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg')
+  background-size: contain
+  background-attachment: static
+  background-repeat: no-repeat
+  /* margin-top: 100px !important */
+
 .header-home
   break-inside: avoid
   display: flex
@@ -183,64 +183,6 @@ a
     opacity: 1
   &:active
     opacity: 0.8
-
-.home-category
-  align-items: center
-  display: flex
-  flex-direction: row
-  margin-bottom: 1.2rem
-  animation: pulsate 0.11s ease-in-out infinite alternate
-  span, h1
-    color: var(--color-title)
-    padding: 4px 24px 0 0
-    display: flex
-    align-items: center
-  h1
-    font-size: var(--font-xl)
-    letter-spacing: 1rem
-    font-family: "Cutive Mono", monospace
-    padding: 0
-    &:after
-      animation: blink-animation .9s infinite
-      -webkit-animation: blink-animation .9s infinite
-      -moz-animation: blink-animation .9s infinite
-      -o-animation: blink-animation .9s infinite
-      content: "_"
-
-.intro
-  align-items: center
-  display: flex
-  flex-direction: row
-  margin-bottom: 1.2rem
-  animation: pulsate 0.11s ease-in-out infinite alternate
-  span, h1
-    color: var(--color-title)
-    padding: 4px 24px 0 0
-    display: flex
-    align-items: center
-  h1
-    font-size: var(--font-xl)
-    letter-spacing: 1rem
-    font-family: "Cutive Mono", monospace
-    padding: 0
-    &:after
-      animation: blink-animation .9s infinite
-      -webkit-animation: blink-animation .9s infinite
-      -moz-animation: blink-animation .9s infinite
-      -o-animation: blink-animation .9s infinite
-      content: "_"
-
-.intro-title
-  display: flex
-
-.header-bg
-  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg')
-  background-size: contain
-  background-attachment: static
-  background-repeat: no-repeat
-  /* margin-top: 100px !important */
-
-.header-home
   span, h1
     display: flex
     align-items: center
@@ -280,6 +222,29 @@ a
 .header-image-full
   img
     width: 100%
+
+.home-category
+  align-items: center
+  display: flex
+  flex-direction: row
+  margin-bottom: 1.2rem
+  animation: pulsate 0.11s ease-in-out infinite alternate
+  span, h1
+    color: var(--color-title)
+    padding: 4px 24px 0 0
+    display: flex
+    align-items: center
+  h1
+    font-size: var(--font-xl)
+    letter-spacing: 1rem
+    font-family: "Cutive Mono", monospace
+    padding: 0
+    &:after
+      animation: blink-animation .9s infinite
+      -webkit-animation: blink-animation .9s infinite
+      -moz-animation: blink-animation .9s infinite
+      -o-animation: blink-animation .9s infinite
+      content: "_"
 
 .home-section
   display: flex
@@ -322,29 +287,93 @@ a
       -o-animation: none
       content: ""
 
-.section-title
-  border: 1px solid green !important
+.intro
+  align-items: center
+  display: flex
+  flex-direction: row
+  margin-bottom: 1.2rem
+  animation: pulsate 0.11s ease-in-out infinite alternate
+  span, h1
+    color: var(--color-title)
+    padding: 4px 24px 0 0
+    display: flex
+    align-items: center
+  h1
+    font-size: var(--font-xl)
+    letter-spacing: 1rem
+    font-family: "Cutive Mono", monospace
+    padding: 0
+    &:after
+      animation: blink-animation .9s infinite
+      -webkit-animation: blink-animation .9s infinite
+      -moz-animation: blink-animation .9s infinite
+      -o-animation: blink-animation .9s infinite
+      content: "_"
+
+.intro-title
+  display: flex
+
+#menu-btn
+  color: var(--color-border)
+  :hover
+    color: var(--color-base)
+
+.menu-container
+  display: flex
+  height: 100vh
+
+.menu
+  width: 100%
+
+.menu-center
+  display: flex
+
+.menu-column
+  width: 100%
+  span
+    padding: 0 12px 0 0
+
+.menu-category
+  padding: 3rem 0 0
+
+.menu-list
+  display: flex
+  flex-direction: column
+  a 
+    color: var(--color-retro-aqua)
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-s)
+    padding: 2px 0
+    &:hover 
+      color: var(--color-retro-aqua-highlight)
+
+.menu-category-title
+  display: flex
+  color: var(--color-light)
+  font-family: "Fugaz One", sans-serif
+  font-family: "Lexend Exa", sans-serif
+  text-transform: uppercase
+  font-weight: 400
+  margin-bottom: 1rem
+  h2
+    font-family: "Yellowtail", monospace
+    text-transform: uppercase
+  em
+    color: var(--color-border)
 
 #navbar
   display: flex
   justify-content: center
   backdrop-filter: blur(187px)
   width: 100%
-
-#navigation
-  display: flex
-
-.navbar
-  width: 1180px
-  
-#navbar,
-.breadcrumb
   li
     text-shadow: 1px 1px 2px black
     a
       font-family: "Cutive Mono", monospace !important
       padding: 0 0 0 12px
 
+.navbar
+  width: 1180px
 
 .nav
   display: flex
@@ -406,45 +435,6 @@ a
 
 .section-title
   font-family: "Courier Prime", monospace
-
-.site-head-menu 
-  span
-    padding: 24px 12px 12px 0
-
-.site-head-menu-list
-  display: flex
-  flex-direction: column
-  a 
-    color: var(--color-retro-aqua)
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-s)
-    padding: 2px 0
-    &:hover 
-      color: var(--color-retro-aqua-highlight)
-
-.menu-title
-  display: flex
-  justify-content: flex-start
-  align-items: center
-  padding: 0 0 4px  
-  color: var(--color-light)
-  font-family: "Fugaz One", sans-serif
-  font-family: "Lexend Exa", sans-serif
-  text-transform: uppercase
-  font-weight: 400
-  margin-bottom: 1rem
-  span
-    margin-right: 12px !important
-  h2
-    font-family: "Yellowtail", monospace
-    text-transform: uppercase
-  .site-head-menu-title
-    color: var(--color-light)
-    font-family: "Courier Prime", monospace
-    font-weight: 400
-    padding: 0 0 8px
-    em
-      color: var(--color-border)
 
 .site-section
   cursor: default
