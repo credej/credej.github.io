@@ -220,31 +220,62 @@ a {
   opacity: 0.8;
 }
 
-.header {
+.home-category {
   align-items: center;
   display: flex;
   flex-direction: row;
   margin-bottom: 1.2rem;
   animation: pulsate 0.11s ease-in-out infinite alternate;
 }
-.header span, .header h1 {
+.home-category span, .home-category h1 {
   color: var(--color-title);
   padding: 4px 24px 0 0;
   display: flex;
   align-items: center;
 }
-.header h1 {
+.home-category h1 {
   font-size: var(--font-xl);
   letter-spacing: 1rem;
   font-family: "Cutive Mono", monospace;
   padding: 0;
 }
-.header h1:after {
+.home-category h1:after {
   animation: blink-animation 0.9s infinite;
   -webkit-animation: blink-animation 0.9s infinite;
   -moz-animation: blink-animation 0.9s infinite;
   -o-animation: blink-animation 0.9s infinite;
   content: "_";
+}
+
+.intro {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+.intro span, .intro h1 {
+  color: var(--color-title);
+  padding: 4px 24px 0 0;
+  display: flex;
+  align-items: center;
+}
+.intro h1 {
+  font-size: var(--font-xl);
+  letter-spacing: 1rem;
+  font-family: "Cutive Mono", monospace;
+  padding: 0;
+}
+.intro h1:after {
+  animation: blink-animation 0.9s infinite;
+  -webkit-animation: blink-animation 0.9s infinite;
+  -moz-animation: blink-animation 0.9s infinite;
+  -o-animation: blink-animation 0.9s infinite;
+  content: "_";
+}
+
+.intro-title {
+  display: flex;
 }
 
 .header-bg {
@@ -287,10 +318,6 @@ a {
   background-color: none;
 }
 
-.header-title {
-  display: flex;
-}
-
 .header-image {
   background-color: transparent;
   border-radius: 8px;
@@ -309,30 +336,32 @@ a {
   width: 100%;
 }
 
-.home-heading {
+.home-section {
   display: flex;
   flex-direction: column;
   cursor: default;
   margin: 8rem 0 2rem;
 }
-.home-heading h3 {
+.home-section h3 {
   font-size: var(--font-l) !important;
 }
-.home-heading p {
+.home-section p {
   font-family: "Courier Prime", monospace;
   margin-left: 2.4rem;
 }
-.home-heading a {
+.home-section a {
   color: var(--color-pgh-yellow);
   padding: 2px 0;
 }
-.home-heading a:hover {
+.home-section a:hover {
   color: lightgoldenrodyellow;
   cursor: pointer;
   text-decoration: underline;
 }
 
-.home-heading-title {
+.home-section-title {
+  display: flex;
+  align-items: center;
   color: var(--color-light);
   font-family: "Fugaz One", sans-serif;
   font-family: "Lexend Exa", sans-serif;
@@ -340,12 +369,15 @@ a {
   font-weight: 400;
   margin-bottom: 1rem;
 }
-.home-heading-title span {
+.home-section-title span {
   margin-right: 12px !important;
 }
 
 /* remove blinking effect from headers used on home page */
-.header-title-home h1:after {
+.home-category-title {
+  display: flex;
+}
+.home-category-title h1:after {
   animation: none;
   -webkit-animation: none;
   -moz-animation: none;
@@ -353,11 +385,19 @@ a {
   content: "";
 }
 
+.section-title {
+  border: 1px solid green !important;
+}
+
 #navbar {
   display: flex;
   justify-content: center;
   backdrop-filter: blur(187px);
   width: 100%;
+}
+
+#navigation {
+  display: flex;
 }
 
 .navbar {
@@ -447,12 +487,6 @@ a {
   font-family: "Courier Prime", monospace;
 }
 
-.site-head li {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
 .site-head-menu span {
   padding: 24px 12px 12px 0;
 }
@@ -471,22 +505,32 @@ a {
   color: var(--color-retro-aqua-highlight);
 }
 
-.site-head-menu-title-container {
+.menu-title {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   padding: 0 0 4px;
+  color: var(--color-light);
+  font-family: "Fugaz One", sans-serif;
+  font-family: "Lexend Exa", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
-.site-head-menu-title-container h2 {
+.menu-title span {
+  margin-right: 12px !important;
+}
+.menu-title h2 {
   font-family: "Yellowtail", monospace;
   text-transform: uppercase;
 }
-
-.site-head-menu-title {
+.menu-title .site-head-menu-title {
   color: var(--color-light);
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   padding: 0 0 8px;
 }
-.site-head-menu-title em {
+.menu-title .site-head-menu-title em {
   color: var(--color-border);
 }
 
@@ -534,23 +578,6 @@ a {
     background-color: transparent;
   }
 }
-.site-head-menu-column {
-  cursor: default;
-  padding: 24px 0;
-}
-.site-head-menu-column :hover {
-  transition: 0.5s;
-}
-.site-head-menu-column h2w {
-  padding: 24px 0 12px;
-}
-.site-head-menu-column ul :hover {
-  border-left: none;
-}
-.site-head-menu-column li {
-  font-family: "Courier Prime", monospace;
-}
-
 .site-main {
   color: var(--color-light);
   padding-top: 24px;
