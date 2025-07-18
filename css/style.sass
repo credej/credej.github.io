@@ -6,9 +6,6 @@
 @import "post.css"
 @import "variables.css"
 
-.border-red
-  border: 1px solid red !important
-
 html
   scroll-behavior: smooth
 
@@ -114,7 +111,6 @@ a
   font-size: var(--font-l)
 
 .footer-wrapper
-  background-color: rgba(0, 0, 0, 0.9)
   padding: 128px 0 
   display: flex
   justify-content: center
@@ -158,6 +154,7 @@ a
   border-radius: 50%
   z-index: 9999
   transition: all .4s
+  visibility: hidden
   &:hover
     -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
     filter: invert(.8)
@@ -210,14 +207,6 @@ a
   h1
     font-size: var(--font-xl)
     letter-spacing: 0.25rem
-  .header-excerpt
-    background-color: transparent
-    padding: 1.8rem 0
-    text-indent: 0
-  .header-image
-    background-color: transparent
-    img
-      border-radius: 16px
 
 .header-excerpt
   display: flex
@@ -226,6 +215,7 @@ a
   border-radius: 0 16px 16px 0
   font-family: "Cutive Mono", monospace
   text-indent: 2vw
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
   p
     background-color: none
 
@@ -435,7 +425,7 @@ a
   background-color: var(--color-bg-light)
   border-radius: 16px 16px 0 16px
   color: var(--color-light)
-  cursor: pointer
+  cursor: default
   font-family: "Reddit Mono", monospace
   font-family: "Lusitana", serif
   font-size: var(--font-m)
@@ -461,6 +451,10 @@ a
     color: var(--color-indigo-100) !important
     &:hover
       color: #8566ff !important
+
+.quote-by,
+.quote-link
+  margin-right: 1rem
 
 .section-title
   font-family: "Courier Prime", monospace
