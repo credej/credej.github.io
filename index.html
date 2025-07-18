@@ -249,6 +249,11 @@
                </div>
                <p>Where to next?</p>
             </div>
+
+            <br><br><br><br>
+            <div class="site-section">
+               <h4>View my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> and view the various software projects that I'm interested in on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; Feel free to reach out to me directly at <a href="mailto:credej@protonmail.com" style="color: #facc15;">credej@protonmail.com</a>&nbsp;regarding your project, business or just to say hello</h4>
+            </div>
          </main>
       </div>
 
@@ -307,8 +312,7 @@
             </div> -->
             <div class="footer-button">
                <a href="#top" class="back-to-top" title="Back to Top">
-                  <img src="/images/arrow-up.svg" alt="Back to Top" height="87" width="87" />
-                  <p>back to top</p>
+                  <img src="/images/arrow-up.svg" alt="Back to Top" height="57" width="57" />
                </a>
             <footer-component></footer-component>
          </div>
@@ -323,5 +327,46 @@
       function showAlert() {
         alert("Please feel free to shoot me a message anytime at credej@protonmail.com");
       }
-      </script>
+   </script>
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
+
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
 </html>
