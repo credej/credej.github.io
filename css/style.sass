@@ -29,6 +29,34 @@ a
     background: rgba(255, 255, 255, 0.1)
     color: #000
 
+.back-to-top
+  position: fixed
+  bottom: 4rem
+  right: 4rem
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 5.5rem
+  width: 5.5rem
+  background-color: #1f1f1f
+  border-radius: 50%
+  z-index: 9999
+  transition: all .4s
+  visibility: hidden
+  &:hover
+    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
+    filter: invert(.8)
+  &:active
+    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
+    filter: invert(1)
+
+.bg-home
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url('/images/header.jpg')
+  background-size: contain
+  background-attachment: static
+  background-repeat: no-repeat
+  /* margin-top: 100px !important */
+
 .bookmark-section
   margin-left: 1rem
   text-indent: -1rem
@@ -36,10 +64,11 @@ a
   display: flex
   flex-direction: column
   padding: 0 0 6vh
+  font-size: var(--font-m)
   h2
     color: var(--color-title)
     font-family: "Courier Prime", monospace
-    font-size: var(--font-m)
+    font-size: var(--font-l)
     padding: 0 0 1vh
   li
     margin-left: 1rem
@@ -62,7 +91,8 @@ a
     color: var(--color-pgh-yellow)
     padding: 8px 0  
   a:hover
-      color: var(--color-pgh-yellow-highlight) !important
+      color: var(--color-retro-aqua-highlight) !important
+      text-shadow: 2px 2px 4px black
       text-decoration: uppercase !important 
   ul
     :hover
@@ -78,26 +108,9 @@ a
     a:hover
       color: var(--color-border) !important
 
-.breadcrumb
-  font-family: "Cutive Mono", "Courier Prime", monospace
-  align-items: center
-  color: var(--color-border)
-  :hover
-    color: var(--color-base)
-  li
-    text-shadow: 1px 1px 2px black
-    a
-      font-family: "Cutive Mono", monospace !important
-      padding: 0 0 0 12px
-
-.breadcrumb-home
-  color: var(--color-light)
-  font-size: var(--font-l)
-  padding: 0 24px 0 0
-
 .comingSoon
   color: var(--color-light) !important
-  opacity: 0.3
+  opacity: 0.2
 
 .content-container
   margin: 12vh 0 
@@ -141,57 +154,16 @@ a
   align-items: center
   justify-content: center
 
-.back-to-top
-  position: fixed
-  bottom: 4rem
-  right: 4rem
-  display: flex
-  justify-content: center
-  align-items: center
-  height: 5.5rem
-  width: 5.5rem
-  background-color: #1f1f1f
-  border-radius: 50%
-  z-index: 9999
-  transition: all .4s
-  visibility: hidden
-  &:hover
-    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
-    filter: invert(.8)
-  &:active
-    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
-    filter: invert(1)
-
-.footer-caution
-  color: red
-  display: block
-  padding: 5vw
-  width: 100%
-  > .scrolldown-text
-    animation: blink-animation .9s infinite
-    -webkit-animation: blink-animation .9s infinite
-    -moz-animation: blink-animation .9s infinite
-    -o-animation: blink-animation .9s infinite
-
 .hashtag
   color: var(--color-code-bg)
   padding: 0 0 0 24px
 
-.header-banner 
-  background-color: none !important
-
-.header-bg
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url('/images/header.jpg')
-  background-size: contain
-  background-attachment: static
-  background-repeat: no-repeat
-  /* margin-top: 100px !important */
-
-.header-home
+.home-category-container
   break-inside: avoid
   display: flex
   flex-direction: column
   filter: grayscale(1)
+  padding: 24px 0
   opacity: 0.4
   transition: all 1.87s ease
   -webkit-transition: all 0.87s ease
@@ -204,35 +176,23 @@ a
   span, h1
     display: flex
     align-items: center
-  h1
-    font-size: var(--font-xl)
-    letter-spacing: 0.25rem
 
-.header-excerpt
+.home-category-excerpt
   display: flex
   padding: 2rem
   background-color: var(--color-bg-light)
-  border-radius: 0 16px 16px 0
+  border-radius: 0 0 16px 16px
   font-family: "Cutive Mono", monospace
-  text-indent: 2vw
+  text-indent: 2rem
   box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
   p
     background-color: none
 
-.header-image
-  background-color: transparent
-  border-radius: 8px
+.home-category-image
+  border-radius: 16px
   display: flex
   img
-    border-radius: 16px 0 0 16px
-    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
-
-.header-intro
-  display: flex
-
-.header-image-full
-  img
-    width: 100%
+    border-radius: 16px 16px 0 0
 
 .home-category
   align-items: center
@@ -247,7 +207,7 @@ a
     align-items: center
   h1
     font-size: var(--font-xl)
-    letter-spacing: 1rem
+    letter-spacing: 0.4rem
     font-family: "Cutive Mono", monospace
     padding: 0
     &:after
@@ -268,12 +228,12 @@ a
     font-family: "Courier Prime", monospace
     margin-left: 2.4rem
   a 
-    color: var(--color-pgh-yellow)
+    color: var(--color-retro-aqua)
+    font-size: var(--font-m) !important
     padding: 2px 0
     &:hover 
-      color: lightgoldenrodyellow
+      color: var(--color-retro-aqua-highlight)
       cursor: pointer
-      text-decoration: underline
 
 .home-section-title
   display: flex
@@ -321,17 +281,25 @@ a
       -o-animation: blink-animation .9s infinite
       content: "_"
 
+.intro-section
+  p
+    font-size: var(--font-m)
+    line-height: 2rem
+  a
+    color: var(--color-title) !important
+    font-size: var(--font-m) !important
+    &:hover
+      color: var(--color-retro-aqua-highlight) !important
+
+
 .intro-title
   display: flex
+  flex-direction: row
 
 #menu-btn
   color: var(--color-border)
   :hover
-    color: var(--color-base)
-
-.menu-container
-  display: flex
-  height: 100vh
+    color: var(--color-base) 
 
 .menu
   width: 100%
@@ -379,38 +347,92 @@ a
   justify-content: flex-end
   text-align: right
 
-#navbar
-  display: flex
-  width: 100%
-  justify-content: center
+
+
+
+
+
+
+
+
+/* MENU */
+
+.home
+  color: var(--color-light)
+  font-size: var(--font-l)
+  padding: 0 24px 0 0
+
+#menu
   backdrop-filter: blur(187px)
-  width: 100%
+  display: flex
+  justify-content: center
+  left: 0
+  position: fixed
+  right: 0
+  z-index: 9999
+
+.menu
+  width: 1180px
+
+.menu-closed
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 36px 0
+
+.menu-expanded
+  display: flex
+  height: 100vh
+
+.menu-logo
+  color: var(--color-border)
+  :hover
+    color: var(--color-base)
+
+.fade-in
+  opacity: 1
+  animation-name: fadeInOpacity
+  animation-iteration-count: 1
+  animation-timing-function: ease-in
+  animation-duration: 0.8s
+
+.breadcrumb
+  font-family: "Cutive Mono", "Courier Prime", monospace
+  align-items: center
   li
     text-shadow: 1px 1px 2px black
     a
       font-family: "Cutive Mono", monospace !important
       padding: 0 0 0 12px
 
-.navbar
-  width: 1180px
 
-.nav
+
+
+
+
+
+
+
+
+.page-header
   display: flex
-  flex-wrap: wrap
-  list-style: none
-  margin: 0 0 0 -12px
-  padding: 0
-  
-.nav-main
-  width: 1180px
 
-.navbar-fixed
-  position: fixed
-  top: 0
-  left: 0
-  right: 0
+.page-header-image
+  img
+    border-radius: 12px 0 0 12px
 
-.page-links
+.page-header-excerpt
+  display: flex
+  padding: 2rem
+  background-color: var(--color-bg-light)
+  border-radius: 0 16px 16px 0
+  font-family: "Cutive Mono", monospace
+  text-indent: 2vw
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
+  p
+    background-color: none
+
+.page-anchors
   display: flex
   flex-direction: column
 
@@ -479,6 +501,9 @@ a
       cursor: default
   .article-section-title
     font-family: "Yellowtail", monospace
+    font-family: "Courier Prime", monospace
+    h3
+      font-size: var(--font-l)
 
 .site-section-title
   color: var(--color-light)

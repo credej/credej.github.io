@@ -2,26 +2,27 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <nav id="navbar" class="navbar-fixed transition-transform z-50 fade-in">
-         <div class="navbar">
-            <div class="my-8 breadcrumb-container flex items-center justify-between">
-               <div class="flex flex-start">
+      <nav id="menu" class="fade-in">
+         <div class="menu">
+
+            <!---------- MENU COMPACT ---------->
+
+            <div class="menu-closed">
+               <div class="menu-logo flex flex-start">
                   <a href="../../../index.html" class="breadcrumb">
-                     <div class="breadcrumb-home">j's work</div>
+                     <div class="home">j's work</div>
                   </a>
-      <!--
-                  <a href="#" class="breadcrumb">
+      
+                  <!-- <a href="#" class="breadcrumb">
                      <div class=breadcrumb-section">-> parent breadcrumb&nbsp;</div>
                   </a>
                   <a href="#" class="breadcrumb">
                      <div class=breadcrumb-section">-> current page</div>
-                  </a>
-      -->
+                  </a> -->
+      
                </div>
 
-               <!---------- MENU ICON ---------->
-
-               <div class="flex flex-end">
+               <div class="menu-icon flex flex-end">
                   <button id="menu-btn" class="flex items-center text-gray-700 neon">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
@@ -32,7 +33,7 @@ class Header extends HTMLElement {
 
             <!---------- EXPANDED MENU 1  ---------->
 
-            <div id="mobile-menu" class="menu-container hidden fade-in">
+            <div id="menu-expanded" class="menu-expanded hidden fade-in">
 
                <div class="menu">
                   <div class="menu-column">
@@ -127,8 +128,8 @@ class Header extends HTMLElement {
                         <div class="menu-list">
                           <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                           <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
-                          <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a>
-                          <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a>
+                          <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a><!-- 
+                          <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a> -->
                         </div>
                      </div>
                   </div>
@@ -160,7 +161,7 @@ class Header extends HTMLElement {
 
          // Mobile Menu Toggle
          const menuBtn = document.getElementById("menu-btn");
-         const mobileMenu = document.getElementById("mobile-menu");
+         const mobileMenu = document.getElementById("menu-expanded");
 
          menuBtn.addEventListener("click", () => {
             mobileMenu.classList.toggle("hidden");
