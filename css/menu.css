@@ -107,6 +107,7 @@
 }
 .menu-icon button:hover {
   color: var(--color-retro-aqua-highlight);
+  text-shadow: 2px 2px 4px black;
 }
 
 .menu-logo a {
