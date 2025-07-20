@@ -12,10 +12,12 @@
    </head>
 
    <body style="background-color: #0a0a16;">
-      <div class="header-wrapper"><header-component></header-component></div>
+      <div class="header-wrapper">
+         <header-component></header-component>
+      </div>
 
       <div class="site-wrapper">
-         <main id="site-main" class="site-main">
+         <div id="site-main" class="site-main">
 
             <div class="intro">
                <div class="intro-title">
@@ -410,15 +412,73 @@
                         <li><a href=https://www.winnebago.com/models/product/motorhomes/camper-van/travato target=_blank/>Travato RV</a></li>
                         <li><a href=https://www.qwerkywriter.com/collections/frontpage/products/sage-chrome-qwerkywriter-us-layout target=_blank/>Typewriter style keyboard</a></li>
                         <li><a href=https://www.dell.com/en-us/shop/gaming-desktops/alienware-area-51-gaming-desktop/spd/alienware-area-51-aat2250-gaming-desktop target=_blank/>Area 51 Gaming PC</a></li>
+                        <li><a href=https://www.ebay.com/b/Hollister-So-Cal-Eau-de-Cologne-Fragrances-for-Men/29585/bn_93724899 target=_blank/>Hollister Cologne</a></li>
                      </ul>
                   </div>
                </div>
 
             </div>
-         </main>
-         <footer class=site-foot>
-            <footer-component></footer-component>
+         </div>
+         <footer class=site-foot>      
+            <div class="footer-wrapper">
+               <div class="footer-main">
+                  <div class="footer-button">
+                     <a href="#top" class="back-to-top" title="Back to Top">
+                        <img src="/images/arrow-up.svg" alt="Back to Top" height="57" width="57" />
+                     </a>
+                  <footer-component></footer-component>
+               </div>
+            </div>
          </footer>
       </div>
    </body>
+   <script>
+      document.addEventListener('click', function(event) {
+        if (event.target.tagName === 'SPAN') {
+          let copyText = event.target.textContent;
+          navigator.clipboard.writeText(copyText);
+        }
+      });
+   </script>
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
+
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
 </html>

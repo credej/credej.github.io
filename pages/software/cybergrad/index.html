@@ -2,8 +2,8 @@
 <html lang=en>
    <head>
       <title>CyberGrad</title>
-      <meta name=description content="cybergrad">
-      <link rel=stylesheet type=text/css href="../../../css/style.css">
+      <meta name="description" content="cybergrad">
+      <link rel="stylesheet" type="text/css" href="../../../css/style.css">
       <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="../../../components/headlinks-min.js" type="text/javascript" dsefer></script>
@@ -11,10 +11,12 @@
       <script src="../../../components/index-min.js" type="text/javascript" defer></script>
    </head>
    <body style="background-color: #040D19 !important;">
-      <div class="header-wrapper"><header-component></header-component></div>
-      
+      <div class="header-wrapper">
+         <header-component></header-component>
+      </div>
+
       <div class="site-wrapper">
-         <main id="site-main" class="site-main site-section">
+         <div class="site-main site-section">
 
             <!-- CYBERGRAD -->
             <div class="intro">
@@ -117,10 +119,13 @@
             </figure>
 
             <!-- CYBERGRAD - LOGO AND NAME DESIGN-->            
+
             <div id ="logo"></div>
+
             <div class="article-section-title">
                <h3>cybergrad logo<span class="hashtag">#logo #design #illustrator</h3>
             </div>
+
             <p>As with the entire project, the logo was to be created as an original design. There were many logo ideas submitted by the team, but eventually the name CyberGuard was chosen. However, at the last minute, it was proposed to change the name from CyberGuard to CyberGrad. </p>
 
             <figure class="kg-card kg-gallery-card kg-width-wide">
@@ -143,8 +148,8 @@
               </div>
             </figure>
 
-
             <!-- CYBERGRAD - MODULE BADGES-->
+
             <div id ="badge"></div>
             <div class="article-section-title">
                <h3>cybergrad lesson badge set <span class="hashtag">#graphics #design</h3> 
@@ -195,10 +200,67 @@
                </div>
             </figure>
 
-         </main>
-         <footer class=site-foot>=
-            <a href="../contact/index.html">Contact</a>
+         </div>
+         <footer class="site-foot">
+            <div class="footer-wrapper">
+               <div class="footer-main">
+                  <div class="footer-button">
+                     <a href="#top" class="back-to-top" title="Back to Top">
+                        <img src="/images/arrow-up.svg" alt="Back to Top" height="57" width="57" />
+                     </a>
+                  <footer-component></footer-component>
+               </div>
+            </div>
          </footer>
       </div>
    </body>
+   <script>
+      document.addEventListener('click', function(event) {
+        if (event.target.tagName === 'SPAN') {
+          let copyText = event.target.textContent;
+          navigator.clipboard.writeText(copyText);
+        }
+      });
+   </script>
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
+
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
 </html>

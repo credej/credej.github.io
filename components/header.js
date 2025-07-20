@@ -10,6 +10,7 @@ class Header extends HTMLElement {
             <div class="menu-closed">
                <div class="menu-logo flex flex-start">
                   <a href="../../../index.html" class="breadcrumb">
+                     <i class="iconoir-flash-solid"></i>
                      <div class="home">j's work</div>
                   </a>
       

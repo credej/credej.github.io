@@ -349,6 +349,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/keyboard-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 362665,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/keyboard-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/keyboard-banner.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/keyboard-banner.mp4",
+      "oF" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
