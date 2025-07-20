@@ -2,16 +2,16 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <nav id="menu" class="fade-in">
-         <div class="menu">
+      <nav id="navbar" class="fade-in">
+         <div class="navbar">
 
             <!---------- MENU COMPACT ---------->
 
             <div class="menu-closed">
                <div class="menu-logo flex flex-start">
-                  <a href="../../../index.html" class="breadcrumb">
+                  <a href="../../../index.html" class="navbar-home">
                      <i class="iconoir-flash-solid"></i>
-                     <div class="home">j's work</div>
+                     <p>j's work</p>
                   </a>
       
                   <!-- <a href="#" class="breadcrumb">
@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                </div>
 
                <div class="menu-icon flex flex-end">
-                  <button id="menu-btn" class="flex items-center text-gray-700 neon">
+                  <button id="menu-button" class="flex items-center text-gray-700 neon">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
                       </svg>
@@ -161,7 +161,7 @@ class Header extends HTMLElement {
          // };
 
          // Mobile Menu Toggle
-         const menuBtn = document.getElementById("menu-btn");
+         const menuBtn = document.getElementById("menu-button");
          const mobileMenu = document.getElementById("menu-expanded");
 
          menuBtn.addEventListener("click", () => {
