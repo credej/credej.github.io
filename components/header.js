@@ -10,7 +10,7 @@ class Header extends HTMLElement {
             <div class="menu-closed">
                <div class="menu-logo flex flex-start">
                   <a href="../../../index.html" class="navbar-home">
-                     <i class="iconoir-flash-solid"></i>
+                     <i class="iconoir-face-id"></i>
                      <p>j's work</p>
                   </a>
       
@@ -25,14 +25,15 @@ class Header extends HTMLElement {
 
                <div class="menu-icon flex flex-end">
                   <button id="menu-button" class="flex items-center text-gray-700 neon">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                     <i class="iconoir-menu"></i>
+                     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-                      </svg>
+                     </svg> -->
                   </button>
                </div>
             </div>
 
-            <!---------- EXPANDED MENU 1  ---------->
+            <!---------- EXPANDED MENU 1 ---------->
 
             <div id="menu-expanded" class="menu-expanded hidden fade-in">
 
@@ -40,7 +41,7 @@ class Header extends HTMLElement {
                   <div class="menu-column">
                      <div class="menu-category">
                         <div class="menu-category-title">
-                           <span class="material-symbols-outlined text-yellow-500">public</span>
+                           <i class="iconoir-flash-solid"></i>
                            <h2>Software UI/UX</h2>
                         </div>
                         <div class="menu-list">
@@ -54,7 +55,7 @@ class Header extends HTMLElement {
 
                      <div class="menu-category">
                         <div class="menu-category-title">
-                           <span class="material-symbols-outlined text-yellow-500">draw</span>
+                           <i class="iconoir-design-nib"></i>
                            <h2 class="">Design</h2>
                         </div>
                         <div class="menu-list">
@@ -72,7 +73,7 @@ class Header extends HTMLElement {
                   <div class="menu-column">
                      <div class="menu-category">
                         <div class="menu-category-title justify-center">
-                           <span class="material-symbols-outlined text-yellow-500">satellite_alt</span>
+                           <i class="iconoir-cpu"></i>
                            <h2>Gadgets <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
@@ -87,7 +88,7 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category">
                         <div class="menu-category-title justify-center">
-                           <span class="material-symbols-outlined text-yellow-500">handyman</span>
+                           <i class="iconoir-terminal-tag"></i>
                            <h2>DIY <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
@@ -107,7 +108,7 @@ class Header extends HTMLElement {
                   <div class="menu-column">
                      <div class="menu-category">
                         <div class="menu-category-title justify-end">
-                           <span class="material-symbols-outlined text-yellow-500">map</span>
+                           <i class="iconoir-telegram"></i>
                            <h2>Travel <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
@@ -122,7 +123,7 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category">
                         <div class="menu-category-title justify-end">
-                           <span class="material-symbols-outlined text-yellow-500">bookmarks</span>
+                           <i class="iconoir-asterisk"></i>
                            <h2>Other Stuff</h2>
                         </div>
                      <div class="menu-category-list-right">

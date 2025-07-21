@@ -174,7 +174,7 @@ a
   background-color: var(--color-bg-light)
   border-radius: 0 0 16px 16px
   font-family: "Cutive Mono", monospace
-  text-indent: 2rem
+  text-indent: 1.2rem
   box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
   p
     background-color: none
@@ -198,7 +198,7 @@ a
     align-items: center
   h1
     font-size: var(--font-xl)
-    letter-spacing: 0.4rem
+    letter-spacing: 0.36rem
     font-family: "Cutive Mono", monospace
     padding: 0
     &:after
@@ -234,7 +234,6 @@ a
   font-family: "Lexend Exa", sans-serif
   text-transform: uppercase
   font-weight: 400
-  margin-bottom: 1rem
   span
     margin-right: 12px !important
 
@@ -248,13 +247,14 @@ a
       -moz-animation: none
       -o-animation: none
       content: ""
+  p
+    animation: pulsate 0.11s ease-in-out infinite alternate
 
 .intro
   align-items: center
   display: flex
   flex-direction: row
   margin-bottom: 1.2rem
-  animation: pulsate 0.11s ease-in-out infinite alternate
   span, h1
     color: var(--color-title)
     padding: 4px 24px 0 0
@@ -277,18 +277,29 @@ a
     font-size: var(--font-m)
     line-height: 2rem
   a
-    color: var(--color-title) !important
+    color: var(--color-retro-aqua) !important
     font-size: var(--font-m) !important
     &:hover
       color: var(--color-retro-aqua-highlight) !important
 
-
 .intro-title
   display: flex
   flex-direction: row
+  animation: pulsate 0.11s ease-in-out infinite alternate
 
 
 
+
+
+.menu-category-title,
+.home-section-title,
+.home-category-title
+  display: flex
+  align-items: center
+  i
+    color: var(--color-pgh-yellow)
+    font-size: var(--font-l)
+    padding: 0 12px 0 0 
 
 
 
@@ -383,7 +394,7 @@ a
     color: var( --color-border)
     font-family: "Courier Prime", monospace
     margin: 12px 0
-    text-indent: 2rem
+    text-indent: 2.2rem
     text-shadow: 1px 1px 2px black
   a
     color: var(--color-retro-aqua)

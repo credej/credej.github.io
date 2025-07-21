@@ -74,6 +74,7 @@
 .menu-category-title {
   cursor: default;
   display: flex;
+  align-items: center;
   color: var(--color-light);
   font-family: "Fugaz One", sans-serif;
   font-family: "Lexend Exa", sans-serif;
@@ -102,16 +103,19 @@
   text-align: right;
 }
 
+#menu-button i {
+  font-size: var(--font-l);
+}
+
 .menu-icon button {
-  color: var(--color-retro-aqua);
+  color: var(--color-border);
 }
 .menu-icon button:hover {
   color: var(--color-retro-aqua-highlight);
-  text-shadow: 2px 2px 4px black;
 }
 
 .menu-logo a {
-  color: var(--color-retro-aqua);
+  color: var(--color-border);
 }
 .menu-logo a:hover {
   color: var(--color-retro-aqua-highlight);
