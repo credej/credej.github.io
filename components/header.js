@@ -10,7 +10,10 @@ class Header extends HTMLElement {
             <div class="menu-closed">
                <div class="menu-logo flex flex-start">
                   <a href="../../../index.html" class="navbar-home">
+                     <!-- 
+                     <i class="iconoir-arcade"></i>
                      <i class="iconoir-face-id"></i>
+                     <i class="iconoir-attachment"></i>-->
                      <p>j's work</p>
                   </a>
       
@@ -26,6 +29,8 @@ class Header extends HTMLElement {
                <div class="menu-icon flex flex-end">
                   <button id="menu-button" class="flex items-center text-gray-700 neon">
                      <i class="iconoir-menu"></i>
+                     <!-- <i class="iconoir-dice-two"></i>
+                     <i class="iconoir-dice-one"></i> -->
                      <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
                      </svg> -->

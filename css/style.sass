@@ -17,9 +17,6 @@ table
   border-collapse: collapse
   border-spacing: 0
 
-a
-  cursor: pointer !important
-
 #app,
 #logo,
 #badge
@@ -208,6 +205,16 @@ a
       -o-animation: blink-animation .9s infinite
       content: "_"
 
+.home-category-title,
+.home-section-title,
+.menu-category-title
+  display: flex
+  align-items: center
+  i
+    color: var(--color-pgh-yellow)
+    font-size: var(--font-l)
+    padding: 0 12px 0 0 
+
 .home-section
   display: flex
   flex-direction: column
@@ -216,7 +223,6 @@ a
   h3
     font-size: var(--font-l) !important
   p
-    font-family: "Courier Prime", monospace
     margin-left: 2.4rem
   a 
     color: var(--color-retro-aqua)
@@ -226,19 +232,24 @@ a
       color: var(--color-retro-aqua-highlight)
       cursor: pointer
 
+.home-section-list
+  color: var( --color-border)
+  margin: 12px 0
+  text-indent: 2.2rem
+  text-shadow: 1px 1px 2px black
+
 .home-section-title
   display: flex
   align-items: center
   color: var(--color-light)
   font-family: "Fugaz One", sans-serif
-  font-family: "Lexend Exa", sans-serif
   text-transform: uppercase
   font-weight: 400
   span
     margin-right: 12px !important
 
 /* remove blinking effect from headers used on home page */
-.home-category-title 
+.home-category-title
   display: flex
   h1
     &:after
@@ -250,72 +261,25 @@ a
   p
     animation: pulsate 0.11s ease-in-out infinite alternate
 
-.intro
-  align-items: center
-  display: flex
-  flex-direction: row
-  margin-bottom: 1.2rem
-  span, h1
-    color: var(--color-title)
-    padding: 4px 24px 0 0
-    display: flex
-    align-items: center
-  h1
-    font-size: var(--font-xl)
-    letter-spacing: 1rem
-    font-family: "Cutive Mono", monospace
-    padding: 0
-    &:after
-      animation: blink-animation .9s infinite
-      -webkit-animation: blink-animation .9s infinite
-      -moz-animation: blink-animation .9s infinite
-      -o-animation: blink-animation .9s infinite
-      content: "_"
+/* BLINKING EFFECT */
+
+.home-section,
+.intro-section
+  a 
+    &:hover 
+      color: var(--color-retro-aqua-highlight)
+      cursor: pointer
+      animation: blinker 1s linear infinite
 
 .intro-section
   p
     font-size: var(--font-m)
     line-height: 2rem
   a
-    color: var(--color-retro-aqua) !important
+    color: var(--color-pgh-yellow) !important
     font-size: var(--font-m) !important
     &:hover
-      color: var(--color-retro-aqua-highlight) !important
-
-.intro-title
-  display: flex
-  flex-direction: row
-  animation: pulsate 0.11s ease-in-out infinite alternate
-
-
-
-
-
-.menu-category-title,
-.home-section-title,
-.home-category-title
-  display: flex
-  align-items: center
-  i
-    color: var(--color-pgh-yellow)
-    font-size: var(--font-l)
-    padding: 0 12px 0 0 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      color: var(--color-pgh-yellow-highlight) !important
 
 .page-header
   display: flex
@@ -381,38 +345,65 @@ a
 .quote-link
   margin-right: 1rem
 
-.section-title
-  font-family: "Courier Prime", monospace
+.site-wrapper
+  padding: 128px 0
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+
+.site-main
+  padding-top: 24px
+  width: 1180px
 
 .site-section
+  display: flex
+  flex-direction: column
+  align-items: flex-start
   cursor: default
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
+  margin-bottom: 1.2rem
+  h1
+    font-size: var(--font-xl)
+    letter-spacing: 1rem
+    &:after
+      animation: blink-animation .9s infinite
+      -webkit-animation: blink-animation .9s infinite
+      -moz-animation: blink-animation .9s infinite
+      -o-animation: blink-animation .9s infinite
+      content: "_"
   h2
     font-size: var(--font-xl) !important
   p
     color: var( --color-border)
-    font-family: "Courier Prime", monospace
-    margin: 12px 0
+    margin: 0 0 12px
     text-indent: 2.2rem
     text-shadow: 1px 1px 2px black
+  span, h1
+    color: var(--color-title)
+    padding: 4px 24px 0 0
   a
     color: var(--color-retro-aqua)
     font-size: var(--font-s)
-    &:hover
-      color: var(--color-retro-aqua-highlight)
-      cursor: default
-  .article-section-title
-    font-family: "Yellowtail", monospace
-    font-family: "Courier Prime", monospace
-    h3
-      font-size: var(--font-l)
+  a:hover
+    color: var(--color-retro-aqua-highlight)
 
 .site-section-title
+  display: flex
+  align-items: center
   color: var(--color-light)
+  justify-content: center
   font-family: "Lexend Exa", sans-serif
-  text-transform: uppercase
-  font-weight: 400
+  font-family: "Courier Prime", monospace
+  padding: 24px 0
+  h3
+    font-size: var(--font-xl)
+  h4
+    font-family: "Yellowtail", monospace
+
+.neon
+  animation: pulsate 0.11s ease-in-out infinite alternate
 
 @keyframes blink-animation
   to
@@ -422,26 +413,10 @@ a
   to
     background-color: transparent
 
-
-.site-main
-  color: var(--color-light)
-  padding-top: 24px
-  width: 1180px
-
-.site-wrapper
-  padding: 128px 0
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
+@keyframes blinker 
+  50% 
+    opacity: 0.5
 
 @media screen and (prefers-reduced-motion: reduce) 
   html 
     scroll-behavior: auto
-
-
-
-
-
-
-

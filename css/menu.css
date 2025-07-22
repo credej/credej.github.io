@@ -14,7 +14,7 @@
 }
 
 .navbar-home {
-  font-family: "Cutive Mono", "Courier Prime", monospace;
+  font-family: "Yellowtail", monospace;
   align-items: center;
   display: flex;
 }
@@ -30,7 +30,7 @@
   font-size: var(--font-l);
 }
 .navbar-home p {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
 }
 
 .menu-closed {
@@ -108,6 +108,7 @@
 }
 
 .menu-icon button {
+  color: var(--color-retro-aqua);
   color: var(--color-border);
 }
 .menu-icon button:hover {
@@ -115,6 +116,7 @@
 }
 
 .menu-logo a {
+  color: var(--color-retro-aqua);
   color: var(--color-border);
 }
 .menu-logo a:hover {
