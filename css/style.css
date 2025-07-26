@@ -20,16 +20,25 @@ table {
   border-spacing: 0;
 }
 
-#app,
-#logo,
-#badge {
-  padding-top: 125px;
-}
-
 ::selection,
 ::-moz-selection {
   background: rgba(255, 255, 255, 0.1);
   color: #000;
+}
+
+.anchor {
+  padding-top: 100px;
+}
+
+.anchor-list {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0;
+  font-family: "Courier Prime", monospace;
+}
+.anchor-list a {
+  font-size: var(--font-l) !important;
+  padding: 4px 0;
 }
 
 .bg-home {
@@ -178,25 +187,48 @@ table {
   width: 100%;
 }
 
-.home-category {
+.intro p {
+  font-size: var(--font-m);
+  line-height: 2rem;
+}
+.intro a {
+  color: var(--color-pgh-yellow) !important;
+  font-size: var(--font-m) !important;
+}
+.intro a:hover {
+  color: var(--color-pgh-yellow-highlight) !important;
+}
+
+.intro a:hover,
+.site-section a:hover {
+  color: var(--color-retro-aqua-highlight);
+  cursor: pointer;
+  animation: blinker 1s linear infinite;
+}
+
+.neon {
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+.site-category {
   align-items: center;
   display: flex;
   flex-direction: row;
   margin-bottom: 1.2rem;
 }
-.home-category span, .home-category h1 {
+.site-category span, .site-category h1 {
   color: var(--color-title);
   padding: 4px 24px 0 0;
   display: flex;
   align-items: center;
 }
-.home-category h1 {
+.site-category h1 {
   font-size: var(--font-xl);
   letter-spacing: 0.36rem;
   font-family: "Cutive Mono", monospace;
   padding: 0;
 }
-.home-category h1:after {
+.site-category h1:after {
   animation: blink-animation 0.9s infinite;
   -webkit-animation: blink-animation 0.9s infinite;
   -moz-animation: blink-animation 0.9s infinite;
@@ -204,7 +236,7 @@ table {
   content: "_";
 }
 
-.home-category-container {
+.site-category-container {
   break-inside: avoid;
   display: flex;
   flex-direction: column;
@@ -214,28 +246,28 @@ table {
   transition: all 1.87s ease;
   -webkit-transition: all 0.87s ease;
 }
-.home-category-container:hover {
+.site-category-container:hover {
   cursor: pointer !important;
   filter: grayscale(0);
   opacity: 1;
 }
-.home-category-container:active {
+.site-category-container:active {
   opacity: 0.8;
 }
-.home-category-container span, .home-category-container h1 {
+.site-category-container span, .site-category-container h1 {
   display: flex;
   align-items: center;
 }
 
-.home-category-image {
+.site-category-image {
   border-radius: 16px;
   display: flex;
 }
-.home-category-image img {
+.site-category-image img {
   border-radius: 16px 16px 0 0;
 }
 
-.home-category-excerpt {
+.site-category-excerpt {
   color: var(--color-border);
   text-shadow: 1px 1px 2px black;
   display: flex;
@@ -246,113 +278,71 @@ table {
   text-indent: 1.2rem;
   box-shadow: 4px 8px 8px hsla(0, 0%, 0%, 0.38);
 }
-.home-category-excerpt p {
+.site-category-excerpt p {
   background-color: none;
 }
 
-.home-category-title,
-.home-section-title,
+.site-category-title,
+.site-section-title,
 .menu-category-title {
   display: flex;
   align-items: center;
 }
-.home-category-title i,
-.home-section-title i,
+.site-category-title i,
+.site-section-title i,
 .menu-category-title i {
   color: var(--color-pgh-yellow);
   font-size: var(--font-l);
   padding: 0 12px 0 0;
 }
 
-.home-section {
+.site-section {
   display: flex;
   flex-direction: column;
   cursor: default;
-  margin: 8rem 0 2rem;
 }
-.home-section h3 {
+.site-section h3 {
   font-size: var(--font-l) !important;
 }
-.home-section p {
+.site-section p {
   margin-left: 2.4rem;
 }
-.home-section a {
+.site-section a {
   color: var(--color-retro-aqua);
   font-size: var(--font-m) !important;
   padding: 2px 0;
 }
-.home-section a:hover {
+.site-section a:hover {
   color: var(--color-retro-aqua-highlight);
   cursor: pointer;
 }
 
-.home-section-list {
-  color: var(--color-border);
-  margin: 12px 0;
-  text-indent: 2.2rem;
-  text-shadow: 1px 1px 2px black;
-}
-
-.home-section-title {
+.site-section-list {
   display: flex;
-  align-items: center;
-  color: var(--color-light);
-  font-family: "Fugaz One", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-.home-section-title span {
-  margin-right: 12px !important;
+  flex-direction: column;
+  color: var(--color-border);
+  text-indent: 2.2rem;
+  margin: 1rem 0;
 }
 
 /* remove blinking effect from headers used on home page */
-.home-category-title {
-  display: flex;
-}
-.home-category-title h1:after {
+.site-category-title h1:after {
   animation: none;
   -webkit-animation: none;
   -moz-animation: none;
   -o-animation: none;
   content: "";
 }
-.home-category-title p {
-  animation: pulsate 0.11s ease-in-out infinite alternate;
-}
 
-.neon {
-  animation: pulsate 0.11s ease-in-out infinite alternate;
-}
-
-/* BLINKING EFFECT */
-.home-section a:hover,
-.intro-section a:hover {
-  color: var(--color-retro-aqua-highlight);
-  cursor: pointer;
-  animation: blinker 1s linear infinite;
-}
-
-.intro-section p {
-  font-size: var(--font-m);
-  line-height: 2rem;
-}
-.intro-section a {
-  color: var(--color-pgh-yellow) !important;
-  font-size: var(--font-m) !important;
-}
-.intro-section a:hover {
-  color: var(--color-pgh-yellow-highlight) !important;
-}
-
-.page-header {
+.site-header {
   display: flex;
 }
 
-.page-header-image img {
+.site-header-image img {
   border-radius: 12px 0 0 12px;
 }
 
-.page-header-excerpt {
+.site-header-excerpt {
   background-color: var(--color-bg-light);
   display: flex;
   padding: 2rem;
@@ -361,23 +351,16 @@ table {
   text-indent: 2vw;
   box-shadow: 4px 8px 8px hsla(0, 0%, 0%, 0.38);
 }
-.page-header-excerpt p {
+.site-header-excerpt p {
   background-color: none;
   color: var(--color-light);
 }
 
-.page-anchors {
-  display: flex;
-  flex-direction: column;
-  padding: 18px 0;
-  font-family: "Courier Prime", monospace;
-}
-.page-anchors a {
-  font-size: var(--font-l) !important;
-  padding: 4px 0;
+.site-main {
+  width: 1180px;
 }
 
-.site-wrapper {
+.site {
   padding: 128px 0 0;
   display: flex;
   flex-direction: column;
@@ -385,18 +368,15 @@ table {
   width: 100%;
 }
 
-.site-main {
-  padding-top: 24px;
-  width: 1180px;
-}
-
 .site-section {
+  /*border: 1px solid green !important*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   cursor: default;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s) !important;
+  margin: 2rem 0;
 }
 .site-section h1 {
   font-size: var(--font-xl);

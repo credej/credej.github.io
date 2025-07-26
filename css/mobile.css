@@ -152,7 +152,7 @@
 }
 
 @media (max-width:800px) {
-    .site-wrapper {
+    .site {
         padding: 72px 24px; {
             p {border: 1px solid rebeccapurple;}
         }

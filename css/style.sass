@@ -18,15 +18,22 @@ table
   border-collapse: collapse
   border-spacing: 0
 
-#app,
-#logo,
-#badge
-  padding-top: 125px
-
 ::selection,
 ::-moz-selection
     background: rgba(255, 255, 255, 0.1)
     color: #000
+
+.anchor
+  padding-top: 100px
+
+.anchor-list
+  display: flex
+  flex-direction: column
+  padding: 18px 0
+  font-family: "Courier Prime", monospace
+  a
+    font-size: var(--font-l) !important
+    padding: 4px 0
 
 .bg-home
   background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url('/images/header.jpg')
@@ -149,7 +156,28 @@ table
   img
     width: 100%
 
-.home-category
+.intro
+  p
+    font-size: var(--font-m)
+    line-height: 2rem
+  a
+    color: var(--color-pgh-yellow) !important
+    font-size: var(--font-m) !important
+    &:hover
+      color: var(--color-pgh-yellow-highlight) !important
+
+.intro,
+.site-section
+  a 
+    &:hover 
+      color: var(--color-retro-aqua-highlight)
+      cursor: pointer
+      animation: blinker 1s linear infinite
+
+.neon
+  animation: pulsate 0.11s ease-in-out infinite alternate
+
+.site-category
   align-items: center
   display: flex
   flex-direction: row
@@ -171,7 +199,7 @@ table
       -o-animation: blink-animation .9s infinite
       content: "_"
 
-.home-category-container
+.site-category-container
   break-inside: avoid
   display: flex
   flex-direction: column
@@ -190,13 +218,13 @@ table
     display: flex
     align-items: center
 
-.home-category-image
+.site-category-image
   border-radius: 16px
   display: flex
   img
     border-radius: 16px 16px 0 0
 
-.home-category-excerpt
+.site-category-excerpt
   color: var(--color-border)
   text-shadow: 1px 1px 2px black
   display: flex
@@ -209,8 +237,8 @@ table
   p
     background-color: none
 
-.home-category-title,
-.home-section-title,
+.site-category-title,
+.site-section-title,
 .menu-category-title
   display: flex
   align-items: center
@@ -219,11 +247,10 @@ table
     font-size: var(--font-l)
     padding: 0 12px 0 0 
 
-.home-section
+.site-section
   display: flex
   flex-direction: column
   cursor: default
-  margin: 8rem 0 2rem
   h3
     font-size: var(--font-l) !important
   p
@@ -236,25 +263,15 @@ table
       color: var(--color-retro-aqua-highlight)
       cursor: pointer
 
-.home-section-list
-  color: var( --color-border)
-  margin: 12px 0
-  text-indent: 2.2rem
-  text-shadow: 1px 1px 2px black
-
-.home-section-title
+.site-section-list
   display: flex
-  align-items: center
-  color: var(--color-light)
-  font-family: "Fugaz One", sans-serif
-  text-transform: uppercase
-  font-weight: 400
-  span
-    margin-right: 12px !important
+  flex-direction: column
+  color: var( --color-border)
+  text-indent: 2.2rem
+  margin: 1rem 0
 
 /* remove blinking effect from headers used on home page */
-.home-category-title
-  display: flex
+.site-category-title
   h1
     &:after
       animation: none
@@ -262,39 +279,15 @@ table
       -moz-animation: none
       -o-animation: none
       content: ""
-  p
-    animation: pulsate 0.11s ease-in-out infinite alternate
-.neon
-  animation: pulsate 0.11s ease-in-out infinite alternate
 
-/* BLINKING EFFECT */
-
-.home-section,
-.intro-section
-  a 
-    &:hover 
-      color: var(--color-retro-aqua-highlight)
-      cursor: pointer
-      animation: blinker 1s linear infinite
-
-.intro-section
-  p
-    font-size: var(--font-m)
-    line-height: 2rem
-  a
-    color: var(--color-pgh-yellow) !important
-    font-size: var(--font-m) !important
-    &:hover
-      color: var(--color-pgh-yellow-highlight) !important
-
-.page-header
+.site-header
   display: flex
 
-.page-header-image
+.site-header-image
   img
     border-radius: 12px 0 0 12px
 
-.page-header-excerpt
+.site-header-excerpt
   background-color: var(--color-bg-light)
   display: flex
   padding: 2rem
@@ -306,33 +299,25 @@ table
     background-color: none
     color: var(--color-light)
 
-.page-anchors
-  display: flex
-  flex-direction: column
-  padding: 18px 0
-  font-family: "Courier Prime", monospace
-  a
-    font-size: var(--font-l) !important
-    padding: 4px 0
+.site-main
+  width: 1180px
 
-.site-wrapper
+.site
   padding: 128px 0 0
   display: flex
   flex-direction: column
   align-items: center
   width: 100%
 
-.site-main
-  padding-top: 24px
-  width: 1180px
-
 .site-section
+  /*border: 1px solid green !important*/
   display: flex
   flex-direction: column
   align-items: flex-start
   cursor: default
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
+  margin: 2rem 0
   h1
     font-size: var(--font-xl)
     letter-spacing: 1rem
