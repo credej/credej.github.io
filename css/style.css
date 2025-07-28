@@ -448,6 +448,7 @@ table {
 
 .ingredients {
   color: var(--color-base);
+  width: 100%;
 }
 
 .ingredients td {

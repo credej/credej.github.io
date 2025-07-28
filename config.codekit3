@@ -194,6 +194,18 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/mail-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/mail-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/mail.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -3014,45 +3026,6 @@
       "oA" : 0,
       "oAP" : "\/pages\/gadgets\/clockworkpi\/index.html",
       "oF" : 0
-    },
-    "\/pages\/gadgets\/computers\/img\/computer-13mba-open.JPG" : {
-      "ft" : 16384,
-      "iS" : 4093505,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-13mba-open.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/gadgets\/computers\/img\/computer-13mba.jpg" : {
-      "ft" : 16384,
-      "iS" : 3221551,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-13mba.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/gadgets\/computers\/img\/computer-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 160716,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg" : {
       "ft" : 16384,
