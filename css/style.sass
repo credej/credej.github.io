@@ -2,6 +2,7 @@
 @import "clock.css"
 @import "images.css"
 @import "quotes.css"
+@import "mail.css"
 @import "menu.css"
 @import "misc.css"
 @import "mobile.css"
@@ -24,7 +25,7 @@ table
     color: #000
 
 .anchor
-  padding-top: 100px
+  padding-top: 50px
 
 .anchor-list
   display: flex
@@ -36,7 +37,7 @@ table
     padding: 4px 0
 
 .bg-home
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url('/images/header.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/images/header.jpg')
   background-size: contain
   background-attachment: static
   background-repeat: no-repeat
@@ -44,9 +45,6 @@ table
 .bg-cyber
   background: #040D19
   background: linear-gradient(0deg, #081526, #050E1A)
-
-.bg-arch
-  background: #fff !important
 
 .bookmark-section
   margin-left: 1rem
@@ -372,3 +370,28 @@ table
 @media screen and (prefers-reduced-motion: reduce) 
   html 
     scroll-behavior: auto
+
+.article-content-excerpt
+  color: var(--color-border)
+
+.ingredients
+  color: var(--color-base)
+
+.ingredients td
+  border: 1px solid var(--color-code-bg)
+  padding: 12px 24px
+
+.ingredients td:nth-of-type(even)
+  text-align: right
+
+.ingredients-table
+  width: 100%
+  margin: 48px 0
+
+.ingredients-tr th
+  color: var(--color-site-section)
+  text-align: left
+  padding: 12px 24px !important
+  
+.ingredients-tr th:nth-of-type(even)
+    text-align: right
