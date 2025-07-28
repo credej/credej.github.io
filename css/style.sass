@@ -164,6 +164,11 @@ table
     &:hover
       color: var(--color-pgh-yellow-highlight) !important
 
+.recipe-container
+  .intro-pink 
+    p
+      color: pink 
+
 .intro,
 .site-section
   a 
@@ -240,25 +245,19 @@ table
 .menu-category-title
   display: flex
   align-items: center
+  color: var( --color-site-section)
   i
     color: var(--color-pgh-yellow)
     font-size: var(--font-l)
     padding: 0 12px 0 0 
 
-.site-section
+.site-section-subtitle
+  color: var( --color-border)
   display: flex
-  flex-direction: column
-  cursor: default
-  h3
-    font-size: var(--font-l) !important
-  p
-    margin-left: 2.4rem
-  a 
-    color: var(--color-retro-aqua)
-    font-size: var(--font-m) !important
-    padding: 2px 0
-    &:hover 
-      color: var(--color-retro-aqua-highlight)
+  align-items: center
+  i
+    color: var(--color-pgh-yellow) !important
+    font-size: var(--font-m)
       cursor: pointer
 
 .site-section-list
@@ -308,7 +307,6 @@ table
   width: 100%
 
 .site-section
-  /*border: 1px solid green !important*/
   display: flex
   flex-direction: column
   align-items: flex-start
@@ -316,6 +314,11 @@ table
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
   margin: 2rem 0
+  p
+    color: var( --color-site-section)
+    padding: 12px 0 !important
+    text-indent: 2.2rem
+    text-shadow: 1px 1px 2px black
   h1
     font-size: var(--font-xl)
     letter-spacing: 1rem
@@ -327,17 +330,15 @@ table
       content: "_"
   h2
     font-size: var(--font-xl) !important
-  p
-    color: var( --color-site-section)
-    margin: 0 0 12px
-    text-indent: 2.2rem
-    text-shadow: 1px 1px 2px black
+  h3
+    font-size: var(--font-l) !important
   span, h1
     color: var(--color-title)
     padding: 4px 24px 0 0
   a
     color: var(--color-retro-aqua)
-    font-size: var(--font-s)
+    font-size: var(--font-m)
+    padding: 2px 0
   a:hover
     color: var(--color-retro-aqua-highlight)
 
@@ -395,3 +396,9 @@ table
   
 .ingredients-tr th:nth-of-type(even)
     text-align: right
+
+.recent-list
+  padding: 12px 0
+  p
+    padding: 12px 0 !important
+    text-indent: 0rem !important
