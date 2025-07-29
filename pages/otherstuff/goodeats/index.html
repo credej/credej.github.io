@@ -6,11 +6,11 @@
       <link rel=stylesheet type=text/css href="../../../css/style.css">
       <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
-      <script src="../../../components/headlinks-min.js" type="text/javascript" dsefer></script>
-      <script src="../../../components/header-min.js" type="text/javascript" defer></script>
-      <script src="../../../components/index-min.js" type="text/javascript" defer></script>
+      <script src="/components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="/components/header-min.js" type="text/javascript" defer></script>
+      <script src="/components/index-min.js" type="text/javascript" defer></script>
    </head>
-   <body>
+   <body class="bg-goodeats">
       
       <header-component></header-component>
       
@@ -24,8 +24,14 @@
                </div>
             </div>
 
-            <div class="site-section intro">
-               <p class="article-content-excerpt">I'm usually inspired by either family recipes or the celebrity chef's that I follow, mainly <a href="https://www.youtube.com/@AltonBrown/videos" target="_blank">Alton Brown</a> and <a href="https://www.youtube.com/@ChefJeanPierre" target="_blank">Chef Jean-Pierre</a>. The following is a list of the most delicious recipes that I've come across, from Syrian to Mexican and beyond. Browse the <a href="#latestRecipes">Five Latest Recipes</a> or view the <a href="#allRecipes">full catalog of recipes</a>. Mmmmmmmmmm... </p>
+            <div class="site-header">
+               <div class="site-header-image w-8/12 h-full">
+                  <img class="kg-image" src="img/goodeats-banner.jpg" alt=Bookmarks>
+               </div>
+
+               <div class="site-header-excerpt w-4/12">
+                  <p class="article-content-excerpt">I'm usually inspired by either family recipes or the celebrity chef's that I follow, mainly <a href="https://www.youtube.com/@AltonBrown/videos" target="_blank">Alton Brown</a> and <a href="https://www.youtube.com/@ChefJeanPierre" target="_blank">Chef Jean-Pierre</a>. The following are the best recipes I've found.  Browse the <a href="#latestRecipes">Five Latest Recipes</a> or view the <a href="#allRecipes">full catalog of recipes</a>. Mmmmmmmmmm... </p>
+               </div>
             </div>
             
             <div id ="latestRecipes" class="anchor"></div>
@@ -62,7 +68,25 @@
                </div>
             </div>
 
-            <div id ="allRecipes" class="anchor"></div>
+            <div id ="allRecipes" class="anchor">
+               <div class="flex-container">
+
+                  <div class="column column-left">
+                     <!-- Content for the left column -->
+                     <h2>Column 1</h2>
+                     <p>This is the content for the first column.</p>
+                     <img class=kg-image src="rolodex/cookies/crumbl/img/recipe-cookie-crumbl.jpg">
+                  </div>
+                 
+                  <div class="column column-right">
+                     <!-- Content for the right column -->
+                     <h2>Column 2</h2>
+                     <p>This is the content for the second column.</p>
+                  </div>
+
+               </div>
+
+            </div>
 
          </div>
       </div>      
@@ -71,7 +95,7 @@
          <div class="footer-main">
             <div class="footer-button">
                <a href="#top" class="back-to-top" title="Back to Top">
-                  <img src="/images/arrow-up.svg" alt="Back to Top" height="44" width="44" />
+                  <img src="/img/arrow-up.svg" alt="Back to Top" height="44" width="44" />
                </a>
             </div>
             <footer-component></footer-component>

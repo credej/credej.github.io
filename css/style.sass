@@ -25,7 +25,7 @@ table
     color: #000
 
 .anchor
-  padding-top: 50px
+  padding-top: 100px
 
 .anchor-list
   display: flex
@@ -168,6 +168,11 @@ table
   .intro-pink 
     p
       color: pink 
+  .column
+    background-color: var(--color-bg-menu)
+    border-radius: 0
+  img
+    border-radius: 8px
 
 .intro,
 .site-section
@@ -313,7 +318,6 @@ table
   cursor: default
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
-  margin: 2rem 0
   p
     color: var( --color-site-section)
     padding: 12px 0 !important
@@ -334,11 +338,12 @@ table
     font-size: var(--font-l) !important
   span, h1
     color: var(--color-title)
-    padding: 4px 24px 0 0
+  span
+    padding: 0 32px 0 0
   a
     color: var(--color-retro-aqua)
     font-size: var(--font-m)
-    padding: 2px 0
+    padding: 12px 0
   a:hover
     color: var(--color-retro-aqua-highlight)
 
@@ -403,3 +408,22 @@ table
   p
     padding: 12px 0 !important
     text-indent: 0rem !important
+
+
+
+
+.flex-container
+  display: flex
+  flex-wrap: wrap
+  gap: 24px
+  margin: 1.4rem 0
+
+.column
+  flex: 1
+  padding: 20px
+  background-color: #f0f0f0
+  border-radius: 8px
+
+@media (max-width: 768px)
+  .column
+    flex: 100%

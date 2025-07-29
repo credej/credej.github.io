@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 
             <div class="menu-closed">
                <div class="menu-logo flex flex-start">
-                  <a href="../../../index.html" class="navbar-home">
+                  <a href="/index.html" class="navbar-home">
                      <!-- 
                      <i class="iconoir-arcade"></i>
                      <i class="iconoir-face-id"></i>
