@@ -14,7 +14,7 @@ class Header extends HTMLElement {
                      <i class="iconoir-arcade"></i>
                      <i class="iconoir-face-id"></i>
                      <i class="iconoir-attachment"></i>-->
-                     <p>j's work</p>
+                     <p>work & other stuff</p>
                   </a>
       
                   <!-- <a href="#" class="breadcrumb">
@@ -84,9 +84,9 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category-list">
                         <div class="menu-list">
-                           <a class="comingSoon" href="/pages/gadgets/computer/index.html" target=_self>Computers & Gaming Rigs</a>
+                           <a class="comingSoon" href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
                            <a class="comingSoon" href="/pages/gadgets/keyboard/index.html" target=_self>Keyboards & Mice</a>
-                           <a class="comingSoon" href="/pages/gadgets/clockworkpi/indexxx.html" target=_self>Phones & Tablets</a>
+                           <a class="comingSoon" href="/pages/gadgets/clockworkpi/indexxx.html" target=_self>Gaming Rigs</a>
                            <a class="comingSoon" href="/pages/gadgets/everydaycarry/indexxx.html" target=_self>Other Devices</a>
                            <a class="comingSoon" href="/pages/gadgets/everydaycarry/indexxx.html" target=_self>Everyday Carry</a>
                         </div>

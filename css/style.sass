@@ -172,7 +172,7 @@ table
     background-color: var(--color-bg-menu)
     border-radius: 0
   img
-    border-radius: 8px
+    border-radius: 16px
 
 .intro,
 .site-section
@@ -271,6 +271,8 @@ table
   color: var( --color-border)
   text-indent: 2.2rem
   margin: 1rem 0
+  a
+    margin: 4px 0
 
 /* remove blinking effect from headers used on home page */
 .site-category-title
@@ -302,8 +304,15 @@ table
     color: var(--color-light)
 
 .site-main
-  width: 1180px
+  max-width: 1180px
 
+@media (max-width: 768px)
+  .site-main
+    max-width: 480px
+  .recipe-title
+    h1
+      font-size: var(--font-l) !important
+      letter-spacing: 0.87rem !important
 .site
   padding: 128px 0 0
   display: flex
@@ -343,7 +352,6 @@ table
   a
     color: var(--color-retro-aqua)
     font-size: var(--font-m)
-    padding: 12px 0
   a:hover
     color: var(--color-retro-aqua-highlight)
 
@@ -387,6 +395,7 @@ table
 .ingredients td
   border: 1px solid var(--color-code-bg)
   padding: 12px 24px
+  color: var(--color-light)
 
 .ingredients td:nth-of-type(even)
   text-align: right
@@ -427,3 +436,7 @@ table
 @media (max-width: 768px)
   .column
     flex: 100%
+
+@media print  
+  *
+    color: black !important
