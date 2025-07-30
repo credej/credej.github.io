@@ -9,10 +9,6 @@
   z-index: 9999;
 }
 
-.navbar {
-  width: 1180px;
-}
-
 .navbar-home {
   font-family: "Yellowtail", monospace;
   align-items: center;
@@ -148,4 +144,8 @@
 .back-to-top:active {
   -webkit-filter: invert(1);
   filter: invert(1);
+}
+
+.menu-closed {
+  width: 100%;
 }
