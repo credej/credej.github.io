@@ -144,6 +144,7 @@ table {
 }
 
 .footer-wrapper {
+  background-color: #010101;
   padding: 128px 0;
   display: flex;
   justify-content: center;
@@ -324,7 +325,7 @@ table {
   margin: 1rem 0;
 }
 .site-section-list a {
-  margin: 4px 0;
+  padding: 4px 0;
 }
 
 /* remove blinking effect from headers used on home page */
@@ -380,7 +381,7 @@ table {
 }
 .site-section p {
   color: var(--color-site-section);
-  padding: 12px 0 !important;
+  padding: 12px 0;
   text-indent: 2.2rem;
   text-shadow: 1px 1px 2px black;
 }
@@ -421,7 +422,7 @@ table {
   justify-content: center;
   color: var(--color-light);
   font-size: var(--font-xl);
-  padding: 24px 0;
+  padding: 0 0 24px;
 }
 .site-section-title h3 {
   font-family: "Courier Prime", monospace;
@@ -430,6 +431,10 @@ table {
   color: var(--color-code-bg);
   padding: 0 0 0 24px;
   font-family: "Courier Prime", monospace;
+}
+
+.site-section-title-home {
+  padding: 0;
 }
 
 @keyframes blink-animation {

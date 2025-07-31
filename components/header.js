@@ -84,7 +84,7 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category-list">
                         <div class="menu-list">
-                           <a class="comingSoon" href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
+                           <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
                            <a class="comingSoon" href="/pages/gadgets/keyboard/index.html" target=_self>Keyboards & Mice</a>
                            <a class="comingSoon" href="/pages/gadgets/clockworkpi/indexxx.html" target=_self>Gaming Rigs</a>
                            <a class="comingSoon" href="/pages/gadgets/everydaycarry/indexxx.html" target=_self>Other Devices</a>

@@ -1944,6 +1944,19 @@
       "oAP" : "\/pages\/gadgets\/keyboards\/index.html",
       "oF" : 0
     },
+    "\/pages\/gadgets\/otherdevices\/img\/other-devices-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 178553,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/otherdevices\/img\/other-devices-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/gadgets\/otherdevices\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
