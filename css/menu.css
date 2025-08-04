@@ -105,8 +105,7 @@
 
 .menu-icon button {
   color: var(--color-retro-aqua);
-  color: var(--color-border);
-  color: var(--color-border);
+  color: var(--color-site-section);
 }
 .menu-icon button:hover {
   color: var(--color-retro-aqua-highlight);
@@ -114,8 +113,7 @@
 
 .menu-logo a {
   color: var(--color-retro-aqua);
-  color: var(--color-border);
-  color: var(--color-border);
+  color: var(--color-site-section);
 }
 .menu-logo a:hover {
   color: var(--color-retro-aqua-highlight);

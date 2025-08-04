@@ -203,9 +203,10 @@ table
   break-inside: avoid
   display: flex
   flex-direction: column
+  flex-wrap: wrap
   filter: grayscale(1)
   padding: 24px
-  opacity: 0.4
+  opacity: 0.29
   transition: all 1.87s ease
   -webkit-transition: all 0.87s ease
   &:hover
@@ -223,6 +224,7 @@ table
   display: flex
   img
     border-radius: 16px 16px 0 0
+    cursor: pointer
 
 .site-category-excerpt
   color: var(--color-border)
@@ -407,9 +409,9 @@ table
     display: none
   .site-section-list
     text-indent: 0
-  .site-section 
+  .site-section
     p
-      font-size: var(--font-s)
+      font-size: var(--font-xs)
       text-indent: 0
   .site-section-wrap
     gap: 0
@@ -419,19 +421,39 @@ table
       padding: 0 
       span
         margin-left: 24px
+  .site-category-container
+    filter: grayscale(0) !important
+    opacity: 1
 
 @media screen and (min-width: 780px) and (max-width: 1180px)
   .navbar
-    width: 980px !important
-  .site-main
-    max-width: 980px !important
+    width: 565px
   .navbar,
   .site-main
-    padding: 0 64px
-    max-width: 780px !important
-  .site-section-list,
-  .site-section p
+    max-width: 565px
+  .recipe-title
+    h1
+      font-size: var(--font-l) !important
+      letter-spacing: 0.87rem !important
+  .hide-mobile
+    display: none
+  .site-section-list
     text-indent: 0
+  .site-section
+    p
+      font-size: var(--font-xs)
+      text-indent: 0
+  .site-section-wrap
+    gap: 0
+    span
+      padding: 0 
+    .site-section-title
+      padding: 0 
+      span
+        margin-left: 24px
+  .site-category-container
+    filter: grayscale(0) !important
+    opacity: 1
 
 @media screen and (min-width: 1180px) and (max-width: 1480px)
   .navbar
