@@ -1,5 +1,6 @@
 @import "animation.css"
 @import "clock.css"
+@import "goodeats.css"
 @import "images.css"
 @import "quotes.css"
 @import "mail.css"
@@ -165,16 +166,6 @@ table
     &:hover
       color: var(--color-pgh-yellow-highlight) !important
 
-.recipe-container
-  .intro-pink 
-    p
-      color: pink 
-  .column
-    background-color: var(--color-bg-menu)
-    border-radius: 0
-  img
-    border-radius: 16px
-
 .intro,
 .site-section
   a 
@@ -304,6 +295,10 @@ table
     background-color: none
     color: var(--color-light)
 
+.site-header-image-hidden
+  a
+    cursor: default
+
 .site-main
   max-width: 1180px
 
@@ -349,19 +344,24 @@ table
   a:hover
     color: var(--color-retro-aqua-highlight)
 
+.site-section-wrap
+  display: flex
+  flex-wrap: wrap
+  gap: 48px
+  margin: 1.4rem 0
+  h3
+    font-family: "Courier Prime", monospace
+  span
+    color: var(--color-code-bg)
+    padding: 0 0 0 24px
+    font-family: "Courier Prime", monospace
+
 .site-section-title
   display: flex
   align-items: center
   justify-content: center
   color: var(--color-light)
-  font-size: var(--font-xl)
-  padding: 0 0 24px
-  h3
-    font-family: "Courier Prime", monospace
-  h4
-    color: var(--color-code-bg)
-    padding: 0 0 0 24px
-    font-family: "Courier Prime", monospace
+  font-size: var(--font-l)
 
 .site-section-title-home
   padding: 0
@@ -385,84 +385,40 @@ table
 .article-content-excerpt
   color: var(--color-border)
 
-.ingredients
-  color: var(--color-base)
-  width: 100%
-
-.ingredients td
-  border: 1px solid var(--color-code-bg)
-  padding: 12px 24px
-  color: var(--color-light)
-
-.ingredients td:nth-of-type(even)
-  text-align: right
-
-.ingredients-table
-  width: 100%
-  margin: 48px 0
-
-.ingredients-tr th
-  color: var(--color-site-section)
-  text-align: left
-  padding: 12px 24px !important
-  
-.ingredients-tr th:nth-of-type(even)
-    text-align: right
-
-.recent-list
-  padding: 12px 0
-  p
-    padding: 12px 0 !important
-    text-indent: 0rem !important
-
-
-
-
-.flex-container
-  display: flex
-  flex-wrap: wrap
-  gap: 48px
-  margin: 1.4rem 0
-
-.column
-  flex: 1
-  background-color: #f0f0f0
-  border-radius: 8px
-
-@media (max-width: 768px)
-  .column
-    flex: 100%
-
-@media print  
-  *
-    color: black !important
-
-
-
-
 /* S SCREEN */
 
-@media screen and (min-width: 320px) and (max-width: 480px)
-  .navbar
-    width: 320px
-  .site-main
-    max-width: 320px
-  .hide-mobile
-    display: none
-
-@media screen and (min-width: 480px) and (max-width: 780px)
-  .navbar
-    width: 768px
+@media screen and (min-width: 1px) and (max-width: 320px)
   .navbar,
   .site-main
-    max-width: 480px
+    max-width: 200px
     padding: 0 32px
+
+@media screen and (min-width: 320px) and (max-width: 780px)
+  .navbar
+    width: 320px
+  .navbar,
+  .site-main
+    max-width: 320px
   .recipe-title
     h1
       font-size: var(--font-l) !important
       letter-spacing: 0.87rem !important
   .hide-mobile
     display: none
+  .site-section-list
+    text-indent: 0
+  .site-section 
+    p
+      font-size: var(--font-s)
+      text-indent: 0
+  .site-section-wrap
+    gap: 0
+    span
+      padding: 0 
+    .site-section-title
+      padding: 0 
+      span
+        margin-left: 24px
 
 @media screen and (min-width: 780px) and (max-width: 1180px)
   .navbar
@@ -473,6 +429,9 @@ table
   .site-main
     padding: 0 64px
     max-width: 780px !important
+  .site-section-list,
+  .site-section p
+    text-indent: 0
 
 @media screen and (min-width: 1180px) and (max-width: 1480px)
   .navbar
@@ -495,11 +454,5 @@ table
   .navbar,
   .site-main
     padding: 0 128px
-
-
-
-
-
-
-
-
+  .image-border-grey > img 
+    border: 200px solid #070712

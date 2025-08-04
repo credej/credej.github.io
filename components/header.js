@@ -12,8 +12,8 @@ class Header extends HTMLElement {
                   <a href="/index.html" class="navbar-home">
                      <!-- 
                      <i class="iconoir-arcade"></i>
-                     <i class="iconoir-face-id"></i>
-                     <i class="iconoir-attachment"></i>-->
+                     <i class="iconoir-face-id"></i>-->
+                     <i class="iconoir-asterisk"></i>
                      <p>work & other stuff</p>
                   </a>
       
