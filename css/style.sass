@@ -177,6 +177,22 @@ table
 .neon
   animation: pulsate 0.11s ease-in-out infinite alternate
 
+/*.site-category-container
+  filter: grayscale(1)
+  padding: 24px
+  opacity: 0.29
+  transition: all 1.87s ease
+  -webkit-transition: all 0.87s ease
+  &:hover
+    cursor: pointer !important
+    filter: grayscale(0) 
+    opacity: 1
+  &:active
+    opacity: 0.8
+  span, h1
+    display: flex
+    align-items: center*/
+
 .site-category
   align-items: center
   display: flex
@@ -198,26 +214,6 @@ table
       -moz-animation: blink-animation .9s infinite
       -o-animation: blink-animation .9s infinite
       content: "_"
-
-.site-category-container
-  break-inside: avoid
-  display: flex
-  flex-direction: column
-  flex-wrap: wrap
-  filter: grayscale(1)
-  padding: 24px
-  opacity: 0.29
-  transition: all 1.87s ease
-  -webkit-transition: all 0.87s ease
-  &:hover
-    cursor: pointer !important
-    filter: grayscale(0) 
-    opacity: 1
-  &:active
-    opacity: 0.8
-  span, h1
-    display: flex
-    align-items: center
 
 .site-category-image
   border-radius: 16px
@@ -243,6 +239,7 @@ table
 .site-section-title,
 .menu-category-title
   display: flex
+  flex-direction: row
   align-items: center
   color: var( --color-site-section)
   i
@@ -267,16 +264,13 @@ table
   margin: 1rem 0
   a
     padding: 4px 0
+* 
+  box-sizing: border-box !important
 
 /* remove blinking effect from headers used on home page */
 .site-category-title
-  h1
-    &:after
-      animation: none
-      -webkit-animation: none
-      -moz-animation: none
-      -o-animation: none
-      content: ""
+  h1:after
+    display: none
 
 .site-header
   display: flex
@@ -325,7 +319,9 @@ table
     text-shadow: 1px 1px 2px black
   h1
     font-size: var(--font-xl)
-    letter-spacing: 1rem
+    letter-spacing: 0.5rem
+    text-wrap: wrap
+    word-break: break-all
     &:after
       animation: blink-animation .9s infinite
       -webkit-animation: blink-animation .9s infinite
@@ -349,7 +345,6 @@ table
 .site-section-wrap
   display: flex
   flex-wrap: wrap
-  gap: 48px
   margin: 1.4rem 0
   h3
     font-family: "Courier Prime", monospace
