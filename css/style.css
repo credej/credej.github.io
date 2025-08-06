@@ -228,7 +228,7 @@ table {
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-bottom: 1.2rem;
+  margin: 12px 0;
 }
 .site-category span, .site-category h1 {
   color: var(--color-title);
@@ -275,19 +275,21 @@ table {
 }
 
 .site-category-title,
-.site-section-title,
+.site-page-title,
 .menu-category-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   color: var(--color-site-section);
+  margin: 0 0 18px;
 }
 .site-category-title i,
-.site-section-title i,
+.site-page-title i,
 .menu-category-title i {
+  animation: pulsate 0.11s ease-in-out infinite alternate !important;
   color: var(--color-pgh-yellow);
-  font-size: var(--font-l);
-  padding: 0 12px 0 0;
+  font-size: var(--font-xl);
+  padding: 0 18px 0 0;
 }
 
 .site-section-subtitle {
@@ -420,16 +422,13 @@ table {
   font-family: "Courier Prime", monospace;
 }
 
-.site-section-title {
+.site-page-title {
+  padding: 0;
+  font-family: "Courier Prime", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-light);
-  font-size: var(--font-l);
-}
-
-.site-section-title-home {
-  padding: 0;
 }
 
 @keyframes blink-animation {
@@ -465,6 +464,10 @@ table {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 780px) {
+  .back-to-top {
+    right: 1rem;
+    bottom: 1rem;
+  }
   .navbar {
     width: 320px;
   }
@@ -492,15 +495,20 @@ table {
   .site-section-wrap span {
     padding: 0;
   }
-  .site-section-wrap .site-section-title {
+  .site-section-wrap .site-page-title {
     padding: 0;
   }
-  .site-section-wrap .site-section-title span {
+  .site-section-wrap .site-page-title span {
     margin-left: 24px;
   }
   .site-category-container {
     filter: grayscale(0) !important;
     opacity: 1;
+  }
+  .site-category-title,
+  .site-page-title,
+  .menu-category-title {
+    margin: 0;
   }
 }
 @media screen and (min-width: 780px) and (max-width: 1180px) {
@@ -531,10 +539,10 @@ table {
   .site-section-wrap span {
     padding: 0;
   }
-  .site-section-wrap .site-section-title {
+  .site-section-wrap .site-page-title {
     padding: 0;
   }
-  .site-section-wrap .site-section-title span {
+  .site-section-wrap .site-page-title span {
     margin-left: 24px;
   }
   .site-category-container {
@@ -571,5 +579,12 @@ table {
   }
   .image-border-grey > img {
     border: 200px solid #070712;
+  }
+  .site-page-title-home h1,
+  .site-category-title h1 {
+    letter-spacing: 0.87rem;
+  }
+  .site-page-title h1 {
+    letter-spacing: 1.87rem;
   }
 }
