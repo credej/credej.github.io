@@ -235,6 +235,11 @@ table
   p
     background-color: none
 
+.site-category-title
+  h2
+    color: var(--color-title)
+    font-family: "Cutive Mono", monospace
+
 .site-category-title,
 .site-page-title,
 .menu-category-title
@@ -258,7 +263,7 @@ table
     font-size: var(--font-m)
       cursor: pointer
 
-.site-section-list
+.site-category-list
   display: flex
   flex-direction: column
   color: var( --color-border)
@@ -395,21 +400,24 @@ table
     right: 1rem
     bottom: 1rem
   .navbar
-    width: 320px
+    width: 480px
   .navbar,
   .site-main
-    max-width: 320px
+    max-width: 480px
   .recipe-title
     h1
       font-size: var(--font-l) !important
       letter-spacing: 0.87rem !important
   .hide-mobile
     display: none
-  .site-section-list
+  .site-category-list
     text-indent: 0
   .site-section
     p
       font-size: var(--font-xs)
+      text-indent: 0
+    a
+      font-size: var(--font-s) !important
       text-indent: 0
   .site-section-wrap
     gap: 0
@@ -439,7 +447,7 @@ table
       letter-spacing: 0.87rem !important
   .hide-mobile
     display: none
-  .site-section-list
+  .site-category-list
     text-indent: 0
   .site-section
     p
