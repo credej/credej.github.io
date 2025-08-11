@@ -519,7 +519,7 @@ input
   display: block
   height: 2.1rem
   width: 100%
-  > .scrolldown-text
+  > .text-flashing
     animation: blink-animation .9s infinite
     -webkit-animation: blink-animation .9s infinite
     -moz-animation: blink-animation .9s infinite

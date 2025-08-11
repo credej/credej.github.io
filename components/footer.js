@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
       <nav id="footer" class="footer">
          <a href="../index.html">back to top</a>
          <div class="footer-caution">
-            <span class="scrolldown-text text-clifford mx-5">[PROCEED WITH CAUTION]<span>
+            <span class="text-flashing text-clifford mx-5">[PROCEED WITH CAUTION]<span>
          </div>
       </nav>
    </div>
