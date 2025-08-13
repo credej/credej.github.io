@@ -85,10 +85,10 @@ class Header extends HTMLElement {
                      <div class="menu-category-list">
                         <div class="menu-list">
                            <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboard/index.html" target=_self>Keyboards & Mice</a>
-                           <a class="comingSoon" href="/pages/gadgets/clockworkpi/indexxx.html" target=_self>Gaming Rigs</a>
-                           <a class="comingSoon" href="/pages/gadgets/everydaycarry/indexxx.html" target=_self>Other Devices</a>
-                           <a class="comingSoon" href="/pages/gadgets/everydaycarry/indexxx.html" target=_self>Everyday Carry</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
                         </div>
                      </div>
                      <div class="menu-category">
@@ -99,9 +99,9 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category-list">
                         <div class="menu-list">
-                           <a class="comingSoon" href="/pages/diy/hardmoneynode/indexxx.html" target=_self>Command Line Interface</a>
-                           <a class="comingSoon" href="/pages/diy/pihole/indexxx.html" target=_self>Decentralized Tech</a>
-                           <a class="comingSoon" href="/pages/diy/nostr/indexxx.html" target=_self>Hacking at Home</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
+                           <a class="comingSoon" href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
+                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
                         </div>
                      </div>
                   </div>

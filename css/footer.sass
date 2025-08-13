@@ -1,3 +1,55 @@
+.footer
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 128px
+  h3
+    cursor: default
+    font-size: var(--font-m)
+  a
+    font-size: var(--font-xs) !important
+    color: var(--color-retro-aqua) !important
+
+.footer-main
+  width: 1420px
+  color: var(--color-light)
+  padding: 64px 0 128px
+  /* why does this width work */
+  h3
+    margin: 0 0 12px
+    text-align: center
+  a
+    color: var(--color-site-section) !important
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+  a:hover
+    color: var(--color-retro-aqua-highlight) !important
+
+.footer-row
+  display: flex
+  flex-wrap: wrap
+  font-family: "Yellowtail", monospace
+  flex-direction: row
+  justify-content: space-between !important
+
+.footer-column 
+  display: flex
+  align-items: center
+  align-items: flex-start
+  flex-direction: column
+
+.footer-links
+  display: flex
+  align-items: center
+  justify-content: center
+
+.footer-button
+  display: flex
+  align-items: center
+  justify-content: center
+
 .footer-caution 
   display: flex
   justify-content: center
@@ -21,3 +73,5 @@
 .footer-caution > .text-flashing-2
   animation: blink-animation 1s steps(5, start) infinite
   -webkit-animation: blink-animation 1s steps(5, start) infinite
+
+

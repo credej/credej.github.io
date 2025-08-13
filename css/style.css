@@ -145,44 +145,6 @@ table {
   animation-duration: 0.8s;
 }
 
-.footer-wrapper {
-  background-color: #010101;
-  padding: 128px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-main {
-  color: var(--color-light);
-  padding-top: 24px;
-  width: 1180px;
-  display: flex;
-  justify-content: flex-end;
-  /* justify-content: space-between */
-  font-family: "Yellowtail", monospace;
-}
-.footer-main a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-main a:hover {
-  color: var(--color-retro-aqua-highlight) !important;
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .header-image-full img {
   width: 100%;
 }
@@ -208,6 +170,14 @@ table {
 
 .neon {
   animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+.neon-green {
+  animation: pulsate-green 0.11s ease-in-out infinite alternate;
+}
+
+.text-green {
+  color: #d0ffcf !important;
 }
 
 /*.site-category-container
@@ -377,8 +347,8 @@ table {
 }
 .site-section p {
   color: var(--color-site-section);
-  padding: 12px 0;
-  text-indent: 2.2rem;
+  padding: 16px 0;
+  text-indent: 2.4rem;
   text-shadow: 1px 1px 2px black;
 }
 .site-section h1 {
@@ -388,10 +358,11 @@ table {
   word-break: break-all;
 }
 .site-section h1:after {
-  animation: blink-animation 0.9s infinite;
-  -webkit-animation: blink-animation 0.9s infinite;
-  -moz-animation: blink-animation 0.9s infinite;
-  -o-animation: blink-animation 0.9s infinite;
+  padding: 15px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  -moz-animation: blink-animation 1s infinite;
+  -o-animation: blink-animation 1s infinite;
   content: "_";
 }
 .site-section h2 {

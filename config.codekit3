@@ -1642,6 +1642,131 @@
       "oAP" : "\/pages\/diy\/homehacking\/index.html",
       "oF" : 0
     },
+    "\/pages\/diy\/nostr\/images\/diy-orangeclock.jpg" : {
+      "ft" : 16384,
+      "iS" : 194382,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-orangeclock.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-pironman-1-web.jpg" : {
+      "ft" : 16384,
+      "iS" : 82353,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-1-web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-pironman-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 216451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-pironman-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 673748,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-pironman-pi5.jpg" : {
+      "ft" : 16384,
+      "iS" : 92071,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-pi5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembled.jpg" : {
+      "ft" : 16384,
+      "iS" : 1134152,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembled.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 777669,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly.jpg" : {
+      "ft" : 16384,
+      "iS" : 1343091,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/images\/diy-seedsigner-pi-pico-w-wifi.jpg" : {
+      "ft" : 16384,
+      "iS" : 230918,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-pi-pico-w-wifi.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/nostr\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/nostr\/index.html",
+      "oF" : 0
+    },
     "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg" : {
       "ft" : 16384,
       "iS" : 2172271,
@@ -1663,12 +1788,12 @@
       "oAP" : "\/pages\/gadgets\/computers\/index.html",
       "oF" : 0
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/edc-keys.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/edc-keys.JPG" : {
       "ft" : 16384,
       "iS" : 1377464,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/edc-keys.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/edc-keys.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1676,12 +1801,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/edc-knife-front.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/edc-knife-front.JPG" : {
       "ft" : 16384,
       "iS" : 3892162,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/edc-knife-front.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/edc-knife-front.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1689,12 +1814,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-15promax-pop-2.jpg" : {
+    "\/pages\/gadgets\/edc\/images\/gadgets-phone-15promax-pop-2.jpg" : {
       "ft" : 16384,
       "iS" : 2371963,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-15promax-pop-2.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/gadgets-phone-15promax-pop-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1702,12 +1827,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-15promax-pop.jpg" : {
+    "\/pages\/gadgets\/edc\/images\/gadgets-phone-15promax-pop.jpg" : {
       "ft" : 16384,
       "iS" : 2607630,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-15promax-pop.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/gadgets-phone-15promax-pop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1715,12 +1840,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-pixel8-case-back.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/gadgets-phone-pixel8-case-back.JPG" : {
       "ft" : 16384,
       "iS" : 3669225,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-pixel8-case-back.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/gadgets-phone-pixel8-case-back.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1728,12 +1853,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-pixel8-case-front.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/gadgets-phone-pixel8-case-front.JPG" : {
       "ft" : 16384,
       "iS" : 3573452,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/gadgets-phone-pixel8-case-front.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/gadgets-phone-pixel8-case-front.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1741,12 +1866,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0574.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0574.JPG" : {
       "ft" : 16384,
       "iS" : 2683755,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0574.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0574.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1754,12 +1879,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0576.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0576.JPG" : {
       "ft" : 16384,
       "iS" : 2759853,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0576.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0576.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1767,12 +1892,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0580.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0580.JPG" : {
       "ft" : 16384,
       "iS" : 3065834,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0580.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0580.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1780,12 +1905,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0591.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0591.JPG" : {
       "ft" : 16384,
       "iS" : 2882858,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0591.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0591.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1793,12 +1918,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0593.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0593.JPG" : {
       "ft" : 16384,
       "iS" : 2735870,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0593.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0593.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1806,12 +1931,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0612.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0612.JPG" : {
       "ft" : 16384,
       "iS" : 3585535,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0612.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0612.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1819,12 +1944,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0618.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0618.JPG" : {
       "ft" : 16384,
       "iS" : 3761997,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0618.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0618.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1832,12 +1957,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0619.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0619.JPG" : {
       "ft" : 16384,
       "iS" : 4230619,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0619.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0619.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1845,12 +1970,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0620.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0620.JPG" : {
       "ft" : 16384,
       "iS" : 4048991,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0620.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0620.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1858,12 +1983,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/images\/IMG_0630.JPG" : {
+    "\/pages\/gadgets\/edc\/images\/IMG_0630.JPG" : {
       "ft" : 16384,
       "iS" : 4022845,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/images\/IMG_0630.jpg",
+      "oAP" : "\/pages\/gadgets\/edc\/images\/IMG_0630.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1871,12 +1996,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/everydaycarry\/index.html" : {
+    "\/pages\/gadgets\/edc\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/everydaycarry\/index.html",
+      "oAP" : "\/pages\/gadgets\/edc\/index.html",
       "oF" : 0
     },
     "\/pages\/gadgets\/gaming\/index.html" : {
@@ -1887,20 +2012,20 @@
       "oAP" : "\/pages\/gadgets\/gaming\/index.html",
       "oF" : 0
     },
-    "\/pages\/gadgets\/keyboards\/img\/ keyboard-banner.mp4" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/ keyboard-banner.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/ keyboard-banner.mp4",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/ keyboard-banner.mp4",
       "oF" : 0
     },
-    "\/pages\/gadgets\/keyboards\/img\/banner-keyboard.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/banner-keyboard.jpg" : {
       "ft" : 16384,
       "iS" : 1467642,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/banner-keyboard.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/banner-keyboard.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1908,12 +2033,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/gadgets-camera-canon.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/gadgets-camera-canon.jpg" : {
       "ft" : 16384,
       "iS" : 355591,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/gadgets-camera-canon.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/gadgets-camera-canon.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1921,12 +2046,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/keyboard-banner-original.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/keyboard-banner-original.jpg" : {
       "ft" : 16384,
       "iS" : 1519458,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-banner-original.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/keyboard-banner-original.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1934,12 +2059,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/keyboard-banner.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/keyboard-banner.jpg" : {
       "ft" : 16384,
       "iS" : 362665,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-banner.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/keyboard-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1947,12 +2072,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/keyboard-corsair-darkrgbpro.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/keyboard-corsair-darkrgbpro.jpg" : {
       "ft" : 16384,
       "iS" : 2279760,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-corsair-darkrgbpro.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/keyboard-corsair-darkrgbpro.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1960,12 +2085,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/keyboard-matrix.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/keyboard-matrix.jpg" : {
       "ft" : 16384,
       "iS" : 4301933,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-matrix.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/keyboard-matrix.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1973,12 +2098,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/img\/keyboard-mouse.jpg" : {
+    "\/pages\/gadgets\/keyboardmice\/img\/keyboard-mouse.jpg" : {
       "ft" : 16384,
       "iS" : 4103561,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/img\/keyboard-mouse.jpg",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/keyboard-mouse.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1986,12 +2111,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/gadgets\/keyboards\/index.html" : {
+    "\/pages\/gadgets\/keyboardmice\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/gadgets\/keyboards\/index.html",
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/index.html",
       "oF" : 0
     },
     "\/pages\/gadgets\/otherdevices\/img\/other-devices-banner.jpg" : {
