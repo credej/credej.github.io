@@ -14,7 +14,7 @@ class Header extends HTMLElement {
                      <i class="iconoir-arcade"></i>
                      <i class="iconoir-face-id"></i>-->
                      <i class="iconoir-asterisk"></i>
-                     <p>work & other stuff</p>
+                     <!--<p>work & other stuff</p>-->
                   </a>
       
                   <!-- <a href="#" class="breadcrumb">
@@ -27,7 +27,7 @@ class Header extends HTMLElement {
                </div>
 
                <div class="menu-icon flex flex-end">
-                  <button id="menu-button" class="flex items-center text-gray-700 neon">
+                  <button id="menu-button" class="navbar-home flex items-center text-gray-700 neon">
                      <i class="iconoir-menu"></i>
                      <!-- <i class="iconoir-dice-two"></i>
                      <i class="iconoir-dice-one"></i> -->

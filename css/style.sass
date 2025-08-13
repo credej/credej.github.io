@@ -237,9 +237,8 @@ table
     background-color: none
 
 .site-category-title
-  h2
-    color: var(--color-title)
-    font-family: "Cutive Mono", monospace
+  h1
+    color: var(--color-primary) !important
 
 .site-category-title,
 .site-page-title,
@@ -276,9 +275,10 @@ table
   box-sizing: border-box !important
 
 /* remove blinking effect from headers used on home page */
-.site-category-title
+.site-category-title,
+.site-subcategory-title
   h1:after
-    display: none
+    display: none 
 
 .site-header
   display: flex
@@ -397,6 +397,12 @@ table
     padding: 0 32px
 
 @media screen and (min-width: 320px) and (max-width: 780px)
+  *
+    text-align: center
+    justify-content: center !important
+    align-items: center !important
+  .menu-closed
+    justify-content: space-between !important
   .back-to-top
     right: 1rem
     bottom: 1rem
@@ -404,7 +410,8 @@ table
     width: 480px
   .navbar,
   .site-main
-    max-width: 480px
+    max-width: 480px 
+    padding: 0 40px
   .recipe-title
     h1
       font-size: var(--font-l) !important

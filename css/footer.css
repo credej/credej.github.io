@@ -5,7 +5,7 @@
   flex-direction: column;
   color: red;
   width: 100%;
-  height: 50vh;
+  height: 75vh;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xl);
 }
@@ -14,6 +14,15 @@
 }
 
 .footer-caution > .text-flashing {
-  animation: blink-animation 0.9s infinite;
-  -webkit-animation: blink-animation 0.9s infinite;
+  animation: blink-animation 0.71s infinite;
+  -webkit-animation: blink-animation 0.71 infinite;
+}
+
+.text-flashing {
+  text-align: center;
+}
+
+.footer-caution > .text-flashing-2 {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }

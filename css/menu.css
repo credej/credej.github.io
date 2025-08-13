@@ -104,16 +104,16 @@
 }
 
 .menu-icon button {
+  color: var(--color-border);
   color: var(--color-retro-aqua);
-  color: var(--color-site-section);
 }
 .menu-icon button:hover {
   color: var(--color-retro-aqua-highlight);
 }
 
 .menu-logo a {
+  color: var(--color-border);
   color: var(--color-retro-aqua);
-  color: var(--color-site-section);
 }
 .menu-logo a:hover {
   color: var(--color-retro-aqua-highlight);
@@ -146,4 +146,13 @@
 
 .menu-closed {
   width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .back-to-top {
+    height: 4.5rem;
+    width: 4.5rem;
+    bottom: 2rem !important;
+    right: 2rem !important;
+  }
 }
