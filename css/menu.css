@@ -3,16 +3,16 @@
   backdrop-filter: blur(187px);
   display: flex;
   justify-content: center;
-  left: 0;
   position: fixed;
+  left: 0;
   right: 0;
   z-index: 9999;
 }
 
 .navbar-home {
-  font-family: "Yellowtail", monospace;
-  align-items: center;
   display: flex;
+  align-items: center;
+  font-family: "Yellowtail", monospace;
 }
 .navbar-home li {
   text-shadow: 1px 1px 2px black;
@@ -22,17 +22,12 @@
   padding: 0 0 0 12px;
 }
 .navbar-home i {
-  margin-right: 12px;
   font-size: var(--font-l);
-}
-.navbar-home p {
-  font-size: var(--font-m);
 }
 
 .menu-closed {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 36px 0;
 }
 

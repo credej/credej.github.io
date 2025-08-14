@@ -56,6 +56,14 @@ table {
   background: linear-gradient(0deg, #081526, #050E1A);
 }
 
+.bg-design {
+  background: purple;
+}
+
+.site-section-container {
+  padding: 24px;
+}
+
 .bookmark-section {
   margin-left: 1rem;
   text-indent: -1rem;
@@ -330,7 +338,7 @@ table {
 }
 
 .site {
-  padding: 152px 0 0;
+  padding: 192px 0 144px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -478,6 +486,9 @@ table {
   .site-section a {
     font-size: var(--font-s) !important;
     text-indent: 0;
+  }
+  .site-section h1 {
+    letter-spacing: 0.15rem;
   }
   .site-section-wrap {
     gap: 0;
