@@ -45,7 +45,7 @@ table {
 }
 
 .bg-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/images/header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("/images/header.jpg");
   background-size: contain;
   background-attachment: static;
   background-repeat: no-repeat;
@@ -54,10 +54,6 @@ table {
 .bg-cyber {
   background: #040D19;
   background: linear-gradient(0deg, #081526, #050E1A);
-}
-
-.bg-design {
-  background: purple;
 }
 
 .site-section-container {
@@ -338,7 +334,8 @@ table {
 }
 
 .site {
-  padding: 192px 0 144px;
+  /*  padding: 192px 0 144px*/
+  padding: 156px 0 144px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -488,7 +485,8 @@ table {
     text-indent: 0;
   }
   .site-section h1 {
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.37rem;
+    font-size: var(--font-m);
   }
   .site-section-wrap {
     gap: 0;
@@ -553,10 +551,10 @@ table {
 }
 @media screen and (min-width: 1180px) and (max-width: 1480px) {
   .navbar {
-    width: 1330px !important;
+    width: 1480px !important;
   }
   .site-main {
-    max-width: 1330px !important;
+    max-width: 1480px !important;
   }
   .navbar,
   .site-main {

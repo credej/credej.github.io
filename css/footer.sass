@@ -14,10 +14,8 @@
 .footer-main
   display: flex
   flex-direction: column
-  width: 1420px
   color: var(--color-light)
   padding: 0 0 128px
-  /* why does this width work */
   h3
     margin: 0 0 12px
   a
@@ -65,7 +63,7 @@
   align-items: center
   justify-content: center
 
-.footer-caution 
+.footer-caution
   display: flex
   justify-content: center
   align-items: center
@@ -97,3 +95,15 @@
     display: flex
     align-items: center
     width: 100%
+
+@media screen and (min-width: 780px) and (max-width: 1180px)
+  .footer-main
+    width: 1420px
+
+@media screen and (min-width: 1180px) and (max-width: 1480px)
+  .footer-main
+    width: 1180px
+
+@media (min-width: 1480px)
+  .footer-main
+    width: 1480px
