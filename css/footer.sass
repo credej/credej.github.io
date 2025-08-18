@@ -1,8 +1,9 @@
 .footer
   display: flex
   justify-content: center
-  align-items: center
+  justify-content: space-around
   font-family: "Courier Prime", monospace
+  padding: 0 0 128px
   /* figure this out via flexbox */
   h3
     cursor: default
@@ -15,7 +16,7 @@
   display: flex
   flex-direction: column
   color: var(--color-light)
-  padding: 0 0 128px
+  width: 100% !important
   h3
     margin: 0 0 12px
   a
@@ -89,21 +90,22 @@
 
 /* better way to do this? */
 @media screen and (min-width: 320px) and (max-width: 780px)
-  .footer
-    padding: 0 40px
   .footer-column
     display: flex
     align-items: center
     width: 100%
 
 @media screen and (min-width: 780px) and (max-width: 1180px)
-  .footer-main
-    width: 1420px
 
-@media screen and (min-width: 1180px) and (max-width: 1480px)
-  .footer-main
-    width: 1180px
+@media screen and (min-width: 1180px) and (max-width: 1440px)
 
-@media (min-width: 1480px)
+@media (min-width: 1440px)
+  .footer
+    justify-content: center
+  .footer-column
+    h3
+      font-size: var(--font-l) !important
+    a
+      font-size: var(--font-m) !important
   .footer-main
-    width: 1480px
+    width: 1440px !important

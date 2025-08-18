@@ -10,6 +10,10 @@
 @import "mobile.css";
 @import "post.css";
 @import "variables.css";
+* {
+  word-break: normal !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -335,7 +339,7 @@ table {
 
 .site {
   /*  padding: 192px 0 144px*/
-  padding: 156px 0 144px;
+  padding: 156px 0 288px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,6 +350,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between !important;
   cursor: default;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s) !important;
@@ -379,9 +384,6 @@ table {
 .site-section span, .site-section h1 {
   color: var(--color-title);
 }
-.site-section span {
-  padding: 0 32px 0 0;
-}
 .site-section a {
   color: var(--color-retro-aqua);
   font-size: var(--font-m);
@@ -413,6 +415,54 @@ table {
   color: var(--color-light);
 }
 
+.tooltip-container {
+  position: relative;
+  /* Essential for positioning the tooltip relative to its parent */
+  display: inline-block;
+  /* Allows the tooltip to wrap around the text */
+  cursor: pointer;
+  /* Provides a visual cue that the element has a tooltip */
+}
+.tooltip-container::before {
+  content: attr(data-tooltip);
+  /* Displays the text from the data-tooltip attribute */
+  position: absolute;
+  bottom: 125%;
+  /* Positions the tooltip above the element */
+  transform: translateX(0%);
+  /* Centers the tooltip horizontally */
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  /* Prevents text from wrapping within the tooltip */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  /* Smooth transition for appearance */
+}
+.tooltip-container::after {
+  content: "";
+  position: absolute;
+  bottom: 115%;
+  /* Positions the arrow below the tooltip content */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  /* Creates a downward-pointing triangle */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.tooltip-container:hover::before, .tooltip-container:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
 @keyframes blink-animation {
   to {
     opacity: 0;
@@ -442,7 +492,6 @@ table {
   .navbar,
   .site-main {
     max-width: 200px;
-    padding: 0 32px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 780px) {
@@ -461,10 +510,8 @@ table {
   .navbar {
     width: 480px;
   }
-  .navbar,
   .site-main {
     max-width: 480px;
-    padding: 0 40px;
   }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
@@ -499,6 +546,9 @@ table {
   }
   .site-section-wrap .site-page-title span {
     margin-left: 24px;
+  }
+  .site-page-title h1 {
+    font-size: var(--font-xl);
   }
   .site-category-container {
     filter: grayscale(0) !important;
@@ -549,32 +599,24 @@ table {
     opacity: 1;
   }
 }
-@media screen and (min-width: 1180px) and (max-width: 1480px) {
+@media screen and (min-width: 1180px) and (max-width: 1440px) {
   .navbar {
-    width: 1480px !important;
+    width: 1440px !important;
   }
   .site-main {
-    max-width: 1480px !important;
-  }
-  .navbar,
-  .site-main {
-    padding: 0 128px;
+    max-width: 1440px !important;
   }
 }
-@media (min-width: 1480px) {
+@media (min-width: 1440px) {
   .navbar {
-    width: 1680px !important;
+    width: 1440px !important;
   }
   .site-main {
-    max-width: 1680px !important;
+    max-width: 1440px !important;
   }
   .recipe-title h1 {
     font-size: var(--font-xl) !important;
     letter-spacing: 1rem !important;
-  }
-  .navbar,
-  .site-main {
-    padding: 0 128px;
   }
   .image-border-grey > img {
     border: 200px solid #070712;
