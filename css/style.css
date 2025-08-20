@@ -27,6 +27,14 @@ table {
   border-spacing: 0;
 }
 
+.bg-sky {
+  background-image: url("https://sky.dlazaro.ca");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 ::selection,
 ::-moz-selection {
   background: rgba(255, 255, 255, 0.1);
@@ -70,10 +78,6 @@ table {
 .bg-cyber {
   background: #040D19;
   background: linear-gradient(0deg, #081526, #050E1A);
-}
-
-.site-section-container {
-  padding: 24px;
 }
 
 .bookmark-section {
@@ -219,16 +223,15 @@ table {
  *  display: flex
  *  align-items: center*/
 .site-category {
-  align-items: center;
   display: flex;
-  flex-direction: row;
-  margin: 12px 0;
+  flex-wrap: wrap;
+  break-inside: avoid-column;
+  margin-top: 24px !important;
+  height: 400px;
 }
 .site-category span, .site-category h1 {
   color: var(--color-title);
   padding: 4px 24px 0 0;
-  display: flex;
-  align-items: center;
 }
 .site-category h1 {
   font-size: var(--font-xl);
@@ -322,6 +325,10 @@ table {
   display: none;
 }
 
+.site-subcategory-title {
+  margin-bottom: 12px;
+}
+
 .site-header {
   display: flex;
 }
@@ -405,22 +412,6 @@ table {
 }
 .site-section a:hover {
   color: var(--color-retro-aqua-highlight);
-}
-
-.site-section-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  flex: 1;
-  margin: 1.4rem 0;
-}
-.site-section-wrap h3 {
-  font-family: "Courier Prime", monospace;
-}
-.site-section-wrap span {
-  color: var(--color-code-bg);
-  padding: 0 0 0 24px;
-  font-family: "Courier Prime", monospace;
 }
 
 .site-page-title {
@@ -538,6 +529,11 @@ table {
   .hide-mobile {
     display: none;
   }
+  .site-category {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
   .site-category-list {
     text-indent: 0;
   }
@@ -553,16 +549,10 @@ table {
     letter-spacing: 0.37rem;
     font-size: var(--font-m);
   }
-  .site-section-wrap {
-    gap: 0;
-  }
-  .site-section-wrap span {
+  .site-section .site-page-title {
     padding: 0;
   }
-  .site-section-wrap .site-page-title {
-    padding: 0;
-  }
-  .site-section-wrap .site-page-title span {
+  .site-section .site-page-title span {
     margin-left: 24px;
   }
   .site-page-title h1 {
@@ -606,16 +596,10 @@ table {
     font-size: var(--font-xs);
     text-indent: 0;
   }
-  .site-section-wrap {
-    gap: 0;
-  }
-  .site-section-wrap span {
+  .site-section .site-page-title {
     padding: 0;
   }
-  .site-section-wrap .site-page-title {
-    padding: 0;
-  }
-  .site-section-wrap .site-page-title span {
+  .site-section .site-page-title span {
     margin-left: 24px;
   }
   .site-category-container {
@@ -644,9 +628,6 @@ table {
   .recipe-title h1 {
     font-size: var(--font-xl) !important;
     letter-spacing: 1rem !important;
-  }
-  .image-border-grey > img {
-    border: 200px solid #070712;
   }
   .site-page-title-home h1,
   .site-category-title h1 {

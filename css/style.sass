@@ -24,6 +24,13 @@ table
   border-collapse: collapse
   border-spacing: 0
 
+.bg-sky
+  background-image: url("https://sky.dlazaro.ca")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+  background-attachment: fixed
+
 ::selection,
 ::-moz-selection
     background: rgba(255, 255, 255, 0.1)
@@ -61,9 +68,6 @@ table
 .bg-cyber
   background: #040D19
   background: linear-gradient(0deg, #081526, #050E1A)
-
-.site-section-container
-  padding: 24px
 
 .bookmark-section
   margin-left: 1rem
@@ -188,15 +192,14 @@ table
     align-items: center*/
 
 .site-category
-  align-items: center
   display: flex
-  flex-direction: row
-  margin: 12px 0
+  flex-wrap: wrap
+  break-inside: avoid-column
+  margin-top: 24px !important
+  height: 400px
   span, h1
     color: var(--color-title)
     padding: 4px 24px 0 0
-    display: flex
-    align-items: center
   h1
     font-size: var(--font-xl)
     letter-spacing: 0.36rem
@@ -271,7 +274,10 @@ table
 .site-category-title,
 .site-subcategory-title
   h1:after
-    display: none 
+    display: none
+    
+.site-subcategory-title
+  margin-bottom: 12px
 
 .site-header
   display: flex
@@ -344,19 +350,6 @@ table
   a:hover
     color: var(--color-retro-aqua-highlight)
 
-.site-section-wrap
-  display: flex
-  flex-wrap: wrap
-  flex-direction: row
-  flex: 1
-  margin: 1.4rem 0
-  h3
-    font-family: "Courier Prime", monospace
-  span
-    color: var(--color-code-bg)
-    padding: 0 0 0 24px
-    font-family: "Courier Prime", monospace
-
 .site-page-title
   padding: 0
   font-family: "Courier Prime", monospace 
@@ -364,9 +357,6 @@ table
   align-items: center
   justify-content: center
   color: var(--color-light)
-
-
-
 
 .tooltip-container
   position: relative
@@ -477,6 +467,10 @@ table
       letter-spacing: 0.87rem !important
   .hide-mobile
     display: none
+  .site-category
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
   .site-category-list
     text-indent: 0
   .site-section
@@ -489,10 +483,6 @@ table
     h1
       letter-spacing: 0.37rem
       font-size: var(--font-m)
-  .site-section-wrap
-    gap: 0
-    span
-      padding: 0 
     .site-page-title
       padding: 0 
       span
@@ -532,10 +522,6 @@ table
     p
       font-size: var(--font-xs)
       text-indent: 0
-  .site-section-wrap
-    gap: 0
-    span
-      padding: 0 
     .site-page-title
       padding: 0 
       span
@@ -561,8 +547,6 @@ table
     h1
       font-size: var(--font-xl) !important
       letter-spacing: 1rem !important
-  .image-border-grey > img 
-    border: 200px solid #070712
   .site-page-title-home,
   .site-category-title
     h1
