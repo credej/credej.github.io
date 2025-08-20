@@ -53,8 +53,7 @@
   font-size: var(--font-l);
 }
 .footer-row-title i {
-  color: var(--color-pgh-yellow);
-  margin-right: 12px;
+  margin-right: 24px;
   font-size: var(--font-l);
 }
 

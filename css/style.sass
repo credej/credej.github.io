@@ -13,6 +13,7 @@
 
 *
   word-break: normal !important
+  box-sizing: border-box !important
 
 html
   scroll-behavior: smooth
@@ -195,8 +196,7 @@ table
   display: flex
   flex-wrap: wrap
   break-inside: avoid-column
-  margin-top: 24px !important
-  height: 400px
+  height: 450px
   span, h1
     color: var(--color-title)
     padding: 4px 24px 0 0
@@ -232,9 +232,26 @@ table
   p
     background-color: none
 
+
+
 .site-category-title
+  display: flex
+  justify-content: center
+  align-items: center
   h1
     color: var(--color-primary) !important
+
+/*.site-category-subtitle
+  color: var(--color-site-section)
+  padding: 4px 44px 0*/
+
+.site-category-list
+  display: flex
+  flex-direction: column
+  color: var( --color-border)
+  padding: 24px 48px 48px
+  a
+    padding: 4px 0
 
 .site-category-title,
 .site-page-title,
@@ -243,7 +260,7 @@ table
   flex-direction: row
   align-items: center
   color: var(--color-site-section)
-  margin: 0 0 18px
+  /* margin: 0 0 18px */
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
@@ -259,23 +276,12 @@ table
     font-size: var(--font-m)
       cursor: pointer
 
-.site-category-list
-  display: flex
-  flex-direction: column
-  color: var( --color-border)
-  text-indent: 2.2rem
-  margin: 1rem 0
-  a
-    padding: 4px 0
-* 
-  box-sizing: border-box !important
-
 /* remove blinking effect from headers used on home page */
 .site-category-title,
 .site-subcategory-title
   h1:after
     display: none
-    
+
 .site-subcategory-title
   margin-bottom: 12px
 
@@ -324,7 +330,6 @@ table
   p
     color: var( --color-site-section)
     padding: 16px 0
-    text-indent: 2.4rem
     text-shadow: 1px 1px 2px black
   h1
     font-size: var(--font-xl)
@@ -537,8 +542,8 @@ table
     max-width: 1440px !important
 
 @media (min-width: 1440px)
-  .site-main
-    padding: 0 72px
+  body
+    margin: 0 72px
   .navbar
     width: 1440px !important
   .site-main
