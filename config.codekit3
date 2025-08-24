@@ -201,7 +201,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/css\/goodeats-min.css",
       "oF" : 0,
       "pg" : 0
@@ -275,7 +275,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/css\/menu-min.css",
       "oF" : 0,
       "pg" : 0

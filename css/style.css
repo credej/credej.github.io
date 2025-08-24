@@ -58,7 +58,7 @@ table {
 }
 
 .bg-glass {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 12px;
 }
 
@@ -194,7 +194,9 @@ table {
 }
 
 .intro {
+  color: var(--color-border);
   margin: 36px 0;
+  font-family: "Yellowtail", monospace;
 }
 .intro p {
   font-size: var(--font-m);
@@ -206,6 +208,26 @@ table {
 }
 .intro a:hover {
   color: var(--color-light) !important;
+}
+.intro span, .intro h1 {
+  color: var(--color-title);
+}
+
+.site-page-title {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-xl);
+  color: var(--color-light);
+}
+.site-page-title h1:after {
+  padding: 15px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  -moz-animation: blink-animation 1s infinite;
+  -o-animation: blink-animation 1s infinite;
+  content: "_";
 }
 
 .intro a:hover,
@@ -225,6 +247,15 @@ table {
 
 .text-green {
   color: #d0ffcf !important;
+}
+
+.site {
+  /*  padding: 192px 0 144px*/
+  padding: 120px 0 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 /* POTENTIAL OPACITY SAFARI BUG */
@@ -262,7 +293,7 @@ table {
   display: flex;
   flex-wrap: wrap;
   break-inside: avoid-column;
-  height: 450px;
+  /*  height: 450px */
 }
 .site-category span, .site-category h1 {
   color: var(--color-title);
@@ -308,8 +339,16 @@ table {
 
 .site-category-title {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: row;
+  color: var(--color-site-section);
+}
+.site-category-title i {
+  animation: pulsate 0.11s ease-in-out infinite alternate !important;
+  color: var(--color-pgh-yellow);
+  font-size: var(--font-xl);
+  padding: 0 22px 0 0;
 }
 .site-category-title h1 {
   color: var(--color-primary) !important;
@@ -322,23 +361,17 @@ table {
   display: flex;
   flex-direction: column;
   color: var(--color-border);
-  padding: 24px 48px 120px;
 }
 .site-category-list a {
   padding: 4px 0;
 }
 
-.site-category-title,
-.site-page-title,
 .menu-category-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   color: var(--color-site-section);
-  /* margin: 0 0 18px */
 }
-.site-category-title i,
-.site-page-title i,
 .menu-category-title i {
   animation: pulsate 0.11s ease-in-out infinite alternate !important;
   color: var(--color-pgh-yellow);
@@ -397,15 +430,6 @@ table {
   max-width: 1180px;
 }
 
-.site {
-  /*  padding: 192px 0 144px*/
-  padding: 192px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
 .site-section {
   display: flex;
   flex-direction: column;
@@ -426,14 +450,6 @@ table {
   text-wrap: wrap;
   word-break: break-all;
 }
-.site-section h1:after {
-  padding: 15px;
-  animation: blink-animation 1s infinite;
-  -webkit-animation: blink-animation 1s infinite;
-  -moz-animation: blink-animation 1s infinite;
-  -o-animation: blink-animation 1s infinite;
-  content: "_";
-}
 .site-section h2 {
   font-size: var(--font-xl) !important;
 }
@@ -451,54 +467,35 @@ table {
   color: var(--color-retro-aqua-highlight);
 }
 
-.site-page-title {
-  padding: 0;
-  font-family: "Courier Prime", monospace;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-light);
-}
-
 .tooltip-container {
   position: relative;
-  /* Essential for positioning the tooltip relative to its parent */
   display: inline-block;
-  /* Allows the tooltip to wrap around the text */
   cursor: pointer;
-  /* Provides a visual cue that the element has a tooltip */
 }
 .tooltip-container::before {
-  content: attr(data-tooltip);
-  /* Displays the text from the data-tooltip attribute */
-  position: absolute;
-  bottom: 125%;
-  /* Positions the tooltip above the element */
-  transform: translateX(0%);
-  /* Centers the tooltip horizontally */
   background-color: #333;
-  color: #fff;
-  padding: 8px 12px;
   border-radius: 4px;
+  bottom: 125%;
+  color: #fff;
+  content: attr(data-tooltip);
   font-size: 0.9em;
-  white-space: nowrap;
-  /* Prevents text from wrapping within the tooltip */
   opacity: 0;
-  visibility: hidden;
+  padding: 8px 12px;
+  position: absolute;
+  transform: translateX(0%);
   transition: opacity 0.3s ease, visibility 0.3s ease;
-  /* Smooth transition for appearance */
+  visibility: hidden;
+  white-space: nowrap;
 }
 .tooltip-container::after {
   content: "";
   position: absolute;
   bottom: 115%;
-  /* Positions the arrow below the tooltip content */
   left: 50%;
   transform: translateX(-50%);
   border-width: 5px;
   border-style: solid;
   border-color: #333 transparent transparent transparent;
-  /* Creates a downward-pointing triangle */
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -538,8 +535,36 @@ table {
   color: var(--color-border);
 }
 
+/**
+ * border: 1px solid green !important*/
 /* S SCREEN */
-@media screen and (min-width: 320px) and (max-width: 780px) {
+@media screen and (min-width: 220px) and (max-width: 420px) {
+  .navbar,
+  .site-main {
+    width: 320px;
+  }
+  .site-section {
+    padding: 48px;
+  }
+  .site-section p {
+    font-size: var(--font-xs);
+    padding: 12px 0;
+  }
+  .site-category-title {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .site-category-title h1 {
+    font-size: var(--font-m);
+  }
+  .site-category-title i {
+    padding-right: 18px;
+  }
+  .site-category-list a {
+    font-size: var(--font-s);
+  }
+}
+@media screen and (min-width: 220px) and (max-width: 780px) {
   * {
     text-align: center;
     justify-content: center !important;
@@ -550,7 +575,7 @@ table {
     margin: 0 36px !important;
   }
   .navbar {
-    width: 480px;
+    width: 320px;
   }
   .menu-closed {
     justify-content: space-between !important;
@@ -562,8 +587,11 @@ table {
   .footer-button img {
     width: 36px !important;
   }
+  .site {
+    padding: 120 px;
+  }
   .site-main {
-    max-width: 480px;
+    max-width: 320px;
   }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
@@ -576,27 +604,24 @@ table {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 48px;
+  }
+  .site-category i {
+    font-size: var(--font-l);
   }
   .site-category-list {
     text-indent: 0;
   }
-  .site-section p {
-    font-size: var(--font-xs);
-    text-indent: 0;
-  }
-  .site-section a {
+  .site-main a {
     font-size: var(--font-s) !important;
     text-indent: 0;
   }
-  .site-section h1 {
+  .site-main h1 {
     letter-spacing: 0.37rem;
     font-size: var(--font-m);
   }
-  .site-section .site-page-title {
-    padding: 0;
-  }
-  .site-section .site-page-title span {
-    margin-left: 24px;
+  .site-section {
+    padding: 48px;
   }
   .site-page-title h1 {
     font-size: var(--font-xl);
@@ -610,33 +635,39 @@ table {
   .menu-category-title {
     margin: 0;
   }
+  .site-category-title {
+    display: flex;
+    justify-content: space-between !important;
+  }
   .site-category-title h1 {
     font-size: var(--font-xl);
+    padding-left: 12px;
+  }
+  .site-category-title i {
+    padding: 4px;
   }
   .site-subcategory-title h1 {
     font-size: var(--font-xl);
   }
 }
 @media screen and (min-width: 780px) and (max-width: 1180px) {
+  .hide-mobile {
+    display: none;
+  }
   .navbar {
     width: 565px;
-  }
-  .navbar,
-  .site-main {
-    max-width: 565px;
   }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
     letter-spacing: 0.87rem !important;
   }
-  .hide-mobile {
-    display: none;
+  .site-main {
+    max-width: 565px;
   }
   .site-category-list {
     text-indent: 0;
   }
   .site-section p {
-    font-size: var(--font-xs);
     text-indent: 0;
   }
   .site-section .site-page-title {
@@ -675,7 +706,13 @@ table {
   .site-page-title h1 {
     letter-spacing: 1.87rem;
   }
+  .site-section {
+    padding: 72px;
+  }
   .site-section h1 {
     font-size: var(font-xl) !important;
+  }
+  .site-category-list {
+    padding: 24px 48px 72px;
   }
 }

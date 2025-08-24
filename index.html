@@ -18,19 +18,15 @@
       <div class="site">
 
          <div class="site-main">
-            <div class="site-section">
+            <div class="intro">
                <div class="site-page-title neon">
                   <h1 class="text-green">work & other stuff</h1>
                </div>
             </div>
 
-            <div class="site-section intro">
-               <p>A collection of past work, personal interests, and other misc. resources grouped into the following: <a href="#ux-anchor"><span class="blue">Software UI/UX</span></a>, <a href="#design-anchor"><span class="green">Design</span></a>, <a href="#gadgets-anchor"><span class="red">Gadgets</span></a>, <a href="#diy-anchor"><span class="orange">DIY</span></a> (coming soon!), <a href="#otherstuff"><span class="purple">Other Stuff</span></a> and <a href="#travel">Travel</a> (coming soon!). Feel free to play around on the <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">experimental test page</a>. Just kidding, you'll have to do some digging to find it. <a href="#contact-anchor"><span class="white">Get in touch here</span></a></p>
-            </div>
-
-            <div class="site-section intro">
-               <div class="site-category-title">
-                  <div class="blue"><span class="tooltip-container" data-tooltip="UI/UX Software Design"><a href="#ux"><i class="iconoir-laptop-dev-mode"></i></a></span></div>
+            <div class="intro">
+               <div class="site-category p-0">
+                  <div class="blue"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href="#ux"><i class="iconoir-laptop-dev-mode"></i></a></span></div>
                   <div class="green"><span class="tooltip-container" data-tooltip="Design"><a href="#design"><i class="iconoir-edit-pencil"></i></a></span></div>
                   <div class="red"><span class="tooltip-container" data-tooltip="Gadgets"><a href="#gadgets"><i class="iconoir-cpu"></i></a></span></div>
                   <div class="orange"><span class="tooltip-container" data-tooltip="Do It Yourself"><a href="#diy-anchor"><i class="iconoir-tools"></i></a></span></div>
@@ -41,11 +37,15 @@
                </div>
             </div>
 
+            <div class="intro">
+               <p>A collection of past work, personal interests, and other misc. resources grouped into the following: <a href="#ux-anchor"><span class="blue">Software UI/UX</span></a>, <a href="#design-anchor"><span class="green">Design</span></a>, <a href="#gadgets-anchor"><span class="red">Gadgets</span></a>, <a href="#diy-anchor"><span class="orange">DIY</span></a> (coming soon!), <a href="#otherstuff"><span class="purple">Other Stuff</span></a> and <a href="#travel">Travel</a> (coming soon!). Feel free to play around on the <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">experimental test page</a>. Just kidding, you'll have to do some digging to find it. <a href="#contact-anchor"><span class="white">Get in touch here</span></a></p>
+            </div>
+
             <!-- UI UX SOFTWARE -->
 
             <div id="ux-anchor"></div>
             <div id="ux" class="anchor">
-               <div class="site-section bg-glass lg:p-24 sm:p-12">
+               <div class="site-section bg-glass">
 
                   <div class="site-category-title">
                      <i class="iconoir-laptop-dev-mode blue"></i>
@@ -65,10 +65,10 @@
 
             <!-- DESIGN -->
 
-            <div id="design-anchor" class="anchor">
-               <div id="design">
+            <div id="design-anchor">
+               <div id="design" class="anchor">
                   <div class="site-section-container">
-                     <div class="site-section bg-glass lg:p-24 sm:p-12">
+                     <div class="site-section bg-glass">
                         <div class="site-category-title">
                            <i class="iconoir-edit-pencil green"></i>
                            <h1>Design</h1>
@@ -109,23 +109,21 @@
                                  </div>
                               </a>
                            </div>
-                        </div>
-
-                        <div class="lg:columns-2 columns-1 gap-x-24">
                            <div class="site-category">
                               <a href="/pages/design/sketch/index.html">
                                  <div class="site-subcategory-title">
-                                       <h1>art</h1>
+                                    <h1>artwork</h1>
                                  </div>
                                  <div class="site-category-image">
                                     <img class="kg-image" src="pages/design/sketch/img/sketch-banner.jpg">
                                  </div>
                                  <div class="site-category-excerpt">
-                                    <p>Mostly hand drawings...</p>
+                                    <p>These are the remnants of my brief career in architecture...</p>
                                  </div>
                               </a>
                            </div>
                         </div>
+
                      </div>
                   </div>
                </div>
@@ -133,10 +131,10 @@
 
             <!-- GADGETS -->
 
-            <div id="gadgets-anchor" class="anchor">
-               <div id="gadgets">
+            <div id="gadgets-anchor">
+               <div id="gadgets" class="anchor">
                   <div class="site-section-container">
-                     <div class="site-section bg-glass lg:p-24 sm:p-12">
+                     <div class="site-section bg-glass">
                         <div class="site-category-title">
                            <i class="iconoir-cpu red"></i>
                            <h1>Gadgets</h1>
@@ -145,7 +143,7 @@
                         <div class="site-category-list flex flex-col">
                            <a href="/pages/gadgets/keyboardmice/index.html">Keyboards</a>
                            <a href="/pages/gadgets/keyboardmice/index.html">More devices</a>
-                        </div>
+                        </div>                        
 
                         <div class="lg:columns-2 columns-1 gap-x-24">
 
@@ -155,7 +153,7 @@
                                     <h1>keyboards</h1>
                                  </div>
                                  <div class="site-category-image">
-                              <img class="kg-image" src="pages/gadgets/keyboardmice/img/keyboard-banner.jpg">
+                                    <img class="kg-image" src="pages/gadgets/keyboardmice/img/keyboard-banner.jpg">
                                  </div>
                                  <div class="site-category-excerpt">
                                     <p>These are the remnants of my brief career in architecture...</p>
@@ -166,29 +164,28 @@
                            <div class="site-category">
                               <a href="/pages/gadgets/keyboardmice/index.html">
                                  <div class="site-subcategory-title">
-                                       <h1>more devices</h1>
+                                    <h1>graphics/web</h1>
                                  </div>
                                  <div class="site-category-image">
-                              <img class="kg-image" src="pages/gadgets/otherdevices/img/other-devices-banner.jpg">
+                                    <img class="kg-image" src="pages/gadgets/otherdevices/img/other-devices-banner.jpg">
                                  </div>
                                  <div class="site-category-excerpt">
-                                    <p>asdf...</p>
+                                    <p>Graphic and web design Graphic and web design Graphic and web design...</p>
                                  </div>
                               </a>
                            </div>
-                           
                         </div>
-                     </div>
 
+                     </div>
                   </div>
                </div>
             </div>
 
             <!-- DIY -->
 
-            <div id="diy-anchor" class="anchor">
-               <div id="diy">
-                  <div class="site-section">
+            <div id="diy-anchor">
+               <div id="diy" class="anchor">
+                  <div class="site-section bg-glass">
                      <div class="site-category-title">
                         <i class="iconoir-tools orange"></i>
                         <h1>DIY <span style="color: #595959;">(Coming soon!)</span></h1>
@@ -200,10 +197,10 @@
 
             <!-- OTHER STUFF -->
 
-            <div id="otherstuff-anchor" class="anchor">
-               <div id="otherstuff">
+            <div id="otherstuff-anchor">
+               <div id="otherstuff" class="anchor">
                   <div class="site-section-container">
-                     <div class="site-section bg-glass lg:p-24 sm:p-12">
+                     <div class="site-section bg-glass">
                         <div class="site-category-title">
                            <i class="iconoir-key-command purple"></i>
                            <h1>Other stuff</h1>
@@ -263,16 +260,15 @@
                            </div>
                         </div>
                      </div>
-
                   </div>
                </div>
             </div>
 
             <!-- TRAVEL -->
 
-            <div id="travel-anchor" class="anchor">
-               <div id="travel">
-                  <div class="site-section">
+            <div id="travel-anchor">
+               <div id="travel" class="anchor">
+                  <div class="site-section bg-glass">
                      <div class="site-category-title">
                         <i class="iconoir-hot-air-balloon yellow"></i>
                         <h1>Travel <span style="color: #595959;">(Coming soon!)</span></h1>
@@ -282,23 +278,22 @@
                </div>
             </div>
 
-         <!-- CONTACT -->
+            <!-- CONTACT -->
 
-         <div id ="contact-anchor" class="anchor">
-            <div id="contact">
-               <div class="site-section">
-                  <div class="site-category-title">
-                     <i class="iconoir-telegram white"></i>
-                     <h1>Contact</h1>
+            <div id ="contact-anchor">
+               <div id="contact" class="anchor">
+                  <div class="site-section">
+                     <div class="site-category-title">
+                        <i class="iconoir-telegram white"></i>
+                        <h1>Contact</h1>
+                     </div>
                   </div>
-               </div>
-               <div class="site-section intro">
-                  <p>Hello. I'm a user interface & experience designer based in southern California. I've got over ten years of experience translating customer needs into visually compelling & intuitive web application software. Feel free to view my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> or see the various software projects that I follow on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; If you're reading this then <a><button onclick="showAlert()">I'm available to work with</button></a>.</p>
+                  <div class="site-section intro">
+                     <p>Hello. I'm a user interface & experience designer based in southern California. I've got over ten years of experience translating customer needs into visually compelling & intuitive web application software. Feel free to view my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> or see the various software projects that I follow on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; If you're reading this then <a><button onclick="showAlert()">I'm available to work with</button></a>.</p>
+                  </div>
                </div>
             </div>
          </div>
-
-      </div>
 
          <!-- CONTACT -->
          <!-- EMAIL OPENING EFFECT -->
@@ -320,70 +315,70 @@
             <div class="shadow"></div>
          </div> -->
 
-      <div id="footer" class="anchor"></div>
-      <div class="footer">
-         <div class="footer-main">
-            <div class="footer-row footer-row-title">
-               <!-- <i class="iconoir-telegram"></i>
-               <h5>Footer Links</h5> -->
-            </div>
-            <div class="footer-row">
-               <div class="footer-column">
-                  <h3>UI/UX Software Design</h3>
-                  <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
-                  <a href="index.html">Red Team Operation Management</a>
-                  <a href="index.html">Online Collectibles Store</a>
-                  <a href="index.html">RFID Inventory Tracking</a>
-                  <a href="index.html">Counterfeit Detection System</a>
+         <div id="footer">
+            <div class="footer" class="anchor">
+               <div class="footer-main">
+                  <div class="footer-row footer-row-title">
+                     <!-- <i class="iconoir-telegram"></i>
+                     <h5>Footer Links</h5> -->
+                  </div>
+                  <div class="footer-row">
+                     <div class="footer-column">
+                        <h3>UI/UX Software Design</h3>
+                        <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
+                        <a href="index.html">Red Team Operation Management</a>
+                        <a href="index.html">Online Collectibles Store</a>
+                        <a href="index.html">RFID Inventory Tracking</a>
+                        <a href="index.html">Counterfeit Detection System</a>
+                     </div>
+                     <div class="footer-column">
+                        <h3>Design</h3>
+                        <a href="/pages/design/arch/index.html">Architecture</a>
+                        <a href="/pages/design/web/index.html">Graphic Design</a>
+                        <a href="/pages/design/web/index.html">Web Design</a>
+                        <a href="/pages/design/sketch/index.html">Sketching</a>
+                     </div>
+                     <div class="footer-column">
+                        <h3>Gadgets</h3>
+                        <a href="/pages/gadgets/computers/index.html">Computers</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html">Keyboards & Mice</a>
+                        <a href="/pages/gadgets/gaming/index.html">Gaming Rigs</a>
+                        <a href="/pages/gadgets/otherdevices/index.html">Other Devices</a>
+                        <a href="/pages/gadgets/edc/index.html">Everyday Carry</a>
+                     </div>
+                     <div class="footer-column">
+                        <h3>DIY</h3>
+                        <a href="/pages/diy/cli/index.html">Command Line Interface</a>
+                        <a href="/pages/diy/nostr/index.html">Decentralized Tech</a>
+                        <a href="/pages/diy/homehacking/index.html">Home Hacking</a>
+                        <!-- jellyfin, pi-hole, ? -->
+                     </div>
+                     <div class="footer-column">
+                        <h3>Other Stuff</h3>
+                        <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a>
+                        <a href="/pages/otherstuff/quotes/index.html">Quotes</a>
+                        <a href="/pages/otherstuff/goodeats/index.html">Good Eats</a>
+                     </div>
+                     <div class="footer-column">
+                        <h3>Travel</h3>
+                        <a href="/pages/travel/index.html">Location</a>
+                        <a href="/pages/travel/index.html">Location</a>
+                        <a href="/pages/travel/index.html">Location</a>
+                     </div>
+                  </div>
                </div>
-               <div class="footer-column">
-                  <h3>Design</h3>
-                  <a href="/pages/design/arch/index.html">Architecture</a>
-                  <a href="/pages/design/web/index.html">Graphic Design</a>
-                  <a href="/pages/design/web/index.html">Web Design</a>
-                  <a href="/pages/design/sketch/index.html">Sketching</a>
+
+               <div class="footer-button">
+                  <a href="#top" class="back-to-top" title="Back to Top">
+                     <img src="/images/arrow-up.svg" alt="Back to Top" height="44" width="44" />
+                  </a>
                </div>
-               <div class="footer-column">
-                  <h3>Gadgets</h3>
-                  <a href="/pages/gadgets/computers/index.html">Computers</a>
-                  <a href="/pages/gadgets/keyboardmice/index.html">Keyboards & Mice</a>
-                  <a href="/pages/gadgets/gaming/index.html">Gaming Rigs</a>
-                  <a href="/pages/gadgets/otherdevices/index.html">Other Devices</a>
-                  <a href="/pages/gadgets/edc/index.html">Everyday Carry</a>
-               </div>
-               <div class="footer-column">
-                  <h3>DIY</h3>
-                  <a href="/pages/diy/cli/index.html">Command Line Interface</a>
-                  <a href="/pages/diy/nostr/index.html">Decentralized Tech</a>
-                  <a href="/pages/diy/homehacking/index.html">Home Hacking</a>
-                  <!-- jellyfin, pi-hole, ? -->
-               </div>
-               <div class="footer-column">
-                  <h3>Other Stuff</h3>
-                  <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a>
-                  <a href="/pages/otherstuff/quotes/index.html">Quotes</a>
-                  <a href="/pages/otherstuff/goodeats/index.html">Good Eats</a>
-               </div>
-               <div class="footer-column">
-                  <h3>Travel</h3>
-                  <a href="/pages/travel/index.html">Location</a>
-                  <a href="/pages/travel/index.html">Location</a>
-                  <a href="/pages/travel/index.html">Location</a>
-               </div>
+
+               <footer-component></footer-component>
+               <!-- add back-to-top component here -->
+
             </div>
          </div>
-
-         <div class="footer-button">
-            <a href="#top" class="back-to-top" title="Back to Top">
-               <img src="/images/arrow-up.svg" alt="Back to Top" height="44" width="44" />
-            </a>
-         </div>
-
-         <footer-component></footer-component>
-         <!-- add back-to-top component here -->
-
-      </div>
-
    </body>
    <script>
       function showAlert() {

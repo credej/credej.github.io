@@ -50,7 +50,7 @@ table
     padding: 4px 0
 
 .bg-glass
-  background: rgba(255, 255, 255, .02)
+  background: rgba(255, 255, 255, .04)
   border-radius: 12px
 
 .bg-home
@@ -164,7 +164,9 @@ table
     width: 100%
 
 .intro
+  color: var(--color-border)
   margin: 36px 0
+  font-family: "Yellowtail", monospace
   p
     font-size: var(--font-m)
     line-height: 2rem
@@ -173,6 +175,24 @@ table
     font-size: var(--font-m) !important
     &:hover
       color: var(--color-light) !important
+  span, h1
+    color: var(--color-title)
+
+.site-page-title
+  display: flex
+  flex-direction: row
+  padding: 0
+  font-family: "Courier Prime", monospace 
+  font-size: var(--font-xl)
+  color: var(--color-light)
+  h1
+    &:after
+      padding: 15px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
 
 .intro,
 .site-section
@@ -190,6 +210,14 @@ table
 
 .text-green
   color: #d0ffcf !important
+
+.site
+  /*  padding: 192px 0 144px*/
+  padding: 120px 0 192px 
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
 
 /* POTENTIAL OPACITY SAFARI BUG */
 .site-category
@@ -224,7 +252,7 @@ table
   display: flex
   flex-wrap: wrap
   break-inside: avoid-column
-  height: 450px
+  /*  height: 450px */
   span, h1
     color: var(--color-title)
     padding: 4px 24px 0 0
@@ -260,12 +288,17 @@ table
   p
     background-color: none
 
-
-
 .site-category-title
   display: flex
-  justify-content: center
+  justify-content: flex-start
   align-items: center
+  flex-direction: row
+  color: var(--color-site-section)
+  i
+    animation: pulsate 0.11s ease-in-out infinite alternate !important
+    color: var(--color-pgh-yellow)
+    font-size: var(--font-xl)
+    padding: 0 22px 0 0 
   h1
     color: var(--color-primary) !important
 
@@ -277,18 +310,14 @@ table
   display: flex
   flex-direction: column
   color: var( --color-border)
-  padding: 24px 48px 120px
   a
     padding: 4px 0
 
-.site-category-title,
-.site-page-title,
 .menu-category-title
   display: flex
   flex-direction: row
   align-items: center
   color: var(--color-site-section)
-  /* margin: 0 0 18px */
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
@@ -339,14 +368,6 @@ table
 .site-main
   max-width: 1180px
 
-.site
-  /*  padding: 192px 0 144px*/
-  padding: 192px 0
-  display: flex
-  flex-direction: column
-  align-items: center
-  width: 100%
-
 .site-section
   display: flex
   flex-direction: column
@@ -364,13 +385,6 @@ table
     letter-spacing: 0.5rem
     text-wrap: wrap
     word-break: break-all
-    &:after
-      padding: 15px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
-      content: "_"
   h2
     font-size: var(--font-xl) !important
   h3
@@ -383,72 +397,40 @@ table
   a:hover
     color: var(--color-retro-aqua-highlight)
 
-.site-page-title
-  padding: 0
-  font-family: "Courier Prime", monospace 
-  display: flex
-  align-items: center
-  justify-content: center
-  color: var(--color-light)
-
 .tooltip-container
   position: relative
-
-  /* Essential for positioning the tooltip relative to its parent */
   display: inline-block
-
-  /* Allows the tooltip to wrap around the text */
   cursor: pointer
-
-  /* Provides a visual cue that the element has a tooltip */
-
   &::before
-    content: attr(data-tooltip)
-
-    /* Displays the text from the data-tooltip attribute */
-    position: absolute
-    bottom: 125%
-
-    /* Positions the tooltip above the element */
-    transform: translateX(0%)
-
-    /* Centers the tooltip horizontally */
     background-color: #333
-    color: #fff
-    padding: 8px 12px
     border-radius: 4px
+    bottom: 125%
+    color: #fff
+    content: attr(data-tooltip)
     font-size: 0.9em
-    white-space: nowrap
-
-    /* Prevents text from wrapping within the tooltip */
     opacity: 0
-    visibility: hidden
+    padding: 8px 12px
+    position: absolute
+    transform: translateX(0%)
     transition: opacity 0.3s ease, visibility 0.3s ease
-
-    /* Smooth transition for appearance */
-
+    visibility: hidden
+    white-space: nowrap
   &::after
     content: ''
     position: absolute
     bottom: 115%
-
-    /* Positions the arrow below the tooltip content */
     left: 50%
     transform: translateX(-50%)
     border-width: 5px
     border-style: solid
     border-color: #333 transparent transparent transparent
-
-    /* Creates a downward-pointing triangle */
     opacity: 0
     visibility: hidden
     transition: opacity 0.3s ease, visibility 0.3s ease
-
   &:hover
     &::before, &::after
       opacity: 1
       visibility: visible
-
 
 .fake-class
   font-family: "Cutive Mono", monospace
@@ -474,10 +456,32 @@ table
 .article-content-excerpt
   color: var(--color-border)
 
+/**
+  border: 1px solid green !important*/
+
 /* S SCREEN */
 
+@media screen and (min-width: 220px) and (max-width: 420px)
+  .navbar,
+  .site-main
+    width: 320px
+  .site-section
+    padding: 48px
+    p
+      font-size: var(--font-xs)
+      padding: 12px 0
+  .site-category-title
+    display: flex
+    justify-content: space-between !important
+    h1
+      font-size: var(--font-m)
+    i
+      padding-right: 18px
+  .site-category-list
+    a
+      font-size: var(--font-s)
 
-@media screen and (min-width: 320px) and (max-width: 780px)
+@media screen and (min-width: 220px) and (max-width: 780px)
   *
     text-align: center
     justify-content: center !important
@@ -486,7 +490,7 @@ table
   .navbar
     margin: 0 36px !important
   .navbar
-    width: 480px
+    width: 320px
   .menu-closed
     justify-content: space-between !important
   .back-to-top
@@ -495,8 +499,10 @@ table
   .footer-button
     img
       width: 36px !important
+  .site
+    padding: 120  px
   .site-main
-    max-width: 480px 
+    max-width: 320px 
   .recipe-title
     h1
       font-size: var(--font-l) !important
@@ -507,22 +513,20 @@ table
     display: flex
     justify-content: flex-start
     align-items: flex-start
+    padding: 48px
+    i
+      font-size: var(--font-l)
   .site-category-list
     text-indent: 0
-  .site-section
-    p
-      font-size: var(--font-xs)
-      text-indent: 0
+  .site-main
     a
       font-size: var(--font-s) !important
       text-indent: 0
     h1
       letter-spacing: 0.37rem
       font-size: var(--font-m)
-    .site-page-title
-      padding: 0 
-      span
-        margin-left: 24px
+  .site-section
+    padding: 48px
   .site-page-title
     h1
       font-size: var(--font-xl)
@@ -534,29 +538,31 @@ table
   .menu-category-title
     margin: 0
   .site-category-title
+    display: flex
+    justify-content: space-between !important
     h1
       font-size: var(--font-xl)
+      padding-left: 12px
+    i
+      padding: 4px
   .site-subcategory-title
     h1
       font-size: var(--font-xl)
-
 @media screen and (min-width: 780px) and (max-width: 1180px)
+  .hide-mobile
+    display: none
   .navbar
     width: 565px
-  .navbar,
-  .site-main
-    max-width: 565px
   .recipe-title
     h1
       font-size: var(--font-l) !important
       letter-spacing: 0.87rem !important
-  .hide-mobile
-    display: none
+  .site-main
+    max-width: 565px
   .site-category-list
     text-indent: 0
   .site-section
     p
-      font-size: var(--font-xs)
       text-indent: 0
     .site-page-title
       padding: 0 
@@ -587,5 +593,8 @@ table
     h1
       letter-spacing: 1.87rem
   .site-section
+    padding: 72px
     h1
       font-size: var(font-xl) !important
+  .site-category-list
+    padding: 24px 48px 72px
