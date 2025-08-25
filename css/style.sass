@@ -220,7 +220,7 @@ table
   width: 100%
 
 /* POTENTIAL OPACITY SAFARI BUG */
-.site-category
+.site-category-icons
   img
     filter: grayscale(1)
     /* IE 8 */
@@ -248,7 +248,7 @@ table
     display: flex
     align-items: center
 
-.site-category
+.site-category-icons
   display: flex
   flex-wrap: wrap
   break-inside: avoid-column
@@ -268,14 +268,14 @@ table
       -o-animation: blink-animation .9s infinite
       content: "_"
 
-.site-category-image
+.site-category-icons-image
   border-radius: 16px
   display: flex
   img
     border-radius: 16px 16px 0 0
     cursor: pointer
 
-.site-category-excerpt
+.site-category-icons-excerpt
   color: var(--color-border)
   text-shadow: 1px 1px 2px black
   display: flex
@@ -288,7 +288,7 @@ table
   p
     background-color: none
 
-.site-category-title
+.site-category-icons-title
   display: flex
   justify-content: flex-start
   align-items: center
@@ -302,7 +302,7 @@ table
   h1
     color: var(--color-primary) !important
 
-/*.site-category-subtitle
+/*.site-category-icons-subtitle
   color: var(--color-site-section)
   padding: 4px 44px 0*/
 
@@ -334,7 +334,7 @@ table
       cursor: pointer
 
 /* remove blinking effect from headers used on home page */
-.site-category-title,
+.site-category-icons-title,
 .site-subcategory-title
   h1:after
     display: none
@@ -470,7 +470,7 @@ table
     p
       font-size: var(--font-xs)
       padding: 12px 0
-  .site-category-title
+  .site-category-icons-title
     display: flex
     justify-content: space-between !important
     h1
@@ -509,7 +509,7 @@ table
       letter-spacing: 0.87rem !important
   .hide-mobile
     display: none
-  .site-category
+  .site-category-icons
     display: flex
     justify-content: flex-start
     align-items: flex-start
@@ -527,27 +527,27 @@ table
       font-size: var(--font-m)
   .site-section
     padding: 48px
-  .site-page-title
-    h1
-      font-size: var(--font-xl)
-  .site-category-container
+    p
+      padding: 24px 0
+  .site-category-icons-container
     filter: grayscale(0) !important
     opacity: 1
-  .site-category-title,
+  .site-category-icons-title,
   .site-page-title,
   .menu-category-title
     margin: 0
-  .site-category-title
+  .site-category-icons-title
     display: flex
     justify-content: space-between !important
     h1
       font-size: var(--font-xl)
-      padding-left: 12px
+      padding-left: 24px
     i
       padding: 4px
-  .site-subcategory-title
+  .site-page-title
     h1
       font-size: var(--font-xl)
+
 @media screen and (min-width: 780px) and (max-width: 1180px)
   .hide-mobile
     display: none
@@ -568,19 +568,37 @@ table
       padding: 0 
       span
         margin-left: 24px
-  .site-category-container
+  .site-category-icons-container
     filter: grayscale(0) !important
     opacity: 1
+  .site-page-title
+    h1
+      letter-spacing: 1rem
+  .site-section
+    padding: 72px
 
 @media screen and (min-width: 1180px) and (max-width: 1440px)
+  body,
   .navbar
+    margin: 0 144px !important  
+  .navbar
+    margin: 0 72px
     width: 1440px !important
   .site-main
     max-width: 1440px !important
+  .site-page-title
+    h1
+      letter-spacing: 1rem
+  .site-section
+    padding: 72px
 
 @media (min-width: 1440px)
-  body
-    margin: 0 72px
+  body,
+  .navbar
+    margin: 0 144px !important
+  .intro
+    a
+      font-size: var(--font-xl) !important
   .navbar
     width: 1440px !important
   .site-main
