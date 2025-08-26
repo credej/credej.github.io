@@ -21,6 +21,8 @@ html {
 
 body {
   background-color: #000;
+  display: flex;
+  justify-content: center;
 }
 
 table {
@@ -74,11 +76,10 @@ table {
 
 .bg-orange {
   background: linear-gradient(335deg, rgb(255, 140, 107) 0%, rgb(255, 228, 168) 100%);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
+}
+
+.bg-green {
+  background-color: green !important;
 }
 
 .bg-cyber {
@@ -249,13 +250,8 @@ table {
   color: #d0ffcf !important;
 }
 
-.site {
-  /*  padding: 192px 0 144px*/
-  padding: 120px 0 192px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.site-main {
+  margin-top: 200px;
 }
 
 /* POTENTIAL OPACITY SAFARI BUG */
@@ -426,10 +422,6 @@ table {
   cursor: default;
 }
 
-.site-main {
-  max-width: 1180px;
-}
-
 .site-section {
   display: flex;
   flex-direction: column;
@@ -535,8 +527,6 @@ table {
   color: var(--color-border);
 }
 
-/**
- * border: 1px solid green !important*/
 /* S SCREEN */
 @media screen and (min-width: 220px) and (max-width: 420px) {
   .navbar,
@@ -565,11 +555,6 @@ table {
   }
 }
 @media screen and (min-width: 220px) and (max-width: 780px) {
-  * {
-    text-align: center;
-    justify-content: center !important;
-    align-items: center !important;
-  }
   body,
   .navbar {
     margin: 0 36px !important;
@@ -586,12 +571,6 @@ table {
   }
   .footer-button img {
     width: 36px !important;
-  }
-  .site {
-    padding: 120 px;
-  }
-  .site-main {
-    max-width: 320px;
   }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
@@ -661,7 +640,8 @@ table {
     font-size: var(--font-l) !important;
     letter-spacing: 0.87rem !important;
   }
-  .site-main {
+  .site-main,
+  .footer {
     max-width: 565px;
   }
   .site-category-list {
@@ -696,7 +676,10 @@ table {
     margin: 0 72px;
     width: 1440px !important;
   }
-  .site-main {
+  .footer {
+    max-width: 1440px !important;
+  }
+  .intro-container {
     max-width: 1440px !important;
   }
   .site-page-title h1 {
@@ -711,14 +694,22 @@ table {
   .navbar {
     margin: 0 144px !important;
   }
+  .site {
+    width: 1440px;
+  }
+  .navbar {
+    width: 1440px;
+  }
+  .intro-container {
+    width: 100% !important;
+  }
   .intro a {
     font-size: var(--font-xl) !important;
   }
-  .navbar {
-    width: 1440px !important;
-  }
-  .site-main {
-    max-width: 1440px !important;
+  .footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .recipe-title h1 {
     font-size: var(--font-xl) !important;
