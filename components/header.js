@@ -79,7 +79,7 @@ class Header extends HTMLElement {
                      <div class="menu-category">
                         <div class="menu-category-title justify-center">
                            <i class="iconoir-cpu"></i>
-                           <h2>Gadgets <em>(Coming soon!)</em></h2>
+                           <h2>Gadgets</h2>
                         </div>
                      </div>
                      <div class="menu-category-list">

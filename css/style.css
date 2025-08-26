@@ -149,6 +149,13 @@ table {
   color: var(--color-border) !important;
 }
 
+.category-section {
+  padding: 72px;
+}
+.category-section p {
+  padding: 16px 48px;
+}
+
 .comingSoon {
   color: var(--color-light) !important;
   opacity: 0.2;
@@ -200,6 +207,7 @@ table {
   font-family: "Yellowtail", monospace;
 }
 .intro p {
+  cursor: default;
   font-size: var(--font-m);
   line-height: 2rem;
 }
@@ -217,9 +225,9 @@ table {
 .site-page-title {
   display: flex;
   flex-direction: row;
-  padding: 0;
+  padding: 0 0 72px;
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xl);
+  font-size: var(--font-xxl);
   color: var(--color-light);
 }
 .site-page-title h1:after {
@@ -229,6 +237,10 @@ table {
   -moz-animation: blink-animation 1s infinite;
   -o-animation: blink-animation 1s infinite;
   content: "_";
+}
+
+.site-page-title-home {
+  padding: 0;
 }
 
 .intro a:hover,
@@ -326,6 +338,7 @@ table {
   background-color: var(--color-bg-dark);
   border-radius: 0 0 16px 16px;
   font-family: "Cutive Mono", monospace;
+  font-size: var(--font-m);
   text-indent: 1.2rem;
   box-shadow: 4px 8px 8px hsla(0, 0%, 0%, 0.38);
 }
@@ -433,7 +446,6 @@ table {
 }
 .site-section p {
   color: var(--color-site-section);
-  padding: 16px 48px;
   text-shadow: 1px 1px 2px black;
 }
 .site-section h1 {
@@ -704,6 +716,9 @@ table {
     width: 100% !important;
   }
   .intro a {
+    font-size: var(--font-l) !important;
+  }
+  .site-category-icons a {
     font-size: var(--font-xl) !important;
   }
   .footer-main {
@@ -717,9 +732,6 @@ table {
   }
   .site-page-title h1 {
     letter-spacing: 1.87rem;
-  }
-  .site-section {
-    padding: 72px;
   }
   .site-section h1 {
     font-size: var(font-xl) !important;
