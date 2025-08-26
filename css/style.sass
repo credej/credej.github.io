@@ -9,6 +9,7 @@
 @import "misc.css"
 @import "mobile.css"
 @import "post.css"
+@import "recipe.css"
 @import "variables.css"
 
 *
@@ -457,12 +458,43 @@ table
 .article-content-excerpt
   color: var(--color-border)
 
-/* S SCREEN */
+/* XXXS SCREEN - SMALL LCDS */
 
-@media screen and (min-width: 220px) and (max-width: 420px)
+@media screen and (min-width: 100px) and (max-width: 360px)
+  body,
+  .navbar
+    margin: 0 12px !important
   .navbar,
   .site-main
-    width: 320px
+    width: 100px
+  .site-section
+    padding: 12px
+    p
+      font-size: var(--font-xs)
+      padding: 12px 0
+  .site-category-icons-title
+    display: flex
+    justify-content: space-between !important
+    h1
+      font-size: var(--font-m)
+    i
+      padding-right: 18px
+  .site-category-list
+    a
+      font-size: var(--font-s)
+  .site-page-title
+    font-size: var(--font-xl)
+    padding: 0
+
+/* XXS SCREEN - SMALL PHONES */
+
+@media screen and (min-width: 360px) and (max-width: 540px)
+  body,
+  .navbar
+    margin: 0 36px !important
+  .navbar,
+  .site-main
+    width: 300px
   .site-section
     padding: 48px
     p
@@ -478,13 +510,18 @@ table
   .site-category-list
     a
       font-size: var(--font-s)
+  .site-page-title
+    font-size: var(--font-xl)
+    padding: 0
 
-@media screen and (min-width: 220px) and (max-width: 780px)
+/* XS SCREEN - LARGE PHONE & TABLET */
+
+@media screen and (min-width: 540px) and (max-width: 756px)
   body,
   .navbar
-    margin: 0 36px !important
+    margin: 0 72px !important
   .navbar
-    width: 320px
+    width: 100%
   .menu-closed
     justify-content: space-between !important
   .back-to-top
@@ -538,7 +575,9 @@ table
     h1
       font-size: var(--font-xl)
 
-@media screen and (min-width: 780px) and (max-width: 1180px)
+/* S SCREEN - TABLET & LAPTOP */
+
+@media screen and (min-width: 756px) and (max-width: 1080px)
   .hide-mobile
     display: none
   .navbar
@@ -568,12 +607,14 @@ table
   .site-section
     padding: 72px
 
-@media screen and (min-width: 1180px) and (max-width: 1440px)
-  .navbar
-    margin: 0 144px !important  
-  .navbar
-    margin: 0 72px
-    width: 1440px !important
+/* M SCREEN - TABLET & LAPTOP */
+
+@media screen and (min-width: 1080px) and (max-width: 1440px)
+  .navbar,
+  .site-main,
+  #footer
+    width: 100% !important
+    padding: 0 144px !important
   .footer
     max-width: 1440px !important
   .intro-container
@@ -584,10 +625,14 @@ table
   .site-section
     padding: 72px
 
-@media (min-width: 1440px)
+/*  L - LAPTOP */
+
+@media screen and (min-width: 1440px) and (max-width: 1980px)
   .navbar,
-  .site-main
-    width: 1440px
+  .site-main,
+  #footer
+    width: 1440px !important
+    padding: 0 144px !important
   .intro-container
     width: 100% !important
   .intro
@@ -612,3 +657,44 @@ table
       font-size: var(font-xl) !important
   .site-category-list
     padding: 24px 48px 72px
+
+/*  XL - LARGE MONITOR SIZE */
+
+@media screen and (min-width: 1440px) and (max-width: 1980px)
+  .navbar,
+  .site-main,
+  #footer
+    width: 1980px
+    padding: 0 144px !important
+  .intro-container
+    width: 100% !important
+  .intro
+    a
+      font-size: var(--font-l) !important
+  .site-category-icons
+    a
+      font-size: var(--font-xl) !important
+  .footer-main
+    display: flex
+    justify-content: center
+    align-items: center
+  .recipe-title
+    h1
+      font-size: var(--font-xl) !important
+      letter-spacing: 1rem !important
+  .site-page-title
+    h1
+      letter-spacing: 1.87rem
+  .site-section
+    h1
+      font-size: var(font-xl) !important
+  .site-category-list
+    padding: 24px 48px 72px
+
+/*  XXL - EXTRA LARGE MONITOR SIZE */
+
+@media (min-width: 1980px)
+  .navbar,
+  .site-main,
+  #footer
+    width: 2200px

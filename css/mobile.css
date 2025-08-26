@@ -151,14 +151,6 @@
     }
 }
 
-@media (max-width:800px) {
-    .site {
-        padding: 72px 24px; {
-            p {border: 1px solid rebeccapurple;}
-        }
-    }
-}
-
 @media (max-width:500px) {
     .page-head-logo>pre {
         font-size: 1.1rem;
