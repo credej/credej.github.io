@@ -118,7 +118,7 @@
 .back-to-top {
   position: fixed;
   bottom: 4rem;
-  right: 4rem;
+  left: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
