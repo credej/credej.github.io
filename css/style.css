@@ -293,30 +293,15 @@ table {
 }
 
 /* POTENTIAL OPACITY SAFARI BUG */
+.site-category-icons {
+  padding: 0 0 72px;
+}
 .site-category-icons img {
   filter: grayscale(1);
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  /* IE 5-7 */
-  filter: alpha(opacity=50);
-  /* Netscape */
-  -moz-opacity: 0.5;
-  /* Safari 1.x */
-  -khtml-opacity: 0.5;
-  /* Good browsers */
-  opacity: 0.5;
-  transition: all 0.87s ease;
-  -webkit-transition: all 0.87s ease;
+  opacity: 0.87;
 }
 .site-category-icons img:hover {
   filter: grayscale(0);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  opacity: 1;
-  transition: all 0.87s ease;
-  -webkit-transition: all 0.87s ease;
 }
 .site-category-icons span, .site-category-icons h1 {
   display: flex;
@@ -348,28 +333,18 @@ table {
 }
 
 .site-category-icons-image {
-  border-radius: 16px;
   display: flex;
 }
 .site-category-icons-image img {
-  border-radius: 16px 16px 0 0;
   cursor: pointer;
 }
 
 .site-category-icons-excerpt {
-  color: var(--color-border);
-  text-shadow: 1px 1px 2px black;
   display: flex;
-  padding: 2rem;
-  background-color: var(--color-bg-dark);
-  border-radius: 0 0 16px 16px;
-  font-family: "Cutive Mono", monospace;
+  padding: 0.5rem 0;
   font-size: var(--font-m);
   text-indent: 1.2rem;
   box-shadow: 4px 8px 8px hsla(0, 0%, 0%, 0.38);
-}
-.site-category-icons-excerpt p {
-  background-color: none;
 }
 
 .site-category-icons-title {
@@ -389,9 +364,6 @@ table {
   color: var(--color-primary) !important;
 }
 
-/*.site-category-icons-subtitle
- * color: var(--color-site-section)
- * padding: 4px 44px 0*/
 .site-category-list {
   display: flex;
   flex-direction: column;
@@ -533,12 +505,6 @@ table {
 .tooltip-container:hover::before, .tooltip-container:hover::after {
   opacity: 1;
   visibility: visible;
-}
-
-.fake-class {
-  font-family: "Cutive Mono", monospace;
-  font-family: "Courier Prime", monospace;
-  font-family: "Yellowtail", monospace;
 }
 
 @keyframes blink-animation {
@@ -813,7 +779,7 @@ table {
     font-size: var(--font-xl) !important;
   }
   .site-category-list {
-    padding: 24px 48px 72px;
+    padding: 24px 48px 48px;
   }
 }
 /*  XXL - EXTRA LARGE MONITOR SIZE */
@@ -832,5 +798,8 @@ table {
   }
   .site-category-icons i {
     font-size: var(--font-xl) !important;
+  }
+  .site-page-title h1 {
+    letter-spacing: 1rem;
   }
 }

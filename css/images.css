@@ -129,8 +129,7 @@
 }
 
 .kg-card {
-  margin: 3rem 0;
-  width: 100%;
+  margin: 6rem 0;
 }
 
 .kg-embed-card {
@@ -159,7 +158,7 @@
 }
 
 .kg-card-large {
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 
 .kg-width-full, .kg-width-wide {
