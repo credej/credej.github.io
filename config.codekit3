@@ -157,6 +157,31 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/bg.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/bg-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/bg.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/bg.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/clock.css" : {
       "aP" : 1,
       "bl" : 0,

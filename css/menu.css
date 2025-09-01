@@ -23,6 +23,10 @@
 }
 .navbar-home i {
   font-size: var(--font-l);
+  color: var(--color-border);
+}
+.navbar-home i:hover {
+  color: var(--color-retro-aqua-highlight);
 }
 
 .menu-closed {
@@ -100,7 +104,6 @@
 
 .menu-icon button {
   color: var(--color-border);
-  color: var(--color-retro-aqua);
 }
 .menu-icon button:hover {
   color: var(--color-retro-aqua-highlight);
@@ -109,6 +112,7 @@
 .menu-logo a {
   color: var(--color-border);
   color: var(--color-retro-aqua);
+  color: #ececec;
 }
 .menu-logo a:hover {
   color: var(--color-retro-aqua-highlight);

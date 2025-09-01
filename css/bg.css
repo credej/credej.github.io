@@ -1,0 +1,56 @@
+.bg-glass-original {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+}
+
+.bg-glass {
+  background: rgba(230, 230, 230, 0.05);
+  border-radius: 12px;
+}
+
+.bg-glass-blue {
+  background: rgba(0, 225, 237, 0.035);
+}
+
+.bg-glass-green {
+  background: rgba(150, 247, 109, 0.035);
+}
+
+.bg-glass-red {
+  background: rgba(217, 47, 4, 0.035);
+}
+
+.bg-glass-orange {
+  background: rgba(247, 147, 26, 0.035);
+}
+
+.bg-glass-purple {
+  background: rgba(113, 100, 255, 0.045);
+}
+
+.bg-glass-yellow {
+  background: rgba(247, 204, 21, 0.035);
+}
+
+.bg-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -9999;
+}
+
+.bg-orange {
+  background: linear-gradient(335deg, rgb(255, 140, 107) 0%, rgb(255, 228, 168) 100%);
+}
+
+.bg-green {
+  background-color: green !important;
+}
+
+.bg-cyber {
+  background: #040D19;
+  background: linear-gradient(0deg, #081526, #050E1A);
+}
