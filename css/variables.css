@@ -66,6 +66,12 @@
 }
 
 .border-blue {
+  border-image: linear-gradient(to right, #00E1FF 0%, #3a4ed5 100%) 1;
+  border-radius: 5px;
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
+  border-width: 0 0 0 18px !important;
   border: 1px solid rgba(0, 225, 237, 0.29);
   border-left: 22px solid rgba(0, 225, 237, 0.29);
 }
@@ -92,6 +98,7 @@
 .border-green {
   border: 1px solid rgba(150, 247, 109, 0.29);
   border-left: 11px solid rgba(150, 247, 109, 0.29);
+  border-radius: 12px;
 }
 
 .red {
@@ -150,4 +157,33 @@
 .border-white {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+
+.neon {
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+.neon-green {
+  animation: pulsate-green 0.11s ease-in-out infinite alternate;
+}
+
+@keyframes blink-animation {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes bg-blink-animation {
+  to {
+    background-color: transparent;
+  }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

@@ -6,7 +6,7 @@
 @import "images.css"
 @import "quotes.css"
 @import "mail.css"
-@import "menu.css"
+@import "header.css"
 @import "misc.css"
 @import "mobile.css"
 @import "post.css"
@@ -28,13 +28,6 @@ body
 table
   border-collapse: collapse
   border-spacing: 0
-
-.bg-sky
-  background-image: url("https://sky.dlazaro.ca")
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center center
-  background-attachment: fixed
 
 ::selection,
 ::-moz-selection
@@ -105,10 +98,10 @@ table
       color: var(--color-border) !important
 
 .category-section
-  padding: 48px
+  padding: 72px
   p
     padding: 16px 48px
-    color: var(--color-site-section)
+    color: var(--color-site-section)  
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
   h1
@@ -175,51 +168,16 @@ table
     font-size: var(--font-m)
     line-height: 2rem
   a
-    color: var(--color-light) !important
+    color: var(--color-retro-aqua-highlight)
+    cursor: pointer
     font-size: var(--font-m) !important
     &:hover
+      animation: blinker 1s linear infinite
       color: var(--color-light) !important
+  i
+    font-size: var(--font-xl)
   span, h1
     color: var(--color-title)
-
-.site-page-title
-  display: flex
-  flex-direction: row
-  padding: 0 0 72px
-  font-family: "Courier Prime", monospace
-  font-size: var(--font-xxl)
-  color: var(--color-light)
-  h1
-    &:after
-      padding: 15px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
-      content: "_"
-
-.site-page-title-home
-  padding: 0
-
-.intro,
-.site-section
-  a 
-    &:hover 
-      color: var(--color-retro-aqua-highlight)
-      cursor: pointer
-      animation: blinker 1s linear infinite
-
-.neon
-  animation: pulsate 0.11s ease-in-out infinite alternate
-
-.neon-green
-  animation: pulsate-green 0.11s ease-in-out infinite alternate
-
-.text-green
-  color: #d0ffcf !important
-
-.site-main
-  margin-top: 200px
 
 /* POTENTIAL OPACITY SAFARI BUG */
 .site-category-icons
@@ -243,7 +201,6 @@ table
     padding: 4px 24px 0 0
   h1
     font-size: var(--font-xl)
-    letter-spacing: 0.36rem
     font-family: "Cutive Mono", monospace
     padding: 0
     &:after
@@ -286,16 +243,36 @@ table
   a
     padding: 4px 0
 
-.menu-category-title
+.site-main
+  margin-top: 200px
+
+.site-section
+  a 
+    &:hover 
+      color: var(--color-retro-aqua-highlight)
+      cursor: pointer
+      animation: blinker 1s linear infinite
+
+.site-page-title
   display: flex
   flex-direction: row
-  align-items: center
-  color: var(--color-site-section)
-  i
-    animation: pulsate 0.11s ease-in-out infinite alternate !important
-    color: var(--color-pgh-yellow)
-    font-size: var(--font-xl)
-    padding: 0 22px 0 0 
+  padding: 0 0 48px
+  font-family: "Courier Prime", monospace
+  font-size: var(--font-xxl)
+  color: var(--color-light)
+  h1
+    cursor: default
+    letter-spacing: 1.87rem !important
+    &:after
+      padding: 15px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+
+.site-page-title-home
+  padding: 0
 
 .site-section-subtitle
   color: var( --color-border)
@@ -362,9 +339,12 @@ table
     color: var(--color-title)
   a
     color: var(--color-retro-aqua)
-    font-size: var(--font-m)
+    font-size: var(--font-l)
   a:hover
     color: var(--color-retro-aqua-highlight)
+
+.text-green
+  color: #d0ffcf !important
 
 .tooltip-container
   position: relative
@@ -400,25 +380,6 @@ table
     &::before, &::after
       opacity: 1
       visibility: visible
-
-@keyframes blink-animation
-  to
-    opacity: 0
-
-@keyframes bg-blink-animation
-  to
-    background-color: transparent
-
-@keyframes blinker 
-  50% 
-    opacity: 0.5
-
-@media screen and (prefers-reduced-motion: reduce) 
-  html 
-    scroll-behavior: auto
-
-.article-content-excerpt
-  color: var(--color-border)
 
 /* XXXS SCREEN - SMALL LCDS */
 

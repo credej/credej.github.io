@@ -15,6 +15,7 @@ class Header extends HTMLElement {
                      <i class="iconoir-face-id"></i>-->
                      <i class="iconoir-asterisk"></i>
                      <!--<p>work & other stuff</p>-->
+                     <!-- <h1 class="text-green">website name</h1> -->
                   </a>
       
                   <!-- <a href="#" class="breadcrumb">
