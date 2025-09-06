@@ -8,7 +8,7 @@
 }
 
 .quote-text {
-  background-color: var(--bg-quote);
+  background-color: var(--color-bg);
   border-radius: 16px 16px 0 16px;
   color: var(--color-light);
   cursor: default;
