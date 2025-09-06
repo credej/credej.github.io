@@ -1,5 +1,4 @@
 @import "animation.css";
-@import "bg.css";
 @import "clock.css";
 @import "footer.css";
 @import "goodeats.css";
@@ -125,8 +124,6 @@ table {
   color: var(--color-site-section);
 }
 .category-section h1 {
-  font-size: var(--font-xl);
-  letter-spacing: 0.5rem;
   text-wrap: wrap;
   word-break: break-all;
 }
@@ -237,12 +234,10 @@ table {
 .site-category-icons {
   display: flex;
   flex-wrap: wrap;
-  break-inside: avoid-column;
   /*  height: 450px */
 }
 .site-category-icons span, .site-category-icons h1 {
-  color: var(--color-title);
-  padding: 4px 24px 0 0;
+  padding: 4px 12px 0 0;
 }
 .site-category-icons h1 {
   font-size: var(--font-xl);
@@ -285,9 +280,6 @@ table {
   font-size: var(--font-xl);
   padding: 0 22px 0 0;
 }
-.site-category-icons-title h1 {
-  color: var(--color-primary) !important;
-}
 
 .site-category-list {
   display: flex;
@@ -318,7 +310,7 @@ table {
 }
 .site-page-title h1 {
   cursor: default;
-  letter-spacing: 1.87rem !important;
+  letter-spacing: 1rem;
 }
 .site-page-title h1:after {
   padding: 15px;
@@ -395,7 +387,6 @@ table {
 }
 .site-section h1 {
   font-size: var(--font-xl);
-  letter-spacing: 0.5rem;
   text-wrap: wrap;
   word-break: break-all;
 }
@@ -493,32 +484,37 @@ table {
     padding: 0;
   }
 }
-/* XXS SCREEN - SMALL PHONES */
+/* XXS SCREEN - IPHONE */
 @media screen and (min-width: 360px) and (max-width: 540px) {
+  .site-section,
+  .category-section {
+    padding: 48px !important;
+  }
   body,
   .navbar {
-    margin: 0 36px !important;
+    margin: 0 24px !important;
   }
   .navbar,
   .site-main {
-    width: 300px;
+    width: 360px;
   }
-  .site-section {
-    padding: 48px;
-  }
-  .site-section p {
+  .site-section p,
+  .contact p {
     font-size: var(--font-xs);
     padding: 12px 0;
+  }
+  .site-category-list {
+    padding: 24px 0;
+  }
+  .site-category-icons i {
+    font-size: var(--font-l) !important;
   }
   .site-category-icons-title {
     display: flex;
     justify-content: space-between !important;
   }
   .site-category-icons-title h1 {
-    font-size: var(--font-m);
-  }
-  .site-category-icons-title i {
-    padding-right: 18px;
+    font-size: var(--font-xl);
   }
   .site-category-list a {
     font-size: var(--font-s);
@@ -530,6 +526,10 @@ table {
 }
 /* XS SCREEN - LARGE PHONE & TABLET */
 @media screen and (min-width: 540px) and (max-width: 756px) {
+  .site-section,
+  .category-section {
+    padding: 48px !important;
+  }
   body,
   .navbar {
     margin: 0 72px !important;
@@ -549,7 +549,6 @@ table {
   }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
-    letter-spacing: 0.87rem !important;
   }
   .hide-mobile {
     display: none;
@@ -571,7 +570,6 @@ table {
     text-indent: 0;
   }
   .site-main h1 {
-    letter-spacing: 0.37rem;
     font-size: var(--font-m);
   }
   .site-section {
@@ -606,15 +604,23 @@ table {
 }
 /* S SCREEN - TABLET & LAPTOP */
 @media screen and (min-width: 756px) and (max-width: 1080px) {
+  .site-section,
+  .category-section {
+    padding: 48px !important;
+  }
   .hide-mobile {
     display: none;
   }
   .navbar {
     width: 565px;
   }
+  .navbar,
+  .site-main,
+  #footer {
+    padding: 0 48px !important;
+  }
   .recipe-title h1 {
     font-size: var(--font-l) !important;
-    letter-spacing: 0.87rem !important;
   }
   .site-main,
   .footer {
@@ -622,6 +628,7 @@ table {
   }
   .site-category-list {
     text-indent: 0;
+    padding: 24px 48px 48px;
   }
   .site-section p {
     text-indent: 0;
@@ -636,43 +643,45 @@ table {
     filter: grayscale(0) !important;
     opacity: 1;
   }
-  .site-page-title h1 {
-    letter-spacing: 1rem;
-  }
   .site-section {
     padding: 72px;
   }
 }
 /* M SCREEN - TABLET & LAPTOP */
 @media screen and (min-width: 1080px) and (max-width: 1440px) {
-  .site {
+  .site,
+  .site-main,
+  .footer-row {
     width: 100% !important;
   }
   .navbar,
-  .site-main,
-  #footer {
-    width: 100% !important;
+  .site {
     padding: 0 144px !important;
+    width: 100% !important;
   }
   .footer {
     max-width: 1440px !important;
   }
-  .site-page-title h1 {
-    letter-spacing: 1rem;
-  }
   .site-section {
     padding: 72px;
+  }
+  .site-category-list {
+    padding: 24px 48px 48px;
   }
 }
 /*  XL - LARGE MONITOR SIZE */
 @media screen and (min-width: 1440px) and (max-width: 2100px) {
   .site,
-  .navbar,
+  .navbar {
+    width: 1440px !important;
+  }
+  .site-main,
   #footer {
     width: 100% !important;
   }
   .site-main,
-  .navbar {
+  .navbar,
+  #footer {
     padding: 0 144px !important;
   }
   .intro a {
@@ -689,12 +698,6 @@ table {
     justify-content: center;
     align-items: center;
   }
-  .recipe-title h1 {
-    letter-spacing: 1rem !important;
-  }
-  .site-page-title h1 {
-    letter-spacing: 1.87rem;
-  }
   .site-category-list {
     padding: 24px 48px 48px;
   }
@@ -705,7 +708,6 @@ table {
   .navbar {
     width: 1980px !important;
   }
-  .navbar,
   .site-main,
   #footer {
     width: 100%;
@@ -716,8 +718,5 @@ table {
   }
   .site-category-list {
     padding: 24px 48px 48px;
-  }
-  .site-page-title h1 {
-    letter-spacing: 1rem;
   }
 }

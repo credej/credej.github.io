@@ -1,36 +1,5 @@
-@media (prefers-color-scheme:light) 
-    :root 
-      --color-primary: #d6c3c9
-      --color-title: #e0e7ff
-      --color-base: #ececec
-      --color-light: #aaa
-      --color-site-section: #717171
-      --color-border: #424242
-      --color-code-bg: #303030
-      --color-bg-dark: #070712
-      --color-bg: #0a0a16
-      --color-bg-light: #0F0F21
-      --color-bg-menu: #121222
-      --color-pgh-red: #da373d
-      --color-pgh-yellow: #ffb81c
-      --color-pgh-yellow-highlight: #facc15
-      --color-pgh-blue: #00539B
-      --color-retro-aqua: #00939B
-      --color-retro-aqua-highlight: #00E1ED
-      --color-retro-nostr: #8566ff
-      --color-retro-orangecoin: #ea673e
-      --font-xxs: 0.4rem !important
-      --font-xs: 0.8rem !important
-      --font-s: 1.0rem !important
-      --font-m: 1.1rem !important
-      --font-l: 1.3rem !important
-      --font-xl: 1.7rem !important
-      --font-xxl: 2.2rem !important
-      --bg-quote: hsla(186, 33%, 94%, 1), linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%), -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%), -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%)
-
 @media (prefers-color-scheme:dark) 
-    :root 
-      --color-primary: #d6c3c9
+    :root
       --color-title: #e0e7ff
       --color-base: #ececec
       --color-light: #aaa
@@ -42,19 +11,18 @@
       --color-bg-light: #0F0F21
       --color-pgh-red: #da373d
       --color-pgh-yellow: #ffb81c
-      --color-pgh-yellow-highlight: #facc15
       --color-pgh-blue: #00539B
       --color-retro-aqua: #00939B
       --color-retro-aqua-highlight: #00E1ED
       --color-retro-nostr: #8566ff
       --color-retro-orangecoin: #ea673e
+      --font-xxs: 0.6rem !important
       --font-xs: 0.8rem !important
       --font-s: 1.0rem !important
       --font-m: 1.1rem !important
       --font-l: 1.3rem !important
       --font-xl: 1.7rem !important
       --font-xxl: 2.2rem !important
-      --bg-quote: hsla(186, 33%, 94%, 1), linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%), -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%), -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%)
 
 .border-blue,
 .border-green,
@@ -63,74 +31,107 @@
 .border-purple,
 .border-yellow,
 .border-white
-  border-width: 8px !important
   border-style: solid
+  border-width: 0 1px 0 2px !important
   padding: 5px
+  -webkit-background-clip: padding-box  
+  background-clip: padding-box
 
 .blue,
 .blue a,
 .blue i
   color: var(--color-retro-aqua-highlight) !important
 .border-blue
-  border-image: linear-gradient(to right, #00E1FF 0%, #96f76d 100%) 1
+  border-image: linear-gradient(to right, #00E1FF 0%, #143337 100%) 1
 
 .green,
 .green a,
 .green i
   color: #96f76d !important
 .border-green
-  border-image: linear-gradient(to right, #96f76d 0%, #d92f04 100%) 1
+  border-image: linear-gradient(to right, #96f76d 0%, #1C3013 100%) 1
 
 .red,
 .red a,
 .red i
-  color: #d92f04 !important
+  color: #D9044C !important
 .border-red
-  border-image: linear-gradient(to right, #d92f04 0%, #F7931A 100%) 1 !important
+  border-image: linear-gradient(to right, #D9044C 0%, #3C1A12 100%) 1 !important
 
 .orange,
 .orange a,
 .orange i
-  color: #F7931A !important
+  color: #ea673e !important
 .border-orange
-  border-image: linear-gradient(to right, #F7931A 0%, #7164FF 100%) 1
+  border-image: linear-gradient(to right, #ea673e 0%, #342008 100%) 1
 
 .purple,
 .purple a,
 .purple i
-  color: #7164FF !important
+  color: #8566ff !important
 .border-purple
-  border-image: linear-gradient(to right, #7164FF 0%, #facc15 100%) 1
+  border-image: linear-gradient(to right, #8566ff 0%, #24204C 100%) 1
 
 .yellow,
 .yellow a,
 .yellow i
   color: #facc15 !important
 .border-yellow
-  border-image: linear-gradient(to right, #facc15 0%, #424242 100%) 1
+  border-image: linear-gradient(to right, #facc15 0%, #3B320E 100%) 1
 
 .white,
 .white a,
 .white i
   color: #ececec !important
 .border-white
-  border-image: linear-gradient(to right, #ececec 0%, #000 100%) 1
-
-.border-purple,
-.border-green,
-.border-red,
-.border-orange,
-.border-yellow,
-.border-white
-  -webkit-background-clip: padding-box  
-  background-clip: padding-box
-
+  border-image: linear-gradient(to right, #ececec 0%, #3B3B3B 100%) 1
 
 .neon
   animation: pulsate 0.11s ease-in-out infinite alternate
 
 .neon-green
   animation: pulsate-green 0.11s ease-in-out infinite alternate
+
+/* BACKGROUNDS */
+
+.bg-cyber
+  background: #040D19
+  background: linear-gradient(0deg, #081526, #050E1A)
+
+.bg-glass
+  background: rgba(230, 230, 230, .05)
+  border-radius: 12px
+
+.bg-glass-blue
+  background: rgba(0, 225, 237, .045)
+
+.bg-glass-green
+  background: rgba(150, 247, 109, .038)
+
+.bg-glass-red
+  background: rgba(217, 47, 4, .045)
+
+.bg-glass-orange
+  background: rgba(247, 147, 26, .04)
+
+.bg-glass-purple
+  background: rgba(113, 100, 255, .045)
+
+.bg-glass-yellow
+  background: rgba(247, 204, 21, .035)
+
+.bg-glass-original
+  background: rgba(255, 255, 255, .04)
+  border-radius: 12px
+
+/*.bg-home
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg')
+  background-repeat: no-repeat
+  background-position: top
+  height: 100vh
+  width: 100vw
+  position: fixed
+  z-index: -9999*/
 
 @keyframes blink-animation
   to
