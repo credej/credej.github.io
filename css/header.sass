@@ -37,7 +37,7 @@
 .menu-closed
   display: flex
   justify-content: space-between
-  margin: 24px 0
+  margin: 36px 0
 
 .menu-expanded
   display: flex
@@ -130,6 +130,13 @@
     color: var(--color-base)
   i:hover
     color: var(--color-retro-aqua-highlight)
+@media screen and (min-width: 100px) and (max-width: 360px)
+  .menu-closed
+    margin: 24px 0
+
+@media screen and (min-width: 360px) and (max-width: 540px)
+  .menu-closed
+    margin: 24px 0
 
 @media screen and (min-width: 540px) and (max-width: 756px)
   .back-to-top 

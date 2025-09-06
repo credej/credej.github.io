@@ -190,7 +190,7 @@ table {
 }
 
 .intro {
-  color: var(--color-border);
+  color: var(--color-site-section);
   margin: 36px 0;
   font-family: "Yellowtail", monospace;
 }
@@ -288,6 +288,8 @@ table {
 }
 .site-category-list a {
   padding: 4px 0;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 .site-main {
@@ -303,7 +305,7 @@ table {
 .site-page-title {
   display: flex;
   flex-direction: row;
-  padding: 0 0 48px;
+  padding: 0 0 24px;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xxl);
   color: var(--color-light);
