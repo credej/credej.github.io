@@ -275,7 +275,7 @@ table {
   color: var(--color-site-section);
 }
 .site-category-icons-title h1 {
-  letter-spacing: 0.87rem;
+  letter-spacing: rem;
 }
 .site-category-icons-title i {
   animation: pulsate 0.11s ease-in-out infinite alternate !important;
