@@ -38,8 +38,12 @@ class Header extends HTMLElement {
                   </button>
                </div>
             </div>
-
-            <button id="theme-toggle"><i class="iconoir-half-moon"></i></button>
+      
+            <input type="checkbox" id="themeSwitch" name="theme-switch" class="theme-switch__input" />
+            <label for="themeSwitch" class="theme-switch__label">
+               <span>Switch theme</span>
+            </label>
+            
             <!---------- EXPANDED MENU 1 ---------->
 
             <div id="menu-expanded" class="menu-expanded hidden fade-in">
@@ -186,15 +190,3 @@ class Header extends HTMLElement {
 }
 
 customElements.define('header-component', Header);
-
-  
-const body = document.body;
-const toggleButton = document.getElementById("theme-toggle");
-
-toggleButton.addEventListener("click", () => {
-  if (body.classList.contains("light-theme")) {
-    body.classList.replace("light-theme", "dark-theme");
-  } else {
-    body.classList.replace("dark-theme", "light-theme");
-  }
-});

@@ -21,7 +21,7 @@
                   <h1 class="text-green neon-green">Wake up, Neo</h1>
                </div>
             </div> -->
-            
+            <button id="theme-toggle"><i class="iconoir-palette blue"></i></button>
             <div class="intro">
                <div class="site-category-icons p-0">
                   <!-- <div class="white"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href=""><i class="iconoir-flash"></i></a>:</span></div> -->
@@ -419,6 +419,18 @@
         } else {
           isBackToTopRendered = false;
           alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
+   <script>
+      const body = document.body;
+      const toggleButton = document.getElementById("theme-toggle");
+
+      toggleButton.addEventListener("click", () => {
+        if (body.classList.contains("light-theme")) {
+          body.classList.replace("light-theme", "dark-theme");
+        } else {
+          body.classList.replace("dark-theme", "light-theme");
         }
       });
    </script>
