@@ -11,6 +11,10 @@
 @import "post.css";
 @import "recipe.css";
 @import "variables.css";
+:root {
+  color-scheme: light dark;
+}
+
 * {
   word-break: normal !important;
   box-sizing: border-box !important;
@@ -21,7 +25,7 @@ html {
 }
 
 body {
-  background-color: var(--color-bg);
+  background-color: light-dark(#ffe169, #0a0908);
   display: flex;
   justify-content: center;
 }
@@ -29,6 +33,10 @@ body {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+#theme-toggle {
+  font-size: var(--font-xl);
 }
 
 ::selection,
