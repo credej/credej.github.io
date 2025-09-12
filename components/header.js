@@ -38,11 +38,6 @@ class Header extends HTMLElement {
                   </button>
                </div>
             </div>
-      
-            <input type="checkbox" id="themeSwitch" name="theme-switch" class="theme-switch__input" />
-            <label for="themeSwitch" class="theme-switch__label">
-               <span>Switch theme</span>
-            </label>
             
             <!---------- EXPANDED MENU 1 ---------->
 

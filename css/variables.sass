@@ -1,43 +1,21 @@
-.light-theme
-  background-color: #fff
-  color: #000
+:root 
+  --light-text: #222430 
+  --light-bg: #d34a97
+  --light-theme: #f7f7f7 
 
-.dark-theme
-  background-color: #000
-  color: #fff
+  --dark-text: #f7f7f7 
+  --dark-bg: #bd93f9
+  --dark-theme: #222430
 
-:root
-  --color-title: #303030
-  --color-base: #424242
-  --color-light: #717171
-  --color-site-section: #aaa
-  --color-border: #ececec
-  --color-code-bg: #e0e7ff
-  --color-bg: #FBFAD4
-  --color-pgh-red: #da373d
-  --color-pgh-yellow: #ffb81c
-  --color-pgh-blue: #00539B
-  --color-retro-aqua: #00939B
-  --color-retro-aqua-highlight: #00E1ED
-  --color-retro-nostr: #8566ff
-  --color-retro-orangecoin: #ea673e
-  --font-xxs: 0.6rem !important
-  --font-xs: 0.8rem !important
-  --font-s: 1.0rem !important
-  --font-m: 1.1rem !important
-  --font-l: 1.3rem !important
-  --font-xl: 1.7rem !important
-  --font-xxl: 2.2rem !important
+  --text-color: var(--light-text)
+  --bg-color: var(--light-bg)
+  --theme-color: var(--light-theme)
 
-@media (prefers-color-scheme: dark) 
-  :root
-    --color-title: #e0e7ff
-    --color-base: #ececec
-    --color-light: #aaa
-    --color-site-section: #717171
-    --color-border: #424242
-    --color-code-bg: #303030
-    --color-bg: #000
+.theme-switch:checked ~ #page
+  --text-color: var(--dark-text) !important
+  --bg-color: var(--dark-bg) !important
+  --theme-color: var(--dark-theme) !important
+
 
 .border-blue,
 .border-green,
@@ -65,7 +43,7 @@
   color: #96f76d !important
 .border-green
   border-image: linear-gradient(to right, #96f76d 0%, #1C3013 100%) 1
-
+ 
 .red,
 .red a,
 .red i
@@ -139,8 +117,9 @@
   background: rgba(255, 255, 255, .04)
   border-radius: 12px
 
-/*.bg-home
+/*.bg-home 
   background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg')
+  background-color: var(--bg-color)
   background-repeat: no-repeat
   background-position: top
   height: 100vh
