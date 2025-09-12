@@ -10,6 +10,132 @@
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
       <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />   
+      <style>
+         /*CSS for Dark Mode Toggle
+
+Copy and paste this code into it's own dark.css file. Keep all you dark mode
+styles there, and make sure when you link to this sheet in your html head,
+make it the bottom css link tag so it overrides all other styles.
+At the bottom, that's where you start to add your dark mode styles by
+starting starting with "body.dark-mode" and add your class you want to
+target at the end. For example,
+
+body.dark-mode .heading-one {}
+
+then add your css properties like normal. That's it!
+Scroll to the bottom to start adding your dark mode styles
+
+/* Add this as it's own dark.css file and linked on all pages */
+/*-- -------------------------- -->
+<---      Core Dark Styles      -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  :root {
+    --dark: #121212;
+    --medium: #282828;
+    --accent: #404040;
+    --bodyTextColorWhite: #fafbfc;
+  }
+  body.dark-mode {
+    background-color: var(--dark);
+  }
+  body.dark-mode p,
+  body.dark-mode li,
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6,
+  body.dark-mode .cs-title,
+  body.dark-mode .cs-text,
+  body.dark-mode .cs-li {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode .light {
+    display: none;
+  }
+  body.dark-mode .dark {
+    display: block !important;
+  }
+  .dark {
+    /* class used to hide elements that only need to be seen when dark mode is enabled */
+    display: none;
+  }
+}
+/*-- -------------------------- -->
+<---      Dark Mode Toggle      -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #dark-mode-toggle .cs-sun {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  body.dark-mode #dark-mode-toggle .cs-moon {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+  #dark-mode-toggle {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3.75rem;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+  }
+  #dark-mode-toggle img,
+  #dark-mode-toggle svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.5625rem;
+    height: 1.5625rem;
+    pointer-events: none;
+  }
+  #dark-mode-toggle .cs-moon {
+    z-index: 2;
+    transition: transform 0.3s,
+                opacity 0.3s,
+                fill 0.3s;
+    fill: #000;
+  }
+  #dark-mode-toggle .cs-sun {
+    z-index: 1;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: transform 0.3s,
+                opacity 0.3s;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 64rem) {
+  #dark-mode-toggle {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    margin-left: 1.875rem;
+    margin-bottom: 0rem;
+  }
+  #dark-mode-toggle .cs-moon {
+    /* change to whatever you need it to be */
+    /* fill: #fff; */
+  }
+}
+
+/* DARK THEME STYLING */
+body.dark-mode #updates {
+    background: #000000;
+}
+</style>
    </head>
    <body>      
 
@@ -26,6 +152,12 @@
                </div>
             </div> -->
             
+            <button id="dark-mode-toggle">
+                <!--Moon is an inline SVG so you can edit the color if needed-->
+                <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/sun.svg" decoding="async" alt="sun" width="15" height="15">
+            </button>
+
             <div class="intro">
                <div class="site-category-icons p-0">
                   <!-- <div class="white"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href=""><i class="iconoir-flash"></i></a>:</span></div> -->
@@ -377,6 +509,50 @@
       </div>
 
    </body>
+   <script>
+      // Add this to your javascript file
+      //
+      //    The Dark Mode System
+      //
+      // helper functions to toggle dark mode
+      function enableDarkMode() {
+         document.body.classList.add('dark-mode');
+         localStorage.setItem('theme', 'dark');
+      }
+      function disableDarkMode() {
+         document.body.classList.remove('dark-mode');
+         localStorage.setItem('theme', 'light');
+      }
+
+      // determines a new users dark mode preferences
+      function detectColorScheme() {
+         // default to the light theme
+         let theme = 'light';
+
+         // check localStorage for a saved 'theme' variable. if it's there, the user has visited before, so apply the necessary theme choices
+         if (localStorage.getItem('theme')) {
+            theme = localStorage.getItem('theme');
+         }
+         // if it's not there, check to see if the user has applied dark mode preferences themselves in the browser
+         else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = 'dark';
+         }
+
+         // if there is no preference set, the default of light will be used. apply accordingly
+         theme === 'dark' ? enableDarkMode() : disableDarkMode();
+      }
+
+      // run on page load
+      detectColorScheme();
+
+      // add event listener to the dark mode button toggle
+      document.getElementById('dark-mode-toggle').addEventListener('click', () => {
+         // on click, check localStorage for the dark mode value, use to apply the opposite of what's saved
+         localStorage.getItem('theme') === 'light' ? enableDarkMode() : disableDarkMode();
+      });
+
+   </script>
+
    <script>
       function showAlert() {
         alert("Send me a message anytime at credej@protonmail.com");
