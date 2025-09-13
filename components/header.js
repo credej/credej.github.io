@@ -147,8 +147,6 @@ class Header extends HTMLElement {
          </div>
       </nav>
    </div>
-
-
     `;
   }
   constructor() {
@@ -185,3 +183,4 @@ class Header extends HTMLElement {
 }
 
 customElements.define('header-component', Header);
+

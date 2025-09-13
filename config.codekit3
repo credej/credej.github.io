@@ -33,24 +33,24 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
-    "\/components\/footer-min.js" : {
+    "\/components\/darkmode-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/components\/footer-min-min.js",
+      "oAP" : "\/components\/darkmode-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/components\/footer.js" : {
+    "\/components\/darkmode.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/components\/footer-min.js",
+      "oAP" : "\/components\/darkmode-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -226,7 +226,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/css\/header-min.css",
       "oF" : 0,
       "pg" : 0

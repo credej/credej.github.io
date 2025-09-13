@@ -11,6 +11,7 @@
 @import "post.css";
 @import "recipe.css";
 @import "variables.css";
+@import "darkmode.css";
 * {
   word-break: normal !important;
   box-sizing: border-box !important;

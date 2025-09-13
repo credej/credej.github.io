@@ -1,21 +1,3 @@
-:root {
-  --light-text: #222430;
-  --light-bg: #d34a97;
-  --light-theme: #f7f7f7;
-  --dark-text: #f7f7f7;
-  --dark-bg: #bd93f9;
-  --dark-theme: #222430;
-  --text-color: var(--light-text);
-  --bg-color: var(--light-bg);
-  --theme-color: var(--light-theme);
-}
-
-.theme-switch:checked ~ #page {
-  --text-color: var(--dark-text) !important;
-  --bg-color: var(--dark-bg) !important;
-  --theme-color: var(--dark-theme) !important;
-}
-
 .border-blue,
 .border-green,
 .border-red,
