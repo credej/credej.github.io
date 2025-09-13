@@ -10,101 +10,20 @@
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
       <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />   
-      <style>
-      /*CSS for Dark Mode Toggle
-
-      Copy and paste this code into it's own dark.css file. Keep all you dark mode
-      styles there, and make sure when you link to this sheet in your html head,
-      make it the bottom css link tag so it overrides all other styles.
-      At the bottom, that's where you start to add your dark mode styles by
-      starting starting with "body.dark-mode" and add your class you want to
-      target at the end. For example,
-
-      body.dark-mode .heading-one {}
-
-      then add your css properties like normal. That's it!
-      Scroll to the bottom to start adding your dark mode styles
-
-      /* Add this as it's own dark.css file and linked on all pages */
-      /*-- -------------------------- -->
-      <---      Core Dark Styles      -->
-      <--- -------------------------- -*/
-      /* Mobile */
-      @media only screen and (min-width: 0rem) {
-        body.dark-mode {
-          background-color: black !important;
-          color: white;
-        }
-      /*-- -------------------------- -->
-      <---      Dark Mode Toggle      -->
-      <--- -------------------------- -*/
-      /* Mobile */
-      @media only screen and (min-width: 0rem) {
-        body.dark-mode #dark-mode-toggle .cs-sun {
-          transform: translate(-50%, -50%);
-          opacity: 1;
-        }
-        body.dark-mode #dark-mode-toggle .cs-moon {
-          transform: translate(-50%, -150%);
-          opacity: 0;
-        }
-        #dark-mode-toggle {
-          display: block;
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          right: 3.75rem;
-          width: 3rem;
-          height: 3rem;
-          background: transparent;
-          border: none;
-          overflow: hidden;
-          padding: 0;
-        }
-        #dark-mode-toggle img,
-        #dark-mode-toggle svg {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 1.5625rem;
-          height: 1.5625rem;
-          pointer-events: none;
-        }
-        #dark-mode-toggle .cs-moon {
-          z-index: 2;
-          transition: transform 0.1s,
-                      opacity 0.1s,
-                      fill 0.1s;
-          fill: #000;
-        }
-        #dark-mode-toggle .cs-sun {
-          z-index: 1;
-          transform: translate(-50%, 100%);
-          opacity: 0;
-          transition: transform 0.1s,
-                      opacity 0.1s;
-        }
-      }
-
-      /* LIGHT THEME STYLING */
-      body, i {
-         background-color: #ececec !important;
-         color: black;
-      }
-
-      </style>
    </head>
-   <body>      
+   <body>
       <div id="page" class="site">
          <header-component></header-component>
          <div class="bg-home"></div>
          <div class="site-main">
-            <!-- <div class="intro">
+
+            <!-- 
+            <div class="intro">
                <div class="site-page-title">
                   <h1 class="text-green neon-green">Wake up, Neo</h1>
                </div>
-            </div> -->
+            </div> 
+            -->
             
             <button id="dark-mode-toggle">
                 <!--Moon is an inline SVG so you can edit the color if needed-->
@@ -377,11 +296,12 @@
                   </div>
                </div>
             </div>
-         </div>
 
-         <!-- CONTACT -->
-         <!-- EMAIL OPENING EFFECT -->
-         <!-- <div class="letter-image" style="z-index: 9999 !important;">
+          </div>
+
+          <!-- CONTACT -->
+          <!-- EMAIL OPENING EFFECT -->
+          <!-- <div class="letter-image" style="z-index: 9999 !important;">
             <div class="animated-mail">
                <div class="back-fold"></div>
                <div class="letter">
@@ -397,9 +317,9 @@
                <div class="left-fold"></div>
             </div>
             <div class="shadow"></div>
-         </div> -->         
-         <div id="footer">tr
-            <div class="footer" class="anchor">ds
+          </div> -->         
+          <div id="footer">
+            <div class="footer" class="anchor">
                <div class="footer-main">
                   <div class="footer-row footer-row-title">
                      <!-- <i class="iconoir-telegram"></i>
@@ -449,70 +369,29 @@
                         <a href="/pages/travel/index.html">Location</a>
                      </div>
                   </div>
-               </div>
+                </div>
 
-               <div class="footer-button">
-                  <a href="#top" class="back-to-top" title="Back to Top">
-                     <img src="/images/arrow-up.svg" alt="Back to Top" height="44" width="44" />
-                  </a>
-               </div>
-
-               <footer-component></footer-component>
+                <div class="footer-button">
+                    <a href="#top" class="back-to-top" title="Back to Top">
+                       <img src="/images/arrow-up.svg" alt="Back to Top" height="44" width="44" />
+                    </a>
+                </div>
+                <footer-component></footer-component>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
+  </body>
+  <script>
 
-   </body>
-   <script>
-      // Add this to your javascript file
-      //
-      //    The Dark Mode System
-      //
-      // helper functions to toggle dark mode
-      function enableDarkMode() {
-         document.body.classList.add('dark-mode');
-         localStorage.setItem('theme', 'dark');
-      }
-      function disableDarkMode() {
-         document.body.classList.remove('dark-mode');
-         localStorage.setItem('theme', 'light');
-      }
+  </script>
 
-      // determines a new users dark mode preferences
-      function detectColorScheme() {
-         // default to the light theme
-         let theme = 'light';
-
-         // check localStorage for a saved 'theme' variable. if it's there, the user has visited before, so apply the necessary theme choices
-         if (localStorage.getItem('theme')) {
-            theme = localStorage.getItem('theme');
-         }
-         // if it's not there, check to see if the user has applied dark mode preferences themselves in the browser
-         else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            theme = 'dark';
-         }
-
-         // if there is no preference set, the default of light will be used. apply accordingly
-         theme === 'dark' ? enableDarkMode() : disableDarkMode();
-      }
-
-      // run on page load
-      detectColorScheme();
-
-      // add event listener to the dark mode button toggle
-      document.getElementById('dark-mode-toggle').addEventListener('click', () => {
-         // on click, check localStorage for the dark mode value, use to apply the opposite of what's saved
-         localStorage.getItem('theme') === 'light' ? enableDarkMode() : disableDarkMode();
-      });
-
-   </script>
-
-   <script>
+  <script>
       function showAlert() {
         alert("Send me a message anytime at credej@protonmail.com");
       }
-   </script>
-   <script>
+  </script>
+  <script>
       const handleFirstTab = (e) => {
         if(e.key === 'Tab') {
           document.body.classList.add('user-is-tabbing')
@@ -552,5 +431,6 @@
           alterStyles(isBackToTopRendered);
         }
       });
-   </script>
+  </script>
+  <script src="/components/darktheme.js" type="text/javascript"></script>
 </html>

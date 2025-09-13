@@ -33,24 +33,13 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
-    "\/components\/darkmode-min.js" : {
+    "\/components\/darktheme.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/components\/darkmode-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/components\/darkmode.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/components\/darkmode-min.js",
+      "oAP" : "\/components\/darktheme-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -166,6 +155,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/clock-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/darktheme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/darktheme-min.css",
       "oF" : 0,
       "pg" : 0
     },
