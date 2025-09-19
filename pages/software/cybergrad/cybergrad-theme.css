@@ -1,0 +1,13 @@
+/* LIGHT MODE */
+body {
+  background-color: orange !important;
+  color: black;
+}
+
+/* DARK MODE */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode {
+    background-color: green !important;
+    color: white;
+  }
+}

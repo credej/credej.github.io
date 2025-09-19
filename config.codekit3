@@ -33,6 +33,17 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
+    "\/components\/darktheme-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/darktheme-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/components\/darktheme.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -158,6 +169,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/darktheme-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/darktheme-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/darktheme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -165,7 +188,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/css\/darktheme-min.css",
       "oF" : 0,
       "pg" : 0
@@ -426,6 +449,31 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/themes.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/themes-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/themes.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/themes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1668,131 +1716,6 @@
       "oAP" : "\/pages\/diy\/homehacking\/index.html",
       "oF" : 0
     },
-    "\/pages\/diy\/nostr\/images\/diy-orangeclock.jpg" : {
-      "ft" : 16384,
-      "iS" : 194382,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-orangeclock.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-pironman-1-web.jpg" : {
-      "ft" : 16384,
-      "iS" : 82353,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-1-web.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-pironman-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 216451,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-pironman-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 673748,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-pironman-pi5.jpg" : {
-      "ft" : 16384,
-      "iS" : 92071,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-pironman-pi5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembled.jpg" : {
-      "ft" : 16384,
-      "iS" : 1134152,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembled.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 777669,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly.jpg" : {
-      "ft" : 16384,
-      "iS" : 1343091,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-assembly.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/images\/diy-seedsigner-pi-pico-w-wifi.jpg" : {
-      "ft" : 16384,
-      "iS" : 230918,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/images\/diy-seedsigner-pi-pico-w-wifi.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/diy\/nostr\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/diy\/nostr\/index.html",
-      "oF" : 0
-    },
     "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg" : {
       "ft" : 16384,
       "iS" : 2172271,
@@ -2499,6 +2422,31 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/software\/cybergrad\/cybergrad-theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/cybergrad-theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/pages\/software\/cybergrad\/cybergrad-theme.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/cybergrad-theme.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
     },
     "\/pages\/software\/cybergrad\/img\/cybergrad-404.png" : {
       "ft" : 32768,
