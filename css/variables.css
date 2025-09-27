@@ -140,17 +140,15 @@
   border-radius: 12px;
 }
 
-.bg-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url("/images/header.jpg") !important;
-  background-color: var(--bg-color);
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  z-index: -9999;
-}
-
+/*.bg-home
+ * background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg') !important s
+ * background-color: var(--bg-color)
+ * background-repeat: no-repeat
+ * background-position: top
+ * height: 100vh
+ * width: 100vw
+ * position: fixed
+ * z-index: -9999*/
 @keyframes blink-animation {
   to {
     opacity: 0;

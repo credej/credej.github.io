@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang=en>
    <head>
       <title>test</title>
@@ -18,7 +18,7 @@
    </head>
 <style>
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
  @-webkit-keyframes ticker {
     0% {
@@ -134,9 +134,21 @@
 
       <div class="ticker-wrap">
          <div class="ticker">
-           <div class="ticker__item"><a href="https://www.tysonfoods.com/news/news-releases/2023/10/tyson-foods-announces-partnership-protix-more-sustainable-protein" target="_blank">Tyson Foods announces partnership with leading global insect ingredients company... </a></div>
-           <div class="ticker__item"><a href="https://www.youtube.com/results?search_query=nhl+game+highlights" target="_blank">NHL playoff highlights... </a></div>
-           <div class="ticker__item"><a href="https://www.theguardian.com/environment/2025/apr/22/uk-scientists-outdoor-geoengineering-experiments" target="_blank"></span>Bill Gates to block out the sun... </a></div>
+           <div class="ticker__item">
+               <a>version 0.1</a>
+            </div>
+           <div class="ticker__item">
+               <a><span id="time"></span></a>
+            </div>
+            <div class="ticker__item">
+               <a href="https://www.tysonfoods.com/news/news-releases/2023/10/tyson-foods-announces-partnership-protix-more-sustainable-protein" target="_blank">Tyson Foods announces partnership with leading global insect ingredients company... </a>
+            </div>
+            <div class="ticker__item">
+               <a href="https://www.youtube.com/results?search_query=nhl+game+highlights" target="_blank">NHL playoff highlights... </a>
+            </div>
+            <div class="ticker__item">
+               <a href="https://www.theguardian.com/environment/2025/apr/22/uk-scientists-outdoor-geoengineering-experiments" target="_blank"></span>Bill Gates to block out the sun... </a>
+            </div>
          </div>
       </div>
       
@@ -390,5 +402,9 @@
           }
       });
       var Canvas = new Banner_WormHole;
+   </script>
+   <script>
+   var today = new Date();
+      document.getElementById('time').innerHTML=today;
    </script>
 </html>
