@@ -1,21 +1,29 @@
-/* DARK MODE TOGGLE (set to dark by default) */
+/* LIGHT MODE STYLING */
 
 body
    background-color: #D0D0D0 !important
    color: black
 
-body.dark-mode 
-  background-color: #1BA098 !important
-  color: white
+/* DARK MODE STYLING */
 
-body.dark-mode #dark-mode-toggle
-  .cs-sun
-    transform: translate(-50%, -50%)
-    opacity: 1
-  .cs-moon
-    transform: translate(-50%, -150%)
-    opacity: 0
-  
+body.dark-mode 
+  background-color: #23282B !important
+  color: white
+  #navbar
+    background-color: #23282B !important
+
+/* DARK MODE TOGGLE */
+/* SET TO DARK BY DEFAULT */
+
+body.dark-mode 
+  #dark-mode-toggle
+    .cs-sun
+      transform: translate(-50%, -50%)
+      opacity: 1
+    .cs-moon
+      transform: translate(-50%, -150%)
+      opacity: 0
+
 #dark-mode-toggle
   display: block
   position: absolute

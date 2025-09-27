@@ -129,6 +129,8 @@ table {
   color: var(--color-site-section);
 }
 .category-section h1 {
+  font-size: var(--font-xl);
+  letter-spacing: 0.87rem;
   text-wrap: wrap;
   word-break: break-all;
 }
@@ -396,7 +398,6 @@ table {
   text-shadow: 1px 1px 2px black;
 }
 .site-section h1 {
-  font-size: var(--font-xl);
   text-wrap: wrap;
   word-break: break-all;
 }
@@ -684,6 +685,7 @@ table {
   .site,
   .navbar {
     width: 1440px !important;
+    width: 100% !important;
   }
   .site-main,
   #footer {
