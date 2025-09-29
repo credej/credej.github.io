@@ -7,10 +7,6 @@ body {
 /* DARK MODE STYLING */
 body.dark-mode {
   background-color: #23282B !important;
-  color: white;
-}
-body.dark-mode #navbar {
-  background-color: #23282B !important;
 }
 
 /* DARK MODE TOGGLE */

@@ -258,12 +258,14 @@ table
 
 .site-page-title
   display: flex
+  align-items: center
   flex-direction: row
   padding: 0 0 24px
   font-family: "Courier Prime", monospace
-  font-size: var(--font-xxl)
+  font-size: var(--font-xl)
   color: var(--color-light)
   h1
+    color: white !important
     cursor: default
     letter-spacing: 1rem
     &:after
@@ -273,12 +275,21 @@ table
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
+  h3
+    color: white
+    font-size: var(--font-l) !important
+  span
+    color: white !important
+    font-size: var(--font-xl) !important
+    margin-right: 24px
+  .hashtag
+    color: var(--color-title-hashtag) !important
+    margin-left: 24px
 
 .site-page-title-home
   padding: 0
 
 .site-section-subtitle
-  color: var( --color-border)
   display: flex
   align-items: center
   i
@@ -328,6 +339,7 @@ table
   font-size: var(--font-s) !important
   p
     color: var( --color-site-section)
+    margin: 12px 0 !important
     text-shadow: 1px 1px 2px black
   h1
     text-wrap: wrap
