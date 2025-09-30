@@ -1,3 +1,7 @@
+#dark-mode-toggle {
+  cursor-style: pointer;
+}
+
 /* LIGHT MODE STYLING */
 body {
   background-color: #D0D0D0 !important;
