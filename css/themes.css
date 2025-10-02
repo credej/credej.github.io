@@ -10,7 +10,7 @@ body {
 
 /* DARK MODE STYLING */
 body.dark-mode {
-  background-color: #23282B !important;
+  background-color: var(--color-blue-storm) !important;
 }
 
 /* DARK MODE TOGGLE */
@@ -26,16 +26,11 @@ body.dark-mode #dark-mode-toggle .cs-moon {
 
 #dark-mode-toggle {
   display: block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 3.75rem;
-  width: 3rem;
-  height: 3rem;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   border: none;
-  overflow: hidden;
-  padding: 0;
 }
 #dark-mode-toggle img, #dark-mode-toggle svg {
   position: absolute;
@@ -86,13 +81,6 @@ body.dark-mode .dark {
 }
 
 @media only screen and (min-width: 64rem) {
-  #dark-mode-toggle {
-    position: relative;
-    top: auto;
-    right: auto;
-    transform: none;
-    margin-bottom: 0rem;
-  }
   #dark-mode-toggle .cs-moon {
     fill: pink;
   }

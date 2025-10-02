@@ -8,40 +8,43 @@ class Header extends HTMLElement {
             <!---------- MENU COMPACT ---------->
 
             <div class="menu-closed">
-               <div class="menu-logo flex flex-start">
-                  <a href="/index.html" class="navbar-home">
-                     <!-- 
-                     <i class="iconoir-arcade"></i>
-                     <i class="iconoir-face-id"></i>-->
-                     <i class="iconoir-asterisk"></i>
-                     <!--<p>work & other stuff</p>-->
-                     <!-- <h1 class="text-green">website name</h1> -->
-                  </a>
-      
-                  <!-- <a href="#" class="breadcrumb">
-                     <div class=breadcrumb-section">-> parent breadcrumb&nbsp;</div>
-                  </a>
-                  <a href="#" class="breadcrumb">
-                     <div class=breadcrumb-section">-> current page</div>
-                  </a> -->
-               </div>
 
-               <button id="dark-mode-toggle">
-                   <!--Moon is an inline SVG so you can edit the color if needed-->
-                   <svg class="cs-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
-                   <img class="cs-moon" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/sun.svg" decoding="async" alt="sun" width="15" height="15">
-               </button>
-
-               <div class="menu-icon flex flex-end">
-                  <button id="menu-button" class="navbar-home flex items-center text-gray-700 neon">
-                     <i class="iconoir-menu"></i>
-                     <!-- <i class="iconoir-dice-two"></i>
-                     <i class="iconoir-dice-one"></i> -->
-                     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-                     </svg> -->
+               <div class="menu-container">
+                  <button id="dark-mode-toggle">
+                     <!--Moon is an inline SVG so you can edit the color if needed-->
+                     <svg class="cs-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                     <img class="cs-moon" style="color: blue !important; fill: blue !important" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/sun.svg" decoding="async" alt="sun" width="15" height="15">
                   </button>
                </div>
+
+               <div class="menu-container">
+                  <div class="menu-logo flex flex-start">
+                     <a href="/index.html" class="navbar-home">
+                        <p>work & other stuff</p>
+                     </a>
+         
+                     <!-- <a href="#" class="breadcrumb">
+                        <div class=breadcrumb-section">-> parent breadcrumb&nbsp;</div>
+                     </a>
+                     <a href="#" class="breadcrumb">
+                        <div class=breadcrumb-section">-> current page</div>
+                     </a> -->
+                  </div>
+               </div>
+
+               <div class="menu-container">
+                  <div class="menu-icon flex flex-end">
+                     <button id="menu-button" class="navbar-home flex items-center text-gray-700 neon">
+                        <i class="iconoir-menu"></i>
+                        <!-- <i class="iconoir-dice-two"></i>
+                        <i class="iconoir-dice-one"></i> -->
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg> -->
+                     </button>
+                  </div>
+               </div>
+
             </div>
             
             <!---------- EXPANDED MENU 1 ---------->

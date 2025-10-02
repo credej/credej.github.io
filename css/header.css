@@ -34,7 +34,6 @@
 }
 .menu-category-title i {
   animation: pulsate 0.11s ease-in-out infinite alternate !important;
-  color: var(--color-pgh-yellow);
   font-size: var(--font-xl);
   padding: 0 22px 0 0;
 }
@@ -42,6 +41,7 @@
 .menu-closed {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 36px 0;
 }
 
@@ -108,20 +108,26 @@
   text-align: right;
 }
 
-.menu-icon button {
-  color: var(--color-border);
+.menu-icon i {
+  color: var(--color-title-light);
 }
-.menu-icon button:hover {
+.menu-icon i:hover {
   color: var(--color-retro-aqua-highlight);
 }
 
 .menu-logo a {
-  color: var(--color-border);
-  color: var(--color-retro-aqua);
-  color: #ececec;
+  color: var(--color-title-light);
+  color: black;
+  font-weight: 900;
 }
 .menu-logo a:hover {
   color: var(--color-retro-aqua-highlight);
+}
+.menu-logo i {
+  font-size: var(--font-l);
+}
+.menu-logo p {
+  font-size: var(--font-l);
 }
 
 #navbar {
@@ -133,7 +139,7 @@
   right: 0;
   z-index: 9999;
   /*  border-bottom: 7px solid var(--color-bg)*/
-  box-shadow: 4px 4px 17px 14px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 17px 14px rgba(0, 0, 0, 0.29);
   /*  background: linear-gradient(to right, #451056, orange) !important*/
 }
 
@@ -145,13 +151,6 @@
 .navbar-home li a {
   font-family: "Cutive Mono", monospace !important;
   padding: 0 0 0 12px;
-}
-.navbar-home i {
-  font-size: var(--font-l);
-  color: var(--color-base);
-}
-.navbar-home i:hover {
-  color: var(--color-retro-aqua-highlight);
 }
 
 @media screen and (min-width: 100px) and (max-width: 360px) {

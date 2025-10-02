@@ -30,13 +30,13 @@
   color: var(--color-site-section)
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
-    color: var(--color-pgh-yellow)
     font-size: var(--font-xl)
     padding: 0 22px 0 0 
 
 .menu-closed
   display: flex
   justify-content: space-between
+  align-items: center
   margin: 36px 0
 
 .menu-expanded
@@ -92,18 +92,22 @@
   text-align: right
 
 .menu-icon
-  button
-    color: var(--color-border)
-  button:hover
+  i
+    color: var( --color-title-light)
+  i:hover
     color: var(--color-retro-aqua-highlight)
 
 .menu-logo
   a
-    color: var(--color-border)
-    color: var(--color-retro-aqua)
-    color: #ececec
+    color: var( --color-title-light)
+    color: black
+    font-weight: 900
   a:hover
     color: var(--color-retro-aqua-highlight)
+  i
+    font-size: var(--font-l)
+  p
+    font-size: var(--font-l)
 
 #navbar
   backdrop-filter: blur(187px)
@@ -125,11 +129,6 @@
     a
       font-family: "Cutive Mono", monospace !important
       padding: 0 0 0 12px
-  i
-    font-size: var(--font-l)
-    color: var(--color-base)
-  i:hover
-    color: var(--color-retro-aqua-highlight)
 @media screen and (min-width: 100px) and (max-width: 360px)
   .menu-closed
     margin: 24px 0
