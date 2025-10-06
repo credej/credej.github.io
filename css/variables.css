@@ -26,7 +26,7 @@
 .border-yellow,
 .border-white {
   border-style: solid;
-  border-width: 0 1px 0 2px !important;
+  border-width: 0 1px 2px 2px !important;
   padding: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -39,7 +39,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to right, #00E1FF 0%, #143337 100%) 1;
+  border-image: linear-gradient(to left, #00E1FF 0%, #143337 100%) 1;
 }
 
 .green,
@@ -49,7 +49,7 @@
 }
 
 .border-green {
-  border-image: linear-gradient(to right, #96f76d 0%, #1C3013 100%) 1;
+  border-image: linear-gradient(to left, #96f76d 0%, #1C3013 100%) 1;
 }
 
 .red,
@@ -59,7 +59,7 @@
 }
 
 .border-red {
-  border-image: linear-gradient(to right, #D9044C 0%, #3C1A12 100%) 1 !important;
+  border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important;
 }
 
 .orange,
@@ -69,7 +69,7 @@
 }
 
 .border-orange {
-  border-image: linear-gradient(to right, #ea673e 0%, #342008 100%) 1;
+  border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1;
 }
 
 .purple,
@@ -79,7 +79,7 @@
 }
 
 .border-purple {
-  border-image: linear-gradient(to right, #8566ff 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1;
 }
 
 .yellow,
@@ -89,7 +89,7 @@
 }
 
 .border-yellow {
-  border-image: linear-gradient(to right, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
 }
 
 .white,
@@ -99,7 +99,7 @@
 }
 
 .border-white {
-  border-image: linear-gradient(to right, #ececec 0%, #3B3B3B 100%) 1;
+  border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1;
 }
 
 .neon {
