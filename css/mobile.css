@@ -113,12 +113,6 @@
     }
 }
 
-@media (max-height:1000px) {
-    .site-head-scrolldown>.text-flashing {
-        display: block
-    }
-}
-
 @media (max-width:850px) {
     .site-head {
         padding: 0 0 20px

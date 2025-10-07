@@ -1,8 +1,4 @@
 
-.border-red {
-  border: 1px solid red !important;
-}
-
 
 /*   
 
@@ -513,17 +509,6 @@ input
 
 
 /*
-
-
-.site-head-scrolldown
-  display: block
-  height: 2.1rem
-  width: 100%
-  > .text-flashing
-    animation: blink-animation .9s infinite
-    -webkit-animation: blink-animation .9s infinite
-    -moz-animation: blink-animation .9s infinite
-    -o-animation: blink-animation .9s infinite
 
 .site-head
   font-family: "Cutive Mono", monospace

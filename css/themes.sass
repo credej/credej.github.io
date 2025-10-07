@@ -5,7 +5,7 @@
 
 body
    background-color: #D0C7A0 !important
-   color: black
+   color: var(--color-blue-baltic-sea)
 
 /* DARK MODE STYLING */
 
@@ -31,6 +31,7 @@ body.dark-mode
   height: 2rem
   background: transparent
   border: none
+  fill: #fcf0ae !important
   img, svg
     position: absolute
     top: 50%
@@ -42,7 +43,6 @@ body.dark-mode
   .cs-moon
     z-index: 2
     transition: transform 0s, opacity 0s, fill 0s
-    fill: #000
   .cs-sun
     z-index: 1
     transform: translate(-50%, 100%)
@@ -64,7 +64,7 @@ body.dark-mode h6,
 body.dark-mode .cs-title,
 body.dark-mode .cs-text,
 body.dark-mode .cs-li 
-  color: #D0D0D0
+  color: var(--color-grey-1)
 
 body.dark-mode .light 
   display: none
