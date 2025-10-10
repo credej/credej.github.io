@@ -215,31 +215,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/css\/footer.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/footer-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/footer.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
     "\/css\/goodeats.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -261,31 +236,6 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/goodeats.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/css\/header.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/header-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/header.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
