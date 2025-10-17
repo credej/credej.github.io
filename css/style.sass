@@ -252,15 +252,15 @@ img
     text-decoration: underline
     text-decoration-style: dotted
 
-.site-main
-  margin-top: 250px
+/*.site-main
+  margin-top: 250px*/
 
 .site-section
   a 
     &:hover 
       color: var(--color-retro-aqua-highlight)
       cursor: pointer
-      animation: blinker 1s linear infinite
+      animation: blinker 1s linear infinite  
 
 .site-page-title
   display: flex
@@ -470,15 +470,15 @@ img
 /* XS SCREEN - LARGE PHONE & TABLET */
 
 @media screen and (min-width: 540px) and (max-width: 756px)
-  body,
-  .navbar
-    margin: 0 24px !important
-  .back-to-top
-    right: 1rem
-    bottom: 1rem
-  .category-section,
+  .site-section,
+  .category-section
+    padding: 72px !important
+  #footer,
+  .navbar,
+  .site-main
+    padding: 0 72px !important
   .site-section
-    padding: 48px !important
+    margin: 0 72px
   #footer,
   .navbar,
   .site-main
@@ -486,15 +486,8 @@ img
   .footer-button
     img
       width: 36px !important
-  .hide-mobile
-    display: none
   .menu-closed
     justify-content: space-between !important
-  .navbar
-    width: 100%
-  .recipe-title
-    h1
-      font-size: var(--font-l) !important
   .site-category-icons
     display: flex
     justify-content: flex-start
@@ -536,35 +529,14 @@ img
 /* S SCREEN - TABLET & LAPTOP */
 
 @media screen and (min-width: 756px) and (max-width: 1080px)
-  .site-section,
-  .category-section
-    padding: 48px !important
-  .hide-mobile
-    display: none
-  .navbar
-    width: 100%
   #footer,
   .navbar,
-  .site-main
-    padding: 0 72px !important
-  .recipe-title
-    h1
-      font-size: var(--font-l) !important
+  .site-main,
+  .site-section
+    margin-left: 72px
+    margin-right: 72px
   .site-category-list
-    text-indent: 0
     padding: 24px 48px 48px
-  .site-section
-    p
-      text-indent: 0
-    .site-page-title
-      padding: 0 
-      span
-        margin-left: 24px
-  .site-category-icons-container
-    filter: grayscale(0) !important
-    opacity: 1
-  .site-section
-    padding: 72px
 
 /* M SCREEN - TABLET & LAPTOP */
 
@@ -574,6 +546,7 @@ img
     width: 100% !important
   #footer,
   .site-main,
+  .site-section-container,
   .navbar
     padding: 0 144px !important
     width: 100% !important
@@ -588,17 +561,16 @@ img
 
 @media screen and (min-width: 1440px) and (max-width: 1980px)
   #footer,
-  .site-main,
-  .navbar
+  .site-main
     width: 100% !important
   #footer,
   .site-main,
+  .site-section-container,
   .navbar
     padding: 0 192px !important
   .intro
     a
       font-size: var(--font-l) !important
-  .recipe-title h1,
   .site-category-icons a,
   .site-category-icons i,
   .site-section h1
@@ -613,8 +585,6 @@ img
 /*  XXL - EXTRA LARGE MONITOR SIZE */
 
 @media (min-width: 1980px)
-  .navbar
-    width: 100% !important
   #footer,
   .site-main,
   .navbar
@@ -741,6 +711,9 @@ img
   /*  border-bottom: 7px solid var(--color-bg)*/
   box-shadow: 4px 4px 17px 14px rgba(0,0,0,0.29)
   /*  background: linear-gradient(to right, #451056, orange) !important*/
+
+.navbar
+  width: 100%
 
 .navbar-home
   display: flex
