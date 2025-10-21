@@ -13,10 +13,6 @@
 @import "variables.css"
 @import "themes.css"
 
-*
-  word-break: normal !important
-  box-sizing: border-box !important
-
 html
   scroll-behavior: smooth
 
@@ -541,17 +537,11 @@ img
 /* M SCREEN - TABLET & LAPTOP */
 
 @media screen and (min-width: 1080px) and (max-width: 1440px)
-  .site-main,
-  .footer-row
-    width: 100% !important
   #footer,
   .site-main,
   .site-section-container,
   .navbar
     padding: 0 144px !important
-    width: 100% !important
-  .footer
-    max-width: 1440px !important
   .site-section
     padding: 72px
   .site-category-list
@@ -560,9 +550,6 @@ img
 /*  XL - LARGE MONITOR SIZE */
 
 @media screen and (min-width: 1440px) and (max-width: 1980px)
-  #footer,
-  .site-main
-    width: 100% !important
   #footer,
   .site-main,
   .site-section-container,
@@ -587,6 +574,7 @@ img
 @media (min-width: 1980px)
   #footer,
   .site-main,
+  .site-section-container,
   .navbar
     padding: 0 384px !important
   .site-main,
