@@ -110,7 +110,6 @@ img
   font-size: var(--font-s) !important
   h1
     font-size: var(--font-xl)
-    letter-spacing: 0.87rem
     text-wrap: wrap
     word-break: break-all
   h2
@@ -167,7 +166,6 @@ img
   color: var(--color-site-section)
   margin: 36px 0
   font-family: "Yellowtail", monospace
-  text-align: justify
   p
     cursor: default
     font-size: var(--font-m)
@@ -430,17 +428,28 @@ img
 /* XXS SCREEN - IPHONE */
 
 @media screen and (min-width: 360px) and (max-width: 540px)
-  body,
-  .site-section,
-  .category-section
-    padding: 0 24px !important
-  body,
+  #footer,
+  .site-main,
+  .site-section-container,
   .navbar
-    margin: 0 24px !important
-  .navbar
-    width: 360px
+    padding: 0 38px !important
+    max-width: 400px
+  #footer,
   .site-main
-    max-width: 160px
+    width: 100%
+  .category-section
+    padding: 36px
+  .intro
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0
+    text-align: center
+    p
+      font-size: var(--font-m) !important
+      line-height: 1.69rem
+  .site-main
+    margin-top: 150px
   .site-section,
   .contact
     p
@@ -449,13 +458,12 @@ img
   .site-category-list
     padding: 24px 0
   .site-category-icons
+    margin-bottom: 24px
     i
       font-size: var(--font-l) !important
   .site-category-icons-title
-    display: flex
-    justify-content: space-between !important
     h1
-      font-size: var(--font-xl)
+      font-size: var(--font-l)
   .site-category-list
     a
       font-size: var(--font-s)
@@ -556,12 +564,16 @@ img
   .navbar
     padding: 0 192px !important
   .intro
+    text-align: justify
     a
       font-size: var(--font-l) !important
   .site-category-icons a,
   .site-category-icons i,
   .site-section h1
     font-size: var(--font-xl) !important
+  .site-category-icons-title
+    h1
+      letter-spacing: 0.52rem
   .footer-main
     display: flex
     justify-content: center
@@ -574,17 +586,21 @@ img
 @media (min-width: 1980px)
   #footer,
   .site-main,
-  .site-section-container,
   .navbar
     padding: 0 384px !important
-  .site-main,
-  #footer
+  #footer,
+  .site-main
     width: 100%
+  .intro
+    text-align: justify
   .site-category-icons a,
   .site-category-icons i
-      font-size: var(--font-xl) !important
+    font-size: var(--font-xl) !important
   .site-category-list
     padding: 24px 48px 48px
+  .site-category-icons-title
+    h1
+      letter-spacing: 0.52rem
 
 
 /* HEADER */
