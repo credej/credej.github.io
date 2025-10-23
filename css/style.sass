@@ -182,9 +182,9 @@ img
   span, h1
     color: var(--color-title)
 
-/* POTENTIAL OPACITY SAFARI BUG */
-.site-category-icons
-  padding: 0 0 72px
+.site-category
+  padding: 36px 0
+  /* POTENTIAL OPACITY SAFARI BUG */
   img
     filter: grayscale(1)
     opacity: 0.87
@@ -223,7 +223,7 @@ img
   text-indent: 1.2rem
   box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
 
-.site-category-icons-title
+.site-category-title
   display: flex
   justify-content: flex-start
   align-items: center
@@ -236,6 +236,10 @@ img
     color: var(--color-pgh-yellow)
     font-size: var(--font-xl)
     padding: 0 22px 0 0 
+
+.site-category-subtitle
+  color: var(--color-grey-1)
+  padding: 12px 0
 
 .site-category-list
   display: flex
@@ -298,7 +302,7 @@ img
       cursor: pointer
 
 /* remove blinking effect from headers used on home page */
-.site-category-icons-title,
+.site-category-title,
 .site-subcategory-title
   h1:after
     display: none
@@ -411,7 +415,7 @@ img
     p
       font-size: var(--font-xs)
       padding: 12px 0
-  .site-category-icons-title
+  .site-category-title
     display: flex
     justify-content: space-between !important
     h1
@@ -438,7 +442,7 @@ img
   .site-main
     width: 100%
   .category-section
-    padding: 36px
+    padding: 48px 36px
   .intro
     display: flex
     align-items: center
@@ -449,19 +453,22 @@ img
       font-size: var(--font-m) !important
       line-height: 1.69rem
   .site-main
-    margin-top: 150px
+    margin-top: 171px
+  .site-section
+    p
+      margin: 0 !important
+      padding: 12px 0
   .site-section,
   .contact
     p
-      font-size: var(--font-xs)
-      padding: 12px 0
+      font-size: var(--font-s)
   .site-category-list
     padding: 24px 0
   .site-category-icons
     margin-bottom: 24px
     i
       font-size: var(--font-l) !important
-  .site-category-icons-title
+  .site-category-title
     h1
       font-size: var(--font-l)
   .site-category-list
@@ -514,11 +521,11 @@ img
   .site-category-icons-container
     filter: grayscale(0) !important
     opacity: 1
-  .site-category-icons-title,
+  .site-category-title,
   .site-page-title,
   .menu-category-title
     margin: 0
-  .site-category-icons-title
+  .site-category-title
     display: flex
     justify-content: space-between !important
     h1
@@ -571,7 +578,7 @@ img
   .site-category-icons i,
   .site-section h1
     font-size: var(--font-xl) !important
-  .site-category-icons-title
+  .site-category-title
     h1
       letter-spacing: 0.52rem
   .footer-main
@@ -598,33 +605,12 @@ img
     font-size: var(--font-xl) !important
   .site-category-list
     padding: 24px 48px 48px
-  .site-category-icons-title
+  .site-category-title
     h1
       letter-spacing: 0.52rem
 
 
 /* HEADER */
-
-.back-to-top
-  position: fixed
-  bottom: 4rem
-  left: 4rem
-  display: flex
-  justify-content: center
-  align-items: center
-  height: 5.5rem
-  width: 5.5rem
-  background-color: #1f1f1f
-  border-radius: 50%
-  z-index: 9999
-  transition: all .4s
-  visibility: hidden
-  &:hover
-    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
-    filter: invert(.8)
-  &:active
-    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
-    filter: invert(1)
 
 #menu-button
   i
@@ -720,30 +706,43 @@ img
   width: 100%
 
 .navbar-home
-  display: flex
-  align-items: center
-  font-family: "Yellowtail", monospace
+  p
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-l)
   li
     a
-      font-family: "Cutive Mono", monospace !important
       padding: 0 0 0 12px
 @media screen and (min-width: 100px) and (max-width: 360px)
   .menu-closed
     margin: 24px 0
 
-@media screen and (min-width: 360px) and (max-width: 540px)
-  .menu-closed
-    margin: 24px 0
-
-@media screen and (min-width: 540px) and (max-width: 756px)
-  .back-to-top 
-    height: 4.5rem
-    width: 4.5rem
-    bottom: 2rem !important
-    right: 2rem !important
-
-
 /* FOOTER */
+
+.back-to-top
+  height: 4rem
+  width: 4rem
+  padding: 0.87rem
+  position: fixed
+  bottom: 4rem
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #1f1f1f !important
+  border-radius: 50%
+  z-index: 9999
+  transition: all .4s
+  visibility: hidden
+  &:hover
+    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
+    filter: invert(.8)
+  &:active
+    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
+    filter: invert(1)
+
+.footer-button
+  display: flex
+  align-items: center
+  justify-content: center
 
 .footer
   display: flex
@@ -756,11 +755,6 @@ img
   a
     font-size: var(--font-xs) !important
     color: var(--color-retro-aqua) !important
-
-.footer-button
-  display: flex
-  align-items: center
-  justify-content: center
 
 .footer-column 
   padding: 12px 0

@@ -146,6 +146,10 @@
   background: rgba(247, 204, 21, 0.035);
 }
 
+.bg-glass-white {
+  background: rgba(255, 255, 255, 0.035);
+}
+
 .bg-glass-original {
   background: rgba(255, 255, 255, 0.04);
   border-radius: 12px;
@@ -180,3 +184,5 @@
     scroll-behavior: auto;
   }
 }
+/**
+ * border: 1px solid orange !important*/
