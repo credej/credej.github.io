@@ -27,7 +27,6 @@ table
 
 img
   max-width: 100%
-  display: block
 
 ::selection,
 ::-moz-selection
@@ -104,12 +103,11 @@ img
 .category-section
   padding: 72px
   p
-    padding: 16px 48px
     color: var(--color-site-section)  
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
   h1
-    font-size: var(--font-xl)
+    font-size: var(--font-m)
     text-wrap: wrap
     word-break: break-all
   h2
@@ -196,7 +194,7 @@ img
 
 .site-category-icons
   display: flex
-  flex-wrap: wrap
+  /*  flex-wrap: wrap */
   /*  height: 450px */
   span, h1
     padding: 4px 12px 0 0
@@ -211,17 +209,12 @@ img
       -o-animation: blink-animation .9s infinite
       content: "_"
 
-.site-category-icons-image
+.site-subcategory-banner
   display: flex
+  flex-direction: column
   img
     cursor: pointer
-
-.site-category-icons-excerpt
-  display: flex
-  padding: 0.5rem 0
-  font-size: var(--font-m)
-  text-indent: 1.2rem
-  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
+    border: 1px solid purple !important
 
 .site-category-title
   display: flex
@@ -241,10 +234,11 @@ img
   color: var(--color-grey-1)
   padding: 12px 0
 
-.site-category-list
+.site-category-links
   display: flex
   flex-direction: column
   color: var( --color-border)
+  padding: 24px 0
   a
     padding: 4px 0
     text-decoration: underline
@@ -422,7 +416,7 @@ img
       font-size: var(--font-m)
     i
       padding-right: 18px
-  .site-category-list
+  .site-category-links
     a
       font-size: var(--font-s)
   .site-page-title
@@ -434,7 +428,6 @@ img
 @media screen and (min-width: 360px) and (max-width: 540px)
   #footer,
   .site-main,
-  .site-section-container,
   .navbar
     padding: 0 38px !important
     max-width: 400px
@@ -462,16 +455,17 @@ img
   .contact
     p
       font-size: var(--font-s)
-  .site-category-list
+  .site-category-links
     padding: 24px 0
   .site-category-icons
     margin-bottom: 24px
+    justify-content: center
     i
       font-size: var(--font-l) !important
   .site-category-title
     h1
       font-size: var(--font-l)
-  .site-category-list
+  .site-category-links
     a
       font-size: var(--font-s)
   .site-page-title
@@ -506,7 +500,7 @@ img
     padding: 48px
     i
       font-size: var(--font-xl) !important
-  .site-category-list
+  .site-category-links
     text-indent: 0
   .site-main
     a
@@ -546,7 +540,7 @@ img
   .site-section
     margin-left: 72px
     margin-right: 72px
-  .site-category-list
+  .site-category-links
     padding: 24px 48px 48px
 
 /* M SCREEN - TABLET & LAPTOP */
@@ -554,12 +548,11 @@ img
 @media screen and (min-width: 1080px) and (max-width: 1440px)
   #footer,
   .site-main,
-  .site-section-container,
   .navbar
     padding: 0 144px !important
   .site-section
     padding: 72px
-  .site-category-list
+  .site-category-links
     padding: 24px 48px 48px
 
 /*  XL - LARGE MONITOR SIZE */
@@ -567,7 +560,6 @@ img
 @media screen and (min-width: 1440px) and (max-width: 1980px)
   #footer,
   .site-main,
-  .site-section-container,
   .navbar
     padding: 0 192px !important
   .intro
@@ -585,8 +577,6 @@ img
     display: flex
     justify-content: center
     align-items: center
-  .site-category-list
-    padding: 24px 48px 48px
 
 /*  XXL - EXTRA LARGE MONITOR SIZE */
 
@@ -603,7 +593,7 @@ img
   .site-category-icons a,
   .site-category-icons i
     font-size: var(--font-xl) !important
-  .site-category-list
+  .site-category-links
     padding: 24px 48px 48px
   .site-category-title
     h1
