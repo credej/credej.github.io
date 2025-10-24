@@ -37,8 +37,8 @@ img
   color: var(--text-color)
   background-color: var(--bg-color)
 
-.anchor
-  padding: 128px 0 32px
+.category-container
+  padding: 96px 0
 
 .anchor-list
   display: flex
@@ -224,6 +224,7 @@ img
   color: var(--color-site-section)
   h1
     letter-spacing: rem
+    text-transform: uppercase
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
@@ -231,7 +232,7 @@ img
     padding: 0 22px 0 0 
 
 .site-category-subtitle
-  color: var(--color-grey-1)
+  color: var(--color-grey-1) 
   padding: 12px 0
 
 .site-category-links
@@ -696,12 +697,17 @@ img
   width: 100%
 
 .navbar-home
+  opacity: 0.87
   p
+    color: #fff !important
     font-family: "Yellowtail", monospace
     font-size: var(--font-l)
   li
     a
       padding: 0 0 0 12px
+  &:hover
+    opacity: 1.0
+
 @media screen and (min-width: 100px) and (max-width: 360px)
   .menu-closed
     margin: 24px 0

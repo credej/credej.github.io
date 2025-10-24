@@ -42,8 +42,8 @@ img {
   background-color: var(--bg-color);
 }
 
-.anchor {
-  padding: 128px 0 32px;
+.category-container {
+  padding: 96px 0;
 }
 
 .anchor-list {
@@ -275,6 +275,7 @@ img {
 }
 .site-category-title h1 {
   letter-spacing: rem;
+  text-transform: uppercase;
 }
 .site-category-title i {
   animation: pulsate 0.11s ease-in-out infinite alternate !important;
@@ -833,12 +834,19 @@ img {
   width: 100%;
 }
 
+.navbar-home {
+  opacity: 0.87;
+}
 .navbar-home p {
+  color: #fff !important;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-l);
 }
 .navbar-home li a {
   padding: 0 0 0 12px;
+}
+.navbar-home:hover {
+  opacity: 1;
 }
 
 @media screen and (min-width: 100px) and (max-width: 360px) {

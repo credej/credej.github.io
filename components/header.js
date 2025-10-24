@@ -19,7 +19,7 @@ class Header extends HTMLElement {
 
                <div class="navbar-container">
                   <div class="menu-logo flex flex-start">
-                     <a href="/index.html" class="navbar-home">
+                     <a href="/index.html" class="navbar-home neon">
                         <p>work & other stuff</p>
                      </a>
          

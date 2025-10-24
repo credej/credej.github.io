@@ -45,17 +45,17 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to left, #00E1FF 0%, #143337 100%) 1;
+  border-image: linear-gradient(to left, #00E1FF 0%, #9EFAC8 100%) 1;
 }
 
 .green,
 .green a,
 .green i {
-  color: #96f76d !important;
+  color: #00FF73 !important;
 }
 
 .border-green {
-  border-image: linear-gradient(to left, #96f76d 0%, #1C3013 100%) 1;
+  border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1;
 }
 
 .red,
