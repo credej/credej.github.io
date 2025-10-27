@@ -37,9 +37,6 @@ img
   color: var(--text-color)
   background-color: var(--bg-color)
 
-.category-container
-  padding: 96px 0
-
 .anchor-list
   display: flex
   flex-direction: column
@@ -92,13 +89,16 @@ img
   li 
     font-family: "Courier Prime", monospace
   h2
-    padding: 0 16px  
-  .wishlist-old
+    padding: 0 16px
+  .bookmark-old
     a
       color: var(--color-border)
       text-decoration: line-through
     a:hover
       color: var(--color-border) !important
+
+.category-container
+  padding: 64px 0
 
 .category-section
   padding: 72px
@@ -107,7 +107,6 @@ img
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
   h1
-    font-size: var(--font-m)
     text-wrap: wrap
     word-break: break-all
   h2
@@ -524,7 +523,7 @@ img
     display: flex
     justify-content: space-between !important
     h1
-      font-size: var(--font-xl)
+      font-size: var(--font-l)
       padding-left: 24px
     i
       padding: 4px
@@ -543,6 +542,9 @@ img
     margin-right: 72px
   .site-category-links
     padding: 24px 48px 48px
+  .site-category-title
+    h1
+      font-size: var(--font-l)
 
 /* M SCREEN - TABLET & LAPTOP */
 
@@ -555,6 +557,9 @@ img
     padding: 72px
   .site-category-links
     padding: 24px 48px 48px
+  .site-category-title
+    h1
+      font-size: var(--font-xl)
 
 /*  XL - LARGE MONITOR SIZE */
 
@@ -568,12 +573,12 @@ img
     a
       font-size: var(--font-l) !important
   .site-category-icons a,
-  .site-category-icons i,
-  .site-section h1
+  .site-category-icons i
     font-size: var(--font-xl) !important
   .site-category-title
     h1
       letter-spacing: 0.52rem
+      font-size: var(--font-xl)
   .footer-main
     display: flex
     justify-content: center
@@ -599,6 +604,7 @@ img
   .site-category-title
     h1
       letter-spacing: 0.52rem
+      font-size: var(--font-xl)
 
 
 /* HEADER */
@@ -724,13 +730,15 @@ img
   justify-content: center
   align-items: center
   background-color: #1f1f1f !important
-  border-radius: 50%
+  border-radius: 15%
   z-index: 9999
   transition: all .4s
   visibility: hidden
+  opacity: 0.29 !important
   &:hover
     -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
     filter: invert(.8)
+    opacity: 1.0 !important
   &:active
     -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
     filter: invert(1)

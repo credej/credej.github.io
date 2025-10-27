@@ -42,10 +42,6 @@ img {
   background-color: var(--bg-color);
 }
 
-.category-container {
-  padding: 96px 0;
-}
-
 .anchor-list {
   display: flex;
   flex-direction: column;
@@ -111,12 +107,16 @@ img {
 .bookmark h2 {
   padding: 0 16px;
 }
-.bookmark .wishlist-old a {
+.bookmark .bookmark-old a {
   color: var(--color-border);
   text-decoration: line-through;
 }
-.bookmark .wishlist-old a:hover {
+.bookmark .bookmark-old a:hover {
   color: var(--color-border) !important;
+}
+
+.category-container {
+  padding: 64px 0;
 }
 
 .category-section {
@@ -128,7 +128,6 @@ img {
   color: var(--color-site-section);
 }
 .category-section h1 {
-  font-size: var(--font-m);
   text-wrap: wrap;
   word-break: break-all;
 }
@@ -634,7 +633,7 @@ img {
     justify-content: space-between !important;
   }
   .site-category-title h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
     padding-left: 24px;
   }
   .site-category-title i {
@@ -656,6 +655,9 @@ img {
   .site-category-links {
     padding: 24px 48px 48px;
   }
+  .site-category-title h1 {
+    font-size: var(--font-l);
+  }
 }
 /* M SCREEN - TABLET & LAPTOP */
 @media screen and (min-width: 1080px) and (max-width: 1440px) {
@@ -669,6 +671,9 @@ img {
   }
   .site-category-links {
     padding: 24px 48px 48px;
+  }
+  .site-category-title h1 {
+    font-size: var(--font-xl);
   }
 }
 /*  XL - LARGE MONITOR SIZE */
@@ -685,12 +690,12 @@ img {
     font-size: var(--font-l) !important;
   }
   .site-category-icons a,
-  .site-category-icons i,
-  .site-section h1 {
+  .site-category-icons i {
     font-size: var(--font-xl) !important;
   }
   .site-category-title h1 {
     letter-spacing: 0.52rem;
+    font-size: var(--font-xl);
   }
   .footer-main {
     display: flex;
@@ -721,6 +726,7 @@ img {
   }
   .site-category-title h1 {
     letter-spacing: 0.52rem;
+    font-size: var(--font-xl);
   }
 }
 /* HEADER */
@@ -865,14 +871,16 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #1f1f1f !important;
-  border-radius: 50%;
+  border-radius: 15%;
   z-index: 9999;
   transition: all 0.4s;
   visibility: hidden;
+  opacity: 0.29 !important;
 }
 .back-to-top:hover {
   -webkit-filter: invert(0.8);
   filter: invert(0.8);
+  opacity: 1 !important;
 }
 .back-to-top:active {
   -webkit-filter: invert(1);
