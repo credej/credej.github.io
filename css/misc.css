@@ -1,7 +1,7 @@
 
 /* remove blinking effect from headers used on home page */
-/*.category-section-title,
-.category-section-title
+/*.category-title,
+.category-title
   h1:after
     display: none*/
 

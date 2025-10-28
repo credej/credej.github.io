@@ -19,7 +19,7 @@ class Header extends HTMLElement {
 
                <div class="navbar-container">
                   <div class="menu-logo flex flex-start">
-                     <a href="/index.html" class="navbar-home neon">
+                     <a href="/index.html" class="navbar-home">
                         <p>work & other stuff</p>
                      </a>
          
@@ -132,7 +132,7 @@ class Header extends HTMLElement {
                            <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
                            <a href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
                            <a href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
-                           <a href="/pages/travel/spain/index.html" target=_self>New York, NY</a>
+                           <a href="/pages/otherstuff/test/index.html" target=_self>New York, NY</a>
                         </div>
                      </div>
                      <div class="menu-category">
