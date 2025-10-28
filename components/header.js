@@ -60,10 +60,10 @@ class Header extends HTMLElement {
                         </div>
                         <div class="menu-list">
                            <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
-                           <a class="comingSoon" href="/pages/software/scrolld/index.html" target=_self>Red Team Operation Management</a>
-                           <a class="comingSoon" href="/pages/software/scc/index.html" target=_self>Online Collectibles Store</a>
-                           <a class="comingSoon" href="/pages/software/senitron/index.html" target=_self>Inventory Tracking</a>
-                           <a class="comingSoon" href="/pages/software/dtek/index.html" target=_self>Counterfeit Detection</a>
+                           <a href="/pages/software/scrolld/index.html" target=_self>Red Team Operation Management</a>
+                           <a href="/pages/software/scc/index.html" target=_self>Online Collectibles Store</a>
+                           <a href="/pages/software/senitron/index.html" target=_self>Inventory Tracking</a>
+                           <a href="/pages/software/dtek/index.html" target=_self>Counterfeit Detection</a>
                         </div>
                      </div>
 
@@ -94,10 +94,10 @@ class Header extends HTMLElement {
                      <div class="menu-category-list">
                         <div class="menu-list">
                            <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
                         </div>
                      </div>
                      <div class="menu-category">
@@ -108,9 +108,9 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category-list">
                         <div class="menu-list">
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
-                           <a class="comingSoon" href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
-                           <a class="comingSoon" href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
+                           <a href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
+                           <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
                         </div>
                      </div>
                   </div>
@@ -128,11 +128,11 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-category-list-right">
                         <div class=menu-list>
-                           <a class="comingSoon" href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
-                           <a class="comingSoon" href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
-                           <a class="comingSoon" href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
-                           <a class="comingSoon" href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
-                           <a class="comingSoon" href="/pages/travel/spain/index.html" target=_self>New York, NY</a>
+                           <a href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
+                           <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
+                           <a href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
+                           <a href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
+                           <a href="/pages/travel/spain/index.html" target=_self>New York, NY</a>
                         </div>
                      </div>
                      <div class="menu-category">

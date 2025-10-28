@@ -8,7 +8,7 @@
   --color-retro-nostr: #8566ff;
   --color-retro-orange: #ea673e;
   --color-cyber-bg: #071426;
-  --color-title-hashtag: #B8B8B8;
+  --color-title-hashtag: #888888;
   --color-title-light: #ececec;
   --color-retro-nostr-text: #7164FF;
   --color-retro-nostr-bg: #06004D;
@@ -45,7 +45,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to left, #00E1FF 0%, #9EFAC8 100%) 1;
+  border-image: linear-gradient(to left, #00E1FF 0%, #28494D 100%) 1;
 }
 
 .green,

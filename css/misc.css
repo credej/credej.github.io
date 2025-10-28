@@ -1,3 +1,10 @@
+
+/* remove blinking effect from headers used on home page */
+/*.category-section-title,
+.category-section-title
+  h1:after
+    display: none*/
+
 .grower.animated {
   animation-name: grow;
   animation-duration: 2s;
