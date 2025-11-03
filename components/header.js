@@ -19,8 +19,8 @@ class Header extends HTMLElement {
 
                <div class="navbar-container">
                   <div class="menu-logo flex flex-start">
-                     <a href="/index.html" class="navbar-home">
-                        <p>credej.github.io</p>
+                     <a href="/index.html" class="navbar-home game-over">
+                        <p>work and other stuff</p>
                      </a>
          
                      <!-- <a href="#" class="breadcrumb">

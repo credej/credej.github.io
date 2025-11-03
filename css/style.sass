@@ -180,7 +180,8 @@ table
   flex-direction: row
   color: var(--color-site-section)
   h1
-    letter-spacing: rem
+    font-size: var(--font-xl)
+    letter-spacing: 0.52rem
     text-transform: uppercase
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
@@ -341,9 +342,7 @@ table
 
 .menu-category-title
   cursor: default
-  display: flex
-  align-items: center
-  color: var(--color-light)
+  color: var(--color-title-light) !important
   font-family: "Fugaz One", sans-serif
   font-family: "Lexend Exa", sans-serif
   text-transform: uppercase
@@ -353,8 +352,6 @@ table
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
     text-transform: uppercase
-  em
-    color: var(--color-border)
 
 .menu-category-list
   display: flex
@@ -374,7 +371,7 @@ table
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     font-size: var(--font-xl)
-    padding: 0 22px 0 0 
+    padding: 0 14px 0 0 
 
 .menu-closed
   display: flex
@@ -421,9 +418,11 @@ table
 .navbar-home
   opacity: 0.87
   p
-    color: #fff !important
+    color: #fff 
     font-family: "Yellowtail", monospace
     font-size: var(--font-l)
+  p:hover
+      color: var(--color-green-hyperpop) !important
   li
     a
       padding: 0 0 0 12px
@@ -758,10 +757,6 @@ table
   .category-icons a,
   .category-icons i
     font-size: var(--font-xl) !important
-  .category-title
-    h1
-      letter-spacing: 0.52rem
-      font-size: var(--font-xl)
   .footer-main
     display: flex
     justify-content: center

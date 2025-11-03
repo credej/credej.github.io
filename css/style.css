@@ -220,7 +220,8 @@ table {
   color: var(--color-site-section);
 }
 .category-title h1 {
-  letter-spacing: rem;
+  font-size: var(--font-xl);
+  letter-spacing: 0.52rem;
   text-transform: uppercase;
 }
 .category-title i {
@@ -414,9 +415,7 @@ table {
 
 .menu-category-title {
   cursor: default;
-  display: flex;
-  align-items: center;
-  color: var(--color-light);
+  color: var(--color-title-light) !important;
   font-family: "Fugaz One", sans-serif;
   font-family: "Lexend Exa", sans-serif;
   text-transform: uppercase;
@@ -427,9 +426,6 @@ table {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
   text-transform: uppercase;
-}
-.menu-category-title em {
-  color: var(--color-border);
 }
 
 .menu-category-list {
@@ -453,7 +449,7 @@ table {
 .menu-category-title i {
   animation: pulsate 0.11s ease-in-out infinite alternate !important;
   font-size: var(--font-xl);
-  padding: 0 22px 0 0;
+  padding: 0 14px 0 0;
 }
 
 .menu-closed {
@@ -510,9 +506,12 @@ table {
   opacity: 0.87;
 }
 .navbar-home p {
-  color: #fff !important;
+  color: #fff;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-l);
+}
+.navbar-home p:hover {
+  color: var(--color-green-hyperpop) !important;
 }
 .navbar-home li a {
   padding: 0 0 0 12px;
@@ -924,10 +923,6 @@ table {
   .category-icons a,
   .category-icons i {
     font-size: var(--font-xl) !important;
-  }
-  .category-title h1 {
-    letter-spacing: 0.52rem;
-    font-size: var(--font-xl);
   }
   .footer-main {
     display: flex;
