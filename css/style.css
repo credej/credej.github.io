@@ -154,6 +154,9 @@ table {
 .category-icons span {
   padding: 0 12px 0 0;
 }
+.category-icons i {
+  font-size: var(--font-xl) !important;
+}
 .category-icons h1 {
   font-size: var(--font-xl);
   font-family: "Cutive Mono", monospace;
@@ -259,10 +262,15 @@ table {
   animation-duration: 0.87s;
 }
 
+#footer {
+  margin: 48px 0;
+}
+
 .footer-button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 96px;
 }
 
 .footer {
@@ -322,7 +330,9 @@ table {
 .footer-main {
   display: flex;
   flex-direction: column;
+  margin: 24px 0 96px;
   width: 100% !important;
+  text-align: center;
 }
 .footer-main h3 {
   margin: 0 0 12px;
@@ -342,8 +352,7 @@ table {
 
 .footer-row-title {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
 }
 .footer-row-title h5 {
   font-size: var(--font-l);
@@ -351,6 +360,14 @@ table {
 .footer-row-title i {
   margin-right: 24px;
   font-size: var(--font-l);
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  font-family: "Yellowtail", monospace;
+  justify-content: center;
+  margin: 12px 0;
 }
 
 .glossary-container {
@@ -546,19 +563,6 @@ table {
   -o-animation: blink-animation 1s infinite;
   content: "_";
 }
-.site-page-title h3 {
-  color: white;
-  font-size: var(--font-l) !important;
-}
-.site-page-title span {
-  color: white !important;
-  font-size: var(--font-xl) !important;
-  margin-right: 24px;
-}
-.site-page-title .hashtag {
-  color: var(--color-title-hashtag) !important;
-  margin-left: 24px;
-}
 
 .site-page-title-home {
   padding: 0;
@@ -599,6 +603,7 @@ table {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s) !important;
   border-radius: 14px 0 0 0;
+  padding: 72p;
 }
 .site-section p {
   margin: 12px 0 !important;
@@ -626,6 +631,32 @@ table {
   color: var(--color-retro-aqua-highlight);
   cursor: pointer;
   animation: blinker 1s linear infinite;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: default;
+  font-family: "Yellowtail", monospace;
+  border-radius: 14px 0 0 0;
+  padding: 72px;
+}
+.project-section h3 {
+  color: white;
+  font-size: var(--font-l) !important;
+}
+.project-section span {
+  color: var(color-title-hashtag) !important;
+}
+.project-section span {
+  color: var(--color-title);
+  margin-right: 24px;
+}
+
+.project-hashtag {
+  color: var(--color-title-hashtag) !important;
+  margin-left: 24px;
 }
 
 .spacer-s {
@@ -785,9 +816,6 @@ table {
     margin-bottom: 24px;
     justify-content: center;
   }
-  .category-icons i {
-    font-size: var(--font-l) !important;
-  }
   .category-title h1 {
     font-size: var(--font-l);
   }
@@ -802,20 +830,29 @@ table {
 @media screen and (min-width: 540px) and (max-width: 756px) {
   .site-section,
   .category-section {
-    padding: 72px !important;
+    padding: 72px;
   }
   #footer,
   .navbar,
   .site-main {
     padding: 0 72px !important;
   }
-  .site-section {
-    margin: 0 72px;
-  }
   #footer,
   .navbar,
   .site-main {
     padding: 0 48px !important;
+  }
+  .category-icons {
+    display: flex;
+    justify-content: center;
+    padding: 12px 48px;
+  }
+  .category-icons-container {
+    filter: grayscale(0) !important;
+    opacity: 1;
+  }
+  .category-links {
+    text-indent: 0;
   }
   .footer-button img {
     width: 36px !important;
@@ -825,20 +862,12 @@ table {
     align-items: center;
     width: 100%;
   }
+  .intro {
+    margin: 12px 0;
+    text-align: center;
+  }
   .menu-closed {
     justify-content: space-between !important;
-  }
-  .category-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 48px;
-  }
-  .category-icons i {
-    font-size: var(--font-xl) !important;
-  }
-  .category-links {
-    text-indent: 0;
   }
   .site-main a {
     font-size: var(--font-s) !important;
@@ -852,10 +881,6 @@ table {
   }
   .site-section p {
     padding: 24px 0;
-  }
-  .category-icons-container {
-    filter: grayscale(0) !important;
-    opacity: 1;
   }
   .category-title,
   .site-page-title,
@@ -920,10 +945,6 @@ table {
   .intro a {
     font-size: var(--font-l) !important;
   }
-  .category-icons a,
-  .category-icons i {
-    font-size: var(--font-xl) !important;
-  }
   .footer-main {
     display: flex;
     justify-content: center;
@@ -942,10 +963,6 @@ table {
   }
   .intro {
     text-align: justify;
-  }
-  .category-icons a,
-  .category-icons i {
-    font-size: var(--font-xl) !important;
   }
   .category-links {
     padding: 24px 48px 48px;
