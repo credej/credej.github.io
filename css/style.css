@@ -28,6 +28,10 @@ table {
   border-spacing: 0;
 }
 
+p {
+  font-size: var(--font-m);
+}
+
 ::selection,
 ::-moz-selection {
   background: rgba(255, 255, 255, 0.1);
@@ -401,7 +405,6 @@ table {
 }
 .intro p {
   cursor: default;
-  font-size: var(--font-m);
   line-height: 2rem;
 }
 .intro a {
@@ -520,8 +523,7 @@ table {
   right: 0;
   z-index: 9999;
   /*  border-bottom: 7px solid var(--color-bg)*/
-  box-shadow: 4px 4px 17px 14px rgba(0, 0, 0, 0.29);
-  /*  background: linear-gradient(to right, #451056, orange) !important*/
+  /*  box-shadow: 4px 4px 17px 14px rgba(0,0,0,0.29)*/
 }
 
 .navbar {
@@ -536,6 +538,7 @@ table {
   font-size: var(--font-l);
 }
 .navbar-home p:hover {
+  color: #ececec !important;
   color: var(--color-green-hyperpop) !important;
 }
 .navbar-home li a {
@@ -546,9 +549,11 @@ table {
 }
 
 .project-hashtag {
-  color: var(--color-title-hashtag) !important;
+  color: var(--color-grey-light) !important;
   cursor: pointer !important;
   margin-left: 24px;
+  filter: invert(1);
+  mix-blend-mode: exclusion;
 }
 
 .project-section {
@@ -559,6 +564,7 @@ table {
   font-family: "Yellowtail", monospace;
   border-radius: 14px 0 0 0;
   padding: 72px;
+  /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }
 .project-section h3 {
   color: white;
@@ -570,6 +576,10 @@ table {
 .project-section span {
   color: var(--color-title);
   margin-right: 24px;
+}
+.project-section p {
+  filter: invert(1);
+  mix-blend-mode: luminosity;
 }
 
 .project-section-title {
@@ -691,11 +701,10 @@ table {
   color: var(--color-title);
 }
 .site-section a {
-  color: var(--color-retro-aqua);
+  color: var(--color-retro-aqua-highlight);
   font-size: var(--font-l);
 }
 .site-section a:hover {
-  color: var(--color-retro-aqua-highlight);
   cursor: pointer;
   animation: blinker 1s linear infinite;
 }

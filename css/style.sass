@@ -25,6 +25,9 @@ table
   border-collapse: collapse
   border-spacing: 0
 
+p
+  font-size: var(--font-m)
+  
 ::selection,
 ::-moz-selection
   background: rgba(255, 255, 255, 0.1)
@@ -330,7 +333,6 @@ table
   font-family: "Yellowtail", monospace
   p
     cursor: default
-    font-size: var(--font-m)
     line-height: 2rem
   a
     color: var(--color-retro-aqua-highlight)
@@ -429,8 +431,7 @@ table
   right: 0
   z-index: 9999
   /*  border-bottom: 7px solid var(--color-bg)*/
-  box-shadow: 4px 4px 17px 14px rgba(0,0,0,0.29)
-  /*  background: linear-gradient(to right, #451056, orange) !important*/
+  /*  box-shadow: 4px 4px 17px 14px rgba(0,0,0,0.29)*/
 
 .navbar
   width: 100%
@@ -441,7 +442,8 @@ table
     font-family: "Yellowtail", monospace
     font-size: var(--font-l)
   p:hover
-      color: var(--color-green-hyperpop) !important
+    color: #ececec !important
+    color: var(--color-green-hyperpop) !important
   li
     a
       padding: 0 0 0 12px
@@ -449,9 +451,11 @@ table
     opacity: 1.0
 
 .project-hashtag
-  color: var(--color-title-hashtag) !important
+  color: var(--color-grey-light) !important
   cursor: pointer !important
   margin-left: 24px
+  filter: invert(1)
+  mix-blend-mode: exclusion
 
 .project-section
   display: flex
@@ -469,6 +473,10 @@ table
   span
     color: var(--color-title)
     margin-right: 24px
+  p
+    filter: invert(1)
+    mix-blend-mode: luminosity
+  /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
 .project-section-title
   margin: 0 0 24px 
@@ -570,10 +578,9 @@ table
   span
     color: var(--color-title)
   a
-    color: var(--color-retro-aqua)
+    color: var(--color-retro-aqua-highlight)
     font-size: var(--font-l)
   a:hover 
-    color: var(--color-retro-aqua-highlight)
     cursor: pointer
     animation: blinker 1s linear infinite
 
