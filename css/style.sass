@@ -27,7 +27,7 @@ table
 
 p
   font-size: var(--font-m)
-  
+
 ::selection,
 ::-moz-selection
   background: rgba(255, 255, 255, 0.1)
@@ -465,6 +465,13 @@ p
   font-family: "Yellowtail", monospace
   border-radius: 14px 0 0 0
   padding: 72px
+  p
+    filter: invert(1)
+    mix-blend-mode: luminosity
+  a
+    color: #888888
+    margin-bottom: 4px !important
+    mix-blend-mode: normal !important
   h3
     color: white
     font-size: var(--font-l) !important
@@ -473,9 +480,6 @@ p
   span
     color: var(--color-title)
     margin-right: 24px
-  p
-    filter: invert(1)
-    mix-blend-mode: luminosity
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
 .project-section-title
@@ -587,9 +591,6 @@ p
 .subcategory-banner
   display: flex
   flex-direction: column
-  img
-    cursor: pointer
-    border: 1px solid purple !important
 
 .subcategory-excerpt
   font-size: var(--font-s)

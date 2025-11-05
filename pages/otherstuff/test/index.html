@@ -2,11 +2,15 @@
 <html lang=en>
    <head>
       <title>test</title>
-      <meta name=description content="my bookmarks">
+      <meta name=description content="home">
+      <link rel=stylesheet type=text/css href="../../../css/style.css">
+      <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="/components/headlinks-min.js" type="text/javascript" dsefer></script>
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
+      <script src="/components/themes.js" type="text/javascript" defer></script>
+      <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />   
 
       <!-- THREE.JS  -->
       <script src='https://devildrey33.github.io/ObjetoCanvas/JS/three.min.js'></script>
@@ -124,48 +128,41 @@
 }
       </style>
    </head>
-
-   <body>
-      <header-component></header-component>
-
-      <div class="ticker-wrap">
-         <div class="ticker">
-           <div class="ticker__item">
-               <a>version 0.1</a>
-            </div>
-           <div class="ticker__item">
-               <a><span id="time"></span></a>
-            </div>
-            <div class="ticker__item">
-               <a href="https://www.tysonfoods.com/news/news-releases/2023/10/tyson-foods-announces-partnership-protix-more-sustainable-protein" target="_blank">Tyson Foods announces partnership with leading global insect ingredients company... </a>
-            </div>
-            <div class="ticker__item">
-               <a href="https://www.youtube.com/results?search_query=nhl+game+highlights" target="_blank">NHL playoff highlights... </a>
-            </div>
-            <div class="ticker__item">
-               <a href="https://www.theguardian.com/environment/2025/apr/22/uk-scientists-outdoor-geoengineering-experiments" target="_blank"></span>Bill Gates to block out the sun... </a>
-            </div>
-         </div>
-      </div>
-      
       <!---------- MAIN ---------->
       <div class="site">
          <main id=site-main class="site-main flex justify-center align-center">
-            <article class="post-content post page">
-               <h1 class="neonText text-center mt-24 article-content-title">Emma's Website</h1>
-               <div class=post-content-image>
-                  <a href="https://bitcoin.org/bitcoin.pdf"><img class="kg-image grayscale " src="images/banner-bookmark.jpg" alt=Bookmarks></a>
-               </div>
-               <div class="post-content-body columns-3 gap-x-36">
-               </div>
 
-            </article>
+   <body>
+      <header-component></header-component>
+      <!---------- MAIN ---------->
+      <div class="site">
+         <main id=site-main class="site-main flex justify-center align-center">
+
+            <div class="ticker-wrap">
+               <div class="ticker">
+                 <div class="ticker__item">
+                     <a>version 0.1</a>
+                  </div>
+                 <div class="ticker__item">
+                     <a><span id="time"></span></a>
+                  </div>
+                  <div class="ticker__item">
+                     <a href="https://www.tysonfoods.com/news/news-releases/2023/10/tyson-foods-announces-partnership-protix-more-sustainable-protein" target="_blank">Tyson Foods announces partnership with leading global insect ingredients company... </a>
+                  </div>
+                  <div class="ticker__item">
+                     <a href="https://www.youtube.com/results?search_query=nhl+game+highlights" target="_blank">NHL playoff highlights... </a>
+                  </div>
+                  <div class="ticker__item">
+                     <a href="https://www.theguardian.com/environment/2025/apr/22/uk-scientists-outdoor-geoengineering-experiments" target="_blank"></span>Bill Gates to block out the sun... </a>
+                  </div>
+               </div>
+            </div>
+      
          </main>
          <footer class=site-foot>
             <a href="../index.html">back to top</a>
             <a href="../index.html">next</a>
-            
-            <!-- CONTACT -->
+                        <!-- CONTACT -->
             <!-- EMAIL OPENING EFFECT -->
             <div class="letter-image" style="z-index: 9999 !important;">
             <div class="animated-mail">

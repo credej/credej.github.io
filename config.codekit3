@@ -33,6 +33,14 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
+    "\/8-Bit Powerup Sound Effects (Copyright Free) [SoZhpnTuQBo].mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/8-Bit Powerup Sound Effects (Copyright Free) [SoZhpnTuQBo].mp3",
+      "oF" : 0
+    },
     "\/components\/darktheme-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -2143,6 +2151,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/otherstuff\/test\/index-2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/test\/index-2.html",
+      "oF" : 0
     },
     "\/pages\/otherstuff\/test\/index.html" : {
       "cB" : 0,
