@@ -1,4 +1,7 @@
 :root {
+  --color-cyber-turqoise-superlight: #C0E4E2;
+  --color-cyber-turqoise-light: #7DCAC2;
+  --color-blue-dodger: #1e90ff;
   --color-green-jazzercise: #b6e12a;
   --color-green-hyperpop: #17f9a6;
   --color-pgh-yellow-highlight: #facc15;
@@ -25,7 +28,8 @@
   --font-m: 1.1rem !important;
   --font-l: 1.3rem !important;
   --font-xl: 1.5rem !important;
-  --font-xxl: 3.2rem !important;
+  --font-xxl: 1.8rem !important;
+  --font-xxxl: 2.2rem !important;
 }
 
 .border-blue,
@@ -47,7 +51,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to top, #00E1FF 0%, #06353C 100%) 1;
+  border-image: linear-gradient(to top, #5EEBD5 0%, #3F766D 100%) 1;
 }
 
 .green,
@@ -122,6 +126,10 @@
 .bg-glass {
   background: rgba(230, 230, 230, 0.05);
   border-radius: 12px;
+}
+
+.bg-glass-cyber {
+  background: rgba(60, 94, 213, 0.045);
 }
 
 .bg-glass-blue {

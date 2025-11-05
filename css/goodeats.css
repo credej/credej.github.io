@@ -69,6 +69,6 @@
 }
 @media print {
   * {
-    color: black !important;
+    color: blue !important;
   }
 }

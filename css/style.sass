@@ -33,13 +33,16 @@ table
 #ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact
   margin-bottom: 100px
 
+.anchor
+  padding-top: 148px
+
 .anchor-list
   display: flex
   flex-direction: column
-  padding: 18px 0
   font-family: "Courier Prime", monospace
+  padding: 18px 0
   a
-    font-size: var(--font-l) !important
+    font-size: var(--font-xl) !important
     padding: 4px 0
 
 .back-to-top
@@ -126,6 +129,7 @@ table
 
 .category-icons
   display: flex
+  flex-shrink: 1
   span
     padding: 0 12px 0 0
   i
@@ -185,6 +189,7 @@ table
     font-size: var(--font-xl)
     letter-spacing: 0.52rem
     text-transform: uppercase
+    text-wrap: nowrap
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
@@ -330,7 +335,7 @@ table
   a
     color: var(--color-retro-aqua-highlight)
     cursor: pointer
-    font-size: var(--font-m) !important
+    font-size: var(--font-xl) !important
     &:hover
       animation: blinker 1s linear infinite
       color: var(--color-light) !important
@@ -338,6 +343,8 @@ table
     font-size: var(--font-xl)
   span, h1
     color: var(--color-title)
+  span 
+    font-size: var(--font-m)
 
 #menu-button
   i
@@ -429,9 +436,8 @@ table
   width: 100%
 
 .navbar-home
-  opacity: 0.87
+  opacity: 0.6
   p
-    color: #fff 
     font-family: "Yellowtail", monospace
     font-size: var(--font-l)
   p:hover
@@ -441,6 +447,55 @@ table
       padding: 0 0 0 12px
   &:hover
     opacity: 1.0
+
+.project-hashtag
+  color: var(--color-title-hashtag) !important
+  cursor: pointer !important
+  margin-left: 24px
+
+.project-section
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  cursor: default
+  font-family: "Yellowtail", monospace
+  border-radius: 14px 0 0 0
+  padding: 72px
+  h3
+    color: white
+    font-size: var(--font-l) !important
+  span
+    color: var(color-title-hashtag) !important
+  span
+    color: var(--color-title)
+    margin-right: 24px
+
+.project-section-title
+  margin: 0 0 24px 
+
+.project-title
+  display: flex
+  align-items: center
+  flex-direction: row
+  padding: 24px 0
+  font-family: "Courier Prime", monospace
+  font-size: var(--font-xxl)
+  color: var(--color-light)
+  h1
+    color: white !important
+    cursor: default
+    letter-spacing: 1rem
+    &:after
+      padding: 4px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+  span
+    color: white !important
+    font-size: var(--font-xxl)
+    margin: 0 24px 0 0
 
 .site-main
   margin-top: 216px
@@ -458,7 +513,7 @@ table
     cursor: default
     letter-spacing: 1rem
     &:after
-      padding: 15px
+      padding: 4px
       animation: blink-animation 1s infinite
       -webkit-animation: blink-animation 1s infinite
       -moz-animation: blink-animation 1s infinite
@@ -521,36 +576,6 @@ table
     color: var(--color-retro-aqua-highlight)
     cursor: pointer
     animation: blinker 1s linear infinite
-
-.project-section
-  display: flex
-  flex-direction: column
-  align-items: flex-start
-  cursor: default
-  font-family: "Yellowtail", monospace
-  border-radius: 14px 0 0 0
-  padding: 72px
-  h3
-    color: white
-    font-size: var(--font-l) !important
-  span
-    color: var(color-title-hashtag) !important
-  span
-    color: var(--color-title)
-    margin-right: 24px
-
-.project-hashtag
-  color: var(--color-title-hashtag) !important
-  margin-left: 24px
-
-.spacer-s
-  height: 60px
-
-.spacer-m
-  height: 120px
-
-.spacer-l
-  height: 180px
 
 .subcategory-banner
   display: flex
@@ -654,8 +679,8 @@ table
     margin: 0
     text-align: center
     p
-      font-size: var(--font-m) !important
-      line-height: 1.69rem
+      font-size: var(--font-s)
+      line-height: 1.8rem
   .site-main
     margin-top: 171px
   .site-section
@@ -712,6 +737,8 @@ table
   .intro
     margin: 12px 0
     text-align: center
+    p
+      line-height: 2rem
   .menu-closed
     justify-content: space-between !important
   .site-main

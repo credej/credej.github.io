@@ -16,6 +16,17 @@
       <div id="page">
          <header-component></header-component>
          <div class="site-main">
+
+            <div id="hover-element" class="mb-12">
+               Hover over me!
+            </div>
+
+            <a href="/index.html" class="navbar-home game-over">
+               <p id="hover-element" class="mb-12">work and other stuff</p>
+            </a>
+
+            <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
+
             <div class="category-icons">
                <div class="blue"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href="#ux"><i class="iconoir-laptop-dev-mode"></i></a></span></div>
                <div class="green"><span class="tooltip-container" data-tooltip="Design"><a href="#design"><i class="iconoir-edit-pencil"></i></a></span></div>
@@ -264,7 +275,6 @@
                   <p>Hello. I'm a user interface & experience designer based in southern California. I've got over ten years of experience translating customer needs into visually compelling & intuitive web application software. Feel free to view my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> or see the various software projects that I follow on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; If you're reading this then <a><button onclick="showAlert()">I'm available to work with</button></a>.</p>
                </div>
             </div>
-
          </div>
 
          <div id="footer">
@@ -283,13 +293,12 @@
                <div class="white"><span class="tooltip-container" data-tooltip="Get in Contact"><a href="#contact"><i class="iconoir-telegram"></i></a></span></div>
             </div>
 
-
-               <div class="footer-button">
-                  <a href="#top" class="back-to-top" title="Back to Top">
-                     <img src="/images/arrow-up.svg" alt="Back to Top"/>
-                  </a>
-               </div>
-               <footer-component></footer-component>
+            <div class="footer-button">
+               <a href="#top" class="back-to-top" title="Back to Top">
+                  <img src="/images/arrow-up.svg" alt="Back to Top"/>
+               </a>
+            </div>
+            <footer-component></footer-component>
             <!--
             <div class="footer-caution">
                <span class="text-flashing mx-5"><a href="/pages/otherstuff/test/index.html" target="_self">[PROCEED WITH CAUTION]</a></span>
@@ -298,14 +307,29 @@
          </div>
    </div>
    </body>
+   <script>
+      // Get the elements
+      var hoverElement = document.getElementById("hover-element");
+      var hoverSound = document.getElementById("hover-sound");
 
-  <script>
+      // Add an event listener for mouseover (hover)
+      hoverElement.addEventListener("mouseover", function() {
+          hoverSound.play();
+      });
+
+      // Optional: Add event listener for mouseleave to stop and reset the sound
+      hoverElement.addEventListener("mouseleave", function() {
+          hoverSound.pause();
+          hoverSound.currentTime = 0; // Reset sound to the beginning
+      });
+   </script>
+   <script>
       function showAlert() {
         alert("Send me a message anytime at credej@protonmail.com");
       }
-  </script>
+   </script>
 
-  <script>
+   <script>
       const handleFirstTab = (e) => {
         if(e.key === 'Tab') {
           document.body.classList.add('user-is-tabbing')

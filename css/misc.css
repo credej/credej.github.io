@@ -13,6 +13,7 @@ html, body {
   animation-name: example;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
+  cursor: none;
 }
 
 @keyframes example {
@@ -50,6 +51,28 @@ html, body {
     text-shadow: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.spacer-s
+  height: 60px
+
+.spacer-m
+  height: 120px
+
+.spacer-l
+  height: 180px
+
+
+
+
 
 
 
