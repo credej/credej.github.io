@@ -139,6 +139,10 @@ p {
   color: var(--color-border) !important;
 }
 
+.category-container {
+  padding: 16px 0;
+}
+
 .category {
   display: flex;
   flex-wrap: wrap;
@@ -179,11 +183,6 @@ p {
   content: "_";
 }
 
-.category-subtitle {
-  color: var(--color-grey-1);
-  padding: 12px 0;
-}
-
 .category-links {
   display: flex;
   flex-direction: column;
@@ -194,10 +193,6 @@ p {
   padding: 4px 0;
   text-decoration: underline;
   text-decoration-style: dotted;
-}
-
-.category-container {
-  padding: 16px 0;
 }
 
 .category-section {
@@ -244,14 +239,9 @@ p {
   padding: 0 22px 0 0;
 }
 
-.category-section-subtitle {
-  display: flex;
-  align-items: center;
-}
-.category-section-subtitle i {
-  color: var(--color-pgh-yellow) !important;
-  font-size: var(--font-m);
-  font-size-cursor: pointer;
+.category-subtitle {
+  color: var(--color-grey-1);
+  padding: 12px 0;
 }
 
 .content-excerpt {
@@ -952,9 +942,6 @@ p {
     margin-left: 72px;
     margin-right: 72px;
   }
-  .category-links {
-    padding: 24px 48px 48px;
-  }
   .category-section- h1 {
     font-size: var(--font-l);
   }
@@ -967,9 +954,6 @@ p {
   }
   .site-section {
     padding: 72px;
-  }
-  .category-links {
-    padding: 24px 48px 48px;
   }
   .category-section- h1 {
     font-size: var(--font-xl);
@@ -1005,9 +989,6 @@ p {
   }
   .intro {
     text-align: justify;
-  }
-  .category-links {
-    padding: 24px 48px 48px;
   }
   .category-section--title h1 {
     letter-spacing: 0.52rem;

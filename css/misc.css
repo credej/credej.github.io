@@ -7,22 +7,18 @@ html, body {
 }
 
 .game-over:hover {
-  font-family: "VT323";
-  font-size: 8em;
-  text-align: center;
-  animation-name: example;
+  animation-name: static;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
 }
 
-@keyframes example {
+@keyframes static {
   0% {
     color: #fff;
-    text-shadow: 0 0 20px #A59FAD;
   }
   25% {
     color: #A59FAD;
-    text-shadow: 2px 2px 2px #fff;
+    text-shadow: 2px 2px 2px #A59FAD;
     transform: translate(-2px, 1px);
   }
   40% {
@@ -41,8 +37,8 @@ html, body {
     transform: translate(0, 0);
   }
   80% {
-    color: #fff;
-    text-shadow: 0 0 20px #A59FAD;
+    color: #565656;
+    text-shadow: 0 0 20px #565656;
     transform: translate(-2px, 1px);
   }
   100% {
@@ -50,7 +46,6 @@ html, body {
     text-shadow: none;
   }
 }
-
 
 
 
@@ -67,7 +62,7 @@ body {
 }
 
 .bg {
-  animation:slide 100s ease-in-out infinite alternate;
+  animation:slide 87s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #C0E4E2 50%, #7DCAC2 50%);
   bottom:0;
   left:-50%;
@@ -80,11 +75,11 @@ body {
 
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:100s;
+  animation-duration:87s;
 }
 
 .bg3 {
-  animation-duration:100s;
+  animation-duration:87s;
 }
 
 .content {

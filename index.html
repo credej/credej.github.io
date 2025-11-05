@@ -17,16 +17,6 @@
          <header-component></header-component>
          <div class="site-main">
 
-            <div id="hover-element" class="mb-12">
-               Hover over me!
-            </div>
-
-            <a href="/index.html" class="navbar-home game-over">
-               <p id="hover-element" class="mb-12">work and other stuff</p>
-            </a>
-
-            <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
-
             <div class="category-icons">
                <div class="blue"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href="#ux"><i class="iconoir-laptop-dev-mode"></i></a></span></div>
                <div class="green"><span class="tooltip-container" data-tooltip="Design"><a href="#design"><i class="iconoir-edit-pencil"></i></a></span></div>
@@ -49,7 +39,9 @@
                      <i class="iconoir-laptop-dev-mode blue"></i>
                      <h1>Software UI/UX</h1>
                   </div>
-                  <p>Designing the User Interface & User Experience for software applications</p>
+                  <div class="category-subtitle">
+                     <h5>Designing the User Interface & User Experience for software applications</h5>
+                  </div>
                   <div class="category-links blue">
                      <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
                      <a href="index.html">Red Team Operation Management</a>
@@ -308,22 +300,6 @@
          </div>
    </div>
    </body>
-   <script>
-      // Get the elements
-      var hoverElement = document.getElementById("hover-element");
-      var hoverSound = document.getElementById("hover-sound");
-
-      // Add an event listener for mouseover (hover)
-      hoverElement.addEventListener("mouseover", function() {
-          hoverSound.play();
-      });
-
-      // Optional: Add event listener for mouseleave to stop and reset the sound
-      hoverElement.addEventListener("mouseleave", function() {
-          hoverSound.pause();
-          hoverSound.currentTime = 0; // Reset sound to the beginning
-      });
-   </script>
    <script>
       function showAlert() {
         alert("Send me a message anytime at credej@protonmail.com");

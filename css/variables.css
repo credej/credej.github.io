@@ -54,7 +54,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to top, #5EEBD5 0%, #093A32 100%) 1;
 }
 
 .green,

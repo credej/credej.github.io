@@ -10,24 +10,44 @@
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
       <script src="/components/themes.js" type="text/javascript" defer></script>
-      <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />   
-
-      <head-links></head-links>
+      <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2" />
    </head>
 
    <body>
-      <header-component></header-component>
-      <div class="site">
-         <main id="site-main" class="flex justify-center align-center">
+      <!-- <header-component></header-component> -->
+      <div class="w-full">
 
-            <div class="bg"></div>
-            <div class="bg bg2"></div>
-            <div class="bg bg3"></div>
-            <div class="content">
-              <h1>Sliding Diagonals Background Effect</h1>
-            </div>
+         <!-- BG BACKGROUND ANIMATION EFFECT -->
+         <!--          
+         <div class="bg"></div>
+         <div class="bg bg2"></div>
+         <div class="bg bg3"></div>
+         <div class="content">
+            <h1>Sliding Diagonals Background Effect</h1>
+         </div> 
+         -->
 
-         </main>
+         <div id="hover-element" class="w-full h-full">
+            Shocking!
+         </div>
+         <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
+
       </div>
    </body>
 </html>
+<script>
+   // Get the elements
+   var hoverElement = document.getElementById("hover-element");
+   var hoverSound = document.getElementById("hover-sound");
+
+   // Add an event listener for mouseover (hover)
+   hoverElement.addEventListener("mouseover", function() {
+       hoverSound.play();
+   });
+
+   // Optional: Add event listener for mouseleave to stop and reset the sound
+   hoverElement.addEventListener("mouseleave", function() {
+       hoverSound.pause();
+       hoverSound.currentTime = 0; // Reset sound to the beginning
+   });
+</script>
