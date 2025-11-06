@@ -125,49 +125,6 @@
   animation: pulsate-green 0.11s ease-in-out infinite alternate;
 }
 
-/* BACKGROUNDS */
-.bg-glass {
-  background: rgba(230, 230, 230, 0.05);
-  border-radius: 12px;
-}
-
-.bg-glass-cyber {
-  background: rgba(60, 94, 213, 0.045);
-}
-
-.bg-glass-blue {
-  background: rgba(0, 225, 237, 0.045);
-}
-
-.bg-glass-green {
-  background: rgba(150, 247, 109, 0.038);
-}
-
-.bg-glass-red {
-  background: rgba(217, 47, 4, 0.045);
-}
-
-.bg-glass-orange {
-  background: rgba(247, 147, 26, 0.04);
-}
-
-.bg-glass-purple {
-  background: rgba(113, 100, 255, 0.045);
-}
-
-.bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.035);
-}
-
-.bg-glass-white {
-  background: rgba(255, 255, 255, 0.035);
-}
-
-.bg-glass-original {
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
-}
-
 /*.bg-home
  * background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)), url('/images/header.jpg') !important
  * background-color: var(--bg-color)

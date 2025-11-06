@@ -6,10 +6,52 @@
 body {
   background-color: var(--color-blue-dodger) !important;
 }
+body .bg-glass-blue {
+  background: rgba(0, 225, 237, 0.147);
+}
+body .bg-glass-green {
+  background: rgba(150, 247, 109, 0.13);
+}
+body .bg-glass-red {
+  background: rgba(217, 47, 4, 0.08);
+}
+body .bg-glass-purple {
+  background: rgba(113, 100, 255, 0.2);
+}
+body .bg-glass-orange {
+  background: rgba(247, 147, 26, 0.127);
+}
+body .bg-glass-yellow {
+  background: rgba(247, 204, 21, 0.117);
+}
+body .bg-glass-white {
+  background: rgba(255, 255, 255, 0.147);
+}
 
 /* DARK MODE STYLING */
 body.dark-mode {
   background-color: var(--color-blue-storm) !important;
+}
+body.dark-mode .bg-glass-blue {
+  background: rgba(0, 225, 237, 0.045);
+}
+body.dark-mode .bg-glass-green {
+  background: rgba(150, 247, 109, 0.038);
+}
+body.dark-mode .bg-glass-red {
+  background: rgba(217, 47, 4, 0.045);
+}
+body.dark-mode .bg-glass-orange {
+  background: rgba(247, 147, 26, 0.04);
+}
+body.dark-mode .bg-glass-purple {
+  background: rgba(113, 100, 255, 0.045);
+}
+body.dark-mode .bg-glass-yellow {
+  background: rgba(247, 204, 21, 0.035);
+}
+body.dark-mode .bg-glass-white {
+  background: rgba(255, 255, 255, 0.035);
 }
 
 /* DARK MODE TOGGLE */

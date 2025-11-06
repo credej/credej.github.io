@@ -187,6 +187,10 @@ label {
 /*   
 
 
+.bg-glass
+  background: rgba(230, 230, 230, .05)
+  border-radius: 12px
+  
 .nav
   display: flex
   flex-wrap: wrap
