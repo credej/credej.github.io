@@ -1,15 +1,14 @@
 /* GAME OVER EFFECT */
-
-html, body {
-  padding: 0;
-  margin: 0;
-  background: black;
-}
-
-.game-over:hover {
+.game-over {
   animation-name: static;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
+}
+.game-over p {
+  color: var(--color-green-hyperpop) !important;
+}
+.game-over {
+  cursor: pointer !important;
 }
 
 @keyframes static {
@@ -46,7 +45,6 @@ html, body {
     text-shadow: none;
   }
 }
-
 
 
 
@@ -185,6 +183,38 @@ label {
 
 
 /*   
+
+
+
+
+
+ .bg-home {
+    background: url("images/header.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -9999; }
+
+
+
+
+
+
+.header-image-full
+  img
+    width: 100%
+
+
+
+
+
+
+.navbar
+  width: 100%
+
+
 
 
 .bg-glass

@@ -1,5 +1,6 @@
-/* LIGHT MODE */
+/* CYBERGRAD - LIGHT */
 body {
+  background-color: var(--color-cyber-turqoise-medium) !important;
   background-color: var(--color-cyber-turqoise-light) !important;
   color: blue;
 }
@@ -8,7 +9,7 @@ body {
   color: var(--color-title-hashtag);
 }
 
-/* DARK MODE */
+/* CYBERGRAD - DARK */
 body.dark-mode {
   background-color: var(--color-cyber-bg) !important;
   color: white;

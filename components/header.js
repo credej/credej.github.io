@@ -52,13 +52,17 @@ class Header extends HTMLElement {
 
             <div id="menu-expanded" class="menu-expanded hidden fade-in">
 
+               <!---------- EXPANDED MENU 2 ---------->
+
                <div class="menu">
                   <div class="menu-column">
                      <div class="menu-category">
-                        <div class="menu-category-title">
-                           <i class="iconoir-flash-solid"></i>
+                        <div class="menu-category-title justify-left">
+                           <i class="iconoir-cpu"></i>
                            <h2>Software UI/UX</h2>
                         </div>
+                     </div>
+                     <div class="menu-category-list menu-category-list-left">
                         <div class="menu-list">
                            <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
                            <a href="/pages/software/scrolld/index.html" target=_self>Red Team Operation Management</a>
@@ -67,12 +71,13 @@ class Header extends HTMLElement {
                            <a href="/pages/software/dtek/index.html" target=_self>Counterfeit Detection</a>
                         </div>
                      </div>
-
                      <div class="menu-category">
-                        <div class="menu-category-title">
-                           <i class="iconoir-design-nib"></i>
-                           <h2 class="">Design</h2>
+                        <div class="menu-category-title justify-left">
+                           <i class="iconoir-terminal-tag"></i>
+                           <h2>Design</em></h2>
                         </div>
+                     </div>
+                     <div class="menu-category-list menu-category-list-left">
                         <div class="menu-list">
                            <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
                            <a href="/pages/design/web/index.html" target=_self>Graphic & Web</a>
@@ -81,6 +86,7 @@ class Header extends HTMLElement {
                      </div>
                   </div>
                </div>
+
 
                <!---------- EXPANDED MENU 2 ---------->
 
@@ -92,7 +98,7 @@ class Header extends HTMLElement {
                            <h2>Gadgets</h2>
                         </div>
                      </div>
-                     <div class="menu-category-list">
+                     <div class="menu-category-list menu-category-list-center">
                         <div class="menu-list">
                            <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
                            <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
@@ -107,7 +113,7 @@ class Header extends HTMLElement {
                            <h2>DIY <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
-                     <div class="menu-category-list">
+                     <div class="menu-category-list menu-category-list-center">
                         <div class="menu-list">
                            <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
                            <a href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
@@ -127,7 +133,7 @@ class Header extends HTMLElement {
                            <h2>Travel <em>(Coming soon!)</em></h2>
                         </div>
                      </div>
-                     <div class="menu-category-list-right">
+                     <div class="menu-category-list menu-category-list-right">
                         <div class=menu-list>
                            <a href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
                            <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
@@ -141,7 +147,7 @@ class Header extends HTMLElement {
                            <i class="iconoir-asterisk"></i>
                            <h2>Other Stuff</h2>
                         </div>
-                     <div class="menu-category-list-right">
+                     <div class="menu-category-list menu-category-list-right">
                         <div class="menu-list">
                           <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                           <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>

@@ -183,8 +183,9 @@
   width: 100%;
 }
 .post-content-image :hover {
+  cursor: pointer;
   --tw-invert: invert(100%);
-  transition-duration: 50000ms;
+  transition-duration: 5000ms;
 }
 
 .post-section-title {

@@ -18,8 +18,8 @@
       <div class="site">
          <div id="site-main" class="site-main">
 
-            <div class="site-section">
-               <div class="site-page-title site-page-title-home neon">
+            <div class="">
+               <div class="site-page-title neon">
                   <span class="material-symbols-outlined">bookmarks</span>
                   <h1>bookmarks</h1>
                </div>
@@ -37,7 +37,7 @@
                </div>
             </div>
 
-            <div class="glossary-container lg:columns-3 columns-1 gap-4">
+            <div class="bookmark-glossary lg:columns-3 columns-1 gap-4">
                <a href="#architecture">architecture</a>
                <a href="#art">art</a>
                <a href="#blogs">blogs</a>
@@ -548,7 +548,7 @@
                         <li><a href=https://www.lg.com/us/monitors/lg-32u889sa-w-smart-monitor target=_blank/>32 Inch 4K UHD IPS Touchscreen</a></li>
                         <li><a href=https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/ target=_blank/>CalDigit TS5+</a></li>
                         <li><a href=https://kfivefour.com/red-team-journeyman-course/ target=_blank/>Red Team Journeyman course</a></li>
-                        <li><a href=https://www.steamdeck.com/en/oled target=_blank/>Steam Deck</a></li>
+                        <li class="bookmark-old"><a href=https://www.steamdeck.com/en/oled target=_blank/>Steam Deck</a></li>
                         <li><a href=https://www.tryxzone.com target=_blank/>AMOLED screen liquid cooler</a></li>
                         <li><a href=https://samsonovich.com/products/36-monochromes target=_blank/>36 Prints art</a></li>
                         <li><a href=https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/ target=_blank/>Aeron chair</a></li>
@@ -593,7 +593,7 @@
          </div>
          <footer class=site-foot>      
             <div class="footer">
-               <div class="footer-main">
+               <div class="">
                   <div class="footer-button">
                      <a href="#top" class="back-to-top" title="Back to Top">
                         <img src="/images/arrow-up.svg" alt="Back to Top" height="57" width="57" />
@@ -632,7 +632,7 @@
 
       window.addEventListener('keydown', handleFirstTab)
 
-      const backToTopButton = document.querySelector(".back-to-top");
+      const backToTopButton = document.querySelector(".footer-back-to-top");
       let isBackToTopRendered = false;
 
       let alterStyles = (isBackToTopRendered) => {

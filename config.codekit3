@@ -481,6 +481,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/banner-arch.jpg" : {
+      "ft" : 16384,
+      "iS" : 113623,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/banner-arch.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
       "ft" : 16384,
       "iS" : 4007380,
