@@ -474,6 +474,33 @@ p {
   cursor: pointer !important;
 }
 
+.page-header {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page-header-image img {
+  border-radius: 12px 0 0 12px;
+}
+
+.page-header-excerpt {
+  background-color: var(--color-bg);
+  display: flex;
+  padding: 2rem;
+  font-family: "Cutive Mono", monospace;
+  text-indent: 2vw;
+}
+.page-header-excerpt p {
+  background-color: none;
+  color: var(--color-grey-light);
+  cursor: default;
+}
+
+.page-header-image-hidden a {
+  cursor: default !important;
+}
+
 .project-hashtag {
   color: var(--color-grey-light) !important;
   cursor: pointer !important;
@@ -540,32 +567,6 @@ p {
 .project-title span {
   color: white;
   font-size: var(--font-xl);
-}
-
-.site-header {
-  display: flex;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.site-header-image img {
-  border-radius: 12px 0 0 12px;
-}
-
-.site-header-excerpt {
-  background-color: var(--color-bg);
-  display: flex;
-  padding: 2rem;
-  font-family: "Cutive Mono", monospace;
-  text-indent: 2vw;
-}
-.site-header-excerpt p {
-  background-color: none;
-  color: var(--color-light);
-}
-
-.site-header-image-hidden a {
-  cursor: default;
 }
 
 .site-main {

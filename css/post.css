@@ -183,7 +183,6 @@
   width: 100%;
 }
 .post-content-image :hover {
-  cursor: pointer;
   --tw-invert: invert(100%);
   transition-duration: 50000ms;
 }
