@@ -185,7 +185,7 @@
 .post-content-image :hover {
   cursor: pointer;
   --tw-invert: invert(100%);
-  transition-duration: 5000ms;
+  transition-duration: 50000ms;
 }
 
 .post-section-title {

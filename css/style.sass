@@ -38,7 +38,7 @@ p
   margin-bottom: 100px
 
 .anchor
-  padding-top: 148px
+  scroll-margin-top: 117px
 
 .anchor-list
   display: flex
@@ -53,7 +53,7 @@ p
   break-inside: avoid
   display: flex
   flex-direction: column
-  padding: 0 0 6vh
+  padding: 0 0 3rem
   font-size: var(--font-m)
   h2
     color: var(--color-title)
@@ -72,24 +72,28 @@ p
   flex-wrap: wrap
   margin: 48px 0
   a
-    background-color: var(--color-bg)
-    color: var(--color-retro-aqua-highlight)
+    border: 3px solid var(--color-green-hyperpop)
+    color: var(--color-green-hyperpop)
     font-size: var(--font-l)
     padding: 12px
+    margin: 4px
     font-family: "Yellowtail", monospace
     font-family: "Cutive Mono", monospace
+  a:hover
+    animation: blinker 1s linear infinite
+    background: var(--color-green-hyperpop)
+    color: var(--color-blue-dodger)
 
 .bookmark
   flex-grow: 1
   flex-shrink: 1
   flex-basis: 0%
+  padding: 12px 0  
   a
-    color: var(--color-pgh-yellow)
-    padding: 8px 0  
+    color: var(--color-yellow-pgh) !important
   a:hover
-    color: var(--color-retro-aqua-highlight) !important
-    text-shadow: 2px 2px 4px black
-    text-decoration: uppercase !important
+    color: var(--color-yellow-pgh) !important
+    animation: blinker 1s linear infinite
   ul
     :hover
       border-left: none
@@ -196,12 +200,51 @@ p
   font-family: "Cutive Mono", monospace
   padding: 12px 0
 
+/* GAME OVER EFFECT */
+.effect-game-over 
+  animation-name: static 
+  animation-duration: 0.8s 
+  animation-iteration-count: infinite 
+  cursor: pointer !important 
+  p 
+    color: var(--color-green-hyperpop) !important
+
+@keyframes static
+  0% 
+    color: #fff 
+  25% 
+    color: #A59FAD 
+    text-shadow: 2px 2px 2px #A59FAD 
+    transform: translate(-2px, 1px) 
+  40% 
+    color: #fff 
+    text-shadow: none 
+    transform: translate(0, 0) 
+  50% 
+    color: #A59FAD 
+    text-shadow: 5px 5px 2px blue, -5px -5px 2px red 
+    transform: translate(0px, 5px) 
+  70% 
+    color: #fff 
+    text-shadow: none 
+    transform: translate(0, 0) 
+  80% 
+    color: #565656 
+    text-shadow: 0 0 20px #565656 
+    transform: translate(-2px, 1px) 
+  100% 
+    color: #fff 
+    text-shadow: none 
+
 .fade-in
   opacity: 1
   animation-name: fadeInOpacity
   animation-iteration-count: 1
   animation-timing-function: ease-in
   animation-duration: 0.87s
+
+.footer
+  height: 30rem
 
 .footer-back-to-top
   align-items: center
@@ -401,6 +444,29 @@ p
     color: white
     font-size: var(--font-xl)
 
+.site-header
+  display: flex
+  border-radius: 8px
+  overflow: hidden
+
+.site-header-image
+  img
+    border-radius: 12px 0 0 12px
+
+.site-header-excerpt
+  background-color: var(--color-bg)
+  display: flex
+  padding: 2rem
+  font-family: "Cutive Mono", monospace
+  text-indent: 2vw
+  p
+    background-color: none
+    color: var(--color-light)
+
+.site-header-image-hidden
+  a
+    cursor: default
+
 .site-main
   margin-top: 221px
 
@@ -408,10 +474,10 @@ p
   display: flex
   align-items: center
   flex-direction: row
-  padding: 24px 0
   font-family: "Courier Prime", monospace
   font-size: var(--font-xl)
   color: var(--color-light)
+  padding: 24px 0
   h1
     color: white !important
     cursor: default
@@ -423,29 +489,9 @@ p
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
-
-.site-header
-  display: flex
-
-.site-header-image
-  img
-    border-radius: 12px 0 0 12px
-
-.site-header-excerpt
-  background-color: var(--color-bg)
-  display: flex
-  padding: 2rem
-  border-radius: 0 16px 16px 0
-  font-family: "Cutive Mono", monospace
-  text-indent: 2vw
-  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
-  p
-    background-color: none
-    color: var(--color-light)
-
-.site-header-image-hidden
-  a
-    cursor: default
+  span
+    color: white
+    padding: 0 22px 0 0
 
 .subcategory-banner
   display: flex
