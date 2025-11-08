@@ -1,4 +1,3 @@
-@import "animation.css"
 @import "clock.css"
 @import "goodeats.css"
 @import "images.css"
@@ -55,30 +54,10 @@ p
   a
     padding: 4px 0
 
-.bookmark-section
-  margin-left: 1rem
-  text-indent: -1rem
-  break-inside: avoid
-  display: flex
-  flex-direction: column
-  padding: 0 0 3rem
-  font-size: var(--font-m)
-  h2
-    color: var(--color-title)
-    font-family: "Courier Prime", monospace
-    font-size: var(--font-l)
-    padding: 0 0 1vh
-  li
-    margin-left: 1rem
-    text-indent: -1rem
-  a
-    font-family: "Cutive Mono", monospace !important
-    padding: 4px 0 4px 12px
-
 .bookmark-glossary
   display: flex
   flex-wrap: wrap
-  margin: 48px 0
+  margin: 96px 0
   a
     border: 3px solid var(--color-green-hyperpop)
     border-radius: 8px 0 0 0
@@ -93,11 +72,34 @@ p
     background: var(--color-green-hyperpop)
     color: var(--color-blue-dodger)
 
+.bookmark-section
+  margin-left: 1rem
+  text-indent: -1rem
+  break-inside: avoid
+  display: flex
+  flex-direction: column
+  padding: 0 0 3rem
+  font-size: var(--font-m)
+  h2
+    color: var(--color-green-hyperpop)
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-xl)
+    padding: 0 0 1vh
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
+  li
+    font-size: var(--font-l)
+    margin-left: 1rem
+    text-indent: -1rem
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
+  a
+    font-family: "Cutive Mono", monospace !important
+    padding: 4px 0 4px 12px
+
 .bookmark
   flex-grow: 1
   flex-shrink: 1
   flex-basis: 0%
-  padding: 12px 0  
+  padding: 12px 72px 12px 0 
   a
     color: var(--color-yellow-pgh) !important
   a:hover
@@ -199,6 +201,8 @@ p
     letter-spacing: 0.52rem
     text-transform: uppercase
     text-wrap: nowrap
+    /*span
+      animation: flicker 0.41s ease-in-out infinite alternate !important*/
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
@@ -213,14 +217,14 @@ p
 
 /* GAME OVER EFFECT */
 .effect-game-over 
-  animation-name: static 
+  animation-name: glitch 
   animation-duration: 0.8s 
   animation-iteration-count: infinite 
   cursor: pointer !important 
   p 
     color: var(--color-green-hyperpop) !important
 
-@keyframes static
+@keyframes glitch
   0% 
     color: #fff 
   25% 
@@ -415,7 +419,10 @@ p
     background-color: none
     color: var(--color-grey-light)
     cursor: default
-    font-size: var(--font-s)
+    font-size: var(--font-m)
+
+.page-header-image
+  border-radius: 12px !important
 
 .page-header-image-hidden
   a
@@ -426,13 +433,13 @@ p
   align-items: center
   flex-direction: row
   font-family: "Courier Prime", monospace
-  font-size: var(--font-xl)
+  font-size: var(--font-xxl)
   color: var(--color-light)
   padding: 24px 0
   h1
     color: white !important
     cursor: default
-    letter-spacing: 0.6rem
+    letter-spacing: 2rem
     white-space: initial
     word-break: break-all
     &:after
@@ -442,10 +449,10 @@ p
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
-  span
+  i
     color: white
     cursor: default
-    padding: 0 22px 0 0
+    padding: 0 48px 0 0
 
 .project-hashtag
   color: var(--color-grey-light) !important
@@ -578,6 +585,8 @@ p
 @media screen and (min-width: 360px) and (max-width: 540px)
   .bookmark-glossary
     justify-content: center
+    a 
+      padding: 6px 12px
   #footer,
   .site-main
     max-width: 400px
