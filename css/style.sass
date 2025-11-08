@@ -14,6 +14,14 @@
 body
   display: flex
   justify-content: center
+  &::-webkit-scrollbar 
+    width: 12px 
+  &::-webkit-scrollbar-track 
+    background: var(--color-blue-storm) 
+  &::-webkit-scrollbar-thumb 
+    background-color: var(--color-grey-medium)
+    border-radius: 20px 
+    border: 1px solid var(--color-grey-medium)
 
 html
   scroll-behavior: smooth
@@ -73,6 +81,7 @@ p
   margin: 48px 0
   a
     border: 3px solid var(--color-green-hyperpop)
+    border-radius: 8px 0 0 0
     color: var(--color-green-hyperpop)
     font-size: var(--font-l)
     padding: 12px
@@ -188,6 +197,7 @@ p
   h1
     font-size: var(--font-xl)
     letter-spacing: 0.52rem
+    text-transform: uppercase
     text-wrap: nowrap
   i
     animation: pulsate 0.11s ease-in-out infinite alternate !important
@@ -198,6 +208,7 @@ p
 .category-subtitle
   color: var(--color-grey-1)
   font-family: "Cutive Mono", monospace
+  line-height: 1.4rem
   padding: 12px 0
 
 /* GAME OVER EFFECT */
@@ -241,7 +252,7 @@ p
   animation-name: fadeInOpacity
   animation-iteration-count: 1
   animation-timing-function: ease-in
-  animation-duration: 0.87s
+  animation-duration: 0.5s
 
 .footer
   height: 30rem
@@ -313,22 +324,6 @@ p
 .menu-category
   padding: 4rem 0 0
 
-.menu-category-title
-  display: flex
-  flex-direction: row
-  align-items: center
-
-.menu-category-title
-  color: var(--color-title-light) !important
-  margin-bottom: 0.87rem
-  h2
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-m)
-    text-transform: uppercase
-  i
-    font-size: var(--font-xl)
-    padding: 0 14px 0 0 
-
 .menu-category-list
   display: flex
   justify-content: center
@@ -344,6 +339,24 @@ p
   display: flex
   justify-content: flex-start
   text-align: left
+
+.menu-category-title
+  display: flex
+  flex-direction: row
+  align-items: center
+  i
+    color: var(--color-yellow-pgh)
+
+.menu-category-title
+  color: var(--color-title-light)
+  margin-bottom: 0.87rem
+  h2
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    text-transform: uppercase
+  i
+    font-size: var(--font-xl)
+    padding: 0 14px 0 0 
 
 .menu-closed
   display: flex
@@ -365,11 +378,12 @@ p
   display: flex
   flex-direction: column
   a 
-    color: var(--color-retro-aqua)
+    color: var(--color-retro-aqua-highlight)
     font-family: "Yellowtail", monospace
     font-size: var(--font-s)
     padding: 2px 0
     &:hover 
+      animation: blinker 1s linear infinite
       color: var(--color-retro-aqua-highlight)
 
 #navbar
@@ -389,13 +403,7 @@ p
     cursor: pointer !important
 
 .page-header
-  display: flex
-  border-radius: 8px
-  overflow: hidden
-
-.page-header-image
-  img
-    border-radius: 12px 0 0 12px
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.2)
 
 .page-header-excerpt
   background-color: var(--color-bg)
@@ -407,10 +415,37 @@ p
     background-color: none
     color: var(--color-grey-light)
     cursor: default
+    font-size: var(--font-s)
 
 .page-header-image-hidden
   a
     cursor: default !important
+
+.page-title
+  display: flex
+  align-items: center
+  flex-direction: row
+  font-family: "Courier Prime", monospace
+  font-size: var(--font-xl)
+  color: var(--color-light)
+  padding: 24px 0
+  h1
+    color: white !important
+    cursor: default
+    letter-spacing: 0.6rem
+    white-space: initial
+    word-break: break-all
+    &:after
+      padding: 4px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+  span
+    color: white
+    cursor: default
+    padding: 0 22px 0 0
 
 .project-hashtag
   color: var(--color-grey-light) !important
@@ -470,29 +505,6 @@ p
 
 .site-main
   margin-top: 221px
-
-.site-page-title
-  display: flex
-  align-items: center
-  flex-direction: row
-  font-family: "Courier Prime", monospace
-  font-size: var(--font-xl)
-  color: var(--color-light)
-  padding: 24px 0
-  h1
-    color: white !important
-    cursor: default
-    letter-spacing: 1rem
-    &:after
-      padding: 4px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
-      content: "_"
-  span
-    color: white
-    padding: 0 22px 0 0
 
 .subcategory-banner
   display: flex
@@ -559,16 +571,20 @@ p
   .category-links
     a
       font-size: var(--font-s)
-  .site-page-title
+  .page-title
     font-size: var(--font-xl)
     padding: 0
 
 @media screen and (min-width: 360px) and (max-width: 540px)
+  .bookmark-glossary
+    justify-content: center
+  #footer,
+  .site-main
+    max-width: 400px
   #footer,
   .site-main,
   .navbar
     padding: 0 38px !important
-    max-width: 400px
   #footer,
   .site-main
     width: 100%
@@ -588,7 +604,7 @@ p
       font-size: var(--font-s)
       line-height: 1.8rem
   .site-main
-    margin-top: 171px
+    margin-top: 121px
   .contact
     p
       font-size: var(--font-s)
@@ -603,13 +619,14 @@ p
   .category-links
     a
       font-size: var(--font-s)
-  .site-page-title
+  .page-title
     font-size: var(--font-xl)
-    padding: 0
 
 @media screen and (min-width: 540px) and (max-width: 756px)
+  .bookmark-glossary
+    justify-content: center
   .category-section
-    padding: 72px 
+    padding: 72px
   #footer,
   .navbar,
   .site-main
@@ -648,7 +665,7 @@ p
     h1
       font-size: var(--font-m)
   .category-title,
-  .site-page-title,
+  .page-title,
   .menu-category-title
     margin: 0
   .category-title
@@ -659,7 +676,7 @@ p
       padding-left: 24px
     i
       padding: 4px
-  .site-page-title
+  .page-title
     h1
       font-size: var(--font-xl)
 
@@ -672,6 +689,8 @@ p
   .category-section-
     h1
       font-size: var(--font-l)
+  .page-header
+    display: flex
 
 @media screen and (min-width: 1080px) and (max-width: 1440px)
   #footer,
@@ -681,6 +700,8 @@ p
   .category-section-
     h1
       font-size: var(--font-xl)
+  .page-header
+    display: flex
 
 @media screen and (min-width: 1440px) and (max-width: 1980px)
   #footer,
@@ -695,6 +716,8 @@ p
     display: flex
     justify-content: center
     align-items: center
+  .page-header
+    display: flex
 
 @media (min-width: 1980px)
   #footer,
@@ -710,3 +733,5 @@ p
     h1
       letter-spacing: 0.52rem
       font-size: var(--font-xl)
+  .page-header
+    display: flex
