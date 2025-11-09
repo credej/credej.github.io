@@ -138,3 +138,40 @@
 
 /**
   border: 1px solid orange !important*/
+
+
+/* GAME OVER EFFECT */
+.effect-game-over 
+  animation-name: glitch 
+  animation-duration: 0.8s 
+  animation-iteration-count: infinite 
+  cursor: pointer !important 
+  p 
+    color: var(--color-green-hyperpop) !important
+
+@keyframes glitch
+  0% 
+    color: #fff 
+  25% 
+    color: #A59FAD 
+    text-shadow: 2px 2px 2px #A59FAD 
+    transform: translate(-2px, 1px) 
+  40% 
+    color: #fff 
+    text-shadow: none 
+    transform: translate(0, 0) 
+  50% 
+    color: #A59FAD 
+    text-shadow: 5px 5px 2px blue, -5px -5px 2px red 
+    transform: translate(0px, 5px) 
+  70% 
+    color: #fff 
+    text-shadow: none 
+    transform: translate(0, 0) 
+  80% 
+    color: #565656 
+    text-shadow: 0 0 20px #565656 
+    transform: translate(-2px, 1px) 
+  100% 
+    color: #fff 
+    text-shadow: none 

@@ -446,6 +446,17 @@
       "oAP" : "\/favicon.ico",
       "oF" : 0
     },
+    "\/images\/0d4caa61a340cc953d6d0ec97ecd6180.webp" : {
+      "ft" : 8388608,
+      "iS" : 50117276,
+      "oA" : 0,
+      "oAP" : "\/images\/0d4caa61a340cc953d6d0ec97ecd6180.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/images\/arrow-up.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -462,6 +473,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/banner-arch.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bg-cyberpunk-city.jpg" : {
+      "ft" : 16384,
+      "iS" : 68511,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-cyberpunk-city.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bg-cyberpunk-japan.jpg" : {
+      "ft" : 16384,
+      "iS" : 149572,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-cyberpunk-japan.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
