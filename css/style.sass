@@ -69,12 +69,11 @@ p
     font-size: var(--font-l)
     padding: 12px
     margin: 4px
-    font-family: "Yellowtail", monospace
     font-family: "Cutive Mono", monospace
   a:hover
     animation: blinker 1s linear infinite
     background: var(--color-green-hyperpop)
-    color: var(--color-blue-dodger)
+    color: var(--color-cyber-bg)
 
 .bookmark-section
   margin-left: 1rem
@@ -96,7 +95,6 @@ p
     text-indent: -1rem
     text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
   a
-    font-family: "Cutive Mono", monospace !important
     padding: 4px 0 4px 12px
 
 .bookmark
@@ -105,9 +103,9 @@ p
   flex-basis: 0%
   padding: 12px 72px 12px 0 
   a
-    color: var(--color-yellow-pgh) !important
+    color: var(--color-retro-aqua-highlight) 
+    color: var(--color-retro-nostr) 
   a:hover
-    color: var(--color-yellow-pgh) !important
     animation: blinker 1s linear infinite
   ul
     :hover
@@ -204,10 +202,9 @@ p
     font-size: var(--font-xl)
     letter-spacing: 0.52rem
     text-transform: uppercase
-    /*span
-      animation: flicker 0.41s ease-in-out infinite alternate !important*/
+    white-space: pre-wrap
+    word-break: break-word
   i
-    animation: pulsate 0.11s ease-in-out infinite alternate !important
     color: var(--color-pgh-yellow)
     font-size: var(--font-xl)
     padding: 0 22px 0 0 
@@ -215,7 +212,6 @@ p
 .category-subtitle
   color: var(--color-grey-1)
   font-family: "Cutive Mono", monospace
-  line-height: 1.4rem
   padding: 12px 0
 
 .fade-in
@@ -226,7 +222,7 @@ p
   animation-duration: 0.5s
 
 .footer
-  height: 30rem
+  height: 20rem
 
 .footer-back-to-top
   display: flex
@@ -261,14 +257,12 @@ p
   align-items: center
   display: flex
   justify-content: center
-  padding: 0 0 156px
-  p
+  a
     color: var(--color-retro-orange) !important
 
 .footer-text
   display: flex
   justify-content: center
-  padding: 24px 0
 
 .footer-text-flashing
   animation: blink-animation 0.87s infinite
@@ -372,9 +366,9 @@ p
   justify-content: center
   text-align: center
   p
-    font-family: "tiny5", monospace
     font-family: "Boldonse", monospace
-    font-size: var(--font-l)
+    font-family: "tiny5", monospace
+    font-size: var(--font-xl)
     padding: 0 24px
   a
     cursor: pointer !important
@@ -388,12 +382,12 @@ p
   background-color: var(--color-bg)
   display: flex
   padding: 2rem
-  font-family: "Cutive Mono", monospace
   text-indent: 2vw
   p
     background-color: none
     color: var(--color-grey-light)
     cursor: default
+    font-family: "Yellowtail", monospace
     font-size: var(--font-s)
 
 .page-header-image
@@ -614,11 +608,13 @@ p
     i
       padding: 0 24px 0 0
   .project-section
-    padding: 24px
+    padding: 48px 36px
     p
       font-size: var(--font-s)
       padding: 12px 0
       text-align: center
+      text-align: justify
+      hyphens: auto
   .project-title
     display: flex
     flex-direction: column
@@ -626,7 +622,7 @@ p
     align-items: enter
     width: 100%
     h1
-      font-size: var(--font-xl)
+      font-size: var(--font-xxl)
       letter-spacing: 0.52rem
       overflow: wrap
       hyphens: auto; /* Automatically hyphenates words based on language rules */
@@ -705,7 +701,7 @@ p
     align-items: enter
     width: 100%
     h1
-      font-size: var(--font-xl)
+      font-size: var(--font-xxl) !important
       letter-spacing: 0.52rem
       overflow: wrap
       hyphens: auto; /* Automatically hyphenates words based on language rules */

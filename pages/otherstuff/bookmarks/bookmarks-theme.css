@@ -1,0 +1,18 @@
+/* BOOKMARKS - LIGHT */
+body {
+  background-color: var(--color-grey-medium) !important;
+  color: blue;
+}
+
+* {
+  color: var(--color-title-hashtag);
+}
+
+/* BOOKMARKS - DARK */
+body.dark-mode {
+  background-color: var(--color-cyber-bg) !important;
+  color: white;
+}
+
+/*.page-title
+ * color: red !important*/

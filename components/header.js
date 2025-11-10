@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                <div class="navbar-container">
                   <div class="menu-logo flex flex-start">
                      <a href="/index.html" class="navbar-home effect-game-over">
-                        <p id="hover-element">work & other stuff</p>
+                        <p id="hover-element">work + other stuff</p>
                         <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
                      </a>
          
