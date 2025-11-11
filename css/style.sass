@@ -32,7 +32,11 @@ table
   border-collapse: collapse
   border-spacing: 0
 
-p
+p  
+  font-family: "Reddit Mono", monospace 
+  font-family: "Doto", serif 
+  font-family: "Agdasima", serif 
+  font-family: "Lusitana", serif 
   font-family: "Tiny5", monospace
   font-family: "Boldonse", monospace
   font-family: "Cutive Mono", monospace
@@ -64,7 +68,7 @@ p
 .bookmark-glossary
   display: flex
   flex-wrap: wrap
-  margin: 24px 0
+  margin: 12px 0 72px
   a
     border: 3px solid var(--color-green-hyperpop)
     border-radius: 8px 0 0 0
@@ -85,15 +89,14 @@ p
   display: flex
   flex-direction: column
   padding: 0 0 3rem
-  font-size: var(--font-m)
   h2
     color: var(--color-green-hyperpop)
     font-family: "Courier Prime", monospace
-    font-size: var(--font-xl)
+    font-size: var(--font-l)
     padding: 0 0 1vh
     text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
   li
-    font-size: var(--font-l)
+    font-size: var(--font-m)
     margin-left: 1rem
     text-indent: -1rem
     text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
@@ -106,9 +109,9 @@ p
   flex-basis: 0%
   padding: 12px 72px 12px 0 
   a
-    color: var(--color-retro-aqua-highlight) 
-    color: var(--color-retro-nostr) 
+    color: var(--color-blue-light) 
   a:hover
+    color: #fff
     animation: blinker 1s linear infinite
   ul
     :hover
@@ -116,14 +119,14 @@ p
   li 
     font-family: "Courier Prime", monospace
   h2
-    padding: 0 16px
+    padding: 0 16pxw
 
 .bookmark-old
   a
-    color: var(--color-border)
+    color: var(--color-grey-light)
     text-decoration: line-through
   a:hover
-    color: var(--color-border) !important
+    animation: blinker 1s linear infinite
 
 .category-container
   padding: 16px 0
@@ -371,34 +374,30 @@ p
   p
     font-family: "Boldonse", monospace
     font-family: "tiny5", monospace
-    font-size: var(--font-xl)
+    font-size: var(--font-xxl)
     padding: 0 24px
   a
     cursor: pointer !important
 
 .page-header-image
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.2)
   img
-    border-radius: 12px 0 0 0
+    border-radius: 12px 0 0 12px
 
 .page-header-excerpt
   background-color: var(--color-bg)
+  border-radius:  0 12px 12px 0
   display: flex
-  padding: 2rem
+  padding: 2rem 3rem 2rem 2rem
   text-indent: 2vw
   p
-    background-color: none
-    color: var(--color-grey-light)
+    color: white
     cursor: default
     font-family: "Yellowtail", monospace
-    font-size: var(--font-s)
+    font-size: var(--font-m)
+    font-weight: 900
 
-.page-header-image
-  border-radius: 12px !important
-
-.page-header-image-hidden
-  a
-    cursor: default !important
+.page-section
+  margin: 96px 0
 
 .page-title
   display: flex
@@ -486,43 +485,42 @@ p
     color: white
     font-size: var(--font-xl)
 
-.quote-container 
+.quote-container
   break-inside: avoid 
+  padding: 0 24px
 
 .quote 
   padding: 0 0 3rem
 
-.quote-text 
-  border-radius: 16px 16px 0 16px 
-  color: var(--color-light) 
+.quote-text
+  border-radius: 32px 32px 0 32px
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
   cursor: default 
-  font-family: "Reddit Mono", monospace 
   font-family: "Lusitana", serif 
-  font-size: var(--font-m) 
+  font-size: var(--font-l) 
   font-style: italic 
-  font-weight: 400 
-  letter-spacing: 1.2px 
   line-height: 1.8rem 
   margin-bottom: 12px 
-  padding: 36px 48px 56px 
+  padding: 36px 36px 44px
   text-align: left 
-  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
 
 .quote-by 
-  cursor: default 
-  font-family: "Roboto Mono", monospace 
+  cursor: default
+  font-family: "Lusitana", serif 
   font-weight: 400 
   font-style: normal 
+  font-size: var(--font-m)
   padding: 0 0 0 24px
   text-align: right 
 
 .quote-link 
   font-family: "Cutive Mono", "Courier Prime", monospace 
   a 
-    color: var(--color-indigo-100) !important 
+    color: var(--color-purple-light) !important 
     text-align: right 
     &:hover 
-      color: #8566ff !important 
+      animation: blinker 0.4s linear infinite
 
 .quote-by,
 .quote-link 
