@@ -33,7 +33,10 @@ table
   border-spacing: 0
 
 p
-  font-family: "Yellowtail", monospace
+  font-family: "Tiny5", monospace
+  font-family: "Boldonse", monospace
+  font-family: "Cutive Mono", monospace
+  font-family: "Courier Prime", monospace
   font-size: var(--font-m)
 
 ::selection,
@@ -61,7 +64,7 @@ p
 .bookmark-glossary
   display: flex
   flex-wrap: wrap
-  margin: 96px 0
+  margin: 24px 0
   a
     border: 3px solid var(--color-green-hyperpop)
     border-radius: 8px 0 0 0
@@ -191,8 +194,6 @@ p
     font-size: var(--font-xl) !important
     text-wrap: wrap
     word-break: break-all
-  h5
-    font-size: var(--font-l) !important
 
 .category-title
   align-items: center
@@ -213,6 +214,8 @@ p
   color: var(--color-grey-1)
   font-family: "Cutive Mono", monospace
   padding: 12px 0
+  h5
+    font-size: var(--font-l)
 
 .fade-in
   opacity: 1
@@ -222,7 +225,7 @@ p
   animation-duration: 0.5s
 
 .footer
-  height: 20rem
+  height: 10rem
 
 .footer-back-to-top
   display: flex
@@ -483,6 +486,50 @@ p
     color: white
     font-size: var(--font-xl)
 
+.quote-container 
+  break-inside: avoid 
+
+.quote 
+  padding: 0 0 3rem
+
+.quote-text 
+  border-radius: 16px 16px 0 16px 
+  color: var(--color-light) 
+  cursor: default 
+  font-family: "Reddit Mono", monospace 
+  font-family: "Lusitana", serif 
+  font-size: var(--font-m) 
+  font-style: italic 
+  font-weight: 400 
+  letter-spacing: 1.2px 
+  line-height: 1.8rem 
+  margin-bottom: 12px 
+  padding: 36px 48px 56px 
+  text-align: left 
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
+
+.quote-by 
+  cursor: default 
+  font-family: "Roboto Mono", monospace 
+  font-weight: 400 
+  font-style: normal 
+  padding: 0 0 0 24px
+  text-align: right 
+
+.quote-link 
+  font-family: "Cutive Mono", "Courier Prime", monospace 
+  a 
+    color: var(--color-indigo-100) !important 
+    text-align: right 
+    &:hover 
+      color: #8566ff !important 
+
+.quote-by,
+.quote-link 
+  margin-right: 1rem 
+
+
+
 .site-main
   margin-top: 121px
 
@@ -598,6 +645,10 @@ p
   .category-title
     h1
       font-size: var(--font-l)
+  .category-subtitle
+    h5
+      font-size: var(--font-m)
+      line-height: 1.2rem
   .category-links
     a
       font-size: var(--font-s)
@@ -675,12 +726,14 @@ p
     margin: 0
   .category-title
     display: flex
-    justify-content: space-between !important
     h1
       font-size: var(--font-l)
       padding-left: 24px
     i
       padding: 4px
+  .category-subtitle
+    h5
+      font-size: var(--font-m)
   .page-title
     h1
       font-size: var(--font-xl)
