@@ -12,13 +12,13 @@
       <script src="/components/themes.js" type="text/javascript" defer></script>
       <link rel="icon" href="http://www.yoursite.com/favicon.ico?v=2"/>
    </head>
-   <body class="bg-home">
+   <body>
       <div id="page">
          <header-component></header-component>
          <br>
-         <div class="site-main">
+         <div class="site-main bg-home">
 
-            <div class="intro-category-icons">
+            <div class="category-icons">
                <div class="blue"><span class="tooltip-container" data-tooltip="UI/UX Software"><a href="#ux"><i class="iconoir-laptop-dev-mode"></i></a></span></div>
                <div class="green"><span class="tooltip-container" data-tooltip="Design"><a href="#design"><i class="iconoir-edit-pencil"></i></a></span></div>
                <div class="red"><span class="tooltip-container" data-tooltip="Gadgets"><a href="#gadgets"><i class="iconoir-cpu"></i></a></span></div>
@@ -28,250 +28,248 @@
                <div class="white"><span class="tooltip-container" data-tooltip="Get in Contact"><a href="#contact"><i class="iconoir-telegram"></i></a></span></div>
             </div>
 
-            <div class="intro-text">
+            <div class="intro">
                <p>A collection of past work, personal interests, and other misc. resources grouped into the following: <a href="#ux"><span class="blue">Software UI/UX</span></a>, <a href="#design"><span class="green">Design</span></a>, <a href="#gadgets"><span class="red">Gadgets</span></a>, <a href="#diy"><span class="orange">DIY</span></a> (coming soon!), <a href="#otherstuff"><span class="purple">Other Stuff</span></a> and <a href="#travel"><span class="yellow">Travel</span></a> (coming soon!). Also, be sure to play around on the <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank"><span style="color:#B8B8B8;">experimental test page</a>. Just kidding, you'll have to do some digging to find that page. <a href="#contact"><span class="white">Get in contact</span></a></p>
             </div>
 
             <!-- UI UX SOFTWARE -->
             <div id="ux"></div>
-            <div class="category-section bg-glass-blue border-blue">
-               <div class="category-title neon">
-                  <i class="iconoir-laptop-dev-mode blue"></i>
-                  <h1>Software UI/UX</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Designing the user interface & experience for software applications</p>
-               </div>
-               <div class="category-links blue">
-                  <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
-                  <a href="index.html">Red Team Operation Management</a>
-                  <a href="index.html">Online Collectibles Store</a>
-                  <a href="index.html">RFID Inventory Tracking</a>
-                  <a href="index.html">Counterfesit Detection System</a>
+            <div class="category-container">
+               <div class="category-section bg-glass-blue border-blue">
+                  <div class="category-title neon">
+                     <i class="iconoir-laptop-dev-mode blue"></i>
+                     <h1>Software UI/UX</h1>
+                  </div>
+                  <div class="category-subtitle">
+                     <h5>Designing the user interface & experience for software applications</h5>
+                  </div>
+                  <div class="category-links blue">
+                     <a href="/pages/software/cybergrad/index.html">Cybersecurity Training</a>
+                     <a href="index.html">Red Team Operation Management</a>
+                     <a href="index.html">Online Collectibles Store</a>
+                     <a href="index.html">RFID Inventory Tracking</a>
+                     <a href="index.html">Counterfeit Detection System</a>
+                  </div>
                </div>
             </div>
 
             <!-- DESIGN -->
             <div id="design"></div>
-            <div class="category-section bg-glass-green border-green">
-               <div class="category-title neon">
-                  <i class="iconoir-edit-pencil green"></i>
-                  <h1>Design</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Designing everything else</p>
-               </div>
-               <div class="category-links green">
-                  <a href="/pages/design/arch/index.html">Architecture</a>
-                  <a href="/pages/design/web/index.html">Graphic Design</a>
-                  <a href="/pages/design/web/index.html">Web Design</a>
-                  <a href="/pages/design/sketch/index.html">Sketching</a>
-               </div>
-               <div class="category-container 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
-
-                  <div class="category">
-                     <a href="/pages/design/arch/index.html">
-                        <div class="category-title">
-                           <h2>architecture</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="images/banner-arch.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>These are the remnants of my brief career in architecture...</p>
-                        </div>
-                     </a>
+            <div class="category-container">
+               <div class="category-section bg-glass-green border-green">
+                  <div class="category-title neon">
+                     <i class="iconoir-edit-pencil green"></i>
+                     <h1>Design</h1>
                   </div>
-
-                  <div class="category">
-                     <a href="/pages/design/web/index.html">
-                        <div class="category-title">
-                           <h2>graphic / web</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/design/web/img/web-banner.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>Graphic and web design ...</p>
-                        </div>
-                     </a>
+                  <div class="category-subtitle">
+                     <h5>Designing everything else</h5>
                   </div>
+                  <div class="category-links green">
+                     <a href="/pages/design/arch/index.html">Architecture</a>
+                     <a href="/pages/design/web/index.html">Graphic Design</a>
+                     <a href="/pages/design/web/index.html">Web Design</a>
+                     <a href="/pages/design/sketch/index.html">Sketching</a>
+                  </div>
+                  <div class="category-subsection 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
 
-                  <div class="category">
-                     <a href="/pages/design/sketch/index.html">
-                        <div class="category-title">
-                           <h2>artwork</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/design/sketch/img/sketch-banner.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>These are the remnants of my brief career in architecture...</p>
-                        </div>
-                     </a>
+                     <div class="category">
+                        <a href="/pages/design/arch/index.html">
+                           <div class="subcategory-title">
+                              <h2>architecture</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="images/banner-arch.jpg">
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>These are the remnants of my brief career in architecture...</p>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="category">
+                        <a href="/pages/design/web/index.html">
+                           <div class="subcategory-title">
+                              <h2>graphics / web</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/design/web/img/web-banner.jpg">
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>Graphic and web design ...</p>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="category">
+                        <a href="/pages/design/sketch/index.html">
+                           <div class="subcategory-title">
+                              <h2>artwork</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/design/sketch/img/sketch-banner.jpg">
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>These are the remnants of my brief career in architecture...</p>
+                           </div>
+                        </a>
+                     </div>
                   </div>
                </div>
             </div>
 
-
             <!-- GADGETS -->
             <div id="gadgets"></div>
-            <div class="category-section bg-glass-red border-red">
-               <div class="category-title neon">
-                  <i class="iconoir-cpu red"></i>
-                  <h1>Gadgets</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Open source for the win...</p>
-               </div>
-               <div class="category-links red">
-                  <a href="/pages/gadgets/keyboardmice/index.html">Keyboards</a>
-                  <a href="/pages/gadgets/keyboardmice/index.html">More devices</a>
-               </div>                        
-
-               <div class="category-container 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
-
-                  <div class="category">
-                     <a href="/pages/gadgets/keyboardmice/index.html">
-                        <div class="category-title">
-                           <h2>keyboards</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/gadgets/keyboardmice/img/keyboard-banner.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>These are the remnants of my brief career in architecture...</p>
-                        </div>
-                     </a>
+            <div class="category-container">
+               <div class="category-section bg-glass-red border-red">
+                  <div class="category-title neon">
+                     <i class="iconoir-cpu red"></i>
+                     <h1>Gadgets</h1>
                   </div>
-
-                  <div class="category">
-                     <a href="/pages/gadgets/keyboardmice/index.html">
-                        <div class="category-title">
-                           <h2>graphic/web</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/gadgets/otherdevices/img/other-devices-banner.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>Graphic and web design Graphic and web design...</p>
-                        </div>
-                     </a>
+                  <div class="category-subtitle">
+                     <h5>Open source for the win...</h5>
                   </div>
+                  <div class="category-links red">
+                     <a href="/pages/gadgets/keyboardmice/index.html">Keyboards</a>
+                     <a href="/pages/gadgets/keyboardmice/index.html">More devices</a>
+                  </div>                        
 
-                  <div class="category">
-                     <a href="/pages/gadgets/keyboardmice/index.html">
-                        <div class="category-title">
-                           <h2>graphic/web</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/gadgets/otherdevices/img/other-devices-banner.jpg">
-                        </div>
-                        <div class="category-excerpt">
-                           <p>Graphic and web design Graphic and web design...</p>
-                        </div>
-                     </a>
+                  <div class="lg:colucategory-subsection 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
+
+                     <div class="category">
+                        <a href="/pages/gadgets/keyboardmice/index.html">
+                           <div class="subcategory-title">
+                              <h2>keyboards</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/gadgets/keyboardmice/img/keyboard-banner.jpg">
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>These are the remnants of my brief career in architecture...</p>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="category">
+                        <a href="/pages/gadgets/keyboardmice/index.html">
+                           <div class="subcategory-title">
+                              <h2>graphics/web</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/gadgets/otherdevices/img/other-devices-banner.jpg">
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>Graphic and web design Graphic and web design...</p>
+                           </div>
+                        </a>
+                     </div>
                   </div>
                </div>
             </div>
 
             <!-- OTHER STUFF -->
             <div id="otherstuff"></div>
-            <div class="category-section bg-glass-purple border-purple">
-               <div class="category-title neon">
-                  <i class="iconoir-edit-pencil purple"></i>
-                  <h1>Other Stuff</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Designing everything else</p>
-               </div>
-               <div class="category-links purple">
-                  <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a>
-                  <a href="/pages/otherstuff/quotes/index.html">Quotes</a>
-                  <a class="" href="/pages/otherstuff/goodeats/index.html">Good Eats</a>
-               </div>
-               <div class="category-container 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
-
-                  <div class="category">
-                     <a class="" href="/pages/otherstuff/bookmarks/index.html">
-                        <div class="category-title">
-                           <h2>bookmarks</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/otherstuff/bookmarks/img/bookmarks-banner.jpg" alt=Bookmarks>
-                        </div>
-                        <div class="category-excerpt">
-                           <p>One man's trash...</p>
-                        </div>
-                     </a>
+            <div class="category-container">
+               <div class="category-section bg-glass-purple border-purple">
+                  <div class="category-title neon">
+                     <i class="iconoir-edit-pencil purple"></i>
+                     <h1>Other Stuff</h1>
                   </div>
-
-                  <div class="category">
-                     <a href="/pages/otherstuff/quotes/index.html">
-                        <div class="category-title">
-                           <h2>quotes</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/otherstuff/quotes/img/quotes-banner.jpg" alt=Bookmarks>
-                        </div>
-                        <div class="category-excerpt">
-                           <p>Graphic and web design Graphic and web design Graphic and web design...</p>
-                        </div>
-                     </a>
+                  <div class="category-subtitle">
+                     <h5>Designing everything else</h5>
                   </div>
+                  <div class="category-links purple">
+                     <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a>
+                     <a href="/pages/otherstuff/quotes/index.html">Quotes</a>
+                     <a class="" href="/pages/otherstuff/goodeats/index.html">Good Eats</a>
+                  </div>
+                  <div class="category-subsection 2xl:columns-3 xl:columns-2 lg:columns-2 md:columns-1 sm:columns-1 gap-x-24">
 
-                  <div class="category">
-                     <a class="" href="/pages/otherstuff/goodeats/index.html">
-                        <div class="category-title">
-                           <h2>good eats</h2>
-                        </div>
-                        <div class="category-banner">
-                           <img class="kg-image" src="pages/otherstuff/goodeats/img/goodeats-banner.jpg" alt=Bookmarks>         
-                        </div>
-                        <div class="category-excerpt">
-                           <p>These are the remnants of my brief career in architecture...</p>
-                        </div>
-                     </a>
+                     <div class="category">
+                        <a class="" href="/pages/otherstuff/bookmarks/index.html">
+                           <div class="subcategory-title">
+                              <h2>bookmarks</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/otherstuff/bookmarks/img/bookmarks-banner.jpg" alt=Bookmarks>
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>One man's trash...</p>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="category">
+                        <a href="/pages/otherstuff/quotes/index.html">
+                           <div class="subcategory-title">
+                              <h2>quotes</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/otherstuff/quotes/img/quotes-banner.jpg" alt=Bookmarks>
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>Graphic and web design Graphic and web design Graphic and web design...</p>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="category">
+                        <a class="" href="/pages/otherstuff/goodeats/index.html">
+                           <div class="subcategory-title">
+                              <h2>good eats</h2>
+                           </div>
+                           <div class="subcategory-banner">
+                              <img class="kg-image" src="pages/otherstuff/goodeats/img/goodeats-banner.jpg" alt=Bookmarks>         
+                           </div>
+                           <div class="subcategory-excerpt">
+                              <p>These are the remnants of my brief career in architecture...</p>
+                           </div>
+                        </a>
+                     </div>
                   </div>
                </div>
             </div>
 
             <!-- DIY -->
             <div id="diy"></div>
-            <div class="category-section bg-glass-orange border-orange">
-               <div class="category-title neon">
-                  <i class="iconoir-tools orange"></i>
-                  <h1>DIY (coming soon!)</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>If you build it...</p>
+            <div class="category-container">
+               <div class="category-section bg-glass-orange border-orange">
+                  <div class="category-title neon">
+                     <i class="iconoir-tools orange"></i>
+                     <h1>DIY (coming soon!)</h1>
+                  </div>
+                  <div class="category-subtitle">
+                     <h5>If you build it...</h5>
+                  </div>
                </div>
             </div>
 
             <!-- TRAVEL -->
             <div id="travel"></div>
-            <div class="category-section bg-glass-yellow border-yellow">
-               <div class="category-title neon">
-                  <i class="iconoir-hot-air-balloon yellow"></i>
-                  <h1>Travel (coming soon!)</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Where to next?</p>
+            <div class="category-container">
+               <div class="category-section bg-glass-yellow border-yellow">
+                  <div class="category-title neon">
+                     <i class="iconoir-hot-air-balloon yellow"></i>
+                     <h1>Travel (coming soon!)</h1>
+                  </div>
+                  <div class="category-subtitle">
+                     <p>Where to next?</p>
+                  </div>
                </div>
             </div>
 
             <!-- CONTACT -->
             <div id="contact"></div>
-            <div class="category-section bg-glass-white border-white">
-               <div class="category-title neon">
-                  <i class="iconoir-telegram white"></i>
-                  <h1>Contact</h1>
-               </div>
-               <div class="category-subtitle">
-                  <p>Hello. I'm a user interface & experience designer based in southern California. I've got over ten years of experience translating customer needs into visually compelling & intuitive web application software. Feel free to view my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> or see the various software projects that I follow on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; If you're reading this then <a><button onclick="showAlert()">I'm available to work with</button></a>.</p>
+            <div class="category-container">
+               <div class="category-section bg-glass-white border-white">
+                  <div class="category-title neon">
+                     <i class="iconoir-telegram white"></i>
+                     <h1>Contact</h1>
+                  </div>
+                  <div class="category-subtitle">
+                     <p>Hello. I'm a user interface & experience designer based in southern California. I've got over ten years of experience translating customer needs into visually compelling & intuitive web application software. Feel free to view my online resume and recommendations on <a href="https://www.linkedin.com/in/jordan-crede-159887160/" target="_blank" style="color: #facc15;">Linkedin</a> or see the various software projects that I follow on <a href="https://github.com/credej" target="_blank" style="color: #facc15;">Github</a>.&nbsp; If you're reading this then <a><button onclick="showAlert()">I'm available to work with</button></a>.</p>
+                  </div>
                </div>
             </div>
-
          </div>
 
          <div class="footer">

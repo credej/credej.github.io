@@ -3,7 +3,6 @@
   --color-blue-light: #A1D9FE
   --color-blue-medium: #649BF9
   --color-blue-dark: #2A3889
-  --color-blue-dark: #212C6C
   --color-purple-light: #697BED
   --color-pink-medium: #DEB0FD
 
@@ -58,48 +57,48 @@
 .blue i
   color: #00E1FF !important
 .border-blue
-  border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1
+  border-image: linear-gradient(to top, #5EEBD5 0%, #093A32 100%) 1
 
 .green,
 .green a,
 .green i
   color: #00FF73 !important
 .border-green
-  border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1
+  border-image: linear-gradient(to top, #00FF73 0%, #1C3013 100%) 1
  
 .red,
 .red a,
 .red i
   color: #D9044C !important
 .border-red
-  border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important
+  border-image: linear-gradient(to top, #D9044C 0%, #3C1A12 100%) 1 !important
 .orange,
 .orange a,
 .orange i
   color: #ea673e !important
 .border-orange
-  border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1
+  border-image: linear-gradient(to top, #ea673e 0%, #342008 100%) 1
 
 .purple,
 .purple a,
 .purple i
   color: #8566ff !important
 .border-purple
-  border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1
+  border-image: linear-gradient(to top, #8566ff 0%, #24204C 100%) 1
 
 .yellow,
 .yellow a,
 .yellow i
   color: #facc15 !important
 .border-yellow
-  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1
+  border-image: linear-gradient(to top, #facc15 0%, #3B320E 100%) 1
 
 .white,
 .white a,
 .white i
   color: #ececec !important
 .border-white
-  border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1
+  border-image: linear-gradient(to top, #ececec 0%, #3B3B3B 100%) 1
 
 
 
@@ -143,9 +142,12 @@
   html 
     scroll-behavior: auto
 
-/* GAME OVER EFFECT */
+/**
+  border: 1px solid orange !important*/
 
-.effect-game-over:hover 
+
+/* GAME OVER EFFECT */
+.effect-game-over 
   animation-name: glitch 
   animation-duration: 0.8s 
   animation-iteration-count: infinite 
@@ -179,17 +181,3 @@
   100% 
     color: #fff 
     text-shadow: none 
-
-
-
-
-.text-effect-block-blue
-  color: #bc2e1e !important
-  text-shadow: 0 1px #2A3889, -1px 0 #697BED, -1px 2px #2A3889, -2px 1px #697BED, -2px 3px #2A3889, -3px 2px #697BED, -3px 4px
-
-.text-effect-block-red
-  p
-    color: #bc2e1e !important
-    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px
-
-
