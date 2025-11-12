@@ -62,7 +62,7 @@ p
     color: var(--color-retro-aqua-highlight)
 
 .badge-container
-  padding: 48px 24px
+  padding: 72px 24px
   img
     width: 200px 
     padding: 4px 0
@@ -70,9 +70,17 @@ p
 .badge
   display: flex
   flex-direction: column
-  justify-content: center
+  justify-content: flex-start
   align-items: center
   padding: 24px
+  height: 571px
+  text-align: center
+  h3
+    font-family: "Reddit Mono", monospace
+    font-size: var(--font-l)
+    margin: 24px 0 12px
+  p
+    font-family: "Reddit Mono", monospace
 
 .bookmark-glossary
   display: flex
@@ -428,10 +436,9 @@ p
 
 .project-hashtag
   color: var(--color-grey-light) !important
-  cursor: pointer !important
-  margin-left: 24px
   filter: invert(1)
   mix-blend-mode: exclusion
+  font-size: var(--font-l)
 
 .project-section
   display: flex
@@ -441,6 +448,7 @@ p
   font-family: "Yellowtail", monospace
   border-radius: 14px 0 0 0
   padding: 72px
+  margin: 96px 0 48px
   p
     filter: invert(1)
     mix-blend-mode: luminosity
@@ -464,11 +472,11 @@ p
     margin-right: 24px
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
+
 .project-title
   display: flex
   align-items: center
-  justify-content: flex-start
-  padding: 24px 0
+  padding: 12px 0
   h1
     color: white
     font-family: "Courier Prime", monospace
@@ -481,9 +489,10 @@ p
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
-  span
+  i
     color: white
     font-size: var(--font-xl)
+    padding: 0 24px 0 0
 
 .quote-container
   break-inside: avoid 
