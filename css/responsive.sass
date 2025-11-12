@@ -1,0 +1,360 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 100px) and (max-width: 360px)
+  body,
+  .navbar
+    margin: 0 12px !important
+  .navbar,
+  .site-main
+    width: 100px
+  .category-title
+    display: flex
+    justify-content: space-between !important
+    h1
+      font-size: var(--font-m)
+    i
+      padding-right: 18px
+  .menu-closed
+    margin: 24px 0
+  .category-links
+    a
+      font-size: var(--font-s)
+  .page-title
+    font-size: var(--font-xl)
+    padding: 0
+
+/* IPHONE */
+
+@media screen and (min-width: 360px) and (max-width: 540px)
+  .bookmark-glossary
+    justify-content: center
+    margin: 72px 0
+    a 
+      padding: 6px 12px
+  #footer,
+  .site-main,
+  .navbar
+    padding: 0 38px !important
+  #footer,
+  .site-main
+    width: 100%
+  .category-section
+    padding: 48px 36px
+  .footer-column
+    display: flex
+    align-items: center
+    width: 100%
+  .intro
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0
+    text-align: center
+    p
+      font-size: var(--font-s)
+      line-height: 1.8rem
+  .contact
+    p
+      font-size: var(--font-s)
+  .category-links
+    padding: 24px 0
+  .category-icons
+    margin-bottom: 24px
+    justify-content: center
+    /* FIND BETTER SOLUTION, ICONS FLOWING OVER DIV CREATING UNWANTED SCROLLBAR */
+    overflow: hidden
+  .category-title
+    h1
+      font-size: var(--font-l)
+  .category-subtitle
+    h5
+      font-size: var(--font-m)
+      line-height: 1.2rem
+  .category-links
+    a
+      font-size: var(--font-s)
+  .page-title
+    font-size: var(--font-xl)
+    h1
+      letter-spacing: 0.6rem
+    i
+      padding: 0 24px 0 0
+  .project-section
+    padding: 48px 36px
+    p
+      font-size: var(--font-s)
+      padding: 12px 0
+      text-align: center
+      text-align: justify
+      hyphens: auto
+  .project-title
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: enter
+    width: 100%
+    h1
+      font-size: var(--font-xxl)
+      letter-spacing: 0.52rem
+      overflow: wrap
+      hyphens: auto; /* Automatically hyphenates words based on language rules */
+      -webkit-hyphens: auto
+      -moz-hyphens: auto
+      -ms-hyphens: auto
+    i
+      font-size: var(--font-xxl)
+      margin: 0 0 12px
+
+@media screen and (min-width: 540px) and (max-width: 756px)
+  .bookmark-glossary
+    justify-content: center
+  .category-section
+    padding: 72px
+  #footer,
+  .navbar,
+  .site-main
+    padding: 0 72px !important
+  #footer,
+  .navbar,
+  .site-main
+    padding: 0 48px !important
+  .category-icons
+    display: flex
+    justify-content: center
+    padding: 12px 0
+  .category-icons-container
+    filter: grayscale(0) !important
+    opacity: 1
+  .category-links
+    text-indent: 0
+  .footer-button
+    img
+      width: 36px !important
+  .footer-column
+    display: flex
+    align-items: center
+    width: 100%
+  .intro
+    margin: 12px 0
+    text-align: center
+    p
+      line-height: 2rem
+  .menu-closed
+    justify-content: space-between !important
+  .category-title,
+  .page-title,
+  .menu-category-title
+    margin: 0
+  .category-title
+    display: flex
+    h1
+      font-size: var(--font-l)
+      padding-left: 24px
+    i
+      padding: 4px
+  .category-subtitle
+    h5
+      font-size: var(--font-m)
+  .page-title
+    h1
+      font-size: var(--font-xl)
+    a
+      font-size: var(--font-s) !important
+      text-indent: 0
+    h1
+      font-size: var(--font-m)
+  .anchor-list a
+    font-size: var(--font-l) !important
+  .page-title h1,
+  .project-title > h1
+    font-size: var(--font-xl) !important
+  .project-title
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: enter
+    width: 100%
+    h1
+      font-size: var(--font-xxl) !important
+      letter-spacing: 0.52rem
+      overflow: wrap
+      hyphens: auto; /* Automatically hyphenates words based on language rules */
+      -webkit-hyphens: auto
+      -moz-hyphens: auto
+      -ms-hyphens: auto
+    i
+      font-size: var(--font-xxl)
+      margin: 0 0 12px
+
+
+@media screen and (min-width: 756px) and (max-width: 1080px)
+  #footer,
+  .navbar,
+  .site-main
+    margin-left: 72px
+    margin-right: 72px
+  .category-section-
+    h1
+      font-size: var(--font-l)
+  .page-header
+    display: flex
+
+@media screen and (min-width: 1080px) and (max-width: 1440px)
+  #footer,
+  .site-main,
+  .navbar
+    padding: 0 144px !important
+  .category-section-
+    h1
+      font-size: var(--font-xl)
+  .page-header
+    display: flex
+
+@media screen and (min-width: 1440px) and (max-width: 1980px)
+  #footer,
+  .site-main,
+  .navbar
+    padding: 0 144px !important
+  .intro
+    text-align: justify
+    a
+      font-size: var(--font-l) !important
+  .footer-main
+    display: flex
+    justify-content: center
+    align-items: center
+  .page-header
+    display: flex
+
+@media (min-width: 1980px)
+  #footer,
+  .site-main,
+  .navbar
+    padding: 0 384px !important
+  #footer,
+  .site-main
+    width: 100%
+  .intro
+    text-align: justify
+  .category-section--title
+    h1
+      letter-spacing: 0.52rem
+      font-size: var(--font-xl)
+  .page-header
+    display: flex
+
+
+
+/* MEDIA QUERIES FOR IMAGE GALLERY */
+
+@media screen and (min-width: 992px)
+  .dw-4
+      -moz-column-count: 4
+      column-count: 4
+
+@media screen and (min-width: 768px)
+  .dw-panel 
+      page-break-inside: avoid
+      -moz-column-break-inside: avoid
+      break-inside: avoid
+  .date-field 
+    justify-content: space-evenly
+  .date-field div.day-of-week 
+    display: none
+  .date-field div.day-of-week-mobile 
+    display: inline-block
+  .date-field div.day-of-week-mobile p 
+    font-size: 56px
+    margin-top: -2px
+  .dw
+    -moz-column-count: 2
+    column-count: 2
+
+@media screen and (min-width: 430px)
+  .dw-cluster--vertical,
+  .dw-cluster__segment--row 
+      flex-direction: column
+
+@media screen and (min-width: 430px)
+  .dw-cluster__segment--half 
+      flex-basis: 50%
+  .dw-cluster__segment--quart 
+      flex-basis: 25%
+
+
+@media screen and (min-width: 1200px)
+  .post-card.no-image .post-card-title 
+      font-size: 3.4rem
+
+@media screen and (min-width: 800px)
+  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 
+    flex-basis: 50%
+    max-width: 50%
+  .kg-width-full 
+    width: 100vw
+
+@media screen and (min-width: 700px)
+  .post-card.no-image:before 
+      font-size: 50vw
+  .post-card
+      flex: 1 1 100%
+      height: 70vw
+  .post-card.with-image .post-card-content 
+      opacity: 1
+
+@media screen and (min-width: 600px)
+  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 
+    flex-basis: 100%
+    max-width: 100%
+
+@media screen and (min-width: 500px)
+  .post-content-body 
+    font-size: 1.7rem
+  .page-head-logo>pre 
+    font-size: 1.1rem
+    line-height: 1.3rem
+  .kg-bookmark-container 
+    flex-direction: column
+
+@media screen and (min-width: 850px)
+  .site-head 
+    padding: 0 0 20px
+  .site-head-container 
+    background: hsla(0, 0%, 100%, 0);
+    display: block
+  .nav
+    align-items: flex-start
+    flex-direction: column
+    justify-content: flex-start
+    margin: 3vw 0 0
+    width: 100%
+  .site-head-center
+    display: flex
+    justify-content: left
+    order: 1
+    position: static
+    z-index: auto
+  .social-links
+    align-items: flex-start
+    flex-direction: column
+  .kg-bookmark-card 
+    margin: 7vw 0
+
+@media screen and (min-width: 500px)
+  .date-field div.day-of-week-mobile p 
+    font-size: 50px
+    margin-top: 0px
+
+@media screen and (min-width: 468px)
+  .date-field div.day-of-week-mobile p 
+    font-size: 42px
+
+@media screen and (min-width: 400px)
+  .date-field div.day-of-week-mobile p 
+    font-size: 20px
+
+@media (max-width:var(--xsmall )) 
+  .actions
+    flex-direction: column
+    margin-left: 0
+    width: 100% !important
