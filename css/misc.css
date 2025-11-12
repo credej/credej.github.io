@@ -1,3 +1,17 @@
+/* .bg-home {
+    background: url("../images/header.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;}
+*/
+
+
+
+
+/* STEAM SHINY EFFECT */
+
 body {
   background-color: hsl(240, 30, 10);
 }
@@ -245,14 +259,7 @@ label {
 
 
 
- .bg-home {
-    background: url("images/header.jpg") !important;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -9999; }
+
 
 
 
