@@ -8,6 +8,9 @@
   .site-main {
     width: 100px;
   }
+  .badge {
+    height: auto !important;
+  }
   .category-title {
     display: flex;
     justify-content: space-between !important;
@@ -46,6 +49,10 @@
   #footer,
   .site-main {
     width: 100%;
+  }
+  .badge {
+    height: auto !important;
+    padding: 24px 0;
   }
   .category-section {
     padding: 48px 36px;
@@ -144,6 +151,13 @@
   .navbar,
   .site-main {
     padding: 0 48px !important;
+  }
+  .badges {
+    margin: 144px 0 !important;
+  }
+  .badge {
+    height: auto !important;
+    padding: 48px 0;
   }
   .category-icons {
     display: flex;

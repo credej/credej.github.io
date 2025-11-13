@@ -60,11 +60,17 @@ p
   padding: 24px 0
   a
     color: var(--color-retro-aqua-highlight)
+    margin: 12px 0
+
+.badges
+  margin: 96px 0
 
 .badge-container
-  padding: 72px 24px
+  display: flex
+  flex-wrap: wrap
+  padding: 24px
   img
-    width: 200px 
+    width: 200px
     padding: 4px 0
 
 .badge
@@ -72,8 +78,7 @@ p
   flex-direction: column
   justify-content: flex-start
   align-items: center
-  padding: 24px
-  height: 571px
+  height: 575px
   text-align: center
   h3
     font-family: "Reddit Mono", monospace
@@ -277,6 +282,18 @@ p
   -webkit-animation: blink-animation 0.87s infinite
   padding: 0 24px
 
+.img-fullsize
+  padding: 48px 0
+  figcaption
+    font-size: var(--font-s)
+    padding: 16px 0
+    text-align: center
+
+.img-gallery
+  margin: 48px 0
+  img
+    padding: 24px
+
 .intro
   padding: 24px 0
 
@@ -448,11 +465,12 @@ p
   font-family: "Yellowtail", monospace
   border-radius: 14px 0 0 0
   padding: 72px
-  margin: 96px 0 48px
   p
     filter: invert(1)
+    font-size: var(--font-l)
+    line-height: 1.8rem
     mix-blend-mode: luminosity
-    padding: 24px 0
+    padding: 18px 0
   a
     font-size: var(--font-l) !important
     margin-bottom: 4px !important
@@ -464,7 +482,7 @@ p
     word-break: break-all
   h3
     color: white
-    font-size: var(--font-l) !important
+    font-size: var(--font-l)
   span
     color: var(color-title-hashtag) !important
   span
@@ -472,6 +490,9 @@ p
     margin-right: 24px
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
+.project-section-title
+  h3
+    font-size: var(--font-xl) 
 
 .project-title
   display: flex
@@ -537,6 +558,24 @@ p
 
 .site-main
   margin-top: 150px
+
+.spacer
+  padding: 221px 0
+  text-align: center
+  width: 100%
+
+.spacer-line
+  border-bottom: 1px solid var(--color-blue-storm)
+  margin: 0 96px
+
+.spacer-s
+  height: 60px
+
+.spacer-m
+  height: 120px
+
+.spacer-l
+  height: 180px
 
 .tooltip-container
   position: relative
