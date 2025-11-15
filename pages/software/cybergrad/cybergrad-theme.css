@@ -2,7 +2,10 @@
 body {
   background-color: var(--color-cyber-turqoise-medium) !important;
   background-color: var(--color-cyber-turqoise-light) !important;
-  color: blue;
+}
+
+.anchor-list a {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.21);
 }
 
 /* CYBERGRAD - DARK */
@@ -13,3 +16,6 @@ body.dark-mode {
 
 /*.page-title
  * color: red !important*/
+body.dark-mode .anchor-list a {
+  text-shadow: none;
+}

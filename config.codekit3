@@ -2421,7 +2421,7 @@
     },
     "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg" : {
       "ft" : 16384,
-      "iS" : 224166,
+      "iS" : 487641,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/collectibles\/img\/web-steelcity-2.jpg",
@@ -2893,12 +2893,12 @@
       "oAP" : "\/pages\/software\/cybergrad\/index.html",
       "oF" : 0
     },
-    "\/pages\/software\/inventory\/inventory-kohls.jpg" : {
+    "\/pages\/software\/inventory\/img\/inventory-kohls.jpg" : {
       "ft" : 16384,
       "iS" : 244975,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/inventory-kohls.jpg",
+      "oAP" : "\/pages\/software\/inventory\/img\/inventory-kohls.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2906,11 +2906,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/senitron_aa_2.png" : {
+    "\/pages\/software\/inventory\/img\/senitron_aa_2.png" : {
       "ft" : 32768,
       "iS" : 194349,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/senitron_aa_2.png",
+      "oAP" : "\/pages\/software\/inventory\/img\/senitron_aa_2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2919,11 +2919,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/senitron_app_retail_popup.png" : {
+    "\/pages\/software\/inventory\/img\/senitron_app_retail_popup.png" : {
       "ft" : 32768,
       "iS" : 148585,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/senitron_app_retail_popup.png",
+      "oAP" : "\/pages\/software\/inventory\/img\/senitron_app_retail_popup.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2932,11 +2932,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/senitron_app_retail.png" : {
+    "\/pages\/software\/inventory\/img\/senitron_app_retail.png" : {
       "ft" : 32768,
       "iS" : 321330,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/senitron_app_retail.png",
+      "oAP" : "\/pages\/software\/inventory\/img\/senitron_app_retail.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2945,12 +2945,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/web_sen_int.jpg" : {
+    "\/pages\/software\/inventory\/img\/web_sen_int.jpg" : {
       "ft" : 16384,
       "iS" : 651228,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/web_sen_int.jpg",
+      "oAP" : "\/pages\/software\/inventory\/img\/web_sen_int.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2958,12 +2958,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/web_senitron_mobile.jpg" : {
+    "\/pages\/software\/inventory\/img\/web_senitron_mobile.jpg" : {
       "ft" : 16384,
       "iS" : 320728,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/web_senitron_mobile.jpg",
+      "oAP" : "\/pages\/software\/inventory\/img\/web_senitron_mobile.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2971,12 +2971,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/web-kohls-2.jpg" : {
+    "\/pages\/software\/inventory\/img\/web-kohls-2.jpg" : {
       "ft" : 16384,
       "iS" : 464911,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/web-kohls-2.jpg",
+      "oAP" : "\/pages\/software\/inventory\/img\/web-kohls-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2984,12 +2984,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/inventory\/web-kohls.jpg" : {
+    "\/pages\/software\/inventory\/img\/web-kohls.jpg" : {
       "ft" : 16384,
       "iS" : 474056,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/inventory\/web-kohls.jpg",
+      "oAP" : "\/pages\/software\/inventory\/img\/web-kohls.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2997,11 +2997,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/mill-designsystem_icons.png" : {
+    "\/pages\/software\/redteam\/img\/mill-designsystem_icons.png" : {
       "ft" : 32768,
       "iS" : 532082,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/mill-designsystem_icons.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-designsystem_icons.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3010,12 +3010,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/mill-spacing.jpg" : {
+    "\/pages\/software\/redteam\/img\/mill-spacing.jpg" : {
       "ft" : 16384,
       "iS" : 94420,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/mill-spacing.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-spacing.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3023,12 +3023,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/mill-ui-dashboard.jpg" : {
+    "\/pages\/software\/redteam\/img\/mill-ui-dashboard.jpg" : {
       "ft" : 16384,
       "iS" : 406584,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/mill-ui-dashboard.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-ui-dashboard.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3036,19 +3036,19 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/millennium-project-dashboard-3.pxd" : {
+    "\/pages\/software\/redteam\/img\/millennium-project-dashboard-3.pxd" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/millennium-project-dashboard-3.pxd",
+      "oAP" : "\/pages\/software\/redteam\/img\/millennium-project-dashboard-3.pxd",
       "oF" : 0
     },
-    "\/pages\/software\/redteam\/pland-analytics-personnel-compliance.png" : {
+    "\/pages\/software\/redteam\/img\/pland-analytics-personnel-compliance.png" : {
       "ft" : 32768,
       "iS" : 169461,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-analytics-personnel-compliance.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-personnel-compliance.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3057,11 +3057,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/pland-analytics-personnel-locale.png" : {
+    "\/pages\/software\/redteam\/img\/pland-analytics-personnel-locale.png" : {
       "ft" : 32768,
       "iS" : 143575,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-analytics-personnel-locale.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-personnel-locale.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3070,11 +3070,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/pland-analytics-report.png" : {
+    "\/pages\/software\/redteam\/img\/pland-analytics-report.png" : {
       "ft" : 32768,
       "iS" : 158532,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-analytics-report.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-report.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3083,12 +3083,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/pland-event-date-proposal.jpg" : {
+    "\/pages\/software\/redteam\/img\/pland-event-date-proposal.jpg" : {
       "ft" : 16384,
       "iS" : 125678,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-event-date-proposal.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-event-date-proposal.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3096,11 +3096,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/pland-event-edit-history.png" : {
+    "\/pages\/software\/redteam\/img\/pland-event-edit-history.png" : {
       "ft" : 32768,
       "iS" : 189235,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-event-edit-history.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-event-edit-history.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3109,24 +3109,24 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/pland-overdue-reports.jpg" : {
+    "\/pages\/software\/redteam\/img\/pland-overdue-reports.jpg" : {
       "ft" : 16384,
       "iS" : 961175,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/pland-overdue-reports.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-overdue-reports.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-credential-details.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-credential-details.png" : {
       "ft" : 32768,
       "iS" : 468735,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-credential-details.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-credential-details.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3135,11 +3135,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-host-details@2x.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-host-details@2x.png" : {
       "ft" : 32768,
       "iS" : 488920,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-host-details@2x.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-host-details@2x.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3148,11 +3148,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-hosts.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-hosts.png" : {
       "ft" : 32768,
       "iS" : 210392,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-hosts.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-hosts.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3161,11 +3161,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-login-operations.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-login-operations.png" : {
       "ft" : 32768,
       "iS" : 479615,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-login-operations.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-login-operations.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3174,11 +3174,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-login@2x.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-login@2x.png" : {
       "ft" : 32768,
       "iS" : 498194,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-login@2x.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-login@2x.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3187,11 +3187,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/scrolld-tool-admin.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-tool-admin.png" : {
       "ft" : 32768,
       "iS" : 134575,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/scrolld-tool-admin.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-tool-admin.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
