@@ -58,6 +58,10 @@ p {
   margin-bottom: 100px;
 }
 
+#compliance {
+  margin-top: 100px;
+}
+
 .anchor {
   scroll-margin-top: 117px;
 }
@@ -615,10 +619,10 @@ p {
   color: white;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xxl);
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
 }
 .project-title h1:after {
-  padding: 18px 8px 18px 18px;
+  padding: 29px;
   animation: blink-animation 1s infinite;
   -webkit-animation: blink-animation 1s infinite;
   -moz-animation: blink-animation 1s infinite;
