@@ -33,14 +33,6 @@
       "oAP" : "\/.htaccess",
       "oF" : 0
     },
-    "\/8-Bit Powerup Sound Effects (Copyright Free) [SoZhpnTuQBo].mp3" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/8-Bit Powerup Sound Effects (Copyright Free) [SoZhpnTuQBo].mp3",
-      "oF" : 0
-    },
     "\/components\/darktheme-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -434,14 +426,6 @@
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
-    },
-    "\/Cute Pop Sound Effects [QvghQOO3K-I].mp3" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Cute Pop Sound Effects [QvghQOO3K-I].mp3",
-      "oF" : 0
     },
     "\/favicon.ico" : {
       "cB" : 0,
@@ -2997,38 +2981,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/mill-designsystem_icons.png" : {
-      "ft" : 32768,
-      "iS" : 532082,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/mill-designsystem_icons.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/pages\/software\/redteam\/img\/mill-spacing.jpg" : {
-      "ft" : 16384,
-      "iS" : 94420,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/mill-spacing.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/software\/redteam\/img\/mill-ui-dashboard.jpg" : {
+    "\/pages\/software\/redteam\/img\/mill-dashboard.jpg" : {
       "ft" : 16384,
       "iS" : 406584,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/mill-ui-dashboard.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-dashboard.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3036,19 +2994,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/millennium-project-dashboard-3.pxd" : {
+    "\/pages\/software\/redteam\/img\/mill-dashboard.pxd" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/millennium-project-dashboard-3.pxd",
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-dashboard.pxd",
       "oF" : 0
     },
-    "\/pages\/software\/redteam\/img\/pland-analytics-personnel-compliance.png" : {
+    "\/pages\/software\/redteam\/img\/mill-icons.png" : {
+      "ft" : 32768,
+      "iS" : 532082,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/img\/mill-icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/img\/pland-compliance.png" : {
       "ft" : 32768,
       "iS" : 169461,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-personnel-compliance.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-compliance.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3057,38 +3028,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/pland-analytics-personnel-locale.png" : {
-      "ft" : 32768,
-      "iS" : 143575,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-personnel-locale.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/pages\/software\/redteam\/img\/pland-analytics-report.png" : {
-      "ft" : 32768,
-      "iS" : 158532,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-analytics-report.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/pages\/software\/redteam\/img\/pland-event-date-proposal.jpg" : {
+    "\/pages\/software\/redteam\/img\/pland-eventdate.jpg" : {
       "ft" : 16384,
       "iS" : 125678,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-event-date-proposal.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-eventdate.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3096,11 +3041,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/pland-event-edit-history.png" : {
+    "\/pages\/software\/redteam\/img\/pland-eventhistory.png" : {
       "ft" : 32768,
       "iS" : 189235,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-event-edit-history.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-eventhistory.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3109,12 +3054,25 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/pland-overdue-reports.jpg" : {
+    "\/pages\/software\/redteam\/img\/pland-locale.png" : {
+      "ft" : 32768,
+      "iS" : 143575,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-locale.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/img\/pland-overdue.jpg" : {
       "ft" : 16384,
       "iS" : 961175,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/pland-overdue-reports.jpg",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-overdue.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3122,11 +3080,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/scrolld-credential-details.png" : {
+    "\/pages\/software\/redteam\/img\/pland-query.png" : {
       "ft" : 32768,
-      "iS" : 468735,
+      "iS" : 158532,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-credential-details.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/pland-query.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3135,11 +3093,24 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/scrolld-host-details@2x.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-credentials.png" : {
+      "ft" : 32768,
+      "iS" : 468735,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-credentials.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/img\/scrolld-hostdetails.png" : {
       "ft" : 32768,
       "iS" : 488920,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-host-details@2x.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-hostdetails.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3161,24 +3132,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/scrolld-login-operations.png" : {
-      "ft" : 32768,
-      "iS" : 479615,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-login-operations.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/pages\/software\/redteam\/img\/scrolld-login@2x.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-login.png" : {
       "ft" : 32768,
       "iS" : 498194,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-login@2x.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-login.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3187,11 +3145,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/software\/redteam\/img\/scrolld-tool-admin.png" : {
+    "\/pages\/software\/redteam\/img\/scrolld-merge.png" : {
       "ft" : 32768,
       "iS" : 134575,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-tool-admin.png",
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-merge.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3199,6 +3157,27 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/pages\/software\/redteam\/img\/scrolld-operations.png" : {
+      "ft" : 32768,
+      "iS" : 479615,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/img\/scrolld-operations.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/index.html",
+      "oF" : 0
     }
   },
   "hooks" : [
