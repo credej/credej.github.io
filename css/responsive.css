@@ -61,6 +61,19 @@
   .intro-category-icons {
     justify-content: center;
   }
+  .menu-expanded {
+    flex-direction: column;
+  }
+  .menu-list-container-left,
+  .menu-title-left {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .menu-list-container-right,
+  .menu-category-title-right {
+    justify-content: center !important;
+    text-align: center !important;
+  }
   .navbar-home p {
     font-size: var(--font-m) !important;
   }
@@ -179,6 +192,19 @@
   .category-subtitle h5 {
     font-size: var(--font-m);
   }
+  .menu-expanded {
+    flex-direction: column;
+  }
+  .menu-list-container-left,
+  .menu-title-left {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .menu-list-container-right,
+  .menu-category-title-right {
+    justify-content: center !important;
+    text-align: center !important;
+  }
   .page-title h1 {
     font-size: var(--font-xl);
   }
@@ -227,6 +253,19 @@
   .category-section- h1 {
     font-size: var(--font-l);
   }
+  .menu-expanded {
+    flex-direction: column;
+  }
+  .menu-list-container-left,
+  .menu-title-left {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .menu-list-container-right,
+  .menu-category-title-right {
+    justify-content: center !important;
+    text-align: center !important;
+  }
   .page-header {
     display: flex;
   }
@@ -239,6 +278,19 @@
   }
   .category-section- h1 {
     font-size: var(--font-xl);
+  }
+  .menu-expanded {
+    flex-direction: column;
+  }
+  .menu-list-container-left,
+  .menu-title-left {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .menu-list-container-right,
+  .menu-category-title-right {
+    justify-content: center !important;
+    text-align: center !important;
   }
   .page-header {
     display: flex;

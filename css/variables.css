@@ -125,6 +125,16 @@
   border-image: linear-gradient(to top, #ececec 0%, #3B3B3B 100%) 1;
 }
 
+.black,
+.black a,
+.black i {
+  color: #000 !important;
+}
+
+.border-black {
+  border-image: linear-gradient(to top, #facc15 0%, #3B320E 100%) 1;
+}
+
 @keyframes pulsate {
   0%, 3%, 5%, 12%, 14%, 21%, 26%, 39%, 44%, 47%, 58%, 66%, 75%, 88%, 92%, 100% {
     /* Larger blur radius */

@@ -48,7 +48,7 @@ p
 
 #ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact
   margin-bottom: 100px
-  
+
 #compliance
   margin-top: 100px
 
@@ -332,49 +332,6 @@ p
     line-height: 2rem
     text-align: left
 
-#menu-button
-  i
-    font-size: var(--font-xl)
-
-.menu
-  width: 100%
-
-.menu-category
-  padding: 4rem 0 0
-
-.menu-category-list
-  display: flex
-  justify-content: center
-  text-align: center
-
-.menu-category-list-right
-  display: flex
-  justify-content: flex-end
-  text-align: right
-
-
-.menu-category-list-left
-  display: flex
-  justify-content: flex-start
-  text-align: left
-
-.menu-category-title
-  display: flex
-  flex-direction: row
-  align-items: center
-  i
-    color: var(--color-yellow-pgh)
-
-.menu-category-title
-  color: var(--color-title-light)
-  margin-bottom: 0.87rem
-  h2
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-m)
-    text-transform: uppercase
-  i
-    font-size: var(--font-xl)
-    padding: 0 14px 0 0 
 
 .menu-closed
   display: flex
@@ -382,19 +339,59 @@ p
   align-items: center
   margin: 24px 0
 
-.menu-expanded
-  display: flex
-  height: 100vh
-
 .menu-icon
   i
     color: var( --color-title-light)
   i:hover
     color: var(--color-retro-aqua-highlight)
 
+#menu-button
+  i
+    font-size: var(--font-xl)
+
+.menu-expanded
+  display: flex
+  height: 100vh
+
+.menu-category
+  margin: 24px
+
+.menu-category-title
+  display: flex
+  flex-direction: row
+  align-items: center
+  color: var(--color-title-light)
+  i
+    color: var(--color-yellow-pgh)
+    font-size: var(--font-xl)
+    padding: 0 14px 0 0 
+  h2
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    text-transform: uppercase
+
+.menu-list-container-left,
+.menu-title-left
+  display: flex
+  justify-content: flex-start
+  text-align: left
+
+.menu-list-container-center,
+.menu-category-title-center
+  display: flex
+  justify-content: center
+  text-align: center
+
+.menu-list-container-right,
+.menu-category-title-right
+  display: flex
+  justify-content: flex-end
+  text-align: right
+
 .menu-list
   display: flex
   flex-direction: column
+  padding: 12px 0
   a 
     color: var(--color-retro-aqua-highlight)
     font-family: "Yellowtail", monospace
