@@ -220,14 +220,14 @@ p {
 
 .category-title {
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  flex-direction: column;
 }
 .category-title h1 {
   font-size: var(--font-xl);
-  letter-spacing: 0.87rem;
   font-family: "Reddit Mono", monospace;
   hyphens: auto;
+  letter-spacing: 0.87rem;
   text-transform: uppercase;
   word-break: break-word;
 }
@@ -496,7 +496,7 @@ p {
 }
 
 .navbar-home p {
-  font-size: var(--font-xl);
+  font-size: var(--font-xxl);
 }
 
 .page-header-image img {
