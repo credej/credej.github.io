@@ -35,20 +35,8 @@
   .category-section {
     padding: 48px 32px !important;
   }
-  .category-title {
-    display: flex;
-    align-items: center;
-  }
   .category-title h1 {
     font-size: var(--font-l);
-    padding-left: 24px;
-    text-align: center;
-  }
-  .category-title i {
-    padding: 12px !important;
-  }
-  .category-subtitle {
-    text-align: center;
   }
   .category-subtitle h5 {
     font-size: var(--font-m);
@@ -193,18 +181,16 @@
   }
   .category-title {
     display: flex;
-    align-items: center;
   }
   .category-title h1 {
     font-size: var(--font-l);
     padding-left: 24px;
-    text-align: center;
   }
   .category-title i {
-    padding: 12px !important;
+    padding: 4px;
   }
-  .category-subtitle {
-    text-align: center;
+  .category-subtitle h5 {
+    font-size: var(--font-m);
   }
   .menu-expanded {
     flex-direction: column;
