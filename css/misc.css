@@ -1,4 +1,11 @@
 
+    /* 
+    .project-section
+      p
+        mix-blend-mode: luminosity
+        filter: invert(1) 
+    */
+
 /* EFFECT - TV STATIC LINE */
 
 .lines {

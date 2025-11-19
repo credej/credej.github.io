@@ -292,9 +292,12 @@ p
 .img-fullsize
   padding: 48px 0
   figcaption
+    color: var(--redteam-blue-light)
     font-size: var(--font-s)
     padding: 16px 0
     text-align: center
+  img
+    box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
 
 .img-gallery
   margin: 48px 0
@@ -459,10 +462,9 @@ p
     padding: 0 48px 0 0
 
 .project-hashtag
-  color: var(--color-grey-light) !important
-  filter: invert(1)
-  mix-blend-mode: exclusion
-  font-size: var(--font-l)
+  color: var(--color-grey-light) 
+  font-size: var(--font-m)
+  text-transform: uppercase
 
 .project-section
   display: flex
@@ -473,10 +475,8 @@ p
   border-radius: 14px 0 0 0
   padding: 72px
   p
-    filter: invert(1)
     font-size: var(--font-l)
     line-height: 1.8rem
-    mix-blend-mode: luminosity
     padding: 18px 0
   a
     font-size: var(--font-l) !important
@@ -488,7 +488,7 @@ p
     text-wrap: wrap
     word-break: break-all
   h3
-    color: white
+    color: var(--grey)
     font-size: var(--font-l)
   span
     color: var(color-title-hashtag) !important
@@ -539,7 +539,7 @@ p
   line-height: 1.8rem 
   margin-bottom: 12px 
   padding: 36px 36px 44px
-  text-align: left 
+  text-align: left
   text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
 
 .quote-by 
