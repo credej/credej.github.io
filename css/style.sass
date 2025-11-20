@@ -95,6 +95,12 @@ p
   img:hover
     transform: scale(1.1)
 
+.br-top
+  border-radius: 24px 24px 0 0
+
+.br-top-left
+  border-radius: 16px 0 0 0
+
 .bookmark-glossary
   display: flex
   flex-wrap: wrap
@@ -163,7 +169,6 @@ p
   flex-direction: column
   font-family: "Yellowtail", monospace
   font-size: var(--font-s) !important
-  border-radius: 16px 0 0 0
   padding: 72px
   a
     color: var(--color-title-light)
@@ -177,7 +182,10 @@ p
     color: #fff
     text-wrap: wrap
     word-break: break-all
-    
+  
+.category-subsection
+  display: flex
+
 .category-title
   display: flex
   align-items: center
@@ -242,7 +250,7 @@ p
   animation-duration: 0.5s
 
 .footer
-  height: 10rem
+  height: 5rem
 
 .footer-back-to-top
   display: flex
@@ -283,6 +291,7 @@ p
 .footer-text
   display: flex
   justify-content: center
+  margin: 150px 0 0
 
 .footer-text-flashing
   animation: blink-animation 0.87s infinite
@@ -301,8 +310,15 @@ p
 
 .img-gallery
   margin: 48px 0
-  img
-    padding: 24px
+  .img
+    img
+      transition: 0.3s
+      box-shadow: var(--box-shadow-1)
+    img:hover
+      transform: scale(1.1)
+
+.img-container
+  padding: 12px
 
 .intro
   padding: 24px 0
@@ -472,7 +488,6 @@ p
   align-items: flex-start
   cursor: default
   font-family: "Yellowtail", monospace
-  border-radius: 14px 0 0 0
   padding: 72px
   p
     font-size: var(--font-l)
