@@ -1,3 +1,16 @@
+body, html {
+  scroll-padding-top: 86px; /* Adjust this value to the height of your fixed header */
+}
+
+
+
+.image img {
+  height: auto;
+  padding: 8px 0;
+  width: 100%;
+}
+
+
 
     /* 
     .project-section

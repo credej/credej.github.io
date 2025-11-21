@@ -46,8 +46,8 @@ p
   background: rgba(255, 255, 255, 0.1)
   color: #000
 
-#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact
-  margin-bottom: 100px
+#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
+  margin-bottom: 100px !important
 
 #compliance
   margin-top: 100px
@@ -308,18 +308,6 @@ p
   img
     box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
 
-.img-gallery
-  margin: 48px 0
-  .img
-    img
-      transition: 0.3s
-      box-shadow: var(--box-shadow-1)
-    img:hover
-      transform: scale(1.1)
-
-.img-container
-  padding: 12px
-
 .intro
   padding: 24px 0
 
@@ -481,6 +469,7 @@ p
   color: var(--color-grey-light) 
   font-size: var(--font-m)
   text-transform: uppercase
+  text-shadow: var(--text-shadow-1)
 
 .project-section
   display: flex
@@ -488,7 +477,7 @@ p
   align-items: flex-start
   cursor: default
   font-family: "Yellowtail", monospace
-  padding: 72px
+  padding: 48px
   p
     font-size: var(--font-l)
     line-height: 1.8rem
@@ -515,6 +504,7 @@ p
 .project-section-title
   h3
     font-size: var(--font-xl) 
+    text-shadow: var(--text-shadow-1)
 
 .project-title
   display: flex

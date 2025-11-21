@@ -47,6 +47,7 @@
   --font-xxl: 1.9rem !important;
   --font-xxxl: 2.2rem !important;
   --box-shadow-1: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
+  --text-shadow-1: 2px 4px 3px rgba(0,0,0,0.29);
 }
 
 .border-blue,
@@ -68,7 +69,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to top, #5EEBD5 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1;
 }
 
 .green,
@@ -78,7 +79,7 @@
 }
 
 .border-green {
-  border-image: linear-gradient(to top, #00FF73 0%, #1C3013 100%) 1;
+  border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1;
 }
 
 .red,
@@ -88,7 +89,7 @@
 }
 
 .border-red {
-  border-image: linear-gradient(to top, #D9044C 0%, #3C1A12 100%) 1 !important;
+  border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important;
 }
 
 .orange,
@@ -98,7 +99,7 @@
 }
 
 .border-orange {
-  border-image: linear-gradient(to top, #ea673e 0%, #342008 100%) 1;
+  border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1;
 }
 
 .purple,
@@ -108,7 +109,7 @@
 }
 
 .border-purple {
-  border-image: linear-gradient(to top, #8566ff 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1;
 }
 
 .yellow,
@@ -118,7 +119,7 @@
 }
 
 .border-yellow {
-  border-image: linear-gradient(to top, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
 }
 
 .white,
@@ -128,7 +129,7 @@
 }
 
 .border-white {
-  border-image: linear-gradient(to top, #ececec 0%, #3B3B3B 100%) 1;
+  border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1;
 }
 
 .black,
@@ -138,7 +139,7 @@
 }
 
 .border-black {
-  border-image: linear-gradient(to top, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
 }
 
 @keyframes pulsate {
