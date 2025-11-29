@@ -191,13 +191,13 @@
 /**
  * border: 1px solid orange !important*/
 /* GAME OVER EFFECT */
-.effect-game-over:hover {
+.effect-game-over {
   animation-name: glitch;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
   cursor: pointer !important;
 }
-.effect-game-over:hover p {
+.effect-game-over p {
   color: var(--color-green-hyperpop) !important;
 }
 
