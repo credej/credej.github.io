@@ -211,10 +211,6 @@ p {
   word-break: break-all;
 }
 
-.category-subsection {
-  display: flex;
-}
-
 .category-title {
   display: flex;
   align-items: center;
@@ -223,10 +219,14 @@ p {
 .category-title h1 {
   font-size: var(--font-xl);
   letter-spacing: 0.87rem;
-  font-family: "Reddit Mono", monospace;
   hyphens: auto;
   text-transform: uppercase;
   word-break: break-word;
+}
+.category-title h2 {
+  font-family: "Tiny5", monospace;
+  font-size: var(--font-xl);
+  padding: 12px 0;
 }
 .category-title i {
   color: var(--color-pgh-yellow);
