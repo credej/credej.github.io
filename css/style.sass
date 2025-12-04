@@ -287,16 +287,18 @@ p
   padding: 87px
 
 .footer-construction
-  color: #fff
+  color: #fff !important
   background-color: #D9044C
   display: flex
   justify-content: center
-  font-family: "Tiny5", monospace
   left: 0
   right: 0
   bottom: 0
   padding: 12px 0
   position: fixed
+  p
+    font-family: "Tiny5", monospace
+    text-transform: uppercase
 
 .footer-text-flashing
   animation: blink-animation 0.87s infinite
@@ -477,7 +479,6 @@ p
 .project-hashtag
   color: var(--color-grey-light) 
   font-size: var(--font-m)
-  text-transform: uppercase
   text-shadow: var(--text-shadow-1)
 
 .project-section

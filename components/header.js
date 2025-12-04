@@ -5,8 +5,6 @@ class Header extends HTMLElement {
       <nav id="navbar" class="fade-in">
          <div class="navbar">
 
-            <!---------- MENU COMPACT ---------->
-
             <div class="menu-closed">
                <div class="menu-icon flex flex-end">
                   <button id="menu-button" class="navbar-home flex items-center text-gray-700 neon">
@@ -133,6 +131,7 @@ class Header extends HTMLElement {
                </div>
 
             </div>
+
          </div>
       </nav>
     `;
