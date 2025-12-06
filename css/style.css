@@ -56,6 +56,18 @@ p {
 
 /*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
  * scroll-padding-top: 68px*/
+#menu-button i {
+  font-size: var(--font-xl);
+}
+
+#navbar {
+  backdrop-filter: blur(187px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
 .anchor-list {
   display: flex;
   flex-direction: column;
@@ -101,14 +113,6 @@ p {
 }
 .badge img:hover {
   transform: scale(1.1);
-}
-
-.br-top {
-  border-radius: 24px 24px 0 0;
-}
-
-.br-top-left {
-  border-radius: 16px 0 0 0;
 }
 
 .bookmark-glossary {
@@ -433,10 +437,6 @@ p {
   color: var(--color-retro-aqua-highlight);
 }
 
-#menu-button i {
-  font-size: var(--font-xl);
-}
-
 .menu-expanded {
   display: flex;
   height: 100vh;
@@ -498,14 +498,6 @@ p {
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
   color: var(--color-retro-aqua-highlight);
-}
-
-#navbar {
-  backdrop-filter: blur(187px);
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
 }
 
 .navbar-home p {
@@ -697,29 +689,6 @@ p {
   margin-top: 150px;
 }
 
-.spacer {
-  height: 121px;
-  text-align: center;
-  width: 100%;
-}
-
-.spacer-line {
-  border-bottom: 1px solid var(--color-blue-storm);
-  margin: 0 96px;
-}
-
-.spacer-s {
-  height: 60px;
-}
-
-.spacer-m {
-  height: 120px;
-}
-
-.spacer-l {
-  height: 180px;
-}
-
 .tooltip-container {
   position: relative;
   display: inline-block;
@@ -756,4 +725,36 @@ p {
 .tooltip-container:hover::before, .tooltip-container:hover::after {
   opacity: 1;
   visibility: visible;
+}
+
+/* SHIMS */
+.br-top {
+  border-radius: 24px 24px 0 0;
+}
+
+.br-top-left {
+  border-radius: 16px 0 0 0;
+}
+
+.spacer {
+  height: 121px;
+  text-align: center;
+  width: 100%;
+}
+
+.spacer-line {
+  border-bottom: 1px solid var(--color-blue-storm);
+  margin: 0 96px;
+}
+
+.spacer-s {
+  height: 60px;
+}
+
+.spacer-m {
+  height: 120px;
+}
+
+.spacer-l {
+  height: 180px;
 }

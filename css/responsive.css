@@ -1,8 +1,4 @@
 @media screen and (min-width: 100px) and (max-width: 540px) {
-  #footer {
-    padding: 0 38px;
-    width: 100%;
-  }
   .badge {
     height: auto !important;
     padding: 24px 0;
@@ -65,6 +61,9 @@
     justify-content: center !important;
     text-align: center !important;
   }
+  .navbar {
+    padding: 0 38px;
+  }
   .navbar-home p {
     font-size: var(--font-m) !important;
   }
@@ -107,18 +106,12 @@
     font-size: var(--font-xxl);
     margin: 0 0 12px;
   }
-  .navbar {
-    padding: 0 38px;
-  }
   .site-main {
     padding: 0 36px;
     width: 100%;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 756px) {
-  #footer {
-    padding: 0 48px !important;
-  }
   .anchor-list a {
     font-size: var(--font-l) !important;
   }
@@ -184,9 +177,6 @@
   .menu-closed {
     justify-content: space-between !important;
   }
-  .navbar {
-    padding: 0 48px !important;
-  }
   .menu-category-title {
     margin: 0;
   }
@@ -202,6 +192,9 @@
   .menu-category-title-right {
     justify-content: center !important;
     text-align: center !important;
+  }
+  .navbar {
+    padding: 0 48px !important;
   }
   .page-title {
     margin: 0;
@@ -245,10 +238,6 @@
   }
 }
 @media screen and (min-width: 756px) and (max-width: 1080px) {
-  #footer {
-    margin-left: 72px;
-    margin-right: 72px;
-  }
   .menu-expanded {
     flex-direction: column;
   }
@@ -275,9 +264,6 @@
   }
 }
 @media screen and (min-width: 1080px) and (max-width: 1440px) {
-  #footer {
-    padding: 0 144px !important;
-  }
   .category-section- h1 {
     font-size: var(--font-xl);
   }
@@ -305,9 +291,6 @@
   }
 }
 @media screen and (min-width: 1440px) and (max-width: 1980px) {
-  #footer {
-    padding: 0 144px !important;
-  }
   .site-main {
     padding: 0 144px !important;
   }
@@ -330,7 +313,6 @@
   }
 }
 @media (min-width: 1980px) {
-  #footer,
   .site-main,
   .navbar {
     padding: 0 384px !important;
