@@ -1,10 +1,15 @@
 /* QUOTES - LIGHT */
 body
-   background-color: var(--color-blue-medium) !important
+   background-color: var(--color-blue-dark) !important
+
+.page-header-excerpt
+  p
+    color: var(--color-blue-light) !important
+    text-shadow: 0 1px #2A3889, -1px 0 #697BED, -1px 2px #2A3889, -2px 1px #697BED, -2px 3px #2A3889
 
 /* QUOTES - DARK */
 body.dark-mode 
-  background-color: var(--color-blue-dark) !important
+  background-color: var(--color-grey-dark)
   color: white
 
 body.dark-mode .bg-glass-blue
@@ -14,9 +19,11 @@ body.dark-mode .quote-text
   color: var(--color-blue-light)
 
 body.dark-mode .page-header-excerpt
-  background: rgba(0, 225, 237, 0.14) !important
-  background: rgba(0, 0, 0, 0.21) !important
-  
+  background: rgba(0, 225, 237, 0.14) 
+  background: rgba(0, 0, 0, 0.21) 
   p
-    color: var(--color-blue-light) !important
-    text-shadow: 0 1px #2A3889, -1px 0 #697BED, -1px 2px #2A3889, -2px 1px #697BED, -2px 3px #2A3889, -3px 2px #697BED, -3px 4px
+    color: white !important
+
+body.dark-mode .quote-link 
+  a 
+    color: var(--color-blue-light)
