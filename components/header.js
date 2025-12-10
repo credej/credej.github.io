@@ -28,7 +28,7 @@ class Header extends HTMLElement {
                   </a>
                   <a href="#" class="breadcrumb">
                      <div class=breadcrumb-section">-> current page</div>
-                  </a> -->
+                  </a> --> 
                </div>
 
                <button id="dark-mode-toggle">

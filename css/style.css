@@ -437,9 +437,24 @@ p {
   color: var(--color-retro-aqua-highlight);
 }
 
+.navbar {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
 .menu-expanded {
   display: flex;
   height: 100vh;
+  overflow-y: auto;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 120px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .menu-category {
