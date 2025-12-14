@@ -325,14 +325,6 @@ background: linear-gradient(to right, #451056, orange) !important
 
 
 
-
-
-/* remove blinking effect from headers used on home page */
-/*.category-title,
-.category-title
-  h1:after
-    display: none*/
-
 .grower.animated {
   animation-name: grow;
   animation-duration: 2s;

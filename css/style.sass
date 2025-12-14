@@ -178,26 +178,8 @@ p
     color: #fff
     text-wrap: wrap
     word-break: break-all
-  
-
-.category-title
-  display: flex
-  align-items: center
-  justify-content: flex-start
-  h1
-    font-size: var(--font-xl)
-    letter-spacing: 0.87rem
-    hyphens: auto
+  .project-title
     text-transform: uppercase
-    word-break: break-word
-  h2
-    font-family: "Tiny5", monospace
-    font-size: var(--font-xl)
-    padding: 12px 0
-  i
-    color: var(--color-pgh-yellow)
-    font-size: var(--font-xl)
-    padding: 0 22px 0 0 
 
 .category-subtitle
   p
@@ -364,11 +346,6 @@ p
   i:hover
     color: var(--color-retro-aqua-highlight)
 
-.navbar
-  width: 100%
-  height: 100%
-  overflow: auto
-
 .menu-expanded
   display: flex
   height: 100vh
@@ -376,7 +353,7 @@ p
   overflow-y: scroll
   scrollbar-width: none
   -ms-overflow-style: none 
-  padding-bottom: 120px
+  padding: 40px 0 120px
 
 ::-webkit-scrollbar 
   display: none
@@ -429,9 +406,13 @@ p
       animation: blinker 1s linear infinite
       color: var(--color-retro-aqua-highlight)
 
+.navbar
+  height: 100%
+  overflow: auto
+
 .navbar-home
   p
-    font-size: var(--font-xl)
+    font-size: var(--font-xxl)
     font-family: "Tiny5", monospace
 
 .page-header-image
