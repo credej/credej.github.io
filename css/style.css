@@ -476,13 +476,14 @@ p {
 .menu-list {
   display: flex;
   flex-direction: column;
-  padding: 12px 0;
+  padding: 8px 0;
 }
 .menu-list a {
   color: var(--color-retro-aqua-highlight);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
-  padding: 2px 0;
+  line-height: 1.4rem;
+  padding: 6px 0;
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
@@ -497,6 +498,7 @@ p {
 .navbar-home p {
   font-size: var(--font-xxl);
   font-family: "Tiny5", monospace;
+  cursor: pointer;
 }
 
 .page-header-image img {

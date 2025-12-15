@@ -867,15 +867,28 @@
       "oAP" : "\/mp3\/zap.mp3",
       "oF" : 0
     },
-    "\/pages\/design\/arch\/img\/arch-banner.jpg" : {
+    "\/pages\/design\/arch\/img\/arch-banner-2.jpg" : {
       "ft" : 16384,
       "iS" : 131115,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/img\/arch-banner-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/arch\/img\/arch-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/arch\/img\/arch-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1338,19 +1351,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/cybergrad-logo-2nf3-2.png" : {
-      "ft" : 32768,
-      "iS" : 159056,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/cybergrad-logo-2nf3-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/pages\/design\/web\/img\/cybergrad-logo-2nf3.png" : {
       "ft" : 32768,
       "iS" : 426370,
@@ -1377,12 +1377,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-banner-original.jpeg" : {
+    "\/pages\/design\/web\/img\/graphics-banner-2.jpg" : {
       "ft" : 16384,
-      "iS" : 396160,
+      "iS" : 317679,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-banner-original.jpg",
+      "oAP" : "\/pages\/design\/web\/img\/graphics-banner-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1392,13 +1392,13 @@
     },
     "\/pages\/design\/web\/img\/graphics-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 194814,
+      "iS" : 317467,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/web\/img\/graphics-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1490,32 +1490,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/web\/img\/web-banner-original.jpg" : {
-      "ft" : 16384,
-      "iS" : 4093505,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-banner-original.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/web\/img\/web-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 200160,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2204,6 +2178,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/otherdevices\/img\/otherdevices-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 11122728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/otherdevices\/img\/otherdevices-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/otherdevices\/img\/piboy-dmg-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 11122728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/otherdevices\/img\/piboy-dmg-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3116,6 +3116,19 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/pages\/software\/redteam\/img\/redteam-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 51821,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/redteam\/img\/redteam-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/pages\/software\/redteam\/img\/scrolld-credentials.png" : {

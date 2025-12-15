@@ -1,4 +1,4 @@
-@media screen and (min-width: 100px) and (max-width: 540px) {
+@media screen and (min-width: 100px) and (max-width: 539px) {
   .badge {
     height: auto !important;
     padding: 24px 0;
@@ -155,7 +155,7 @@
     }
   }
 }
-@media screen and (min-width: 540px) and (max-width: 756px) {
+@media screen and (min-width: 540px) and (max-width: 755px) {
   .anchor-list a {
     font-size: var(--font-l) !important;
   }
@@ -269,7 +269,7 @@
     margin-top: 120px !important;
   }
 }
-@media screen and (min-width: 756px) and (max-width: 1080px) {
+@media screen and (min-width: 756px) and (max-width: 1079px) {
   .menu-expanded {
     flex-direction: column;
   }
@@ -296,7 +296,7 @@
     margin-top: 120px !important;
   }
 }
-@media screen and (min-width: 1080px) and (max-width: 1440px) {
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
   .category-section-title h1 {
     font-size: var(--font-xl);
   }
@@ -323,9 +323,12 @@
     padding: 0 144px !important;
   }
 }
-@media screen and (min-width: 1440px) and (max-width: 1980px) {
+@media screen and (min-width: 1440px) and (max-width: 1979px) {
   .site-main {
     padding: 0 144px !important;
+  }
+  .menu-list {
+    text-align: left !important;
   }
   .navbar {
     padding: 0 144px !important;
