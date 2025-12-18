@@ -245,10 +245,6 @@
     font-size: var(--font-xl) !important;
   }
   .project-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: enter;
     width: 100%;
   }
   .project-title h1 {
