@@ -371,7 +371,7 @@ p {
   flex-shrink: 1;
 }
 .intro-category-icons span {
-  padding: 0 12px 0 0;
+  padding: 0 12px;
 }
 .intro-category-icons i {
   font-size: var(--font-xl) !important;
@@ -386,6 +386,9 @@ p {
   -moz-animation: blink-animation 0.9s infinite;
   -o-animation: blink-animation 0.9s infinite;
   content: "_";
+}
+.intro-category-icons .intro-icon-first {
+  padding: 0 12px 0 0;
 }
 
 .intro-text {
@@ -438,6 +441,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   color: var(--color-title-light);
 }
 .menu-category-title i {
@@ -448,6 +452,7 @@ p {
 .menu-category-title h2 {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -691,6 +696,9 @@ p {
   position: relative;
   display: inline-block;
   cursor: pointer;
+}
+.tooltip-container a {
+  height: 50px !important;
 }
 .tooltip-container::before {
   background-color: #333;

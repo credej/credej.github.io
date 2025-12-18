@@ -205,6 +205,9 @@
   .intro-category-icons {
     justify-content: center;
   }
+  .intro-text p {
+    text-align: center !important;
+  }
   .menu-closed {
     justify-content: space-between !important;
   }
@@ -243,9 +246,6 @@
   .page-title h1,
   .project-title > h1 {
     font-size: var(--font-xl) !important;
-  }
-  .project-title {
-    width: 100%;
   }
   .project-title h1 {
     font-size: var(--font-xxl) !important;
@@ -339,6 +339,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .menu-category-title h2 {
+    text-align: left;
   }
   .page-header {
     display: flex;

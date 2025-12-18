@@ -309,7 +309,7 @@ p
   display: flex
   flex-shrink: 1
   span
-    padding: 0 12px 0 0
+    padding: 0 12px
   i
     font-size: var(--font-xl) !important
   h1
@@ -321,6 +321,8 @@ p
       -moz-animation: blink-animation .9s infinite
       -o-animation: blink-animation .9s infinite
       content: "_"
+  .intro-icon-first
+    padding: 0 12px 0 0
 
 .intro-text
   margin: 36px 0
@@ -364,6 +366,7 @@ p
   display: flex
   flex-direction: row
   align-items: center
+  justify-content: center
   color: var(--color-title-light)
   i
     color: var(--color-yellow-pgh)
@@ -372,6 +375,7 @@ p
   h2
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
+    text-align: center
     text-transform: uppercase
 
 .menu-list-container-left,
@@ -577,6 +581,8 @@ p
   position: relative
   display: inline-block
   cursor: pointer
+  a
+    height: 50px !important
   &::before
     background-color: #333
     border-radius: 4px

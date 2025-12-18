@@ -42,7 +42,7 @@ class Header extends HTMLElement {
             <div id="menu-expanded" class="menu-expanded hidden fade-in">
 
                <div class="menu-category">
-                  <div class="menu-category-title menu-title-left">
+                  <div class="menu-category-title">
                      <i class="iconoir-cpu"></i>
                      <h2>Software UI/UX</h2>
                   </div>
@@ -58,7 +58,7 @@ class Header extends HTMLElement {
                </div>
 
                <div class="menu-category">
-                  <div class="menu-category-title menu-title-left">
+                  <div class="menu-category-title">
                      <i class="iconoir-terminal-tag"></i>
                      <h2>Design</em></h2>
                   </div>
@@ -100,6 +100,7 @@ class Header extends HTMLElement {
                   </div>
                </div>
 
+               <!--
                <div class="menu-category">
                   <div class="menu-category-title menu-category-title-right">
                      <i class="iconoir-telegram"></i>
@@ -115,6 +116,8 @@ class Header extends HTMLElement {
                      </div>
                   </div>
                </div>
+               -->
+
                <div class="menu-category">
                   <div class="menu-category-title menu-category-title-right">
                      <i class="iconoir-asterisk"></i>
