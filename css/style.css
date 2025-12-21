@@ -494,11 +494,6 @@ p {
   color: var(--color-retro-aqua-highlight);
 }
 
-.navbar {
-  height: 100%;
-  overflow: auto;
-}
-
 .navbar-home p {
   font-size: var(--font-xxl);
   font-family: "Tiny5", monospace;
