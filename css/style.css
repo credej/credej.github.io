@@ -54,6 +54,10 @@ p {
   color: #000;
 }
 
+.hidden {
+  display: none;
+}
+
 /*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
  * scroll-padding-top: 68px*/
 #menu-button i {
