@@ -163,6 +163,19 @@ p
   a:hover
     animation: blinker 1s linear infinite
 
+.category
+  display: flex
+  flex-wrap: nowrap
+  padding: 36px 0
+  img
+    filter: grayscale(1)
+    opacity: 0.87
+  img:hover
+    filter: grayscale(0) 
+  span, h1
+    display: flex
+    align-items: center
+
 .category-section
   display: flex
   flex-direction: column
@@ -202,19 +215,6 @@ p
 
 .category-container
   padding: 24px 0
-
-.category
-  display: flex
-  flex-wrap: wrap
-  padding: 36px 0
-  img
-    filter: grayscale(1)
-    opacity: 0.87
-  img:hover
-    filter: grayscale(0) 
-  span, h1
-    display: flex
-    align-items: center
 
 .category-banner
   padding: 18px 0
