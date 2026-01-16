@@ -166,8 +166,8 @@ p
 
 .category
   display: flex
-  flex-wrap: nowrap
   padding: 36px 0
+  break-inside: avoid-column 
   img
     filter: grayscale(1)
     opacity: 0.87
@@ -181,7 +181,7 @@ p
   display: flex
   flex-direction: column
   font-family: "Yellowtail", monospace
-  font-size: var(--font-s) !important
+  font-size: var(--font-s)
   padding: 72px
   a
     color: var(--color-title-light)
@@ -196,7 +196,7 @@ p
     text-wrap: wrap
     word-break: break-all
   .project-title
-    text-transform: uppercase
+    text-transform: uppercase 
 
 .category-subtitle
   p

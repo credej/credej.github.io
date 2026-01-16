@@ -1,0 +1,50 @@
+.quote-container {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+.quote {
+  padding: 0 0 5vh;
+  text-align: right;
+  background-color: var(--color-blue-storm) !important;
+}
+
+.quote-text {
+  background-color: var(--color-bg);
+  border-radius: 16px 16px 0 16px;
+  color: var(--color-light);
+  cursor: default;
+  font-family: "Reddit Mono", monospace;
+  font-family: "Lusitana", serif;
+  font-size: var(--font-m);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  line-height: 1.8rem;
+  margin-bottom: 12px;
+  padding: 36px 48px 56px;
+  text-align: left;
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
+}
+
+.quote-by {
+  cursor: default;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quote-link {
+  font-family: "Cutive Mono", "Courier Prime", monospace;
+}
+.quote-link a {
+  color: var(--color-indigo-100) !important;
+}
+.quote-link a:hover {
+  color: #8566ff !important;
+}
+
+.quote-by,
+.quote-link {
+  margin-right: 1rem;
+}

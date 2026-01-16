@@ -10,9 +10,9 @@ body {
 
 /* BOOKMARKS - DARK */
 body.dark-mode {
-  background-color: var(--color-cyber-bg) !important;
+  background-color: var(--color-cyber-bg);
   color: white;
 }
 
 /*.page-title
- * color: red !important*/
+ * color: red !important*//*# sourceMappingURL=theme-bookmarks.css.map */
