@@ -48,11 +48,6 @@ p {
   font-size: var(--font-m);
 }
 
-::-moz-selection {
-  background: rgba(255, 255, 255, 0.1);
-  color: #000;
-}
-
 ::selection,
 ::-moz-selection {
   background: rgba(255, 255, 255, 0.1);
@@ -148,8 +143,7 @@ p {
 .bookmark-section {
   margin-left: 1rem;
   text-indent: -1rem;
-  -moz-column-break-inside: avoid;
-       break-inside: avoid;
+  break-inside: avoid;
   display: flex;
   flex-direction: column;
   padding: 0 0 3rem;
@@ -205,19 +199,19 @@ p {
 .category {
   display: flex;
   padding: 36px 0;
-  -moz-column-break-inside: avoid;
-       break-inside: avoid-column;
-}
-.category img {
+  break-inside: avoid-column;
   filter: grayscale(1);
   opacity: 0.87;
-}
-.category img:hover {
-  filter: grayscale(0);
 }
 .category span, .category h1 {
   display: flex;
   align-items: center;
+}
+.category:hover {
+  filter: grayscale(0);
+  transition: filter 1.5s ease-in-out;
+  cursor: pointer;
+  animation: blinker 1s linear infinite;
 }
 
 .category-section {
@@ -225,15 +219,11 @@ p {
   flex-direction: column;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
-  padding: 72px;
+  padding: 48px 72px 72px;
 }
 .category-section a {
   color: var(--color-title-light);
   font-size: var(--font-m);
-}
-.category-section a:hover {
-  cursor: pointer;
-  animation: blinker 1s linear infinite;
 }
 .category-section span {
   color: var(--color-title);
@@ -242,9 +232,6 @@ p {
   color: #fff;
   text-wrap: wrap;
   word-break: break-all;
-}
-.category-section .project-title {
-  text-transform: uppercase;
 }
 
 .category-subtitle p {
@@ -631,6 +618,7 @@ p {
   letter-spacing: 0.8rem;
   white-space: pre-wrap;
   word-break: break-word;
+  text-transform: uppercase;
 }
 .project-title h1:after {
   padding: 24px;
@@ -647,8 +635,7 @@ p {
 }
 
 .quote-container {
-  -moz-column-break-inside: avoid;
-       break-inside: avoid;
+  break-inside: avoid;
   padding: 0 24px;
 }
 

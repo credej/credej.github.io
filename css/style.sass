@@ -168,35 +168,32 @@ p
   display: flex
   padding: 36px 0
   break-inside: avoid-column 
-  img
-    filter: grayscale(1)
-    opacity: 0.87
-  img:hover
-    filter: grayscale(0) 
+  filter: grayscale(1)
+  opacity: 0.87
   span, h1
     display: flex
     align-items: center
+  &:hover
+    filter: grayscale(0) 
+    transition: filter 1.5s ease-in-out
+    cursor: pointer
+    animation: blinker 1s linear infinite
 
 .category-section
   display: flex
   flex-direction: column
   font-family: "Yellowtail", monospace
   font-size: var(--font-s)
-  padding: 72px
+  padding: 48px 72px 72px
   a
     color: var(--color-title-light)
     font-size: var(--font-m)
-  a:hover 
-    cursor: pointer
-    animation: blinker 1s linear infinite
   span
     color: var(--color-title)
   h1
     color: #fff
     text-wrap: wrap
     word-break: break-all
-  .project-title
-    text-transform: uppercase 
 
 .category-subtitle
   p
@@ -521,6 +518,7 @@ p
     letter-spacing: 0.8rem
     white-space: pre-wrap
     word-break: break-word
+    text-transform: uppercase
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
