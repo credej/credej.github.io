@@ -75,16 +75,6 @@ p {
   z-index: 9999;
 }
 
-.anchor-list {
-  display: flex;
-  flex-direction: column;
-  padding: 24px 0;
-}
-.anchor-list a {
-  color: var(--color-retro-aqua-highlight);
-  margin: 12px 0;
-}
-
 .badges {
   margin: 96px 0;
 }
@@ -290,7 +280,7 @@ p {
 .category-title i {
   color: white;
   font-size: var(--font-xl);
-  padding: 0 24px 0 0;
+  padding: 0 24px 6px 0;
 }
 
 .category-subtitle p {
@@ -593,20 +583,42 @@ p {
   text-shadow: var(--text-shadow-1);
 }
 
+.project-header {
+  font-family: "Yellowtail", monospace;
+}
+.project-header a {
+  font-size: var(--font-m);
+  mix-blend-mode: normal;
+}
+.project-header a:hover {
+  animation: blinker 1s linear infinite;
+}
+.project-header p {
+  margin: 18px 0;
+}
+.project-header .anchor-list {
+  display: flex;
+  flex-direction: column;
+}
+.project-header .anchor-list a {
+  color: var(--color-retro-aqua-highlight);
+  margin: 12px 0;
+}
+
 .project-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   cursor: default;
   font-family: "Yellowtail", monospace;
-  margin: 24px 0;
-  padding: 72px 96px 96px;
+  margin: 48px 0;
+  padding: 48px;
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }
 .project-section p {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   line-height: 1.8rem;
-  padding: 18px 0;
+  margin: 18px 0 !important;
 }
 .project-section a {
   font-size: var(--font-l) !important;

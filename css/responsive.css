@@ -82,8 +82,11 @@
   .page-title i {
     padding: 0 24px 0 0;
   }
+  .project-header {
+    margin: 144px 0;
+  }
   .project-section {
-    padding: 48px 36px;
+    padding: 48px 24px;
   }
   .project-section p {
     font-size: var(--font-s);
@@ -94,24 +97,22 @@
   }
   .category-title {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: enter;
+    align-items: center !important;
     width: 100%;
   }
   .category-title h1 {
-    font-size: var(--font-xxl);
-    letter-spacing: 0.52rem;
+    font-size: var(--font-xl) !important;
     overflow: wrap;
-    hyphens: auto;
     text-align: center;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
   }
+  .category-title h1:after {
+    display: none;
+  }
   .category-title i {
     font-size: var(--font-xxl);
-    margin: 0 0 12px;
   }
   .site-main {
     padding: 0 36px;
@@ -163,6 +164,9 @@
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {
+  .project-section {
+    padding: 48px 24px !important;
+  }
   .anchor-list a {
     font-size: var(--font-l) !important;
   }
