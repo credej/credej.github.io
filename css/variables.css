@@ -70,8 +70,7 @@
 }
 
 .border-blue {
-  -o-border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1;
-     border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to left, #5EEBD5 0%, #093A32 100%) 1;
 }
 
 .green,
@@ -81,8 +80,7 @@
 }
 
 .border-green {
-  -o-border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1;
-     border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1;
+  border-image: linear-gradient(to left, #00FF73 0%, #1C3013 100%) 1;
 }
 
 .red,
@@ -92,8 +90,7 @@
 }
 
 .border-red {
-  -o-border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important;
-     border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important;
+  border-image: linear-gradient(to left, #D9044C 0%, #3C1A12 100%) 1 !important;
 }
 
 .orange,
@@ -103,8 +100,7 @@
 }
 
 .border-orange {
-  -o-border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1;
-     border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1;
+  border-image: linear-gradient(to left, #ea673e 0%, #342008 100%) 1;
 }
 
 .purple,
@@ -114,8 +110,7 @@
 }
 
 .border-purple {
-  -o-border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1;
-     border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to left, #8566ff 0%, #24204C 100%) 1;
 }
 
 .yellow,
@@ -125,8 +120,7 @@
 }
 
 .border-yellow {
-  -o-border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
-     border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
 }
 
 .white,
@@ -136,8 +130,7 @@
 }
 
 .border-white {
-  -o-border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1;
-     border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1;
+  border-image: linear-gradient(to left, #ececec 0%, #3B3B3B 100%) 1;
 }
 
 .black,
@@ -147,8 +140,7 @@
 }
 
 .border-black {
-  -o-border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
-     border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to left, #facc15 0%, #3B320E 100%) 1;
 }
 
 @keyframes pulsate {

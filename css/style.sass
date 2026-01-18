@@ -190,16 +190,15 @@ p
     word-break: break-all
 
 .category-links
-  display: flex
-  flex-direction: column
   color: var(--color-border)
   padding: 24px 0 48px
   a
-    padding: 4px 0
     text-decoration: underline
     text-decoration-style: dotted
   a:hover
     animation: blinker 1s linear infinite
+  .category-links-slash
+    color: var(--color-retro-aqua)
 .category-container
   padding: 24px 0
 
@@ -349,6 +348,7 @@ p
     animation: blinker 1s linear infinite
   p
     display: inline-block
+    font-size: var(--font-m)
     font-family: "Reddit Mono", monospace
     line-height: 2rem
     text-align: left
