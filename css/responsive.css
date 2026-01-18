@@ -22,9 +22,15 @@
   .category-section {
     padding: 48px 32px !important;
   }
+  .category-subtitle p {
+    text-align: center;
+  }
   .category-subtitle h5 {
     font-size: var(--font-m);
     line-height: 1.2rem;
+  }
+  .category-links {
+    text-align: center;
   }
   .category-links a {
     font-size: var(--font-s);
@@ -86,23 +92,24 @@
     text-align: justify;
     hyphens: auto;
   }
-  .project-title {
+  .category-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: enter;
     width: 100%;
   }
-  .project-title h1 {
+  .category-title h1 {
     font-size: var(--font-xxl);
     letter-spacing: 0.52rem;
     overflow: wrap;
     hyphens: auto;
+    text-align: center;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
   }
-  .project-title i {
+  .category-title i {
     font-size: var(--font-xxl);
     margin: 0 0 12px;
   }
@@ -244,10 +251,10 @@
     font-size: var(--font-m);
   }
   .page-title h1,
-  .project-title > h1 {
+  .category-title > h1 {
     font-size: var(--font-xl) !important;
   }
-  .project-title h1 {
+  .category-title h1 {
     font-size: var(--font-xxl) !important;
     letter-spacing: 0.52rem;
     overflow: wrap;
@@ -256,7 +263,7 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
   }
-  .project-title i {
+  .category-title i {
     font-size: var(--font-xxl);
     margin: 0 0 12px;
   }

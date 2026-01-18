@@ -2738,32 +2738,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/software\/cybergrad\/img\/cybergrad-banner-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 215500,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-banner-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/software\/cybergrad\/img\/cybergrad-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 579478,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/pages\/software\/cybergrad\/img\/cybergrad-create-user@2x.png" : {
       "ft" : 32768,
       "iS" : 400073,

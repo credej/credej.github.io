@@ -21,7 +21,9 @@ body
     border-radius: 20px 
     border: 1px solid var(--color-grey-medium)
 
-html
+html, body 
+  max-width: 100%
+  overflow-x: hidden
   scroll-behavior: smooth
 
 img
@@ -195,22 +197,17 @@ p
     text-wrap: wrap
     word-break: break-all
 
-.category-subtitle
-  p
-    font-family: "Reddit Mono", monospace
-
 .category-links
   display: flex
   flex-direction: column
   color: var(--color-border)
-  padding: 24px 0
-  display: inline-block
-  flex-direction: column 
+  padding: 24px 0 48px
   a
     padding: 4px 0
     text-decoration: underline
     text-decoration-style: dotted
-
+  a:hover
+    animation: blinker 1s linear infinite
 .category-container
   padding: 24px 0
 
@@ -222,6 +219,34 @@ p
     font-family: "Reddit Mono", monospace
     font-family: "Cutive Mono", monospace
     font-size: var(--font-m)
+
+.category-title
+  display: flex
+  align-items: center
+  padding: 12px 0
+  h1
+    color: white
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-xxl)
+    letter-spacing: 0.8rem
+    white-space: pre-wrap
+    word-break: break-word
+    text-transform: uppercase
+    &:after
+      padding: 24px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+  i
+    color: white
+    font-size: var(--font-xl)
+    padding: 0 24px 0 0
+
+.category-subtitle
+  p
+    font-family: "Reddit Mono", monospace
 
 .fade-in
   opacity: 1
@@ -506,30 +531,6 @@ p
   h3
     font-size: var(--font-xl) 
     text-shadow: var(--text-shadow-1)
-
-.project-title
-  display: flex
-  align-items: center
-  padding: 12px 0
-  h1
-    color: white
-    font-family: "Courier Prime", monospace
-    font-size: var(--font-xxl)
-    letter-spacing: 0.8rem
-    white-space: pre-wrap
-    word-break: break-word
-    text-transform: uppercase
-    &:after
-      padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
-      content: "_"
-  i
-    color: white
-    font-size: var(--font-xl)
-    padding: 0 24px 0 0
 
 .quote-container
   break-inside: avoid 
