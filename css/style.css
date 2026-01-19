@@ -578,12 +578,6 @@ p {
   text-wrap: balance;
 }
 
-.project-hashtag {
-  color: var(--color-grey-medium);
-  font-size: var(--font-m);
-  text-shadow: var(--text-shadow-1);
-}
-
 .project-header {
   padding: 24px 0;
   font-family: "Yellowtail", monospace;
@@ -628,6 +622,7 @@ p {
 .project-list {
   display: flex;
   flex-direction: column;
+  padding: 30px 60px;
 }
 .project-list a {
   color: var(--color-retro-aqua-highlight);
@@ -640,8 +635,8 @@ p {
   align-items: flex-start;
   cursor: default;
   font-family: "Yellowtail", monospace;
-  margin: 48px 0;
-  padding: 48px;
+  margin: 30px 0;
+  padding: 60px;
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }
 .project-section p {
@@ -673,8 +668,15 @@ p {
   margin-right: 24px;
 }
 
+.project-hashtag {
+  color: var(--color-grey-medium);
+  font-size: var(--font-m);
+  margin: 4px 0;
+  text-shadow: var(--text-shadow-1);
+}
+
 .project-section-title h3 {
-  font-size: var(--font-xl);
+  font-size: var(--font-l);
   text-shadow: var(--text-shadow-1);
 }
 
