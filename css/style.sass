@@ -201,7 +201,7 @@ p
 .category-links-slash
   color: inherit
   opacity: 0.5
-  
+
 .category-container
   padding: 24px 0
 
@@ -226,6 +226,9 @@ p
     white-space: pre-wrap
     word-break: break-word
     text-transform: uppercase
+    -webkit-hyphens: auto
+    -moz-hyphens: auto
+    -ms-hyphens: auto
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
@@ -439,14 +442,14 @@ p
 
 .page-header-image
   img
-    border-radius: 12px 0 0 12px
+    border-radius: 12px 0 0 0
 
 .page-header-excerpt
   background-color: var(--color-bg)
-  border-radius:  0 12px 12px 0
+  border-radius:  0 0 12px 0
   display: flex
-  padding: 2rem 3rem 2rem 2rem
-  text-indent: 2vw
+  padding: 24px
+  text-indent: 24px
   p
     color: white
     cursor: default
@@ -468,9 +471,11 @@ p
     color: white !important
     cursor: default
     letter-spacing: 2rem
-    white-space: initial
-    word-break: break-all
-    white-space: pre-wrap
+    white-space: pre-wrap !important
+    word-break: break-word !important
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
     &:after
       padding: 4px
       animation: blink-animation 1s infinite
@@ -602,7 +607,7 @@ p
   text-align: right 
 
 .quote-link 
-  font-family: "Cutive Mono", "Courier Prime", monospace 
+  font-family: "Cutive Mono", "Courier Prime", monospace
   a 
     color: var(--color-purple-light) !important 
     text-align: right 
@@ -612,6 +617,13 @@ p
 .quote-by,
 .quote-link 
   margin-right: 1rem 
+
+.section-header
+  font-family: "Courier Prime", monospace
+  font-size: var(--font-l)
+  margin: 72px 0 24px
+  h5
+    color: white
 
 .site-main
   margin-top: 150px

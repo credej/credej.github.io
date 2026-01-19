@@ -19,7 +19,7 @@
     font-size: var(--font-s);
     padding: 8px 0;
   }
-  .category-links .category-links-slash {
+  .category-links-slash {
     display: none;
   }
   .category-icons {
@@ -31,6 +31,14 @@
   .category-section {
     padding: 48px 32px !important;
   }
+  .category-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .category-title h1:after {
+    display: none;
+  }
   .category-subtitle p {
     text-align: center;
   }
@@ -38,8 +46,48 @@
     font-size: var(--font-m);
     line-height: 1.2rem;
   }
-  .category-title {
-    justify-content: center;
+  .effect-game-over {
+    animation-name: glitch;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    cursor: pointer !important;
+  }
+  .effect-game-over p {
+    color: var(--color-green-hyperpop) !important;
+  }
+  @keyframes glitch {
+    0% {
+      color: #fff;
+    }
+    25% {
+      color: #A59FAD;
+      text-shadow: 2px 2px 2px #A59FAD;
+      transform: translate(-2px, 1px);
+    }
+    40% {
+      color: #fff;
+      text-shadow: none;
+      transform: translate(0, 0);
+    }
+    50% {
+      color: #A59FAD;
+      text-shadow: 5px 5px 2px blue, -5px -5px 2px red;
+      transform: translate(0px, 5px);
+    }
+    70% {
+      color: #fff;
+      text-shadow: none;
+      transform: translate(0, 0);
+    }
+    80% {
+      color: #565656;
+      text-shadow: 0 0 20px #565656;
+      transform: translate(-2px, 1px);
+    }
+    100% {
+      color: #fff;
+      text-shadow: none;
+    }
   }
   .footer-column {
     display: flex;
@@ -98,72 +146,13 @@
     text-align: justify;
     hyphens: auto;
   }
-  .category-title {
-    display: flex;
-    align-items: center !important;
-    width: 100%;
-  }
-  .category-title h1 {
-    font-size: var(--font-xl) !important;
-    overflow: wrap;
+  .section-header {
     text-align: center;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-  }
-  .category-title h1:after {
-    display: none;
-  }
-  .category-title i {
-    font-size: var(--font-xxl);
   }
   .site-main {
     padding: 0 36px;
     width: 100%;
     margin-top: 120px !important;
-  }
-  .effect-game-over {
-    animation-name: glitch;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    cursor: pointer !important;
-  }
-  .effect-game-over p {
-    color: var(--color-green-hyperpop) !important;
-  }
-  @keyframes glitch {
-    0% {
-      color: #fff;
-    }
-    25% {
-      color: #A59FAD;
-      text-shadow: 2px 2px 2px #A59FAD;
-      transform: translate(-2px, 1px);
-    }
-    40% {
-      color: #fff;
-      text-shadow: none;
-      transform: translate(0, 0);
-    }
-    50% {
-      color: #A59FAD;
-      text-shadow: 5px 5px 2px blue, -5px -5px 2px red;
-      transform: translate(0px, 5px);
-    }
-    70% {
-      color: #fff;
-      text-shadow: none;
-      transform: translate(0, 0);
-    }
-    80% {
-      color: #565656;
-      text-shadow: 0 0 20px #565656;
-      transform: translate(-2px, 1px);
-    }
-    100% {
-      color: #fff;
-      text-shadow: none;
-    }
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {
@@ -202,6 +191,24 @@
   .category-links .category-links-slash {
     display: none;
   }
+  .category-title > h1 {
+    font-size: var(--font-xl) !important;
+  }
+  .category-title h1 {
+    font-size: var(--font-xxl) !important;
+    letter-spacing: 0.52rem;
+    overflow: wrap;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+  }
+  .category-title i {
+    font-size: var(--font-xxl);
+  }
+  .category-subtitle h5 {
+    font-size: var(--font-m);
+  }
   .footer-button img {
     width: 36px !important;
   }
@@ -209,9 +216,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-  }
-  .category-subtitle h5 {
-    font-size: var(--font-m);
   }
   .intro {
     margin: 12px 0;
@@ -251,32 +255,12 @@
   .page-title {
     margin: 0;
   }
-  .page-title h1 {
-    font-size: var(--font-xl);
-  }
   .page-title a {
     font-size: var(--font-s) !important;
     text-indent: 0;
   }
-  .page-title h1 {
-    font-size: var(--font-m);
-  }
-  .page-title h1,
-  .category-title > h1 {
-    font-size: var(--font-xl) !important;
-  }
-  .category-title h1 {
-    font-size: var(--font-xxl) !important;
-    letter-spacing: 0.52rem;
-    overflow: wrap;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-  }
-  .category-title i {
-    font-size: var(--font-xxl);
-    margin: 0 0 12px;
+  .section-header {
+    text-align: center;
   }
   .site-main {
     padding: 0 48px !important;
