@@ -173,7 +173,7 @@
   .project-section {
     padding: 48px 24px !important;
   }
-  .anchor-list a {
+  .project-list a {
     font-size: var(--font-l) !important;
   }
   .badges {

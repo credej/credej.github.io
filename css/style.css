@@ -258,7 +258,7 @@ p {
 .category-title {
   display: flex;
   align-items: center;
-  padding: 12px 0;
+  padding: 24px 0;
 }
 .category-title h1 {
   color: white;
@@ -585,6 +585,7 @@ p {
 }
 
 .project-header {
+  padding: 24px 0;
   font-family: "Yellowtail", monospace;
 }
 .project-header a {
@@ -595,13 +596,40 @@ p {
   animation: blinker 1s linear infinite;
 }
 .project-header p {
-  margin: 18px 0;
+  margin: 24px 0;
 }
-.project-header .anchor-list {
+.project-header h1 {
+  color: white;
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-xxl);
+  letter-spacing: 0.8rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.project-header h1:after {
+  padding: 24px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  -moz-animation: blink-animation 1s infinite;
+  -o-animation: blink-animation 1s infinite;
+  content: "_";
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+.project-title i {
+  font-size: var(--font-xl);
+  margin: 0 24px 6px 0;
+}
+
+.project-list {
   display: flex;
   flex-direction: column;
 }
-.project-header .anchor-list a {
+.project-list a {
   color: var(--color-retro-aqua-highlight);
   margin: 12px 0;
 }
