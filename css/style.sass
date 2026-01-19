@@ -197,8 +197,11 @@ p
     text-decoration-style: dotted
   a:hover
     animation: blinker 1s linear infinite
-  .category-links-slash
-    color: var(--color-retro-aqua)
+
+.category-links-slash
+  color: inherit
+  opacity: 0.5
+  
 .category-container
   padding: 24px 0
 
@@ -498,8 +501,6 @@ p
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxl)
     letter-spacing: 0.8rem
-    white-space: pre-wrap
-    word-break: break-word
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
@@ -512,14 +513,19 @@ p
   display: flex
   align-items: center
   margin: 24px 0
+  h1
+    white-space: pre-wrap !important
+    word-break: break-word !important
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
   i
     font-size: var(--font-xl)
     margin: 0 24px 6px 0
 
-.project-list
+.project-links
   display: flex
   flex-direction: column
-  padding: 30px 60px
   a
     color: var(--color-retro-aqua-highlight)
     margin: 12px 0
@@ -614,6 +620,9 @@ p
   p
     margin: 12px 0
 
+.subcategory-title
+  padding: 24px 0
+
 .tooltip-container
   position: relative
   display: inline-block
@@ -652,12 +661,6 @@ p
       visibility: visible
 
 /* SHIMS */
-
-.br-top
-  border-radius: 24px 24px 0 0
-
-.br-top-left
-  border-radius: 16px 0 0 0
 
 .spacer
   height: 121px
