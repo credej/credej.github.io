@@ -29,20 +29,28 @@
     overflow: hidden;
   }
   .category-section {
-    padding: 48px 32px !important;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 48px 32px !important;
   }
   .category-title h1 {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-xl) !important;
+    letter-spacing: 0.52rem;
+    overflow: wrap;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    line-height: 36px;
   }
   .category-title h1:after {
     display: none;
   }
-  .category-title-shim {
-    width: 225px;
+  .category-title i {
+    font-size: var(--font-xxxl) !important;
   }
   .category-subtitle p {
     text-align: center;
@@ -99,11 +107,8 @@
     align-items: center;
     width: 100%;
   }
-  .intro {
-    margin: 0;
-  }
   .intro p {
-    font-size: var(--font-s);
+    font-size: var(--font-m) !important;
     line-height: 1.8rem;
     text-align: center;
   }
@@ -127,9 +132,9 @@
     padding: 0 38px;
   }
   .navbar-home p {
-    font-size: var(--font-xxl) !important;
+    font-size: var(--font-xl) !important;
     line-height: 2rem;
-    padding: 0 48px;
+    padding: 0 0 0 6px;
     text-align: center;
   }
   .page-title {
@@ -207,6 +212,9 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
+  }
+  .category-title h1:after {
+    display: none;
   }
   .category-title i {
     font-size: var(--font-xxl);

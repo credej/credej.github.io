@@ -22,18 +22,26 @@
     /* FIND BETTER SOLUTION, ICONS FLOWING OVER DIV CREATING UNWANTED SCROLLBAR */
     overflow: hidden
   .category-section
-    padding: 48px 32px !important
     display: flex
-    justify-content: center
     align-items: center
     text-align: center
+    padding: 48px 32px !important
   .category-title
     h1
-      display: inline
+      display: flex 
+      justify-content: center 
+      font-size: var(--font-xl) !important
+      letter-spacing: 0.52rem
+      overflow: wrap
+      hyphens: auto /* Automatically hyphenates words based on language rules */
+      -webkit-hyphens: auto
+      -moz-hyphens: auto
+      -ms-hyphens: auto
+      line-height: 36px
       &:after
         display: none
-  .category-title-shim
-    width: 225px
+    i
+      font-size: var(--font-xxxl) !important
   .category-subtitle
     p
       text-align: center
@@ -63,25 +71,24 @@
         color: #A59FAD 
         text-shadow: 5px 5px 2px blue, -5px -5px 2px red 
         transform: translate(0px, 5px) 
-      70% 
-        color: #fff 
-        text-shadow: none 
-        transform: translate(0, 0) 
-      80% 
-        color: #565656 
-        text-shadow: 0 0 20px #565656 
-        transform: translate(-2px, 1px) 
-      100% 
-        color: #fff 
-        text-shadow: none 
+      70%
+        color: #fff
+        text-shadow: none
+        transform: translate(0, 0)
+      80%
+        color: #565656
+        text-shadow: 0 0 20px #565656
+        transform: translate(-2px, 1px)
+      100%
+        color: #fff
+        text-shadow: none
   .footer-column
     display: flex
     align-items: center
     width: 100%
   .intro
-    margin: 0
     p
-      font-size: var(--font-s)
+      font-size: var(--font-m) !important
       line-height: 1.8rem
       text-align: center
   .intro-category-icons
@@ -100,9 +107,9 @@
     padding: 0 38px
   .navbar-home
     p
-      font-size: var(--font-xxl) !important
+      font-size: var(--font-xl) !important
       line-height: 2rem
-      padding: 0 48px
+      padding: 0 0 0 6px
       text-align: center
   .page-title
     font-size: var(--font-xl)
@@ -164,6 +171,8 @@
       -webkit-hyphens: auto
       -moz-hyphens: auto
       -ms-hyphens: auto
+      &:after
+        display: none
     i
       font-size: var(--font-xxl)
   .category-subtitle

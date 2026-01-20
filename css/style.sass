@@ -158,6 +158,9 @@ p
   a:hover
     animation: blinker 1s linear infinite
 
+.category-container
+  padding: 24px 0
+
 .category
   display: flex
   padding: 36px 0
@@ -174,7 +177,6 @@ p
     animation: blinker 1s linear infinite
 
 .category-section
-  display: flex
   flex-direction: column
   font-family: "Yellowtail", monospace
   font-size: var(--font-s)
@@ -202,33 +204,22 @@ p
   color: inherit
   opacity: 0.5
 
-.category-container
-  padding: 24px 0
-
 .category-banner
   padding: 18px 0
 
-.category-excerpt
-  p
-    font-family: "Reddit Mono", monospace
-    font-family: "Cutive Mono", monospace
-    font-size: var(--font-m)
-    
 .category-title
+  padding: 8px 0
   display: flex
-  align-items: center
-  padding: 24px 0
+  flex-direction: column
   h1
+    display: flex
+    align-items: center
     color: white
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxl)
     letter-spacing: 0.8rem
-    white-space: pre-wrap
     word-break: break-word
     text-transform: uppercase
-    -webkit-hyphens: auto
-    -moz-hyphens: auto
-    -ms-hyphens: auto
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
@@ -239,9 +230,11 @@ p
   i
     color: white
     font-size: var(--font-xl)
-    padding: 0 24px 6px 0
+    padding: 0 24px 0 0
+    text-align: center
 
 .category-subtitle
+  padding: 4px 0
   p
     font-family: "Reddit Mono", monospace
 
@@ -324,9 +317,6 @@ p
     text-align: center
   img
     box-shadow: 0 0 24px hsla(0, 0%, 0%, 0.2) 
-
-.intro
-  padding: 24px 0
 
 .intro-category-icons
   display: flex
@@ -628,12 +618,13 @@ p
 .site-main
   margin-top: 150px
 
-.subcategory-excerpt
-  p
-    margin: 12px 0
-
 .subcategory-title
   padding: 24px 0
+
+.subcategory-excerpt
+  p
+    font-size: var(--font-l) 
+    margin: 12px 0
 
 .tooltip-container
   position: relative
