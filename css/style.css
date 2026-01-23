@@ -671,7 +671,8 @@ p {
 }
 
 .project-hashtag {
-  color: var(--color-grey-medium);
+  color: var(--theme-grey);
+  opacity: 0.5;
   font-size: var(--font-m);
   margin: 4px 0;
   text-shadow: var(--text-shadow-1);
