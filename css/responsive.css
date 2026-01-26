@@ -58,6 +58,10 @@
     font-size: var(--font-xl) !important;
     margin-bottom: 4px;
   }
+  .category-title-container {
+    display: flex;
+    align-items: space-between;
+  }
   .w-small {
     width: 200px;
   }
@@ -119,7 +123,7 @@
   .intro p {
     font-size: var(--font-m) !important;
     line-height: 1.8rem;
-    text-align: center;
+    text-align: center !important;
   }
   .intro-category-icons {
     justify-content: center;
@@ -138,7 +142,7 @@
     text-align: center !important;
   }
   #navbar {
-    padding: 0 38px;
+    padding: 0 24px;
   }
   .navbar-home p {
     font-size: var(--font-xl) !important;
@@ -169,7 +173,7 @@
     text-align: center;
   }
   .site-main {
-    padding: 0 36px;
+    padding: 0 24px;
     width: 100%;
     margin-top: 120px !important;
   }

@@ -2,6 +2,9 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <div class="footer-construction">
+         <p>Site Under Construction!</p>
+      </div>
       <nav id="navbar" class="fade-in">
          <div class="menu-closed">
             <div class="menu-icon flex flex-end">
