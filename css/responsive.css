@@ -42,7 +42,7 @@
   .category-title h1 {
     display: flex;
     justify-content: center;
-    font-size: var(--font-xl) !important;
+    font-size: var(--font-xl);
     letter-spacing: 0.52rem;
     overflow: wrap;
     hyphens: auto;
@@ -55,9 +55,8 @@
     display: none;
   }
   .category-title i {
-    font-size: var(--font-xl) !important;
-    margin-bottom: 4px;
-    padding: 24px;
+    font-size: var(--font-xl);
+    padding: 0 0 24px 0;
   }
   .category-title-container {
     display: flex;
@@ -122,7 +121,7 @@
     width: 100%;
   }
   .intro p {
-    font-size: var(--font-m) !important;
+    font-size: var(--font-m);
     line-height: 1.8rem;
     text-align: center !important;
   }
@@ -134,19 +133,19 @@
   }
   .menu-list-container-left,
   .menu-title-left {
-    justify-content: center !important;
+    justify-content: center;
     text-align: center !important;
   }
   .menu-list-container-right,
   .menu-category-title-right {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   #navbar {
     padding: 0 24px;
   }
   .navbar-home p {
-    font-size: var(--font-xl) !important;
+    font-size: var(--font-xl);
     line-height: 2rem;
     padding: 0 0 0 6px;
     text-align: center;
@@ -184,7 +183,7 @@
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {
   .project-links a {
-    font-size: var(--font-l) !important;
+    font-size: var(--font-l);
   }
   .badges {
     margin: 144px 0 !important;
@@ -205,7 +204,7 @@
     padding: 12px 0;
   }
   .category-icons-container {
-    filter: grayscale(0) !important;
+    filter: grayscale(0);
     opacity: 1;
   }
   .category-links {
@@ -219,10 +218,10 @@
     display: none;
   }
   .category-title > h1 {
-    font-size: var(--font-xl) !important;
+    font-size: var(--font-xl);
   }
   .category-title h1 {
-    font-size: var(--font-xxl) !important;
+    font-size: var(--font-xxl);
     letter-spacing: 0.52rem;
     overflow: wrap;
     hyphens: auto;
@@ -258,10 +257,10 @@
     justify-content: center;
   }
   .intro-text p {
-    text-align: center !important;
+    text-align: center;
   }
   .menu-closed {
-    justify-content: space-between !important;
+    justify-content: space-between;
   }
   .menu-category-title {
     margin: 0;
@@ -271,30 +270,30 @@
   }
   .menu-list-container-left,
   .menu-title-left {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   .menu-list-container-right,
   .menu-category-title-right {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   #navbar {
-    padding: 0 48px !important;
+    padding: 0 48px;
   }
   .page-title {
     margin: 0;
   }
   .page-title a {
-    font-size: var(--font-s) !important;
+    font-size: var(--font-s);
     text-indent: 0;
   }
   .section-header {
     text-align: center;
   }
   .site-main {
-    padding: 0 48px !important;
-    margin-top: 120px !important;
+    padding: 0 48px;
+    margin-top: 120px;
   }
 }
 @media screen and (min-width: 756px) and (max-width: 1079px) {
@@ -313,13 +312,13 @@
   }
   .menu-list-container-left,
   .menu-title-left {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   .menu-list-container-right,
   .menu-category-title-right {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   #navbar {
     margin-left: 72px;
@@ -331,7 +330,7 @@
   .site-main {
     margin-left: 72px;
     margin-right: 72px;
-    margin-top: 120px !important;
+    margin-top: 120px;
   }
 }
 @media screen and (min-width: 1080px) and (max-width: 1439px) {
@@ -343,33 +342,33 @@
   }
   .menu-list-container-left,
   .menu-title-left {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   .menu-list-container-right,
   .menu-category-title-right {
-    justify-content: center !important;
-    text-align: center !important;
+    justify-content: center;
+    text-align: center;
   }
   #navbar {
-    padding: 0 144px !important;
+    padding: 0 144px;
   }
   .page-header {
     display: flex;
   }
   .site-main {
-    padding: 0 144px !important;
+    padding: 0 144px;
   }
 }
 @media screen and (min-width: 1440px) and (max-width: 1979px) {
   .site-main {
-    padding: 0 144px !important;
+    padding: 0 144px;
   }
   .menu-list {
-    text-align: left !important;
+    text-align: left;
   }
   #navbar {
-    padding: 0 144px !important;
+    padding: 0 144px;
   }
   .intro {
     text-align: justify;
@@ -392,7 +391,7 @@
 @media (min-width: 1980px) {
   .site-main,
   #navbar {
-    padding: 0 384px !important;
+    padding: 0 384px;
   }
   #footer,
   .site-main {
