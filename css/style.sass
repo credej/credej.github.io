@@ -492,7 +492,7 @@ p
     padding: 0 48px 0 0
 
 .project-desc
-  text-wrap: balance
+  text-align: justify
 
 .project-header
   padding: 24px 0
@@ -502,8 +502,6 @@ p
     mix-blend-mode: normal 
   a:hover
     animation: blinker 1s linear infinite
-  p
-    margin: 24px 0
   h1
     color: white
     font-family: "Courier Prime", monospace
@@ -517,19 +515,12 @@ p
       -o-animation: blink-animation 1s infinite
       content: "_"
 
-.project-title
-  display: flex
-  align-items: center
-  margin: 24px 0
-  h1
-    white-space: pre-wrap !important
-    word-break: break-word !important
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
-  i
-    font-size: var(--font-xl)
-    margin: 0 24px 6px 0
+.project-hashtag
+  color: var(--theme-grey)
+  opacity: 0.5
+  font-size: var(--font-m)
+  margin: 4px 0
+  margin: 12px 0 36px
 
 .project-links
   display: flex
@@ -570,17 +561,25 @@ p
     margin-right: 24px
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
-.project-hashtag
-  color: var(--theme-grey)
-  opacity: 0.5
-  font-size: var(--font-m)
-  margin: 4px 0
-  text-shadow: var(--text-shadow-1)
-
 .project-section-title
   h3
     font-size: var(--font-l) 
     text-shadow: var(--text-shadow-1)
+
+.project-title
+  display: flex
+  align-items: center
+  margin: 24px 0
+  h1
+    white-space: pre-wrap !important
+    word-break: break-word !important
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
+    font-size: var(--font-m)
+  i
+    font-size: var(--font-xl)
+    margin: 0 24px 6px 0
 
 .quote-container
   break-inside: avoid 
