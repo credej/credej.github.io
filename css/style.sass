@@ -81,7 +81,7 @@ p
   flex-direction: column
   justify-content: flex-start
   align-items: center
-  height: 575px
+  height: 450px
   text-align: center
   h3
     font-family: "Reddit Mono", monospace
@@ -89,6 +89,7 @@ p
     margin: 24px 0 12px
   p
     font-family: "Reddit Mono", monospace
+    font-size: var(--font-xs);
   img
     transition: 0.3s
   img:hover
@@ -165,15 +166,16 @@ p
   padding: 36px 0
   break-inside: avoid-column 
   filter: grayscale(1)
-  opacity: 0.87
+  opacity: 0.71
   span, h1
     display: flex
     align-items: center
   &:hover
+    animation: blinker 1.87s linear infinite
     filter: grayscale(0) 
-    transition: filter 1.5s ease-in-out
+    transition: filter 0.5s ease-in-out
     cursor: pointer
-    animation: blinker 1s linear infinite
+    opacity: 1.0
 
 .category-section
   flex-direction: column
@@ -207,7 +209,7 @@ p
   padding: 18px 0
 
 .category-title
-  padding: 8px 0
+  padding: 8px 0 0
   display: flex
   align-items: center
   flex-direction: row
@@ -237,6 +239,16 @@ p
   padding: 4px 0
   p
     font-family: "Reddit Mono", monospace
+
+.subcategory-title
+  padding: 24px 0
+
+.subcategory-excerpt
+  min-height: 75px /* shim */
+  p
+    margin: 12px 0
+  h2
+    color: orange !important
 
 .fade-in
   opacity: 1
@@ -620,15 +632,6 @@ p
 
 .site-main
   margin-top: 150px
-
-.subcategory-title
-  padding: 24px 0
-
-.subcategory-excerpt
-  min-height: 75px /* shim */
-  p
-    font-size: var(--font-l) 
-    margin: 12px 0
 
 .tooltip-container
   position: relative
