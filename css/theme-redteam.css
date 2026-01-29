@@ -5,7 +5,7 @@ body {
 body .project-desc p {
   color: var(--redteam-blue-light);
 }
-body .project-hashtag {
+body .project-subtitle {
   color: var(--color-grey-medium);
 }
 body .project-list a {
