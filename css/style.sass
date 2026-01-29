@@ -42,6 +42,9 @@ p
   font-family: "Cutive Mono", monospace
   font-size: var(--font-m)
 
+::-webkit-scrollbar 
+  display: none
+
 ::selection,
 ::-moz-selection
   background: rgba(255, 255, 255, 0.1)
@@ -52,18 +55,6 @@ p
 
 /*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
   scroll-padding-top: 68px*/
-
-#menu-button
-  i
-    font-size: var(--font-xl)
-
-#navbar
-  backdrop-filter: blur(187px)
-  -webkit-backdrop-filter: blur(187px)
-  position: fixed
-  left: 0
-  right: 0
-  z-index: 9999
 
 .badges
   margin: 96px 0
@@ -362,6 +353,10 @@ p
     line-height: 2rem
     text-align: left
 
+#menu-button
+  i
+    font-size: var(--font-xl)
+
 .menu-closed
   display: flex
   justify-content: space-between
@@ -383,16 +378,13 @@ p
   -ms-overflow-style: none 
   padding: 40px 0 120px
 
-::-webkit-scrollbar 
-  display: none
-
 .menu-category
   margin: 24px
+  justify-content: center
 
 .menu-category-title
   display: flex
   flex-direction: row
-  align-items: center
   justify-content: center
   color: var(--color-title-light)
   i
@@ -404,24 +396,6 @@ p
     font-size: var(--font-m)
     text-align: center
     text-transform: uppercase
-
-.menu-list-container-left,
-.menu-title-left
-  display: flex
-  justify-content: flex-start
-  text-align: left
-
-.menu-list-container-center,
-.menu-category-title-center
-  display: flex
-  justify-content: center
-  text-align: center
-
-.menu-list-container-right,
-.menu-category-title-right
-  display: flex
-  justify-content: flex-end
-  text-align: right
 
 .menu-list
   display: flex
@@ -436,6 +410,14 @@ p
     &:hover 
       animation: blinker 1s linear infinite
       color: var(--color-retro-aqua-highlight)
+
+#navbar
+  backdrop-filter: blur(187px)
+  -webkit-backdrop-filter: blur(187px)
+  position: fixed
+  left: 0
+  right: 0
+  z-index: 9999
 
 .navbar-home
   p
