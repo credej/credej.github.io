@@ -616,14 +616,8 @@
          </footer>
       </div>
    </body>
-   <script>
-      document.addEventListener('click', function(event) {
-        if (event.target.tagName === 'SPAN') {
-          let copyText = event.target.textContent;
-          navigator.clipboard.writeText(copyText);
-        }
-      });
-   </script>
+
+   <!-- back to top button -->
    <script>
       const handleFirstTab = (e) => {
         if(e.key === 'Tab') {

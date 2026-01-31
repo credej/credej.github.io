@@ -451,55 +451,49 @@
             </div>
          </footer>
       </div>
+      
+      <!-- back to top button -->
       <script>
-      document.addEventListener('click', function(event) {
-        if (event.target.tagName === 'SPAN') {
-          let copyText = event.target.textContent;
-          navigator.clipboard.writeText(copyText);
-        }
-      });
+         const handleFirstTab = (e) => {
+           if(e.key === 'Tab') {
+             document.body.classList.add('user-is-tabbing')
+
+             window.removeEventListener('keydown', handleFirstTab)
+             window.addEventListener('mousedown', handleMouseDownOnce)
+           }
+
+         }
+
+         const handleMouseDownOnce = () => {
+           document.body.classList.remove('user-is-tabbing')
+
+           window.removeEventListener('mousedown', handleMouseDownOnce)
+           window.addEventListener('keydown', handleFirstTab)
+         }
+
+         window.addEventListener('keydown', handleFirstTab)
+
+         const backToTopButton = document.querySelector(".footer-back-to-top");
+         let isBackToTopRendered = false;
+
+         let alterStyles = (isBackToTopRendered) => {
+           backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+           backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+           backToTopButton.style.transform = isBackToTopRendered
+             ? "scale(1)"
+             : "scale(0)";
+         };
+
+         window.addEventListener("scroll", () => {
+           if (window.scrollY > 500) {
+             isBackToTopRendered = true;
+             alterStyles(isBackToTopRendered);
+           } else {
+             isBackToTopRendered = false;
+             alterStyles(isBackToTopRendered);
+           }
+         });
       </script>
-   <script>
-      const handleFirstTab = (e) => {
-        if(e.key === 'Tab') {
-          document.body.classList.add('user-is-tabbing')
-
-          window.removeEventListener('keydown', handleFirstTab)
-          window.addEventListener('mousedown', handleMouseDownOnce)
-        }
-
-      }
-
-      const handleMouseDownOnce = () => {
-        document.body.classList.remove('user-is-tabbing')
-
-        window.removeEventListener('mousedown', handleMouseDownOnce)
-        window.addEventListener('keydown', handleFirstTab)
-      }
-
-      window.addEventListener('keydown', handleFirstTab)
-
-      const backToTopButton = document.querySelector(".footer-back-to-top");
-      let isBackToTopRendered = false;
-
-      let alterStyles = (isBackToTopRendered) => {
-        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
-        backToTopButton.style.transform = isBackToTopRendered
-          ? "scale(1)"
-          : "scale(0)";
-      };
-
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 500) {
-          isBackToTopRendered = true;
-          alterStyles(isBackToTopRendered);
-        } else {
-          isBackToTopRendered = false;
-          alterStyles(isBackToTopRendered);
-        }
-      });
-   </script>
    </body>
 
 </html>

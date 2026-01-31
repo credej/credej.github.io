@@ -25,8 +25,7 @@
                </div>
                <h4 class="project-subtitle">2024<span class="category-links-slash"> // </span>custom built learning management system for cybersecurity training</h4>
                <div class="project-desc">
-                  <p>The 'CyberGrad' software application was created to train users on the basics of cybersecurity through interactive lessons and problems. Our team considered using a pre-built Learning Management System to complete the project but instead opted to create a new custom software application. This project was a challenge because of the rapid design & development pace - six months from inception to shipping the final CyberGrad product.</p>
-                  <p>The training software allows teachers to assign lessons and quizzes and for students to view and work through those assignments. Both students and teachers also have account dashboards to manage course progression. My responsibilities for the CyberGrad project included:</p>
+                  <p>The 'CyberGrad' software application was created to train users on the basics of cybersecurity through interactive lessons and problems. Our team considered using a pre-built Learning Management System to complete the project but instead opted to create a new custom software application. This project was a challenge because of the rapid design & development pace - six months from inception to shipping the final CyberGrad product. The training software allows teachers to assign lessons and quizzes and for students to view and work through those assignments. Both students and teachers also have account dashboards to manage course progression. My responsibilities for the CyberGrad project included:</p>
                </div>
                <div class="project-links">
                   <a href="#app">>> cybergrad software application</a>
@@ -204,37 +203,8 @@
       </div>
       
    </body>
-   <script>
-      let idleTimer;
-      const idleTimeLimit = 5000; // 5 seconds in milliseconds
 
-      function doSomethingOnIdle() {
-        console.log("User is idle! Performing action...");
-        // Add your desired actions here, e.g., display a popup, log out, etc.
-      }
-      function resetIdleTimer() {
-        clearTimeout(idleTimer); // Clear any existing timer
-        idleTimer = setTimeout(doSomethingOnIdle, idleTimeLimit);
-      }
-
-      // Add event listeners to reset the timer
-      document.addEventListener('mousemove', resetIdleTimer);
-      document.addEventListener('keydown', resetIdleTimer);
-      document.addEventListener('scroll', resetIdleTimer);
-      document.addEventListener('click', resetIdleTimer);
-
-      // Initial call to start the timer
-      resetIdleTimer();
-
-   </script>
-   <script>
-      document.addEventListener('click', function(event) {
-        if (event.target.tagName === 'SPAN') {
-          let copyText = event.target.textContent;
-          navigator.clipboard.writeText(copyText);
-        }
-      });
-   </script>
+   <!-- back to top button -->
    <script>
       const handleFirstTab = (e) => {
         if(e.key === 'Tab') {

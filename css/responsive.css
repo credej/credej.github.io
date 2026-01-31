@@ -132,6 +132,7 @@
   }
   #navbar {
     padding: 0 24px;
+    border-bottom: 1px solid black;
   }
   .navbar-home p {
     font-size: var(--font-xl);
@@ -151,11 +152,18 @@
   .page-title i {
     padding: 0 24px 0 0;
   }
+  .project-desc p {
+    font-size: var(--font-s);
+    line-height: 1.5rem;
+  }
   .project-header {
-    margin: 144px 0;
+    margin: 0 0 48px;
   }
   .project-links {
     padding: 24px 0;
+  }
+  .project-section {
+    padding: 64px 32px;
   }
   .project-section p {
     font-size: var(--font-s);
@@ -163,6 +171,16 @@
     text-align: center;
     text-align: justify;
     hyphens: auto;
+  }
+  .project-title {
+    margin: 12px 0;
+  }
+  .project-title h1 {
+    letter-spacing: 0.5rem;
+  }
+  .project-subtitle {
+    font-size: var(--font-s);
+    margin: 0 0 36px;
   }
   .section-header {
     text-align: center;

@@ -191,37 +191,8 @@
       </div>
       
    </body>
-   <script>
-      let idleTimer;
-      const idleTimeLimit = 5000; // 5 seconds in milliseconds
 
-      function doSomethingOnIdle() {
-        console.log("User is idle! Performing action...");
-        // Add your desired actions here, e.g., display a popup, log out, etc.
-      }
-      function resetIdleTimer() {
-        clearTimeout(idleTimer); // Clear any existing timer
-        idleTimer = setTimeout(doSomethingOnIdle, idleTimeLimit);
-      }
-
-      // Add event listeners to reset the timer
-      document.addEventListener('mousemove', resetIdleTimer);
-      document.addEventListener('keydown', resetIdleTimer);
-      document.addEventListener('scroll', resetIdleTimer);
-      document.addEventListener('click', resetIdleTimer);
-
-      // Initial call to start the timer
-      resetIdleTimer();
-
-   </script>
-   <script>
-      document.addEventListener('click', function(event) {
-        if (event.target.tagName === 'SPAN') {
-          let copyText = event.target.textContent;
-          navigator.clipboard.writeText(copyText);
-        }
-      });
-   </script>
+   <!-- back to top button -->
    <script>
       const handleFirstTab = (e) => {
         if(e.key === 'Tab') {
