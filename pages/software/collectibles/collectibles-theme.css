@@ -12,6 +12,10 @@ body {
   background: rgba(0, 225, 237, 0.647);
 }
 
+.project-links a {
+  color: var(--color-black-steelers);
+}
+
 .project-subtitle {
   text-shadow: none;
 }
@@ -21,7 +25,7 @@ body {
 }
 
 .project-title i {
-  color: black;
+  color: var(--color-black-steelers);
 }
 
 /* CYBERGRAD - DARK */
@@ -36,5 +40,9 @@ body.dark-mode .project-list a {
 }
 
 body.dark-mode .project-title i {
+  color: var(--color-yellow-pgh);
+}
+
+body.dark-mode .project-links a {
   color: var(--color-yellow-pgh);
 }

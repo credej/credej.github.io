@@ -118,6 +118,12 @@
   .hide-mobile {
     display: none;
   }
+  .img-gallery-small {
+    display: none;
+  }
+  .img-gallery-full img {
+    margin: 48px 0 0;
+  }
   .intro p {
     font-size: var(--font-m);
     line-height: 1.8rem;
@@ -160,9 +166,6 @@
   .project-desc p {
     font-size: var(--font-s);
     line-height: 1.5rem;
-  }
-  .project-header {
-    margin: 0 0 48px;
   }
   .project-links {
     padding: 24px 0;
@@ -256,6 +259,9 @@
     width: 100%;
   }
   .hide-mobile {
+    display: none;
+  }
+  .img-gallery-small {
     display: none;
   }
   .intro {

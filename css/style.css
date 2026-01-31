@@ -381,16 +381,25 @@ p {
   padding: 0 24px;
 }
 
-.img-fullsize {
+.img-gallery-small img {
+  padding: 24px 0;
+}
+
+.img-gallery-full {
   padding: 48px 0;
 }
-.img-fullsize figcaption {
-  color: var(--redteam-blue-light);
+
+.img-gallery-full {
+  color: var(--color-grey-medium);
+  padding: 48px 0;
+  font-family: "Reddit Mono", monospace;
+}
+.img-gallery-full figcaption {
   font-size: var(--font-s);
   padding: 16px 0;
   text-align: center;
 }
-.img-fullsize img {
+.img-gallery-full img {
   box-shadow: 0 0 24px hsla(0, 0%, 0%, 0.2);
 }
 
@@ -534,6 +543,37 @@ p {
   font-size: var(--font-m);
 }
 
+.project-desc p {
+  font-family: "Courier Prime", monospace;
+  text-align: justify;
+}
+
+.project-header {
+  padding: 24px 0;
+  font-family: "Yellowtail", monospace;
+}
+.project-header a {
+  font-size: var(--font-m);
+  mix-blend-mode: normal;
+}
+.project-header a:hover {
+  animation: blinker 1s linear infinite;
+}
+.project-header h1 {
+  color: white;
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-xxl);
+  letter-spacing: 0.8rem;
+}
+.project-header h1:after {
+  padding: 24px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  -moz-animation: blink-animation 1s infinite;
+  -o-animation: blink-animation 1s infinite;
+  content: "_";
+}
+
 .page-section {
   margin: 96px 0;
 }
@@ -571,42 +611,14 @@ p {
   padding: 0 48px 0 0;
 }
 
-.project-desc p {
-  font-family: "Courier Prime", monospace;
-  text-align: justify;
+.project-links {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
 }
-
-.project-header {
-  padding: 24px 0;
-  font-family: "Yellowtail", monospace;
-}
-.project-header a {
-  font-size: var(--font-m);
-  mix-blend-mode: normal;
-}
-.project-header a:hover {
-  animation: blinker 1s linear infinite;
-}
-.project-header h1 {
-  color: white;
-  font-family: "Courier Prime", monospace;
-  font-size: var(--font-xxl);
-  letter-spacing: 0.8rem;
-}
-.project-header h1:after {
-  padding: 24px;
-  animation: blink-animation 1s infinite;
-  -webkit-animation: blink-animation 1s infinite;
-  -moz-animation: blink-animation 1s infinite;
-  -o-animation: blink-animation 1s infinite;
-  content: "_";
-}
-
-.project-subtitle {
-  color: var(--theme-grey);
-  opacity: 0.5;
-  font-size: var(--font-m);
-  margin: 12px 0 36px;
+.project-links a {
+  color: var(--color-retro-aqua-highlight);
+  margin: 12px 0;
 }
 
 .project-section {
@@ -647,25 +659,22 @@ p {
   margin-right: 24px;
 }
 
-.project-links {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 60px;
-}
-.project-links a {
-  color: var(--color-retro-aqua-highlight);
-  margin: 12px 0;
-}
-
 .project-section-title h3 {
   font-size: var(--font-l);
   text-shadow: var(--text-shadow-1);
 }
 
+.project-subtitle {
+  color: var(--theme-grey);
+  opacity: 0.5;
+  font-size: var(--font-m);
+  margin: 0 0 36px;
+}
+
 .project-title {
   display: flex;
   align-items: center;
-  margin: 24px 0;
+  margin: 12px 0;
 }
 .project-title h1 {
   white-space: pre-wrap !important;
