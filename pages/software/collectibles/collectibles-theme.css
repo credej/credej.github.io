@@ -1,0 +1,40 @@
+/* CYBERGRAD - LIGHT */
+body {
+  background-color: var(--color-yellow-pgh) !important;
+}
+
+.project-list a {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.21);
+}
+
+.bg-glass-blue {
+  background: rgba(0, 225, 237, 0.647);
+}
+
+.project-subtitle {
+  text-shadow: none;
+}
+
+.project-section p {
+  color: var(--color-grey-medium);
+}
+
+.project-title i {
+  color: black;
+}
+
+/* CYBERGRAD - DARK */
+body.dark-mode {
+  background-color: var(--color-black-steelers) !important;
+  color: white;
+}
+
+body.dark-mode .project-list a {
+  text-shadow: none;
+  color: var(--color-retro-aqua-highlight);
+}
+
+body.dark-mode .project-title i {
+  color: var(--color-yellow-pgh);
+}

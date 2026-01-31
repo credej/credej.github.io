@@ -41,6 +41,7 @@
     justify-content: center;
     font-size: var(--font-xl);
     letter-spacing: 0.52rem;
+    margin: 0 0 12px;
     overflow: wrap;
     hyphens: auto;
     -webkit-hyphens: auto;
@@ -63,6 +64,7 @@
     width: 200px;
   }
   .category-subtitle p {
+    line-height: 1.5rem;
     text-align: center;
   }
   .effect-game-over {
@@ -123,6 +125,9 @@
   }
   .intro-category-icons {
     justify-content: center;
+  }
+  .intro-text p {
+    font-size: var(--font-s);
   }
   .menu-category-title {
     justify-content: center;

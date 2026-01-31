@@ -460,17 +460,6 @@
       "oAP" : "\/favicon.ico",
       "oF" : 0
     },
-    "\/images\/0d4caa61a340cc953d6d0ec97ecd6180.webp" : {
-      "ft" : 8388608,
-      "iS" : 50117276,
-      "oA" : 0,
-      "oAP" : "\/images\/0d4caa61a340cc953d6d0ec97ecd6180.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/images\/arrow-up.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -487,32 +476,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/banner-arch.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/bg-cyberpunk-city.jpg" : {
-      "ft" : 16384,
-      "iS" : 68511,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/bg-cyberpunk-city.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/images\/bg-cyberpunk-japan.jpg" : {
-      "ft" : 16384,
-      "iS" : 149572,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/bg-cyberpunk-japan.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -745,28 +708,12 @@
       "oAP" : "\/images\/IMG_1395.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1398.HEIC" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/IMG_1398.HEIC",
-      "oF" : 0
-    },
     "\/images\/IMG_1399.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/images\/IMG_1399.HEIC",
-      "oF" : 0
-    },
-    "\/images\/IMG_1401.HEIC" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/IMG_1401.HEIC",
       "oF" : 0
     },
     "\/images\/IMG_1403.HEIC" : {
@@ -799,14 +746,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/images\/IMG_1409.HEIC",
-      "oF" : 0
-    },
-    "\/images\/IMG_1411.HEIC" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/IMG_1411.HEIC",
       "oF" : 0
     },
     "\/images\/IMG_1423.HEIC" : {
@@ -2415,6 +2354,19 @@
       "oAP" : "\/pages\/otherstuff\/test\/index.html",
       "oF" : 0
     },
+    "\/pages\/software\/collectibles\/collectibles-theme.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/collectibles-theme.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg" : {
       "ft" : 16384,
       "iS" : 822555,
@@ -2479,6 +2431,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/software\/collectibles\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/index.html",
+      "oF" : 0
     },
     "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-1.jpg" : {
       "ft" : 16384,

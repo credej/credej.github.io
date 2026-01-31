@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang=en>
+   <head>
+      <title>CyberGrad</title>
+      <meta name="description" content="cybergrad">
+      <link rel="stylesheet" type="text/css" href="/css/style.css">
+      <link rel="stylesheet" type="text/css" href="/pages/software/collectibles/collectibles-theme.css">
+      <head-links></head-links>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="/components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="/components/header-min.js" type="text/javascript" defer></script>
+      <script src="/components/index-min.js" type="text/javascript" defer></script>
+      <script src="/components/themes.js" type="text/javascript" defer></script>
+   </head>
+   <body class="light-theme">
+      
+      <header-component></header-component>
+
+      <div class="site">
+         <div class="site-main">
+            <div class="project-header">
+               <div class="project-title neon">
+                  <i class="iconoir-graduation-cap-solid"></i>
+                  <h1>steel city collectibles</h1>
+               </div>
+               <h4 class="project-subtitle">2021<span class="category-links-slash"> // </span>e-commerce store complete redesign</h4>
+               <div class="project-desc">
+                  <p>My responsibility was to design and develop the user interface and experience for a new e-commerce storefront, from initial concept to testing and implementation. I also created and ran Google shopping and display remarketing campaigns that resulted in an over 45x return on ad spend, and improved search engine visibility resulting in an over 2x increase in monthly customer visits. Monthly recurring revenue also increased over 3x.</p>
+               </div>
+               <div class="project-links">
+                  <a href="https://www.steelcitycollectibles.com">>> visit site</a>
+               </div>
+            </div>
+
+            <div class="img 2xl:columns-4 lg:columns-3 md:columns-2 columns-1">
+               <div class="">
+                  <img src="img/web-steelcity-1.jpg" alt="">
+               </div>
+               <div class="">
+                  <img src="img/web-steelcity-2.jpg" alt="">
+               </div>
+               <div class="">
+                  <img src="img/web-steelcity-3.jpg" alt="">
+               </div>
+               <div class="">
+                  <img src="img/web-steelcity-4.jpg" alt="">
+               </div>
+               <div class="">
+                  <img src="img/web-steelcity-5.jpg" alt="">
+               </div>
+            </div>
+
+            <div class="project-section px-24 py-0">
+               <div class="img-fullsize">
+                  <a href="img/web-steelcity-1.jpg" target="_blank">
+                     <img class="bg-glass-blue border-blue" src="img/web-steelcity-1.jpg">
+                     <figcaption>SCC home page</figcaption>
+                  </a>
+               </div>
+               <div class="img-fullsize">
+                  <a href="img/web-steelcity-2.jpg" target="_blank">
+                     <img class="bg-glass-blue border-blue" src="img/web-steelcity-2.jpg">
+                     <figcaption>SCC product page</figcaption>
+                  </a>
+               </div>
+               <div class="img-fullsize">
+                  <a href="img/web-steelcity-3.jpg" target="_blank">
+                     <img class="bg-glass-blue border-blue" src="img/web-steelcity-3.jpg">
+                     <figcaption>SCC live search feature</figcaption>
+                  </a>
+               </div>
+               <div class="img-fullsize">
+                  <a href="img/web-steelcity-4.jpg" target="_blank">
+                     <img class="bg-glass-blue border-blue" src="img/web-steelcity-4.jpg">
+                     <figcaption>SCC help center</figcaption>
+                  </a>
+               </div>
+               <div class="img-fullsize">
+                  <a href="img/web-steelcity-5.jpg" target="_blank">
+                     <img class="bg-glass-blue border-blue" src="img/web-steelcity-5.jpg">
+                     <figcaption>SCC cart page</figcaption>
+                  </a>
+               </div>
+            </div>
+
+         <footer>
+            <div class="footer">
+               <div class="">
+                  <div class="footer-button">
+                     <a href="#top" class="footer-back-to-top" title="Back to Top">
+                        <img src="/images/arrow-up.svg" alt="Back to Top" height="57" width="57" />
+                     </a>
+                  <footer-component></footer-component>
+               </div>
+            </div>
+         </footer>
+      </div>
+      
+   </body>
+
+   <!-- back to top button -->
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
+
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".footer-back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
+</html>

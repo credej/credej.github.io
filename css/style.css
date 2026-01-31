@@ -220,6 +220,10 @@ p {
   text-wrap: wrap;
   word-break: break-all;
 }
+.category-section ul {
+  color: var(--color-grey-medium);
+  margin: 0 0 24px;
+}
 
 .category-links {
   color: var(--color-border);
@@ -669,7 +673,7 @@ p {
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  font-size: var(--font-l);
+  font-size: var(--font-xl);
 }
 .project-title i {
   font-size: var(--font-xl);
