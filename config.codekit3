@@ -2354,6 +2354,18 @@
       "oAP" : "\/pages\/otherstuff\/test\/index.html",
       "oF" : 0
     },
+    "\/pages\/software\/collectibles\/collectibles-theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/collectibles-theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/pages\/software\/collectibles\/collectibles-theme.sass" : {
       "aP" : 0,
       "bl" : 0,

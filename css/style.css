@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "clock.css";
 @import "goodeats.css";
 @import "misc.css";
@@ -29,6 +30,19 @@ html, body {
   scroll-behavior: smooth;
 }
 
+p {
+  color: var(--color-blue-superlight);
+  font-family: "Cutive Mono", monospace;
+  font-size: var(--font-m);
+  font-family: "Boldonse", monospace;
+  font-family: "Doto", serif;
+  font-family: "Lusitana", serif;
+  font-family: "Tiny5", monospace;
+  font-family: "Reddit Mono", monospace;
+  font-family: "Courier Prime", monospace;
+  font-family: "Cutive Mono", monospace;
+}
+
 img {
   max-width: 100%;
 }
@@ -36,17 +50,6 @@ img {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-p {
-  color: var(--color-blue-superlight);
-  font-family: "Boldonse", monospace;
-  font-family: "Doto", serif;
-  font-family: "Lusitana", serif;
-  font-family: "Tiny5", monospace;
-  font-family: "Reddit Mono", monospace;
-  font-family: "Cutive Mono", monospace;
-  font-size: var(--font-m);
 }
 
 ::-webkit-scrollbar {
@@ -304,10 +307,6 @@ p {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
-}
-
-.footer {
-  height: 5rem;
 }
 
 .footer-back-to-top {
@@ -751,6 +750,106 @@ p {
   margin-top: 150px;
 }
 
+.stats-container {
+  display: flex;
+  flex-direction: space-between;
+  gap: 1rem;
+}
+
+.stats {
+  flex: 1;
+  padding: 1rem;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: auto;
+}
+
+.stat {
+  flex: 1;
+  background-color: #1f262c;
+  margin: 15px 8px;
+  padding: 30px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.stat h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: var(--font-xxxl);
+}
+
+.stat p {
+  font-family: "Doto", serif;
+  margin: 12px 0 36px;
+}
+
+.stat ul {
+  margin: 0 0 35px;
+  padding-left: 16px;
+  list-style: none;
+  line-height: 1.8;
+  color: #b5b5b5;
+  font-family: "Reddit Mono", monospace;
+}
+
+.stat ul li::before {
+  content: "•";
+  color: #000;
+  display: inline-block;
+  width: 20px;
+  margin-left: -15px;
+  position: relative;
+  top: 4px;
+  font-size: 26px;
+  line-height: 0;
+}
+
+.stat a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.stat a:hover {
+  background-color: #1f262c;
+}
+
+@media (max-width: 768px) {
+  .stats-container {
+    display: block;
+  }
+}
+#info {
+  text-align: center;
+}
+
+#info a {
+  color: #fff;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  #info {
+    display: none;
+  }
+}
 .tooltip-container {
   position: relative;
   display: inline-block;

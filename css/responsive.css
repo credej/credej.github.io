@@ -361,6 +361,10 @@
   }
 }
 @media screen and (min-width: 1440px) and (max-width: 1979px) {
+  #navbar,
+  .site-main {
+    padding: 0 20vw !important;
+  }
   .intro {
     text-align: justify;
   }
@@ -393,14 +397,11 @@
   .page-header {
     display: flex;
   }
-  .site-main {
-    padding: 0 144px;
-  }
 }
 @media (min-width: 1980px) {
   #navbar,
   .site-main {
-    padding: 0 384px;
+    padding: 0 20vw;
   }
   #footer,
   .site-main {
