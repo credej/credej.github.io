@@ -1,4 +1,8 @@
 @media screen and (min-width: 100px) and (max-width: 539px) {
+  #navbar,
+  .site-main {
+    padding: 0 10vw;
+  }
   .badge {
     height: auto !important;
     padding: 24px 0;
@@ -141,10 +145,6 @@
   .menu-expanded {
     flex-direction: column;
   }
-  #navbar {
-    padding: 0 24px;
-    border-bottom: 1px solid black;
-  }
   .navbar-home p {
     font-size: var(--font-xl);
     line-height: 2rem;
@@ -192,11 +192,6 @@
   }
   .section-header {
     text-align: center;
-  }
-  .site-main {
-    padding: 0 36px;
-    width: 100%;
-    margin-top: 120px !important;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {
@@ -293,9 +288,6 @@
   .menu-expanded {
     flex-direction: column;
   }
-  #navbar {
-    padding: 0 48px;
-  }
   .page-title {
     margin: 0;
   }
@@ -305,10 +297,6 @@
   }
   .section-header {
     text-align: center;
-  }
-  .site-main {
-    padding: 0 48px;
-    margin-top: 120px;
   }
 }
 @media screen and (min-width: 756px) and (max-width: 1079px) {
@@ -324,20 +312,11 @@
   }
   .menu-expanded {
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-  }
-  .menu-closed,
-  .menu-expanded {
-    margin-left: 72px;
-    margin-right: 72px;
   }
   .page-header {
     display: flex;
-  }
-  .site-main {
-    margin-left: 72px;
-    margin-right: 72px;
-    margin-top: 120px;
   }
 }
 @media screen and (min-width: 1080px) and (max-width: 1439px) {
@@ -350,9 +329,6 @@
   .menu-expanded {
     flex-direction: row;
   }
-  #navbar {
-    padding: 0 144px;
-  }
   .page-header {
     display: flex;
   }
@@ -361,10 +337,6 @@
   }
 }
 @media screen and (min-width: 1440px) and (max-width: 1979px) {
-  #navbar,
-  .site-main {
-    padding: 0 20vw !important;
-  }
   .intro {
     text-align: justify;
   }
@@ -388,9 +360,6 @@
   .menu-expanded {
     flex-direction: row;
   }
-  #navbar {
-    padding: 0 144px;
-  }
   .menu-category-title h2 {
     text-align: left;
   }
@@ -399,10 +368,6 @@
   }
 }
 @media (min-width: 1980px) {
-  #navbar,
-  .site-main {
-    padding: 0 20vw;
-  }
   #footer,
   .site-main {
     width: 100%;
