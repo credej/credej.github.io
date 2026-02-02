@@ -400,7 +400,7 @@ table {
 }
 .img-gallery-full figcaption {
   font-size: var(--font-s);
-  padding: 16px 0;
+  padding: 16px 0 128px;
   text-align: center;
 }
 .img-gallery-full img {
@@ -672,7 +672,7 @@ table {
   color: var(--theme-grey);
   opacity: 0.5;
   font-size: var(--font-m);
-  margin: 6px 0 12px;
+  margin: 6px 0 36px;
 }
 
 .project-title {
