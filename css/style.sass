@@ -392,7 +392,7 @@ table
   overflow-y: scroll
   scrollbar-width: none
   -ms-overflow-style: none 
-  padding: 40px 0 120px
+  padding: 40px 0 240px
 
 .menu-category
   margin: 24px
@@ -435,18 +435,15 @@ table
   z-index: 9999
 
 .navbar-home
+  width: auto
   p
     font-size: var(--font-xxl)
     font-family: "Tiny5", monospace
     cursor: pointer
 
-.page-header-image
-  img
-    border-radius: 12px 0 0 0
-
 .page-header-excerpt
   background-color: var(--color-bg)
-  border-radius:  0 0 12px 0
+  border-radius: 0 0 24px 0
   display: flex
   padding: 24px
   text-indent: 24px
@@ -455,6 +452,15 @@ table
     cursor: default
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
+
+.page-header-image
+  img
+    border-radius: 24px 0 0 0
+
+.page-header-image-hidden
+  img
+    filter: invert(100%)
+    transition: filter 0.5s ease-in-out
 
 .project-desc
   p
@@ -481,6 +487,14 @@ table
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
+
+.project-links
+  display: flex
+  flex-direction: column
+  padding: 36px
+  a
+    color: var(--color-retro-aqua-highlight)
+    margin: 6px 0
 
 .page-section
   margin: 96px 0
@@ -510,17 +524,8 @@ table
       -o-animation: blink-animation 1s infinite
       content: "_"
   i
-    color: white
     cursor: default
     padding: 0 48px 0 0
-
-.project-links
-  display: flex
-  flex-direction: column
-  padding: 30px 60px
-  a
-    color: var(--color-retro-aqua-highlight)
-    margin: 12px 0
 
 .project-section
   display: flex
