@@ -81,7 +81,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to right, #00E1FF 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1;
 }
 
 .green,
@@ -91,7 +91,7 @@
 }
 
 .border-green {
-  border-image: linear-gradient(to right, #17f9a6 0%, #112E22 100%) 1;
+  border-image: linear-gradient(to bottom, #17f9a6 0%, #112E22 100%) 1;
 }
 
 .red,
@@ -101,7 +101,7 @@
 }
 
 .border-red {
-  border-image: linear-gradient(to right, #D9044C 0%, #3C1A12 100%) 1 !important;
+  border-image: linear-gradient(to bottom, #D9044C 0%, #3C1A12 100%) 1 !important;
 }
 
 .orange,
@@ -111,7 +111,7 @@
 }
 
 .border-orange {
-  border-image: linear-gradient(to right, #ea673e 0%, #342008 100%) 1;
+  border-image: linear-gradient(to bottom, #ea673e 0%, #342008 100%) 1;
 }
 
 .purple,
@@ -121,7 +121,7 @@
 }
 
 .border-purple {
-  border-image: linear-gradient(to right, #8566ff 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1;
 }
 
 .yellow,
@@ -131,7 +131,7 @@
 }
 
 .border-yellow {
-  border-image: linear-gradient(to right, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to bottom, #facc15 0%, #3B320E 100%) 1;
 }
 
 .white,
@@ -141,7 +141,7 @@
 }
 
 .border-white {
-  border-image: linear-gradient(to right, #ececec 0%, #3B3B3B 100%) 1;
+  border-image: linear-gradient(to bottom, #ececec 0%, #3B3B3B 100%) 1;
 }
 
 .black,
