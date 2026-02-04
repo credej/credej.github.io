@@ -32,15 +32,25 @@ html, body {
 
 p {
   color: var(--color-blue-superlight);
-  font-family: "Cutive Mono", monospace;
   font-size: var(--font-m);
+  font-family: "Redacted Script", cursive;
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-family: "Press Start 2P", system-ui;
+  font-family: "Cutive Mono", monospace;
   font-family: "Boldonse", monospace;
   font-family: "Doto", serif;
-  font-family: "Lusitana", serif;
   font-family: "Tiny5", monospace;
   font-family: "Reddit Mono", monospace;
   font-family: "Courier Prime", monospace;
   font-family: "Cutive Mono", monospace;
+}
+
+.numbers {
+  font-family: "Anton", sans-serif;
+  font-family: "Boldonse", system-ui;
+  font-family: "Russo One", sans-serif;
+  font-family: "Tektur", sans-serif;
+  font-family: "Geostar Fill", serif;
 }
 
 img {
@@ -52,10 +62,8 @@ table {
   border-spacing: 0;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
+/*::-webkit-scrollbar 
+ * display: none*/
 ::selection,
 ::-moz-selection {
   background: rgba(255, 255, 255, 0.1);
@@ -117,9 +125,9 @@ table {
   margin: 12px 0 72px;
 }
 .bookmark-glossary a {
-  border: 3px solid var(--color-green-hyperpop);
+  border: 3px solid var(--color-green);
   border-radius: 8px 0 0 0;
-  color: var(--color-green-hyperpop);
+  color: var(--color-green);
   font-size: var(--font-l);
   padding: 12px;
   margin: 4px;
@@ -127,7 +135,7 @@ table {
 }
 .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
-  background: var(--color-green-hyperpop);
+  background: var(--color-green);
   color: var(--color-cyber-bg);
 }
 
@@ -140,7 +148,7 @@ table {
   padding: 0 0 3rem;
 }
 .bookmark-section h2 {
-  color: var(--color-green-hyperpop);
+  color: var(--color-green);
   font-family: "Courier Prime", monospace;
   font-size: var(--font-l);
   padding: 0 0 1vh;
@@ -187,27 +195,53 @@ table {
   animation: blinker 1s linear infinite;
 }
 
-.category-container {
-  padding: 24px 0;
-}
-
 .category {
-  display: flex;
-  padding: 36px 0;
   break-inside: avoid-column;
+  display: flex;
   filter: grayscale(1);
+  font-family: "Tiny5", monospace;
   opacity: 0.71;
+  padding: 12px 0;
 }
 .category span, .category h1 {
   display: flex;
   align-items: center;
 }
 .category:hover {
-  animation: blinker 1.87s linear infinite;
+  animation: blinker 0.71s linear infinite;
   filter: grayscale(0);
-  transition: filter 0.5s ease-in-out;
+  transition: filter 2.5s ease-in-out;
   cursor: pointer;
   opacity: 1;
+}
+
+/* .category
+ * &:hover
+ *  animation: blinker 0.71s linear infinite */
+.category-banner {
+  padding: 18px 0;
+}
+
+.category-container {
+  padding: 24px 0;
+}
+
+.category-links {
+  color: var(--color-border);
+  padding: 12px 0 48px;
+  line-height: 2.2rem;
+}
+.category-links a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.category-links a:hover {
+  animation: blinker 1s linear infinite;
+}
+
+.category-links-slash {
+  color: inherit;
+  opacity: 0.5;
 }
 
 .category-section {
@@ -231,27 +265,6 @@ table {
 .category-section ul {
   color: var(--color-grey-medium);
   margin: 0 0 24px;
-}
-
-.category-links {
-  color: var(--color-border);
-  padding: 24px 0 48px;
-}
-.category-links a {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-.category-links a:hover {
-  animation: blinker 1s linear infinite;
-}
-
-.category-links-slash {
-  color: inherit;
-  opacity: 0.5;
-}
-
-.category-banner {
-  padding: 18px 0;
 }
 
 .category-title {
@@ -290,20 +303,6 @@ table {
 }
 .category-subtitle p {
   font-family: "Reddit Mono", monospace;
-}
-
-.subcategory-title {
-  padding: 24px 0;
-}
-
-.subcategory-excerpt {
-  min-height: 75px;
-}
-.subcategory-excerpt p {
-  margin: 12px 0;
-}
-.subcategory-excerpt h2 {
-  color: orange !important;
 }
 
 .fade-in {
@@ -527,9 +526,9 @@ table {
   width: auto;
 }
 .navbar-home p {
+  cursor: pointer;
   font-size: var(--font-xxl);
   font-family: "Tiny5", monospace;
-  cursor: pointer;
 }
 
 .page-header-excerpt {
@@ -762,6 +761,25 @@ table {
   margin-top: 150px;
 }
 
+.subcategory-title {
+  font-family: "Courier Prime", monospace;
+  font-family: "Doto", serif;
+  font-family: "Cutive Mono", monospace;
+  font-family: "Redacted Script", cursive;
+  font-family: "Russo One", sans-serif;
+  font-size: var(--font-xl);
+  padding: 24px 0 12px;
+  text-transform: uppercase;
+}
+
+.subcategory-excerpt {
+  min-height: 75px;
+}
+.subcategory-excerpt p {
+  margin: 12px 0;
+  color: var(--color-title-hashtag);
+}
+
 .stats-container {
   display: flex;
   flex-direction: space-between;
@@ -773,11 +791,25 @@ table {
   padding: 1rem;
 }
 
+.stats-container-title {
+  display: flex;
+  justify-content: center;
+  margin: 72px 0 12px;
+}
+.stats-container-title h1 {
+  color: var(--color-green);
+  font-size: var(--font-xl);
+  text-transform: uppercase;
+}
+
 .stats-container {
   display: flex;
   justify-content: space-between;
   max-width: 960px;
   margin: auto;
+}
+.stats-container h1 {
+  text-align: center;
 }
 
 .stat {
