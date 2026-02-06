@@ -11,11 +11,30 @@
   .badge {
     padding: 48px 0;
   }
+  .category-links {
+    text-align: center;
+  }
   .category-links a {
     display: block;
     padding: 8px 0;
   }
+  .category-section {
+    padding: 36px;
+  }
+  .category-subtitle {
+    text-align: center;
+  }
+  .category-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
   .category-title h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 12px;
+    line-height: 36px;
     font-size: var(--font-xl);
     letter-spacing: 0.52rem;
     overflow: wrap;
@@ -23,12 +42,14 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
+    text-align: center;
   }
   .category-title h1:after {
     display: none;
   }
   .category-title i {
     font-size: var(--font-xl);
+    padding: 0 0 18px 0;
   }
   .effect-game-over {
     animation-name: glitch;
@@ -121,7 +142,7 @@
 @media screen and (min-width: 100px) and (max-width: 539px) {
   #navbar,
   .site-main {
-    padding: 0 10vw;
+    padding: 0 5vw;
   }
   .bookmark-glossary {
     margin: 36px 0;
@@ -129,26 +150,9 @@
   .bookmark-glossary a {
     padding: 6px 12px;
   }
-  /* remove? */
-  .category-section {
-    display: flex;
-    align-items: center;
+  .category-links {
+    line-height: 1.8rem;
     text-align: center;
-  }
-  /* remove? */
-  .category-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .category-title h1 {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 12px;
-    line-height: 36px;
-  }
-  .category-title i {
-    padding: 0 0 24px 0;
   }
   .category-title-container {
     display: flex;

@@ -8,11 +8,24 @@
   .badge
     padding: 48px 0
   .category-links
+    text-align: center
     a
       display: block
       padding: 8px 0  
+  .category-section
+    padding: 36px
+  .category-subtitle
+    text-align: center
   .category-title
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
     h1
+      display: flex 
+      justify-content: center 
+      margin: 0 0 12px
+      line-height: 36px
       font-size: var(--font-xl)
       letter-spacing: 0.52rem
       overflow: wrap
@@ -20,10 +33,12 @@
       -webkit-hyphens: auto
       -moz-hyphens: auto
       -ms-hyphens: auto
+      text-align: center
       &:after
         display: none
     i
       font-size: var(--font-xl)
+      padding: 0 0 18px 0
   .effect-game-over
     animation-name: glitch 
     animation-duration: 0.8s 
@@ -95,28 +110,14 @@
 @media screen and (min-width: 100px) and (max-width: 539px)
   #navbar,
   .site-main
-    padding: 0 10vw 
+    padding: 0 5vw 
   .bookmark-glossary
     margin: 36px 0
     a 
       padding: 6px 12px
-  /* remove? */
-  .category-section
-    display: flex
-    align-items: center
+  .category-links
+    line-height: 1.8rem
     text-align: center
-  /* remove? */
-  .category-title
-    display: flex
-    flex-direction: column
-    align-items: center
-    h1
-      display: flex 
-      justify-content: center 
-      margin: 0 0 12px
-      line-height: 36px
-    i
-      padding: 0 0 24px 0
   .category-title-container
     display: flex
     align-items: space-between
@@ -183,6 +184,7 @@
     display: flex
   .site-main
     padding: 0 144px
+
 @media screen and (min-width: 1440px) and (max-width: 1979px)
   .intro
     text-align: justify

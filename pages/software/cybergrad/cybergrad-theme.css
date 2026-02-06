@@ -31,5 +31,5 @@ body.dark-mode {
  * color: red !important*/
 body.dark-mode .project-list a {
   text-shadow: none;
-  color: var(--color-retro-aqua-highlight);
+  color: var(--color-blue);
 }

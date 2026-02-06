@@ -161,23 +161,6 @@ table
   a:hover
     animation: blinker 1s linear infinite
 
-.category
-  break-inside: avoid-column 
-  display: flex
-  filter: grayscale(1)
-  font-family: "Tiny5", monospace
-  opacity: 0.71
-  padding: 12px 0
-  span, h1
-    display: flex
-    align-items: center
-  &:hover
-    animation: blinker 0.71s linear infinite
-    filter: grayscale(0) 
-    transition: filter 2.5s ease-in-out
-    cursor: pointer
-    opacity: 1.0
-
 /* .category
   &:hover
     animation: blinker 0.71s linear infinite */
@@ -417,14 +400,14 @@ table
   flex-direction: column
   padding: 8px 0
   a 
-    color: var(--color-retro-aqua-highlight)
+    color: var(--color-blue)
     font-family: "Yellowtail", monospace
     font-size: var(--font-s)
     line-height: 1.4rem
     padding: 6px 0
     &:hover 
       animation: blinker 1s linear infinite
-      color: var(--color-retro-aqua-highlight)
+      color: var(--color-blue)
 
 #navbar
   backdrop-filter: blur(187px)
@@ -493,7 +476,7 @@ table
   flex-direction: column
   padding: 36px
   a
-    color: var(--color-retro-aqua-highlight)
+    color: var(--color-blue)
     margin: 6px 0
 
 .page-section
@@ -633,21 +616,39 @@ table
 .site-main
   margin-top: 150px
 
+.subcategory
+  break-inside: avoid-column
+  display: flex
+  filter: grayscale(1)
+  font-family: "Tiny5", monospace
+  padding: 12px 0
+  opacity: 0.71
+  h2
+    font-size: var(--font-l)
+  img
+    border-radius: 0 24px 0 24px 
+  span, h1
+    display: flex
+    align-items: center
+  &:hover
+    animation: blinker 0.71s linear infinite
+    filter: grayscale(0) 
+    transition: filter 1.21s ease-in-out
+    cursor: pointer
+    opacity: 1.0
+
 .subcategory-title
-  font-family: "Courier Prime", monospace
-  font-family: "Doto", serif 
-  font-family: "Cutive Mono", monospace
   font-family: "Redacted Script", cursive
   font-family: "Russo One", sans-serif
+  font-family: "Courier Prime", monospace
   font-size: var(--font-xl)
   padding: 24px 0 12px
-  text-transform: uppercase
 
 .subcategory-excerpt
   min-height: 75px /* fix shim */
   p
     margin: 12px 0
-    color: var(--color-title-hashtag) 
+    color: var(--color-grey-light) !important
 
 
 

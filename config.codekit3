@@ -483,6 +483,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/banners.pxd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/banners.pxd",
+      "oF" : 0
+    },
     "\/images\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
       "ft" : 16384,
       "iS" : 4007380,
@@ -2379,6 +2387,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/pages\/software\/collectibles\/img\/collectibles-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 190697,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/collectibles\/img\/collectibles-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/collectibles\/img\/web-steelcity-1.jpg" : {
       "ft" : 16384,
       "iS" : 822555,
@@ -2465,6 +2486,19 @@
       "oAP" : "\/pages\/software\/collectibles\/index.html",
       "oF" : 0
     },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 85863,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-1.jpg" : {
       "ft" : 16384,
       "iS" : 181314,
@@ -2480,7 +2514,7 @@
     },
     "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-2.jpg" : {
       "ft" : 16384,
-      "iS" : 181314,
+      "iS" : 90411,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-2.jpg",
@@ -2493,23 +2527,10 @@
     },
     "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-3.jpg" : {
       "ft" : 16384,
-      "iS" : 90411,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg" : {
-      "ft" : 16384,
       "iS" : 80146,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg",
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2555,6 +2576,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/index.html",
+      "oF" : 0
     },
     "\/pages\/software\/cybergrad\/cybergrad-theme.css" : {
       "aP" : 1,
@@ -2723,6 +2752,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/software\/cybergrad\/img\/cybergrad-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 40759,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/cybergrad-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/cybergrad\/img\/cybergrad-create-user@2x.png" : {
       "ft" : 32768,
       "iS" : 400073,
@@ -2879,6 +2921,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/pages\/software\/cybergrad\/img\/redteam-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 215500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/cybergrad\/img\/redteam-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/cybergrad\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2886,6 +2941,19 @@
       "oA" : 0,
       "oAP" : "\/pages\/software\/cybergrad\/index.html",
       "oF" : 0
+    },
+    "\/pages\/software\/inventory\/img\/inventory-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 88983,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/img\/inventory-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/pages\/software\/inventory\/img\/inventory-kohls.jpg" : {
       "ft" : 16384,
@@ -2990,6 +3058,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/software\/inventory\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/index.html",
+      "oF" : 0
     },
     "\/pages\/software\/redteam\/img\/mill-dashboard.jpg" : {
       "ft" : 16384,
@@ -3105,13 +3181,13 @@
     },
     "\/pages\/software\/redteam\/img\/redteam-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 51821,
+      "iS" : 83364,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/redteam\/img\/redteam-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
