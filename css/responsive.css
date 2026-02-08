@@ -138,6 +138,9 @@
   .section-header {
     text-align: center;
   }
+  .subcategories {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 100px) and (max-width: 539px) {
   #navbar,
