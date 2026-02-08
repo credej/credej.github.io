@@ -204,13 +204,11 @@ table
     margin: 0 0 24px
 
 .category-title
-  padding: 8px 0 0
-  display: flex
   align-items: center
+  display: flex
   flex-direction: row
+  margin: 12px 0
   h1
-    display: flex
-    align-items: center
     color: white
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxl)
@@ -621,7 +619,6 @@ table
   display: flex
   /* filter: grayscale(1) */
   font-family: "Tiny5", monospace
-  padding: 12px 0
   opacity: 0.71
   h2
     font-size: var(--font-l)
@@ -632,23 +629,34 @@ table
     align-items: center
   &:hover
     animation: blinker 0.71s linear infinite
-    filter: grayscale(0) 
-    transition: filter 1.21s ease-in-out
     cursor: pointer
+    filter: grayscale(0) 
     opacity: 1.0
+    transition: filter 1.21s ease-in-out
+    .subcategory-excerpt
+      p
+        color: var(--color-title-light)
+
+.subcategory-container
+  padding: 36px 0
+
+.subcategory-banner
+  img
+    margin: 12px 0 18px
 
 .subcategory-title
   font-family: "Redacted Script", cursive
   font-family: "Russo One", sans-serif
   font-family: "Courier Prime", monospace
-  font-size: var(--font-xl)
-  padding: 24px 0 12px
+  font-weight: 900
+  h2
+    font-size: var(--font-xl)
 
 .subcategory-excerpt
-  min-height: 75px /* fix shim */
   p
-    margin: 12px 0
     color: var(--color-grey-light) !important
+    line-height: 1.4rem
+    margin: 12px 0
 
 
 
