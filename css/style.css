@@ -739,9 +739,9 @@ table {
 .subcategory {
   break-inside: avoid-column;
   display: flex;
-  /* filter: grayscale(1) */
+  filter: grayscale(0.21);
   font-family: "Tiny5", monospace;
-  opacity: 0.71;
+  opacity: 0.65;
 }
 .subcategory h2 {
   font-size: var(--font-l);
