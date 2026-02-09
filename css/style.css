@@ -386,9 +386,6 @@ table {
   display: flex;
   flex-shrink: 1;
 }
-.intro-category-icons span {
-  padding: 0 12px;
-}
 .intro-category-icons i {
   font-size: var(--font-xl) !important;
 }
@@ -402,9 +399,6 @@ table {
   -moz-animation: blink-animation 0.9s infinite;
   -o-animation: blink-animation 0.9s infinite;
   content: "_";
-}
-.intro-category-icons .intro-icon-first {
-  padding: 0 12px 0 0;
 }
 
 .intro-text {
@@ -754,7 +748,6 @@ table {
   align-items: center;
 }
 .subcategory:hover {
-  animation: blinker 0.71s linear infinite;
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
