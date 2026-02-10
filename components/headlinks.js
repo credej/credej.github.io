@@ -5,7 +5,7 @@ class HeadLinks extends HTMLElement {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script src="/components/themes.js" type="text/javascript" defer></script>
       <link rel="shortcut icon" type="image/png" href="favicon.png" />
-      <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="/css/imports.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
       <!-- replace with open source -->
       <link rel="preconnect" href="https://fonts.googleapis.com">

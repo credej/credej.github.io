@@ -1,6 +1,6 @@
 /* QUOTES - LIGHT */
 body {
-  background-color: var(--color-blue-dark) !important;
+  background-color: var(--color-blue-storm) !important;
 }
 
 .page-header-excerpt p {
@@ -10,7 +10,7 @@ body {
 
 /* QUOTES - DARK */
 body.dark-mode {
-  background-color: var(--color-grey-dark);
+  background-color: var(--color-blue-storm) !important;
   color: white;
 }
 

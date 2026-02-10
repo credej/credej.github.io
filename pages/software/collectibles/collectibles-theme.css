@@ -13,7 +13,7 @@ body {
 }
 
 .project-links a {
-  color: var(--color-black-steelers);
+  color: var(--color-black);
 }
 
 .project-subtitle {
@@ -25,12 +25,12 @@ body {
 }
 
 .project-title i {
-  color: var(--color-black-steelers);
+  color: var(--color-black);
 }
 
 /* CYBERGRAD - DARK */
 body.dark-mode {
-  background-color: var(--color-black-steelers) !important;
+  background-color: var(--color-black) !important;
   color: white;
 }
 

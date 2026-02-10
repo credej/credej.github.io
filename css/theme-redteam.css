@@ -3,7 +3,7 @@ body {
   background-color: #1F4483 !important;
 }
 body .project-desc p {
-  color: var(--redteam-blue-light);
+  color: var(--color-blue-light);
 }
 body .project-subtitle {
   color: var(--color-grey-medium);

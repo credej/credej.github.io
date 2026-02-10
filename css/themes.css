@@ -3,8 +3,12 @@
 }
 
 /* LIGHT MODE STYLING */
+.stat {
+  background-color: var(--color-orange);
+}
+
 body {
-  background-color: var(--color-blue-dodger) !important;
+  background-color: var(--color-blue-dodger);
 }
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.147);
@@ -103,7 +107,7 @@ body.dark-mode p,
 body.dark-mode .cs-title,
 body.dark-mode .cs-text,
 body.dark-mode .cs-li {
-  color: var(--color-grey-1);
+  color: var(--color-grey-light);
 }
 
 body.dark-mode .light {

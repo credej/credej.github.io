@@ -27,15 +27,11 @@
   .category-title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
   }
   .category-title h1 {
     display: flex;
-    justify-content: center;
-    margin: 0 0 12px;
     line-height: 36px;
-    font-size: var(--font-xl);
     letter-spacing: 0.52rem;
     overflow: wrap;
     hyphens: auto;
@@ -49,7 +45,7 @@
   }
   .category-title i {
     font-size: var(--font-xl);
-    padding: 0 0 18px 0;
+    padding: 0 0 12px 0;
   }
   .effect-game-over {
     animation-name: glitch;
@@ -154,6 +150,7 @@
     padding: 8px 0;
   }
   .subcategory-title h2 {
+    color: var(--color-blue);
     line-height: 1.2em;
   }
 }

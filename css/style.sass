@@ -1,10 +1,11 @@
+@import "style.css"
 @import "clock.css"
 @import "goodeats.css"
 @import "misc.css"
 @import "post.css"
 @import "quotes.css"
 @import "recipes.css"
-@import "themes.css"
+@import "responsive.css"
 @import "variables.css"
 
 body
@@ -26,7 +27,7 @@ html, body
   scroll-behavior: smooth
 
 p  
-  color: var(--color-blue-superlight)
+  color: var(--color-white)
   font-size: var(--font-m)
   font-family: "Redacted Script", cursive
   font-family: "Libre Barcode 39 Text", system-ui
@@ -92,7 +93,7 @@ table
     margin: 24px 0 12px
   p
     font-family: "Reddit Mono", monospace
-    font-size: var(--font-xs);
+    font-size: var(--font-xs)
   img
     transition: 0.3s
   img:hover
@@ -191,7 +192,7 @@ table
   font-size: var(--font-s)
   padding: 48px 72px 72px
   a
-    color: var(--color-title-light)
+    color: var(--color-white)
     font-size: var(--font-m)
   span
     color: var(--color-title)
@@ -274,7 +275,7 @@ table
   display: flex
   justify-content: center
   a
-    color: var(--color-retro-orange) !important
+    color: var(--color-orange) !important
 
 .footer-text
   display: flex
@@ -290,7 +291,7 @@ table
   bottom: 0
   padding: 12px 0
   position: fixed
-  z-index: 9999;
+  z-index: 9999
   p
     color: #fff !important
     font-family: "Tiny5", monospace
@@ -378,7 +379,7 @@ table
 .menu-category-title
   display: flex
   flex-direction: row
-  color: var(--color-title-light)
+  color: var(--color-white)
   i
     color: var(--color-yellow-pgh)
     font-size: var(--font-xl)
@@ -539,7 +540,7 @@ table
     text-shadow: var(--text-shadow-1)
 
 .project-subtitle
-  color: var(--theme-grey)
+  color: var(--color-white)
   opacity: 0.5
   font-size: var(--font-m)
   margin: 6px 0 36px
@@ -558,47 +559,6 @@ table
   i
     font-size: var(--font-xl)
     margin: 0 24px 6px 0
-
-.quote-container
-  break-inside: avoid 
-  padding: 0 24px
-
-.quote 
-  padding: 0 0 3rem
-
-.quote-text
-  border-radius: 12px 12px 0 12px
-  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2) 
-  cursor: default 
-  font-family: "Lusitana", serif 
-  font-size: var(--font-l) 
-  font-style: italic 
-  line-height: 1.8rem 
-  margin-bottom: 12px 
-  padding: 36px 36px 44px
-  text-align: left
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
-
-.quote-by 
-  cursor: default
-  font-family: "Lusitana", serif 
-  font-weight: 400 
-  font-style: normal 
-  font-size: var(--font-m)
-  padding: 0 0 0 24px
-  text-align: right 
-
-.quote-link 
-  font-family: "Cutive Mono", "Courier Prime", monospace
-  a 
-    color: var(--color-purple-light) !important 
-    text-align: right 
-    &:hover 
-      animation: blinker 0.4s linear infinite
-
-.quote-by,
-.quote-link 
-  margin-right: 1rem 
 
 .section-header
   font-family: "Courier Prime", monospace
@@ -624,13 +584,14 @@ table
     display: flex
     align-items: center
   &:hover
+    animation: blinker 1s linear infinite
     cursor: pointer
     filter: grayscale(0) 
     opacity: 1.0
     transition: filter 1.21s ease-in-out
     .subcategory-excerpt
       p
-        color: var(--color-title-light)
+        color: var(--color-white)
 
 .subcategory-container
   padding: 36px 0
@@ -643,7 +604,6 @@ table
   font-family: "Redacted Script", cursive
   font-family: "Russo One", sans-serif
   font-family: "Courier Prime", monospace
-  font-weight: 900
   h2
     font-size: var(--font-xl)
 
@@ -698,7 +658,7 @@ table
   border-bottom: 2px solid #000
   text-transform: uppercase
   letter-spacing: 0.07em
-  font-size: var(--font-xxxl);
+  font-size: var(--font-xxxl)
 
 .stat p
   font-family: "Doto", serif 
