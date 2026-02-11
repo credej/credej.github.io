@@ -565,6 +565,7 @@ table {
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }
 .project-section p {
+  color: var(--color-white);
   font-size: var(--font-m);
   line-height: 1.8rem;
 }
@@ -579,10 +580,6 @@ table {
   text-wrap: wrap;
   word-break: break-all;
 }
-.project-section h3 {
-  color: var(--grey);
-  font-size: var(--font-l);
-}
 .project-section span {
   color: var(color-title-hashtag);
 }
@@ -592,6 +589,7 @@ table {
 }
 
 .project-section-title h3 {
+  color: white;
   font-size: var(--font-l);
   text-shadow: var(--text-shadow-1);
 }
