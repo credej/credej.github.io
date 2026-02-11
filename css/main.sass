@@ -1,0 +1,736 @@
+body
+  /*  box-shadow: inset 0 50px 30px rgba(0, 0, 0, 0.4) */
+  display: flex
+  justify-content: center
+  &::-webkit-scrollbar 
+    width: 12px 
+  &::-webkit-scrollbar-track 
+    background: var(--color-blue-storm) 
+  &::-webkit-scrollbar-thumb 
+    background-color: var(--color-grey-medium)
+    border-radius: 20px 
+    border: 1px solid var(--color-grey-medium)
+
+html, body 
+  max-width: 100%
+  overflow-x: hidden
+  scroll-behavior: smooth
+
+p  
+  color: var(--color-white)
+  font-size: var(--font-m)
+  font-family: "Redacted Script", cursive
+  font-family: "Libre Barcode 39 Text", system-ui
+  font-family: "Press Start 2P", system-ui
+  font-family: "Cutive Mono", monospace
+  font-family: "Boldonse", monospace
+  font-family: "Doto", serif 
+  font-family: "Tiny5", monospace
+  font-family: "Reddit Mono", monospace 
+  font-family: "Courier Prime", monospace
+  font-family: "Cutive Mono", monospace
+
+.numbers
+  font-family: "Anton", sans-serif
+  font-family: "Boldonse", system-ui
+  font-family: "Russo One", sans-serif
+  font-family: "Tektur", sans-serif
+  font-family: "Geostar Fill", serif  
+
+img
+  max-width: 100%
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+::selection,
+::-moz-selection
+  background: rgba(255, 255, 255, 0.1)
+  color: #000
+
+#navbar,
+.site-main
+  padding: 0 12.5vw
+
+.hidden
+  display: none
+
+/*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
+  scroll-padding-top: 68px*/
+
+.badges
+  margin: 96px 0
+
+.badge-container
+  display: flex
+  flex-wrap: wrap
+  padding: 24px
+  img
+    width: 200px
+    padding: 4px 0
+
+.badge
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: center
+  height: 450px
+  text-align: center
+  h3
+    font-family: "Reddit Mono", monospace
+    font-size: var(--font-l)
+    margin: 24px 0 12px
+  p
+    font-family: "Reddit Mono", monospace
+    font-size: var(--font-xs)
+  img
+    transition: 0.3s
+  img:hover
+    transform: scale(1.1)
+
+.bookmark-glossary
+  display: flex
+  flex-wrap: wrap
+  margin: 12px 0 72px
+  a
+    border: 3px solid var(--color-green)
+    border-radius: 8px 0 0 0
+    color: var(--color-green)
+    font-size: var(--font-l)
+    padding: 12px
+    margin: 4px
+    font-family: "Cutive Mono", monospace
+  a:hover
+    animation: blinker 1s linear infinite
+    background: var(--color-green)
+    color: var(--color-cyber-bg)
+
+.bookmark-section
+  margin-left: 1rem
+  text-indent: -1rem
+  break-inside: avoid
+  display: flex
+  flex-direction: column
+  padding: 0 0 3rem
+  h2
+    color: var(--color-green)
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-l)
+    padding: 0 0 1vh
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
+  li
+    font-size: var(--font-m)
+    margin-left: 1rem
+    text-indent: -1rem
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
+  a
+    padding: 4px 0 4px 12px
+
+.bookmark
+  flex-grow: 1
+  flex-shrink: 1
+  flex-basis: 0%
+  padding: 12px 72px 12px 0 
+  a
+    color: var(--color-blue-light) 
+  a:hover
+    color: #fff
+    animation: blinker 1s linear infinite
+  ul
+    :hover
+      border-left: none
+  li 
+    font-family: "Courier Prime", monospace
+  h2
+    padding: 0 16pxw
+
+.bookmark-old
+  a
+    color: var(--color-grey-light)
+    text-decoration: line-through
+  a:hover
+    animation: blinker 1s linear infinite
+
+/* .category
+  &:hover
+    animation: blinker 0.71s linear infinite */
+
+.category-banner
+  padding: 18px 0
+
+.category-container
+  padding: 24px 0
+
+.category-links
+  color: var(--color-border)
+  padding: 12px 0 48px
+  line-height: 2.2rem
+  a
+    text-decoration: underline
+    text-decoration-style: dotted
+  a:hover
+    animation: blinker 1s linear infinite
+
+.category-links-slash
+  color: inherit
+  opacity: 0.5
+
+.category-section
+  flex-direction: column
+  font-family: "Yellowtail", monospace
+  font-size: var(--font-s)
+  padding: 48px 72px 72px
+  a
+    color: var(--color-white)
+    font-size: var(--font-m)
+  span
+    color: var(--color-title)
+  h1
+    color: #fff
+    text-wrap: wrap
+    word-break: break-all
+  ul
+    color: var(--color-grey-medium)
+    margin: 0 0 24px
+
+.category-title
+  align-items: center
+  display: flex
+  flex-direction: row
+  margin: 12px 0
+  h1
+    color: white
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-xxl)
+    letter-spacing: 0.8rem
+    word-break: break-word
+    text-transform: uppercase
+    &:after
+      padding: 24px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+  i
+    color: white
+    font-size: var(--font-xl)
+    padding: 0 24px 0 0
+    text-align: center
+
+.category-subtitle
+  padding: 4px 0
+  p
+    font-family: "Reddit Mono", monospace
+
+.fade-in
+  opacity: 1
+  animation-name: fadeInOpacity
+  animation-iteration-count: 1
+  animation-timing-function: ease-in
+  animation-duration: 0.5s
+
+.footer-back-to-top
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: var(--color-black)
+  border-radius: 15%
+  left: 4rem
+  bottom: 4rem
+  display: flex
+  opacity: 0.29 !important
+  padding: 0.87rem
+  position: fixed
+  transition: all .4s
+  visibility: hidden
+  width: 4rem
+  z-index: 9999
+  &:hover
+    filter: invert(.8)
+    opacity: 1.0
+    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
+  &:active
+    filter: invert(1)
+    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
+
+.footer-back-to-top-container
+  display: flex
+  align-items: center
+  justify-content: center
+
+.footer-caution
+  align-items: center
+  display: flex
+  justify-content: center
+  a
+    color: var(--color-orange)
+
+.footer-text
+  display: flex
+  justify-content: center
+  padding: 87px
+
+.footer-construction
+  background-color: #D9044C
+  display: flex
+  justify-content: center
+  left: 0
+  right: 0
+  bottom: 0
+  padding: 12px 0
+  position: fixed
+  z-index: 9999
+  p
+    color: #fff
+    font-family: "Tiny5", monospace
+    text-transform: uppercase
+
+.footer-text-flashing
+  animation: blink-animation 0.87s infinite
+  -webkit-animation: blink-animation 0.87s infinite
+  padding: 0 24px
+
+.img-gallery-small
+  img
+    padding: 24px 0
+
+.img-gallery-full
+  padding: 48px 0
+
+.img-gallery-full
+  color: var(--color-grey-medium)
+  padding: 48px 0
+  font-family: "Reddit Mono", monospace
+  figcaption
+    font-size: var(--font-s)
+    padding: 16px 0 128px
+    text-align: center
+  img
+    box-shadow: 0 0 24px hsla(0, 0%, 0%, 0.2) 
+
+.intro-category-icons
+  display: flex
+  flex-shrink: 1
+  i
+    font-size: var(--font-xl)
+  h1
+    font-size: var(--font-xl)
+    padding: 0
+    &:after
+      animation: blink-animation .9s infinite
+      -webkit-animation: blink-animation .9s infinite
+      -moz-animation: blink-animation .9s infinite
+      -o-animation: blink-animation .9s infinite
+      content: "_"
+
+.intro-text
+  margin: 36px 0
+  /*  transform: rotate(90deg)*/
+  a:hover
+    animation: blinker 1s linear infinite
+  p
+    display: inline-block
+    font-size: var(--font-m)
+    font-family: "Reddit Mono", monospace
+    line-height: 2rem
+    text-align: left
+
+#menu-button
+  i
+    font-size: var(--font-xl)
+
+.menu-closed
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 24px 0
+
+.menu-icon
+  i
+    color: var(--grey)
+  i:hover
+    color: white
+
+.menu-expanded
+  display: flex
+  height: 100vh
+  overflow-y: auto
+  overflow-y: scroll
+  scrollbar-width: none
+  -ms-overflow-style: none 
+  padding: 40px 0 240px
+
+.menu-category
+  margin: 24px
+  justify-content: center
+
+.menu-category-title
+  display: flex
+  flex-direction: row
+  color: var(--color-white)
+  i
+    color: var(--color-yellow-pgh)
+    font-size: var(--font-xl)
+    padding: 0 14px 0 0 
+  h2
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    text-align: center
+    text-transform: uppercase
+
+.menu-list
+  display: flex
+  flex-direction: column
+  padding: 8px 0
+  a 
+    color: var(--color-blue)
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-s)
+    line-height: 1.4rem
+    padding: 6px 0
+    &:hover 
+      animation: blinker 1s linear infinite
+      color: var(--color-blue)
+
+#navbar
+  backdrop-filter: blur(187px)
+  -webkit-backdrop-filter: blur(187px)
+  position: fixed
+  left: 0
+  right: 0
+  z-index: 9999
+
+.navbar-home
+  width: auto
+  p
+    cursor: pointer
+    font-size: var(--font-xxl)
+    font-family: "Tiny5", monospace
+
+.page-header-excerpt
+  background-color: var(--color-bg)
+  border-radius: 0 0 24px 0
+  display: flex
+  padding: 24px
+  text-indent: 24px
+  p
+    color: white
+    cursor: default
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+
+.page-header-image
+  img
+    border-radius: 24px 0 0 0
+
+.page-header-image-hidden
+  img
+    filter: invert(100%)
+    transition: filter 0.5s ease-in-out
+
+.project-desc
+  p
+    font-family: "Courier Prime", monospace
+    text-align: justify
+
+.project-header
+  padding: 24px 0
+  font-family: "Yellowtail", monospace
+  a
+    font-size: var(--font-m) 
+    mix-blend-mode: normal 
+  a:hover
+    animation: blinker 1s linear infinite
+  h1
+    color: white
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-xxl)
+    letter-spacing: 0.8rem
+    &:after
+      padding: 24px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
+
+.project-links
+  display: flex
+  flex-direction: column
+  padding: 36px
+  a
+    color: var(--color-blue)
+    margin: 6px 0
+
+.page-section
+  margin: 96px 0
+
+.project-section
+  cursor: default
+  font-family: "Yellowtail", monospace
+  padding: 60px
+  p
+    font-size: var(--font-m)
+    line-height: 1.8rem
+  a
+    margin-bottom: 4px !important
+    mix-blend-mode: normal !important
+  a:hover
+    animation: blinker 1s linear infinite
+  h1
+    text-wrap: wrap
+    word-break: break-all
+  h3
+    color: var(--grey)
+    font-size: var(--font-l)
+  span
+    color: var(color-title-hashtag) 
+  span
+    color: var(--color-title)
+    margin-right: 24px
+  /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
+
+.project-section-title
+  h3
+    font-size: var(--font-l) 
+    text-shadow: var(--text-shadow-1)
+
+.project-subtitle
+  color: var(--color-white)
+  opacity: 0.5
+  font-size: var(--font-m)
+  margin: 6px 0 36px
+
+.project-title
+  display: flex
+  align-items: center
+  margin: 12px 0
+  h1
+    white-space: pre-wrap 
+    word-break: break-word 
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
+    font-size: var(--font-xl)
+  i
+    font-size: var(--font-xl)
+    margin: 0 24px 6px 0
+
+.section-header
+  font-family: "Courier Prime", monospace
+  font-size: var(--font-l)
+  margin: 72px 0 24px
+  h5
+    color: white
+
+.site-main
+  margin-top: 150px
+
+.subcategory
+  break-inside: avoid-column
+  display: flex
+  filter: grayscale(0.21)
+  font-family: "Tiny5", monospace
+  opacity: 0.65
+  h2
+    font-size: var(--font-l)
+  img
+    border-radius: 0 24px 0 24px 
+  span, h1
+    display: flex
+    align-items: center
+  &:hover
+    animation: blinker 1s linear infinite
+    cursor: pointer
+    filter: grayscale(0) 
+    opacity: 1.0
+    transition: filter 1.21s ease-in-out
+    .subcategory-excerpt
+      p
+        color: var(--color-white)
+
+.subcategory-container
+  padding: 36px 0
+
+.subcategory-banner
+  img
+    margin: 12px 0 18px
+
+.subcategory-title
+  font-family: "Redacted Script", cursive
+  font-family: "Russo One", sans-serif
+  font-family: "Courier Prime", monospace
+  h2
+    font-size: var(--font-xl)
+
+.subcategory-excerpt
+  p
+    color: var(--color-grey-light)
+    line-height: 1.4rem
+    margin: 12px 0
+
+
+
+
+
+
+.stats-container
+  display: flex
+  flex-direction: space-between
+  gap: 1rem
+
+.stats
+  flex: 1
+  padding: 1rem
+
+.stats-container-title
+  display: flex
+  justify-content: center
+  margin: 72px 0 12px
+  h1
+    color: var(--color-green)
+    font-family: "Doto", serif 
+    font-size: var(--font-xl)
+    text-transform: uppercase
+
+.stats-container 
+  display: flex
+  justify-content: space-between
+  max-width: 960px
+  margin: auto
+  h1
+    text-align: center
+
+.stat 
+  flex: 1
+  background-color: #1f262c
+  margin: 15px 8px
+  padding: 30px
+  border-radius: 6px
+  color: #fff
+
+.stat h2 
+  margin-top: 0
+  border-bottom: 2px solid #000
+  text-transform: uppercase
+  letter-spacing: 0.07em
+  font-size: var(--font-xxxl)
+
+.stat p
+  font-family: "Doto", serif 
+  margin: 12px 0 36px
+
+.stat ul 
+  margin: 0 0 35px
+  padding-left: 16px
+  list-style: none
+  line-height: 1.8
+  color: #b5b5b5
+  font-family: "Reddit Mono", monospace 
+
+.stat ul li::before 
+  content: "•"
+  color: #000
+  display: inline-block
+  width: 20px
+  margin-left: -15px
+  position: relative
+  top: 4px
+  font-size: 26px
+  line-height: 0
+
+.stat a 
+  text-decoration: none
+  color: #fff
+  padding: 10px 20px
+  text-align: center
+  background: #000
+  border: 2px solid #000
+  border-radius: 5px
+  letter-spacing: 0.05em
+  text-transform: uppercase
+  font-size: 15px
+  font-weight: bold
+
+.stat a:hover 
+  background-color: #1f262c
+
+@media (max-width: 768px) 
+  .stats-container 
+    display: block
+
+#info 
+  text-align: center
+#info a 
+  color: #fff
+  text-transform: uppercase
+  position: fixed
+  bottom: 15px
+
+@media (max-width:768px) 
+  #info 
+    display: none
+
+
+
+
+.tooltip-container
+  position: relative
+  display: inline-block
+  cursor: pointer
+  &::before
+    background-color: #333
+    border-radius: 4px
+    bottom: 125%
+    color: #fff
+    content: attr(data-tooltip)
+    font-size: 0.9em
+    opacity: 0
+    padding: 8px 12px
+    position: absolute
+    transform: translateX(0%)
+    transition: opacity 0.3s ease, visibility 0.3s ease
+    visibility: hidden
+    white-space: nowrap
+  &::after
+    content: ''
+    position: absolute
+    bottom: 115%
+    left: 50%
+    transform: translateX(-50%)
+    border-width: 5px
+    border-style: solid
+    border-color: #333 transparent transparent transparent
+    opacity: 0
+    visibility: hidden
+    transition: opacity 0.3s ease, visibility 0.3s ease
+  &:hover
+    &::before, &::after
+      opacity: 1
+      visibility: visible
+
+/* SHIMS */
+
+.spacer
+  height: 121px
+  text-align: center
+  width: 100%
+
+.spacer-line
+  border-bottom: 1px solid var(--color-blue-storm)
+  margin: 0 96px
+
+.spacer-s
+  height: 60px
+
+.spacer-m
+  height: 120px
+
+.spacer-l
+  height: 180px
+
+
+
+
