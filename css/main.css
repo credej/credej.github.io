@@ -507,11 +507,11 @@ table {
   font-size: var(--font-m);
 }
 
-.page-header-image img {
+.project-header-image img {
   border-radius: 24px 0 0 0;
 }
 
-.page-header-image-hidden img {
+.project-header-image-hidden img {
   filter: invert(100%);
   transition: filter 0.5s ease-in-out;
 }
@@ -557,13 +557,10 @@ table {
   margin: 6px 0;
 }
 
-.page-section {
-  margin: 96px 0;
-}
-
 .project-section {
   cursor: default;
   font-family: "Yellowtail", monospace;
+  margin: 72px 0;
   padding: 60px;
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }

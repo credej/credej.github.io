@@ -168,7 +168,7 @@
   }
   25% {
     color: #A59FAD;
-    text-shadow: 2px 2px 2px #A59FAD;
+    text-shadow: 2px 2px 2px var(--color-black);
     transform: translate(-2px, 1px);
   }
   40% {
@@ -188,7 +188,6 @@
   }
   80% {
     color: #565656;
-    text-shadow: 0 0 20px #565656;
     transform: translate(-2px, 1px);
   }
   100% {
