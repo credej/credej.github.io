@@ -6,7 +6,7 @@ body .project-desc p {
   color: var(--color-blue-light);
 }
 body .project-subtitle {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
 body .project-list a {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);

@@ -1,3 +1,13 @@
+@font-face 
+  font-family: "Redacted", system-ui
+  src: url('../fonts/Redacted-Regular.ttf') format('tff')
+  font-weight: 400
+  font-style: normal
+
+*
+  font-family: "Redacted", system-ui
+
+
 * {
     box-sizing: border-box; 
 }

@@ -49,7 +49,6 @@
   color: pink;
 }
 .recipe-container .column {
-  background-color: var(--color-bg-menu);
   border-radius: 0;
 }
 .recipe-container img {

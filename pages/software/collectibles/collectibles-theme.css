@@ -21,7 +21,7 @@ body {
 }
 
 .project-section p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
 
 .project-title i {

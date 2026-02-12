@@ -9,7 +9,6 @@
 }
 
 .quote-text {
-  background-color: var(--color-bg);
   border-radius: 16px 16px 0 16px;
   color: var(--color-light);
   cursor: default;
@@ -47,4 +46,45 @@
 .quote-by,
 .quote-link {
   margin-right: 1rem;
+}
+
+/* THEME - LIGHT */
+body,
+.quote {
+  background-color: var(--color-grey-medium) !important;
+}
+
+.quote-text {
+  background-color: var(--color-grey-dark);
+  color: var(--color-blue-light);
+}
+
+.page-header-excerpt p {
+  color: var(--color-grey-dark) !important;
+}
+
+/* THEME - DARK */
+body.dark-mode .quote {
+  background-color: var(--color-black) !important;
+}
+
+body.dark-mode {
+  background-color: var(--color-black) !important;
+  color: white;
+}
+
+body.dark-mode .page-header-excerpt {
+  background-color: var(--color-grey-dark);
+}
+body.dark-mode .page-header-excerpt p {
+  color: white !important;
+}
+
+body.dark-mode .quote-link a {
+  color: var(--color-blue-light);
+}
+
+.quote-text {
+  background-color: var(--color-grey-dark);
+  color: var(--color-blue-light);
 }
