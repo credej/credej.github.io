@@ -9,71 +9,65 @@
 .quote-text
   border-radius: 16px 16px 0 16px
   color: var(--color-light)
-  cursor: default
   font-family: "Reddit Mono", monospace
   font-family: "Lusitana", serif
-  font-size: var(--font-m)
+  font-size: var(--font-s)
   font-style: italic
   font-weight: 400
   letter-spacing: 1.2px
   line-height: 1.8rem
   margin-bottom: 12px
-  padding: 36px 48px 56px
+  padding: 36px
   text-align: left
   box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.2)
 
 .quote-by
-  cursor: default
   font-family: "Roboto Mono", monospace
   font-weight: 400
   font-style: normal
 
 .quote-link 
   font-family: "Cutive Mono", "Courier Prime", monospace
-  a 
-    color: var(--color-green-lime) !important 
-    text-align: right 
-    &:hover 
-      animation: blinker 0.4s linear infinite
-
-.quote-by,
-.quote-link
-  margin-right: 1rem
+  color: var(--color-green-lime) !important 
+  line-height: 1.0rem !important
+  text-align: right
+  &:hover 
+    animation: blinker 0.4s linear infinite
 
 /* THEME - LIGHT */
+
+.page-header-excerpt
+  p
+    color: var(--color-grey-medium) !important
 
 body,
 .quote
    background-color: var(--color-grey-medium) !important
 
+.quote-by
+  color: var(--color-grey-dark)
+
 .quote-text
-  background-color: var(--color-grey-dark)
-  color: var(--color-blue-light)
-
-.page-header-excerpt
-  p
-    color: var(--color-grey-dark) !important
-
+  background-color: var(--color-grey-light) !important
+  color: var(--color-grey-medium) !important
 
 /* THEME - DARK */
-
-body.dark-mode .quote
-  background-color: var(--color-black) !important
 
 body.dark-mode 
   background-color: var(--color-black) !important
   color: white
 
-body.dark-mode .page-header-excerpt
-  background-color: var(--color-grey-dark)
-  p
-    color: white !important
-
-body.dark-mode .quote-link 
-  a 
-    color: var(--color-blue-light)
-
-.quote-text
-  background-color: var(--color-grey-dark)
-  color: var(--color-blue-light)
+body.dark-mode 
+  .quote
+    background-color: var(--color-black) !important
+  .quote-by
+    color: var(--color-grey-medium)
+  .page-header-excerpt
+    background-color: var(--color-grey-dark)
+  .quote-link 
+    a 
+      color: var(--color-blue-light)
+  .quote-text
+    background-color: var(--color-grey-dark) !important
+    color: var(--color-grey-light) !important
 

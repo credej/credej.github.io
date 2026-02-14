@@ -11,22 +11,20 @@
 .quote-text {
   border-radius: 16px 16px 0 16px;
   color: var(--color-light);
-  cursor: default;
   font-family: "Reddit Mono", monospace;
   font-family: "Lusitana", serif;
-  font-size: var(--font-m);
+  font-size: var(--font-s);
   font-style: italic;
   font-weight: 400;
   letter-spacing: 1.2px;
   line-height: 1.8rem;
   margin-bottom: 12px;
-  padding: 36px 48px 56px;
+  padding: 36px;
   text-align: left;
   box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
 }
 
 .quote-by {
-  cursor: default;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -34,57 +32,52 @@
 
 .quote-link {
   font-family: "Cutive Mono", "Courier Prime", monospace;
-}
-.quote-link a {
   color: var(--color-green-lime) !important;
+  line-height: 1rem !important;
   text-align: right;
 }
-.quote-link a:hover {
+.quote-link:hover {
   animation: blinker 0.4s linear infinite;
 }
 
-.quote-by,
-.quote-link {
-  margin-right: 1rem;
+/* THEME - LIGHT */
+.page-header-excerpt p {
+  color: var(--color-grey-medium) !important;
 }
 
-/* THEME - LIGHT */
 body,
 .quote {
   background-color: var(--color-grey-medium) !important;
 }
 
-.quote-text {
-  background-color: var(--color-grey-dark);
-  color: var(--color-blue-light);
+.quote-by {
+  color: var(--color-grey-dark);
 }
 
-.page-header-excerpt p {
-  color: var(--color-grey-dark) !important;
+.quote-text {
+  background-color: var(--color-grey-light) !important;
+  color: var(--color-grey-medium) !important;
 }
 
 /* THEME - DARK */
-body.dark-mode .quote {
-  background-color: var(--color-black) !important;
-}
-
 body.dark-mode {
   background-color: var(--color-black) !important;
   color: white;
 }
 
+body.dark-mode .quote {
+  background-color: var(--color-black) !important;
+}
+body.dark-mode .quote-by {
+  color: var(--color-grey-medium);
+}
 body.dark-mode .page-header-excerpt {
   background-color: var(--color-grey-dark);
 }
-body.dark-mode .page-header-excerpt p {
-  color: white !important;
-}
-
 body.dark-mode .quote-link a {
   color: var(--color-blue-light);
 }
-
-.quote-text {
-  background-color: var(--color-grey-dark);
-  color: var(--color-blue-light);
+body.dark-mode .quote-text {
+  background-color: var(--color-grey-dark) !important;
+  color: var(--color-grey-light) !important;
 }

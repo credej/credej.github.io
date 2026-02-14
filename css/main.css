@@ -420,7 +420,7 @@ table {
 }
 
 .menu-icon i {
-  color: var(--grey);
+  color: var(--color-grey-light);
 }
 .menu-icon i:hover {
   color: white;
@@ -437,7 +437,6 @@ table {
 }
 
 .menu-category {
-  margin: 24px;
   justify-content: center;
 }
 
@@ -506,7 +505,6 @@ table {
   text-indent: 24px;
 }
 .page-header-excerpt p {
-  cursor: default;
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
 }
@@ -561,8 +559,11 @@ table {
   margin: 6px 0;
 }
 
+.page-section {
+  margin: 72px 0;
+}
+
 .project-section {
-  cursor: default;
   font-family: "Yellowtail", monospace;
   margin: 72px 0;
   padding: 60px;
@@ -862,4 +863,13 @@ table {
 
 .spacer-l {
   height: 180px;
+}
+
+.menu-category-title,
+.quote-by,
+.quote-text,
+.page-header-excerpt p,
+.project-section,
+.project-title {
+  cursor: default;
 }
