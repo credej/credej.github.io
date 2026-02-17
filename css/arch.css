@@ -1,7 +1,3 @@
-.project-title {
-  color: var(--color-grey-dark);
-}
-
 /* THEME - LIGHT */
 .page-header-excerpt p {
   color: var(--color-grey-medium) !important;
@@ -23,7 +19,4 @@ body.dark-mode {
 
 body.dark-mode .page-header-excerpt {
   background-color: var(--color-grey-dark);
-}
-body.dark-mode .project-title {
-  color: var(--color-grey-dark);
 }

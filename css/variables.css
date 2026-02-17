@@ -159,7 +159,7 @@
   animation-iteration-count: infinite;
   cursor: pointer !important;
 }
-.effect-game-over:hover p {
+.effect-game-over:hover h1 {
   color: var(--color-green) !important;
 }
 

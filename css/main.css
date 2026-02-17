@@ -486,7 +486,7 @@ table {
 .navbar-home {
   width: auto;
 }
-.navbar-home p {
+.navbar-home h1 {
   cursor: pointer;
   font-size: var(--font-xxl);
   font-family: "Tiny5", monospace;
