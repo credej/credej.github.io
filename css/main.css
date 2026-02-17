@@ -23,7 +23,6 @@ html, body {
 }
 
 p {
-  color: var(--color-white);
   font-size: var(--font-m);
   font-family: "Redacted Script", cursive;
   font-family: "Libre Barcode 39 Text", system-ui;
@@ -221,7 +220,6 @@ table {
   padding: 48px 72px 72px;
 }
 .category-section a {
-  color: var(--color-white);
   font-size: var(--font-m);
 }
 .category-section span {
@@ -266,9 +264,6 @@ table {
   text-align: center;
 }
 
-.category-subtitle {
-  padding: 4px 0;
-}
 .category-subtitle p {
   font-family: "Reddit Mono", monospace;
 }
@@ -426,17 +421,30 @@ table {
   color: white;
 }
 
+#menu-expanded {
+  height: 100vh;
+}
+
 .menu-expanded {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
   overflow-y: auto;
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding: 40px 0 240px;
+  padding: 40px 0;
+}
+
+.menu-category-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .menu-category {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -639,8 +647,9 @@ table {
 
 .subcategory {
   break-inside: avoid-column;
+  color: var(--color-grey-medium);
   display: flex;
-  filter: grayscale(0.21);
+  filter: grayscale(0.5);
   font-family: "Tiny5", monospace;
 }
 .subcategory h2 {
@@ -648,21 +657,30 @@ table {
 }
 .subcategory img {
   border-radius: 0 24px 0 24px;
+  cursor: pointer;
 }
 .subcategory span, .subcategory h1 {
   display: flex;
   align-items: center;
 }
 .subcategory:hover {
-  animation: blinker 1s linear infinite;
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
-  transition: filter 1.21s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.subcategory:hover img {
+  animation: blinker 0.5s linear infinite;
+}
+.subcategory:hover h2 {
+  color: var(--color-white);
+}
+.subcategory:hover p {
+  color: var(--color-grey-light);
 }
 
 .subcategory-container {
-  padding: 36px 0;
+  padding: 12px 0;
 }
 
 .subcategory-banner img {
@@ -670,16 +688,15 @@ table {
 }
 
 .subcategory-title {
-  font-family: "Redacted Script", cursive;
   font-family: "Russo One", sans-serif;
   font-family: "Courier Prime", monospace;
+  font-family: "Yellowtail", monospace;
 }
 .subcategory-title h2 {
-  font-size: var(--font-xl);
+  font-size: var(--font-l);
 }
 
 .subcategory-excerpt p {
-  color: var(--color-white);
   line-height: 1.4rem;
   margin: 12px 0;
 }

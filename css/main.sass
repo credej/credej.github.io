@@ -17,7 +17,6 @@ html, body
   scroll-behavior: smooth
 
 p  
-  color: var(--color-white)
   font-size: var(--font-m)
   font-family: "Redacted Script", cursive
   font-family: "Libre Barcode 39 Text", system-ui
@@ -182,7 +181,6 @@ table
   font-size: var(--font-s)
   padding: 48px 72px 72px
   a
-    color: var(--color-white)
     font-size: var(--font-m)
   span
     color: var(--color-title)
@@ -220,7 +218,6 @@ table
     text-align: center
 
 .category-subtitle
-  padding: 4px 0
   p
     font-family: "Reddit Mono", monospace
 
@@ -353,16 +350,27 @@ table
   i:hover
     color: white
 
+#menu-expanded
+  height: 100vh
+
 .menu-expanded
   display: flex
-  height: 100vh
+  flex-direction: column
   overflow-y: auto
   overflow-y: scroll
   scrollbar-width: none
   -ms-overflow-style: none 
-  padding: 40px 0 240px
+  padding: 40px 0
+
+.menu-category-container
+  display: flex
+  flex-grow: 1
+  justify-content: space-between
 
 .menu-category
+  display: flex
+  flex: 1
+  flex-direction: column
   justify-content: center
 
 .menu-category-title
@@ -530,40 +538,46 @@ table
 
 .subcategory
   break-inside: avoid-column
+  color: var(--color-grey-medium)
   display: flex
-  filter: grayscale(0.21)
+  filter: grayscale(0.5)
   font-family: "Tiny5", monospace
   h2
     font-size: var(--font-l)
   img
     border-radius: 0 24px 0 24px 
+    cursor: pointer
   span, h1
     display: flex
     align-items: center
   &:hover
-    animation: blinker 1s linear infinite
     cursor: pointer
     filter: grayscale(0)
     opacity: 1.0
-    transition: filter 1.21s ease-in-out
+    transition: 0.4s ease-in-out
+    img
+      animation: blinker 0.5s linear infinite
+    h2
+      color: var(--color-white)
+    p
+      color: var(--color-grey-light)
 
 .subcategory-container
-  padding: 36px 0
+  padding: 12px 0
 
 .subcategory-banner
   img
     margin: 12px 0 18px
 
 .subcategory-title
-  font-family: "Redacted Script", cursive
   font-family: "Russo One", sans-serif
   font-family: "Courier Prime", monospace
+  font-family: "Yellowtail", monospace
   h2
-    font-size: var(--font-xl)
+    font-size: var(--font-l)
 
 .subcategory-excerpt
   p
-    color: var(--color-white)
     line-height: 1.4rem
     margin: 12px 0
 

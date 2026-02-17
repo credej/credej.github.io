@@ -36,12 +36,13 @@
       font-size: var(--font-xl)
       padding: 0 0 12px 0
   .effect-game-over
-    animation-name: glitch 
-    animation-duration: 0.8s 
-    animation-iteration-count: infinite 
-    cursor: pointer !important
-    p 
-      color: var(--color-green) !important
+    &:active
+      animation-name: glitch 
+      animation-duration: 0.8s 
+      animation-iteration-count: infinite 
+      cursor: pointer !important
+      p 
+        color: var(--color-green) !important
 
     @keyframes glitch
       0% 

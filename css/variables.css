@@ -107,6 +107,14 @@
   border-image: linear-gradient(to bottom, #ececec 0%, #757575 100%) 1;
 }
 
+.grey, .grey a, .grey i {
+  color: #7A7A7A !important;
+}
+
+.border-grey {
+  border-image: linear-gradient(to bottom, #C8C8C8 0%, #7A7A7A 100%) 1;
+}
+
 .black, .black a, .black i {
   color: #000 !important;
 }
@@ -153,6 +161,10 @@
   }
 }
 /* GAME OVER EFFECT */
+.effect-game-over {
+  color: var(--color-green);
+}
+
 .effect-game-over:hover {
   animation-name: glitch;
   animation-duration: 0.8s;
@@ -160,7 +172,7 @@
   cursor: pointer !important;
 }
 .effect-game-over:hover h1 {
-  color: var(--color-green) !important;
+  color: var(--color-green);
 }
 
 @keyframes glitch {

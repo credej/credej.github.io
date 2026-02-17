@@ -47,13 +47,13 @@
     font-size: var(--font-xl);
     padding: 0 0 12px 0;
   }
-  .effect-game-over {
+  .effect-game-over:active {
     animation-name: glitch;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
     cursor: pointer !important;
   }
-  .effect-game-over p {
+  .effect-game-over:active p {
     color: var(--color-green) !important;
   }
   @keyframes glitch {

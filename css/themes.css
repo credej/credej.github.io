@@ -2,13 +2,20 @@
   color: var(--color-grey-dark);
 }
 
-.navbar-home,
+.intro-text,
 .project-title {
   color: var(--color-grey-dark);
 }
 
-body.dark-mode .navbar-home,
+.category-subtitle p {
+  color: var(--color-grey-light);
+}
+
+body.dark-mode .intro-text,
 body.dark-mode .project-title {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .category-subtitle p {
   color: var(--color-grey-light);
 }
 
