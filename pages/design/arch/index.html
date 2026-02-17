@@ -4,18 +4,20 @@
       <title>Architecture</title>
       <meta name=description content="architecture">
       <link rel=stylesheet type=text/css href="../../../css/style.css">
+      <link rel=stylesheet type=text/css href="../../../css/arch.css">
       <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="/components/headlinks-min.js" type="text/javascript" defer></script>
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
+      <script src="/components/themes.js" type="text/javascript" defer></script>
       <style>    
-      /*.container
-        display: grid-lanes
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
-        gap: 16px
-      */
-   </style>
+         /*.container
+           display: grid-lanes
+           grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+           gap: 16px
+         */
+      </style>
    </head>
    <body>
          
@@ -24,15 +26,13 @@
       <div class="site">
          <main id="site-main" class="site-main">
 
-               <div class="project-header">
-                  <div class="project-title neon">
-                     <i class="iconoir-angle-tool"></i>
-                     <h1>architecture</h1>
-                  </div>
+               <div class="project-title">
+                  <i class="iconoir-angle-tool"></i>
+                  <h1>architecture</h1>
                </div>
 
-               <div class="page-header">
-                  <div class="project-header-image h-full">
+               <div class="page-header lg:columns-2 columns-1">
+                  <div class="project-header-image">
                      <img class="kg-image" src="img/arch-banner.jpg" alt=Bookmarks>
                   </div>
 
@@ -58,7 +58,7 @@
                  <figure><img src="img/arch-desk.jpg"></figure>
                </main>
                -->
-
+            <div class="page-section">
                <figure class="kg-card kg-gallery-card kg-width-wide">
                   <div class="kg-gallery-container dw">
                      <div class="kg-gallery-image dw-panel dw-cluster dw-cluster--vertical">
@@ -76,11 +76,11 @@
                            <img class=dw-panel__content src="img/arch-subway-2.jpg" alt="">
                         </a>
                      </div>
-<!--                      <div class="kg-gallery-image dw-panel dw-cluster dw-cluster--vertical">
+                     <div class="kg-gallery-image dw-panel dw-cluster dw-cluster--vertical">
                         <a href="img/arch-subway-3.jpg" target=_blank>
                            <img class=dw-panel__content src="img/arch-subway-3.jpg" alt="">
                         </a>
-                     </div> -->
+                     </div>
                      <div class="kg-gallery-image dw-panel dw-cluster dw-cluster--vertical">
                         <a href="img/arch-katrina.jpg" target=_blank>
                            <img class=dw-panel__content src="img/arch-katrina.jpg" alt="">
@@ -144,8 +144,7 @@
                      </div>-->
                   </div>
                </figure>
-
-            </article>
+            </div>
          </main>
          <footer class=site-foot>
             <a href="../contact/index.html">Contact</a>

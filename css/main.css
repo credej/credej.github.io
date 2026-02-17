@@ -642,7 +642,6 @@ table {
   display: flex;
   filter: grayscale(0.21);
   font-family: "Tiny5", monospace;
-  opacity: 0.65;
 }
 .subcategory h2 {
   font-size: var(--font-l);
@@ -660,9 +659,6 @@ table {
   filter: grayscale(0);
   opacity: 1;
   transition: filter 1.21s ease-in-out;
-}
-.subcategory:hover .subcategory-excerpt p {
-  color: var(--color-white);
 }
 
 .subcategory-container {
@@ -683,7 +679,7 @@ table {
 }
 
 .subcategory-excerpt p {
-  color: var(--color-grey-light);
+  color: var(--color-white);
   line-height: 1.4rem;
   margin: 12px 0;
 }

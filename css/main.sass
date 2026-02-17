@@ -533,7 +533,6 @@ table
   display: flex
   filter: grayscale(0.21)
   font-family: "Tiny5", monospace
-  opacity: 0.65
   h2
     font-size: var(--font-l)
   img
@@ -544,12 +543,9 @@ table
   &:hover
     animation: blinker 1s linear infinite
     cursor: pointer
-    filter: grayscale(0) 
+    filter: grayscale(0)
     opacity: 1.0
     transition: filter 1.21s ease-in-out
-    .subcategory-excerpt
-      p
-        color: var(--color-white)
 
 .subcategory-container
   padding: 36px 0
@@ -567,7 +563,7 @@ table
 
 .subcategory-excerpt
   p
-    color: var(--color-grey-light)
+    color: var(--color-white)
     line-height: 1.4rem
     margin: 12px 0
 
