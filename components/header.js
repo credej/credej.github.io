@@ -38,89 +38,93 @@ class Header extends HTMLElement {
          </div>
          
          <div id="menu-expanded" class="hidden fade-in">
+            <div class="menu-expanded">
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-laptop-dev-mode blue"></i>
+                        <h2>Software UI/UX</h2>
+                     </div>
+                     <div class="menu-list">
+                        <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
+                        <a href="/pages/software/scrolld/index.html" target=_self>Red Team Operation Management</a>
+                        <a href="/pages/software/scc/index.html" target=_self>Online Collectibles Store</a>
+                        <a href="/pages/software/senitron/index.html" target=_self>Inventory Tracking</a>
+                        <a href="/pages/software/dtek/index.html" target=_self>Counterfeit Detection</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-edit-pencil green"></i>
+                        <h2>Design</em></h2>
+                     </div>
+                     <div class="menu-list">
+                        <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
+                        <a href="/pages/design/web/index.html" target=_self>Graphic & Web</a>
+                        <a href="/pages/design/sketch/index.html" target=_self>Sketching</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-cpu red"></i>
+                        <h2>Gadgets</h2>
+                     </div>
+                     <div class="menu-list">
+                        <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-         <div class="menu-expanded">
-            <div class="menu-category-container">
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-cpu"></i>
-                     <h2>Software UI/UX</h2>
-                  </div>
-                  <div class="menu-list">
-                     <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
-                     <a href="/pages/software/scrolld/index.html" target=_self>Red Team Operation Management</a>
-                     <a href="/pages/software/scc/index.html" target=_self>Online Collectibles Store</a>
-                     <a href="/pages/software/senitron/index.html" target=_self>Inventory Tracking</a>
-                     <a href="/pages/software/dtek/index.html" target=_self>Counterfeit Detection</a>
-                  </div>
-               </div>
-            </div>
-            <div class="menu-category-container">
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-terminal-tag"></i>
-                     <h2>Design</em></h2>
-                  </div>
-                  <div class="menu-list">
-                     <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
-                     <a href="/pages/design/web/index.html" target=_self>Graphic & Web</a>
-                     <a href="/pages/design/sketch/index.html" target=_self>Sketching</a>
+            <div class="menu-expanded">
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-tools orange"></i>
+                        <h2>DIY <em>(Coming soon!)</em></h2>
+                     </div>
+                     <div class="menu-list">
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
+                        <a href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
+                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="menu-category-container">
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-cpu"></i>
-                     <h2>Gadgets</h2>
-                  </div>
-                  <div class="menu-list">
-                     <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-         <div class="menu-expanded">
-            <div class="menu-category-container">
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-terminal-tag"></i>
-                     <h2>DIY <em>(Coming soon!)</em></h2>
-                  </div>
-                  <div class="menu-list">
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
-                     <a href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
-                     <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-telegram yellow"></i>
+                        <h2>Travel <em>(Coming soon!)</em></h2>
+                     </div>
+                     <div class=menu-list>
+                        <a href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
+                        <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
+                        <a href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
+                        <a href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
+                        <a href="/pages/otherstuff/test/index.html" target=_self>New York, NY</a>
+                     </div>
                   </div>
                </div>
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-telegram"></i>
-                     <h2>Travel <em>(Coming soon!)</em></h2>
-                  </div>
-                  <div class=menu-list>
-                     <a href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
-                     <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
-                     <a href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
-                     <a href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
-                     <a href="/pages/otherstuff/test/index.html" target=_self>New York, NY</a>
-                  </div>
-               </div>
-               <div class="menu-category">
-                  <div class="menu-category-title">
-                     <i class="iconoir-asterisk"></i>
-                     <h2>Other Stuff</h2>
-                  </div>
-                  <div class="menu-list">
-                    <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
-                    <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
-                    <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a><!-- 
-                    <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a> -->
+               <div class="menu-category-container">
+                  <div class="menu-category">
+                     <div class="menu-category-title">
+                        <i class="iconoir-bookmark-book purple"></i>
+                        <h2>Other Stuff</h2>
+                     </div>
+                     <div class="menu-list">
+                       <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
+                       <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
+                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a><!-- 
+                       <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a> -->
+                     </div>
                   </div>
                </div>
             </div>

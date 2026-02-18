@@ -1,4 +1,4 @@
-.menu-icon i {
+.m-icon i {
   color: var(--color-grey-dark);
 }
 
@@ -19,13 +19,13 @@ body.dark-mode .category-subtitle p {
   color: var(--color-grey-light);
 }
 
-body.dark-mode .menu-icon i {
+body.dark-mode .m-icon i {
   color: var(--color-grey-light);
 }
-body.dark-mode .menu-icon i:hover {
+body.dark-mode .m-icon i:hover {
   color: var(--color-white);
 }
-body.dark-mode .menu-icon i:active {
+body.dark-mode .m-icon i:active {
   color: var(--color-grey-light);
 }
 

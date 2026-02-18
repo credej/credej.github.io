@@ -427,7 +427,8 @@ table {
 
 .menu-expanded {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between !important;
   overflow-y: auto;
   overflow-y: scroll;
   scrollbar-width: none;
@@ -437,8 +438,10 @@ table {
 
 .menu-category-container {
   display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
 }
 
 .menu-category {
@@ -451,6 +454,7 @@ table {
 .menu-category-title {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   color: var(--color-white);
 }
 .menu-category-title i {
