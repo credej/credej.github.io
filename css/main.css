@@ -433,7 +433,7 @@ table {
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding: 40px 0;
+  padding: 72px 0 0;
 }
 
 .menu-category-container {
@@ -475,7 +475,6 @@ table {
   padding: 8px 0;
 }
 .menu-list a {
-  color: var(--color-blue);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
   line-height: 1.4rem;
@@ -483,7 +482,7 @@ table {
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
-  color: var(--color-blue);
+  color: var(--color-white);
 }
 
 #navbar {
