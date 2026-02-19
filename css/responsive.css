@@ -126,14 +126,19 @@
   .intro-text a {
     font-size: var(--font-m) !important;
   }
-  .menu-category-title {
-    justify-content: center;
+  .menu-category-container {
+    padding: 4px 0;
+    text-align: left;
   }
-  .menu-closed {
-    justify-content: space-between;
+  .menu-category-title {
+    justify-content: flex-start;
   }
   .menu-expanded {
-    text-align: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .menu-list a {
+    padding: 4px 0;
   }
   .project-desc p {
     font-size: var(--font-s);
@@ -197,10 +202,6 @@
   .img-gallery-full img {
     margin: 48px 0 0;
   }
-  .m-expanded {
-    flex-direction: column;
-    text-align: center;
-  }
   .project-section {
     padding: 48px 32px;
   }
@@ -247,11 +248,6 @@
   .category-links .category-links-slash {
     display: none;
   }
-  .m-expanded {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
   .page-header {
     display: flex;
   }
@@ -259,12 +255,6 @@
 @media screen and (min-width: 1080px) and (max-width: 1439px) {
   .category-section-title h1 {
     font-size: var(--font-xl);
-  }
-  .m-category-title {
-    justify-content: flex-start;
-  }
-  .m-expanded {
-    flex-direction: row;
   }
   .page-header {
     display: flex;
@@ -288,18 +278,6 @@
   .m-category-title {
     justify-content: flex-start;
   }
-  .m-list {
-    text-align: left;
-  }
-  .m-expanded {
-    justify-content: space-between;
-  }
-  .m-expanded {
-    flex-direction: row;
-  }
-  .m-category-title h2 {
-    text-align: left;
-  }
   .page-header {
     display: flex;
   }
@@ -308,12 +286,6 @@
   #footer,
   .site-main {
     width: 100%;
-  }
-  .m-category-title {
-    justify-content: flex-start;
-  }
-  .m-expanded {
-    justify-content: space-around;
   }
   .intro {
     text-align: justify;
