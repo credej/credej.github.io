@@ -482,7 +482,8 @@ table {
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
-  color: var(--color-white);
+  font-style: italic;
+  font-weight: bold;
 }
 
 #navbar {
