@@ -46,15 +46,6 @@ body.dark-mode .m-icon i:active {
 }
 
 /* LIGHT MODE STYLING */
-.stat {
-  background-color: var(--color-blue-dodger);
-  border: 1px dotted var(--color-blue-light);
-  box-shadow: var(--box-shadow-1);
-}
-.stat h2 {
-  border-bottom: 1px solid var(--color-blue-light);
-}
-
 body {
   background-color: var(--color-blue-dodger);
 }
@@ -115,6 +106,9 @@ body.dark-mode #dark-mode-toggle .cs-sun {
 body.dark-mode #dark-mode-toggle .cs-moon {
   transform: translate(-50%, -150%);
   opacity: 0;
+}
+body.dark-mode .footer-text p {
+  color: var(--color-white);
 }
 body.dark-mode .stat {
   background-color: var(--color-grey-dark);

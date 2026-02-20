@@ -29,13 +29,6 @@ p
   font-family: "Courier Prime", monospace
   font-family: "Cutive Mono", monospace
 
-.numbers
-  font-family: "Anton", sans-serif
-  font-family: "Boldonse", system-ui
-  font-family: "Russo One", sans-serif
-  font-family: "Tektur", sans-serif
-  font-family: "Geostar Fill", serif  
-
 img
   max-width: 100%
 
@@ -620,56 +613,64 @@ table
 .stat 
   flex: 1
   background-color: #1f262c
+  border-radius: 6px
+  box-shadow: var(--box-shadow-1)
+  color: #fff
   margin: 15px 8px
   padding: 30px
-  border-radius: 6px
-  color: #fff
+  .numbers
+    font-family: "Anton", sans-serif
+    font-family: "Boldonse", system-ui
+    font-family: "Russo One", sans-serif
+    font-family: "Tektur", sans-serif
+    font-family: "Geostar Fill", serif  
+    span 
+      color: var(--color-grey-medium)
+      font-size: var(--font-s)
+  a 
+    text-decoration: none
+    color: #fff
+    padding: 10px 20px
+    text-align: center
+    background: #000
+    border: 2px solid #000
+    border-radius: 5px
+    letter-spacing: 0.05em
+    text-transform: uppercase
+    font-size: 15px
+    font-weight: bolda
+    &:hover 
+      background-color: var(--color-green)
+  h2 
+    margin-top: 0
+    border-bottom: 2px solid #000
+    text-transform: uppercase
+    letter-spacing: 0.07em
+    font-size: var(--font-xxxl)
+  p
+    font-family: "Doto", serif 
+    margin: 12px 0 36px
+  ul 
+    margin: 0 0 35px
+    padding-left: 16px
+    list-style: none
+    line-height: 1.8
+    color: #b5b5b5
+    font-family: "Reddit Mono", monospace 
+  li::before 
+    content: "•"
+    color: #000
+    display: inline-block
+    width: 20px
+    margin-left: -15px
+    position: relative
+    top: 4px
+    font-size: 26px
+    line-height: 0
 
-.stat h2 
-  margin-top: 0
-  border-bottom: 2px solid #000
-  text-transform: uppercase
-  letter-spacing: 0.07em
-  font-size: var(--font-xxxl)
 
-.stat p
-  font-family: "Doto", serif 
-  margin: 12px 0 36px
 
-.stat ul 
-  margin: 0 0 35px
-  padding-left: 16px
-  list-style: none
-  line-height: 1.8
-  color: #b5b5b5
-  font-family: "Reddit Mono", monospace 
 
-.stat ul li::before 
-  content: "•"
-  color: #000
-  display: inline-block
-  width: 20px
-  margin-left: -15px
-  position: relative
-  top: 4px
-  font-size: 26px
-  line-height: 0
-
-.stat a 
-  text-decoration: none
-  color: #fff
-  padding: 10px 20px
-  text-align: center
-  background: #000
-  border: 2px solid #000
-  border-radius: 5px
-  letter-spacing: 0.05em
-  text-transform: uppercase
-  font-size: 15px
-  font-weight: bold
-
-.stat a:hover 
-  background-color: #1f262c
 
 @media (max-width: 768px) 
   .stats-container 

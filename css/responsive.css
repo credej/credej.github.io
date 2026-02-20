@@ -126,16 +126,22 @@
   .intro-text a {
     font-size: var(--font-m) !important;
   }
-  .menu-category-container {
-    padding: 4px 0;
-    text-align: left;
-  }
-  .menu-category-title {
-    justify-content: flex-start;
+  body {
+    overflow: hidden !important;
   }
   .menu-expanded {
     flex-direction: column;
     padding: 0;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .menu-category-container {
+    padding: 12px 0;
+    position: static;
+  }
+  .menu-category-title {
+    justify-content: center;
   }
   .menu-list a {
     padding: 4px 0;
