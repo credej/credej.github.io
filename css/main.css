@@ -765,6 +765,7 @@ table {
 }
 .stat a:hover {
   background-color: var(--color-green);
+  color: var(--color-black);
 }
 .stat h2 {
   margin-top: 0;

@@ -1,5 +1,9 @@
-.m-icon i {
-  color: var(--color-grey-dark);
+.bio-bullets ul {
+  color: var(--color-grey-light);
+}
+
+.category-subtitle p {
+  color: var(--color-grey-light);
 }
 
 .intro-text,
@@ -7,13 +11,28 @@
   color: var(--color-grey-dark);
 }
 
-.category-subtitle p {
-  color: var(--color-grey-light);
-}
-
 .menu-list a {
   color: var(--color-black);
   text-shadow: var(--text-shadow-1);
+}
+
+.blue span {
+  text-shadow: var(--box-shadow-1) !important;
+}
+
+.intro-text a {
+  font-weight: 500;
+  text-shadow: var(--text-shadow-3);
+}
+
+.subcategory-title,
+.subcategory-excerpt {
+  color: var(--color-grey-light);
+}
+
+.category-links,
+.category-subtitle {
+  text-shadow: var(--text-shadow-3);
 }
 
 body.dark-mode .intro-text,
@@ -29,16 +48,6 @@ body.dark-mode .menu-category-title {
 body.dark-mode .menu-list a {
   color: var(--color-grey-light);
   text-shadow: var(--text-shadow-1);
-}
-
-body.dark-mode .m-icon i {
-  color: var(--color-grey-light);
-}
-body.dark-mode .m-icon i:hover {
-  color: var(--color-white);
-}
-body.dark-mode .m-icon i:active {
-  color: var(--color-grey-light);
 }
 
 #dark-mode-toggle {
@@ -106,6 +115,9 @@ body.dark-mode #dark-mode-toggle .cs-sun {
 body.dark-mode #dark-mode-toggle .cs-moon {
   transform: translate(-50%, -150%);
   opacity: 0;
+}
+body.dark-mode .bio-bullets ul {
+  color: var(--color-grey-medium);
 }
 body.dark-mode .footer-text p {
   color: var(--color-white);

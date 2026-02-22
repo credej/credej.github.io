@@ -1,19 +1,28 @@
-.m-icon
-  i
-    color: var(--color-grey-dark)
-
-.intro-text,
-.project-title
-  color: var(--color-grey-dark) 
-
+.bio-bullets ul
+  color: var(--color-grey-light)
 .category-subtitle
   p
     color: var(--color-grey-light)
+.intro-text,
+.project-title
+  color: var(--color-grey-dark) 
 .menu-list
   a
     color: var(--color-black) 
     text-shadow: var(--text-shadow-1)
+.blue
+  span
+    text-shadow: var(--box-shadow-1) !important
+.intro-text a
+  font-weight: 500
+  text-shadow: var(--text-shadow-3)
+.subcategory-title,
+.subcategory-excerpt
+  color: var(--color-grey-light)
 
+.category-links,
+.category-subtitle
+  text-shadow: var(--text-shadow-3)
 
 body.dark-mode
   .intro-text,
@@ -30,15 +39,6 @@ body.dark-mode
       text-shadow: var(--text-shadow-1)
 
 
-
-body.dark-mode
-  .m-icon
-    i
-      color: var(--color-grey-light)
-      &:hover
-        color: var(--color-white)
-      &:active
-        color: var(--color-grey-light)
 
 
 
@@ -94,6 +94,8 @@ body.dark-mode
     .cs-moon
       transform: translate(-50%, -150%)
       opacity: 0
+  .bio-bullets ul
+    color: var(--color-grey-medium)
   .footer-text
     p
       color: var(--color-white)
