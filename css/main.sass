@@ -537,8 +537,10 @@ table
   break-inside: avoid-column
   color: var(--color-grey-medium)
   display: flex
-  filter: grayscale(0.5)
+  filter: grayscale(0.99)
   font-family: "Tiny5", monospace
+  opacity: 0.6
+  transition: 1.2s ease-in-out
   h2
     font-size: var(--font-l)
   img
@@ -551,11 +553,10 @@ table
     cursor: pointer
     filter: grayscale(0)
     opacity: 1.0
-    transition: 0.4s ease-in-out
-    img
-      animation: blinker 0.5s linear infinite
+    transition: 1.2s ease-in-out
     h2
       color: var(--color-white)
+      transition: 1.2s ease-in-out
     p
       color: var(--color-grey-light)
 
