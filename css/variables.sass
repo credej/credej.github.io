@@ -71,15 +71,15 @@
 .border-orange
   border-image: linear-gradient(to bottom, #ea673e 0%, #342008 100%) 1
 
-.purple, .purple a, .purple i
-  color: #8566ff !important
-.border-purple
-  border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1
-
 .yellow, .yellow a, .yellow i
   color: #facc15 !important
 .border-yellow
   border-image: linear-gradient(to bottom, #facc15 0%, #3B320E 100%) 1
+
+.purple, .purple a, .purple i
+  color: #8566ff !important
+.border-purple
+  border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1
 
 .white, .white a, .white i
   color: #ececec !important
@@ -97,6 +97,24 @@
   border-image: linear-gradient(to right, #000 0%, #757575 100%) 1
 
 
+.hover-blue
+  h2
+    color: var(--color-blue)
+.hover-green
+  h2
+    color: var(--color-green)
+.hover-red
+  h2
+    color: var(--color-red)
+.hover-orange
+  h2
+    color: var(--color-orange)
+.hover-yellow
+  h2
+    color: var(--color-yellow)
+.hover-purple
+  h2
+    color: var(--color-purple)
 
 
 
@@ -169,3 +187,51 @@
   100% 
     color: #fff 
     text-shadow: none 
+
+.bg-rainbow
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3)
+  background-size: 1800% 1800%
+  -webkit-animation: rainbow 18s ease infinite
+  -z-animation: rainbow 18s ease infinite
+  -o-animation: rainbow 18s ease infinite
+  animation: rainbow 18s ease infinite
+
+@-webkit-keyframes rainbow
+  0%
+    background-position: 0% 82%
+
+  50%
+    background-position: 100% 19%
+
+  100%
+    background-position: 0% 82%
+
+@-moz-keyframes rainbow
+  0%
+    background-position: 0% 82%
+
+  50%
+    background-position: 100% 19%
+
+  100%
+    background-position: 0% 82%
+
+@-o-keyframes rainbow
+  0%
+    background-position: 0% 82%
+
+  50%
+    background-position: 100% 19%
+
+  100%
+    background-position: 0% 82%
+
+@keyframes rainbow
+  0%
+    background-position: 0% 82%
+
+  50%
+    background-position: 100% 19%
+
+  100%
+    background-position: 0% 82%

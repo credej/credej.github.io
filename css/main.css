@@ -668,11 +668,16 @@ table {
   transition: 1.2s ease-in-out;
 }
 .subcategory:hover h2 {
-  color: var(--color-white);
   transition: 1.2s ease-in-out;
 }
 .subcategory:hover p {
   color: var(--color-grey-light);
+}
+.subcategory .hover-blue h2 {
+  color: var(--color-blue);
+}
+.subcategory .hover-green h2 {
+  color: var(--color-green);
 }
 
 .subcategory-container {
