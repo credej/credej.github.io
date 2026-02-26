@@ -345,6 +345,10 @@ table {
   padding: 0 24px;
 }
 
+.gallery-img {
+  margin: 16px 0;
+}
+
 .img-gallery-small img {
   padding: 24px 0;
 }
@@ -509,10 +513,6 @@ table {
 .page-title {
   display: flex;
   flex-direction: row;
-}
-
-.page-header {
-  padding: 8px 0;
 }
 
 .page-header-excerpt {
