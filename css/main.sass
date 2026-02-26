@@ -16,6 +16,9 @@ html, body
   overflow-x: hidden
   scroll-behavior: smooth
 
+a
+  cursor: pointer
+
 p  
   font-size: var(--font-m)
   font-family: "Redacted Script", cursive
@@ -87,7 +90,7 @@ table
   margin: 12px 0 72px
   a
     border: 3px solid var(--color-green)
-    border-radius: 8px 0 0 0
+    border-radius: 8px 0 8px 0
     color: var(--color-green)
     font-size: var(--font-l)
     padding: 12px
@@ -124,8 +127,6 @@ table
   flex-shrink: 1
   flex-basis: 0%
   padding: 12px 72px 12px 0 
-  a
-    color: var(--color-blue-light) 
   a:hover
     color: #fff
     animation: blinker 1s linear infinite
@@ -153,6 +154,11 @@ table
 
 .category-container
   padding: 24px 0
+
+.category-footer
+  .category-section
+    padding: 30px 0 0
+    text-align: center
 
 .category-links
   color: var(--color-border)
@@ -417,11 +423,13 @@ table
   display: flex 
   flex-direction: row
 
+.page-header
+  padding: 8px 0
+
 .page-header-excerpt
-  background-color: var(--color-grey-light)
   border-radius: 0 0 24px 0
   display: flex
-  padding: 24px
+  padding: 36px
   text-indent: 24px
   p
     font-family: "Yellowtail", monospace
@@ -465,7 +473,7 @@ table
 .project-links
   display: flex
   flex-direction: column
-  padding: 36px
+  padding: 48px
   a
     color: var(--color-blue)
     margin: 6px 0
@@ -521,7 +529,7 @@ table
     font-size: var(--font-xl)
   i
     font-size: var(--font-xl)
-    margin: 0 18px 0 0
+    margin: 0 24px 0 0
 
 .section-header
   font-family: "Courier Prime", monospace
@@ -558,13 +566,6 @@ table
       transition: 1.2s ease-in-out
     p
       color: var(--color-grey-light)
-  .hover-blue
-    h2
-      color: var(--color-blue)
-  .hover-green
-    h2
-      color: var(--color-green)
-
 .subcategory-container
   padding: 12px 0
 

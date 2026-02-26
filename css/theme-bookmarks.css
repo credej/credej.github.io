@@ -1,14 +1,27 @@
 /* BOOKMARKS - LIGHT */
 body {
   background-color: var(--color-purple-light);
-  color: blue;
+}
+body .bookmark a {
+  color: var(--color-blue-light);
+}
+body .page-header-excerpt p {
+  color: var(--color-white);
+}
+body .section-header h5 {
+  color: var(--color-white);
 }
 
 /* BOOKMARKS - DARK */
-body.dark-mode {
-  background-color: var(--color-purple-light);
-  color: white;
+body.dark-mode .bookmark a {
+  color: var(--color-blue-light);
 }
-
-/*.page-title
- * color: red !important*/
+body.dark-mode .bookmark-section h2 {
+  color: var(--color-green);
+}
+body.dark-mode .page-header-excerpt p {
+  color: var(--color-grey-light);
+}
+body.dark-mode .section-header h5 {
+  color: var(--color-white);
+}

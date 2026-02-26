@@ -11,7 +11,7 @@ body {
 /* CYBERGRAD - DARK */
 body.dark-mode {
   background-color: var(--color-cyber-bg) !important;
-  color: white;
+  color: var(--color-white);
 }
 
 /*.page-title

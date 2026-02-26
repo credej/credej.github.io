@@ -22,6 +22,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+a {
+  cursor: pointer;
+}
+
 p {
   font-size: var(--font-m);
   font-family: "Redacted Script", cursive;
@@ -107,7 +111,7 @@ table {
 }
 .bookmark-glossary a {
   border: 3px solid var(--color-green);
-  border-radius: 8px 0 0 0;
+  border-radius: 8px 0 8px 0;
   color: var(--color-green);
   font-size: var(--font-l);
   padding: 12px;
@@ -151,9 +155,6 @@ table {
   flex-basis: 0%;
   padding: 12px 72px 12px 0;
 }
-.bookmark a {
-  color: var(--color-blue-light);
-}
 .bookmark a:hover {
   color: #fff;
   animation: blinker 1s linear infinite;
@@ -185,6 +186,11 @@ table {
 
 .category-container {
   padding: 24px 0;
+}
+
+.category-footer .category-section {
+  padding: 30px 0 0;
+  text-align: center;
 }
 
 .category-links {
@@ -501,11 +507,14 @@ table {
   flex-direction: row;
 }
 
+.page-header {
+  padding: 8px 0;
+}
+
 .page-header-excerpt {
-  background-color: var(--color-grey-light);
   border-radius: 0 0 24px 0;
   display: flex;
-  padding: 24px;
+  padding: 36px;
   text-indent: 24px;
 }
 .page-header-excerpt p {
@@ -556,7 +565,7 @@ table {
 .project-links {
   display: flex;
   flex-direction: column;
-  padding: 36px;
+  padding: 48px;
 }
 .project-links a {
   color: var(--color-blue);
@@ -625,7 +634,7 @@ table {
 }
 .project-title i {
   font-size: var(--font-xl);
-  margin: 0 18px 0 0;
+  margin: 0 24px 0 0;
 }
 
 .section-header {
@@ -672,12 +681,6 @@ table {
 }
 .subcategory:hover p {
   color: var(--color-grey-light);
-}
-.subcategory .hover-blue h2 {
-  color: var(--color-blue);
-}
-.subcategory .hover-green h2 {
-  color: var(--color-green);
 }
 
 .subcategory-container {
