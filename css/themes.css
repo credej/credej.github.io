@@ -89,7 +89,7 @@ body .bg-glass-white {
 
 /* DARK MODE STYLING */
 body.dark-mode {
-  background-color: var(--color-blue-storm) !important;
+  background-color: var(--color-blue-storm);
 }
 body.dark-mode .bg-glass-blue {
   background: rgba(0, 225, 237, 0.045);
