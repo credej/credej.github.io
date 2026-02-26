@@ -21,7 +21,7 @@
 }
 
 #navbar {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .project-title h1 {
@@ -38,6 +38,9 @@
   text-shadow: var(--text-shadow-3);
 }
 
+body.dark-mode #navbar {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
 body.dark-mode .intro-text,
 body.dark-mode .project-title {
   color: var(--color-grey-medium);
@@ -62,6 +65,7 @@ body {
   background-color: var(--color-blue-dodger);
 }
 body .bg-glass-blue {
+  background-color: hsl(from var(--color-red) h s 90%);
   background: rgba(0, 225, 237, 0.147);
 }
 body .bg-glass-green {

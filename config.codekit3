@@ -154,31 +154,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/css\/arch.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/arch-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/arch.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/arch.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
     "\/css\/clock.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -373,6 +348,31 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/style.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/css\/theme-arch.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-arch-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/theme-arch.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-arch.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
