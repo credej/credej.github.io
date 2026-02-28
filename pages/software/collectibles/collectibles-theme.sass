@@ -6,6 +6,8 @@ body
     text-shadow: 2px 2px 8px rgba(0,0,0,0.21)
   .bg-glass-blue
     background: rgba(0, 225, 237, 0.647)
+  .project-title
+    animation: none
   .project-subtitle
     text-shadow: none
   .project-section 
@@ -13,8 +15,7 @@ body
       color: var(--color-grey-dark)
   .project-desc,
   .project-title h1,
-  .project-subtitle
-    color: var(--color-grey-medium)
+  .project-subtitle,
   figcaption
     color: var(--color-grey-medium) 
 
@@ -22,7 +23,9 @@ body
 body.dark-mode 
   background-color: var(--color-black)
   color: white
-  .project-title h1
-    color: var(--color-white)
+  .project-title 
+    animation: pulsate 0.11s ease-in-out infinite alternate
+    h1
+      color: var(--color-white)
   figcaption
     color: var(--color-grey-medium)

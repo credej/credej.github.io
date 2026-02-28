@@ -5,9 +5,6 @@ body {
 body .project-desc p {
   color: var(--color-blue-light);
 }
-body .project-subtitle {
-  color: var(--color-grey-dark);
-}
 body .project-list a {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
@@ -17,15 +14,9 @@ body.dark-mode {
   background-color: #09111C !important;
   color: white;
 }
-
-body.dark-mode .bg-glass-blue {
-  background: red !important;
-}
-
 body.dark-mode .quote-text {
   color: var(--color-blue-light);
 }
-
 body.dark-mode .page-header-excerpt {
   background: #170509 !important !important;
 }

@@ -9,6 +9,9 @@ body .project-list a {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
+body .project-title {
+  animation: none;
+}
 body .project-subtitle {
   text-shadow: none;
 }
@@ -17,9 +20,7 @@ body .project-section p {
 }
 body .project-desc,
 body .project-title h1,
-body .project-subtitle {
-  color: var(--color-grey-medium);
-}
+body .project-subtitle,
 body figcaption {
   color: var(--color-grey-medium);
 }
@@ -28,6 +29,9 @@ body figcaption {
 body.dark-mode {
   background-color: var(--color-black);
   color: white;
+}
+body.dark-mode .project-title {
+  animation: pulsate 0.11s ease-in-out infinite alternate;
 }
 body.dark-mode .project-title h1 {
   color: var(--color-white);
