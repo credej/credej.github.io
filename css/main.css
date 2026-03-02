@@ -428,13 +428,10 @@ table {
 
 .menu-expanded {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between !important;
   overflow-y: auto;
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding: 72px 0 0;
 }
 
 .menu-category-container {
@@ -461,7 +458,6 @@ table {
   padding: 14px 0;
 }
 .menu-category-title i {
-  color: var(--color-yellow-pgh);
   font-size: var(--font-xl);
   padding: 0 14px 0 0;
 }

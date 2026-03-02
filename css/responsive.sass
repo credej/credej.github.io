@@ -99,18 +99,17 @@
 
 
 
-  body
-    overflow: hidden !important
-
-  .menu-expanded
-    flex-direction: column
-    padding: 0
-    scrollbar-width: none
-    overflow-x: hidden
+  #menu-expanded
+    height: 100vh
+    left: 0
+    position: fixed
     overflow-y: auto
+    width: 100vw
+  .menu-expanded
+    box-sizing: border-box
+    flex-direction: column
   .menu-category-container
     padding: 12px 0
-    position: static
   .menu-category-title
     justify-content: center
   .menu-list
@@ -214,7 +213,7 @@
   .page-header
     display: flex
   .site-main
-    padding: 0 144px
+    padding: 0 12.5vw
 
 @media screen and (min-width: 1440px) and (max-width: 1979px)
   .intro
