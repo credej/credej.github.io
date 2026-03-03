@@ -378,7 +378,8 @@ table
 
 #menu-expanded
   height: 100vh
-
+  -ms-overflow-style: none  /* IE and Edge */
+  scrollbar-width: none
 .menu-expanded
   display: flex
   overflow-y: auto
@@ -398,7 +399,7 @@ table
   display: flex
   flex: 1
   flex-direction: column
-  justify-content: center
+  justify-content: flex-start !important
 
 .menu-category-title
   color: var(--color-white)
@@ -428,7 +429,6 @@ table
     padding: 6px 0
     &:hover 
       animation: blinker 1s linear infinite
-      color: var(--color-green) !important
       font-weight: 900
 
 

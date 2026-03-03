@@ -170,6 +170,10 @@
   .section-header {
     text-align: center;
   }
+  .subcategory {
+    filter: grayscale(0);
+    opacity: 1 !important;
+  }
   .subcategories {
     text-align: center;
   }

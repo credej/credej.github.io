@@ -22,6 +22,8 @@
 
 #navbar {
   border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(187px);
+  -webkit-backdrop-filter: blur(187px);
 }
 
 .project-title h1 {
@@ -52,7 +54,7 @@ body.dark-mode .menu-category-title {
   color: var(--color-grey-medium);
 }
 body.dark-mode .menu-list a {
-  color: var(--color-grey-light);
+  color: var(--color-blue);
   text-shadow: var(--text-shadow-1);
 }
 

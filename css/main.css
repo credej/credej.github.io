@@ -449,6 +449,8 @@ table {
 
 #menu-expanded {
   height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .menu-expanded {
@@ -472,7 +474,7 @@ table {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start !important;
 }
 
 .menu-category-title {
@@ -508,7 +510,6 @@ table {
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
-  color: var(--color-green) !important;
   font-weight: 900;
 }
 
