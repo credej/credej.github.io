@@ -15,10 +15,6 @@
   color: var(--color-grey-dark);
 }
 
-.menu-expanded {
-  background-color: var(--color-blue-dodger);
-}
-
 .menu-list a {
   color: var(--color-black);
   text-shadow: var(--text-shadow-1);
@@ -54,9 +50,6 @@ body.dark-mode .category-subtitle p {
 }
 body.dark-mode .menu-category-title {
   color: var(--color-grey-medium);
-}
-body.dark-mode .menu-expanded {
-  background-color: var(--color-blue-storm);
 }
 body.dark-mode .menu-list a {
   color: var(--color-grey-light);

@@ -3,6 +3,7 @@ body {
   /*  box-shadow: inset 0 50px 30px rgba(0, 0, 0, 0.4) */
   display: flex;
   justify-content: center;
+  overflow: hidden !important;
 }
 body::-webkit-scrollbar {
   width: 12px;
@@ -66,6 +67,10 @@ table {
 
 /*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
  * scroll-padding-top: 68px*/
+.anchor {
+  scroll-margin-top: 28px;
+}
+
 .badges {
   margin: 96px 0;
 }
@@ -130,7 +135,6 @@ table {
   break-inside: avoid;
   display: flex;
   flex-direction: column;
-  padding: 0 0 3rem;
 }
 .bookmark-section h2 {
   color: var(--color-green);
@@ -288,7 +292,7 @@ table {
   transition: all 0.4s;
   visibility: hidden;
   width: 4rem;
-  z-index: 9999;
+  z-index: 8999;
 }
 .footer-back-to-top:hover {
   filter: invert(0.8);
@@ -422,6 +426,27 @@ table {
   color: white;
 }
 
+.navbar-home {
+  width: auto;
+}
+.navbar-home h1 {
+  cursor: pointer;
+  font-size: var(--font-xxl);
+  font-family: "Tiny5", monospace;
+}
+
+#navbar {
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  overflow: hidden;
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+  backdrop-filter: blur(187px);
+  -webkit-backdrop-filter: blur(187px);
+}
+
 #menu-expanded {
   height: 100vh;
 }
@@ -440,6 +465,7 @@ table {
   flex: 1;
   justify-content: center;
   text-align: center;
+  padding: 24px 0;
 }
 
 .menu-category {
@@ -455,7 +481,6 @@ table {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 14px 0;
 }
 .menu-category-title i {
   font-size: var(--font-xl);
@@ -485,24 +510,6 @@ table {
   animation: blinker 1s linear infinite;
   color: var(--color-green) !important;
   font-weight: 900;
-}
-
-#navbar {
-  backdrop-filter: blur(187px);
-  -webkit-backdrop-filter: blur(187px);
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
-
-.navbar-home {
-  width: auto;
-}
-.navbar-home h1 {
-  cursor: pointer;
-  font-size: var(--font-xxl);
-  font-family: "Tiny5", monospace;
 }
 
 .page-title {
@@ -647,7 +654,7 @@ table {
 }
 
 .site-main {
-  margin-top: 150px;
+  margin: 120px 0;
 }
 
 .subcategory {
