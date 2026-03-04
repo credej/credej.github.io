@@ -269,6 +269,10 @@ table {
   font-family: "Reddit Mono", monospace;
 }
 
+.effect-glitch {
+  color: var(--color-green);
+}
+
 .fade-in {
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -394,7 +398,7 @@ table {
 }
 
 .intro-text {
-  margin: 36px 0;
+  margin: 12px 0 50px;
   /*  transform: rotate(90deg)*/
 }
 .intro-text a:hover {
@@ -424,27 +428,6 @@ table {
 }
 .menu-icon i:hover {
   color: white;
-}
-
-.navbar-home {
-  width: auto;
-}
-.navbar-home h1 {
-  cursor: pointer;
-  font-size: var(--font-xxl);
-  font-family: "Tiny5", monospace;
-}
-
-#navbar {
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  overflow: hidden;
-  width: 100%;
-  max-height: 100vh;
-  position: fixed;
-  backdrop-filter: blur(187px);
-  -webkit-backdrop-filter: blur(187px);
 }
 
 #menu-expanded {
@@ -478,7 +461,6 @@ table {
 }
 
 .menu-category-title {
-  color: var(--color-white);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -489,7 +471,6 @@ table {
   padding: 0 14px 0 0;
 }
 .menu-category-title h2 {
-  color: var(--color-white);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-l);
   text-align: center;
@@ -511,6 +492,27 @@ table {
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
   font-weight: 900;
+}
+
+#navbar {
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  overflow: hidden;
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+  backdrop-filter: blur(187px);
+  -webkit-backdrop-filter: blur(187px);
+}
+
+.navbar-home {
+  width: auto;
+}
+.navbar-home h1 {
+  cursor: pointer;
+  font-size: var(--font-xxl);
+  font-family: "Tiny5", monospace;
 }
 
 .page-title {

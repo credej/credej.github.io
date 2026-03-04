@@ -15,9 +15,16 @@
   color: var(--color-grey-dark);
 }
 
+.menu-category-title h2 {
+  color: var(--color-grey-dark);
+}
+
 .menu-list a {
+  color: var(--color-grey-medium);
+  text-shadow: none;
+}
+.menu-list a:hover {
   color: var(--color-black);
-  text-shadow: var(--text-shadow-1);
 }
 
 #navbar {
@@ -50,12 +57,15 @@ body.dark-mode .project-title {
 body.dark-mode .category-subtitle p {
   color: var(--color-grey-light);
 }
-body.dark-mode .menu-category-title {
+body.dark-mode .menu-category-title h2 {
   color: var(--color-grey-medium);
 }
 body.dark-mode .menu-list a {
-  color: var(--color-blue);
+  color: var(--color-grey-light);
   text-shadow: var(--text-shadow-1);
+}
+body.dark-mode .menu-list a:hover {
+  color: #fff;
 }
 
 #dark-mode-toggle {

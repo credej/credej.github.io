@@ -34,42 +34,14 @@
         display: none
     i
       font-size: var(--font-xl)
-      padding: 0 0 12px 0
-  .effect-game-over
-    &:active
-      animation-name: glitch 
-      animation-duration: 0.8s 
-      animation-iteration-count: infinite 
-      cursor: pointer !important
-      p 
-        color: var(--color-green) !important
-
-    @keyframes glitch
-      0% 
-        color: #fff 
-      25% 
-        color: #A59FAD 
-        text-shadow: 2px 2px 2px #A59FAD 
-        transform: translate(-2px, 1px) 
-      40% 
-        color: #fff 
-        text-shadow: none 
-        transform: translate(0, 0) 
-      50% 
-        color: #A59FAD 
-        text-shadow: 5px 5px 2px blue, -5px -5px 2px red 
-        transform: translate(0px, 5px) 
-      70%
-        color: #fff
-        text-shadow: none
-        transform: translate(0, 0)
-      80%
-        color: #565656
-        text-shadow: 0 0 20px #565656
-        transform: translate(-2px, 1px)
-      100%
-        color: #fff
-        text-shadow: none
+      padding: 0 0 12px 
+  .effect-glitch
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
+    h1
+      color: var(--color-green)
   .footer-column
     display: flex
     align-items: center
@@ -96,10 +68,11 @@
       line-height: 1.6rem !important
     a
       font-size: var(--font-m) !important
-
-
   #navbar
     overflow: scroll
+  .navbar-home
+    h1
+      font-size: var(--font-xl)
   #menu-expanded
     height: 100vh
     left: 0
@@ -117,10 +90,10 @@
     a
       font-size: var(--font-s)
       padding: 4px 0
-
-
-
-
+  .page-title
+    font-size: var(--font-xl)
+    h1
+      letter-spacing: 0.6rem
   .project-desc 
     p
       font-size: var(--font-s)
@@ -132,10 +105,6 @@
     h1
       &:after
         display: none
-  .page-title
-    font-size: var(--font-xl)
-    h1
-      letter-spacing: 0.6rem
   .section-header
     text-align: center
   .subcategory
@@ -194,6 +163,13 @@
 @media screen and (min-width: 756px)
   a>.blue>:first-child
     padding: 0 12px 0 0
+  .effect-glitch:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
+    h1
+      color: var(--color-green)
   .intro-category-icons
     span
       padding: 0 8px
