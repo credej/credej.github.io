@@ -20,6 +20,9 @@ html, body
 a
   cursor: pointer
 
+p, h1, h2, h3, h4, h5
+  cursor: default
+  
 p  
   font-size: var(--font-m)
   font-family: "Redacted Script", cursive
@@ -443,7 +446,7 @@ table
 .project-header-image
   img
     border-radius: 24px 0 0 0
-    
+
 .project-header-image-hidden
   img
     filter: invert(100%)
@@ -480,7 +483,6 @@ table
   flex-direction: column
   padding: 48px
   a
-    color: var(--color-blue)
     font-weight: 900
     margin: 6px 0
 
@@ -526,6 +528,9 @@ table
   display: flex
   align-items: center
   margin: 12px 0
+  i
+    font-size: var(--font-xl)
+    margin: 0 24px 0 0
   h1
     white-space: pre-wrap 
     word-break: break-word 
@@ -533,9 +538,13 @@ table
     -webkit-hyphens: auto
     -ms-hyphens: auto
     font-size: var(--font-xl)
-  i
-    font-size: var(--font-xl)
-    margin: 0 24px 0 0
+    &:after
+      padding: 24px
+      animation: blink-animation 1s infinite
+      -webkit-animation: blink-animation 1s infinite
+      -moz-animation: blink-animation 1s infinite
+      -o-animation: blink-animation 1s infinite
+      content: "_"
 
 .section-header
   font-family: "Courier Prime", monospace

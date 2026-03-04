@@ -27,6 +27,10 @@ a {
   cursor: pointer;
 }
 
+p, h1, h2, h3, h4, h5 {
+  cursor: default;
+}
+
 p {
   font-size: var(--font-m);
   font-family: "Redacted Script", cursive;
@@ -577,7 +581,6 @@ table {
   padding: 48px;
 }
 .project-links a {
-  color: var(--color-blue);
   font-weight: 900;
   margin: 6px 0;
 }
@@ -634,6 +637,10 @@ table {
   align-items: center;
   margin: 12px 0;
 }
+.project-title i {
+  font-size: var(--font-xl);
+  margin: 0 24px 0 0;
+}
 .project-title h1 {
   white-space: pre-wrap;
   word-break: break-word;
@@ -642,9 +649,13 @@ table {
   -ms-hyphens: auto;
   font-size: var(--font-xl);
 }
-.project-title i {
-  font-size: var(--font-xl);
-  margin: 0 24px 0 0;
+.project-title h1:after {
+  padding: 24px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  -moz-animation: blink-animation 1s infinite;
+  -o-animation: blink-animation 1s infinite;
+  content: "_";
 }
 
 .section-header {

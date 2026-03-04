@@ -2,16 +2,51 @@
 body {
   background-color: var(--color-turqoise-medium);
 }
-
-.project-list a {
+body .badge h3 {
+  color: var(--color-white);
+}
+body .badge p {
+  color: #BFE4E2;
+}
+body .bg-cyber {
+  background-color: #7CCAC2;
+}
+body .project-desc,
+body .project-section p {
+  color: #BFE4E2;
+}
+body .project-header {
+  color: var(--color-white);
+}
+body .project-links a {
+  color: #5EEAD4;
+}
+body .project-list a {
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.21);
+}
+body .project-subtitle {
+  color: #BFE4E2;
+  text-shadow: var(--text-shadow-3);
+}
+body .project-title i {
+  color: #5EEAD4;
 }
 
 /* CYBERGRAD - DARK */
 body.dark-mode {
   background-color: var(--color-cyber-bg) !important;
   color: var(--color-white);
+}
+body.dark-mode .bg-cyber {
+  background-color: #030D19;
+}
+body.dark-mode .project-desc,
+body.dark-mode .project-section p {
+  color: #7CCAC2;
+}
+body.dark-mode .project-links a {
+  color: #41A493;
 }
 
 /*.page-title

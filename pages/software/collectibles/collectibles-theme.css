@@ -9,9 +9,6 @@ body .project-list a {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
-body .project-title {
-  animation: none;
-}
 body .project-subtitle {
   text-shadow: none;
 }
