@@ -38,7 +38,6 @@
 }
 
 .project-title h1 {
-  color: var(--color-white);
   text-shadow: var(--text-shadow-3);
 }
 
@@ -55,8 +54,7 @@
 body.dark-mode #navbar {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-body.dark-mode .intro-text,
-body.dark-mode .project-title {
+body.dark-mode .intro-text {
   color: var(--color-grey-medium);
 }
 body.dark-mode .category-subtitle p {
@@ -71,6 +69,9 @@ body.dark-mode .menu-list a {
 }
 body.dark-mode .menu-list a:hover {
   color: #fff;
+}
+body.dark-mode .project-title h1 {
+  text-shadow: inherit;
 }
 
 #dark-mode-toggle {

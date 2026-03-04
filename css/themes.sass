@@ -22,10 +22,9 @@
   backdrop-filter: blur(187px)
   -webkit-backdrop-filter: blur(187px) 
 .project-links
-  text-shadow: var(--text-shadow-3)
+  text-shadow: var(--text-shadow-3)  
 .project-title
   h1
-    color: var(--color-white)
     text-shadow: var(--text-shadow-3)
 .subcategory-title,
 .subcategory-excerpt
@@ -38,8 +37,7 @@
 body.dark-mode
   #navbar
     border: 1px solid rgba(0, 0, 0, 0.2) 
-  .intro-text,
-  .project-title
+  .intro-text
     color: var(--color-grey-medium)
   .category-subtitle
     p
@@ -53,6 +51,9 @@ body.dark-mode
       text-shadow: var(--text-shadow-1)
       &:hover 
         color: #fff 
+  .project-title
+    h1
+      text-shadow: inherit
 
 
 
