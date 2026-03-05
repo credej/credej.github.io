@@ -1,10 +1,16 @@
-/* QUOTES - LIGHT */
+/* LIGHT */
 body
   background-color: #1F4483 !important
   .project-desc p
     color: var(--color-blue-light)
+  .project-header
+    p
+      color: var(--color-white)
+  .project-links
+    a
+      text-shadow: var(--text-shadow-1)
 
-/* QUOTES - DARK */
+/* DARK */
 body.dark-mode 
   background-color: #09111C !important
   color: white
@@ -15,3 +21,7 @@ body.dark-mode
     p
       color: var(--color-blue-light) !important
       text-shadow: 0 1px #2A3889, -1px 0 #697BED, -1px 2px #2A3889, -2px 1px #697BED, -2px 3px #2A3889, -3px 2px #697BED, -3px 4px
+  .project-links
+    a
+      &:hover
+        color: #FF005B

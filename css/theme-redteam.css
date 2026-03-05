@@ -1,12 +1,18 @@
-/* QUOTES - LIGHT */
+/* LIGHT */
 body {
   background-color: #1F4483 !important;
 }
 body .project-desc p {
   color: var(--color-blue-light);
 }
+body .project-header p {
+  color: var(--color-white);
+}
+body .project-links a {
+  text-shadow: var(--text-shadow-1);
+}
 
-/* QUOTES - DARK */
+/* DARK */
 body.dark-mode {
   background-color: #09111C !important;
   color: white;
@@ -20,4 +26,7 @@ body.dark-mode .page-header-excerpt {
 body.dark-mode .page-header-excerpt p {
   color: var(--color-blue-light) !important;
   text-shadow: 0 1px #2A3889, -1px 0 #697BED, -1px 2px #2A3889, -2px 1px #697BED, -2px 3px #2A3889, -3px 2px #697BED, -3px 4px;
+}
+body.dark-mode .project-links a:hover {
+  color: #FF005B;
 }

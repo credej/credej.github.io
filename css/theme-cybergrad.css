@@ -27,8 +27,11 @@ body .project-header {
 body .project-links a {
   color: #5EEAD4;
 }
+body .project-links a:hover {
+  color: var(--color-white);
+}
 body .project-subtitle {
-  color: #5EEAD4;
+  color: #fff;
   text-shadow: var(--text-shadow-3);
 }
 body .project-title i {
@@ -51,10 +54,10 @@ body.dark-mode .project-desc a {
 }
 body.dark-mode .project-desc,
 body.dark-mode .project-section p {
-  color: var(--color-white);
+  color: #BFE4E2;
 }
 body.dark-mode .project-section-title h3 {
-  color: #BFE4E2;
+  color: var(--color-white);
 }
 body.dark-mode .project-links a {
   color: #41A493;

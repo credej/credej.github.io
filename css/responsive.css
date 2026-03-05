@@ -130,7 +130,11 @@
     line-height: 1.5rem;
     text-align: left;
   }
-  .project-links {
+  .project-header p {
+    font-size: var(--font-s);
+  }
+  .project-links a {
+    font-size: var(--font-s);
     text-shadow: var(--text-shadow-1);
   }
   .project-title h1:after {
