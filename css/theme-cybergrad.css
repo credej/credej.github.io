@@ -1,19 +1,25 @@
-/* CYBERGRAD - LIGHT */
+/* LIGHT */
 body {
   background-color: var(--color-turqoise-medium);
 }
 body .badge h3 {
-  color: var(--color-white);
+  color: #BFE4E2;
 }
 body .badge p {
-  color: #BFE4E2;
+  color: var(--color-white);
 }
 body .bg-cyber {
   background-color: #7CCAC2;
 }
+body .img-fullsize figcaption {
+  color: var(--color-grey-dark);
+}
+body .project-desc p {
+  color: #fff;
+}
 body .project-desc,
 body .project-section p {
-  color: #BFE4E2;
+  color: var(--color-white);
 }
 body .project-header {
   color: var(--color-white);
@@ -21,19 +27,15 @@ body .project-header {
 body .project-links a {
   color: #5EEAD4;
 }
-body .project-list a {
-  color: white;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.21);
-}
 body .project-subtitle {
-  color: #BFE4E2;
+  color: #5EEAD4;
   text-shadow: var(--text-shadow-3);
 }
 body .project-title i {
   color: #5EEAD4;
 }
 
-/* CYBERGRAD - DARK */
+/* DARK */
 body.dark-mode {
   background-color: var(--color-cyber-bg) !important;
   color: var(--color-white);
@@ -41,17 +43,22 @@ body.dark-mode {
 body.dark-mode .bg-cyber {
   background-color: #030D19;
 }
+body.dark-mode .img-fullsize figcaption {
+  color: #7CCAC2;
+}
+body.dark-mode .project-desc a {
+  color: #5EEAD4;
+}
 body.dark-mode .project-desc,
 body.dark-mode .project-section p {
-  color: #7CCAC2;
+  color: var(--color-white);
+}
+body.dark-mode .project-section-title h3 {
+  color: #BFE4E2;
 }
 body.dark-mode .project-links a {
   color: #41A493;
 }
-
-/*.page-title
- * color: red !important*/
-body.dark-mode .project-list a {
-  text-shadow: none;
-  color: var(--color-blue);
+body.dark-mode .project-links a:hover {
+  color: #5EEAD4;
 }

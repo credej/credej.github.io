@@ -296,7 +296,12 @@ table
   -webkit-animation: blink-animation 0.87s infinite
   padding: 0 24px
 
-.gallery-img
+.img-fullsize
+  margin: 48px 0
+  figcaption
+    padding: 18px 0;
+    text-align: center
+.img-gallery
   margin: 16px 0
 
 .img-gallery-small
@@ -460,6 +465,8 @@ table
 .project-header
   padding: 24px 0
   font-family: "Yellowtail", monospace
+  p
+    font-size: var(--font-l)
   a
     font-size: var(--font-m) 
     mix-blend-mode: normal 
@@ -491,11 +498,10 @@ table
 
 .project-section
   font-family: "Yellowtail", monospace
-  margin: 72px 0
+  margin: 48px 0
   padding: 60px
   p
     color: var(--color-white)
-    font-size: var(--font-m)
     line-height: 1.8rem
   a
     margin-bottom: 4px !important

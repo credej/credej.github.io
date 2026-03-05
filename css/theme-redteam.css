@@ -5,9 +5,6 @@ body {
 body .project-desc p {
   color: var(--color-blue-light);
 }
-body .project-list a {
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
-}
 
 /* QUOTES - DARK */
 body.dark-mode {

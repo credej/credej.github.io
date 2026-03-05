@@ -356,7 +356,15 @@ table {
   padding: 0 24px;
 }
 
-.gallery-img {
+.img-fullsize {
+  margin: 48px 0;
+}
+.img-fullsize figcaption {
+  padding: 18px 0;
+  text-align: center;
+}
+
+.img-gallery {
   margin: 16px 0;
 }
 
@@ -553,6 +561,9 @@ table {
   padding: 24px 0;
   font-family: "Yellowtail", monospace;
 }
+.project-header p {
+  font-size: var(--font-l);
+}
 .project-header a {
   font-size: var(--font-m);
   mix-blend-mode: normal;
@@ -591,13 +602,12 @@ table {
 
 .project-section {
   font-family: "Yellowtail", monospace;
-  margin: 72px 0;
+  margin: 48px 0;
   padding: 60px;
   /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 }
 .project-section p {
   color: var(--color-white);
-  font-size: var(--font-m);
   line-height: 1.8rem;
 }
 .project-section a {
