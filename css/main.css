@@ -3,7 +3,6 @@ body {
   /*  box-shadow: inset 0 50px 30px rgba(0, 0, 0, 0.4) */
   display: flex;
   justify-content: center;
-  overflow: hidden !important;
 }
 body::-webkit-scrollbar {
   width: 12px;
@@ -535,12 +534,14 @@ table {
 .page-header-excerpt {
   border-radius: 0 0 24px 0;
   display: flex;
+  margin: 0 0 48px;
   padding: 36px;
+  text-align: center;
   text-indent: 24px;
 }
 .page-header-excerpt p {
   font-family: "Yellowtail", monospace;
-  font-size: var(--font-m);
+  font-size: var(--font-s);
 }
 
 .project-header-image img {
@@ -558,11 +559,11 @@ table {
 }
 
 .project-header {
-  padding: 24px 0;
+  padding: 24px 0 12px;
   font-family: "Yellowtail", monospace;
 }
 .project-header p {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
 }
 .project-header a {
   font-size: var(--font-m);
