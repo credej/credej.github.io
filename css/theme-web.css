@@ -9,7 +9,6 @@ body {
 
 .page-header-excerpt {
   background-color: var(--color-white);
-  border-width: 1px 1px 2px 0;
 }
 .page-header-excerpt p {
   color: var(--color-grey-medium) !important;
@@ -20,10 +19,6 @@ body {
 }
 .project-title i {
   color: var(--color-grey-medium);
-}
-
-.gallery-img {
-  border: 1px solid var(--color-grey-light);
 }
 
 .project-title i {
@@ -41,7 +36,6 @@ body.dark-mode #menu-button i {
 }
 body.dark-mode .page-header-excerpt {
   background-color: #2b2d42;
-  border-width: 1px 1px 2px 0;
 }
 body.dark-mode .page-header-excerpt p {
   color: var(--color-grey-light) !important;

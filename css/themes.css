@@ -21,7 +21,6 @@
 }
 
 .menu-list a {
-  color: var(--color-green);
   text-shadow: var(--text-shadow-3);
 }
 

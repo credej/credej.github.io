@@ -3,41 +3,36 @@ body {
   background-color: #fcf6dc;
 }
 
-.page-header-excerpt {
-  background-color: #FEFBEE;
-  border: 1px solid var(--color-grey-light);
-  border-width: 1px 1px 2px 0;
+.page-header-title h1 {
+  color: var(--color-grey-medium);
 }
-.page-header-excerpt p {
-  color: var(--color-grey-medium) !important;
-}
-
-.project-title h1 {
-  color: var(--color-grey-medium) !important;
-}
-.project-title i {
+.page-header-title i {
   color: var(--color-grey-medium);
 }
 
-.gallery-img {
-  border: 1px solid var(--color-grey-light);
+.page-header-excerpt {
+  background-color: #FEFBEE;
+}
+.page-header-excerpt p {
+  color: var(--color-grey-medium);
 }
 
 /* THEME - DARK */
 body.dark-mode {
-  background-color: var(--color-grey-dark) !important;
+  background-color: var(--color-grey-dark);
   background-size: cover;
   height: 100%;
   color: white;
 }
+body.dark-mode .page-header-title h1 {
+  color: var(--color-grey-light);
+}
+body.dark-mode .page-header-title i {
+  color: var(--color-green);
+}
 body.dark-mode .page-header-excerpt {
-  background-color: var(--color-grey-medium);
-  border: 1px solid black;
-  border-width: 1px 1px 2px 0;
+  background-color: #3B3B3B;
 }
 body.dark-mode .page-header-excerpt p {
-  color: var(--color-grey-dark) !important;
-}
-body.dark-mode .project-title i {
-  color: var(--color-green);
+  color: var(--color-grey-medium) !important;
 }

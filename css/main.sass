@@ -439,27 +439,30 @@ table
 .page-title
   display: flex 
   flex-direction: row
+
 .page-header-image,
 .page-header-excerpt
   display: flex
   flex-direction: column
   flex: 1
+
 .page-header-image
   flex-basis: 65%
+  img
+    border-radius: 24px 0 0 0
+
 .page-header-excerpt
   flex-basis: 35%
   border-radius: 0 0 24px 0
   border: none
   img
     border-radius: 24px 0 0 0
-  h5
+  p
+    font-family: "Yellowtail", monospace
     flex-grow: 1
     border-radius: 0 0 24px 0
     padding: 36px
     text-indent: 24px
-  p
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-s)
 
 .page-header
   display: flex
