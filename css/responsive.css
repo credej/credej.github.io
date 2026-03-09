@@ -1,7 +1,4 @@
 @media screen and (min-width: 100px) and (max-width: 755px) {
-  ::-webkit-scrollbar {
-    display: none;
-  }
   .badge {
     height: auto !important;
   }
@@ -119,6 +116,12 @@
     font-size: var(--font-s);
     padding: 4px 0;
   }
+  .page-header h5 {
+    text-align: center;
+  }
+  .page-header-title {
+    justify-content: center;
+  }
   .page-title {
     font-size: var(--font-xl);
   }
@@ -233,15 +236,7 @@
     padding: 0 8px;
   }
 }
-@media screen and (min-width: 1439px) {
-  .project-header h5 {
-    font-size: var(--font-l);
-  }
-}
 @media screen and (min-width: 756px) and (max-width: 1079px) {
-  ::-webkit-scrollbar {
-    display: none !important;
-  }
   .category-links {
     text-indent: 0;
   }
@@ -252,9 +247,6 @@
   .category-links .category-links-slash {
     display: none;
   }
-  .project-header-image img {
-    width: 100%;
-  }
   .project-title {
     justify-content: center;
   }
@@ -262,9 +254,6 @@
 @media screen and (min-width: 1080px) and (max-width: 1439px) {
   .category-section-title h1 {
     font-size: var(--font-xl);
-  }
-  .page-header {
-    display: flex;
   }
   .site-main {
     padding: 0 12.5vw;
@@ -303,6 +292,9 @@
   }
   .page-header {
     display: flex;
+  }
+  .page-header-excerpt h5 {
+    font-family: var(--font-xxl);
   }
 }
 /* MEDIA QUERIES FOR IMAGE GALLERY */

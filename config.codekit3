@@ -452,6 +452,18 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-sketch.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-sketch-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-sketch.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -1190,6 +1202,19 @@
       "oA" : 0,
       "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
+    },
+    "\/pages\/design\/sketch\/img\/arch-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 113623,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/sketch\/img\/arch-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/pages\/design\/sketch\/img\/arch-subway-1.jpg" : {
       "ft" : 16384,

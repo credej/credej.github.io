@@ -1,6 +1,4 @@
 @media screen and (min-width: 100px) and (max-width: 755px)
-  ::-webkit-scrollbar 
-    display: none
   .badge
     height: auto !important
   .bookmark-glossary
@@ -90,6 +88,11 @@
     a
       font-size: var(--font-s)
       padding: 4px 0
+  .page-header  
+    h5
+      text-align: center
+  .page-header-title
+    justify-content: center
   .page-title
     font-size: var(--font-xl)
     h1
@@ -180,14 +183,7 @@
     span
       padding: 0 8px
 
-@media screen and (min-width: 1439px)
-  .project-header
-    h5
-      font-size: var(--font-l)
-
 @media screen and (min-width: 756px) and (max-width: 1079px)
-  ::-webkit-scrollbar 
-    display: none !important
   .category-links
     text-indent: 0
     a
@@ -195,9 +191,6 @@
       padding: 8px 0
     .category-links-slash
       display: none
-  .project-header-image
-    img
-      width: 100%
   .project-title
     justify-content: center
 
@@ -205,8 +198,6 @@
   .category-section-title
     h1
       font-size: var(--font-xl)
-  .page-header
-    display: flex
   .site-main
     padding: 0 12.5vw
 
@@ -236,6 +227,9 @@
       font-size: var(--font-xl)
   .page-header
     display: flex
+  .page-header-excerpt
+    h5
+      font-family: var(--font-xxl)
 
 /* MEDIA QUERIES FOR IMAGE GALLERY */
 
@@ -277,7 +271,7 @@
   .dw
     -moz-column-count: 2
     column-count: 2
-  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 
+  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9
     flex-basis: 50%
     max-width: 50%
   .kg-width-full 
