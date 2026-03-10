@@ -25,7 +25,6 @@
 }
 
 #navbar {
-  border: 1px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(187px);
   -webkit-backdrop-filter: blur(187px);
 }
@@ -48,9 +47,6 @@
   text-shadow: var(--text-shadow-3);
 }
 
-body.dark-mode #navbar {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
 body.dark-mode .intro-text {
   color: var(--color-grey-medium);
 }
