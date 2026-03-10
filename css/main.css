@@ -666,7 +666,7 @@ table {
 }
 
 .project-header {
-  padding: 24px 0 12px;
+  padding: 24px 0 96px;
   font-family: "Yellowtail", monospace;
 }
 .project-header p {
@@ -695,9 +695,9 @@ table {
 }
 
 .project-links {
+  padding: 48px 48px 24px;
   display: flex;
   flex-direction: column;
-  padding: 48px;
 }
 .project-links a {
   font-weight: 900;
