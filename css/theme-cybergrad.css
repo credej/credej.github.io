@@ -2,11 +2,30 @@
 body {
   background-color: var(--color-turqoise-medium);
 }
+body .badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 450px;
+  text-align: center;
+}
 body .badge h3 {
   color: #BFE4E2;
+  font-family: "Reddit Mono", monospace;
+  font-size: var(--font-l);
+  margin: 24px 0 12px;
 }
 body .badge p {
   color: var(--color-white);
+  font-family: "Reddit Mono", monospace;
+  font-size: var(--font-s);
+}
+body .badge img {
+  transition: 0.3s;
+}
+body .badge img:hover {
+  transform: scale(1.1);
 }
 body .bg-cyber {
   background-color: #7CCAC2;

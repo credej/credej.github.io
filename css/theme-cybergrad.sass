@@ -1,11 +1,26 @@
 /* LIGHT */
 body
   background-color: var(--color-turqoise-medium)
-  .badge 
+  .badge
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    height: 450px
+    text-align: center
     h3
       color: #BFE4E2
+      font-family: "Reddit Mono", monospace
+      font-size: var(--font-l)
+      margin: 24px 0 12px
     p
       color: var(--color-white)
+      font-family: "Reddit Mono", monospace
+      font-size: var(--font-s)
+    img
+      transition: 0.3s
+      &:hover
+        transform: scale(1.1)
   .bg-cyber
     background-color: #7CCAC2
   .img-fullsize

@@ -2,18 +2,19 @@
 body {
   background-color: #fcf6dc;
 }
-
-.page-header-title h1 {
+body #menu-button i {
+  color: var(--color-grey-dark);
+}
+body .page-header-title h1 {
   color: var(--color-grey-medium);
 }
-.page-header-title i {
+body .page-header-title i {
   color: var(--color-grey-medium);
 }
-
-.page-header-excerpt {
+body .page-header-excerpt {
   background-color: #FEFBEE;
 }
-.page-header-excerpt p {
+body .page-header-excerpt p {
   color: var(--color-grey-medium);
 }
 
@@ -23,6 +24,9 @@ body.dark-mode {
   background-size: cover;
   height: 100%;
   color: white;
+}
+body.dark-mode #menu-button i {
+  color: var(--color-grey-light);
 }
 body.dark-mode .page-header-title h1 {
   color: var(--color-grey-light);

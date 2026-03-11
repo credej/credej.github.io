@@ -82,30 +82,6 @@ table {
   padding: 4px 0;
 }
 
-.badge {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 450px;
-  text-align: center;
-}
-.badge h3 {
-  font-family: "Reddit Mono", monospace;
-  font-size: var(--font-l);
-  margin: 24px 0 12px;
-}
-.badge p {
-  font-family: "Reddit Mono", monospace;
-  font-size: var(--font-xs);
-}
-.badge img {
-  transition: 0.3s;
-}
-.badge img:hover {
-  transform: scale(1.1);
-}
-
 .bookmark {
   flex-grow: 1;
   flex-shrink: 1;
@@ -176,14 +152,6 @@ table {
   animation: blinker 1s linear infinite;
 }
 
-.category-banner {
-  padding: 18px 0;
-}
-
-.category-container {
-  padding: 24px 0;
-}
-
 .category-footer {
   flex-direction: column;
   font-family: "Yellowtail", monospace;
@@ -231,6 +199,7 @@ table {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
   padding: 48px 72px 72px;
+  margin: 96px 0;
 }
 .category-section a {
   font-size: var(--font-m);
