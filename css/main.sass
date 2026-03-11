@@ -49,15 +49,8 @@ table
   background: rgba(255, 255, 255, 0.1)
   color: #000
 
-#navbar,
-.site-main
+#navbar
   padding: 0 12.5vw
-
-.hidden
-  display: none
-
-/*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
-  scroll-padding-top: 68px*/
 
 .anchor
   scroll-margin-top: 28px 
@@ -89,8 +82,21 @@ table
     font-size: var(--font-xs)
   img
     transition: 0.3s
-  img:hover
-    transform: scale(1.1)
+    &:hover
+      transform: scale(1.1)
+
+.bookmark
+  flex-grow: 1
+  flex-shrink: 1
+  flex-basis: 0%
+  padding: 12px 72px 12px 0 
+  a:hover
+    color: #fff
+    animation: blinker 1s linear infinite
+  li 
+    font-family: "Courier Prime", monospace
+  h2
+    padding: 0 16pxw
 
 .bookmark-glossary
   display: flex
@@ -104,10 +110,10 @@ table
     padding: 12px
     margin: 4px
     font-family: "Cutive Mono", monospace
-  a:hover
-    animation: blinker 1s linear infinite
-    background: var(--color-green)
-    color: var(--color-cyber-bg)
+    &:hover
+      animation: blinker 1s linear infinite
+      background: var(--color-green)
+      color: var(--color-cyber-bg)
 
 .bookmark-section
   margin-left: 1rem
@@ -115,6 +121,7 @@ table
   break-inside: avoid
   display: flex
   flex-direction: column
+  padding: 24px 0
   h2
     color: var(--color-green)
     font-family: "Courier Prime", monospace
@@ -129,32 +136,12 @@ table
   a
     padding: 4px 0 4px 12px
 
-.bookmark
-  flex-grow: 1
-  flex-shrink: 1
-  flex-basis: 0%
-  padding: 12px 72px 12px 0 
-  a:hover
-    color: #fff
-    animation: blinker 1s linear infinite
-  ul
-    :hover
-      border-left: none
-  li 
-    font-family: "Courier Prime", monospace
-  h2
-    padding: 0 16pxw
-
 .bookmark-old
   a
     color: var(--color-grey-light)
     text-decoration: line-through
-  a:hover
-    animation: blinker 1s linear infinite
-
-/* .category
-  &:hover
-    animation: blinker 0.71s linear infinite */
+    &:hover
+      animation: blinker 1s linear infinite
 
 .category-banner
   padding: 18px 0
@@ -163,9 +150,24 @@ table
   padding: 24px 0
 
 .category-footer
-  .category-section
-    padding: 30px 0 0
-    text-align: center
+  flex-direction: column
+  font-family: "Yellowtail", monospace
+  font-size: var(--font-s)
+  margin: 24px 0
+  padding: 30px 0 0 
+  text-align: center
+  a
+    font-size: var(--font-m)
+  span
+    color: var(--color-title)
+  h1
+    color: #fff
+    text-wrap: wrap
+    word-break: break-all
+  ul
+    color: var(--color-grey-dark)
+    margin: 0 0 24px
+
 
 .category-links
   color: var(--color-border)
@@ -296,6 +298,9 @@ table
   animation: blink-animation 0.87s infinite
   -webkit-animation: blink-animation 0.87s infinite
   padding: 0 24px
+
+.hidden
+  display: none
 
 .img-fullsize
   margin: 48px 0
@@ -436,34 +441,6 @@ table
     font-size: var(--font-xxl)
     font-family: "Tiny5", monospace
 
-.page-title
-  display: flex 
-  flex-direction: row
-
-.page-header-image,
-.page-header-excerpt
-  display: flex
-  flex-direction: column
-  flex: 1
-
-.page-header-image
-  flex-basis: 65%
-  img
-    border-radius: 24px 0 0 0
-
-.page-header-excerpt
-  flex-basis: 35%
-  border-radius: 0 0 24px 0
-  border: none
-  img
-    border-radius: 24px 0 0 0
-  p
-    font-family: "Yellowtail", monospace
-    flex-grow: 1
-    border-radius: 0 0 24px 0
-    padding: 36px
-    text-indent: 24px
-
 .page-header
   display: flex
   flex-direction: row
@@ -481,10 +458,14 @@ table
   a:hover
     animation: blinker 1s linear infinite
   h1
-    color: white
     font-family: "Courier Prime", monospace
-    font-size: var(--font-xxl)
     letter-spacing: 0.8rem
+    white-space: pre-wrap 
+    word-break: break-word 
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
+    font-size: var(--font-xxl)
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
@@ -492,6 +473,39 @@ table
       -moz-animation: blink-animation 1s infinite
       -o-animation: blink-animation 1s infinite
       content: "_"
+
+.page-header-image,
+.page-header-excerpt
+  display: flex
+  flex-direction: column
+  flex: 1
+
+.page-header-image
+  flex-basis: 50%
+  img
+    border-radius: 24px 0 0 0
+
+.page-header-image-invert
+  img
+    &:hover
+      transition: filter 6.5s ease-in-out
+      transition-duration: 7s
+      filter: invert(100%)
+      -webkit-transition: 1.5s
+
+.page-header-excerpt
+  flex-basis: 50%
+  border-radius: 0 0 24px 0
+  border: none
+  img
+    border-radius: 24px 0 0 0
+  p
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    flex-grow: 1
+    border-radius: 0 0 24px 0
+    padding: 36px
+    text-indent: 24px
 
 .page-header-title
   display: flex
@@ -501,20 +515,10 @@ table
   i
     font-size: var(--font-xl)
     margin: 0 24px 0 0
-  h1
-    white-space: pre-wrap 
-    word-break: break-word 
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
-    font-size: var(--font-xl)
-    &:after
-      padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
-      content: "_"
+
+.page-title
+  display: flex 
+  flex-direction: row
 
 .project-header
   padding: 24px 0 12px
@@ -539,14 +543,6 @@ table
       -o-animation: blink-animation 1s infinite
       content: "_"
 
-.project-header-image-hidden
-  img
-    &:hover
-      transition: filter 6.5s ease-in-out
-      transition-duration: 7s
-      filter: invert(100%)
-      -webkit-transition: 1.5s
-
 .project-desc
   p
     font-family: "Courier Prime", monospace
@@ -560,8 +556,8 @@ table
   a
     font-size: var(--font-m) 
     mix-blend-mode: normal 
-  a:hover
-    animation: blinker 1s linear infinite
+    &:hover
+      animation: blinker 1s linear infinite
   h1
     color: white
     font-family: "Courier Prime", monospace
@@ -596,8 +592,8 @@ table
   a
     margin-bottom: 4px !important
     mix-blend-mode: normal !important
-  a:hover
-    animation: blinker 1s linear infinite
+    &:hover
+      animation: blinker 1s linear infinite
   h1
     text-wrap: wrap
     word-break: break-all
@@ -633,7 +629,7 @@ table
     hyphens: auto
     -webkit-hyphens: auto
     -ms-hyphens: auto
-    font-size: var(--font-xl)
+    font-size: var(--font-xxl)
     &:after
       padding: 24px
       animation: blink-animation 1s infinite
@@ -651,6 +647,7 @@ table
 
 .site-main
   margin: 120px 0
+  padding: 0 12.5vw
 
 .subcategory
   break-inside: avoid-column

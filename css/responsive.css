@@ -83,11 +83,10 @@
     padding: 0 24px;
   }
   .intro-text p {
-    font-size: var(--font-s) !important;
-    line-height: 1.6rem !important;
+    font-size: var(--font-m) !important;
   }
   .intro-text a {
-    font-size: var(--font-m) !important;
+    font-size: var(--font-l) !important;
   }
   #navbar {
     overflow: scroll;
@@ -295,9 +294,6 @@
   }
   .page-header {
     display: flex;
-  }
-  .page-header-excerpt h5 {
-    font-family: var(--font-xxl);
   }
 }
 /* MEDIA QUERIES FOR IMAGE GALLERY */

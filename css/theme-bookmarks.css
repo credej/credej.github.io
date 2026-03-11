@@ -5,7 +5,13 @@ body {
 body .bookmark a {
   color: var(--color-blue-light);
 }
+body .page-header-excerpt {
+  background-color: #7385F6;
+}
 body .page-header-excerpt p {
+  color: var(--color-white);
+}
+body .page-header-title h1 {
   color: var(--color-white);
 }
 body .section-header h5 {
@@ -13,14 +19,23 @@ body .section-header h5 {
 }
 
 /* BOOKMARKS - DARK */
+body.dark-mode {
+  background-color: var(--color-blue-storm);
+}
 body.dark-mode .bookmark a {
   color: var(--color-blue-light);
 }
 body.dark-mode .bookmark-section h2 {
   color: var(--color-green);
 }
+body.dark-mode .page-header-excerpt {
+  background-color: #191D26;
+}
 body.dark-mode .page-header-excerpt p {
   color: var(--color-grey-light);
+}
+body.dark-mode .page-header-title h1 {
+  color: var(--color-white);
 }
 body.dark-mode .section-header h5 {
   color: var(--color-white);

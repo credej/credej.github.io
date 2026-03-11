@@ -60,17 +60,10 @@ table {
   color: #000;
 }
 
-#navbar,
-.site-main {
+#navbar {
   padding: 0 12.5vw;
 }
 
-.hidden {
-  display: none;
-}
-
-/*#ux, #design, #gadgets, #diy, #otherstuff, #travel, #contact, #compliance
- * scroll-padding-top: 68px*/
 .anchor {
   scroll-margin-top: 28px;
 }
@@ -113,6 +106,23 @@ table {
   transform: scale(1.1);
 }
 
+.bookmark {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  padding: 12px 72px 12px 0;
+}
+.bookmark a:hover {
+  color: #fff;
+  animation: blinker 1s linear infinite;
+}
+.bookmark li {
+  font-family: "Courier Prime", monospace;
+}
+.bookmark h2 {
+  padding: 0 16pxw;
+}
+
 .bookmark-glossary {
   display: flex;
   flex-wrap: wrap;
@@ -139,6 +149,7 @@ table {
   break-inside: avoid;
   display: flex;
   flex-direction: column;
+  padding: 24px 0;
 }
 .bookmark-section h2 {
   color: var(--color-green);
@@ -157,26 +168,6 @@ table {
   padding: 4px 0 4px 12px;
 }
 
-.bookmark {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0%;
-  padding: 12px 72px 12px 0;
-}
-.bookmark a:hover {
-  color: #fff;
-  animation: blinker 1s linear infinite;
-}
-.bookmark ul :hover {
-  border-left: none;
-}
-.bookmark li {
-  font-family: "Courier Prime", monospace;
-}
-.bookmark h2 {
-  padding: 0 16pxw;
-}
-
 .bookmark-old a {
   color: var(--color-grey-light);
   text-decoration: line-through;
@@ -185,9 +176,6 @@ table {
   animation: blinker 1s linear infinite;
 }
 
-/* .category
- * &:hover
- *  animation: blinker 0.71s linear infinite */
 .category-banner {
   padding: 18px 0;
 }
@@ -196,9 +184,28 @@ table {
   padding: 24px 0;
 }
 
-.category-footer .category-section {
+.category-footer {
+  flex-direction: column;
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-s);
+  margin: 24px 0;
   padding: 30px 0 0;
   text-align: center;
+}
+.category-footer a {
+  font-size: var(--font-m);
+}
+.category-footer span {
+  color: var(--color-title);
+}
+.category-footer h1 {
+  color: #fff;
+  text-wrap: wrap;
+  word-break: break-all;
+}
+.category-footer ul {
+  color: var(--color-grey-dark);
+  margin: 0 0 24px;
 }
 
 .category-links {
@@ -354,6 +361,10 @@ table {
   animation: blink-animation 0.87s infinite;
   -webkit-animation: blink-animation 0.87s infinite;
   padding: 0 24px;
+}
+
+.hidden {
+  display: none;
 }
 
 .img-fullsize {
@@ -527,41 +538,6 @@ table {
   font-family: "Tiny5", monospace;
 }
 
-.page-title {
-  display: flex;
-  flex-direction: row;
-}
-
-.page-header-image,
-.page-header-excerpt {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.page-header-image {
-  flex-basis: 65%;
-}
-.page-header-image img {
-  border-radius: 24px 0 0 0;
-}
-
-.page-header-excerpt {
-  flex-basis: 35%;
-  border-radius: 0 0 24px 0;
-  border: none;
-}
-.page-header-excerpt img {
-  border-radius: 24px 0 0 0;
-}
-.page-header-excerpt p {
-  font-family: "Yellowtail", monospace;
-  flex-grow: 1;
-  border-radius: 0 0 24px 0;
-  padding: 36px;
-  text-indent: 24px;
-}
-
 .page-header {
   display: flex;
   flex-direction: row;
@@ -583,10 +559,14 @@ table {
   animation: blinker 1s linear infinite;
 }
 .page-header h1 {
-  color: white;
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xxl);
   letter-spacing: 0.8rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  font-size: var(--font-xxl);
 }
 .page-header h1:after {
   padding: 24px;
@@ -595,6 +575,44 @@ table {
   -moz-animation: blink-animation 1s infinite;
   -o-animation: blink-animation 1s infinite;
   content: "_";
+}
+
+.page-header-image,
+.page-header-excerpt {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.page-header-image {
+  flex-basis: 50%;
+}
+.page-header-image img {
+  border-radius: 24px 0 0 0;
+}
+
+.page-header-image-invert img:hover {
+  transition: filter 6.5s ease-in-out;
+  transition-duration: 7s;
+  filter: invert(100%);
+  -webkit-transition: 1.5s;
+}
+
+.page-header-excerpt {
+  flex-basis: 50%;
+  border-radius: 0 0 24px 0;
+  border: none;
+}
+.page-header-excerpt img {
+  border-radius: 24px 0 0 0;
+}
+.page-header-excerpt p {
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-m);
+  flex-grow: 1;
+  border-radius: 0 0 24px 0;
+  padding: 36px;
+  text-indent: 24px;
 }
 
 .page-header-title {
@@ -607,21 +625,10 @@ table {
   font-size: var(--font-xl);
   margin: 0 24px 0 0;
 }
-.page-header-title h1 {
-  white-space: pre-wrap;
-  word-break: break-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  font-size: var(--font-xl);
-}
-.page-header-title h1:after {
-  padding: 24px;
-  animation: blink-animation 1s infinite;
-  -webkit-animation: blink-animation 1s infinite;
-  -moz-animation: blink-animation 1s infinite;
-  -o-animation: blink-animation 1s infinite;
-  content: "_";
+
+.page-title {
+  display: flex;
+  flex-direction: row;
 }
 
 .project-header {
@@ -651,13 +658,6 @@ table {
   -moz-animation: blink-animation 1s infinite;
   -o-animation: blink-animation 1s infinite;
   content: "_";
-}
-
-.project-header-image-hidden img:hover {
-  transition: filter 6.5s ease-in-out;
-  transition-duration: 7s;
-  filter: invert(100%);
-  -webkit-transition: 1.5s;
 }
 
 .project-desc p {
@@ -765,7 +765,7 @@ table {
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  font-size: var(--font-xl);
+  font-size: var(--font-xxl);
 }
 .project-title h1:after {
   padding: 24px;
@@ -787,6 +787,7 @@ table {
 
 .site-main {
   margin: 120px 0;
+  padding: 0 12.5vw;
 }
 
 .subcategory {
