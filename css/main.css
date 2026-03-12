@@ -228,13 +228,20 @@ table {
   text-align: center;
 }
 
+.contact {
+  margin: 96px 0;
+  padding: 48px 72px 72px;
+}
+.contact p {
+  color: var(--color-grey-medium);
+  font-size: var(--font-l);
+}
+.contact a {
+  color: var(--color-yellow);
+}
 .contact ul {
   color: var(--color-grey-dark);
   margin: 0 0 24px;
-}
-
-.contact-bullets {
-  font-family: "Yellowtail", monospace;
 }
 
 .fade-in {

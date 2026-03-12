@@ -568,22 +568,22 @@
       "oAP" : "\/fonts\/Redacted-Regular.ttf",
       "oF" : 0
     },
-    "\/images\/arrow-up.svg" : {
+    "\/img\/arrow-up.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/images\/arrow-up.svg",
+      "oAP" : "\/img\/arrow-up.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/images\/banner-arch.jpg" : {
+    "\/img\/banner-arch.jpg" : {
       "ft" : 16384,
       "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/banner-arch.jpg",
+      "oAP" : "\/img\/banner-arch.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -591,20 +591,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/banners.pxd" : {
+    "\/img\/banners.pxd" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/banners.pxd",
+      "oAP" : "\/img\/banners.pxd",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
+    "\/img\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
       "ft" : 16384,
       "iS" : 4007380,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/gadgets-diy-banner.jpg",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/gadgets-diy-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -612,12 +612,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/experimental-pi-boy-dmg\/gadgets-diy-gameboy-inside.JPG" : {
+    "\/img\/experimental-pi-boy-dmg\/gadgets-diy-gameboy-inside.JPG" : {
       "ft" : 16384,
       "iS" : 3695814,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/gadgets-diy-gameboy-inside.jpg",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/gadgets-diy-gameboy-inside.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -625,59 +625,59 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1556.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1556.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1556.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1556.HEIC",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1557.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1557.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1557.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1557.HEIC",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1559.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1559.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1559.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1559.HEIC",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1560.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1560.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1560.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1560.HEIC",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1561.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1561.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1561.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1561.HEIC",
       "oF" : 0
     },
-    "\/images\/experimental-pi-boy-dmg\/IMG_1562.HEIC" : {
+    "\/img\/experimental-pi-boy-dmg\/IMG_1562.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/experimental-pi-boy-dmg\/IMG_1562.HEIC",
+      "oAP" : "\/img\/experimental-pi-boy-dmg\/IMG_1562.HEIC",
       "oF" : 0
     },
-    "\/images\/favicon.png" : {
+    "\/img\/favicon.png" : {
       "ft" : 32768,
       "iS" : 3820,
       "oA" : 0,
-      "oAP" : "\/images\/favicon.png",
+      "oAP" : "\/img\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -686,12 +686,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/images\/gadgets-keyboard-repair-cross.JPG" : {
+    "\/img\/gadgets-keyboard-repair-cross.JPG" : {
       "ft" : 16384,
       "iS" : 3095208,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/gadgets-keyboard-repair-cross.jpg",
+      "oAP" : "\/img\/gadgets-keyboard-repair-cross.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -699,12 +699,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/gadgets-keyboard-repair.JPG" : {
+    "\/img\/gadgets-keyboard-repair.JPG" : {
       "ft" : 16384,
       "iS" : 3965206,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/gadgets-keyboard-repair.jpg",
+      "oAP" : "\/img\/gadgets-keyboard-repair.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -712,12 +712,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/gadgets-orangeclock-back.JPG" : {
+    "\/img\/gadgets-orangeclock-back.JPG" : {
       "ft" : 16384,
       "iS" : 2695968,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/gadgets-orangeclock-back.jpg",
+      "oAP" : "\/img\/gadgets-orangeclock-back.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -725,12 +725,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/gadgets-orangeclock-front.JPG" : {
+    "\/img\/gadgets-orangeclock-front.JPG" : {
       "ft" : 16384,
       "iS" : 2655580,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/gadgets-orangeclock-front.jpg",
+      "oAP" : "\/img\/gadgets-orangeclock-front.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -738,12 +738,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/gadgets-phone-iphone-case-back.JPG" : {
+    "\/img\/gadgets-phone-iphone-case-back.JPG" : {
       "ft" : 16384,
       "iS" : 2890582,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/gadgets-phone-iphone-case-back.jpg",
+      "oAP" : "\/img\/gadgets-phone-iphone-case-back.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -751,12 +751,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/header.jpg" : {
+    "\/img\/header.jpg" : {
       "ft" : 16384,
       "iS" : 147471,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/header.jpg",
+      "oAP" : "\/img\/header.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -764,12 +764,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/IMG_0647.JPG" : {
+    "\/img\/IMG_0647.JPG" : {
       "ft" : 16384,
       "iS" : 3961505,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_0647.jpg",
+      "oAP" : "\/img\/IMG_0647.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -777,12 +777,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/IMG_0653.JPG" : {
+    "\/img\/IMG_0653.JPG" : {
       "ft" : 16384,
       "iS" : 3597456,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_0653.jpg",
+      "oAP" : "\/img\/IMG_0653.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -790,12 +790,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/IMG_0786.JPG" : {
+    "\/img\/IMG_0786.JPG" : {
       "ft" : 16384,
       "iS" : 2749780,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_0786.jpg",
+      "oAP" : "\/img\/IMG_0786.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -803,12 +803,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/IMG_0787.JPG" : {
+    "\/img\/IMG_0787.JPG" : {
       "ft" : 16384,
       "iS" : 2740415,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_0787.jpg",
+      "oAP" : "\/img\/IMG_0787.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -816,68 +816,68 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/IMG_1395.HEIC" : {
+    "\/img\/IMG_1395.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1395.HEIC",
+      "oAP" : "\/img\/IMG_1395.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1399.HEIC" : {
+    "\/img\/IMG_1399.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1399.HEIC",
+      "oAP" : "\/img\/IMG_1399.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1403.HEIC" : {
+    "\/img\/IMG_1403.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1403.HEIC",
+      "oAP" : "\/img\/IMG_1403.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1404.HEIC" : {
+    "\/img\/IMG_1404.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1404.HEIC",
+      "oAP" : "\/img\/IMG_1404.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1405.HEIC" : {
+    "\/img\/IMG_1405.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1405.HEIC",
+      "oAP" : "\/img\/IMG_1405.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1409.HEIC" : {
+    "\/img\/IMG_1409.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1409.HEIC",
+      "oAP" : "\/img\/IMG_1409.HEIC",
       "oF" : 0
     },
-    "\/images\/IMG_1423.HEIC" : {
+    "\/img\/IMG_1423.HEIC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/IMG_1423.HEIC",
+      "oAP" : "\/img\/IMG_1423.HEIC",
       "oF" : 0
     },
-    "\/images\/keyboard-banner.jpg" : {
+    "\/img\/keyboard-banner.jpg" : {
       "ft" : 16384,
       "iS" : 362665,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/keyboard-banner.jpg",
+      "oAP" : "\/img\/keyboard-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -885,26 +885,34 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/keyboard-banner.mp4" : {
+    "\/img\/keyboard-banner.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/keyboard-banner.mp4",
+      "oAP" : "\/img\/keyboard-banner.mp4",
       "oF" : 0
     },
-    "\/images\/phone-15promax-case.jpg" : {
+    "\/img\/phone-15promax-case.jpg" : {
       "ft" : 16384,
       "iS" : 2322111,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/phone-15promax-case.jpg",
+      "oAP" : "\/img\/phone-15promax-case.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/resume-j.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/resume-j.pdf",
+      "oF" : 0
     },
     "\/index.html" : {
       "cB" : 0,
