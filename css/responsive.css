@@ -18,6 +18,9 @@
   .category {
     padding: 36px;
   }
+  .category h1 {
+    font-size: var(--font-xl);
+  }
   .category-subtitle {
     text-align: center;
   }

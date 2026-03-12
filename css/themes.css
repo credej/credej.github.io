@@ -1,8 +1,8 @@
-.bio-bullets ul {
+.category-subtitle p {
   color: var(--color-grey-light);
 }
 
-.category-subtitle p {
+.contact-bullets ul {
   color: var(--color-grey-light);
 }
 
@@ -134,7 +134,7 @@ body.dark-mode #dark-mode-toggle .cs-moon {
   transform: translate(-50%, -150%);
   opacity: 0;
 }
-body.dark-mode .bio-bullets ul {
+body.dark-mode .contact-bullets ul {
   color: var(--color-grey-medium);
 }
 body.dark-mode .footer-text p {

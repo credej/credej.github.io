@@ -126,64 +126,51 @@ table
   opacity: 0.5
 
 .category
-  flex-direction: column
   font-family: "Yellowtail", monospace
-  font-size: var(--font-s)
-  padding: 48px 72px 72px
   margin: 96px 0
+  padding: 48px 72px 72px
   a
     font-size: var(--font-m)
-  span
-    color: var(--color-title)
   h1
-    color: #fff
+    color: white
     text-wrap: wrap
     word-break: break-all
-  ul
-    color: var(--color-grey-dark)
-    margin: 0 0 24px
 
 .category-title
-  align-items: center
   display: flex
-  flex-direction: row
+  align-items: center
   margin: 12px 0
   h1
     color: white
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxl)
     letter-spacing: 0.8rem
-    word-break: break-word
     text-transform: uppercase
+    word-break: break-word
     &:after
       padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
       content: "_"
+      @extend .blinker
   i
     font-size: var(--font-xl)
     padding: 0 24px 0 0
     text-align: center
+
 
 .category-subtitle
   p
     font-family: "Reddit Mono", monospace
 
 .category-links
-  color: var(--color-border)
+  line-height: 2rem
   padding: 12px 0 48px
-  line-height: 2.2rem
   a
     text-decoration: underline
     text-decoration-style: dotted
-  a:hover
-    animation: blinker 1s linear infinite
-
-.category-links-slash
-  color: inherit
-  opacity: 0.5
+    &:hover
+      animation: blinker 1s linear infinite
+  span
+    opacity: 0.29
 
 .category-footer
   font-family: "Yellowtail", monospace
@@ -191,6 +178,14 @@ table
   margin: 24px 0
   padding: 30px 0 0 
   text-align: center
+
+.contact
+  ul
+    color: var(--color-grey-dark)
+    margin: 0 0 24px
+
+.contact-bullets
+  font-family: "Yellowtail", monospace
 
 .fade-in
   opacity: 1
@@ -429,10 +424,7 @@ table
     font-size: var(--font-xxl)
     &:after
       padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
+      @extend .blinker
       content: "_"
 
 .page-header-image,
@@ -498,10 +490,7 @@ table
     letter-spacing: 0.8rem
     &:after
       padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
+      @extend .blinker
       content: "_"
 
 .project-desc
@@ -526,10 +515,7 @@ table
     letter-spacing: 0.8rem
     &:after
       padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
+      @extend .blinker
       content: "_"
 
 .project-links
@@ -593,10 +579,7 @@ table
     font-size: var(--font-xxl)
     &:after
       padding: 24px
-      animation: blink-animation 1s infinite
-      -webkit-animation: blink-animation 1s infinite
-      -moz-animation: blink-animation 1s infinite
-      -o-animation: blink-animation 1s infinite
+      @extend .blinker
       content: "_"
 
 .section-header
@@ -824,3 +807,15 @@ table
 .project-section,
 .project-title
     cursor: default
+
+/* EXTENZE */
+
+.blinker
+  animation: blink-animation 1s infinite
+  -webkit-animation: blink-animation 1s infinite
+  -moz-animation: blink-animation 1s infinite
+  -o-animation: blink-animation 1s infinite
+
+
+
+
