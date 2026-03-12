@@ -1,3 +1,6 @@
+
+/* COLOR, TEXT & SHADOW VARIABLES */
+
 :root
   --color-blue: #00E1FF
   --color-green: #17f9a6
@@ -33,6 +36,10 @@
   --text-shadow-1: 2px 4px 3px rgba(0,0,0,0.15)
   --text-shadow-2: 2px 4px 3px rgba(0,0,0,0.3)
   --text-shadow-3: -1px 1px 1px rgba(0,0,0,0.45)
+
+
+
+/* BORDER & COLOR EFFECTS */
 
 .br-top
   border-radius: 24px 24px 0 0
@@ -96,7 +103,6 @@
 .border-black
   border-image: linear-gradient(to right, #000 0%, #757575 100%) 1
 
-
 .hover-blue
   h2
     color: var(--color-blue)
@@ -118,7 +124,10 @@
 
 
 
+/* NEON LIGHT EFFECT */
 
+.neon
+  animation: pulsate 0.11s ease-in-out infinite alternate
 
 @keyframes pulsate 
   0%, 3%, 5%, 12%, 14%, 21%, 26%, 39%, 44%, 47%, 58%, 66%, 75%, 88%, 92%, 100%
@@ -129,9 +138,6 @@
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #5271ff, 0 0 82px #5271ff, 0 0 92px #5271ff, 0 0 102px #5271ff, 0 0 151px #5271ff
   0%, 2%, 4%, 7%, 13%, 17%, 25%, 31%, 46%, 52%, 59%, 78%, 91%, 95%
     text-shadow: none
-
-.neon
-  animation: pulsate 0.11s ease-in-out infinite alternate
 
 @keyframes blink-animation
   to
@@ -149,7 +155,13 @@
   html 
     scroll-behavior: auto
 
-/* GAME OVER EFFECT */
+
+
+/* GLITCH EFFECT */
+
+.effect-glitch
+  color: var(--color-green)
+
 @keyframes glitch
   0% 
     color: #fff 
@@ -177,8 +189,7 @@
 
 
 
-
-
+/* BACKGROUND EFFECTS */
 
 .bg-rainbow
   background: linear-gradient(124deg, #D9044C, #ea673e, #facc15, #17f9a6, #00E1FF, #7164FF, #ececec)

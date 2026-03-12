@@ -123,41 +123,9 @@ table
     text-decoration: line-through
     &:hover
       animation: blinker 1s linear infinite
-
-.category-footer
-  flex-direction: column
-  font-family: "Yellowtail", monospace
-  font-size: var(--font-s)
-  margin: 24px 0
-  padding: 30px 0 0 
-  text-align: center
-  a
-    font-size: var(--font-m)
-  span
-    color: var(--color-title)
-  h1
-    color: #fff
-    text-wrap: wrap
-    word-break: break-all
-  ul
-    color: var(--color-grey-dark)
-    margin: 0 0 24px
-
-.category-links
-  color: var(--color-border)
-  padding: 12px 0 48px
-  line-height: 2.2rem
-  a
-    text-decoration: underline
-    text-decoration-style: dotted
-  a:hover
-    animation: blinker 1s linear infinite
-
-.category-links-slash
-  color: inherit
   opacity: 0.5
 
-.category-section
+.category
   flex-direction: column
   font-family: "Yellowtail", monospace
   font-size: var(--font-s)
@@ -203,8 +171,26 @@ table
   p
     font-family: "Reddit Mono", monospace
 
-.effect-glitch
-  color: var(--color-green)
+.category-links
+  color: var(--color-border)
+  padding: 12px 0 48px
+  line-height: 2.2rem
+  a
+    text-decoration: underline
+    text-decoration-style: dotted
+  a:hover
+    animation: blinker 1s linear infinite
+
+.category-links-slash
+  color: inherit
+  opacity: 0.5
+
+.category-footer
+  font-family: "Yellowtail", monospace
+  font-size: var(--font-m)
+  margin: 24px 0
+  padding: 30px 0 0 
+  text-align: center
 
 .fade-in
   opacity: 1
@@ -624,33 +610,27 @@ table
   margin: 120px 0
   padding: 0 12.5vw
 
-.subcategory
-  break-inside: avoid-column
-  color: var(--color-grey-medium)
+.subcategory-container
   display: flex
-  filter: grayscale(0.99)
-  font-family: "Tiny5", monospace
+  break-inside: avoid-column
+
+.subcategory
+  padding: 12px 0
   opacity: 0.6
+  filter: grayscale(0.99)
   transition: 1.2s ease-in-out
-  h2
-    font-size: var(--font-l)
   img
-    border-radius: 0 24px 0 24px 
     cursor: pointer
-  span, h1
-    display: flex
-    align-items: center
   &:hover
     cursor: pointer
     filter: grayscale(0)
     opacity: 1.0
     transition: 1.2s ease-in-out
     h2
+      font-size: var(--font-l)
       transition: 1.2s ease-in-out
     p
       color: var(--color-grey-light)
-.subcategory-container
-  padding: 12px 0
 
 .subcategory-banner
   img

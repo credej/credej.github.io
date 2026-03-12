@@ -15,7 +15,7 @@
     display: block;
     padding: 8px 0;
   }
-  .category-section {
+  .category {
     padding: 36px;
   }
   .category-subtitle {
@@ -157,8 +157,6 @@
   .subcategory {
     filter: grayscale(0);
     opacity: 1;
-  }
-  .subcategories {
     text-align: center;
   }
   .subcategory-title {
@@ -254,7 +252,7 @@
   }
 }
 @media screen and (min-width: 1080px) and (max-width: 1439px) {
-  .category-section-title h1 {
+  .category-title h1 {
     font-size: var(--font-xl);
   }
   .site-main {
@@ -288,7 +286,7 @@
   .intro {
     text-align: justify;
   }
-  .category-section--title h1 {
+  .category--title h1 {
     letter-spacing: 0.52rem;
     font-size: var(--font-xl);
   }

@@ -37,10 +37,8 @@ body .project-desc p {
   color: #fff;
 }
 body .project-desc,
+body .project-header,
 body .project-section p {
-  color: var(--color-white);
-}
-body .project-header {
   color: var(--color-white);
 }
 body .project-links a {
