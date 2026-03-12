@@ -60,6 +60,15 @@ table {
   color: #000;
 }
 
+.menu-category-title,
+.quote-by,
+.quote-text,
+.page-header-excerpt p,
+.project-section,
+.project-title {
+  cursor: default;
+}
+
 #navbar {
   padding: 0 12.5vw;
 }
@@ -946,15 +955,6 @@ table {
 
 .spacer-l {
   height: 180px;
-}
-
-.menu-category-title,
-.quote-by,
-.quote-text,
-.page-header-excerpt p,
-.project-section,
-.project-title {
-  cursor: default;
 }
 
 /* EXTENZE */
