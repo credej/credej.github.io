@@ -13,7 +13,7 @@
   }
   .category-links a {
     display: block;
-    padding: 8px 0;
+    padding: 4px 0;
   }
   .category {
     padding: 36px;
@@ -46,6 +46,16 @@
   .category-title i {
     font-size: var(--font-xl);
     padding: 0 0 12px;
+  }
+  .contact {
+    padding: 48px 48px 72px;
+    text-align: center;
+  }
+  .contact p {
+    font-size: var(--font-s);
+  }
+  .contact a {
+    font-size: var(--font-m);
   }
   .effect-glitch {
     animation-name: glitch;
@@ -168,6 +178,7 @@
   .subcategory-title h2 {
     color: var(--color-blue);
     line-height: 1.2em;
+    font-size: var(--font-m);
   }
 }
 @media screen and (min-width: 100px) and (max-width: 539px) {
