@@ -738,14 +738,10 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .subcategory {
-  padding: 12px 0;
-  opacity: 0.6;
   filter: grayscale(0.99);
+  opacity: 0.6;
+  padding: 36px 0;
   transition: 1.2s ease-in-out;
-}
-.subcategory:hover {
-  transform: translateY(-2px);
-  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .subcategory img {
   border-radius: 16px 0 16px 0;
@@ -758,7 +754,6 @@ p, h1, h2, h3, h4, h5 {
   transition: 1.2s ease-in-out;
 }
 .subcategory:hover h2 {
-  font-size: var(--font-l);
   transition: 1.2s ease-in-out;
 }
 .subcategory:hover p {
@@ -770,15 +765,25 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .subcategory-title {
+  display: flex;
+  align-items: flex-end;
+  height: 70px;
   font-family: "Russo One", sans-serif;
   font-family: "Courier Prime", monospace;
   font-family: "Yellowtail", monospace;
 }
 .subcategory-title h2 {
+  cursor: pointer;
   font-size: var(--font-l);
 }
 
+.subcategory-excerpt {
+  display: flex;
+  align-items: stretch;
+}
 .subcategory-excerpt p {
+  align-items: stretch;
+  cursor: pointer;
   line-height: 1.4rem;
   margin: 12px 0;
 }

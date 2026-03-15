@@ -604,18 +604,17 @@ p, h1, h2, h3, h4, h5
   margin: 120px 0
   padding: 0 12.5vw
 
+
 .subcategory-container
   display: flex
   break-inside: avoid-column
 
+
 .subcategory
-  padding: 12px 0
-  opacity: 0.6
   filter: grayscale(0.99)
+  opacity: 0.6
+  padding: 36px 0
   transition: 1.2s ease-in-out
-  &:hover
-    transform: translateY(-2px)
-    transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease
   img
     border-radius: 16px 0 16px 0
     cursor: pointer
@@ -625,7 +624,6 @@ p, h1, h2, h3, h4, h5
     opacity: 1.0
     transition: 1.2s ease-in-out
     h2
-      font-size: var(--font-l)
       transition: 1.2s ease-in-out
     p
       color: var(--color-grey-light)
@@ -635,14 +633,22 @@ p, h1, h2, h3, h4, h5
     margin: 12px 0 18px
 
 .subcategory-title
+  display: flex
+  align-items: flex-end
+  height: 70px
   font-family: "Russo One", sans-serif
   font-family: "Courier Prime", monospace
   font-family: "Yellowtail", monospace
   h2
+    cursor: pointer
     font-size: var(--font-l)
 
 .subcategory-excerpt
+  display: flex
+  align-items: stretch
   p
+    align-items: stretch
+    cursor: pointer
     line-height: 1.4rem
     margin: 12px 0
 
