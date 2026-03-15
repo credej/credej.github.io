@@ -170,6 +170,7 @@
   .subcategory {
     filter: grayscale(0);
     opacity: 1;
+    padding: 36px 0;
     text-align: center;
   }
   .subcategory-title {

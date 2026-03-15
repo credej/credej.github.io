@@ -605,15 +605,16 @@ p, h1, h2, h3, h4, h5
   padding: 0 12.5vw
 
 
+
+
 .subcategory-container
   display: flex
   break-inside: avoid-column
 
-
 .subcategory
   filter: grayscale(0.99)
   opacity: 0.6
-  padding: 36px 0
+  padding: 12px 0
   transition: 1.2s ease-in-out
   img
     border-radius: 16px 0 16px 0
@@ -646,11 +647,15 @@ p, h1, h2, h3, h4, h5
 .subcategory-excerpt
   display: flex
   align-items: stretch
+  min-height: 80px /* fix shim */
   p
     align-items: stretch
     cursor: pointer
     line-height: 1.4rem
     margin: 12px 0
+
+
+
 
 .stat 
   flex: 1
