@@ -1211,12 +1211,12 @@
       "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
     },
-    "\/pages\/design\/sketch\/img\/arch-banner.jpg" : {
+    "\/pages\/design\/artwork\/img\/arch-banner.jpg" : {
       "ft" : 16384,
       "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/arch-banner.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/arch-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1224,12 +1224,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/arch-subway-1.jpg" : {
+    "\/pages\/design\/artwork\/img\/arch-subway-1.jpg" : {
       "ft" : 16384,
       "iS" : 67206,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/arch-subway-1.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/arch-subway-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1237,12 +1237,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-banner-backup.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-banner-backup.jpg" : {
       "ft" : 16384,
       "iS" : 681272,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-banner-backup.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-banner-backup.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1250,12 +1250,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-banner.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-banner.jpg" : {
       "ft" : 16384,
       "iS" : 291296,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-banner.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1263,12 +1263,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-bee.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-bee.jpg" : {
       "ft" : 16384,
       "iS" : 3436513,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-bee.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-bee.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1276,12 +1276,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-dog-max.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-dog-max.jpg" : {
       "ft" : 16384,
       "iS" : 414999,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-dog-max.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-dog-max.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1289,12 +1289,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-gemini-symbols.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-gemini-symbols.jpg" : {
       "ft" : 16384,
       "iS" : 139243,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-gemini-symbols.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-gemini-symbols.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1302,12 +1302,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-indians.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-indians.jpg" : {
       "ft" : 16384,
       "iS" : 628362,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-indians.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-indians.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1315,12 +1315,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-combined.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-combined.jpg" : {
       "ft" : 16384,
       "iS" : 3353274,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-combined.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-combined.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1328,12 +1328,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day-color.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day-color.jpg" : {
       "ft" : 16384,
       "iS" : 1601419,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day-color.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1341,12 +1341,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day.jpg" : {
       "ft" : 16384,
       "iS" : 4791430,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-day.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1354,12 +1354,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night-color.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night-color.jpg" : {
       "ft" : 16384,
       "iS" : 1544042,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night-color.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1367,12 +1367,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night.jpg" : {
       "ft" : 16384,
       "iS" : 9015643,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo-gemini-night.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1380,12 +1380,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/img\/sketch-tattoo.jpg" : {
+    "\/pages\/design\/artwork\/img\/sketch-tattoo.jpg" : {
       "ft" : 16384,
       "iS" : 2944520,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/img\/sketch-tattoo.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1393,20 +1393,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/sketch\/index.html" : {
+    "\/pages\/design\/artwork\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/sketch\/index.html",
+      "oAP" : "\/pages\/design\/artwork\/index.html",
       "oF" : 0
     },
-    "\/pages\/design\/web\/img\/cybergrad-badges-sample.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/cybergrad-badges-sample.jpg" : {
       "ft" : 16384,
       "iS" : 148816,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/cybergrad-badges-sample.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/cybergrad-badges-sample.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1414,12 +1414,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/cybergrad-badges.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/cybergrad-badges.jpg" : {
       "ft" : 16384,
       "iS" : 583688,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/cybergrad-badges.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/cybergrad-badges.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1427,11 +1427,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/cybergrad-logo-2nf3.png" : {
+    "\/pages\/design\/graphicsweb\/img\/cybergrad-logo-2nf3.png" : {
       "ft" : 32768,
       "iS" : 426370,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/cybergrad-logo-2nf3.png",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/cybergrad-logo-2nf3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1440,12 +1440,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-absolut.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-absolut.jpg" : {
       "ft" : 16384,
       "iS" : 286986,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-absolut.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-absolut.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1453,12 +1453,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-banner-2.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-banner-2.jpg" : {
       "ft" : 16384,
       "iS" : 317679,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-banner-2.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1466,12 +1466,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-banner.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-banner.jpg" : {
       "ft" : 16384,
       "iS" : 317467,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-banner.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1479,12 +1479,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-electron.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-electron.jpg" : {
       "ft" : 16384,
       "iS" : 50911,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-electron.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-electron.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1492,12 +1492,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-fedor.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-fedor.jpg" : {
       "ft" : 16384,
       "iS" : 275805,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-fedor.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-fedor.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1505,12 +1505,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-strikeforce.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-strikeforce.jpg" : {
       "ft" : 16384,
       "iS" : 206839,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-strikeforce.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-strikeforce.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1518,12 +1518,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-styleguide-0.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-0.jpg" : {
       "ft" : 16384,
       "iS" : 187050,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-styleguide-0.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-0.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1531,12 +1531,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-styleguide-1.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-1.jpg" : {
       "ft" : 16384,
       "iS" : 207250,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-styleguide-1.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1544,12 +1544,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-styleguide-2.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-2.jpg" : {
       "ft" : 16384,
       "iS" : 281510,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-styleguide-2.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-styleguide-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1557,12 +1557,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/graphics-worksample.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/graphics-worksample.jpg" : {
       "ft" : 16384,
       "iS" : 60430,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/graphics-worksample.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-worksample.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1570,12 +1570,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-cja.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-cja.jpg" : {
       "ft" : 16384,
       "iS" : 211295,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-cja.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-cja.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1583,12 +1583,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-covisus.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-covisus.jpg" : {
       "ft" : 16384,
       "iS" : 207871,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-covisus.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-covisus.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1596,12 +1596,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-ctc.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-ctc.jpg" : {
       "ft" : 16384,
       "iS" : 894179,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-ctc.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-ctc.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1609,12 +1609,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-f5.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-f5.jpg" : {
       "ft" : 16384,
       "iS" : 352071,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-f5.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-f5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1622,12 +1622,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-scc-1.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-scc-1.jpg" : {
       "ft" : 16384,
       "iS" : 822555,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-scc-1.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-scc-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1635,12 +1635,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-scc-2.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-scc-2.jpg" : {
       "ft" : 16384,
       "iS" : 117630,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-scc-2.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-scc-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1648,12 +1648,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-scc-mobile.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-scc-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 219260,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-scc-mobile.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-scc-mobile.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1661,12 +1661,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/img\/web-senitron.jpg" : {
+    "\/pages\/design\/graphicsweb\/img\/web-senitron.jpg" : {
       "ft" : 16384,
       "iS" : 320728,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/img\/web-senitron.jpg",
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/web-senitron.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1674,12 +1674,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/web\/index.html" : {
+    "\/pages\/design\/graphicsweb\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/web\/index.html",
+      "oAP" : "\/pages\/design\/graphicsweb\/index.html",
       "oF" : 0
     },
     "\/pages\/diy\/cli\/index.html" : {

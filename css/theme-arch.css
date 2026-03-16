@@ -21,8 +21,6 @@ body .page-header-excerpt p {
 /* THEME - DARK */
 body.dark-mode {
   background-color: var(--color-grey-dark);
-  background-size: cover;
-  height: 100%;
   color: white;
 }
 body.dark-mode #menu-button i {

@@ -221,7 +221,7 @@ p, h1, h2, h3, h4, h5 {
 .category-footer {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
-  margin: 24px 0;
+  margin: 72px 0 24px;
   padding: 30px 0 0;
   text-align: center;
 }
@@ -248,6 +248,10 @@ p, h1, h2, h3, h4, h5 {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
+}
+
+.footer {
+  margin: 48px 0 !important;
 }
 
 .footer-back-to-top {

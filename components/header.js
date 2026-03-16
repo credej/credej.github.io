@@ -61,8 +61,8 @@ class Header extends HTMLElement {
                      </div>
                      <div class="menu-list">
                         <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
-                        <a href="/pages/design/web/index.html" target=_self>Graphic & Web</a>
-                        <a href="/pages/design/sketch/index.html" target=_self>Sketching</a>
+                        <a href="/pages/design/graphicsweb/index.html" target=_self>Graphics & Web</a>
+                        <a href="/pages/design/artwork/index.html" target=_self>Artwork</a>
                      </div>
                   </div>
                </div>
@@ -130,9 +130,9 @@ class Header extends HTMLElement {
          </div>
       </nav>
 
-      <div class="footer-construction">
+      <!--<div class="footer-construction">
          <p>Site Under Construction!</p>
-      </div>
+      </div>-->
 
     `;
   }

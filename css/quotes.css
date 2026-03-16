@@ -71,7 +71,7 @@ body.dark-mode .quote-by {
   color: var(--color-grey-medium);
 }
 body.dark-mode .page-header-excerpt {
-  background-color: var(--color-grey-dark);
+  background-color: #151E27;
 }
 body.dark-mode .quote-link a {
   color: var(--color-blue-light);
