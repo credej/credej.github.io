@@ -77,8 +77,5 @@ body.dark-mode .project-section-title h3 {
   color: var(--color-white);
 }
 body.dark-mode .project-links a {
-  color: #41A493;
-}
-body.dark-mode .project-links a:hover {
   color: #5EEAD4;
 }

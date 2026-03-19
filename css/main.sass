@@ -54,7 +54,6 @@ table
 .stat li,
 p, h1, h2, h3, h4, h5
   cursor: default
-  cursor: default
 
 #navbar
   padding: 0 12.5vw
@@ -93,15 +92,17 @@ p, h1, h2, h3, h4, h5
   a
     border: 3px solid var(--color-green)
     border-radius: 8px 0 8px 0
-    color: var(--color-green)
+    background: var(--color-green)
+    color: var(--color-cyber-bg)
     font-size: var(--font-l)
+    font-weight: 900
     padding: 12px
     margin: 4px
     font-family: "Cutive Mono", monospace
     &:hover
       animation: blinker 1s linear infinite
-      background: var(--color-green)
-      color: var(--color-cyber-bg)
+      background: none
+      color: var(--color-green)
 
 .bookmark-section
   margin-left: 1rem
@@ -114,6 +115,7 @@ p, h1, h2, h3, h4, h5
     color: var(--color-green)
     font-family: "Courier Prime", monospace
     font-size: var(--font-l)
+    font-weight: 900
     padding: 0 0 1vh
     text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
   li
@@ -183,14 +185,14 @@ p, h1, h2, h3, h4, h5
   font-family: "Yellowtail", monospace
   font-size: var(--font-m)
   margin: 72px 0 24px
-  padding: 30px
+  padding: 32px 72px
   text-align: center
-
 .contact
   margin: 96px 0
   padding: 48px 72px 72px
   p
     font-size: var(--font-l)
+    margin: 48px 0 24px
   a
     color: var(--color-green)
     font-size: var(--font-xl)
@@ -217,7 +219,7 @@ p, h1, h2, h3, h4, h5
   left: 4rem
   bottom: 4rem
   display: flex
-  opacity: 0.29 !important
+  opacity: 0.5 !important
   padding: 0.87rem
   position: fixed
   transition: all .4s
@@ -225,12 +227,11 @@ p, h1, h2, h3, h4, h5
   width: 4rem
   z-index: 8999
   &:hover
-    filter: invert(.8)
-    opacity: 1.0
-    -webkit-filter: invert(.8) /* safari 6.0 - 9.0 */
+    background-color: var(--color-grey-dark)
+    opacity: 0.6
   &:active
-    filter: invert(1)
-    -webkit-filter: invert(1) /* safari 6.0 - 9.0 */
+    background-color: var(--color-green)
+    opacity: 1.0
 
 .footer-back-to-top-container
   display: flex
@@ -513,7 +514,7 @@ p, h1, h2, h3, h4, h5
     text-align: justify
 
 .project-header
-  padding: 24px 0 96px
+  padding: 24px 0 48px
   font-family: "Yellowtail", monospace
   p
     font-size: var(--font-m)
@@ -604,7 +605,7 @@ p, h1, h2, h3, h4, h5
     color: white
 
 .site-main
-  margin: 120px 0
+  margin: 144px 0 0
   padding: 0 12.5vw
 
 

@@ -5,9 +5,6 @@ body {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
-body .project-desc p {
-  color: var(--color-grey-dark);
-}
 body .project-links a {
   color: #fff;
   text-shadow: var(--text-shadow-3);
@@ -16,18 +13,17 @@ body .project-section p {
   color: var(--color-grey-dark);
 }
 body .project-desc p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
-body .project-title h1,
 body .project-subtitle,
 body figcaption {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
 body .project-title h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
 body .project-title i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
 }
 
 /* CYBERGRAD - DARK */
@@ -44,9 +40,15 @@ body.dark-mode .project-title h1 {
 body.dark-mode figcaption {
   color: var(--color-grey-medium);
 }
+body.dark-mode .project-desc p {
+  color: var(--color-grey-medium);
+}
 body.dark-mode .project-links a {
   color: #FFDF00;
 }
 body.dark-mode .project-title i {
   color: #FFDF00;
+}
+body.dark-mode .project-subtitle {
+  color: var(--color-grey-medium);
 }
