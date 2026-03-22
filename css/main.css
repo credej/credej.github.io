@@ -609,7 +609,6 @@ p, h1, h2, h3, h4, h5 {
   color: white;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xxl);
-  letter-spacing: 0.8rem;
 }
 .project-header h1:after {
   padding: 24px;
@@ -622,7 +621,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .project-header {
-  padding: 24px 0 48px;
   font-family: "Yellowtail", monospace;
 }
 .project-header p {
@@ -712,11 +710,6 @@ p, h1, h2, h3, h4, h5 {
   margin: 0 24px 0 0;
 }
 .project-title h1 {
-  white-space: pre-wrap;
-  word-break: break-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   font-size: var(--font-xxl);
 }
 .project-title h1:after {
@@ -876,12 +869,13 @@ p, h1, h2, h3, h4, h5 {
 .stats {
   flex: 1;
   padding: 1rem;
+  margin: 128px 0 12px !important;
 }
 
 .stats-container-title {
   display: flex;
   justify-content: center;
-  margin: 72px 0 12px;
+  margin: 48px 0 0;
 }
 .stats-container-title h1 {
   color: var(--color-green);

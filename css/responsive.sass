@@ -103,31 +103,60 @@
       text-align: center
   .page-header-title
     justify-content: center
+    h1 
+      font-size: var(--font-l)
+      letter-spacing: 0.3rem
   .page-title
-    font-size: var(--font-xl)
+    font-size: var(--font-l)
     h1
       letter-spacing: 0.6rem
   .project-desc 
     p
       font-size: var(--font-s)
       line-height: 1.5rem
-      text-align: left
   .project-header
+    padding: 0
+    text-align: center
+    a:hover
+      animation: none /* shim */
     p
       font-size: var(--font-s)
+      letter-spacing: -0.1rem
+      line-height: 1.2rem
+      margin: 24px 0
+    h4
+      font-size: var(--font-s)
+      line-height: 1.2rem
     h5
       font-size: var(--font-s)
+  a:hover
+    animation: blinker 1s linear infinite
   .project-links 
+    padding: 24px
     a
       font-size: var(--font-s)
       text-shadow: var(--text-shadow-1)
   .project-title
     justify-content: center
+    flex-direction: column
+    margin: 12px 0
+    i
+      margin: 0 0 8px
     h1
+      font-size: var(--font-xl)
+      letter-spacing: 0
+      line-height: 1.6rem
       &:after
         display: none
+  .project-section-title
+    text-align: center
+  .project-subtitle
+    margin: 0 0 12px
+    text-align: center
   .section-header
     text-align: center
+  .site-main
+    padding: 0 5vh
   .subcategory
     filter: grayscale(0.0)
     opacity: 1.0 
@@ -149,8 +178,6 @@
 
 @media screen and (min-width: 100px) and (max-width: 539px)
   #navbar
-    padding: 0 7.5vw !important
-  .site-main
     padding: 0 7.5vw !important
   .bookmark-glossary
     margin: 36px 0
@@ -175,9 +202,6 @@
     padding: 48px 32px
   .project-subtitle
     font-size: var(--font-s)
-  .project-title 
-    h1
-      letter-spacing: 0.5rem 
 
 @media screen and (min-width: 540px) and (max-width: 755px)
   .badges

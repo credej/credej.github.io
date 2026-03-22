@@ -137,8 +137,12 @@
   .page-header-title {
     justify-content: center;
   }
+  .page-header-title h1 {
+    font-size: var(--font-l);
+    letter-spacing: 0.3rem;
+  }
   .page-title {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
   }
   .page-title h1 {
     letter-spacing: 0.6rem;
@@ -146,13 +150,32 @@
   .project-desc p {
     font-size: var(--font-s);
     line-height: 1.5rem;
-    text-align: left;
+  }
+  .project-header {
+    padding: 0;
+    text-align: center;
+  }
+  .project-header a:hover {
+    animation: none;
   }
   .project-header p {
     font-size: var(--font-s);
+    letter-spacing: -0.1rem;
+    line-height: 1.2rem;
+    margin: 24px 0;
+  }
+  .project-header h4 {
+    font-size: var(--font-s);
+    line-height: 1.2rem;
   }
   .project-header h5 {
     font-size: var(--font-s);
+  }
+  a:hover {
+    animation: blinker 1s linear infinite;
+  }
+  .project-links {
+    padding: 24px;
   }
   .project-links a {
     font-size: var(--font-s);
@@ -160,12 +183,32 @@
   }
   .project-title {
     justify-content: center;
+    flex-direction: column;
+    margin: 12px 0;
+  }
+  .project-title i {
+    margin: 0 0 8px;
+  }
+  .project-title h1 {
+    font-size: var(--font-xl);
+    letter-spacing: 0;
+    line-height: 1.6rem;
   }
   .project-title h1:after {
     display: none;
   }
+  .project-section-title {
+    text-align: center;
+  }
+  .project-subtitle {
+    margin: 0 0 12px;
+    text-align: center;
+  }
   .section-header {
     text-align: center;
+  }
+  .site-main {
+    padding: 0 5vh;
   }
   .subcategory {
     filter: grayscale(0);
@@ -193,9 +236,6 @@
 }
 @media screen and (min-width: 100px) and (max-width: 539px) {
   #navbar {
-    padding: 0 7.5vw !important;
-  }
-  .site-main {
     padding: 0 7.5vw !important;
   }
   .bookmark-glossary {
@@ -227,9 +267,6 @@
   }
   .project-subtitle {
     font-size: var(--font-s);
-  }
-  .project-title h1 {
-    letter-spacing: 0.5rem;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {

@@ -495,14 +495,13 @@ p, h1, h2, h3, h4, h5
     font-size: var(--font-m)
   a
     font-size: var(--font-m) 
-    mix-blend-mode: normal 
+    mix-blend-mode: normal
   a:hover
     animation: blinker 1s linear infinite
   h1
     color: white
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxl)
-    letter-spacing: 0.8rem
     &:after
       padding: 24px
       @extend .blinker
@@ -514,7 +513,6 @@ p, h1, h2, h3, h4, h5
     text-align: justify
 
 .project-header
-  padding: 24px 0 48px
   font-family: "Yellowtail", monospace
   p
     font-size: var(--font-m)
@@ -586,11 +584,6 @@ p, h1, h2, h3, h4, h5
     font-size: var(--font-xl)
     margin: 0 24px 0 0
   h1
-    white-space: pre-wrap 
-    word-break: break-word 
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
     font-size: var(--font-xxl)
     &:after
       padding: 24px
@@ -731,11 +724,12 @@ p, h1, h2, h3, h4, h5
 .stats
   flex: 1
   padding: 1rem
+  margin: 128px 0 12px !important
 
 .stats-container-title
   display: flex
   justify-content: center
-  margin: 72px 0 12px
+  margin: 48px 0 0
   h1
     color: var(--color-green)
     font-family: "Doto", serif 

@@ -76,6 +76,9 @@ body.dark-mode .project-section p {
 body.dark-mode .project-section-title h3 {
   color: var(--color-white);
 }
+body.dark-mode .project-subtitle {
+  color: var(--color-grey-medium);
+}
 body.dark-mode .project-links a {
   color: #5EEAD4;
 }
