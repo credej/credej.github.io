@@ -412,6 +412,9 @@ p, h1, h2, h3, h4, h5
     font-size: var(--font-xxl)
     font-family: "Tiny5", monospace
 
+.page-section
+  margin: 48px 0
+
 .page-header
   display: flex
   flex-direction: row
@@ -507,28 +510,6 @@ p, h1, h2, h3, h4, h5
       @extend .blinker
       content: "_"
 
-.project-desc
-  p
-    font-family: "Courier Prime", monospace
-    text-align: justify
-
-.project-header
-  font-family: "Yellowtail", monospace
-  a
-    font-size: var(--font-m) 
-    mix-blend-mode: normal 
-    &:hover
-      animation: blinker 1s linear infinite
-  h1
-    color: white
-    font-family: "Courier Prime", monospace
-    font-size: var(--font-xxl)
-    letter-spacing: 0.8rem
-    &:after
-      padding: 24px
-      @extend .blinker
-      content: "_"
-
 .project-title
   display: flex
   align-items: center
@@ -549,23 +530,18 @@ p, h1, h2, h3, h4, h5
   font-size: var(--font-m)
   margin: 4px 0
 
-.project-overview     
-  margin: 36px 0
+.project-overview
+  margin: 24px 0
   p
     font-size: var(--font-m)
 
-
-
 .project-links
-  padding: 48px 48px 24px
+  padding: 24px 48px 24px
   display: flex
   flex-direction: column
   a
     font-weight: 900
     margin: 6px 0
-
-.page-section
-  margin: 48px 0
 
 .project-section
   font-family: "Yellowtail", monospace
@@ -575,7 +551,6 @@ p, h1, h2, h3, h4, h5
     color: var(--color-white)
     line-height: 1.8rem
   a
-    margin-bottom: 4px !important
     mix-blend-mode: normal !important
     &:hover
       animation: blinker 1s linear infinite
@@ -587,13 +562,17 @@ p, h1, h2, h3, h4, h5
   span
     color: var(--color-title)
     margin-right: 24px
-  /*mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;*/
 
 .project-section-title
   h3
     color: white
     font-size: var(--font-l) 
     text-shadow: var(--text-shadow-1)
+
+.project-section-desc
+  p
+    font-family: "Courier Prime", monospace
+    text-align: justify
 
 .section-header
   font-family: "Courier Prime", monospace

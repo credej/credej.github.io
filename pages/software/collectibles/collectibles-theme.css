@@ -12,7 +12,7 @@ body .project-links a {
 body .project-section p {
   color: var(--color-grey-dark);
 }
-body .project-desc p {
+body .project-section-desc p {
   color: var(--color-grey-dark);
 }
 body .project-subtitle,
@@ -40,7 +40,7 @@ body.dark-mode .project-title h1 {
 body.dark-mode figcaption {
   color: var(--color-grey-medium);
 }
-body.dark-mode .project-desc p {
+body.dark-mode .project-section-desc p {
   color: var(--color-grey-medium);
 }
 body.dark-mode .project-links a {

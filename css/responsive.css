@@ -147,10 +147,6 @@
   .page-title h1 {
     letter-spacing: 0.6rem;
   }
-  .project-desc p {
-    font-size: var(--font-s);
-    line-height: 1.5rem;
-  }
   .project-header {
     padding: 0;
     text-align: center;
@@ -158,24 +154,11 @@
   .project-header a:hover {
     animation: none;
   }
-  .project-header p {
-    font-size: var(--font-s);
-    letter-spacing: -0.1rem;
-    line-height: 1.2rem;
-    margin: 24px 0;
-  }
   .project-header h5 {
     font-size: var(--font-s);
   }
   a:hover {
     animation: blinker 1s linear infinite;
-  }
-  .project-links {
-    padding: 24px 0;
-  }
-  .project-links a {
-    font-size: var(--font-s);
-    text-shadow: var(--text-shadow-1);
   }
   .project-title {
     justify-content: center;
@@ -183,7 +166,7 @@
     margin: 12px 0;
   }
   .project-title i {
-    margin: 0 0 8px;
+    margin: 0 0 12px;
   }
   .project-title h1 {
     font-size: var(--font-xl);
@@ -193,13 +176,35 @@
   .project-title h1:after {
     display: none;
   }
-  .project-section-title {
-    text-align: center;
-  }
   .project-subtitle {
     font-size: var(--font-xs);
     margin: 0 0 12px;
     text-align: center;
+  }
+  .project-overview {
+    padding: 24px 0;
+  }
+  .project-overview p {
+    font-size: var(--font-s);
+    letter-spacing: -0.1rem;
+    line-height: 1.2rem;
+  }
+  .project-links {
+    padding: 24px 0;
+  }
+  .project-links a {
+    font-size: var(--font-s);
+    text-shadow: var(--text-shadow-1);
+  }
+  .project-section {
+    padding: 36px;
+  }
+  .project-section-title {
+    text-align: center;
+  }
+  .project-section-desc p {
+    font-size: var(--font-s);
+    line-height: 1.5rem;
   }
   .section-header {
     text-align: center;
@@ -258,9 +263,6 @@
   }
   .img-gallery-full img {
     margin: 48px 0 0;
-  }
-  .project-section {
-    padding: 48px 32px;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {

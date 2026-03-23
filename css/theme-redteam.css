@@ -2,7 +2,7 @@
 body {
   background-color: #1F4483 !important;
 }
-body .project-desc p {
+body .project-section-desc p {
   color: var(--color-blue-light);
 }
 body .project-header p {

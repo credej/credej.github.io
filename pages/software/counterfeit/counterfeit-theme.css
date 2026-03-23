@@ -5,13 +5,13 @@ body {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
-body .project-desc p {
+body .project-section-desc p {
   color: var(--color-grey-dark);
 }
 body .project-section p {
   color: var(--color-grey-dark);
 }
-body .project-desc p {
+body .project-section-desc p {
   color: var(--color-grey-light);
 }
 body .project-title h1,

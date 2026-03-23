@@ -33,10 +33,10 @@ body .bg-cyber {
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-body .project-desc p {
+body .project-section-desc p {
   color: #fff;
 }
-body .project-desc,
+body .project-section-desc,
 body .project-header,
 body .project-section p {
   color: var(--color-white);
@@ -66,10 +66,10 @@ body.dark-mode .bg-cyber {
 body.dark-mode .img-fullsize figcaption {
   color: #7CCAC2;
 }
-body.dark-mode .project-desc a {
+body.dark-mode .project-section-desc a {
   color: #5EEAD4;
 }
-body.dark-mode .project-desc,
+body.dark-mode .project-section-desc,
 body.dark-mode .project-section p {
   color: #BFE4E2;
 }
