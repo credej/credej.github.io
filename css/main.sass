@@ -514,8 +514,6 @@ p, h1, h2, h3, h4, h5
 
 .project-header
   font-family: "Yellowtail", monospace
-  p
-    font-size: var(--font-m)
   a
     font-size: var(--font-m) 
     mix-blend-mode: normal 
@@ -530,6 +528,33 @@ p, h1, h2, h3, h4, h5
       padding: 24px
       @extend .blinker
       content: "_"
+
+.project-title
+  display: flex
+  align-items: center
+  margin: 4px 0
+  i
+    font-size: var(--font-xl)
+    margin: 0 24px 0 0
+  h1
+    font-size: var(--font-xxl)
+    &:after
+      padding: 24px
+      @extend .blinker
+      content: "_"
+
+.project-subtitle
+  color: var(--color-white)
+  opacity: 0.5
+  font-size: var(--font-m)
+  margin: 4px 0
+
+.project-overview     
+  margin: 36px 0
+  p
+    font-size: var(--font-m)
+
+
 
 .project-links
   padding: 48px 48px 24px
@@ -569,26 +594,6 @@ p, h1, h2, h3, h4, h5
     color: white
     font-size: var(--font-l) 
     text-shadow: var(--text-shadow-1)
-
-.project-subtitle
-  color: var(--color-white)
-  opacity: 0.5
-  font-size: var(--font-m)
-  margin: 6px 0 36px
-
-.project-title
-  display: flex
-  align-items: center
-  margin: 12px 0
-  i
-    font-size: var(--font-xl)
-    margin: 0 24px 0 0
-  h1
-    font-size: var(--font-xxl)
-    &:after
-      padding: 24px
-      @extend .blinker
-      content: "_"
 
 .section-header
   font-family: "Courier Prime", monospace

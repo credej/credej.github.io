@@ -623,9 +623,6 @@ p, h1, h2, h3, h4, h5 {
 .project-header {
   font-family: "Yellowtail", monospace;
 }
-.project-header p {
-  font-size: var(--font-m);
-}
 .project-header a {
   font-size: var(--font-m);
   mix-blend-mode: normal;
@@ -642,6 +639,37 @@ p, h1, h2, h3, h4, h5 {
 .project-header h1:after {
   padding: 24px;
   content: "_";
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+.project-title i {
+  font-size: var(--font-xl);
+  margin: 0 24px 0 0;
+}
+.project-title h1 {
+  font-size: var(--font-xxl);
+}
+.project-title h1:after {
+  padding: 24px;
+  content: "_";
+}
+
+.project-subtitle {
+  color: var(--color-white);
+  opacity: 0.5;
+  font-size: var(--font-m);
+  margin: 4px 0;
+}
+
+.project-overview {
+  margin: 36px 0;
+}
+.project-overview p {
+  font-size: var(--font-m);
 }
 
 .project-links {
@@ -691,30 +719,6 @@ p, h1, h2, h3, h4, h5 {
   color: white;
   font-size: var(--font-l);
   text-shadow: var(--text-shadow-1);
-}
-
-.project-subtitle {
-  color: var(--color-white);
-  opacity: 0.5;
-  font-size: var(--font-m);
-  margin: 6px 0 36px;
-}
-
-.project-title {
-  display: flex;
-  align-items: center;
-  margin: 12px 0;
-}
-.project-title i {
-  font-size: var(--font-xl);
-  margin: 0 24px 0 0;
-}
-.project-title h1 {
-  font-size: var(--font-xxl);
-}
-.project-title h1:after {
-  padding: 24px;
-  content: "_";
 }
 
 .section-header {
