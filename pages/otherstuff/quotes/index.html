@@ -19,7 +19,7 @@
 
       <div class="site">
          <div id="site-main" class="site-main">
-            
+
             <div class="page-header">
 
                <div class="page-header-title">
@@ -30,9 +30,9 @@
                <div class="page-header-image">
                   <img class="grayscale" src="img/quotes-banner.jpg" alt=Quotes>
                </div>
-
+             
                <div class="page-header-excerpt">
-                  <p>The following are some of the most thought provoking and inspiring words I have come across...</p>
+                  <p>“We hold these truths to be self-evident. All men and women are created, by the, you know, you know the thing...”</p>
                </div>
                
             </div>
@@ -513,11 +513,11 @@
             </div>
          </div>
             
-         <footer class=site-foot>      
+         <footer>
             <div class="footer">
                <div class="">
                   <div class="footer-button">
-                     <a href="#top" class="back-to-top" title="Back to Top">
+                     <a href="#top" class="footer-back-to-top" title="Back to Top">
                         <img src="/img/arrow-up.svg" alt="Back to Top" height="57" width="57" />
                      </a>
                   <footer-component></footer-component>
@@ -525,49 +525,48 @@
             </div>
          </footer>
       </div>
-      
-      <!-- back to top button -->
-      <script>
-         const handleFirstTab = (e) => {
-           if(e.key === 'Tab') {
-             document.body.classList.add('user-is-tabbing')
-
-             window.removeEventListener('keydown', handleFirstTab)
-             window.addEventListener('mousedown', handleMouseDownOnce)
-           }
-
-         }
-
-         const handleMouseDownOnce = () => {
-           document.body.classList.remove('user-is-tabbing')
-
-           window.removeEventListener('mousedown', handleMouseDownOnce)
-           window.addEventListener('keydown', handleFirstTab)
-         }
-
-         window.addEventListener('keydown', handleFirstTab)
-
-         const backToTopButton = document.querySelector(".footer-back-to-top");
-         let isBackToTopRendered = false;
-
-         let alterStyles = (isBackToTopRendered) => {
-           backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-           backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
-           backToTopButton.style.transform = isBackToTopRendered
-             ? "scale(1)"
-             : "scale(0)";
-         };
-
-         window.addEventListener("scroll", () => {
-           if (window.scrollY > 500) {
-             isBackToTopRendered = true;
-             alterStyles(isBackToTopRendered);
-           } else {
-             isBackToTopRendered = false;
-             alterStyles(isBackToTopRendered);
-           }
-         });
-      </script>
    </body>
+      
+   <!-- back to top button -->
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
 
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".footer-back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
 </html>
