@@ -1906,6 +1906,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/gadgets\/computers\/img\/computer-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 232353,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/computers\/img\/computer-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/gadgets\/computers\/img\/computer-pironman.jpg" : {
       "ft" : 16384,
       "iS" : 2172271,
@@ -2167,7 +2180,7 @@
       "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/banner-keyboard.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2178,6 +2191,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/gadgets-camera-canon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/keyboardmice\/img\/graphics-worksample.jpg" : {
+      "ft" : 16384,
+      "iS" : 135728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/keyboardmice\/img\/graphics-worksample.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2258,6 +2284,19 @@
       "oAP" : "\/pages\/gadgets\/keyboardmice\/index.html",
       "oF" : 0
     },
+    "\/pages\/gadgets\/otherdevices\/img\/banner-otherdevices.jpg" : {
+      "ft" : 16384,
+      "iS" : 135728,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/otherdevices\/img\/banner-otherdevices.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/gadgets\/otherdevices\/img\/other-devices-banner.jpg" : {
       "ft" : 16384,
       "iS" : 178553,
@@ -2334,7 +2373,7 @@
       "oAP" : "\/pages\/otherstuff\/goodeats\/img\/goodeats-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2454,15 +2493,41 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/otherstuff\/quotes\/img\/quotes-banner-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 93403,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/quotes-banner-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/quotes\/img\/quotes-banner-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 131185,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/quotes\/img\/quotes-banner-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/otherstuff\/quotes\/img\/quotes-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 249935,
+      "iS" : 233014,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/otherstuff\/quotes\/img\/quotes-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
