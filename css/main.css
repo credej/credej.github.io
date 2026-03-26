@@ -234,6 +234,7 @@ p, h1, h2, h3, h4, h5 {
 }
 .contact p {
   font-size: var(--font-l);
+  line-height: 2rem;
   margin: 48px 0 24px;
 }
 .contact a {
