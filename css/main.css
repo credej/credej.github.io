@@ -302,7 +302,7 @@ p, h1, h2, h3, h4, h5 {
 .footer-text {
   display: flex;
   justify-content: center;
-  padding: 87px;
+  padding: 48px;
 }
 
 .footer-construction {
@@ -720,7 +720,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .subcategory {
-  filter: grayscale(0.99);
   opacity: 0.6;
   padding: 12px 0;
   transition: 1.2s ease-in-out;
@@ -861,9 +860,10 @@ p, h1, h2, h3, h4, h5 {
   margin: 48px 0 0;
 }
 .stats-container-title h1 {
-  color: var(--color-green);
+  color: var(--color-white);
   font-family: "Doto", serif;
   font-size: var(--font-xl);
+  margin: 24px 0;
   text-transform: uppercase;
 }
 
