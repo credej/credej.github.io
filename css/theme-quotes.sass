@@ -1,14 +1,24 @@
+body
+  background-color: var(--color-grey-medium)
+
+.effect-glitch
+  color: var(--color-purple)
+  h1
+    text-shadow: var(--text-shadow-2)
+
 .quote-container
   break-inside: avoid
 
 .quote
-  padding: 0 0 5vh
+  background-color: var(--color-grey-medium)
+  padding: 0 0 72px
   text-align: right
-  background-color: var(--color-black) !important
 
 .quote-text
+  background-color: var(--color-grey-dark)
   border-radius: 16px 16px 0 16px
-  color: var(--color-light)
+  box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.2)
+  color: var(--color-grey-light)
   font-family: "Reddit Mono", monospace
   font-family: "Lusitana", serif
   font-style: italic
@@ -18,47 +28,46 @@
   margin-bottom: 12px
   padding: 36px
   text-align: left
-  box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.2)
 
 .quote-by
+  color: var(--color-grey-light)
   font-family: "Roboto Mono", monospace
   font-weight: 400
   font-style: normal
 
 .quote-link 
   font-family: "Cutive Mono", "Courier Prime", monospace
-  color: var(--color-white) !important 
-  line-height: 1.0rem !important
+  color: var(--color-purple)
+  font-size: var(--font-l)
+  line-height: 1.0rem
   text-align: right
+  text-shadow: var(--text-shadow-3)
   &:hover 
     animation: blinker 0.4s linear infinite
 
 /* THEME - LIGHT */
 
 .page-header-excerpt
+  background-color: #898989
   p
-    color: var(--color-grey-medium) !important
+    color: var(--color-white)
 
-body,
-.quote
-   background-color: var(--color-grey-medium) !important
+.page-header-title
+  h1
+    color: var(--color-white) 
+ 
 
-.quote-by
-  color: var(--color-grey-dark)
 
-.quote-text
-  background-color: var(--color-grey-light) !important
-  color: var(--color-grey-medium) !important
 
 /* THEME - DARK */
 
 body.dark-mode 
-  background-color: var(--color-black) !important
+  background-color: var(--color-black) 
   color: white
 
 body.dark-mode 
   .quote
-    background-color: var(--color-black) !important
+    background-color: var(--color-black) 
   .quote-by
     color: var(--color-grey-medium)
   .page-header-excerpt
@@ -67,6 +76,6 @@ body.dark-mode
     a 
       color: var(--color-blue-light)
   .quote-text
-    background-color: var(--color-grey-dark) !important
-    color: var(--color-grey-light) !important
+    background-color: var(--color-grey-dark)
+    color: var(--color-grey-light) 
 
