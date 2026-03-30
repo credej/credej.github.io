@@ -2540,6 +2540,27 @@
       "oAP" : "\/pages\/otherstuff\/quotes\/index.html",
       "oF" : 0
     },
+    "\/pages\/otherstuff\/remedies\/img\/remedies-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 244537,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/remedies\/img\/remedies-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/remedies\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/remedies\/index.html",
+      "oF" : 0
+    },
     "\/pages\/otherstuff\/test\/img\/banner-bookmark.jpg" : {
       "ft" : 16384,
       "iS" : 711740,
