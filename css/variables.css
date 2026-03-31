@@ -150,6 +150,13 @@
   color: var(--color-purple);
 }
 
+/* FONT EFFECTS */
+.redacted {
+  color: black;
+  font-family: "Redacted Script", system-ui;
+  font-family: "Redacted", system-ui;
+}
+
 /* NEON LIGHT EFFECT */
 .neon {
   animation: pulsate 0.11s ease-in-out infinite alternate;

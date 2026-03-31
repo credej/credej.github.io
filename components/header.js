@@ -136,6 +136,24 @@ class Header extends HTMLElement {
 
     `
   }
+  
+  constructor() {
+    super();
+      document.addEventListener('DOMContentLoaded', function() {
 
+         // Mobile Menu Toggle
+         const menuBtn = document.getElementById("menu-button");
+         const mobileMenu = document.getElementById("menu-expanded");
+
+         menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+         });
+
+         menuBtn.addEventListener("mouseout", () => {
+            mobileMenu.classList.toggle("show");
+         });
+      }, false);
+  }
+}
 
 customElements.define('header-component', Header);

@@ -1,3 +1,14 @@
+/* FUTURE CSS RULES NOT FULLY SUPPORTED YET */
+
+.trim-text {
+  text-box-trim: trim-both; /* Trim space from both top and bottom */
+  text-box-edge: cap alphabetic; /* Use the cap height for the top edge and baseline for the bottom edge */
+  line-height: 1; /* Set line height to a tight value (adjust as needed) */
+}
+
+
+
+
 @font-face 
   font-family: "Redacted", system-ui
   src: url('../fonts/Redacted-Regular.ttf') format('tff')

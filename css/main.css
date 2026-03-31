@@ -438,7 +438,7 @@ p, h1, h2, h3, h4, h5 {
   flex: 1;
   justify-content: center;
   text-align: center;
-  padding: 24px 0;
+  padding: 48px 0;
 }
 
 .menu-category {
@@ -448,11 +448,17 @@ p, h1, h2, h3, h4, h5 {
   justify-content: flex-start !important;
 }
 
+@font-face {
+  src: url("../fonts/Redacted-Regular.ttf") format("tff");
+  font-weight: 400;
+  font-style: normal;
+}
 .menu-category-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 4px 0;
 }
 .menu-category-title i {
   font-size: var(--font-xl);
@@ -460,10 +466,11 @@ p, h1, h2, h3, h4, h5 {
 }
 .menu-category-title h2 {
   font-family: "Yellowtail", monospace;
+  font-family: "Courier Prime", monospace;
   font-size: var(--font-l);
+  line-height: 1.1rem;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Courier Prime", monospace;
 }
 
 .menu-list {
