@@ -1,11 +1,10 @@
+/* THEME - LIGHT */
 body {
   background-color: var(--color-grey-medium);
 }
 
 .effect-glitch {
   color: var(--color-purple);
-}
-.effect-glitch h1 {
   text-shadow: var(--text-shadow-2);
 }
 
@@ -54,12 +53,11 @@ body {
   animation: blinker 0.4s linear infinite;
 }
 
-/* THEME - LIGHT */
 .page-header-excerpt {
   background-color: #898989;
 }
 .page-header-excerpt p {
-  color: var(--color-white);
+  color: var(--color-grey-dark);
 }
 
 .page-header-title h1 {

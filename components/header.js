@@ -134,39 +134,8 @@ class Header extends HTMLElement {
          <p>Site Under Construction!</p>
       </div>
 
-    `;
+    `
   }
-  constructor() {
-    super();
-      document.addEventListener('DOMContentLoaded', function() {
-         // // alert("enter at your own risk");
-         // let prevScrollPos = window.pageYOffset;
-         // const navbar = document.getElementById("navbar");
 
-         // // Auto-hide Navbar on scroll
-         // window.onscroll = function () {
-         //    let currentScrollPos = window.pageYOffset;
-         //    if (prevScrollPos > currentScrollPos) {
-         //        navbar.style.transform = "translateY(0)";
-         //    } else {
-         //        navbar.style.transform = "translateY(-100%)";
-         //    }
-         //    prevScrollPos = currentScrollPos;
-         // };
-
-         // Mobile Menu Toggle
-         const menuBtn = document.getElementById("menu-button");
-         const mobileMenu = document.getElementById("menu-expanded");
-
-         menuBtn.addEventListener("click", () => {
-            mobileMenu.classList.toggle("hidden");
-         });
-
-         menuBtn.addEventListener("mouseout", () => {
-            mobileMenu.classList.toggle("show");
-         });
-      }, false);
-  }
-}
 
 customElements.define('header-component', Header);
