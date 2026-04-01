@@ -30,6 +30,9 @@ body .badge img:hover {
 body .bg-cyber {
   background-color: #7CCAC2;
 }
+body .effect-glitch {
+  color: var(--color-blue);
+}
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }

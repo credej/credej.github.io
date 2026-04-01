@@ -1,10 +1,10 @@
 /* THEME - LIGHT */
-#menu-button i {
-  color: var(--color-grey-dark);
-}
-
 body {
   background-color: var(--color-grey-light);
+}
+
+#menu-button i {
+  color: var(--color-grey-dark);
 }
 
 .page-header-excerpt {

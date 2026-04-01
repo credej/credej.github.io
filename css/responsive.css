@@ -291,7 +291,7 @@
     cursor: pointer !important;
   }
   .effect-glitch:hover h1 {
-    color: var(--color-green);
+    color: var(--color-white);
   }
   .intro-category-icons span {
     padding: 0 8px;

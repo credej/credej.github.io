@@ -1,6 +1,9 @@
 /* THEME - LIGHT */
 body {
-  background-color: #fcf6dc;
+  background-color: var(--color-paper);
+  display: grid;
+  background-image: url("/img/bg-pattern.jpg");
+  background-repeat: repeat;
 }
 body #menu-button i {
   color: var(--color-grey-dark);
@@ -21,6 +24,7 @@ body .page-header-excerpt p {
 /* THEME - DARK */
 body.dark-mode {
   background-color: var(--color-grey-dark);
+  background-image: url("/img/bg-pattern-dark.jpg");
   color: white;
 }
 body.dark-mode #menu-button i {

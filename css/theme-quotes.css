@@ -5,7 +5,6 @@ body {
 
 .effect-glitch {
   color: var(--color-purple);
-  text-shadow: var(--text-shadow-2);
 }
 
 .quote-container {
@@ -69,7 +68,6 @@ body.dark-mode {
   background-color: var(--color-black);
   color: white;
 }
-
 body.dark-mode .quote {
   background-color: var(--color-black);
 }
@@ -77,12 +75,15 @@ body.dark-mode .quote-by {
   color: var(--color-grey-medium);
 }
 body.dark-mode .page-header-excerpt {
-  background-color: #151E27;
+  background-color: var(--color-grey-dark);
+}
+body.dark-mode .page-header-excerpt p {
+  color: var(--color-grey-light);
 }
 body.dark-mode .quote-link a {
   color: var(--color-blue-light);
 }
 body.dark-mode .quote-text {
-  background-color: var(--color-grey-dark);
+  background-color: #1D212C;
   color: var(--color-grey-light);
 }

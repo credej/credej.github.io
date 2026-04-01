@@ -99,6 +99,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/components\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/components\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/components\/index.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -402,6 +413,18 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-quotes.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-quotes-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-quotes.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -586,6 +609,32 @@
       "oA" : 0,
       "oAP" : "\/img\/banners.pxd",
       "oF" : 0
+    },
+    "\/img\/bg-pattern-dark.jpg" : {
+      "ft" : 16384,
+      "iS" : 199447,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/bg-pattern-dark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/bg-pattern.jpg" : {
+      "ft" : 16384,
+      "iS" : 229484,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/bg-pattern.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/img\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
       "ft" : 16384,

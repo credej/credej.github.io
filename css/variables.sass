@@ -1,7 +1,7 @@
 /* COLOR, TEXT & SHADOW VARIABLES */
 
 :root
-  --color-blue: #00E1FF
+  --color-blue: #5EEAD4
   --color-green: #17f9a6
   --color-red: #D9044C
   --color-orange: #ea673e
@@ -10,6 +10,7 @@
   --color-white: #ececec
   --color-black: #101820
 
+  --color-blue-alt: #00E1FF
   --color-blue-light: #A1D9FE
   --color-purple-light: #697BED
   --color-grey-dark: #343434
@@ -20,6 +21,7 @@
   --color-blue-dodger: #2B78E4
   --color-green-lime: #b6e12a
   --color-cyber-bg: #071426
+  --color-paper: #E4E2D7
 
   --font-xxxs: 0.4rem !important
   --font-xxs: 0.6rem !important
@@ -56,9 +58,9 @@
   border-width: 0 1px 2px 2px 
 
 .blue, .blue a, .blue i
-  color: #00E1FF 
+  color: #5EEAD4 
 .border-blue
-  border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1
+  border-image: linear-gradient(to bottom, #5EEAD4 0%, #093A32 100%) 1
 
 .green, .green a, .green i
   color: #17f9a6 
@@ -162,7 +164,8 @@
 /* GLITCH EFFECT */
 
 .effect-glitch
-  color: var(--color-green)
+  color: var(--color-white)
+  text-shadow: var(--text-shadow-2)
 
 @keyframes glitch
   0% 
