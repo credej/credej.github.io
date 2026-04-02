@@ -20,12 +20,19 @@
 }
 
 .menu-category-title h2 {
-  color: var(--color-white);
+  color: var(--color-grey-dark);
   text-shadow: var(--text-shadow-3);
+}
+.menu-category-title i {
+  color: var(--color-grey-dark);
 }
 
 .menu-list a {
-  text-shadow: var(--text-shadow-3);
+  color: var(--color-grey-dark);
+}
+.menu-list a:hover {
+  color: var(--color-white);
+  text-shadow: var(--text-shadow-2);
 }
 
 #navbar {
@@ -73,12 +80,16 @@ body.dark-mode .intro-text {
 body.dark-mode .menu-category-title h2 {
   color: var(--color-grey-medium);
 }
-body.dark-mode .menu-list a {
+body.dark-mode .menu-category-title i {
   color: var(--color-grey-light);
+}
+body.dark-mode .menu-list a {
+  color: var(--color-white);
   text-shadow: var(--text-shadow-1);
 }
 body.dark-mode .menu-list a:hover {
   color: #fff;
+  text-shadow: var(--text-shadow-3);
 }
 body.dark-mode .project-tag {
   background-color: var(--color-grey-dark);

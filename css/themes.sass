@@ -13,11 +13,16 @@
   color: var(--color-grey-dark)   
 .menu-category-title
   h2
-    color: var(--color-white)
+    color: var(--color-grey-dark)
     text-shadow: var(--text-shadow-3)
+  i
+    color: var(--color-grey-dark)
 .menu-list
   a
-    text-shadow: var(--text-shadow-3)
+    color: var(--color-grey-dark)
+    &:hover 
+      color: var(--color-white)
+      text-shadow: var(--text-shadow-2)
 #navbar
   backdrop-filter: blur(187px)
   -webkit-backdrop-filter: blur(187px) 
@@ -53,12 +58,15 @@ body.dark-mode
   .menu-category-title
     h2
       color: var(--color-grey-medium)
+    i
+      color: var(--color-grey-light)
   .menu-list
     a
-      color: var(--color-grey-light) 
+      color: var(--color-white) 
       text-shadow: var(--text-shadow-1)
       &:hover 
         color: #fff 
+        text-shadow: var(--text-shadow-3)
   .project-tag
     background-color: var(--color-grey-dark)
     color: var(--color-grey-light)

@@ -486,7 +486,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
-  font-weight: 900;
 }
 
 #navbar {
@@ -619,7 +618,7 @@ p, h1, h2, h3, h4, h5 {
   letter-spacing: 0;
   margin: 8px 8px 8px 0;
   opacity: 0.8;
-  padding: 2px 8px;
+  padding: 4px 12px;
 }
 .project-tag:hover {
   opacity: 1;
