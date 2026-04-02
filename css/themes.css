@@ -23,9 +23,6 @@
   color: var(--color-grey-dark);
   text-shadow: var(--text-shadow-3);
 }
-.menu-category-title i {
-  color: var(--color-grey-dark);
-}
 
 .menu-list a {
   color: var(--color-grey-dark);
@@ -79,9 +76,6 @@ body.dark-mode .intro-text {
 }
 body.dark-mode .menu-category-title h2 {
   color: var(--color-grey-medium);
-}
-body.dark-mode .menu-category-title i {
-  color: var(--color-grey-light);
 }
 body.dark-mode .menu-list a {
   color: var(--color-white);

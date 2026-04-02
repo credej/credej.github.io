@@ -41,7 +41,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-laptop-dev-mode"></i>
+                        <i class="iconoir-laptop-dev-mode blue"></i>
                         <h2>Software UI/UX</h2>
                      </div>
                      <div class="menu-list">
@@ -56,7 +56,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-edit-pencil"></i>
+                        <i class="iconoir-edit-pencil green"></i>
                         <h2>Design</em></h2>
                      </div>
                      <div class="menu-list">
@@ -69,7 +69,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-cpu"></i>
+                        <i class="iconoir-cpu red"></i>
                         <h2>Gadgets</h2>
                      </div>
                      <div class="menu-list">
@@ -87,7 +87,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-tools"></i>
+                        <i class="iconoir-tools orange"></i>
                         <h2>DIY <em>(Coming soon!)</em></h2>
                      </div>
                      <div class="menu-list">
@@ -100,7 +100,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-telegram"></i>
+                        <i class="iconoir-telegram yellow"></i>
                         <h2>Travel <em>(Coming soon!)</em></h2>
                      </div>
 <!--                      <div class=menu-list>
@@ -115,7 +115,7 @@ class Header extends HTMLElement {
                <div class="menu-category-container">
                   <div class="menu-category">
                      <div class="menu-category-title">
-                        <i class="iconoir-bookmark-book"></i>
+                        <i class="iconoir-bookmark-book purple"></i>
                         <h2>Other Stuff</h2>
                      </div>
                      <div class="menu-list">
@@ -136,7 +136,7 @@ class Header extends HTMLElement {
 
     `
   }
-
+  
   constructor() {
     super();
       document.addEventListener('DOMContentLoaded', function() {
