@@ -57,11 +57,11 @@
 }
 
 .blue, .blue a, .blue i {
-  color: #5EEAD4;
+  color: #00E1FF;
 }
 
 .border-blue {
-  border-image: linear-gradient(to bottom, #5EEAD4 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1;
 }
 
 .green, .green a, .green i {
