@@ -1,77 +1,141 @@
-.category-subtitle p {
+/* LIGHT MODE STYLING */
+body {
+  background-color: var(--color-blue-dodger);
+}
+body .bg-glass-blue {
+  background-color: hsl(from var(--color-red) h s 90%);
+  background: rgba(0, 225, 237, 0.147);
+}
+body .bg-glass-green {
+  background: rgba(150, 247, 109, 0.13);
+}
+body .bg-glass-red {
+  background: rgba(217, 47, 4, 0.08);
+}
+body .bg-glass-purple {
+  background: rgba(113, 100, 255, 0.2);
+}
+body .bg-glass-orange {
+  background: rgba(247, 147, 26, 0.127);
+}
+body .bg-glass-yellow {
+  background: rgba(247, 204, 21, 0.117);
+}
+body .bg-glass-white {
+  background: rgba(255, 255, 255, 0.147);
+}
+body .category-links,
+body .category-subtitle {
+  text-shadow: var(--text-shadow-3);
+}
+body .category-subtitle p {
   color: var(--color-grey-light);
 }
-
-.contact p {
+body .contact p {
   color: var(--color-grey-dark);
 }
-
-.contact-bullets ul {
+body .contact-bullets ul {
   color: var(--color-grey-light);
 }
-
-.effect-glitch h1 {
+body #dark-mode-toggle {
+  display: block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  fill: var(--color-yellow);
+}
+body #dark-mode-toggle img, body #dark-mode-toggle svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.5625rem;
+  height: 1.5625rem;
+  pointer-events: none;
+}
+body #dark-mode-toggle .cs-moon {
+  z-index: 2;
+  transition: transform 0s, opacity 0s, fill 0s;
+}
+body #dark-mode-toggle .cs-sun {
+  z-index: 1;
+  opacity: 0;
+  transition: transform 0s, opacity 0s;
+}
+body .effect-glitch h1 {
   color: var(--color-black);
 }
-.effect-glitch h1:hover {
+body .effect-glitch h1:hover {
   color: var(--color-green);
 }
-
-.intro-text a {
+body .intro-text a {
   font-weight: 700;
   text-shadow: var(--text-shadow-3);
 }
-
-.intro-text {
+body .intro-text {
   color: var(--color-grey-dark);
 }
-
-.menu-category-title h2 {
+body .menu-category-title h2 {
   color: var(--color-grey-dark);
   text-shadow: var(--text-shadow-3);
 }
-
-.menu-list a {
+body .menu-list a {
   color: var(--color-grey-dark);
 }
-.menu-list a:hover {
+body .menu-list a:hover {
   color: var(--color-white);
   text-shadow: var(--text-shadow-2);
 }
-
-#navbar {
+body #navbar {
   backdrop-filter: blur(187px);
   -webkit-backdrop-filter: blur(187px);
 }
-
-.project-links {
+body .project-links {
   text-shadow: var(--text-shadow-3);
 }
-
-.project-tags h1 {
+body .project-tags h1 {
   color: var(--color-grey-dark);
 }
-
-.project-tag {
+body .project-tag {
   background-color: var(--color-grey-light);
   color: var(--color-grey-dark);
   opacity: 0.5;
 }
-
-.project-title h1 {
+body .project-title h1 {
   text-shadow: none;
 }
-
-.subcategory-title,
-.subcategory-excerpt {
+body .subcategory-title,
+body .subcategory-excerpt {
   color: var(--color-grey-light);
 }
 
-.category-links,
-.category-subtitle {
-  text-shadow: var(--text-shadow-3);
+/* DARK MODE (SET TO DARK BY DEFAULT) */
+body.dark-mode {
+  background-color: var(--color-blue-storm);
 }
-
+body.dark-mode .bg-glass-blue {
+  background: rgba(0, 225, 237, 0.045);
+}
+body.dark-mode .bg-glass-green {
+  background: rgba(150, 247, 109, 0.038);
+}
+body.dark-mode .bg-glass-red {
+  background: rgba(217, 47, 4, 0.045);
+}
+body.dark-mode .bg-glass-orange {
+  background: rgba(247, 147, 26, 0.04);
+}
+body.dark-mode .bg-glass-purple {
+  background: rgba(113, 100, 255, 0.045);
+}
+body.dark-mode .bg-glass-yellow {
+  background: rgba(247, 204, 21, 0.035);
+}
+body.dark-mode .bg-glass-white {
+  background: rgba(255, 255, 255, 0.035);
+}
 body.dark-mode .contact p {
   color: var(--color-grey-light);
 }
@@ -104,123 +168,4 @@ body.dark-mode .project-tag {
 }
 body.dark-mode .project-title h1 {
   text-shadow: inherit;
-}
-
-#dark-mode-toggle {
-  cursor-style: pointer;
-}
-
-/* LIGHT MODE STYLING */
-body {
-  background-color: var(--color-blue-dodger);
-}
-body .bg-glass-blue {
-  background-color: hsl(from var(--color-red) h s 90%);
-  background: rgba(0, 225, 237, 0.147);
-}
-body .bg-glass-green {
-  background: rgba(150, 247, 109, 0.13);
-}
-body .bg-glass-red {
-  background: rgba(217, 47, 4, 0.08);
-}
-body .bg-glass-purple {
-  background: rgba(113, 100, 255, 0.2);
-}
-body .bg-glass-orange {
-  background: rgba(247, 147, 26, 0.127);
-}
-body .bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.117);
-}
-body .bg-glass-white {
-  background: rgba(255, 255, 255, 0.147);
-}
-
-/* DARK MODE STYLING */
-body.dark-mode {
-  background-color: var(--color-blue-storm);
-}
-body.dark-mode .bg-glass-blue {
-  background: rgba(0, 225, 237, 0.045);
-}
-body.dark-mode .bg-glass-green {
-  background: rgba(150, 247, 109, 0.038);
-}
-body.dark-mode .bg-glass-red {
-  background: rgba(217, 47, 4, 0.045);
-}
-body.dark-mode .bg-glass-orange {
-  background: rgba(247, 147, 26, 0.04);
-}
-body.dark-mode .bg-glass-purple {
-  background: rgba(113, 100, 255, 0.045);
-}
-body.dark-mode .bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.035);
-}
-body.dark-mode .bg-glass-white {
-  background: rgba(255, 255, 255, 0.035);
-}
-
-/* DARK MODE TOGGLE */
-/* SET TO DARK BY DEFAULT */
-body.dark-mode #dark-mode-toggle .cs-sun {
-  transform: translate(-50%, -50%);
-  opacity: 1;
-}
-body.dark-mode #dark-mode-toggle .cs-moon {
-  transform: translate(-50%, -150%);
-  opacity: 0;
-}
-body.dark-mode .contact-bullets ul {
-  color: var(--color-grey-medium);
-}
-body.dark-mode .footer-text p {
-  color: var(--color-white);
-}
-body.dark-mode .stat {
-  background-color: var(--color-grey-dark);
-}
-
-#dark-mode-toggle {
-  display: block;
-  position: relative;
-  width: 2rem;
-  height: 2rem;
-  background: transparent;
-  border: none;
-  fill: #fcf0ae !important;
-}
-#dark-mode-toggle img, #dark-mode-toggle svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1.5625rem;
-  height: 1.5625rem;
-  pointer-events: none;
-}
-#dark-mode-toggle .cs-moon {
-  z-index: 2;
-  transition: transform 0s, opacity 0s, fill 0s;
-}
-#dark-mode-toggle .cs-sun {
-  z-index: 1;
-  transform: translate(-50%, 100%);
-  opacity: 0;
-  transition: transform 0s, opacity 0s;
-}
-
-.dark {
-  /* class used to hide elements that only need to be seen when dark mode is enabled */
-  display: none;
-}
-
-body.dark-mode .light {
-  display: none;
-}
-
-body.dark-mode .dark {
-  display: block !important;
 }
