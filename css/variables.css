@@ -5,7 +5,7 @@
   --color-red: #D9044C;
   --color-orange: #ea673e;
   --color-purple: #7164FF;
-  --color-yellow: #facc15;
+  --color-yellow: #FFFC67;
   --color-white: #ececec;
   --color-black: #101820;
   --color-blue-alt: #00E1FF;
@@ -20,6 +20,8 @@
   --color-green-lime: #b6e12a;
   --color-cyber-bg: #071426;
   --color-paper: #E4E2D7;
+  --color-remedy-green-light: #5E6A54;
+  --color-remedy-green-dark: #292E25;
   --font-xxxs: 0.4rem !important;
   --font-xxs: 0.6rem !important;
   --font-xs: 0.8rem !important;
@@ -198,11 +200,6 @@
   }
 }
 /* GLITCH EFFECT */
-.effect-glitch {
-  color: var(--color-white);
-  text-shadow: var(--text-shadow-2);
-}
-
 @keyframes glitch {
   0% {
     color: #fff;

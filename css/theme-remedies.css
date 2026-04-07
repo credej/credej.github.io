@@ -1,24 +1,36 @@
 /* BOOKMARKS - LIGHT */
 body {
-  background-color: var(--color-purple-light);
+  background-color: var(--color-remedy-green-light);
 }
-body .bookmark {
+body .page-header-excerpt {
+  background-color: #6B7A60;
+}
+body .page-header-excerpt p {
+  color: var(--color-white);
+}
+body .page-header-title h1 {
+  color: var(--color-white);
+}
+body .section-header h5 {
+  color: var(--color-white);
+}
+body .remedy {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
   padding: 12px 72px 12px 0;
 }
-body .bookmark a {
-  color: var(--color-blue-light);
+body .remedy h2 {
+  color: var(--color-yellow);
 }
-body .bookmark a:hover {
+body .remedy a:hover {
   color: #fff;
   animation: blinker 1s linear infinite;
 }
-body .bookmark li {
+body .remedy li {
   font-family: "Courier Prime", monospace;
 }
-body .bookmark h2 {
+body .remedy h2 {
   padding: 0 16pxw;
 }
 body .bookmark-glossary {
@@ -27,10 +39,9 @@ body .bookmark-glossary {
   margin: 12px 0 72px;
 }
 body .bookmark-glossary a {
-  background: var(--color-green);
-  color: var(--color-purple-light);
-  border: 3px solid var(--color-green);
+  border: 3px solid var(--color-yellow);
   border-radius: 8px 0 8px 0;
+  color: var(--color-yellow);
   font-size: var(--font-l);
   font-weight: 900;
   padding: 12px;
@@ -39,9 +50,8 @@ body .bookmark-glossary a {
 }
 body .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
-  background: none;
-  border: 3px solid var(--color-green);
-  color: var(--color-green);
+  background: var(--color-yellow);
+  color: #5E6A54;
 }
 body .bookmark-section {
   margin-left: 1rem;
@@ -52,15 +62,15 @@ body .bookmark-section {
   padding: 24px 0;
 }
 body .bookmark-section h2 {
-  color: var(--color-green);
+  color: var(--color-yellow);
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xl);
+  font-size: var(--font-l);
   font-weight: 900;
   padding: 0 0 1vh;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .bookmark-section li {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   margin-left: 1rem;
   text-indent: -1rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
@@ -76,31 +86,16 @@ body .bookmark-old a:hover {
   animation: blinker 1s linear infinite;
   opacity: 0.5;
 }
-body .page-header-excerpt {
-  background-color: #7385F6;
-}
-body .page-header-excerpt p {
-  color: var(--color-white);
-}
-body .page-header-title h1 {
-  color: var(--color-white);
-}
-body .section-header h5 {
-  color: var(--color-white);
-}
 
 /* BOOKMARKS - DARK */
 body.dark-mode {
-  background-color: var(--color-blue-storm);
+  background-color: var(--color-remedy-green-dark);
 }
 body.dark-mode .bookmark a {
-  color: var(--color-green);
+  color: var(--color-blue-light);
 }
-body.dark-mode .bookmark-glossary a {
-  color: var(--color-green);
-}
-body.dark-mode .bookmark-glossary h2 {
-  color: var(--color-green);
+body.dark-mode .bookmark-section h2 {
+  color: var(--color-yellow);
 }
 body.dark-mode .page-header-excerpt {
   background-color: #191D26;

@@ -1,14 +1,24 @@
 /* BOOKMARKS - LIGHT */
 
 body
-  background-color: var(--color-purple-light)
-  .bookmark
+  background-color: var(--color-remedy-green-light)
+  .page-header-excerpt
+    background-color: #6B7A60
+    p
+      color: var(--color-white)
+  .page-header-title
+    h1
+      color: var(--color-white)
+  .section-header
+    h5
+      color: var(--color-white)
+  .remedy
     flex-grow: 1
     flex-shrink: 1
     flex-basis: 0%
     padding: 12px 72px 12px 0 
-    a
-      color: var(--color-blue-light) 
+    h2
+      color: var(--color-yellow) 
     a:hover
       color: #fff
       animation: blinker 1s linear infinite
@@ -22,10 +32,9 @@ body
     flex-wrap: wrap
     margin: 12px 0 72px
     a
-      background: var(--color-green)
-      color: var(--color-purple-light)
-      border: 3px solid var(--color-green)
+      border: 3px solid var(--color-yellow)
       border-radius: 8px 0 8px 0
+      color: var(--color-yellow)
       font-size: var(--font-l)
       font-weight: 900
       padding: 12px
@@ -33,9 +42,8 @@ body
       font-family: "Cutive Mono", monospace
       &:hover
         animation: blinker 1s linear infinite
-        background: none
-        border: 3px solid var(--color-green)
-        color: var(--color-green)
+        background: var(--color-yellow)
+        color: #5E6A54
 
   .bookmark-section
     margin-left: 1rem
@@ -45,14 +53,14 @@ body
     flex-direction: column
     padding: 24px 0
     h2
-      color: var(--color-green)
+      color: var(--color-yellow)
       font-family: "Courier Prime", monospace
-      font-size: var(--font-xl)
+      font-size: var(--font-l)
       font-weight: 900
       padding: 0 0 1vh
       text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
     li
-      font-size: var(--font-l)
+      font-size: var(--font-m)
       margin-left: 1rem
       text-indent: -1rem
       text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
@@ -67,29 +75,18 @@ body
         animation: blinker 1s linear infinite
         opacity: 0.5
 
-  .page-header-excerpt
-    background-color: #7385F6
-    p
-      color: var(--color-white)
-  .page-header-title
-    h1
-      color: var(--color-white)
-  .section-header
-    h5
-      color: var(--color-white)
+
 
 /* BOOKMARKS - DARK */
 
 body.dark-mode 
-  background-color: var(--color-blue-storm)
+  background-color: var(--color-remedy-green-dark)
   .bookmark
     a
-      color: var(--color-green)
-  .bookmark-glossary
-    a
-      color: var(--color-green) 
+      color: var(--color-blue-light) 
+  .bookmark-section
     h2 
-      color: var(--color-green)
+      color: var(--color-yellow)
   .page-header-excerpt
     background-color: #191D26
     p

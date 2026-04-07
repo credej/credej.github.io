@@ -121,7 +121,8 @@ class Header extends HTMLElement {
                      <div class="menu-list">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
-                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a><!-- 
+                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a>
+                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a><!-- 
                        <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a> -->
                      </div>
                   </div>

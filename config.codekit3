@@ -463,6 +463,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-remedies.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-remedies.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-sketch.css" : {
       "aP" : 1,
       "bl" : 0,
