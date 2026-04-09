@@ -463,6 +463,18 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-remedies.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-remedies-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-remedies.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -1753,6 +1765,32 @@
       "oAP" : "\/pages\/diy\/cli\/index.html",
       "oF" : 0
     },
+    "\/pages\/diy\/decentralized\/IMG_20241118_192738_012.jpg" : {
+      "ft" : 16384,
+      "iS" : 2347753,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/IMG_20241118_192738_012.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/decentralized\/IMG_20241118_193718_608.jpg" : {
+      "ft" : 16384,
+      "iS" : 2797213,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/decentralized\/IMG_20241118_193718_608.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/diy\/homehacking\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2205,6 +2243,71 @@
       "oA" : 0,
       "oAP" : "\/pages\/gadgets\/edc\/index.html",
       "oF" : 0
+    },
+    "\/pages\/gadgets\/gaming\/FullSizeRender 2.heic.jpeg" : {
+      "ft" : 16384,
+      "iS" : 158903,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/FullSizeRender 2.heic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/FullSizeRender 3.heic.jpeg" : {
+      "ft" : 16384,
+      "iS" : 198548,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/FullSizeRender 3.heic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/FullSizeRender 4.heic.jpeg" : {
+      "ft" : 16384,
+      "iS" : 186261,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/FullSizeRender 4.heic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/FullSizeRender 5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 174821,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/FullSizeRender 5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/gadgets\/gaming\/FullSizeRender.heic.jpeg" : {
+      "ft" : 16384,
+      "iS" : 159805,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/gadgets\/gaming\/FullSizeRender.heic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/pages\/gadgets\/gaming\/index.html" : {
       "cB" : 0,

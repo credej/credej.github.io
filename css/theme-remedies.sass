@@ -5,7 +5,7 @@ body
   .page-header-excerpt
     background-color: #6B7A60
     p
-      color: var(--color-white)
+      color: var(--color-remedy-green-dark)
   .page-header-title
     h1
       color: var(--color-white)
@@ -16,18 +16,17 @@ body
     flex-grow: 1
     flex-shrink: 1
     flex-basis: 0%
-    padding: 12px 72px 12px 0 
+    padding: 0 0 36px
+    p
+      color: var(--color-remedy-green-dark)
     h2
-      color: var(--color-yellow) 
+      font-size: var(--font-l)
+      text-transform: uppercase
     a:hover
       color: #fff
       animation: blinker 1s linear infinite
-    li 
-      font-family: "Courier Prime", monospace
-    h2
-      padding: 0 16pxw
 
-  .bookmark-glossary
+  .remedy-glossary
     display: flex
     flex-wrap: wrap
     margin: 12px 0 72px
@@ -35,29 +34,31 @@ body
       border: 3px solid var(--color-yellow)
       border-radius: 8px 0 8px 0
       color: var(--color-yellow)
+      font-family: "Cutive Mono", monospace
       font-size: var(--font-l)
-      font-weight: 900
       padding: 12px
       margin: 4px
-      font-family: "Cutive Mono", monospace
       &:hover
         animation: blinker 1s linear infinite
         background: var(--color-yellow)
         color: #5E6A54
 
-  .bookmark-section
-    margin-left: 1rem
-    text-indent: -1rem
+  .remedy-list
+    color: var(--color-remedy-green-dark)
+    padding: 24px 36px
+    li
+      padding: 4px 0
+
+  .remedy-section
     break-inside: avoid
     display: flex
+    font-family: "Courier Prime", monospace
     flex-direction: column
-    padding: 24px 0
-    h2
+    h1
       color: var(--color-yellow)
-      font-family: "Courier Prime", monospace
       font-size: var(--font-l)
       font-weight: 900
-      padding: 0 0 1vh
+      padding: 36px 0 
       text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
     li
       font-size: var(--font-m)
@@ -81,22 +82,16 @@ body
 
 body.dark-mode 
   background-color: var(--color-remedy-green-dark)
-  .bookmark
-    a
-      color: var(--color-blue-light) 
-  .bookmark-section
-    h2 
-      color: var(--color-yellow)
   .page-header-excerpt
-    background-color: #191D26
+    background: #343A2F
     p
-      color: var(--color-grey-light)
-  .page-header-title
-    h1
-      color: var(--color-white)
-  .section-header
-    h5
-      color: var(--color-white)
-
+      color: var(--color-remedy-green-light)
+  .remedy
+    h2
+      color: var(--color-remedy-green-dark)
+    p
+      color: var(--color-remedy-green-light)
+  .remedy-list
+    color: var(--color-grey-light)
 
 

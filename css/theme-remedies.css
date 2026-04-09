@@ -6,7 +6,7 @@ body .page-header-excerpt {
   background-color: #6B7A60;
 }
 body .page-header-excerpt p {
-  color: var(--color-white);
+  color: var(--color-remedy-green-dark);
 }
 body .page-header-title h1 {
   color: var(--color-white);
@@ -18,64 +18,65 @@ body .remedy {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
-  padding: 12px 72px 12px 0;
+  padding: 0 0 36px;
+}
+body .remedy p {
+  color: var(--color-remedy-green-dark);
 }
 body .remedy h2 {
-  color: var(--color-yellow);
+  font-size: var(--font-l);
+  text-transform: uppercase;
 }
 body .remedy a:hover {
   color: #fff;
   animation: blinker 1s linear infinite;
 }
-body .remedy li {
-  font-family: "Courier Prime", monospace;
-}
-body .remedy h2 {
-  padding: 0 16pxw;
-}
-body .bookmark-glossary {
+body .remedy-glossary {
   display: flex;
   flex-wrap: wrap;
   margin: 12px 0 72px;
 }
-body .bookmark-glossary a {
+body .remedy-glossary a {
   border: 3px solid var(--color-yellow);
   border-radius: 8px 0 8px 0;
   color: var(--color-yellow);
+  font-family: "Cutive Mono", monospace;
   font-size: var(--font-l);
-  font-weight: 900;
   padding: 12px;
   margin: 4px;
-  font-family: "Cutive Mono", monospace;
 }
-body .bookmark-glossary a:hover {
+body .remedy-glossary a:hover {
   animation: blinker 1s linear infinite;
   background: var(--color-yellow);
   color: #5E6A54;
 }
-body .bookmark-section {
-  margin-left: 1rem;
-  text-indent: -1rem;
+body .remedy-list {
+  color: var(--color-remedy-green-dark);
+  padding: 24px 36px;
+}
+body .remedy-list li {
+  padding: 4px 0;
+}
+body .remedy-section {
   break-inside: avoid;
   display: flex;
-  flex-direction: column;
-  padding: 24px 0;
-}
-body .bookmark-section h2 {
-  color: var(--color-yellow);
   font-family: "Courier Prime", monospace;
+  flex-direction: column;
+}
+body .remedy-section h1 {
+  color: var(--color-yellow);
   font-size: var(--font-l);
   font-weight: 900;
-  padding: 0 0 1vh;
+  padding: 36px 0;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
-body .bookmark-section li {
+body .remedy-section li {
   font-size: var(--font-m);
   margin-left: 1rem;
   text-indent: -1rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
-body .bookmark-section a {
+body .remedy-section a {
   padding: 4px 0 4px 12px;
 }
 body .bookmark-old a {
@@ -91,21 +92,18 @@ body .bookmark-old a:hover {
 body.dark-mode {
   background-color: var(--color-remedy-green-dark);
 }
-body.dark-mode .bookmark a {
-  color: var(--color-blue-light);
-}
-body.dark-mode .bookmark-section h2 {
-  color: var(--color-yellow);
-}
 body.dark-mode .page-header-excerpt {
-  background-color: #191D26;
+  background: #343A2F;
 }
 body.dark-mode .page-header-excerpt p {
+  color: var(--color-remedy-green-light);
+}
+body.dark-mode .remedy h2 {
+  color: var(--color-remedy-green-dark);
+}
+body.dark-mode .remedy p {
+  color: var(--color-remedy-green-light);
+}
+body.dark-mode .remedy-list {
   color: var(--color-grey-light);
-}
-body.dark-mode .page-header-title h1 {
-  color: var(--color-white);
-}
-body.dark-mode .section-header h5 {
-  color: var(--color-white);
 }
