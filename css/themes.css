@@ -64,12 +64,6 @@ body #dark-mode-toggle .cs-sun {
   opacity: 0;
   transition: transform 0s, opacity 0s;
 }
-body .effect-glitch h1 {
-  color: var(--color-black);
-}
-body .effect-glitch h1:hover {
-  color: var(--color-green);
-}
 body .intro-text a {
   font-weight: 700;
   text-shadow: var(--text-shadow-3);
@@ -141,12 +135,6 @@ body.dark-mode .contact p {
 }
 body.dark-mode .category-subtitle p {
   color: var(--color-grey-light);
-}
-body.dark-mode .effect-glitch h1 {
-  color: var(--color-white);
-}
-body.dark-mode .effect-glitch h1:hover {
-  color: var(--color-green);
 }
 body.dark-mode .intro-text {
   color: var(--color-grey-medium);

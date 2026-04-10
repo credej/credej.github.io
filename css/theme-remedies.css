@@ -11,6 +11,9 @@ body .page-header-excerpt p {
 body .page-header-title h1 {
   color: var(--color-white);
 }
+body .page-header-title i {
+  color: var(--color-remedy-green-dark);
+}
 body .section-header h5 {
   color: var(--color-white);
 }
@@ -68,12 +71,11 @@ body .remedy-section h1 {
   font-size: var(--font-l);
   font-weight: 900;
   padding: 36px 0;
+  text-decoration: underline;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .remedy-section li {
   font-size: var(--font-m);
-  margin-left: 1rem;
-  text-indent: -1rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .remedy-section a {
@@ -98,8 +100,11 @@ body.dark-mode .page-header-excerpt {
 body.dark-mode .page-header-excerpt p {
   color: var(--color-remedy-green-light);
 }
+body.dark-mode .page-header-title i {
+  color: var(--color-remedy-green-light);
+}
 body.dark-mode .remedy h2 {
-  color: var(--color-remedy-green-dark);
+  color: var(--color-remedy-green-light);
 }
 body.dark-mode .remedy p {
   color: var(--color-remedy-green-light);

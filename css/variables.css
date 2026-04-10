@@ -12,7 +12,7 @@
   --color-blue-light: #A1D9FE;
   --color-purple-light: #697BED;
   --color-grey-dark: #343434;
-  --color-grey-medium: #7A7A7A;
+  --color-wgrey-medium: #7A7A7A;
   --color-grey-light: #C8C8C8;
   --color-blue-storm: #1D212C;
   --color-turqoise-medium: #3CB4AC;
@@ -200,6 +200,10 @@
   }
 }
 /* GLITCH EFFECT */
+.effect-glitch h1 {
+  color: var(--color-green);
+}
+
 @keyframes glitch {
   0% {
     color: #fff;
