@@ -69,7 +69,6 @@ body .bookmark-section a {
   padding: 4px 0 4px 12px;
 }
 body .bookmark-old a {
-  color: var(--color-grey-light);
   text-decoration: line-through;
 }
 body .bookmark-old a:hover {

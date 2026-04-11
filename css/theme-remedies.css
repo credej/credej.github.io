@@ -40,9 +40,10 @@ body .remedy-glossary {
   margin: 12px 0 72px;
 }
 body .remedy-glossary a {
+  background: var(--color-yellow);
+  color: var(--color-remedy-green-light);
   border: 3px solid var(--color-yellow);
   border-radius: 8px 0 8px 0;
-  color: var(--color-yellow);
   font-family: "Cutive Mono", monospace;
   font-size: var(--font-l);
   padding: 12px;
@@ -50,8 +51,9 @@ body .remedy-glossary a {
 }
 body .remedy-glossary a:hover {
   animation: blinker 1s linear infinite;
-  background: var(--color-yellow);
-  color: #5E6A54;
+  background: none;
+  border: 3px solid var(--color-yellow);
+  color: var(--color-yellow);
 }
 body .remedy-list {
   color: var(--color-remedy-green-dark);

@@ -59,6 +59,7 @@ body
   .menu-category-title
     h2
       color: var(--color-grey-dark)
+      font-weight: 900
       text-shadow: var(--text-shadow-3)
   .menu-list
     a
@@ -85,8 +86,6 @@ body
   .subcategory-excerpt
     color: var(--color-grey-light) 
 
-/* DARK MODE (SET TO DARK BY DEFAULT) */
-
 body.dark-mode
   background-color: var(--color-blue-storm)
   .bg-glass-blue
@@ -110,16 +109,18 @@ body.dark-mode
     p
       color: var(--color-grey-light)
   .intro-text
-    color: var(--color-grey-medium)
+    color: var(--color-grey-light)
   .menu-category-title
     h2
-      color: var(--color-grey-medium)
+      color: var(--color-grey-light)
+      font-weight: 900
+      text-shadow: var(--text-shadow-3)
   .menu-list
     a
-      color: var(--color-white) 
+      color: var(--color-grey-light) 
       text-shadow: var(--text-shadow-1)
       &:hover 
-        color: #fff 
+        color: var(--color-green) 
         text-shadow: var(--text-shadow-3)
   .project-tag
     background-color: var(--color-grey-dark)
@@ -128,5 +129,26 @@ body.dark-mode
     h1
       text-shadow: inherit
 
+/* SET TO DARK BY DEFAULT */
+
+body.dark-mode
+  .contact-bullets ul
+    color: var(--color-grey-medium)
+  #dark-mode-toggle
+    .cs-sun
+      transform: translate(-50%, -50%)
+      opacity: 1
+    .cs-moon
+      transform: translate(-50%, -150%)
+      opacity: 0
+  .footer-text
+    p
+      color: var(--color-white)
+  .light 
+    display: none
+  .dark 
+    display: block !important
+  .stat
+    background-color: var(--color-grey-dark) 
 
 
