@@ -186,7 +186,9 @@
   .project-overview p {
     font-size: var(--font-m);
     letter-spacing: -0.1rem;
-    line-height: 1.2rem;
+    line-height: 1.6rem;
+    text-align: justify;
+    text-indent: 7.5vw;
   }
   .project-links {
     padding: 24px 0;
@@ -206,13 +208,13 @@
   }
   .project-section-desc p {
     font-size: var(--font-s);
-    line-height: 1.5rem;
+    line-height: 1.4rem;
   }
   .section-header {
     text-align: center;
   }
   .site-main {
-    padding: 0 5vh;
+    padding: 0 7.5vw;
   }
   .subcategory {
     filter: grayscale(0);
