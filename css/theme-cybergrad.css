@@ -45,7 +45,7 @@ body .project-section p {
   color: var(--color-white);
 }
 body .project-links a {
-  color: #5EEAD4;
+  color: var(--color-blue);
 }
 body .project-links a:hover {
   color: var(--color-white);
@@ -55,7 +55,7 @@ body .project-subtitle {
   text-shadow: var(--text-shadow-3);
 }
 body .project-title i {
-  color: #5EEAD4;
+  color: var(--color-blue);
 }
 
 /* DARK */
@@ -67,21 +67,21 @@ body.dark-mode .bg-cyber {
   background-color: #030D19;
 }
 body.dark-mode .img-fullsize figcaption {
-  color: #7CCAC2;
+  color: var(--color-blue);
 }
 body.dark-mode .project-section-desc a {
-  color: #5EEAD4;
+  color: var(--color-blue);
 }
 body.dark-mode .project-section-desc,
 body.dark-mode .project-section p {
   color: #BFE4E2;
 }
 body.dark-mode .project-section-title h3 {
-  color: var(--color-white);
+  color: var(--color-blue);
 }
 body.dark-mode .project-subtitle {
   color: var(--color-grey-medium);
 }
 body.dark-mode .project-links a {
-  color: #5EEAD4;
+  color: var(--color-blue);
 }

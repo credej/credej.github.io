@@ -201,6 +201,9 @@
 }
 /* GLITCH EFFECT */
 .effect-glitch h1 {
+  color: var(--color-grey-light);
+}
+.effect-glitch h1:hover {
   color: var(--color-green);
 }
 

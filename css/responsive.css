@@ -188,7 +188,6 @@
     letter-spacing: -0.1rem;
     line-height: 1.6rem;
     text-align: justify;
-    text-indent: 36px;
   }
   .project-links {
     padding: 24px 0;
@@ -198,17 +197,15 @@
     text-shadow: var(--text-shadow-1);
   }
   .project-section {
-    padding: 36px;
+    padding: 48px 48px 72px;
   }
   .project-section-title {
     text-align: center;
   }
-  .project-section-desc {
-    padding: 18px 0;
-  }
   .project-section-desc p {
     font-size: var(--font-s);
     line-height: 1.4rem;
+    text-align: center;
   }
   .section-header {
     text-align: center;
