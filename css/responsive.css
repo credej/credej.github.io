@@ -8,6 +8,9 @@
   .badge {
     padding: 48px 0;
   }
+  .badge-container {
+    padding: 12px 36px;
+  }
   .category-links {
     text-align: center;
   }

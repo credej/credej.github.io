@@ -81,7 +81,7 @@ p, h1, h2, h3, h4, h5 {
 .badge-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 24px;
+  padding: 72px 24px;
 }
 .badge-container img {
   width: 200px;

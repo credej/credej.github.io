@@ -1,10 +1,21 @@
 /* THEME - LIGHT */
 body {
-  background-color: var(--color-grey-medium);
+  background-color: #ececec;
 }
 
 .effect-glitch {
   color: var(--color-purple);
+}
+
+.navbar-home h1 {
+  color: var(--color-grey-medium);
+}
+
+.navbar-menu i {
+  color: var(--color-grey-medium);
+}
+.navbar-menu i:hover {
+  color: var(--color-grey-dark);
 }
 
 .quote-container {
@@ -12,16 +23,15 @@ body {
 }
 
 .quote {
-  background-color: var(--color-grey-medium);
   padding: 0 0 72px;
   text-align: right;
 }
 
 .quote-text {
-  background-color: var(--color-grey-dark);
+  background-color: whitesmoke;
   border-radius: 16px 16px 0 16px;
-  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
-  color: var(--color-grey-light);
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.1);
+  color: var(--color-grey-medium);
   font-family: "Reddit Mono", monospace;
   font-family: "Lusitana", serif;
   font-style: italic;
@@ -34,7 +44,7 @@ body {
 }
 
 .quote-by {
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-style: normal;
@@ -43,24 +53,29 @@ body {
 .quote-link {
   font-family: "Cutive Mono", "Courier Prime", monospace;
   color: var(--color-purple);
-  font-size: var(--font-l);
+  font-size: var(--font-m);
   line-height: 1rem;
+  margin: 8px 0;
   text-align: right;
-  text-shadow: var(--text-shadow-3);
 }
 .quote-link:hover {
   animation: blinker 0.4s linear infinite;
 }
 
 .page-header-excerpt {
-  background-color: #898989;
+  background-color: whitesmoke;
 }
 .page-header-excerpt p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-medium);
 }
 
 .page-header-title h1 {
-  color: var(--color-white);
+  color: var(--color-grey-medium);
+}
+
+.page-header-excerpt,
+.page-header-image {
+  box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.1);
 }
 
 /* THEME - DARK */
@@ -75,7 +90,7 @@ body.dark-mode .quote-by {
   color: var(--color-grey-medium);
 }
 body.dark-mode .page-header-excerpt {
-  background-color: var(--color-grey-dark);
+  background-color: #1D212C;
 }
 body.dark-mode .page-header-excerpt p {
   color: var(--color-grey-light);

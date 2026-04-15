@@ -5,7 +5,7 @@ class Header extends HTMLElement {
       <nav id="navbar" class="fade-in">
          <div class="menu-closed">
             <div class="menu-icon flex flex-end">
-               <button id="menu-button" class="navbar-home flex items-center text-gray-700 neon">
+               <button id="menu-button" class="navbar-menu">
                   <i class="iconoir-menu"></i>
                   <!-- <i class="iconoir-dice-two"></i>
                   <i class="iconoir-dice-one"></i> -->
