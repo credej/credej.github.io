@@ -1,23 +1,20 @@
 @media screen and (min-width: 100px) and (max-width: 755px)
   .badge
     height: auto !important
-  .bookmark-glossary
-    justify-content: center
-  .badge
     padding: 48px 0
   .badge-container
     padding: 12px 36px
+  .bookmark-glossary
+    justify-content: center
+  .category
+    padding: 36px
+    h1
+      font-size: var(--font-xl)
   .category-links
     text-align: center
     a
       display: block
       padding: 8px 0
-  .category
-    padding: 36px
-    h1
-      font-size: var(--font-xl)
-  .category-subtitle
-    text-align: center
   .category-title
     display: flex
     flex-direction: column
@@ -27,7 +24,7 @@
       line-height: 36px
       letter-spacing: 0.52rem
       overflow: wrap
-      hyphens: auto; /* Automatically hyphenates words based on language rules */
+      hyphens: auto /* Automatically hyphenates words based on language rules */
       -webkit-hyphens: auto
       -moz-hyphens: auto
       -ms-hyphens: auto
@@ -37,6 +34,8 @@
     i
       font-size: var(--font-xl)
       padding: 0 0 12px 
+  .category-subtitle
+    text-align: center
   .contact
     padding: 48px 48px 72px
     text-align: center
@@ -44,11 +43,6 @@
       font-size: var(--font-s)
     a
       font-size: var(--font-m)
-  .effect-glitch
-    animation-name: glitch 
-    animation-duration: 0.8s 
-    animation-iteration-count: infinite 
-    cursor: pointer !important
   .footer-column
     display: flex
     align-items: center
@@ -76,11 +70,6 @@
       font-size: var(--font-m) !important
     a
       font-size: var(--font-l) !important
-  #navbar
-    overflow: scroll
-  .navbar-home
-    h1
-      font-size: var(--font-xl)
   #menu-expanded
     height: 100vh
     left: 0
@@ -94,32 +83,37 @@
     padding: 12px 0
   .menu-category-title
     justify-content: center
-
   .menu-list
     a
       font-size: var(--font-s)
       padding: 4px 0
-
+  .menu-logo
+    .effect-glitch
+      animation-name: glitch 
+      animation-duration: 0.8s 
+      animation-iteration-count: infinite 
+      cursor: pointer !important
+      h1
+        color: var(--color-green) !important
+        line-height: 1.8rem
+  #navbar
+    overflow: scroll
   .page-header  
     h1
       letter-spacing: 0.5rem
     h5
       text-align: center
-
   .page-header-title
     justify-content: center
     h1 
       font-size: var(--font-xl)
       letter-spacing: 0.3rem
-
   .page-header-image
     flex-basis: 100%
-
   .page-title
     font-size: var(--font-l)
     h1
       letter-spacing: 0.6rem
-
   .project-header
     padding: 0
     text-align: center
@@ -127,9 +121,6 @@
       animation: none /* shim */
     h5
       font-size: var(--font-s)
-  a:hover
-    animation: blinker 1s linear infinite
-
   .project-title
     justify-content: center
     flex-direction: column
@@ -142,11 +133,9 @@
       line-height: 2rem
       &:after
         display: none
-
   .project-subtitle
     font-size: var(--font-s)
     text-align: center
-
   .project-overview  
     p
       font-size: var(--font-m)
@@ -154,40 +143,31 @@
       letter-spacing: -0.1rem
       line-height: 1.6rem
       text-align: justify
-
   .project-links 
     padding: 24px 0
     a
       font-size: var(--font-m)
       text-shadow: var(--text-shadow-1)
-
   .project-section
     padding: 48px 48px 72px
-
   .project-section-title
     text-align: center
-
   .project-section-desc
     p
       font-size: var(--font-s)
       line-height: 1.4rem
       text-align: center
-
   .section-header
     text-align: center
-
   .site-main
     padding: 0 7.5vw
-
   .subcategory
     filter: grayscale(0.0)
     opacity: 1.0 
     padding: 36px 0
-
   .subcategory-banner
     img
       margin: 12px 0 4px
-
   .subcategory-title
     padding: 8px 0
     justify-content: center
@@ -196,7 +176,6 @@
       color: var(--color-blue)
       line-height: 1.2em
       font-size: var(--font-m)
-
   .subcategory-excerpt
     text-align: center
     p
@@ -223,27 +202,28 @@
     display: none
   .img-gallery-full
     img
-      margin: 48px 0 0
+      margin: 48px 0 0  
+  .menu-logo
+    h1
+      font-size: var(--font-l)
+      padding: 0 36px
 
 @media screen and (min-width: 540px) and (max-width: 755px)
   .badges
     margin: 144px 0 !important
   .category-title > h1
     font-size: var(--font-xl)
-
-@media screen and (min-width: 756px)
-  a>.blue>:first-child
-    padding: 0 12px 0 0
-  .effect-glitch:hover
-    animation-name: glitch 
-    animation-duration: 0.8s 
-    animation-iteration-count: infinite 
-    cursor: pointer !important
-  .intro-category-icons
-    span
-      padding: 0 8px
+  .menu-logo
+    h1
+      font-size: var(--font-xl)
+      padding: 0 48px
+  #navbar,
+  .site-main
+    padding: 0 7.5vw
 
 @media screen and (min-width: 756px) and (max-width: 1079px)
+  a>.blue>:first-child
+    padding: 0 12px 0 0
   .category-links
     text-indent: 0
     a
@@ -251,108 +231,85 @@
       padding: 8px 0
     .category-links-slash
       display: none
+  .effect-glitch:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
+  .menu-logo
+    h1
+      font-size: var(--font-xl)
   .project-title
     justify-content: center
+  #navbar,
+  .site-main
+    padding: 0 7.5vw
 
 @media screen and (min-width: 1080px) and (max-width: 1439px)
+  a>.blue>:first-child
+    padding: 0 12px 0 0
   .category-title
     h1
       font-size: var(--font-xl)
+  .effect-glitch:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
+  .menu-logo
+    h1
+      font-size: var(--font-xl)
+  #navbar,
   .site-main
     padding: 0 12.5vw
 
 @media screen and (min-width: 1440px) and (max-width: 1979px)
+  a>.blue>:first-child
+    padding: 0 12px 0 0
   .intro
     text-align: justify
     a
       font-size: var(--font-l) !important
+  .effect-glitch:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
   .footer-main
     display: flex
     justify-content: center
     align-items: center
-  .m-category-title
-    justify-content: flex-start
+  .menu-logo
+    h1
+      font-size: var(--font-xxl)
   .page-header
     display: flex
+  #navbar,
+  .site-main
+    padding: 0 15vw
 
 @media (min-width: 1980px)
+  a>.blue>:first-child
+    padding: 0 12px 0 0
+  .effect-glitch:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    cursor: pointer !important
   #footer,
   .site-main
     width: 100%
-  .intro
-    text-align: justify
   .category--title
     h1
       letter-spacing: 0.52rem
       font-size: var(--font-xl)
+  .intro
+    text-align: justify
+  .menu-logo
+    h1
+      font-size: var(--font-xxl)
   .page-header
     display: flex
-
-/* MEDIA QUERIES FOR IMAGE GALLERY */
-
-@media screen and (min-width: 540px)
-  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 
-    flex-basis: 100%
-    max-width: 100%
-  .date-field div.day-of-week-mobile p 
-    font-size: 50px
-    margin-top: 0px
-  .kg-bookmark-container 
-    flex-direction: column
-  .date-field div.day-of-week-mobile p 
-    font-size: 42px
-  .date-field div.day-of-week-mobile p 
-    font-size: 20px
-  .dw-cluster--vertical,
-  .dw-cluster__segment--row 
-      flex-direction: column
-  .dw-cluster__segment--half 
-      flex-basis: 50%
-  .dw-cluster__segment--quart 
-      flex-basis: 25%
-
-@media screen and (min-width: 756px)
-  .dw-panel 
-      page-break-inside: avoid
-      -moz-column-break-inside: avoid
-      break-inside: avoid
-  .date-field 
-    justify-content: space-evenly
-  .date-field div.day-of-week 
-    display: none
-  .date-field div.day-of-week-mobile 
-    display: inline-block
-  .date-field div.day-of-week-mobile p 
-    font-size: 56px
-    margin-top: -2px
-  .dw
-    -moz-column-count: 2
-    column-count: 2
-  .col-1, .col-10, .col-11, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9
-    flex-basis: 50%
-    max-width: 50%
-  .kg-width-full 
-    width: 100vw
-  .post-card.no-image:before 
-      font-size: 50vw
-  .post-card
-      flex: 1 1 100%
-      height: 70vw
-  .post-card.with-image .post-card-content 
-      opacity: 1
-  .site-head 
-    padding: 0 0 20px
-  .site-head-container 
-    background: hsla(0, 0%, 100%, 0);
-    display: block
-    width: 100%
-  .kg-bookmark-card 
-    margin: 7vw 0
-
-@media screen and (min-width: 1080px)
-  .dw-4
-      -moz-column-count: 4
-      column-count: 4
-  .post-card.no-image .post-card-title 
-      font-size: 3.4rem
-
+  #navbar,
+  .site-main
+    padding: 0 15vw

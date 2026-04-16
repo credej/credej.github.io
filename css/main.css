@@ -66,10 +66,6 @@ p, h1, h2, h3, h4, h5 {
   cursor: default;
 }
 
-#navbar {
-  padding: 0 12.5vw;
-}
-
 .anchor {
   scroll-margin-top: 28px;
 }
@@ -309,6 +305,9 @@ p, h1, h2, h3, h4, h5 {
   -o-animation: blink-animation 0.9s infinite;
   content: "_";
 }
+.intro-category-icons span {
+  padding: 0 8px;
+}
 
 .intro-text {
   margin: 12px 0 50px;
@@ -398,6 +397,16 @@ p, h1, h2, h3, h4, h5 {
   text-transform: uppercase;
 }
 
+.menu-logo a {
+  width: auto;
+}
+.menu-logo h1 {
+  cursor: pointer;
+  font-family: "Tiny5", monospace;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+}
+
 .menu-list {
   display: flex;
   flex-direction: column;
@@ -423,16 +432,6 @@ p, h1, h2, h3, h4, h5 {
   position: fixed;
   backdrop-filter: blur(187px);
   -webkit-backdrop-filter: blur(187px);
-}
-
-.navbar-home {
-  width: auto;
-}
-.navbar-home h1 {
-  cursor: pointer;
-  font-size: var(--font-xl);
-  font-family: "Tiny5", monospace;
-  font-family: "Courier Prime", monospace;
 }
 
 .page-section {
@@ -669,7 +668,6 @@ p, h1, h2, h3, h4, h5 {
 
 .site-main {
   margin: 144px 0 0;
-  padding: 0 12.5vw;
 }
 
 .stat {

@@ -55,9 +55,6 @@ table
 p, h1, h2, h3, h4, h5
   cursor: default
 
-#navbar
-  padding: 0 12.5vw
-
 .anchor
   scroll-margin-top: 28px 
 
@@ -253,7 +250,9 @@ p, h1, h2, h3, h4, h5
       -webkit-animation: blink-animation .9s infinite
       -moz-animation: blink-animation .9s infinite
       -o-animation: blink-animation .9s infinite
-      content: "_"
+      content: "_"    
+  span
+    padding: 0 8px
 
 .intro-text
   margin: 12px 0 50px
@@ -331,6 +330,14 @@ p, h1, h2, h3, h4, h5
     text-align: center
     text-transform: uppercase
 
+.menu-logo 
+  a
+    width: auto
+  h1
+    cursor: pointer
+    font-family: "Tiny5", monospace
+    font-family: "Courier Prime", monospace
+    text-align: center
 
 .menu-list
   display: flex
@@ -354,14 +361,6 @@ p, h1, h2, h3, h4, h5
   position: fixed
   backdrop-filter: blur(187px)
   -webkit-backdrop-filter: blur(187px)
-
-.navbar-home
-  width: auto
-  h1
-    cursor: pointer
-    font-size: var(--font-xl)
-    font-family: "Tiny5", monospace
-    font-family: "Courier Prime", monospace
 
 .page-section
   margin: 96px 0
@@ -557,7 +556,6 @@ p, h1, h2, h3, h4, h5
 
 .site-main
   margin: 144px 0 0
-  padding: 0 12.5vw
 
 .stat 
   flex: 1

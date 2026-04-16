@@ -7,7 +7,7 @@ body {
   color: var(--color-purple);
 }
 
-.navbar-home h1 {
+.menu-logo h1 {
   color: var(--color-grey-medium);
 }
 
@@ -93,7 +93,7 @@ body.dark-mode .page-header-excerpt {
   background-color: #1D212C;
 }
 body.dark-mode .page-header-excerpt p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
 }
 body.dark-mode .quote-link a {
   color: var(--color-blue-light);
