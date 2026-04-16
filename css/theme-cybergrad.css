@@ -67,7 +67,7 @@ body.dark-mode .bg-cyber {
   background-color: #030D19;
 }
 body.dark-mode .img-fullsize figcaption {
-  color: var(--color-blue);
+  color: var(--color-grey-medium);
 }
 body.dark-mode .project-section-desc a {
   color: var(--color-blue);

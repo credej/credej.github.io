@@ -22,15 +22,17 @@ body .bookmark h2 {
   padding: 0 16pxw;
 }
 body .bookmark-glossary {
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   margin: 12px 0 72px;
 }
 body .bookmark-glossary a {
-  background: var(--color-green);
-  color: var(--color-purple-light);
+  background: none;
   border: 3px solid var(--color-green);
+  color: var(--color-green) !important;
   border-radius: 8px 0 8px 0;
+  cursor: pointer;
   font-size: var(--font-l);
   font-weight: 900;
   padding: 12px;
@@ -39,9 +41,9 @@ body .bookmark-glossary a {
 }
 body .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
-  background: none;
+  background: var(--color-green);
   border: 3px solid var(--color-green);
-  color: var(--color-green) !important;
+  color: var(--color-blue-storm) !important;
 }
 body .bookmark-section {
   margin-left: 1rem;

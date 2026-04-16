@@ -178,10 +178,6 @@
   .project-title h1:after {
     display: none;
   }
-  .project-subtitle {
-    font-size: var(--font-s);
-    text-align: center;
-  }
   .project-overview p {
     font-size: var(--font-m);
     letter-spacing: -0.1rem;
@@ -196,7 +192,7 @@
     text-shadow: var(--text-shadow-1);
   }
   .project-section {
-    padding: 48px 48px 72px;
+    padding: 48px 24px 72px;
   }
   .project-section-title {
     text-align: center;
@@ -204,6 +200,10 @@
   .project-section-desc p {
     font-size: var(--font-s);
     line-height: 1.4rem;
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: var(--font-s);
     text-align: center;
   }
   .section-header {
@@ -309,8 +309,18 @@
   .menu-logo h1 {
     font-size: var(--font-xl);
   }
+  .project-links {
+    text-align: center;
+  }
+  .project-overview p {
+    text-align: justify;
+  }
   .project-title {
     justify-content: center;
+  }
+  .project-subtitle,
+  .project-tags {
+    text-align: center;
   }
   #navbar,
   .site-main {
