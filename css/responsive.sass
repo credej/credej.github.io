@@ -226,16 +226,27 @@
     padding: 0 12px 0 0
   .category-links
     text-indent: 0
+    text-align: center
     a
       display: block
       padding: 8px 0
     .category-links-slash
       display: none
+  .category-title
+    display: flex
+    flex-direction: column
+    text-align: center 
+    i
+      padding: 12px 0
+  .category-subtitle
+    text-align: center 
   .effect-glitch:hover
     animation-name: glitch 
     animation-duration: 0.8s 
     animation-iteration-count: infinite 
     cursor: pointer !important
+  .hide-mobile
+    display: none
   .menu-logo
     h1
       font-size: var(--font-xl)
