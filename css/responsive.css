@@ -370,7 +370,7 @@
     align-items: center;
   }
   .menu-logo h1 {
-    font-size: var(--font-xxl);
+    font-size: var(--font-xl);
   }
   .page-header {
     display: flex;
