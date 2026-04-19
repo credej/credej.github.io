@@ -21,14 +21,28 @@ body .remedy {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
-  padding: 0 0 36px;
+  padding: 36px 0 0;
 }
 body .remedy p {
-  color: var(--color-remedy-green-dark);
+  color: var(--color-grey-light);
+  font-size: var(--font-l);
+}
+body .remedy h1 {
+  color: var(--color-yellow);
+  font-size: var(--font-xl);
+  font-weight: 900;
+  padding: 36px 0;
+  text-decoration: underline;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .remedy h2 {
-  font-size: var(--font-l);
+  color: var(--color-white);
+  font-size: var(--font-xl);
   text-transform: uppercase;
+}
+body .remedy h3 {
+  color: var(--color-grey-light);
+  font-size: var(--font-l);
 }
 body .remedy a:hover {
   color: #fff;
@@ -57,26 +71,11 @@ body .remedy-glossary a:hover {
   border-radius: 8px 0 8px 0;
   color: var(--color-remedy-green-light);
 }
-body .remedy-list {
-  color: var(--color-remedy-green-dark);
-  padding: 24px 36px;
-}
-body .remedy-list li {
-  padding: 4px 0;
-}
 body .remedy-section {
   break-inside: avoid;
   display: flex;
   font-family: "Courier Prime", monospace;
   flex-direction: column;
-}
-body .remedy-section h1 {
-  color: var(--color-yellow);
-  font-size: var(--font-l);
-  font-weight: 900;
-  padding: 36px 0;
-  text-decoration: underline;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .remedy-section li {
   font-size: var(--font-m);
@@ -84,6 +83,36 @@ body .remedy-section li {
 }
 body .remedy-section a {
   padding: 4px 0 4px 12px;
+}
+body .remedy-list {
+  color: var(--color-remedy-green-dark);
+  padding: 0 36px;
+}
+body .remedy-list li {
+  color: var(--color-grey-dark);
+}
+body .remedy-list-item {
+  margin: 48px 0;
+}
+body .remedy-list-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+body .remedy-tag {
+  background-color: var(--color-remedy-green-dark);
+  border-radius: 3px;
+  color: var(--color-grey-light);
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0;
+  margin: 8px 8px 8px 0;
+  opacity: 0.8;
+  padding: 4px 12px;
+}
+body .remedy-tag:hover {
+  opacity: 1;
 }
 body .bookmark-old a {
   color: var(--color-grey-light);
@@ -115,4 +144,7 @@ body.dark-mode .remedy p {
 }
 body.dark-mode .remedy-list {
   color: var(--color-grey-light);
+}
+body.dark-mode .remedy-tag {
+  background-color: var(--color-remedy-green-light);
 }
