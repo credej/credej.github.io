@@ -6,13 +6,13 @@ body .page-header-excerpt {
   background-color: #6B7A60;
 }
 body .page-header-excerpt p {
-  color: var(--color-remedy-green-dark);
+  color: var(--color-grey-light);
 }
 body .page-header-title h1 {
   color: var(--color-white);
 }
 body .page-header-title i {
-  color: var(--color-remedy-green-dark);
+  color: var(--color-grey-light);
 }
 body .section-header h5 {
   color: var(--color-white);
@@ -24,8 +24,9 @@ body .remedy {
   padding: 36px 0 0;
 }
 body .remedy p {
-  color: var(--color-grey-light);
+  color: var(--color-remedy-green-dark);
   font-size: var(--font-l);
+  font-style: italic;
 }
 body .remedy h1 {
   color: var(--color-yellow);
@@ -38,6 +39,7 @@ body .remedy h1 {
 body .remedy h2 {
   color: var(--color-white);
   font-size: var(--font-xl);
+  font-style: italic;
   text-transform: uppercase;
 }
 body .remedy h3 {
@@ -77,10 +79,6 @@ body .remedy-section {
   font-family: "Courier Prime", monospace;
   flex-direction: column;
 }
-body .remedy-section li {
-  font-size: var(--font-m);
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
-}
 body .remedy-section a {
   padding: 4px 0 4px 12px;
 }
@@ -89,10 +87,12 @@ body .remedy-list {
   padding: 0 36px;
 }
 body .remedy-list li {
+  font-size: var(--font-m);
   color: var(--color-grey-dark);
+  text-shadow: var(--text-shadow-1);
 }
 body .remedy-list-item {
-  margin: 48px 0;
+  margin: 36px 0;
 }
 body .remedy-list-title {
   display: flex;
@@ -101,7 +101,7 @@ body .remedy-list-title {
   gap: 16px;
 }
 body .remedy-tag {
-  background-color: var(--color-remedy-green-dark);
+  background-color: #6B7A60;
   border-radius: 3px;
   color: var(--color-grey-light);
   cursor: pointer;
