@@ -15,33 +15,53 @@ body
     h5
       color: var(--color-white)
 
-  .remedy
+  .remedy-category
+    break-inside: avoid
+    display: flex
+    font-family: "Courier Prime", monospace
+    flex-direction: column
+    padding: 36px 0 
+    a
+      padding: 4px 0 4px 12px
+
+  .remedy-title
+    color: var(--color-yellow)
+    padding: 24px 0 
+    h1
+      font-size: var(--font-xl)
+      font-weight: 900
+      padding: 4px 0 
+      text-decoration: underline
+    p
+      color: var(--color-remedy-green-medium)
+      font-size: var(--font-l)
+      font-style: italic
+      text-shadow: var(--text-shadow-3)
+
+  .remedy-section-title
+    p
+      color: var(--color-remedy-green-medium)
+      font-size: var(--font-l)
+      font-style: italic
+      text-shadow: var(--text-shadow-3)
+    h2
+      color: var(--color-white)
+      font-size: var(--font-xl)
+      text-transform: uppercase
+
+  .remedy-section
     flex-grow: 1
     flex-shrink: 1
     flex-basis: 0%
     padding: 36px 0 0
-    p
-      color: var(--color-remedy-green-dark)
-      font-size: var(--font-l)
-      font-style: italic
-    h1
-      color: var(--color-yellow)
-      font-size: var(--font-xl)
-      font-weight: 900
-      padding: 36px 0 
-      text-decoration: underline
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
-    h2
-      color: var(--color-white)
-      font-size: var(--font-xl)
-      font-style: italic
-      text-transform: uppercase
     h3
       color: var(--color-grey-light)
       font-size: var(--font-l)
     a:hover
       color: #fff
       animation: blinker 1s linear infinite
+    span
+      opacity: 0.29
 
   .remedy-glossary
     display: flex
@@ -64,14 +84,6 @@ body
         border-radius: 8px 0 8px 0
         color: var(--color-remedy-green-light)
 
-  .remedy-section
-    break-inside: avoid
-    display: flex
-    font-family: "Courier Prime", monospace
-    flex-direction: column
-    a
-      padding: 4px 0 4px 12px
-
   .remedy-list
     color: var(--color-remedy-green-dark)
     padding: 0 36px
@@ -82,12 +94,20 @@ body
 
   .remedy-list-item
     margin: 36px 0
+    p
+      border: 1px solid var(--color-remedy-green-medium)
+      border-radius: 12px
+      display: inline-block
+      margin: 12px 0
+      padding: 4px 24px
 
   .remedy-list-title
     display: flex
     flex-direction: row
     align-items: center
     gap: 16px
+    h3
+      padding: 12px 0
 
   .remedy-tag
     background-color: #6B7A60

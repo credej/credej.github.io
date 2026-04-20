@@ -17,38 +17,59 @@ body .page-header-title i {
 body .section-header h5 {
   color: var(--color-white);
 }
-body .remedy {
+body .remedy-category {
+  break-inside: avoid;
+  display: flex;
+  font-family: "Courier Prime", monospace;
+  flex-direction: column;
+  padding: 36px 0;
+}
+body .remedy-category a {
+  padding: 4px 0 4px 12px;
+}
+body .remedy-title {
+  color: var(--color-yellow);
+  padding: 24px 0;
+}
+body .remedy-title h1 {
+  font-size: var(--font-xl);
+  font-weight: 900;
+  padding: 4px 0;
+  text-decoration: underline;
+}
+body .remedy-title p {
+  color: var(--color-remedy-green-medium);
+  font-size: var(--font-l);
+  font-style: italic;
+  text-shadow: var(--text-shadow-3);
+}
+body .remedy-section-title p {
+  color: var(--color-remedy-green-medium);
+  font-size: var(--font-l);
+  font-style: italic;
+  text-shadow: var(--text-shadow-3);
+}
+body .remedy-section-title h2 {
+  color: var(--color-white);
+  font-size: var(--font-xl);
+  text-transform: uppercase;
+}
+body .remedy-section {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
   padding: 36px 0 0;
 }
-body .remedy p {
-  color: var(--color-remedy-green-dark);
-  font-size: var(--font-l);
-  font-style: italic;
-}
-body .remedy h1 {
-  color: var(--color-yellow);
-  font-size: var(--font-xl);
-  font-weight: 900;
-  padding: 36px 0;
-  text-decoration: underline;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
-}
-body .remedy h2 {
-  color: var(--color-white);
-  font-size: var(--font-xl);
-  font-style: italic;
-  text-transform: uppercase;
-}
-body .remedy h3 {
+body .remedy-section h3 {
   color: var(--color-grey-light);
   font-size: var(--font-l);
 }
-body .remedy a:hover {
+body .remedy-section a:hover {
   color: #fff;
   animation: blinker 1s linear infinite;
+}
+body .remedy-section span {
+  opacity: 0.29;
 }
 body .remedy-glossary {
   display: flex;
@@ -73,15 +94,6 @@ body .remedy-glossary a:hover {
   border-radius: 8px 0 8px 0;
   color: var(--color-remedy-green-light);
 }
-body .remedy-section {
-  break-inside: avoid;
-  display: flex;
-  font-family: "Courier Prime", monospace;
-  flex-direction: column;
-}
-body .remedy-section a {
-  padding: 4px 0 4px 12px;
-}
 body .remedy-list {
   color: var(--color-remedy-green-dark);
   padding: 0 36px;
@@ -94,11 +106,21 @@ body .remedy-list li {
 body .remedy-list-item {
   margin: 36px 0;
 }
+body .remedy-list-item p {
+  border: 1px solid var(--color-remedy-green-medium);
+  border-radius: 12px;
+  display: inline-block;
+  margin: 12px 0;
+  padding: 4px 24px;
+}
 body .remedy-list-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 16px;
+}
+body .remedy-list-title h3 {
+  padding: 12px 0;
 }
 body .remedy-tag {
   background-color: #6B7A60;
