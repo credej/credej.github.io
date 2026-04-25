@@ -27,9 +27,12 @@ body .remedy-category {
 body .remedy-category a {
   padding: 4px 0 4px 12px;
 }
+body .remedy-category h1 {
+  position: sticky !important;
+  top: 0 !important;
+}
 body .remedy-title {
   color: var(--color-yellow);
-  padding: 24px 0;
 }
 body .remedy-title h1 {
   font-size: var(--font-xl);
@@ -40,19 +43,26 @@ body .remedy-title h1 {
 body .remedy-title p {
   color: var(--color-remedy-green-medium);
   font-size: var(--font-l);
-  font-style: italic;
   text-shadow: var(--text-shadow-3);
 }
-body .remedy-section-title p {
-  color: var(--color-remedy-green-medium);
-  font-size: var(--font-l);
-  font-style: italic;
-  text-shadow: var(--text-shadow-3);
+body .remedy-section-title {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 body .remedy-section-title h2 {
   color: var(--color-white);
   font-size: var(--font-xl);
+  padding: 24px 16px 24px 0;
   text-transform: uppercase;
+}
+body .remedy-section-subtitle {
+  color: var(--color-grey-light);
+  font-size: var(--font-m);
+  font-style: italic;
+  line-height: 1.4rem;
+  margin: 0 0 24px 44px;
+  text-shadow: var(--text-shadow-3);
 }
 body .remedy-section {
   flex-grow: 1;
@@ -96,18 +106,13 @@ body .remedy-glossary a:hover {
 }
 body .remedy-list {
   color: var(--color-remedy-green-dark);
-  padding: 0 36px;
-}
-body .remedy-list li {
-  font-size: var(--font-m);
-  color: var(--color-grey-dark);
-  text-shadow: var(--text-shadow-1);
+  padding: 0 44px;
 }
 body .remedy-list-item {
-  margin: 36px 0;
+  margin: 0 0 24px;
 }
 body .remedy-list-item p {
-  border: 1px solid var(--color-remedy-green-medium);
+  border: 2px solid var(--color-remedy-green-medium);
   border-radius: 12px;
   display: inline-block;
   margin: 12px 0;
@@ -120,6 +125,7 @@ body .remedy-list-title {
   gap: 16px;
 }
 body .remedy-list-title h3 {
+  font-weight: 900;
   padding: 12px 0;
 }
 body .remedy-tag {
@@ -129,7 +135,7 @@ body .remedy-tag {
   cursor: pointer;
   display: inline-block;
   letter-spacing: 0;
-  margin: 8px 8px 8px 0;
+  margin: 16px 16px 16px 0;
   opacity: 0.8;
   padding: 4px 12px;
 }
