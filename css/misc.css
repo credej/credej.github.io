@@ -1,3 +1,27 @@
+
+/* UNUSED BUT POTENTIALLY NEEDED LATER */
+
+.hover-blue
+  h2
+    color: var(--color-blue)
+.hover-green
+  h2
+    color: var(--color-green)
+.hover-red
+  h2
+    color: var(--color-red)
+.hover-orange
+  h2
+    color: var(--color-orange)
+.hover-yellow
+  h2
+    color: var(--color-yellow)
+.hover-purple
+  h2
+    color: var(--color-purple)
+
+
+
 /* FUTURE CSS RULES NOT FULLY SUPPORTED YET */
 
 .trim-text {

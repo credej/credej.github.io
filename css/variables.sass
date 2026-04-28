@@ -63,32 +63,32 @@
 .blue, .blue a, .blue i
   color: #00E1FF 
 .border-blue
-  border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1
+  border-image: linear-gradient(to bottom, #00E1FF 0%, #007584 100%) 1
 
 .green, .green a, .green i
   color: #17f9a6 
 .border-green
-  border-image: linear-gradient(to bottom, #17f9a6 0%, #112E22 100%) 1
+  border-image: linear-gradient(to bottom, #17f9a6 0%, #007a4d 100%) 1
 
 .red, .red a, .red i
   color: #D9044C
 .border-red
-  border-image: linear-gradient(to bottom, #D9044C 0%, #3C1A12 100%) 1
+  border-image: linear-gradient(to bottom, #D9044C 0%, #543e46 100%) 1
 
 .orange, .orange a, .orange i
   color: #ea673e
 .border-orange
-  border-image: linear-gradient(to bottom, #ea673e 0%, #342008 100%) 1
+  border-image: linear-gradient(to bottom, #ea673e 0%, #936c60 100%) 1
 
 .yellow, .yellow a, .yellow i
   color: #facc15
 .border-yellow
-  border-image: linear-gradient(to bottom, #facc15 0%, #3B320E 100%) 1
+  border-image: linear-gradient(to bottom, #facc15 0%, #898160 100%) 1
 
 .purple, .purple a, .purple i
-  color: #8566ff 
+  color: #986cdd 
 .border-purple
-  border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1
+  border-image: linear-gradient(to bottom, #986cdd 0%, #6046c9 100%) 1
 
 .white, .white a, .white i
   color: #ececec 
@@ -105,24 +105,56 @@
 .border-black
   border-image: linear-gradient(to right, #000 0%, #757575 100%) 1
 
-.hover-blue
-  h2
-    color: var(--color-blue)
-.hover-green
-  h2
-    color: var(--color-green)
-.hover-red
-  h2
-    color: var(--color-red)
-.hover-orange
-  h2
-    color: var(--color-orange)
-.hover-yellow
-  h2
-    color: var(--color-yellow)
-.hover-purple
-  h2
-    color: var(--color-purple)
+.bg-glass-blue
+  background-color: hsl(from var(--color-red) h s 90%)  
+  background: rgba(0, 225, 237, .147)
+.bg-glass-green
+  background: rgba(150, 247, 109, .13)
+.bg-glass-red
+  background: rgba(217, 47, 4, .12)
+.bg-glass-orange
+  background: rgba(247, 147, 26, .15)
+.bg-glass-yellow
+  background: rgba(247, 204, 21, .15)
+.bg-glass-purple
+  background: rgba(113, 100, 255, .4)
+.bg-glass-white
+  background: rgba(255, 255, 255, .147)
+
+body.dark-mode 
+  .border-blue
+    border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1
+  .border-green
+    border-image: linear-gradient(to bottom, #17f9a6 0%, #112E22 100%) 1
+  .border-red
+    border-image: linear-gradient(to bottom, #D9044C 0%, #3C1A12 100%) 1
+  .border-orange
+    border-image: linear-gradient(to bottom, #ea673e 0%, #342008 100%) 1
+  .border-yellow
+    border-image: linear-gradient(to bottom, #facc15 0%, #3B320E 100%) 1
+  .border-purple
+    border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1
+  .border-white
+    border-image: linear-gradient(to bottom, #ececec 0%, #757575 100%) 1
+  .border-grey
+    border-image: linear-gradient(to bottom, #C8C8C8 0%, #7A7A7A 100%) 1
+  .border-black
+    border-image: linear-gradient(to right, #000 0%, #757575 100%) 1
+
+  .bg-glass-blue
+    background: rgba(0, 225, 237, .045)
+  .bg-glass-green
+    background: rgba(150, 247, 109, .038)
+  .bg-glass-red
+    background: rgba(217, 47, 4, .045)
+  .bg-glass-orange
+    background: rgba(247, 147, 26, .04)
+  .bg-glass-purple
+    background: rgba(113, 100, 255, .045)
+  .bg-glass-yellow
+    background: rgba(247, 204, 21, .035)
+  .bg-glass-white
+    background: rgba(255, 255, 255, .035)
 
 /* FONT EFFECTS */
 

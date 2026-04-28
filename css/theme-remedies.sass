@@ -27,50 +27,6 @@ body
       position: sticky !important 
       top: 0 !important
 
-  .remedy-title
-    color: var(--color-yellow)
-    h1
-      font-size: var(--font-xl)
-      font-weight: 900
-      padding: 4px 0 
-      text-decoration: underline
-    p
-      color: var(--color-remedy-green-medium)
-      font-size: var(--font-l)
-      text-shadow: var(--text-shadow-3)
-
-  .remedy-section-title
-    align-items: center
-    display: flex
-    flex-direction: row
-    h2
-      color: var(--color-white)
-      font-size: var(--font-xl)
-      padding: 24px 16px 24px 0
-      text-transform: uppercase
-
-  .remedy-section-subtitle
-      color: var(--color-grey-light)
-      font-size: var(--font-m)
-      font-style: italic
-      line-height: 1.4rem
-      margin: 0 0 24px 44px
-      text-shadow: var(--text-shadow-3)
-
-  .remedy-section
-    flex-grow: 1
-    flex-shrink: 1
-    flex-basis: 0%
-    padding: 36px 0 0
-    h3
-      color: var(--color-grey-light)
-      font-size: var(--font-l)
-    a:hover
-      color: #fff
-      animation: blinker 1s linear infinite
-    span
-      opacity: 0.29
-
   .remedy-glossary
     display: flex
     flex-wrap: wrap
@@ -114,6 +70,38 @@ body
       font-weight: 900
       padding: 12px 0
 
+  .remedy-section-title
+    align-items: center
+    display: flex
+    flex-direction: row
+    h2
+      color: var(--color-white)
+      font-size: var(--font-xl)
+      padding: 24px 16px 24px 0
+      text-transform: uppercase
+
+  .remedy-section-subtitle
+      color: var(--color-grey-light)
+      font-size: var(--font-m)
+      font-style: italic
+      line-height: 1.4rem
+      margin: 0 0 24px 44px
+      text-shadow: var(--text-shadow-3)
+
+  .remedy-section
+    flex-grow: 1
+    flex-shrink: 1
+    flex-basis: 0%
+    padding: 36px 0 0
+    h3
+      color: var(--color-grey-light)
+      font-size: var(--font-l)
+    a:hover
+      color: #fff
+      animation: blinker 1s linear infinite
+    span
+      opacity: 0.29
+
   .remedy-tag
     background-color: #6B7A60
     border-radius: 3px
@@ -126,6 +114,18 @@ body
     padding: 4px 12px
     &:hover 
       opacity: 1
+
+  .remedy-title
+    color: var(--color-yellow)
+    h1
+      font-size: var(--font-xl)
+      font-weight: 900
+      padding: 4px 0 
+      text-decoration: underline 
+    p
+      color: var(--color-remedy-green-medium)
+      font-size: var(--font-l)
+      text-shadow: var(--text-shadow-3)
 
   .bookmark-old
     a
@@ -144,7 +144,7 @@ body.dark-mode
   .page-header-excerpt
     background: #343A2F
     p
-      color: var(--color-remedy-green-light)
+      color: var(--color-grey-light)
   .page-header-title
     i
       color: var(--color-remedy-green-light)
@@ -157,4 +157,7 @@ body.dark-mode
     color: var(--color-grey-light)
   .remedy-tag
     background-color: var(--color-remedy-green-light)
+  .remedy-title
+    p
+      color: var(--color-remedy-green-light)
 

@@ -31,56 +31,6 @@ body .remedy-category h1 {
   position: sticky !important;
   top: 0 !important;
 }
-body .remedy-title {
-  color: var(--color-yellow);
-}
-body .remedy-title h1 {
-  font-size: var(--font-xl);
-  font-weight: 900;
-  padding: 4px 0;
-  text-decoration: underline;
-}
-body .remedy-title p {
-  color: var(--color-remedy-green-medium);
-  font-size: var(--font-l);
-  text-shadow: var(--text-shadow-3);
-}
-body .remedy-section-title {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-body .remedy-section-title h2 {
-  color: var(--color-white);
-  font-size: var(--font-xl);
-  padding: 24px 16px 24px 0;
-  text-transform: uppercase;
-}
-body .remedy-section-subtitle {
-  color: var(--color-grey-light);
-  font-size: var(--font-m);
-  font-style: italic;
-  line-height: 1.4rem;
-  margin: 0 0 24px 44px;
-  text-shadow: var(--text-shadow-3);
-}
-body .remedy-section {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0%;
-  padding: 36px 0 0;
-}
-body .remedy-section h3 {
-  color: var(--color-grey-light);
-  font-size: var(--font-l);
-}
-body .remedy-section a:hover {
-  color: #fff;
-  animation: blinker 1s linear infinite;
-}
-body .remedy-section span {
-  opacity: 0.29;
-}
 body .remedy-glossary {
   display: flex;
   flex-wrap: wrap;
@@ -128,6 +78,42 @@ body .remedy-list-title h3 {
   font-weight: 900;
   padding: 12px 0;
 }
+body .remedy-section-title {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+body .remedy-section-title h2 {
+  color: var(--color-white);
+  font-size: var(--font-xl);
+  padding: 24px 16px 24px 0;
+  text-transform: uppercase;
+}
+body .remedy-section-subtitle {
+  color: var(--color-grey-light);
+  font-size: var(--font-m);
+  font-style: italic;
+  line-height: 1.4rem;
+  margin: 0 0 24px 44px;
+  text-shadow: var(--text-shadow-3);
+}
+body .remedy-section {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  padding: 36px 0 0;
+}
+body .remedy-section h3 {
+  color: var(--color-grey-light);
+  font-size: var(--font-l);
+}
+body .remedy-section a:hover {
+  color: #fff;
+  animation: blinker 1s linear infinite;
+}
+body .remedy-section span {
+  opacity: 0.29;
+}
 body .remedy-tag {
   background-color: #6B7A60;
   border-radius: 3px;
@@ -141,6 +127,20 @@ body .remedy-tag {
 }
 body .remedy-tag:hover {
   opacity: 1;
+}
+body .remedy-title {
+  color: var(--color-yellow);
+}
+body .remedy-title h1 {
+  font-size: var(--font-xl);
+  font-weight: 900;
+  padding: 4px 0;
+  text-decoration: underline;
+}
+body .remedy-title p {
+  color: var(--color-remedy-green-medium);
+  font-size: var(--font-l);
+  text-shadow: var(--text-shadow-3);
 }
 body .bookmark-old a {
   color: var(--color-grey-light);
@@ -159,7 +159,7 @@ body.dark-mode .page-header-excerpt {
   background: #343A2F;
 }
 body.dark-mode .page-header-excerpt p {
-  color: var(--color-remedy-green-light);
+  color: var(--color-grey-light);
 }
 body.dark-mode .page-header-title i {
   color: var(--color-remedy-green-light);
@@ -175,4 +175,7 @@ body.dark-mode .remedy-list {
 }
 body.dark-mode .remedy-tag {
   background-color: var(--color-remedy-green-light);
+}
+body.dark-mode .remedy-title p {
+  color: var(--color-remedy-green-light);
 }
