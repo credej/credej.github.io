@@ -87,7 +87,7 @@ p, h1, h2, h3, h4, h5 {
 .category {
   font-family: "Yellowtail", monospace;
   margin: 96px 0;
-  padding: 48px 72px 72px;
+  padding: 56px 72px 72px;
 }
 .category a {
   font-size: var(--font-m);
@@ -130,17 +130,17 @@ p, h1, h2, h3, h4, h5 {
 
 .category-links {
   line-height: 2rem;
-  padding: 24px 0;
+  padding: 24px 0 48px;
   text-shadow: var(--text-shadow-2);
 }
 .category-links a {
   font-size: var(--font-l);
   font-weight: 900;
-  text-decoration: underline;
-  text-decoration-style: dotted;
 }
 .category-links a:hover {
   animation: blinker 1s linear infinite;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 .category-links span {
   opacity: 0.29;

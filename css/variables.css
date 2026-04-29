@@ -64,7 +64,7 @@
 }
 
 .border-blue {
-  border-image: linear-gradient(to bottom, #00E1FF 0%, #007584 100%) 1;
+  border-image: linear-gradient(to bottom, #00E1FF 0%, #1862c9 100%) 1;
 }
 
 .green, .green a, .green i {
@@ -72,7 +72,7 @@
 }
 
 .border-green {
-  border-image: linear-gradient(to bottom, #17f9a6 0%, #007a4d 100%) 1;
+  border-image: linear-gradient(to bottom, #17f9a6 0%, #1862c9 100%) 1;
 }
 
 .red, .red a, .red i {
@@ -80,7 +80,7 @@
 }
 
 .border-red {
-  border-image: linear-gradient(to bottom, #D9044C 0%, #543e46 100%) 1;
+  border-image: linear-gradient(to bottom, #D9044C 0%, #1862c9 100%) 1;
 }
 
 .orange, .orange a, .orange i {
@@ -88,7 +88,7 @@
 }
 
 .border-orange {
-  border-image: linear-gradient(to bottom, #ea673e 0%, #936c60 100%) 1;
+  border-image: linear-gradient(to bottom, #ea673e 0%, #1862c9 100%) 1;
 }
 
 .yellow, .yellow a, .yellow i {
@@ -96,7 +96,7 @@
 }
 
 .border-yellow {
-  border-image: linear-gradient(to bottom, #facc15 0%, #898160 100%) 1;
+  border-image: linear-gradient(to bottom, #facc15 0%, #1862c9 100%) 1;
 }
 
 .purple, .purple a, .purple i {
@@ -104,7 +104,7 @@
 }
 
 .border-purple {
-  border-image: linear-gradient(to bottom, #986cdd 0%, #6046c9 100%) 1;
+  border-image: linear-gradient(to bottom, #986cdd 0%, #1862c9 100%) 1;
 }
 
 .white, .white a, .white i {
@@ -112,7 +112,7 @@
 }
 
 .border-white {
-  border-image: linear-gradient(to bottom, #ececec 0%, #757575 100%) 1;
+  border-image: linear-gradient(to bottom, #ececec 0%, #1862c9 100%) 1;
 }
 
 .grey, .grey a, .grey i {
@@ -120,7 +120,7 @@
 }
 
 .border-grey {
-  border-image: linear-gradient(to bottom, #C8C8C8 0%, #7A7A7A 100%) 1;
+  border-image: linear-gradient(to bottom, #C8C8C8 0%, #1862c9 100%) 1;
 }
 
 .black, .black a, .black i {
@@ -128,7 +128,7 @@
 }
 
 .border-black {
-  border-image: linear-gradient(to right, #000 0%, #757575 100%) 1;
+  border-image: linear-gradient(to right, #000 0%, #1862c9 100%) 1;
 }
 
 .bg-glass-blue {
