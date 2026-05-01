@@ -641,6 +641,11 @@ p, h1, h2, h3, h4, h5 {
   text-wrap: wrap;
   word-break: break-all;
 }
+.project-section .img {
+  display: flex;
+  justify-content: center;
+  padding: 72px 0;
+}
 .project-section span {
   color: var(color-title-hashtag);
 }
