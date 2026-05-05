@@ -413,6 +413,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-inventory.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-inventory.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-quotes.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2657,6 +2670,27 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 2042375,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/index.html",
       "oF" : 0
     },
     "\/pages\/otherstuff\/quotes\/img\/bookmarks-banner.jpg" : {

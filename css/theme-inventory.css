@@ -1,6 +1,6 @@
 /* LIGHT */
 body {
-  background-color: var(--color-turqoise-medium);
+  background-color: var(--color-grey-medium);
 }
 body .badge {
   display: flex;
@@ -60,7 +60,7 @@ body .project-title i {
 
 /* DARK */
 body.dark-mode {
-  background-color: var(--color-cyber-bg) !important;
+  background-color: var(--color-blue-storm);
   color: var(--color-white);
 }
 body.dark-mode .bg-cyber {
