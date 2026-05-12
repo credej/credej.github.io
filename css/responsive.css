@@ -66,12 +66,6 @@
   .hide-mobile {
     display: none;
   }
-  .img-gallery {
-    display: none;
-  }
-  .img-gallery-small {
-    display: none;
-  }
   .intro {
     margin: 12px 0;
     text-align: center;
@@ -258,9 +252,6 @@
   .category-subtitle p {
     line-height: 1.5rem;
     text-align: center;
-  }
-  .img-gallery-small {
-    display: none;
   }
   .img-gallery-full img {
     margin: 48px 0 0;

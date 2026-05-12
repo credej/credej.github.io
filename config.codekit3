@@ -1441,6 +1441,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/design\/artwork\/img\/sketch-cobra.png" : {
+      "ft" : 32768,
+      "iS" : 7349489,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/artwork\/img\/sketch-cobra.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/pages\/design\/artwork\/img\/sketch-dog-max.jpg" : {
       "ft" : 16384,
       "iS" : 414999,
