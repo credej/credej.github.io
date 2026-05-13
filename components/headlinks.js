@@ -15,6 +15,7 @@ class HeadLinks extends HTMLElement {
       <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Alumni+Sans+Pinstripe:ital@0;1&family=Barriecito&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Doto:wght@100..900&family=Fugaz+One&family=Lexend+Exa:wght@100..900&family=Lusitana:wght@400;700&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Boldonse&family=Geostar&family=Martian+Mono:wght@100..800&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&family=Geostar+Fill&family=Libre+Barcode+39+Text&family=PT+Mono&family=Press+Start+2P&family=Redacted&family=Redacted+Script:wght@300;400;700&family=Russo+One&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+      <link href="https://api.fontshare.com/v2/css?f[]=array@400&display=swap" rel="stylesheet">
       <!-- end replace -->
     `;
   }
