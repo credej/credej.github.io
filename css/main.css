@@ -34,6 +34,19 @@ a {
 p {
   font-size: var(--font-m);
   font-family: "Array", sans-serif;
+  font-family: "Satoshi", sans-serif;
+  font-family: "Clash Display", sans-serif;
+  font-family: "Telma", cursive;
+  font-family: "Author", sans-serif;
+  font-family: "Alpino", sans-serif;
+  font-family: "Comico", cursive;
+  font-family: "Melodrama", serif;
+  font-family: "Boxing", sans-serif;
+  font-family: "Kola", sans-serif;
+  font-family: "RX100", sans-serif;
+  font-family: "Literata", serif;
+  font-family: "Kihim", sans-serif;
+  font-family: "Array", sans-serif;
   font-family: "Redacted Script", cursive;
   font-family: "Libre Barcode 39 Text", system-ui;
   font-family: "Press Start 2P", system-ui;
@@ -44,6 +57,7 @@ p {
   font-family: "Reddit Mono", monospace;
   font-family: "Courier Prime", monospace;
   font-family: "Cutive Mono", monospace;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 table {
@@ -106,7 +120,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .category-title h1 {
   color: white;
-  font-family: "Array", sans-serif;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xxl);
   letter-spacing: 0.8rem;
@@ -233,6 +246,10 @@ p, h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: center;
   padding: 48px;
+}
+.footer-text p {
+  font-family: "Array", sans-serif;
+  font-size: 7rem;
 }
 
 .footer-construction {
@@ -426,6 +443,7 @@ p, h1, h2, h3, h4, h5 {
   cursor: pointer;
   font-family: "Tiny5", monospace;
   font-family: "Courier Prime", monospace;
+  font-family: "JetBrains Mono", sans-serif;
   text-align: center;
 }
 
