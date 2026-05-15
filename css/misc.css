@@ -1,6 +1,14 @@
 
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
+
+@font-face 
+  src: url('../fonts/Redacted-Regular.ttf') format('tff')
+  font-weight: 400
+  font-style: normal
+
+
+  
 .hover-blue
   h2
     color: var(--color-blue)
