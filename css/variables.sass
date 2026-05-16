@@ -194,14 +194,15 @@ body.dark-mode
   html 
     scroll-behavior: auto
 
-
-
 /* GLITCH EFFECT */
+
 .effect-glitch
-  h1
-    color: var(--color-grey-light) 
-    &:hover
-      color: var(--color-green) 
+  &:hover
+    animation-name: glitch 
+    animation-duration: 0.8s 
+    animation-iteration-count: infinite 
+    color: var(--color-green) !important
+    cursor: pointer
 
 @keyframes glitch
   0% 

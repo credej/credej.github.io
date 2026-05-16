@@ -427,6 +427,9 @@ p {
   animation: blinker 1s linear infinite;
 }
 
+.menu-logo {
+  color: var(--color-white);
+}
 .menu-logo a {
   width: auto;
 }

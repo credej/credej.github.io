@@ -30,9 +30,6 @@ body .badge img:hover {
 body .bg-cyber {
   background-color: #7CCAC2;
 }
-body .effect-glitch {
-  color: var(--color-blue);
-}
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
@@ -61,7 +58,6 @@ body .project-title i {
 /* DARK */
 body.dark-mode {
   background-color: var(--color-cyber-bg) !important;
-  color: var(--color-white);
 }
 body.dark-mode .bg-cyber {
   background-color: #030D19;
