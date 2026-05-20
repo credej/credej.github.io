@@ -22,6 +22,12 @@ body .page-header-title h1 {
 body .page-header-title i {
   color: var(--color-grey-medium);
 }
+body .page-section img {
+  filter: grayscale(100%);
+}
+body .page-section img:hover {
+  filter: grayscale(0%);
+}
 
 /* THEME - DARK */
 body.dark-mode {

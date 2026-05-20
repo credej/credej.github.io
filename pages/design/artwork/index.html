@@ -1,104 +1,72 @@
 <!doctype html>
 <html lang=en>
    <head>
-      <title>Sketching</title>
-      <meta name=description content="sketching">
+      <title>Architecture</title>
+      <meta name=description content="artwork">
       <link rel=stylesheet type=text/css href="../../../css/style.css">
-      <link rel=stylesheet type=text/css href="../../../css/theme-sketch.css">
+      <link rel=stylesheet type=text/css href="../../../css/theme-artwork.css">
       <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
-      <script src="/components/headlinks-min.js" type="text/javascript" dsefer></script>
+      <script src="/components/headlinks-min.js" type="text/javascript" defer></script>
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
       <script src="/components/themes.js" type="text/javascript" defer></script>
    </head>
 
    <body>
-
       <header-component></header-component>
-      
-      <div class="site">
-         <main id="site-main" class="site-main">
 
+      <div class="site">
+         <div class="site-main">
             <div class="page-header">
 
                <div class="page-header-title">
-                  <i class="iconoir-empty-page"></i>
-                  <h1>sketching</h1>
+                  <i class="iconoir-attachment"></i>
+                  <h1>artwork</h1>
                </div>
 
                <div class="page-header-image">
-                  <img src="img/sketch-banner.jpg" alt=Bookmarks>
+                  <img src="img/arch-banner.jpg" alt=Bookmarks>
                </div>
 
                <div class="page-header-excerpt">
                   <p>A few hand drawings...</p>
                </div>
-
             </div>
 
             <div class="page-section">
-               <figure class="kg-card kg-gallery-card kg-width-wide">
-                  <div class="kg-gallery-container dw">
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-dog-max.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-cobra.png" alt="">
-                        </a>
+                <div class="relative min-h-screen flex flex-col justify-center overflow-hidden">
+                    <div class="w-full">
+                       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                           <div class="img-gallery">
+                               <img class="w-full rounded-xl shadow" src="img/sketch-indians.jpg" width="232" height="290" alt="Image 02" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-dog-max.jpg" width="232" height="290" alt="Image 02" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-cobra.png" width="232" height="290" alt="Image 03" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-bee.jpg" width="232" height="290" alt="Image 01" />
+                           </div>
+                           <div class="img-gallery">
+                               <img class="w-full rounded-xl shadow" src="img/sketch-subway-1.jpg" width="232" height="290" alt="Image 02" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-tattoo.jpg" width="232" height="290" alt="Image 02" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-tattoo-gemini-day-color.jpg" width="232" height="290" alt="Image 02" />
+                               <img class="w-full rounded-xl shadow" src="img/sketch-tattoo-gemini-night-color.jpg" width="232" height="290" alt="Image 03" />
+                           </div>  
+                        </div>
                      </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-dog-max.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-dog-max.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-bee.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-bee.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/arch-subway-1.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/arch-subway-1.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-tattoo-gemini-day-color.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-tattoo-gemini-day-color.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-indians.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-indians.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-tattoo-gemini-night-color.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-tattoo-gemini-night-color.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-tattoo.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-tattoo.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="gallery-img dw-panel dw-cluster dw-cluster--vertical">
-                        <a href="img/sketch-gemini-symbols.jpg" target=_blank>
-                           <img class=dw-panel__content src="img/sketch-gemini-symbols.jpg" alt="">
-                        </a>
-                     </div>
-                  </div>
-               </figure>
-            </div>
-
-            <div class="footer">
-               <div class="footer-categories bg-glass-green border-green">
-                  <div class="category-links green">
-                     <a href="/pages/design/arch/index.html">Architecture</a><span class="hide-mobile"`> //</span>
-                     <a href="/pages/design/graphicsweb/index.html">Graphics & Web</a><span class="hide-mobile"`> //</span>
-                     <a class="" href="/pages/design/artwork/index.html"><b>Artwork</b></a>
                   </div>
                </div>
             </div>
-         </main>
+         </div>
+
+         <div class="footer">
+            <div class="footer-categories bg-glass-green">
+               <div class="category-links green">
+                  <a href="/pages/design/arch/index.html">Architecture</a><span class="hide-mobile"`> //</span>
+                  <a href="/pages/design/graphicsweb/index.html">Graphics & Web</a><span class="hide-mobile"`> //</span>
+                  <a class="" href="/pages/design/artwork/index.html"><b>Artwork</b></a>
+               </div>
+            </div>
+         </div>
       </div>
+
    </body>
 </html>

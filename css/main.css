@@ -116,12 +116,11 @@ p {
 
 .category-links {
   line-height: 2rem;
-  padding: 24px 0 48px;
+  padding: 24px 0;
   text-shadow: var(--text-shadow-2);
 }
 .category-links a {
   font-size: var(--font-l);
-  font-weight: 900;
 }
 .category-links a:hover {
   animation: blinker 1s linear infinite;
@@ -191,7 +190,7 @@ p {
 }
 
 .footer {
-  margin: 48px 0 !important;
+  margin: 48px 0;
 }
 
 .footer-back-to-top {
@@ -229,7 +228,7 @@ p {
 .footer-categories {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
-  margin: 144px 0 96px;
+  margin: 48px 0;
   padding: 32px 72px;
   text-align: center;
 }
@@ -458,9 +457,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   font-family: "Yellowtail", monospace;
-  margin: 0 0 48px;
   width: 100%;
-  padding: 24px 0 12px;
   font-family: "Yellowtail", monospace;
 }
 .page-header p {
@@ -490,15 +487,24 @@ p {
 
 .page-header-image,
 .page-header-excerpt {
+  border-radius: 0 0.75rem 0.75rem 0;
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+.page-header-image p,
+.page-header-excerpt p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 24px;
 }
 
 .page-header-image {
   flex-basis: 25%;
 }
 .page-header-image img {
+  border-radius: 0.75rem 0 0 0.75rem;
   height: 140px;
 }
 
@@ -534,10 +540,6 @@ p {
 .page-header-title i {
   font-size: var(--font-xl);
   margin: 0 24px 0 0;
-}
-
-.page-section {
-  margin: 96px 0;
 }
 
 .page-title {
