@@ -123,10 +123,6 @@ p
     letter-spacing: 0.8rem
     text-transform: uppercase
     word-break: break-word
-    &:after
-      padding: 24px 0 24px 24px
-      content: "_"
-      @extend .blinker
   i
     font-size: var(--font-xl)
     padding: 0 24px 0 0
@@ -369,6 +365,25 @@ p
     font-family: 'JetBrains Mono', sans-serif
     text-align: center
 
+.menu-logo
+  display: flex
+  align-items: center
+  margin: 12px 0
+  h1
+    color: var(--color-green) !important
+    font-size: var(--font-xxl)
+    word-break: break-word
+    &:after
+      display: inline-block
+      content: "■"
+      height: 1.2em
+      margin-left: 4px
+      background-color: var(--color-green)
+      vertical-align: text-bottom
+      border-radius: 1px
+      @extend .blinker
+
+
 #navbar
   left: 0
   right: 0
@@ -403,10 +418,6 @@ p
     -webkit-hyphens: auto
     -ms-hyphens: auto
     font-size: var(--font-xxl)
-    &:after
-      padding: 24px 0 24px 24px
-      @extend .blinker
-      content: "_"
 
 .page-header-image,
 .page-header-excerpt
@@ -477,7 +488,6 @@ p
     &:after
       padding: 24px
       @extend .blinker
-      content: "_"
 
 .project-links
   padding: 24px 72px 24px
@@ -563,10 +573,6 @@ p
   h1
     font-size: var(--font-xxl)
     letter-spacing: 0.71rem
-    &:after
-      padding: 24px
-      @extend .blinker
-      content: "_"
 
 .section-header
   font-family: "Courier Prime", monospace

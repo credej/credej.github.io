@@ -17,7 +17,7 @@ class Header extends HTMLElement {
 
             <div class="menu-logo flex flex-start">
                <a href="/index.html" class="effect-glitch">
-                  <h1 id="hover-element">work & other stuff</h1>
+                  <div id="hover-element" class="website-title"><h1>work@ndotherstuff:~ $ <span class="prompt-cursor"></span></h1></div>
                   <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
                </a>
    

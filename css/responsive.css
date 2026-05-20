@@ -255,7 +255,7 @@
     margin: 48px 0 0;
   }
   .menu-logo h1 {
-    font-size: var(--font-l);
+    font-size: var(--font-m);
     padding: 0 36px;
   }
 }
@@ -267,7 +267,7 @@
     font-size: var(--font-xl);
   }
   .menu-logo h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
     padding: 0 48px;
   }
   #navbar,
@@ -306,7 +306,7 @@
     display: none;
   }
   .menu-logo h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
   }
   .project-links {
     text-align: center;
@@ -335,7 +335,7 @@
     font-size: var(--font-xl);
   }
   .menu-logo h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
   }
   #navbar,
   .site-main,
@@ -359,7 +359,7 @@
     align-items: center;
   }
   .menu-logo h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
   }
   .page-header {
     display: flex;
@@ -386,7 +386,7 @@
     text-align: justify;
   }
   .menu-logo h1 {
-    font-size: var(--font-xxl);
+    font-size: var(--font-xl);
   }
   .page-header {
     display: flex;

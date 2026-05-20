@@ -1,6 +1,14 @@
 
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
+/* BLINKER UNDERSCORE EFFECT */
+.category-title
+  h1
+    &:after
+      padding: 24px 0 24px 24px
+      content: "_"
+      @extend .blinker
+
 
 @font-face 
   src: url('../fonts/Redacted-Regular.ttf') format('tff')
