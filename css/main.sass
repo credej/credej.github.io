@@ -318,7 +318,7 @@ p
     text-align: center
     text-transform: uppercase
 
-.menu-closed
+.navbar
   display: flex
   justify-content: space-between
   align-items: center
@@ -336,12 +336,6 @@ p
   scrollbar-width: none
   -ms-overflow-style: none 
 
-.menu-icon
-  i
-    color: var(--color-grey-light)
-  i:hover
-    color: white
-
 .menu-list
   display: flex
   flex-direction: column
@@ -354,23 +348,31 @@ p
     &:hover 
       animation: blinker 1s linear infinite
 
-.menu-logo 
-  color: var(--color-white)
-  a
-    width: auto
-  h1
-    cursor: pointer
-    font-family: "Tiny5", monospace
-    font-family: "Courier Prime", monospace
-    font-family: 'JetBrains Mono', sans-serif
-    text-align: center
+#navbar
+  left: 0
+  right: 0
+  z-index: 9999
+  overflow: hidden
+  width: 100%
+  max-height: 100vh
+  position: fixed
+  backdrop-filter: blur(187px)
+  -webkit-backdrop-filter: blur(187px)
 
-.menu-logo
+.navbar-menu
+  i
+    color: var(--color-grey-light)
+  i:hover
+    color: white
+
+.navbar-logo
   display: flex
   align-items: center
   margin: 12px 0
   h1
-    color: var(--color-green) !important
+    color: var(--color-green-terminal)
+    cursor: pointer
+    font-family: 'JetBrains Mono', sans-serif
     font-size: var(--font-xxl)
     word-break: break-word
     &:after
@@ -383,17 +385,22 @@ p
       border-radius: 1px
       @extend .blinker
 
-
-#navbar
-  left: 0
-  right: 0
-  z-index: 9999
-  overflow: hidden
-  width: 100%
-  max-height: 100vh
-  position: fixed
-  backdrop-filter: blur(187px)
-  -webkit-backdrop-filter: blur(187px)
+#dark-mode-toggle
+    background: transparent
+    border: none
+    display: block
+    fill: var(--color-yellow) 
+    height: 2rem
+    position: relative
+    width: 2rem
+    img, svg
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      width: 1.5625rem
+      height: 1.5625rem
+      pointer-events: none
 
 .page-header
   display: flex

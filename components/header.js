@@ -3,19 +3,15 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <nav id="navbar" class="fade-in">
-         <div class="menu-closed">
-            <div class="menu-icon flex flex-end">
+         <div class="navbar">
+
+            <div class="navbar-menu flex flex-end">
                <button id="menu-button" class="navbar-menu">
                   <i class="iconoir-menu"></i>
-                  <!-- <i class="iconoir-dice-two"></i>
-                  <i class="iconoir-dice-one"></i> -->
-                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                       <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-                  </svg> -->
                </button>
             </div>
 
-            <div class="menu-logo flex flex-start">
+            <div class="navbar-logo flex flex-start">
                <a href="/index.html" class="effect-glitch">
                   <div id="hover-element" class="website-title"><h1>work@ndotherstuff:~ $ <span class="prompt-cursor"></span></h1></div>
                   <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
@@ -103,13 +99,6 @@ class Header extends HTMLElement {
                         <i class="iconoir-telegram yellow"></i>
                         <h2>Travel <em>(Coming soon!)</em></h2>
                      </div>
-<!--                      <div class=menu-list>
-                        <a href="/pages/travel/japan/osaka/indexxx.html" target=_self>Upcoming: Tokyo, Japan</a>
-                        <a href="/pages/travel/japan/index.html" target=_self>Upcoming: Madeira, Portugal</a>
-                        <a href="/pages/travel/japan/index.html" target=_self>Santa Catalina Island, CA</a>
-                        <a href="/pages/travel/japan/index.html" target=_self>Lake Havasu, AZ</a>
-                        <a href="/pages/otherstuff/test/index.html" target=_self>New York, NY</a>
-                     </div> -->
                   </div>
                </div>
                <div class="menu-category-container">
@@ -122,8 +111,7 @@ class Header extends HTMLElement {
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
                        <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a>
-                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a><!-- 
-                       <a href="/pages/otherstuff/test/index.html" target=_self><span style="color:#000; padding-right: 0">Test Page</span></a> -->
+                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a>
                      </div>
                   </div>
                </div>
@@ -131,9 +119,9 @@ class Header extends HTMLElement {
          </div>
       </nav>
 
-      <div class="footer-construction">
+<!--       <div class="footer-construction">
          <p>Site Under Construction!</p>
-      </div>
+      </div> -->
 
     `
   }
