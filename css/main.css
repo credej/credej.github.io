@@ -238,7 +238,7 @@ p {
 }
 .footer-text p {
   font-family: "Array", sans-serif;
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 .img-fullsize {
@@ -319,7 +319,10 @@ p {
 
 .intro-text {
   margin: 12px 0 50px;
-  /*  transform: rotate(90deg)*/
+}
+.intro-text a {
+  font-weight: 700;
+  text-shadow: var(--text-shadow-3);
 }
 .intro-text a:hover {
   animation: blinker 1s linear infinite;
@@ -425,6 +428,11 @@ p {
 }
 .navbar-menu i:hover {
   color: white;
+}
+
+#navbar {
+  backdrop-filter: blur(187px);
+  -webkit-backdrop-filter: blur(187px);
 }
 
 .navbar-logo {
@@ -590,6 +598,7 @@ p {
   padding: 24px 72px 24px;
   display: flex;
   flex-direction: column;
+  text-shadow: var(--text-shadow-3);
 }
 .project-links a {
   font-weight: 900;
@@ -661,6 +670,9 @@ p {
   font-size: 1em;
   margin: 12px 0;
 }
+.project-tags h1 {
+  color: var(--color-grey-dark);
+}
 
 .project-tag {
   background-color: var(--color-grey-dark);
@@ -718,7 +730,6 @@ p {
 
 .stat {
   flex: 1;
-  background-color: #1f262c;
   border-radius: 6px;
   box-shadow: var(--box-shadow-1);
   color: #fff;
@@ -844,8 +855,9 @@ p {
 }
 
 .subcategory-excerpt {
-  display: flex;
   align-items: stretch;
+  color: var(--color-grey-light);
+  display: flex;
   min-height: 80px;
 }
 .subcategory-excerpt p {
@@ -855,6 +867,7 @@ p {
 }
 
 .subcategory-title {
+  color: var(--color-white);
   display: flex;
   align-items: flex-end;
   height: 70px;

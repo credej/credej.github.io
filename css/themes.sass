@@ -10,17 +10,6 @@ body
       color: var(--color-grey-dark)
   .contact-bullets ul
     color: var(--color-grey-light)
-  #navbar-theme-toggle
-    .cs-moon
-      z-index: 2
-      transition: transform 0s, opacity 0s, fill 0s
-    .cs-sun
-      z-index: 1
-      opacity: 0
-      transition: transform 0s, opacity 0s
-  .intro-text a
-    font-weight: 700
-    text-shadow: var(--text-shadow-3)
   .intro-text
     color: var(--color-grey-dark)   
   .menu-category-title
@@ -34,14 +23,14 @@ body
       &:hover 
         color: var(--color-white)
         text-shadow: var(--text-shadow-2)
-  #navbar
-    backdrop-filter: blur(187px)
-    -webkit-backdrop-filter: blur(187px) 
-  .project-links
-    text-shadow: var(--text-shadow-3)
-  .project-tags
-    h1
-      color: var(--color-grey-dark)
+  #navbar-theme-toggle
+    .cs-moon
+      z-index: 2
+      transition: transform 0s, opacity 0s, fill 0s
+    .cs-sun
+      z-index: 1
+      opacity: 0
+      transition: transform 0s, opacity 0s
   .project-tag
     background-color: var(--color-grey-light)
     color: var(--color-grey-dark)
@@ -49,19 +38,24 @@ body
   .project-title
     h1
       text-shadow: none
-  .subcategory-title
-    color: var(--color-white) 
-  .subcategory-excerpt
-    color: var(--color-grey-light) 
+  .stat 
+    background-color: #1f262c
 
 body.dark-mode
   background-color: var(--color-blue-storm)
-  .contact
-    p
-      color: var(--color-grey-light)
   .category-subtitle
     p
       color: var(--color-grey-light)
+  .contact
+    p
+      color: var(--color-grey-light)
+  .contact-bullets ul
+    color: var(--color-grey-medium)
+  .dark 
+    display: block !important
+  .footer-text
+    p
+      color: var(--color-white)
   .intro-text
     color: var(--color-grey-light)
   .menu-category-title
@@ -76,18 +70,6 @@ body.dark-mode
       &:hover 
         color: var(--color-green) 
         text-shadow: var(--text-shadow-3)
-  .project-tag
-    background-color: var(--color-grey-dark)
-    color: var(--color-grey-light)
-  .project-title
-    h1
-      text-shadow: inherit
-
-/* SET TO DARK BY DEFAULT */
-
-body.dark-mode
-  .contact-bullets ul
-    color: var(--color-grey-medium)
   #navbar-theme-toggle
     .cs-sun
       transform: translate(-50%, -50%)
@@ -95,12 +77,11 @@ body.dark-mode
     .cs-moon
       transform: translate(-50%, -150%)
       opacity: 0
-  .footer-text
-    p
-      color: var(--color-white)
-  .light 
-    display: none
-  .dark 
-    display: block !important
+  .project-tag
+    background-color: var(--color-grey-dark)
+    color: var(--color-grey-light)
+  .project-title
+    h1
+      text-shadow: inherit
   .stat
-    background-color: var(--color-grey-dark) 
+    background-color: #2F313D
