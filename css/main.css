@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* PAGE ELEMENTS */
 body {
   display: flex;
   justify-content: center;
@@ -37,7 +38,7 @@ table {
   display: none;
 }
 
-/* CURSOR & FONTS */
+/* FONTS & CURSOR */
 a {
   cursor: pointer;
 }
@@ -175,14 +176,6 @@ p {
 .contact ul {
   color: var(--color-grey-dark);
   margin: 0 0 24px;
-}
-
-.fade-in {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
 }
 
 .footer {
@@ -456,7 +449,11 @@ p {
   border-radius: 1px;
 }
 
-#dark-mode-toggle {
+.navbar-logo-spacer {
+  margin: 0 3px;
+}
+
+#navbar-theme-toggle {
   background: transparent;
   border: none;
   display: block;
@@ -465,7 +462,7 @@ p {
   position: relative;
   width: 2rem;
 }
-#dark-mode-toggle img, #dark-mode-toggle svg {
+#navbar-theme-toggle img, #navbar-theme-toggle svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -908,36 +905,20 @@ p {
   visibility: visible;
 }
 
-/* SHIMS */
-.spacer {
-  height: 121px;
-  text-align: center;
-  width: 100%;
-}
-
-.spacer-line {
-  border-bottom: 1px solid var(--color-blue-storm);
-  margin: 0 96px;
-}
-
-.spacer-s {
-  height: 60px;
-}
-
-.spacer-m {
-  height: 120px;
-}
-
-.spacer-l {
-  height: 180px;
-}
-
-/* EXTENZE */
+/* EFFECTS */
 .blinker, .navbar-logo h1:after, .project-header h1:after {
   animation: blink-animation 1s infinite;
   -webkit-animation: blink-animation 1s infinite;
   -moz-animation: blink-animation 1s infinite;
   -o-animation: blink-animation 1s infinite;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.25s;
 }
 
 /* MISC. */
@@ -966,4 +947,28 @@ p {
 
 .hidden {
   display: none;
+}
+
+/* SHIMS */
+.spacer {
+  height: 121px;
+  text-align: center;
+  width: 100%;
+}
+
+.spacer-line {
+  border-bottom: 1px solid var(--color-blue-storm);
+  margin: 0 96px;
+}
+
+.spacer-s {
+  height: 60px;
+}
+
+.spacer-m {
+  height: 120px;
+}
+
+.spacer-l {
+  height: 180p;
 }

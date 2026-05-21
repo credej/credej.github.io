@@ -1,3 +1,5 @@
+/* PAGE ELEMENTS */
+
 body
   display: flex
   justify-content: center
@@ -29,7 +31,7 @@ table
     width: 0 !important
     display: none
 
-/* CURSOR & FONTS */
+/* FONTS & CURSOR */
 
 a
   cursor: pointer
@@ -147,13 +149,6 @@ p
   ul
     color: var(--color-grey-dark)
     margin: 0 0 24px
-
-.fade-in
-  opacity: 1
-  animation-name: fadeInOpacity
-  animation-iteration-count: 1
-  animation-timing-function: ease-in
-  animation-duration: 0.5s
 
 .footer
   margin: 48px 0 
@@ -385,7 +380,10 @@ p
       border-radius: 1px
       @extend .blinker
 
-#dark-mode-toggle
+.navbar-logo-spacer
+  margin: 0 3px
+
+#navbar-theme-toggle
     background: transparent
     border: none
     display: block
@@ -763,33 +761,20 @@ p
       opacity: 1
       visibility: visible
 
-/* SHIMS */
-
-.spacer
-  height: 121px
-  text-align: center
-  width: 100%
-
-.spacer-line
-  border-bottom: 1px solid var(--color-blue-storm)
-  margin: 0 96px
-
-.spacer-s
-  height: 60px
-
-.spacer-m
-  height: 120px
-
-.spacer-l
-  height: 180px
-
-/* EXTENZE */
+/* EFFECTS */
 
 .blinker
   animation: blink-animation 1s infinite
   -webkit-animation: blink-animation 1s infinite
   -moz-animation: blink-animation 1s infinite
   -o-animation: blink-animation 1s infinite
+
+.fade-in
+  opacity: 1
+  animation-name: fadeInOpacity
+  animation-iteration-count: 1
+  animation-timing-function: ease-in
+  animation-duration: 0.25s
 
 /* MISC. */
 
@@ -815,4 +800,24 @@ p
 
 .hidden
   display: none
+
+/* SHIMS */
+
+.spacer
+  height: 121px
+  text-align: center
+  width: 100%
+
+.spacer-line
+  border-bottom: 1px solid var(--color-blue-storm)
+  margin: 0 96px
+
+.spacer-s
+  height: 60px
+
+.spacer-m
+  height: 120px
+
+.spacer-l
+  height: 180p
 

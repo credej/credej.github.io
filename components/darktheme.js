@@ -30,7 +30,7 @@ function detectColorScheme() {
 detectColorScheme();
 
 // add event listener to the dark mode button toggle
-document.getElementById('dark-mode-toggle').addEventListener('click', () => {
+document.getElementById('navbar-theme-toggle').addEventListener('click', () => {
    // on click, check localStorage for the dark mode value, use to apply the opposite of what's saved
    localStorage.getItem('theme') === 'light' ? enableDarkMode() : disableDarkMode();
 });

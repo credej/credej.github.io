@@ -1137,15 +1137,6 @@ button, html input[type=button]
   -webkit-appearance: button
   cursor: pointer
 
-.breadcrumb:after 
-    animation: blink-animation .9s infinite
-    -webkit-animation: blink-animation .9s infinite
-    -moz-animation: blink-animation .9s infinite
-    -o-animation: blink-animation .9s infinite
-    content: "█"
-    padding-left: 14px
-    color: var(--color-border)
-
 q
   &:after, &:before
     content: ""
