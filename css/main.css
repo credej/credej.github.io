@@ -375,13 +375,6 @@ p {
   text-transform: uppercase;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 24px 0;
-}
-
 #menu-expanded {
   height: 100vh;
   -ms-overflow-style: none;
@@ -423,6 +416,13 @@ p {
   -webkit-backdrop-filter: blur(187px);
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
 .navbar-menu i {
   color: var(--color-grey-light);
 }
@@ -448,13 +448,14 @@ p {
   word-break: break-word;
 }
 .navbar-logo h1:after {
-  display: inline-block;
-  content: "■";
-  height: 1.2em;
-  margin-left: 4px;
-  background-color: var(--color-green);
-  vertical-align: text-bottom;
+  background-color: var(--color-green-terminal);
   border-radius: 1px;
+  content: "";
+  display: inline-block;
+  height: 1.3em;
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  width: 0.67em;
 }
 
 .navbar-logo-spacer {

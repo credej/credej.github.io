@@ -315,12 +315,6 @@ p
     text-align: center
     text-transform: uppercase
 
-.navbar
-  display: flex
-  justify-content: space-between
-  align-items: center
-  margin: 24px 0
-
 #menu-expanded
   height: 100vh
   -ms-overflow-style: none  /* IE and Edge */
@@ -356,6 +350,12 @@ p
   backdrop-filter: blur(187px)
   -webkit-backdrop-filter: blur(187px)
 
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 24px 0
+
 .navbar-menu
   i
     color: var(--color-grey-light)
@@ -377,13 +377,14 @@ p
     font-size: var(--font-xxl)
     word-break: break-word
     &:after
-      display: inline-block
-      content: "■"
-      height: 1.2em
-      margin-left: 4px
-      background-color: var(--color-green)
-      vertical-align: text-bottom
+      background-color: var(--color-green-terminal)
       border-radius: 1px
+      content: ""
+      display: inline-block
+      height: 1.3em
+      margin-left: 4px
+      vertical-align: text-bottom
+      width: 0.67em
       @extend .blinker
 
 .navbar-logo-spacer

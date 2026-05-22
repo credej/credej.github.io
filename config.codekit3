@@ -389,6 +389,31 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/theme-cli.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-cli-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/theme-cli.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-cli.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-cybergrad.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1058,12 +1083,12 @@
       "oAP" : "\/mp3\/zap.mp3",
       "oF" : 0
     },
-    "\/pages\/design\/arch\/img\/arch-banner-2.jpg" : {
+    "\/pages\/design\/arch\/img\/arch-banner-lg.jpg" : {
       "ft" : 16384,
       "iS" : 131115,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/arch\/img\/arch-banner-2.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/arch-banner-lg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1071,25 +1096,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/arch\/img\/arch-banner-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 173605,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/arch\/img\/arch-banner-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/arch\/img\/arch-banner.jpg" : {
+    "\/pages\/design\/arch\/img\/arch-banner-sm.jpg" : {
       "ft" : 16384,
       "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/arch\/img\/arch-banner.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/arch-banner-sm.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1307,7 +1319,7 @@
     },
     "\/pages\/design\/arch\/img\/arch-subway-1.jpg" : {
       "ft" : 16384,
-      "iS" : 67206,
+      "iS" : 86897,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/arch\/img\/arch-subway-1.jpg",
@@ -1320,7 +1332,7 @@
     },
     "\/pages\/design\/arch\/img\/arch-subway-2.jpg" : {
       "ft" : 16384,
-      "iS" : 207850,
+      "iS" : 202102,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/arch\/img\/arch-subway-2.jpg",
@@ -1352,25 +1364,12 @@
       "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
     },
-    "\/pages\/design\/artwork\/img\/arch-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 113623,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/arch-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/artwork\/img\/sketch-banner-backup.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-banner-backup.jpg" : {
       "ft" : 16384,
       "iS" : 681272,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-banner-backup.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-backup.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1378,12 +1377,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-banner.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-banner-lg.jpg" : {
       "ft" : 16384,
       "iS" : 291296,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-banner.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-lg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1391,12 +1390,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-bee.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-banner-sm.jpg" : {
       "ft" : 16384,
-      "iS" : 3436513,
+      "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-bee.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-sm.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1404,11 +1403,24 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-cobra.png" : {
+    "\/pages\/design\/artwork\/img\/artwork-bee.jpg" : {
+      "ft" : 16384,
+      "iS" : 3436513,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-bee.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/artwork\/img\/artwork-cobra.png" : {
       "ft" : 32768,
       "iS" : 7349489,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-cobra.png",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-cobra.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1417,12 +1429,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-dog-max.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-dog-max.jpg" : {
       "ft" : 16384,
       "iS" : 414999,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-dog-max.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-dog-max.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1430,12 +1442,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-gemini-symbols.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-gemini-symbols.jpg" : {
       "ft" : 16384,
       "iS" : 139243,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-gemini-symbols.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-gemini-symbols.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1443,12 +1455,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-indians.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-indians.jpg" : {
       "ft" : 16384,
       "iS" : 628362,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-indians.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-indians.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1456,12 +1468,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-subway-1.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-subway-1.jpg" : {
       "ft" : 16384,
       "iS" : 47427,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-subway-1.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-subway-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1469,12 +1481,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-combined.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-combined.jpg" : {
       "ft" : 16384,
       "iS" : 3353274,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-combined.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-combined.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1482,12 +1494,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day-color.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day-color.jpg" : {
       "ft" : 16384,
       "iS" : 1601419,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day-color.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1495,12 +1507,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day.jpg" : {
       "ft" : 16384,
       "iS" : 4791430,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-day.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1508,12 +1520,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night-color.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night-color.jpg" : {
       "ft" : 16384,
       "iS" : 1544042,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night-color.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1521,12 +1533,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night.jpg" : {
       "ft" : 16384,
       "iS" : 9015643,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo-gemini-night.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1534,12 +1546,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/sketch-tattoo.jpg" : {
+    "\/pages\/design\/artwork\/img\/artwork-tattoo.jpg" : {
       "ft" : 16384,
       "iS" : 2944520,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/sketch-tattoo.jpg",
+      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1603,58 +1615,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/graphicsweb\/img\/graphics-banner-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 317679,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/graphicsweb\/img\/graphics-banner-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 22868,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/graphicsweb\/img\/graphics-banner-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 10603,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/design\/graphicsweb\/img\/graphics-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 317467,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1743,6 +1703,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/graphicsweb\/img\/graphics-worksample.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-lg.jpg" : {
+      "ft" : 16384,
+      "iS" : 317467,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-lg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-sm.jpg" : {
+      "ft" : 16384,
+      "iS" : 10603,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-sm.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1861,6 +1847,305 @@
       "oA" : 0,
       "oAP" : "\/pages\/design\/graphicsweb\/index.html",
       "oF" : 0
+    },
+    "\/pages\/diy\/cli\/img\/arch-banner-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 104504,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-banner-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-banner-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 173605,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-banner-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 7463,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-cja-site-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 193485,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-cja-site-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-cja-site.jpg" : {
+      "ft" : 16384,
+      "iS" : 362129,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-cja-site.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-desk.jpg" : {
+      "ft" : 16384,
+      "iS" : 114213,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-desk.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hgtv-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 200950,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hgtv-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hgtv-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 165555,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hgtv-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson-0.jpg" : {
+      "ft" : 16384,
+      "iS" : 228907,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 145415,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 228984,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 159803,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 141001,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-hudson.jpg" : {
+      "ft" : 16384,
+      "iS" : 201168,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-hudson.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-katrina.jpg" : {
+      "ft" : 16384,
+      "iS" : 250867,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-katrina.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-rome-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 535629,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-rome-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-rome-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 420198,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-rome-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-rome-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 2335989,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-rome-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-subway-0.jpg" : {
+      "ft" : 16384,
+      "iS" : 219031,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-subway-0.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-subway-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 86897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-subway-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-subway-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 202102,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-subway-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/arch-subway-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 1295976,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/arch-subway-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/cli-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 105902,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/cli-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/pages\/diy\/cli\/index.html" : {
       "cB" : 0,

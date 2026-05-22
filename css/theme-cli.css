@@ -16,7 +16,7 @@ body .page-header {
   margin: 0 !important;
 }
 body .page-header-excerpt {
-  background-color: #101010;
+  background-color: #000;
   text-align: right;
 }
 body .page-header-excerpt p {
@@ -31,7 +31,7 @@ body .page-header-title i {
 
 /* THEME - DARK */
 body.dark-mode {
-  background-color: #000;
+  background-color: #101010;
   display: grid;
 }
 body.dark-mode #menu-button i {
