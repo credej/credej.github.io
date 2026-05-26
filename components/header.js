@@ -112,7 +112,7 @@ class Header extends HTMLElement {
          </div>
       </nav>
 
-<!--       <div class="footer-construction">
+      <!-- <div class="footer-construction">
          <p>Site Under Construction!</p>
       </div> -->
 

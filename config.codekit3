@@ -2134,6 +2134,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/diy\/cli\/img\/cli-banner-lg.jpg" : {
+      "ft" : 16384,
+      "iS" : 390231,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/cli-banner-lg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/cli\/img\/cli-banner-sm.jpg" : {
+      "ft" : 16384,
+      "iS" : 63130,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/cli-banner-sm.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/diy\/cli\/img\/cli-banner.jpg" : {
       "ft" : 16384,
       "iS" : 105902,
@@ -2147,6 +2173,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/diy\/cli\/img\/cli-bg-neodesk.jpg" : {
+      "ft" : 16384,
+      "iS" : 350915,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/cli\/img\/cli-bg-neodesk.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/diy\/cli\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2155,12 +2194,12 @@
       "oAP" : "\/pages\/diy\/cli\/index.html",
       "oF" : 0
     },
-    "\/pages\/diy\/decentralized\/IMG_20241118_192738_012.jpg" : {
+    "\/pages\/diy\/freedomtech\/IMG_20241118_192738_012.jpg" : {
       "ft" : 16384,
       "iS" : 2347753,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/diy\/decentralized\/IMG_20241118_192738_012.jpg",
+      "oAP" : "\/pages\/diy\/freedomtech\/IMG_20241118_192738_012.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2168,12 +2207,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/diy\/decentralized\/IMG_20241118_193718_608.jpg" : {
+    "\/pages\/diy\/freedomtech\/IMG_20241118_193718_608.jpg" : {
       "ft" : 16384,
       "iS" : 2797213,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/diy\/decentralized\/IMG_20241118_193718_608.jpg",
+      "oAP" : "\/pages\/diy\/freedomtech\/IMG_20241118_193718_608.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/diy\/freedomtech\/img\/freedomtech-banner-lg.jpg" : {
+      "ft" : 16384,
+      "iS" : 760882,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/diy\/freedomtech\/img\/freedomtech-banner-lg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

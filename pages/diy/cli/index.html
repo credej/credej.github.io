@@ -26,21 +26,42 @@
                </div>
 
                <div class="page-header-image">
-                  <img src="img/cli-banner.jpg" alt=Bookmarks>
+                  <img src="img/cli-banner-sm.jpg" alt=Bookmarks>
                </div>
 
                <div class="page-header-excerpt">
-                  <p>They will come...</p>
+                  <p>Wake up, Neo...</p>
                </div>
             </div>
 
             <div class="page-section">
+               <div class="cli-section">
+                  <h1>// YOUTUBE DOWNLOAD PRO (YT-DLP)</h1>
+
+                  <h2>Download and add Homebrew to your path</h2>
+                  <div class="cli-command">
+                     <p>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
+                     <p>echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yourUserNameHere/.zprofile</p>
+                     <p>eval "$(/opt/homebrew/bin/brew shellenv)"</p>
+                  </div>
+
+                  <h2>install <b>youtube download pro</b> as well as <b>ffmpeg</b> (an open-source software project that provides a suite of libraries and programs for handling video, audio, and other multimedia files and streams)</h2>
+                  <div class="cli-command">
+                     <p>brew install ffmpeg yt-dlp</p>
+                     <p>brew update</p>
+                  </div>
+
+                  <h2>download an <b>audio file</b></h2>
+                  <div class="cli-command">
+                     <p>yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 --playlist-end 1 "https://www.youtube.com/watch?v=ZvIzmTiYoPo&list=RDZvIzmTiYoPo&start_radio=1"</p>
+                  </div>
+               </div>
             </div>
          </div>
 
          <div class="footer">
-            <div class="footer-categories bg-glass-green border-green">
-               <div class="category-links green">
+            <div class="footer-categories bg-glass-orange border-orange">
+               <div class="category-links orange">
                   <a href="/pages/design/arch/index.html"><b>CLI</b></a><span class="hide-mobile"`> //</span>
                   <a href="/pages/design/graphicsweb/index.html">Raspberry Pi</a><span class="hide-mobile"`> //</span>
                   <a class="" href="/pages/design/artwork/index.html">Artwork</a>

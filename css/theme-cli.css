@@ -1,16 +1,42 @@
 /* THEME - LIGHT */
+.cli-command {
+  padding: 24px;
+}
+
+.cli-section {
+  font-family: "Courier Prime", monospace;
+}
+
+.page-section {
+  margin: 128px 0;
+}
+.page-section .cli-section h1 {
+  font-size: var(--font-l);
+  padding: 24px 0;
+}
+.page-section .cli-section h2 {
+  font-size: var(--font-l);
+  padding: 96px 0 48px;
+}
+.page-section .cli-section p {
+  padding: 24px;
+}
+
 body {
-  background-color: #fff;
+  background-color: var(--color-terminal-bg-blue);
   display: grid;
 }
 body #menu-button i {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-light);
 }
-body .navbar-logo h1 {
-  color: var(--color-grey-medium);
+body .cli-section h1 {
+  color: var(--color-white);
 }
-body .navbar-logo h1:after {
-  background-color: var(--color-grey-medium);
+body .cli-section h2 {
+  color: var(--color-terminal-2);
+}
+body .cli-section p {
+  color: var(--color-terminal-1);
 }
 body .page-header {
   margin: 0 !important;
@@ -28,11 +54,20 @@ body .page-header-title h1 {
 body .page-header-title i {
   color: var(--color-grey-medium);
 }
+body .navbar-logo h1 {
+  color: var(--color-grey-light);
+}
+body .navbar-logo h1:after {
+  background-color: var(--color-grey-light);
+}
 
 /* THEME - DARK */
 body.dark-mode {
   background-color: #101010;
   display: grid;
+}
+body.dark-mode .cli-command {
+  background-color: #000;
 }
 body.dark-mode #menu-button i {
   color: var(--color-white);
@@ -50,5 +85,5 @@ body.dark-mode .page-header-title h1 {
   color: var(--color-white);
 }
 body.dark-mode .page-header-title i {
-  color: var(--color-green);
+  color: var(--color-orange);
 }
