@@ -80,9 +80,8 @@ class Header extends HTMLElement {
                         <h2>DIY <em>(Coming soon!)</em></h2>
                      </div>
                      <div class="menu-list">
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Command Line Interface</a>
-                        <a href="/pages/diy/nostr/index.html" target=_self>Decentralized Tech</a>
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Hacking at Home</a>
+                        <a href="/pages/diy/cli/index.html" target=_self>Command Line Interface</a>
+                        <a href="/pages/diy/freedomtech/index.html" target=_self>Decentralized Tech</a>
                      </div>
                   </div>
                </div>

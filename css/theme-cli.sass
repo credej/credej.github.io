@@ -4,38 +4,43 @@
   padding: 24px
 .cli-section
   font-family: "Courier Prime", monospace
+.cli-section
+  h1
+    color: white
+    font-size: var(--font-xl)
+  h2
+    font-size: var(--font-l)
+    padding: 96px 0 48px 
+  p
+    padding: 24px
 .page-section
   margin: 128px 0
-  .cli-section
-    h1
-     font-size: var(--font-l)
-     padding: 24px 0
-    h2
-      font-size: var(--font-l)
-      padding: 96px 0 48px 
-    p
-      padding: 24px
+.script-subtitle
+  color: var(--color-grey-medium)  
+  a
+    color: var(--color-green)  
 
 body
   background-color: var(--color-terminal-bg-blue)
   display: grid
   #menu-button
     i
-      color: var(--color-grey-light)
+      color: var(--color-grey-light)    
+  .cli-command
+    p
+      color: var(--color-green)
   .cli-section
     h1
       color: var(--color-white)
     h2
-      color: var(--color-terminal-2)
-    p
-      color: var(--color-terminal-1)
+      color: var(--color-grey-medium)
   .page-header
     margin: 0 !important
   .page-header-excerpt
     background-color: #000
     text-align: right
     p
-      color: var(--color-grey-medium) !important
+      color: var(--color-green) !important
   .page-header-title
     h1
       color: var(--color-grey-medium)

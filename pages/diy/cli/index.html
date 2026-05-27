@@ -36,24 +36,30 @@
 
             <div class="page-section">
                <div class="cli-section">
-                  <h1>// YOUTUBE DOWNLOAD PRO (YT-DLP)</h1>
+                  <h1 class="script-title neon-blue">// YOUTUBE DOWNLOAD PRO (YT-DLP)</h1>
+                  <p class="script-subtitle">Ever wanted to download a song or playlist right from youtube and play if offline? Tired of paying Spotify to rent music? Youtube download pro has your back. This guide is for MacOS, please see additional Linux and Winoows instructions <a href="https://www.spacebar.news/how-to-install-yt-dlp/" target="_blank">here</a> and <a href="https://github.com/yt-dlp/yt-dlp" target="_blank">view the source code here</a></p>
 
-                  <h2>Download and add Homebrew to your path</h2>
+                  <h2>1. Download and add Homebrew to your path</h2>
                   <div class="cli-command">
-                     <p>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
-                     <p>echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yourUserNameHere/.zprofile</p>
-                     <p>eval "$(/opt/homebrew/bin/brew shellenv)"</p>
+                     <p>$&nbsp; /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
+                     <p>$&nbsp; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yourUserNameHere/.zprofile</p>
+                     <p>$&nbsp; eval "$(/opt/homebrew/bin/brew shellenv)"</p>
                   </div>
 
-                  <h2>install <b>youtube download pro</b> as well as <b>ffmpeg</b> (an open-source software project that provides a suite of libraries and programs for handling video, audio, and other multimedia files and streams)</h2>
+                  <h2>2. Install <b>youtube download pro</b> as well as <b>ffmpeg</b> (an open-source software project that provides a suite of libraries and programs for handling video, audio, and other multimedia files and streams)</h2>
                   <div class="cli-command">
-                     <p>brew install ffmpeg yt-dlp</p>
-                     <p>brew update</p>
+                     <p>$&nbsp; brew install ffmpeg yt-dlp</p>
+                     <p>$&nbsp; brew update</p>
                   </div>
 
-                  <h2>download an <b>audio file</b></h2>
+                  <h2>3a. Download an <b>audio file</b>, in this case an mp3 file which will be the first and only song in the playlist, and will ignore hex code extensions. To download songs 2 through 8 we would add the tags "--playlist-start 2 --playlist-end 8"</h2>
                   <div class="cli-command">
-                     <p>yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 --playlist-end 1 "https://www.youtube.com/watch?v=ZvIzmTiYoPo&list=RDZvIzmTiYoPo&start_radio=1"</p>
+                     <p>$&nbsp; yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 --playlist-end 1 "https://www.youtube.com/watch?v=5bpjhJ01uHI&list=RD5bpjhJ01uHI&start_radio=1"</p>
+                  </div>
+
+                  <h2>3b. Download a <b>video file</b>, in this case an mp4 file and only the first video in the playlist</h2>
+                  <div class="cli-command">
+                     <p>$&nbsp; yt-dlp --format "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" --playlist-end 1 "https://www.youtube.com/watch?v=5telYPUNxWg"</p>
                   </div>
                </div>
             </div>
