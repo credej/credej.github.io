@@ -1,6 +1,6 @@
 /* COLOR, TEXT & SHADOW VARIABLES */
 :root {
-  --color-blue: #5EEAD4;
+  --color-blue: #2B78E4;
   --color-green: #6DFFB0;
   --color-red: #D9044C;
   --color-orange: #ea673e;
@@ -16,7 +16,7 @@
   --color-grey-medium: #7A7A7A;
   --color-grey-light: #C8C8C8;
   --color-blue-storm: #1D212C;
-  --color-turqoise-medium: #3CB4AC;
+  --color-turqoise-medium: #5EEAD4;
   --color-blue-dodger: #2B78E4;
   --color-green-lime: #b6e12a;
   --color-cyber-bg: #071426;
@@ -67,11 +67,11 @@
 }
 
 .blue, .blue a, .blue i {
-  color: #00E1FF;
+  color: #2B78E4;
 }
 
 .border-blue {
-  border-image: linear-gradient(to bottom, #00E1FF 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #2B78E4 0%, #1862c9 100%) 1;
 }
 
 .green, .green a, .green i {
@@ -168,7 +168,7 @@
 }
 
 body.dark-mode .border-blue {
-  border-image: linear-gradient(to bottom, #00E1FF 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to bottom, #2B78E4 0%, #093A32 100%) 1;
 }
 body.dark-mode .border-green {
   border-image: linear-gradient(to bottom, #17f9a6 0%, #112E22 100%) 1;

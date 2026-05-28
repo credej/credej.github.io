@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang=en>
    <head>
-      <title>Architecture</title>
+      <title>CLI</title>
       <meta name=description content="architecture">
       <link rel=stylesheet type=text/css href="../../../css/style.css">
       <link rel=stylesheet type=text/css href="../../../css/theme-cli.css">
@@ -15,6 +15,8 @@
 
    <body>
       <header-component></header-component>
+
+      <canvas id="c"></canvas>
 
       <div class="site">
          <div class="site-main">
@@ -46,13 +48,13 @@
                      <p>$&nbsp; eval "$(/opt/homebrew/bin/brew shellenv)"</p>
                   </div>
 
-                  <h2>2. Install <b>youtube download pro</b> as well as <b>ffmpeg</b> (an open-source software project that provides a suite of libraries and programs for handling video, audio, and other multimedia files and streams)</h2>
+                  <h2>2. Install & update <b>youtube download pro</b> as well as <b>ffmpeg</b> (an open-source software project that provides a suite of libraries and programs for handling video, audio, and other multimedia files and streams)</h2>
                   <div class="cli-command">
                      <p>$&nbsp; brew install ffmpeg yt-dlp</p>
                      <p>$&nbsp; brew update</p>
                   </div>
 
-                  <h2>3a. Download an <b>audio file</b>, in this case an mp3 file which will be the first and only song in the playlist, and will ignore hex code extensions. To download songs 2 through 8 we would add the tags "--playlist-start 2 --playlist-end 8"</h2>
+                  <h2>3a. Download an <b>audio file</b>, in this case an mp3 file, ignore hex code extensions, and to only download the first song in the playlist. For example, to download songs 2 through 8 we would use "--playlist-start 2 --playlist-end 8"</h2>
                   <div class="cli-command">
                      <p>$&nbsp; yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 --playlist-end 1 "https://www.youtube.com/watch?v=5bpjhJ01uHI&list=RD5bpjhJ01uHI&start_radio=1"</p>
                   </div>
@@ -77,4 +79,57 @@
       </div>
 
    </body>
+      <script>
+         // geting canvas by Boujjou Achraf
+        var c = document.getElementById("c");
+        var ctx = c.getContext("2d");
+
+        //making the canvas full screen
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
+
+        //chinese characters - taken from the unicode charset
+        var matrix = "ッツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさざじすずせぜそぞただぢっつづてでとどなぬねのはびふへほみめスタヌフホabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+        //converting the string into an array of single characters
+        matrix = matrix.split("");
+
+        var font_size = 15;
+        var columns = c.width/font_size; //number of columns for the rain
+        //an array of drops - one per column
+        var drops = [];
+        //x below is the x coordinate
+        //1 = y co-ordinate of the drop(same for every drop initially)
+        for(var x = 0; x < columns; x++)
+            drops[x] = 1; 
+
+        //drawing the characters
+        function draw()
+        {
+            //Black BG for the canvas
+            //translucent BG to show trail
+            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+            ctx.fillRect(0, 0, c.width, c.height);
+
+            ctx.fillStyle = "#00ff50";//green text
+            ctx.font = font_size + "px arial";
+            //looping over drops
+            for(var i = 0; i < drops.length; i++)
+            {
+                //a random chinese character to print
+                var text = matrix[Math.floor(Math.random()*matrix.length)];
+                //x = i*font_size, y = value of drops[i]*font_size
+                ctx.fillText(text, i*font_size, drops[i]*font_size);
+
+                //sending the drop back to the top randomly after it has crossed the screen
+                //adding a randomness to the reset to make the drops scattered on the Y axis
+                if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                    drops[i] = 0;
+
+                //incrementing Y coordinate
+                drops[i]++;
+            }
+        }
+
+        setInterval(draw, 35);
+      </script>
 </html>

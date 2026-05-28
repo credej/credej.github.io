@@ -33,29 +33,30 @@ body .bg-cyber {
 body .effect-glitch {
   color: var(--color-blue);
 }
-body .img-fullsize figcaption {
+
+.img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-body .project-section-desc p {
+.img-fullsize .project-section-desc p {
   color: #fff;
 }
-body .project-section-desc,
-body .project-header,
-body .project-section p {
+.img-fullsize .project-section-desc,
+.img-fullsize .project-header,
+.img-fullsize .project-section p {
   color: var(--color-white);
 }
-body .project-links a {
-  color: var(--color-blue);
+.img-fullsize .project-links a {
+  color: var(--color-green);
 }
-body .project-links a:hover {
+.img-fullsize .project-links a:hover {
   color: var(--color-white);
 }
-body .project-subtitle {
+.img-fullsize .project-subtitle {
   color: #fff;
   text-shadow: var(--text-shadow-3);
 }
-body .project-title i {
-  color: var(--color-blue);
+.img-fullsize .project-title i {
+  color: var(--color-blue-light);
 }
 
 /* DARK */
@@ -74,11 +75,11 @@ body.dark-mode .project-section-desc a {
 }
 body.dark-mode .project-section-desc,
 body.dark-mode .project-section p {
-  color: #BFE4E2;
+  color: var(--color-blue-light);
 }
 body.dark-mode .project-subtitle {
   color: var(--color-grey-light);
 }
 body.dark-mode .project-links a {
-  color: var(--color-blue);
+  color: var(--color-blue-light);
 }
