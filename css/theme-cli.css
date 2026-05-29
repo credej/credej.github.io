@@ -9,9 +9,9 @@
 
 .cli-section h1 {
   color: white;
-  font-size: var(--font-xl);
 }
 .cli-section h2 {
+  font-family: "Cutive Mono", monospace;
   font-size: var(--font-l);
   padding: 96px 0 48px;
 }
@@ -25,9 +25,20 @@
 
 .script-subtitle {
   color: var(--color-grey-medium);
+  font-family: "Cutive Mono", monospace;
+  font-size: var(--font-l);
 }
 .script-subtitle a {
   color: var(--color-green);
+}
+
+.script-title {
+  letter-spacing: 0.5rem;
+  font-family: "JetBrains Mono", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-family: "Satoshi", sans-serif;
+  font-family: "Doto", serif;
+  font-size: var(--font-xxl);
 }
 
 body {
@@ -71,7 +82,7 @@ body .navbar-logo h1:after {
 
 /* THEME - DARK */
 body.dark-mode {
-  background-color: #101010;
+  background-color: #000D0A;
   display: grid;
 }
 body.dark-mode .cli-command {

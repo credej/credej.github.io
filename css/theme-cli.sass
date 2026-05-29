@@ -7,8 +7,8 @@
 .cli-section
   h1
     color: white
-    font-size: var(--font-xl)
   h2
+    font-family: "Cutive Mono", monospace
     font-size: var(--font-l)
     padding: 96px 0 48px 
   p
@@ -16,10 +16,18 @@
 .page-section
   margin: 128px 0
 .script-subtitle
-  color: var(--color-grey-medium)  
+  color: var(--color-grey-medium)
+  font-family: "Cutive Mono", monospace
+  font-size: var(--font-l)
   a
-    color: var(--color-green)  
-
+    color: var(--color-green)
+.script-title
+  letter-spacing: 0.5rem
+  font-family: 'JetBrains Mono', sans-serif
+  font-family: "Cutive Mono", monospace
+  font-family: 'Satoshi', sans-serif
+  font-family: "Doto", serif
+  font-size: var(--font-xxl)
 body
   background-color: var(--color-terminal-bg-blue)
   display: grid
@@ -55,7 +63,7 @@ body
 /* THEME - DARK */
 
 body.dark-mode
-  background-color: #101010
+  background-color: #000D0A      
   display: grid
   .cli-command
     background-color: #000
