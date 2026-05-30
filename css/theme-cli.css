@@ -19,6 +19,20 @@
   padding: 24px;
 }
 
+.header-simple {
+  padding: 72px 0;
+  text-align: center;
+}
+
+.header-simple-title {
+  color: var(--color-grey-light);
+  font-size: var(--font-xxxl);
+}
+
+.header-simple-excerpt {
+  color: var(--color-green);
+}
+
 .page-section {
   margin: 128px 0;
 }
@@ -82,7 +96,7 @@ body .navbar-logo h1:after {
 
 /* THEME - DARK */
 body.dark-mode {
-  background-color: #000D0A;
+  background-color: #000C09;
   display: grid;
 }
 body.dark-mode .cli-command {

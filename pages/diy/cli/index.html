@@ -19,22 +19,20 @@
       <canvas id="c"></canvas>
 
       <div class="site">
-         <div class="site-main">
-            <div class="page-header">
 
-               <div class="page-header-title">
-                  <i class="iconoir-edit-pencil"></i>
-                  <h1>command line interface</h1>
-               </div>
-
-               <div class="page-header-image">
-                  <img src="img/cli-banner-sm.jpg" alt=Bookmarks>
-               </div>
-
-               <div class="page-header-excerpt">
-                  <p>Wake up, Neo...</p>
-               </div>
+         <div class="header-simple">
+            <div class="header-simple-title"><!-- 
+               <i class="iconoir-edit-pencil"></i> -->
+               <h1>DIY: command line interface</h1>
             </div>
+
+            <div class="header-simple-excerpt">
+               <p>Wake up, Neo...</p>
+            </div>
+         </div>
+
+         <div class="site-main">
+
 
             <div class="page-section">
                <div class="cli-section">
@@ -85,7 +83,7 @@
         var ctx = c.getContext("2d");
 
         //making the canvas full screen
-        c.height = window.innerHeight;
+        c.height = window.innerHeight/5.7;
         c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
@@ -110,7 +108,7 @@
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
             ctx.fillRect(0, 0, c.width, c.height);
 
-            ctx.fillStyle = "#00ff50";//green text
+            ctx.fillStyle = "#6DFFB0";//green text
             ctx.font = font_size + "px arial";
             //looping over drops
             for(var i = 0; i < drops.length; i++)
