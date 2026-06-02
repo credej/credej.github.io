@@ -63,7 +63,7 @@ body #menu-button i {
   color: var(--color-grey-light);
 }
 body .cli-command p {
-  color: var(--color-green);
+  color: var(--color-white);
 }
 body .cli-section h1 {
   color: var(--color-white);
@@ -100,7 +100,11 @@ body.dark-mode {
   display: grid;
 }
 body.dark-mode .cli-command {
-  background-color: #000;
+  background-color: var(--color-black);
+  border-radius: 12px;
+}
+body.dark-mode .cli-command p {
+  color: var(--color-green);
 }
 body.dark-mode #menu-button i {
   color: var(--color-white);

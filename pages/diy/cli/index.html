@@ -52,17 +52,42 @@
                      <p>$&nbsp; brew update</p>
                   </div>
 
-                  <h2>3a. Download an <b>audio file</b>, in this case an mp3 file, ignore hex code extensions, and to only download the first song in the playlist. For example, to download songs 2 through 8 we would use "--playlist-start 2 --playlist-end 8"</h2>
+                  <h2>3a. Download an <b>mp3 audio file</b>, ignore hex code extensions, and only download the first song in the playlist (to download songs 2 through 8 we would use "--playlist-start 2 --playlist-end 8")</h2>
                   <div class="cli-command">
                      <p>$&nbsp; yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 --playlist-end 1 "https://www.youtube.com/watch?v=5bpjhJ01uHI&list=RD5bpjhJ01uHI&start_radio=1"</p>
                   </div>
 
-                  <h2>3b. Download a <b>video file</b>, in this case an mp4 file and only the first video in the playlist</h2>
+                  <h2>3b. Download an <b>mp3 playlist</b></h2>
+                  <div class="cli-command">
+                     <p>$&nbsp; yt-dlp -o "%(title)s.%(ext)s" -f bestaudio --ignore-errors --extract-audio --audio-format mp3 --audio-quality 0 "https://www.youtube.com/playlist?list=PL63ZO-jXFTatssIiQjDHSa6X-WPu-EyYV"</p>
+                  </div>
+
+                  <h2>3c. Download a <b>video file</b>, in this case an mp4 file and only the first video in the playlist</h2>
                   <div class="cli-command">
                      <p>$&nbsp; yt-dlp --format "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" --playlist-end 1 "https://www.youtube.com/watch?v=5telYPUNxWg"</p>
                   </div>
                </div>
-            </div>
+            </div>            
+
+            <div class="page-section">
+               <div class="cli-section">
+                  <h1 class="script-title neon-blue">// WGET </h1>
+                  <p class="script-subtitle">copy any website's code</p>
+
+                  <h2>1. Install and add to home path, restart terminal</h2>
+                  <div class="cli-command">
+                     <p>$&nbsp; brew install wget</p>
+                     <p>$&nbsp; ls -ld .?*</p>
+                     <p>$&nbsp; touch ~/.zshrc</p>
+                     <p>$&nbsp; open .zshrc</p>
+                     <p>$&nbsp; add line >> export PATH=/opt/homebrew/bin:$PATH</p>
+                     <p>$&nbsp; restart terminal</p>
+                  </div>
+
+                  <h2>2. Download a website via wget</h2>
+                  <div class="cli-command">
+                     <p>$&nbsp; wget https://credej.github.io</p>
+                  </div>
          </div>
 
          <div class="footer">
