@@ -1,7 +1,10 @@
 /* BOOKMARKS - LIGHT */
 
+.site-main
+  margin: 72px 0 0
+
 body
-  background-color: var(--color-purple-light)
+  background-color: var(--color-purple)
   .bookmark
     flex-grow: 1
     flex-shrink: 1
@@ -21,11 +24,12 @@ body
     cursor: pointer
     display: flex
     flex-wrap: wrap
+    justify-content: center
     margin: 12px 0 72px
     a
-      background: none
+      background: var(--color-green)      
       border: 3px solid var(--color-green)
-      color: var(--color-green) !important
+      color: var(--color-blue-storm) !important
       border-radius: 8px 0 8px 0
       cursor: pointer
       font-size: var(--font-l)
@@ -35,9 +39,9 @@ body
       font-family: "Cutive Mono", monospace
       &:hover
         animation: blinker 1s linear infinite
-        background: var(--color-green)      
+        background: none
         border: 3px solid var(--color-green)
-        color: var(--color-blue-storm) !important
+        color: var(--color-green) !important
 
 
   .bookmark-section
@@ -86,7 +90,7 @@ body.dark-mode
   background-color: var(--color-blue-storm)
   .bookmark
     a
-      color: var(--color-purple-light)
+      color: var(--color-purple)
   .bookmark-glossary
     display: flex
     flex-wrap: wrap

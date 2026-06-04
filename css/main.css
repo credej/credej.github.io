@@ -246,6 +246,31 @@ p {
   font-size: 4rem;
 }
 
+.header-simple {
+  padding: 172px 0 0;
+  text-align: center;
+}
+
+.header-simple-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-grey-light);
+  font-size: var(--font-xxxl);
+}
+.header-simple-title i {
+  color: var(--color-purple);
+  margin: 0 12px 0 0;
+}
+.header-simple-title h1 {
+  letter-spacing: 0.29rem;
+  text-transform: uppercase;
+}
+
+.header-simple-excerpt {
+  color: var(--color-grey-medium);
+}
+
 .img-fullsize {
   margin: 48px 0;
 }

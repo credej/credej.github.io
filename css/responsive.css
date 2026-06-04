@@ -9,8 +9,29 @@
   .badges-container {
     padding: 12px 36px;
   }
+  .bookmark {
+    padding: 0 !important;
+  }
   .bookmark-glossary {
     justify-content: center;
+  }
+  .bookmark-glossary a {
+    font-size: var(--font-m) !important;
+    letter-spacing: -0.15rem;
+    padding: 8px !important;
+    margin: 2px !important;
+  }
+  .bookmark-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xl) !important;
+  }
+  .bookmark-section li {
+    font-size: var(--font-m);
   }
   .category {
     padding: 36px;
@@ -66,6 +87,15 @@
     align-items: center;
     width: 100%;
   }
+  .header-simple {
+    padding: 144px 0 0;
+  }
+  .header-simple-excerpt p {
+    font-size: var(--font-s);
+  }
+  .header-simple-title h1, .header-simple-title i {
+    font-size: var(--font-xl);
+  }
   .hide-mobile {
     display: none;
   }
@@ -116,6 +146,15 @@
   }
   #navbar {
     overflow: scroll;
+  }
+  #navbar,
+  .site-main,
+  .footer {
+    padding: 0 7.5vw;
+  }
+  .navbar-logo h1 {
+    font-size: var(--font-s) !important;
+    letter-spacing: -0.05rem;
   }
   .page-header h1 {
     letter-spacing: 0.5rem;
@@ -196,10 +235,8 @@
   .section-header {
     text-align: center;
   }
-  #navbar,
-  .site-main,
-  .footer {
-    padding: 0 7.5vw;
+  .site-main {
+    margin: 36px 0 !important;
   }
   .subcategory {
     filter: grayscale(0);
@@ -265,10 +302,6 @@
   }
   .category-title > h1 {
     font-size: var(--font-xl);
-  }
-  .navbar-logo h1 {
-    font-size: var(--font-l);
-    padding: 0 48px;
   }
   #navbar,
   .site-main,

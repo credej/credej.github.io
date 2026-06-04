@@ -4,13 +4,12 @@
   --color-green: #6DFFB0;
   --color-red: #D9044C;
   --color-orange: #ea673e;
-  --color-purple: #7164FF;
+  --color-purple: #697BED;
   --color-yellow: #FFFC67;
   --color-white: #ececec;
   --color-black: #101820;
   --color-blue-alt: #00E1FF;
   --color-blue-light: #A1D9FE;
-  --color-purple-light: #697BED;
   --color-green-terminal: #17f9a6;
   --color-grey-dark: #343434;
   --color-grey-medium: #7A7A7A;
@@ -34,7 +33,7 @@
   --font-xxxs: 0.4rem !important;
   --font-xxs: 0.6rem !important;
   --font-xs: 0.8rem !important;
-  --font-s: 1.0rem !important;
+  --font-s: 0.9rem !important;
   --font-m: 1.2rem !important;
   --font-l: 1.4rem !important;
   --font-xl: 1.6rem !important;
@@ -109,11 +108,11 @@
 }
 
 .purple, .purple a, .purple i {
-  color: #986cdd;
+  color: #697BED;
 }
 
 .border-purple {
-  border-image: linear-gradient(to bottom, #986cdd 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #697BED 0%, #1862c9 100%) 1;
 }
 
 .white, .white a, .white i {
