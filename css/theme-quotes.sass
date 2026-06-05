@@ -6,6 +6,9 @@ body
 .effect-glitch
   color: var(--color-purple)
 
+.header-simple-title
+  color: var(--color-grey-light)
+
 .navbar-menu
   i
     color: var(--color-grey-medium)
@@ -64,24 +67,40 @@ body
 .page-header-image
   box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.1)
 
+.navbar-logo
+  h1
+    color: var(--color-grey-medium)
+    &:after
+      background-color: var(--color-grey-light)
+
 
 /* THEME - DARK */
 
 body.dark-mode 
   background-color: var(--color-black) 
   color: white
+
   .quote
     background-color: var(--color-black) 
+
   .quote-by
     color: var(--color-grey-medium)
+
   .page-header-excerpt
     background-color: #1D212C
     p
       color: var(--color-grey-medium)
+
   .quote-link 
     a 
       color: var(--color-blue-light)
+
   .quote-text
     background-color: #1D212C
     color: var(--color-grey-light) 
 
+  .navbar-logo
+    h1
+      color: var(--color-purple)
+      &:after
+        background-color: var(--color-purple)

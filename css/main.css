@@ -264,11 +264,12 @@ p {
 }
 .header-simple-title h1 {
   letter-spacing: 0.29rem;
-  text-transform: uppercase;
 }
 
 .header-simple-excerpt {
   color: var(--color-grey-medium);
+  margin: 0 25vw;
+  padding: 8px 0;
 }
 
 .img-fullsize {

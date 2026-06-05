@@ -28,7 +28,7 @@
     text-align: center;
   }
   .bookmark-section h2 {
-    font-size: var(--font-xl) !important;
+    font-size: var(--font-xxxs) !important;
   }
   .bookmark-section li {
     font-size: var(--font-m);
@@ -89,6 +89,9 @@
   }
   .header-simple {
     padding: 144px 0 0;
+  }
+  .header-simple-excerpt {
+    margin: 0 10vw;
   }
   .header-simple-excerpt p {
     font-size: var(--font-s);
