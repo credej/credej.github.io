@@ -4,43 +4,43 @@
       <title>Good Eats</title>
       <meta name=description content="good eats">
       <link rel=stylesheet type=text/css href="../../../css/style.css">
+      <link rel=stylesheet type=text/css href="../../../css/theme-goodeats.css">
       <head-links></head-links>
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="/components/headlinks-min.js" type="text/javascript" dsefer></script>
       <script src="/components/header-min.js" type="text/javascript" defer></script>
       <script src="/components/index-min.js" type="text/javascript" defer></script>
+      <script src="/components/themes.js" type="text/javascript" defer></script>
    </head>
    <body class="bg-goodeats">
       
       <header-component></header-component>
       
       <div class="site">
+
+         <div class="header-simple">
+            <div class="header-simple-title">
+               <i class="iconoir-quote-solid"></i>
+               <h1>Good Eats</h1>
+            </div>
+
+            <div class="header-simple-excerpt">
+               <p>I'm usually inspired by either family recipes or the celebrity chef's that I follow, mainly <a href="https://www.youtube.com/@AltonBrown/videos" target="_blank">Alton Brown</a> and <a href="https://www.youtube.com/@ChefJeanPierre" target="_blank">Chef Jean-Pierre</a>. The following are the best recipes I've found.  Browse the <a href="#latestRecipes">Five Latest Recipes</a> or view the <a href="#allRecipes">full catalog of recipes</a>. Mmmmmmmmmm...</p>
+            </div>
+
+
+         </div>
+
          <div class="site-main">
-
-            <div class="">
-               <div class="page-title neon">
-                  <span class="material-symbols-outlined">chef_hat</span>
-                  <h1>good eats</h1>
-               </div>
-            </div>
-
-            <div class="page-header">
-               <div class="project-header-image w-8/12 h-full">
-                  <img class="kg-image" src="img/goodeats-banner.jpg" alt=Bookmarks>
-               </div>
-
-               <div class="page-header-excerpt w-4/12">
-                  <p class="">I'm usually inspired by either family recipes or the celebrity chef's that I follow, mainly <a href="https://www.youtube.com/@AltonBrown/videos" target="_blank">Alton Brown</a> and <a href="https://www.youtube.com/@ChefJeanPierre" target="_blank">Chef Jean-Pierre</a>. The following are the best recipes I've found.  Browse the <a href="#latestRecipes">Five Latest Recipes</a> or view the <a href="#allRecipes">full catalog of recipes</a>. Mmmmmmmmmm... </p>
-               </div>
-            </div>
             
-            <div id ="latestRecipes" class="anchor"></div>
+            <div id="latestRecipes" class="anchor"></div>
             
             <div class="recipe-recent">
+               
                <div class="page-title">
-                  <i class="iconoir-dice-five"></i>
                   <h2>Latest Recipes</h2>
                </div>
+
                <div class="">
                   <ul class="">
                      <li class="recipe-recent-list">
@@ -72,27 +72,72 @@
                </div>
             </div>
 
-            <div class="footer-categories bg-glass-purple border-purple">
-               <div class="category-links purple">
-                  <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a><span class="hide-mobile"`> //</span>
-                  <a href="/pages/otherstuff/quotes/index.html">Quotes</a><span class="hide-mobile"`> //</span>
-                  <a href="/pages/otherstuff/goodeats/index.html"><b>Good Eats</b></a><span class="hide-mobile"`> //</span>
-                  <a href="/pages/otherstuff/remedies/index.html">Home Remedies</a>
+         </div>
+
+         <div class="footer-categories bg-glass-purple border-purple">
+            <div class="category-links purple">
+               <a href="/pages/otherstuff/bookmarks/index.html">Bookmarks</a><span class="hide-mobile"`> //</span>
+               <a href="/pages/otherstuff/quotes/index.html"><b>Quotes</b></a><span class="hide-mobile"`> //</span>
+               <a href="/pages/otherstuff/goodeats/index.html">Good Eats</a><span class="hide-mobile"`> //</span>
+               <a href="/pages/otherstuff/remedies/index.html">Home Remedies</a>
+            </div>
+         </div>
+
+         <footer>
+            <div class="footer">
+               <div class="">
+                  <div class="footer-button">
+                     <a href="#top" class="back-to-top" title="Back to Top">
+                        <img src="/img/arrow-up.svg" alt="Back to Top" height="44" width="44" />
+                     </a>
+                  </div>
+                  <footer-component></footer-component>
                </div>
             </div>
-
-         </div>
-      </div>      
-
-      <div class="footer">
-         <div class="">
-            <div class="footer-button">
-               <a href="#top" class="back-to-top" title="Back to Top">
-                  <img src="/img/arrow-up.svg" alt="Back to Top" height="44" width="44" />
-               </a>
-            </div>
-            <footer-component></footer-component>
-         </div>
-      </div>
+         </footer>
+      </div>    
    </body>
+      
+   <!-- back to top button -->
+   <script>
+      const handleFirstTab = (e) => {
+        if(e.key === 'Tab') {
+          document.body.classList.add('user-is-tabbing')
+
+          window.removeEventListener('keydown', handleFirstTab)
+          window.addEventListener('mousedown', handleMouseDownOnce)
+        }
+
+      }
+
+      const handleMouseDownOnce = () => {
+        document.body.classList.remove('user-is-tabbing')
+
+        window.removeEventListener('mousedown', handleMouseDownOnce)
+        window.addEventListener('keydown', handleFirstTab)
+      }
+
+      window.addEventListener('keydown', handleFirstTab)
+
+      const backToTopButton = document.querySelector(".footer-back-to-top");
+      let isBackToTopRendered = false;
+
+      let alterStyles = (isBackToTopRendered) => {
+        backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+        backToTopButton.style.transform = isBackToTopRendered
+          ? "scale(1)"
+          : "scale(0)";
+      };
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+          isBackToTopRendered = true;
+          alterStyles(isBackToTopRendered);
+        } else {
+          isBackToTopRendered = false;
+          alterStyles(isBackToTopRendered);
+        }
+      });
+   </script>
 </html>

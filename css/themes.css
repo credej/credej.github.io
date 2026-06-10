@@ -5,9 +5,6 @@ body {
 body .category-subtitle p {
   color: var(--color-grey-light);
 }
-body .contact p {
-  color: var(--color-grey-dark);
-}
 body .contact-bullets ul {
   color: var(--color-grey-light);
 }

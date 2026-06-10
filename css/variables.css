@@ -13,7 +13,7 @@
   --color-green-terminal: #17f9a6;
   --color-grey-dark: #343434;
   --color-grey-medium: #7A7A7A;
-  --color-grey-light: #C8C8C8;
+  --color-grey-light: #AEAEAE;
   --color-blue-storm: #1D212C;
   --color-turqoise-medium: #5EEAD4;
   --color-blue-dodger: #2B78E4;
@@ -68,51 +68,51 @@
 }
 
 .blue, .blue a, .blue i {
-  color: #2B78E4;
+  color: #00CDFF;
 }
 
 .border-blue {
-  border-image: linear-gradient(to bottom, #2B78E4 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #00CDFF 0%, #1862c9 100%) 1;
 }
 
 .green, .green a, .green i {
-  color: #17f9a6;
+  color: #2FF8A0;
 }
 
 .border-green {
-  border-image: linear-gradient(to bottom, #17f9a6 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #2FF8A0 0%, #1862c9 100%) 1;
 }
 
 .red, .red a, .red i {
-  color: #D9044C;
+  color: #FF005E;
 }
 
 .border-red {
-  border-image: linear-gradient(to bottom, #D9044C 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #FF005E 0%, #1862c9 100%) 1;
 }
 
 .orange, .orange a, .orange i {
-  color: #ea673e;
+  color: #FF6B63;
 }
 
 .border-orange {
-  border-image: linear-gradient(to bottom, #ea673e 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #FF6B63 0%, #1862c9 100%) 1;
 }
 
 .yellow, .yellow a, .yellow i {
-  color: #facc15;
+  color: #C8E501;
 }
 
 .border-yellow {
-  border-image: linear-gradient(to bottom, #facc15 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #C8E501 0%, #1862c9 100%) 1;
 }
 
 .purple, .purple a, .purple i {
-  color: #697BED;
+  color: #7C83FD;
 }
 
 .border-purple {
-  border-image: linear-gradient(to bottom, #697BED 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #7C83FD 0%, #1862c9 100%) 1;
 }
 
 .white, .white a, .white i {
@@ -169,25 +169,25 @@
 }
 
 body.dark-mode .border-blue {
-  border-image: linear-gradient(to bottom, #2B78E4 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to bottom, #00CDFF 0%, #093A32 100%) 1;
 }
 body.dark-mode .border-green {
-  border-image: linear-gradient(to bottom, #17f9a6 0%, #112E22 100%) 1;
+  border-image: linear-gradient(to bottom, #2FF8A0 0%, #112E22 100%) 1;
 }
 body.dark-mode .border-red {
-  border-image: linear-gradient(to bottom, #D9044C 0%, #3C1A12 100%) 1;
+  border-image: linear-gradient(to bottom, #FF005E 0%, #3C1A12 100%) 1;
 }
 body.dark-mode .border-orange {
-  border-image: linear-gradient(to bottom, #ea673e 0%, #342008 100%) 1;
+  border-image: linear-gradient(to bottom, #FF6B63 0%, #342008 100%) 1;
 }
 body.dark-mode .border-yellow {
-  border-image: linear-gradient(to bottom, #facc15 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to bottom, #C8E501 0%, #3B320E 100%) 1;
 }
 body.dark-mode .border-purple {
-  border-image: linear-gradient(to bottom, #8566ff 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to bottom, #7C83FD 0%, #24204C 100%) 1;
 }
 body.dark-mode .border-white {
-  border-image: linear-gradient(to bottom, #ececec 0%, #757575 100%) 1;
+  border-image: linear-gradient(to bottom, #ececec 0%, #3B3B3B 100%) 1;
 }
 body.dark-mode .border-grey {
   border-image: linear-gradient(to bottom, #C8C8C8 0%, #7A7A7A 100%) 1;

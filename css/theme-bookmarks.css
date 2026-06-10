@@ -110,6 +110,12 @@ body.dark-mode .bookmark-glossary {
 body.dark-mode .bookmark-glossary a {
   color: var(--color-blue-storm);
 }
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-purple);
+}
+body.dark-mode .navbar-logo h1:after {
+  background-color: var(--color-purple);
+}
 body.dark-mode .page-header-excerpt {
   background-color: #191D26;
 }
