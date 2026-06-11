@@ -6,12 +6,6 @@ body {
 body #menu-button i {
   color: var(--color-grey-dark);
 }
-body .navbar-logo h1 {
-  color: var(--color-grey-medium);
-}
-body .navbar-logo h1:after {
-  background-color: var(--color-grey-medium);
-}
 body .page-header {
   margin: 0 !important;
 }
@@ -36,12 +30,6 @@ body.dark-mode {
 }
 body.dark-mode #menu-button i {
   color: var(--color-white);
-}
-body.dark-mode .navbar-logo h1 {
-  color: var(--color-green-terminal);
-}
-body.dark-mode .navbar-logo h1:after {
-  background-color: var(--color-green-terminal);
 }
 body.dark-mode .page-header {
   margin: 0 !important;

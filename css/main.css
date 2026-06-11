@@ -39,6 +39,9 @@ table {
   color: #000;
 }
 
+* {
+  letter-spacing: -0.029rem;
+}
 *::-webkit-scrollbar {
   width: 0 !important;
   display: none;
@@ -464,14 +467,14 @@ p {
   margin: 12px 0;
 }
 .navbar-logo h1 {
-  color: var(--color-white);
+  color: var(--color-green);
   cursor: pointer;
   font-family: "JetBrains Mono", sans-serif;
   font-size: var(--font-xxl);
   word-break: break-word;
 }
 .navbar-logo h1:after {
-  background-color: var(--color-white);
+  background-color: var(--color-green);
   border-radius: 1px;
   content: "";
   display: inline-block;

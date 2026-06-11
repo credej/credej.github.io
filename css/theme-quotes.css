@@ -78,13 +78,6 @@ body {
   box-shadow: 4px 8px 10px hsla(0, 0%, 0%, 0.1);
 }
 
-.navbar-logo h1 {
-  color: var(--color-grey-medium);
-}
-.navbar-logo h1:after {
-  background-color: var(--color-grey-light);
-}
-
 /* THEME - DARK */
 body.dark-mode {
   background-color: var(--color-black);
@@ -108,10 +101,4 @@ body.dark-mode .quote-link a {
 body.dark-mode .quote-text {
   background-color: #1D212C;
   color: var(--color-grey-light);
-}
-body.dark-mode .navbar-logo h1 {
-  color: var(--color-purple);
-}
-body.dark-mode .navbar-logo h1:after {
-  background-color: var(--color-purple);
 }

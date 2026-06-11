@@ -7,12 +7,6 @@ body {
 body.dark-mode {
   background-color: var(--color-blue-storm);
 }
-body.dark-mode .navbar-logo h1 {
-  color: var(--color-purple);
-}
-body.dark-mode .navbar-logo h1:after {
-  background-color: var(--color-purple);
-}
 body.dark-mode .recipe-recent {
   color: var(--color-grey-light);
 }
