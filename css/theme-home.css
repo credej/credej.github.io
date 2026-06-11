@@ -1,6 +1,11 @@
 /* GOOD EATS - LIGHT */
 body {
-  background-color: var(--color-purple);
+  background-color: var(--color-blue-dodger);
+}
+
+a,
+.category-subtitle p {
+  text-shadow: none !important;
 }
 
 /* GOOD EATS - DARK */
