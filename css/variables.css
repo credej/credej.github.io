@@ -67,6 +67,10 @@
   border-width: 0 1px 2px 2px;
 }
 
+.turquoise {
+  color: #5EEAD4;
+}
+
 .blue, .blue a, .blue i {
   color: #00CDFF;
 }
@@ -169,31 +173,31 @@
 }
 
 body.dark-mode .border-blue {
-  border-image: linear-gradient(to bottom, #00CDFF 0%, #093A32 100%) 1;
+  border-image: linear-gradient(to bottom, #00CDFF 0%, #101010 100%) 1;
 }
 body.dark-mode .border-green {
-  border-image: linear-gradient(to bottom, #2FF8A0 0%, #112E22 100%) 1;
+  border-image: linear-gradient(to bottom, #2FF8A0 0%, #101010 100%) 1;
 }
 body.dark-mode .border-red {
-  border-image: linear-gradient(to bottom, #FF005E 0%, #3C1A12 100%) 1;
+  border-image: linear-gradient(to bottom, #FF005E 0%, #101010 100%) 1;
 }
 body.dark-mode .border-orange {
-  border-image: linear-gradient(to bottom, #FF6B63 0%, #342008 100%) 1;
+  border-image: linear-gradient(to bottom, #FF6B63 0%, #101010 100%) 1;
 }
 body.dark-mode .border-yellow {
-  border-image: linear-gradient(to bottom, #C8E501 0%, #3B320E 100%) 1;
+  border-image: linear-gradient(to bottom, #C8E501 0%, #101010 100%) 1;
 }
 body.dark-mode .border-purple {
-  border-image: linear-gradient(to bottom, #7C83FD 0%, #24204C 100%) 1;
+  border-image: linear-gradient(to bottom, #7C83FD 0%, #101010 100%) 1;
 }
 body.dark-mode .border-white {
-  border-image: linear-gradient(to bottom, #ececec 0%, #3B3B3B 100%) 1;
+  border-image: linear-gradient(to bottom, #ececec 0%, #101010 100%) 1;
 }
 body.dark-mode .border-grey {
-  border-image: linear-gradient(to bottom, #C8C8C8 0%, #7A7A7A 100%) 1;
+  border-image: linear-gradient(to bottom, #C8C8C8 0%, #101010 100%) 1;
 }
 body.dark-mode .border-black {
-  border-image: linear-gradient(to right, #000 0%, #757575 100%) 1;
+  border-image: linear-gradient(to right, #000 0%, #101010 100%) 1;
 }
 body.dark-mode .bg-glass-blue {
   background: rgba(0, 225, 237, 0.045);

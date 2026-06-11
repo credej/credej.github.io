@@ -102,7 +102,7 @@ p {
 .badges-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 72px 24px;
+  padding: 48px 24px;
 }
 .badges-container img {
   width: 200px;
@@ -175,12 +175,12 @@ p {
   color: var(--color-grey-light) !important;
   font-size: var(--font-m);
   line-height: 2rem;
-  margin: 48px 0 24px;
+  margin: 24px 0;
 }
 .contact a {
   color: var(--color-white);
-  font-size: var(--font-l);
-  font-weight: 700;
+  font-size: var(--font-m);
+  font-weight: 900;
 }
 .contact a:hover {
   animation: blinker 1s linear infinite;
@@ -249,8 +249,15 @@ p {
   padding: 48px;
 }
 .footer-text p {
+  color: var(--color-black);
   font-family: "Array", sans-serif;
   font-size: 4rem;
+}
+
+.footer-text-flashing {
+  animation: blink-animation 0.87s infinite;
+  -webkit-animation: blink-animation 0.87s infinite;
+  padding: 0 24px;
 }
 
 .header-simple {
@@ -768,7 +775,7 @@ p {
 .stats {
   flex: 1;
   padding: 1rem;
-  margin: 128px 0 12px !important;
+  margin: 24px 0 12px !important;
 }
 
 .stat {
@@ -784,15 +791,12 @@ p {
   transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 .stat .numbers {
-  font-family: "Anton", sans-serif;
-  font-family: "Boldonse", system-ui;
-  font-family: "Russo One", sans-serif;
-  font-family: "Tektur", sans-serif;
   font-family: "Geostar Fill", serif;
 }
 .stat .numbers span {
   color: var(--color-grey-medium);
   font-size: var(--font-s);
+  margin-right: 12px;
 }
 .stat a {
   text-decoration: none;
@@ -808,7 +812,7 @@ p {
   font-weight: bolda;
 }
 .stat a:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-yellow);
   color: var(--color-black);
 }
 .stat h2 {
@@ -816,7 +820,7 @@ p {
   border-bottom: 2px solid #000;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  font-size: var(--font-xxxl);
+  font-size: var(--font-xxxxl);
 }
 .stat p {
   font-family: "Doto", serif;
@@ -858,7 +862,7 @@ p {
   margin: 48px 0 0;
 }
 .stats-container-title h1 {
-  color: var(--color-white);
+  color: var(--color-yellow);
   font-family: "Doto", serif;
   font-size: var(--font-xxl);
   margin: 24px 0;
@@ -993,12 +997,6 @@ p {
   color: #fff;
   font-family: "Tiny5", monospace;
   text-transform: uppercase;
-}
-
-.footer-text-flashing {
-  animation: blink-animation 0.87s infinite;
-  -webkit-animation: blink-animation 0.87s infinite;
-  padding: 0 24px;
 }
 
 .hidden {

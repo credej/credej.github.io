@@ -60,9 +60,6 @@ body.dark-mode .contact-bullets ul {
 body.dark-mode .dark {
   display: block !important;
 }
-body.dark-mode .footer-text p {
-  color: var(--color-white);
-}
 body.dark-mode .intro-text {
   color: var(--color-grey-light);
 }
