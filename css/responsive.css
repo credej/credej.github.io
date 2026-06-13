@@ -156,7 +156,7 @@
     padding: 0 7.5vw;
   }
   .navbar-logo h1 {
-    font-size: var(--font-s) !important;
+    font-size: var(--font-m);
     letter-spacing: -0.05rem;
   }
   .page-header h1 {
@@ -239,7 +239,7 @@
     text-align: center;
   }
   .site-main {
-    margin: 36px 0 !important;
+    margin: 108px 0;
   }
   .subcategory {
     filter: grayscale(0);
@@ -269,6 +269,11 @@
     display: block;
   }
 }
+@media screen and (min-width: 100px) and (max-width: 439px) {
+  .navbar-logo h1 {
+    font-size: var(--font-s);
+  }
+}
 @media screen and (min-width: 100px) and (max-width: 539px) {
   #navbar {
     padding: 0 7.5vw !important;
@@ -295,8 +300,7 @@
     margin: 48px 0 0;
   }
   .navbar-logo h1 {
-    font-size: var(--font-m);
-    padding: 0 36px;
+    padding: 0 24px;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {

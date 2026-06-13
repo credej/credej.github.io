@@ -2,9 +2,7 @@
 body {
   background-color: var(--color-blue-dodger);
 }
-
-a,
-.category-subtitle p {
+body .category-subtitle p {
   text-shadow: none !important;
 }
 

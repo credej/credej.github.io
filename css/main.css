@@ -144,7 +144,6 @@ p {
 .category-title {
   display: flex;
   align-items: center;
-  margin: 12px 0;
 }
 .category-title h1 {
   color: white;
@@ -165,6 +164,9 @@ p {
 }
 .category-subtitle p {
   font-family: "Reddit Mono", monospace;
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-l);
+  font-style: italic;
 }
 
 .contact {
@@ -870,7 +872,6 @@ p {
 }
 
 .subcategory {
-  filter: grayscale(1);
   opacity: 0.6;
   padding: 12px 0;
   transition: 1.2s ease-in-out;

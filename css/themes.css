@@ -43,13 +43,19 @@ body .project-title h1 {
 body .stat {
   background-color: #1f262c;
 }
+body .intro-text a span {
+  text-shadow: var(--text-shadow-3);
+}
+body .category-links a {
+  text-shadow: var(--text-shadow-3);
+}
 
 /* DARK MODE STYLING */
 body.dark-mode {
   background-color: #101010;
 }
 body.dark-mode .category-subtitle p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
 }
 body.dark-mode .contact p {
   color: var(--color-grey-light);
