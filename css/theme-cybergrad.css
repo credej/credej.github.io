@@ -33,7 +33,7 @@ body .bg-cyber {
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-body .project-header a {
+body .project-links a {
   color: var(--color-white);
   text-shadow: var(--text-shadow-2);
 }
@@ -64,8 +64,11 @@ body.dark-mode .bg-cyber {
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-medium);
 }
-body.dark-mode .project-overview {
+body.dark-mode .project-overview p {
   color: var(--color-grey-light);
+}
+body.dark-mode .project-links a {
+  color: var(--color-turqoise-medium);
 }
 body.dark-mode .project-section-desc a {
   color: var(--color-blue);
@@ -81,5 +84,5 @@ body.dark-mode .project-subtitle {
   color: var(--color-grey-light);
 }
 body.dark-mode .project-title i {
-  color: var(--color-grey-medium);
+  color: var(--color-turqoise-medium);
 }
