@@ -270,11 +270,6 @@
   }
 }
 @media screen and (min-width: 100px) and (max-width: 439px) {
-  .navbar-logo h1 {
-    font-size: var(--font-s);
-  }
-}
-@media screen and (min-width: 100px) and (max-width: 539px) {
   #navbar {
     padding: 0 7.5vw !important;
   }
@@ -300,7 +295,14 @@
     margin: 48px 0 0;
   }
   .navbar-logo h1 {
-    padding: 0 24px;
+    font-size: var(--font-m);
+    letter-spacing: -0.1rem;
+    padding: 0 12px;
+  }
+}
+@media screen and (min-width: 439px) and (max-width: 539px) {
+  .navbar-logo h1 {
+    padding: 0 36px;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 755px) {

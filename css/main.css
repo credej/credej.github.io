@@ -650,7 +650,6 @@ p {
   padding: 24px 72px 24px;
   display: flex;
   flex-direction: column;
-  text-shadow: var(--text-shadow-3);
 }
 .project-links a {
   font-weight: 900;
@@ -707,7 +706,6 @@ p {
 
 .project-section-title h3 {
   font-size: var(--font-xl);
-  text-shadow: var(--text-shadow-1);
 }
 
 .project-subtitle {

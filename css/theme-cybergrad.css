@@ -33,17 +33,25 @@ body .bg-cyber {
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-body .project-section-desc p {
-  color: #fff;
+body .project-header a {
+  color: var(--color-white);
+  text-shadow: var(--text-shadow-2);
+}
+body .project-overview p {
+  color: var(--color-grey-dark);
 }
 body .project-section-desc,
-body .project-header,
 body .project-section p {
+  color: var(--color-grey-dark);
+}
+body .project-section-title h3 {
   color: var(--color-white);
 }
 body .project-subtitle {
-  color: #fff;
-  text-shadow: var(--text-shadow-3);
+  color: var(--color-grey-medium);
+}
+body .project-title i {
+  color: var(--color-white);
 }
 
 /* DARK */
@@ -71,4 +79,7 @@ body.dark-mode .project-section-title h3 {
 }
 body.dark-mode .project-subtitle {
   color: var(--color-grey-light);
+}
+body.dark-mode .project-title i {
+  color: var(--color-grey-medium);
 }
