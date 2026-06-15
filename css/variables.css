@@ -68,23 +68,23 @@
 }
 
 .turquoise {
-  color: #5EEAD4;
+  color: #00FFD7
 }
 
 .blue, .blue a, .blue i {
-  color: #00CDFF;
+  color: #65FFE7
 }
 
 .border-blue {
-  border-image: linear-gradient(to bottom, #00CDFF 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #65FFE7 0%, #1862c9 100%) 1;
 }
 
 .green, .green a, .green i {
-  color: #2FF8A0;
+  color: #37FF82;
 }
 
 .border-green {
-  border-image: linear-gradient(to bottom, #2FF8A0 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #37FF82 0%, #1862c9 100%) 1;
 }
 
 .red, .red a, .red i {
@@ -96,11 +96,11 @@
 }
 
 .orange, .orange a, .orange i {
-  color: #FF6B63;
+  color: #F26F68;
 }
 
 .border-orange {
-  border-image: linear-gradient(to bottom, #FF6B63 0%, #1862c9 100%) 1;
+  border-image: linear-gradient(to bottom, #F26F68 0%, #1862c9 100%) 1;
 }
 
 .yellow, .yellow a, .yellow i {
@@ -173,16 +173,16 @@
 }
 
 body.dark-mode .border-blue {
-  border-image: linear-gradient(to bottom, #00CDFF 0%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #65FFE7 0%, #101010 100%) 1;
 }
 body.dark-mode .border-green {
-  border-image: linear-gradient(to bottom, #2FF8A0 0%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #37FF82 0%, #101010 100%) 1;
 }
 body.dark-mode .border-red {
   border-image: linear-gradient(to bottom, #FF005E 0%, #101010 100%) 1;
 }
 body.dark-mode .border-orange {
-  border-image: linear-gradient(to bottom, #FF6B63 0%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #F26F68 0%, #101010 100%) 1;
 }
 body.dark-mode .border-yellow {
   border-image: linear-gradient(to bottom, #C8E501 0%, #101010 100%) 1;
