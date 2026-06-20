@@ -80,7 +80,7 @@ body.dark-mode {
   display: grid;
 }
 body.dark-mode .cli-command {
-  background-color: var(--color-black);
+  background-color: #013D27;
   border-radius: 12px;
 }
 body.dark-mode .cli-command p {

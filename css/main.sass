@@ -397,13 +397,13 @@ p
   align-items: center
   margin: 12px 0
   h1
-    color: var(--color-green)
+    color: var(--color-grey-light)
     cursor: pointer
     font-family: 'JetBrains Mono', sans-serif
     font-size: var(--font-xxl)
     word-break: break-word
     &:after
-      background-color: var(--color-green)
+      background-color: var(--color-grey-light)
       border-radius: 1px
       content: ""
       display: inline-block
@@ -412,6 +412,8 @@ p
       vertical-align: text-bottom
       width: 0.67em
       @extend .blinker
+    &:hover
+      color: var(--color-green)
 
 .navbar-menu
   i
