@@ -439,31 +439,6 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/css\/theme-home.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/theme-home-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/css\/theme-home.sass" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 2,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/theme-home.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
     "\/css\/theme-inventory.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1091,6 +1066,32 @@
       "oA" : 0,
       "oAP" : "\/img\/Resume-J.pdf",
       "oF" : 0
+    },
+    "\/img\/windows-icon-email.png" : {
+      "ft" : 32768,
+      "iS" : 55060,
+      "oA" : 0,
+      "oAP" : "\/img\/windows-icon-email.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/windows-icon-IE.png" : {
+      "ft" : 32768,
+      "iS" : 48236,
+      "oA" : 0,
+      "oAP" : "\/img\/windows-icon-IE.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/index.html" : {
       "cB" : 0,

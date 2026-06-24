@@ -275,7 +275,6 @@ p {
   font-size: var(--font-xxxl);
 }
 .header-simple-title i {
-  color: var(--color-purple);
   margin: 0 12px 0 0;
 }
 .header-simple-title h1 {

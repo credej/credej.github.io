@@ -27,9 +27,6 @@
     justify-content: center;
     text-align: center;
   }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxs) !important;
-  }
   .bookmark-section li {
     font-size: var(--font-m);
   }
@@ -44,6 +41,7 @@
   }
   .category-links a {
     display: block;
+    font-size: var(--font-m);
     padding: 8px 0;
   }
   .category-title {
@@ -53,9 +51,11 @@
   }
   .category-title h1 {
     display: flex;
+    font-size: var(--font-xxl);
     line-height: 36px;
     letter-spacing: 0.52rem;
     overflow: wrap;
+    padding: 12px 0;
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -309,8 +309,11 @@
   .badges {
     margin: 144px 0 !important;
   }
+  .category-links a {
+    font-size: var(--font-l);
+  }
   .category-title > h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-xxl);
   }
   #navbar,
   .site-main,
@@ -389,6 +392,9 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .category-title h1 {
+    font-size: var(--font-xxxl);
+  }
   .intro {
     text-align: justify;
   }
@@ -420,9 +426,8 @@
   .site-main {
     width: 100% !important;
   }
-  .category--title h1 {
-    letter-spacing: 0.52rem;
-    font-size: var(--font-xl);
+  .category-title h1 {
+    font-size: var(--font-xxxl);
   }
   .intro {
     text-align: justify;

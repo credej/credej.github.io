@@ -1,15 +1,20 @@
-/* LIGHT MODE STYLING */
 body {
   background-color: var(--color-blue-dodger);
 }
 body .category-subtitle p {
   color: var(--color-grey-light);
 }
+body .category-links a {
+  text-shadow: var(--text-shadow-3);
+}
 body .contact-bullets ul {
   color: var(--color-grey-light);
 }
 body .intro-text {
   color: var(--color-grey-dark);
+}
+body .intro-text a span {
+  text-shadow: var(--text-shadow-3);
 }
 body .menu-category-title h2 {
   color: var(--color-grey-dark);
@@ -43,14 +48,7 @@ body .project-title h1 {
 body .stat {
   background-color: #1f262c;
 }
-body .intro-text a span {
-  text-shadow: var(--text-shadow-3);
-}
-body .category-links a {
-  text-shadow: var(--text-shadow-3);
-}
 
-/* DARK MODE STYLING */
 body.dark-mode {
   background-color: #101010;
 }
