@@ -31,7 +31,11 @@
     font-size: var(--font-m);
   }
   .category {
-    padding: 36px;
+    margin: 0;
+    padding: 72px 36px 36px;
+  }
+  .category p {
+    margin: 12px 24px;
   }
   .category h1 {
     font-size: var(--font-xl);
@@ -42,7 +46,7 @@
   .category-links a {
     display: block;
     font-size: var(--font-m);
-    padding: 8px 0;
+    padding: 2px 0;
   }
   .category-title {
     display: flex;
@@ -51,8 +55,8 @@
   }
   .category-title h1 {
     display: flex;
-    font-size: var(--font-xxl);
-    line-height: 36px;
+    font-size: var(--font-xxxl);
+    line-height: 48px;
     letter-spacing: 0.52rem;
     overflow: wrap;
     padding: 12px 0;
@@ -66,14 +70,14 @@
     display: none;
   }
   .category-title i {
-    font-size: var(--font-xl);
+    font-size: var(--font-xxl);
     padding: 0 0 12px;
   }
   .category-subtitle {
     text-align: center;
   }
   .contact {
-    padding: 48px 48px 72px;
+    padding: 48px 0 0;
     text-align: center;
   }
   .contact p {
@@ -103,7 +107,7 @@
     display: none;
   }
   .intro {
-    margin: 12px 0;
+    margin: 96px 24px;
     text-align: center;
   }
   .intro p {
@@ -150,10 +154,12 @@
   #navbar {
     overflow: scroll;
   }
-  #navbar,
+  #navbar {
+    padding: 0 7.5vw;
+  }
   .site-main,
   .footer {
-    padding: 0 7.5vw;
+    padding: 0;
   }
   .navbar-logo h1 {
     font-size: var(--font-m);
@@ -255,9 +261,8 @@
     text-align: center;
   }
   .subcategory-title h2 {
-    color: var(--color-blue);
     line-height: 1.2em;
-    font-size: var(--font-m);
+    font-size: var(--font-xl);
   }
   .subcategory-excerpt {
     text-align: center;
