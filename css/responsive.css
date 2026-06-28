@@ -31,11 +31,12 @@
     font-size: var(--font-m);
   }
   .category {
+    border: none !important;
     margin: 0;
-    padding: 72px 36px 24px;
+    padding: 72px 7.5vw 24px;
   }
   .category p {
-    margin: 0 0 8px;
+    margin: 12px 0;
   }
   .category h1 {
     font-size: var(--font-xl);
@@ -47,6 +48,12 @@
     display: block;
     font-size: var(--font-m);
     padding: 2px 0;
+  }
+  .category-subtitle {
+    text-align: center;
+  }
+  .category-subtitle p {
+    font-size: var(--font-m);
   }
   .category-title {
     display: flex;
@@ -72,9 +79,6 @@
   .category-title i {
     font-size: var(--font-xxl);
     padding: 0 0 12px;
-  }
-  .category-subtitle {
-    text-align: center;
   }
   .contact {
     padding: 48px 0 0;
@@ -121,14 +125,11 @@
   .intro-category-icons span {
     padding: 0 8px;
   }
-  .intro-text {
-    padding: 0 24px;
-  }
   .intro-text p {
-    font-size: var(--font-m) !important;
+    font-size: var(--font-s) !important;
   }
   .intro-text a {
-    font-size: var(--font-l) !important;
+    font-size: var(--font-m) !important;
   }
   #menu-expanded {
     height: 100vh;
@@ -154,12 +155,10 @@
   #navbar {
     overflow: scroll;
   }
-  #navbar {
-    padding: 0 7.5vw;
-  }
+  #navbar,
   .site-main,
   .footer {
-    padding: 0;
+    padding: 0 7.5vw;
   }
   .navbar-logo h1 {
     font-size: var(--font-m);
@@ -250,7 +249,7 @@
   .subcategory {
     filter: grayscale(0);
     opacity: 1;
-    padding: 18px 0;
+    padding: 48px 0;
   }
   .subcategory-container {
     margin: 48px 0 0;
@@ -264,7 +263,7 @@
     text-align: center;
   }
   .subcategory-title h2 {
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-size: var(--font-xl);
     padding: 0 24px;
   }

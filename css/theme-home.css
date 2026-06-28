@@ -1,0 +1,12 @@
+/* HOME PAGE - LIGHT THEME */
+body {
+  background-color: var(--color-blue-dodger);
+}
+body .site-main {
+  padding: 0;
+}
+
+/* HOME PAGE - DARK THEME */
+body.dark-mode {
+  background-color: #101010;
+}

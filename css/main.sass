@@ -229,9 +229,14 @@ p
   color: var(--color-grey-light)
   font-size: var(--font-xxxl)
   i
-    margin: 0 12px 0 0
+    font-size: var(--font-xxl)
+    margin: 0 24px 0 0
   h1
     letter-spacing: 0.29rem
+    font-family: 'Melodrama', serif
+    font-family: "Reddit Mono", monospace 
+    font-family: "Tiny5", monospace
+    text-transform: uppercase
 
 .header-simple-excerpt
   color: var(--color-grey-medium)
@@ -415,6 +420,9 @@ p
       color: var(--color-green)
 
 .navbar-menu
+  display: flex
+  align-items: center
+  justify-content: center
   i
     color: var(--color-grey-light)
   i:hover
@@ -726,9 +734,6 @@ p
   opacity: 0.6
   padding: 12px 0
   transition: 1.2s ease-in-out
-  img
-    border-radius: 16px 0 16px 0
-    cursor: pointer
   &:hover
     cursor: pointer
     filter: grayscale(0)
