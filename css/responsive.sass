@@ -105,7 +105,7 @@
   
   .intro
     margin: 96px 24px
-    text-align: center  
+    text-align: center
     p
       font-size: var(--font-m)
       line-height: 1.8rem
@@ -146,11 +146,13 @@
   
   #navbar
     overflow: scroll
-  
-  #navbar,
-  .site-main,
-  .footer
+    
+  #navbar
     padding: 0 7.5vw
+  
+  .site-main,
+  .footer  
+    padding: 0 
   
   .navbar-logo
     h1
@@ -291,11 +293,6 @@
       font-size: var(--font-m) 
       letter-spacing: -0.1rem
       padding: 0 12px
-
-@media screen and (min-width: 439px) and (max-width: 539px)
-  .navbar-logo
-    h1
-      padding: 0 36px
 
 @media screen and (min-width: 540px) and (max-width: 755px)
   .badges
