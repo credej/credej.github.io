@@ -29,17 +29,27 @@
   --color-terminal-4: #023F2A;
   --color-terminal-bg-teal: #5BFBBA;
   --color-terminal-bg-blue: #0000AA;
-  --font-xxxxs: 0.2rem !important;
-  --font-xxxs: 0.4rem !important;
+  --font-9xs: 0.03rem !important;
+  --font-8xs: 0.05rem !important;
+  --font-7xs: 0.1rem !important;
+  --font-6xs: 0.2rem !important;
+  --font-5xs: 0.3rem !important;
+  --font-xxxxs: 0.4rem !important;
+  --font-xxxs: 0.5rem !important;
   --font-xxs: 0.6rem !important;
-  --font-xs: 0.9rem !important;
-  --font-s: 1.05rem !important;
-  --font-m: 1.2rem !important;
-  --font-l: 1.4rem !important;
-  --font-xl: 1.6rem !important;
-  --font-xxl: 2rem !important;
-  --font-xxxl: 2.6rem !important;
-  --font-xxxxl: 3.2rem !important;
+  --font-xs: 0.7rem !important;
+  --font-s: 0.8rem !important;
+  --font-m: 1.0rem !important;
+  --font-l: 1.2rem !important;
+  --font-xl: 1.4rem !important;
+  --font-xxl: 1.6rem !important;
+  --font-xxxl: 1.8rem !important;
+  --font-xxxxl: 2rem !important;
+  --font-5xl: 2.4rem !important;
+  --font-6xl: 2.6rem !important;
+  --font-7xl: 2.8rem !important;
+  --font-8xl: 3rem !important;
+  --font-9xl: 3.2rem !important;
   --box-shadow-1: 4px 8px 10px hsla(0, 0%, 0%, 0.2);
   --text-shadow-1: 2px 4px 3px rgba(0,0,0,0.15);
   --text-shadow-2: 2px 4px 3px rgba(0,0,0,0.3);
@@ -63,7 +73,7 @@
 .border-yellow,
 .border-white {
   border-style: solid;
-  border-right: none;
+  border-left: none;
   border-width: 0 1px 2px 2px;
 }
 

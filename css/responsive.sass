@@ -38,28 +38,32 @@
       font-size: var(--font-xl)
   
   .category-links
+    padding: 0 36px
     text-align: center
     a
       display: block
       font-size: var(--font-m)
-      padding: 2px 0
+      line-height: 1.2rem
+      padding: 6px 0
   
   .category-subtitle
+    padding: 8px 12px
     text-align: center
     p
       font-size: var(--font-m)
-  
+      letter-spacing: -0.1rem
+
   .category-title
     display: flex
     flex-direction: column
     text-align: center
     h1
       display: flex 
-      font-size: var(--font-xxxl)
-      line-height: 48px
+      font-size: var(--font-xxxxl)
+      line-height: 2.4rem
       letter-spacing: 0.52rem
       overflow: wrap
-      padding: 12px 0
+      padding: 8px 36px
       hyphens: auto /* Automatically hyphenates words based on language rules */
       -webkit-hyphens: auto
       -moz-hyphens: auto
@@ -239,7 +243,7 @@
   .subcategory
     filter: grayscale(0.0)
     opacity: 1.0 
-    padding: 48px 0
+    padding: 72px 0
   
   .subcategory-container
     margin: 48px 0 0
@@ -254,8 +258,8 @@
     text-align: center
     h2
       line-height: 1.4em
-      font-size: var(--font-xl)
-      padding: 0 24px
+      font-size: var(--font-xxl)
+      padding: 0 48px
 
   .subcategory-excerpt
     text-align: center
@@ -301,57 +305,80 @@
     a
       font-size: var(--font-l)
   .category-title > h1
-    font-size: var(--font-xxl)
+    font-size: var(--font-6xl)
   #navbar,
   .site-main,
   .footer
     padding: 0 7.5vw
+  .subcategory-title
+    h2
+      font-size: var(--font-xxxl)
 
 @media screen and (min-width: 756px) and (max-width: 1079px)
   a>.blue>:first-child
     padding: 0 12px 0 0
+
   .category-links
     text-indent: 0
     text-align: center
+    line-height: 1.4rem
     a
       display: block
       padding: 8px 0
     .category-links-slash
       display: none
+
   .category-title
     display: flex
     flex-direction: column
     text-align: center 
+    h1
+      font-size: var(--font-6xl)
     i
       padding: 12px 0
+
   .category-subtitle
     text-align: center 
+
   .hide-mobile
     display: none
+
   .navbar-logo
     h1
       font-size: var(--font-l)
+
   .project-links
     text-align: center
+
   .project-overview
     p
       text-align: justify
+
   .project-title
     justify-content: center
+
   .project-subtitle,
   .project-tags
     text-align: center
+
   #navbar,
   .site-main,
   .footer
     padding: 0 7.5vw
 
-@media screen and (min-width: 1080px) and (max-width: 1439px)
+  .subcategory-title
+    display: flex
+    align-items: center
+    justify-content: center
+    h2
+      font-size: var(--font-5xl)
+
+@media screen and (min-width: 1080px) and (max-width: 1279px)
   a>.blue>:first-child
     padding: 0 12px 0 0
   .category-title
     h1
-      font-size: var(--font-xl)
+      font-size: var(--font-6xl)
   .navbar-logo
     h1
       font-size: var(--font-l)
@@ -360,7 +387,11 @@
   .footer
     padding: 0 12.5vw
 
-@media screen and (min-width: 1440px) and (max-width: 1979px)
+  .subcategory-title
+    h2
+      font-size: var(--font-5xl)
+
+@media screen and (min-width: 1280px) and (max-width: 1979px)
   a>.blue>:first-child
     padding: 0 12px 0 0
   .category-title
@@ -384,6 +415,10 @@
   .footer
     padding: 0 15vw
 
+  .subcategory-title
+    h2
+      font-size: var(--font-xxxl)
+
 @media (min-width: 1980px)
   a>.blue>:first-child
     padding: 0 12px 0 0
@@ -392,7 +427,7 @@
     width: 100% !important
   .category-title
     h1
-      font-size: var(--font-xxxl)
+      font-size: var(--font-5xl)
   .intro
     text-align: justify
   .navbar-logo
@@ -403,4 +438,8 @@
   #navbar,
   .site-main,
   .footer
-    padding: 0 15vw
+    padding: 0 20vw
+
+  .subcategory-title
+    h2
+      font-size: var(--font-xxxl)
