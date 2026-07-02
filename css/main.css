@@ -483,7 +483,7 @@ p {
   color: var(--color-grey-light);
   cursor: pointer;
   font-family: "JetBrains Mono", sans-serif;
-  font-size: var(--font-xxl);
+  font-size: var(--font-xxxl);
   word-break: break-word;
 }
 .navbar-logo h1:after {
@@ -880,18 +880,19 @@ p {
 }
 
 .subcategory {
+  filter: grayscale(0.8);
   opacity: 0.6;
   padding: 48px 0;
-  transition: 1.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .subcategory:hover {
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
-  transition: 1.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .subcategory:hover h2 {
-  transition: 1.2s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .subcategory:hover p {
   color: var(--color-grey-light);

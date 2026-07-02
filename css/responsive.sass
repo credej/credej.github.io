@@ -122,9 +122,10 @@
   
   .intro-text
     p
-      font-size: var(--font-s) !important
+      font-size: var(--font-l) 
+      line-height: 2rem
     a
-      font-size: var(--font-m) !important
+      font-size: var(--font-xl) 
   
   #menu-expanded
     height: 100vh
@@ -160,7 +161,7 @@
   
   .navbar-logo
     h1
-      font-size: var(--font-m) 
+      font-size: var(--font-l) !important
       letter-spacing: -0.05rem
 
   .page-header  
@@ -394,30 +395,39 @@
 @media screen and (min-width: 1280px) and (max-width: 1979px)
   a>.blue>:first-child
     padding: 0 12px 0 0
+  .category-links
+    padding: 0 0 72px
   .category-title
     h1
+      font-size: var(--font-5xl)
+    i
       font-size: var(--font-xxxl)
   .intro
     text-align: justify
     a
-      font-size: var(--font-l) !important
+      font-size: var(--font-xl)
+    p
+      font-size: var(--font-l)
   .footer-main
     display: flex
     justify-content: center
     align-items: center
   .navbar-logo
     h1
-      font-size: var(--font-l)
+      font-size: var(--font-xl)
   .page-header
     display: flex
   #navbar,
   .site-main,
   .footer
     padding: 0 15vw
-
+  .subcategory
+    padding: 0
+    i
+      font-size: var(--font-xxxl)
   .subcategory-title
     h2
-      font-size: var(--font-xxxl)
+      font-size: var(--font-xxl)
 
 @media (min-width: 1980px)
   a>.blue>:first-child
@@ -425,9 +435,13 @@
   #footer,
   .site-main
     width: 100% !important
+  .category-links
+    padding: 8px 0 48px
   .category-title
     h1
       font-size: var(--font-5xl)
+    i
+      font-size: var(--font-xxxl)
   .intro
     text-align: justify
   .navbar-logo

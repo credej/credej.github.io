@@ -130,10 +130,11 @@
     padding: 0 8px;
   }
   .intro-text p {
-    font-size: var(--font-s) !important;
+    font-size: var(--font-l);
+    line-height: 2rem;
   }
   .intro-text a {
-    font-size: var(--font-m) !important;
+    font-size: var(--font-xl);
   }
   #menu-expanded {
     height: 100vh;
@@ -167,7 +168,7 @@
     padding: 0;
   }
   .navbar-logo h1 {
-    font-size: var(--font-m);
+    font-size: var(--font-l) !important;
     letter-spacing: -0.05rem;
   }
   .page-header h1 {
@@ -420,14 +421,23 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .category-links {
+    padding: 0 0 72px;
+  }
   .category-title h1 {
+    font-size: var(--font-5xl);
+  }
+  .category-title i {
     font-size: var(--font-xxxl);
   }
   .intro {
     text-align: justify;
   }
   .intro a {
-    font-size: var(--font-l) !important;
+    font-size: var(--font-xl);
+  }
+  .intro p {
+    font-size: var(--font-l);
   }
   .footer-main {
     display: flex;
@@ -435,7 +445,7 @@
     align-items: center;
   }
   .navbar-logo h1 {
-    font-size: var(--font-l);
+    font-size: var(--font-xl);
   }
   .page-header {
     display: flex;
@@ -445,8 +455,14 @@
   .footer {
     padding: 0 15vw;
   }
-  .subcategory-title h2 {
+  .subcategory {
+    padding: 0;
+  }
+  .subcategory i {
     font-size: var(--font-xxxl);
+  }
+  .subcategory-title h2 {
+    font-size: var(--font-xxl);
   }
 }
 @media (min-width: 1980px) {
@@ -457,8 +473,14 @@
   .site-main {
     width: 100% !important;
   }
+  .category-links {
+    padding: 8px 0 48px;
+  }
   .category-title h1 {
     font-size: var(--font-5xl);
+  }
+  .category-title i {
+    font-size: var(--font-xxxl);
   }
   .intro {
     text-align: justify;
