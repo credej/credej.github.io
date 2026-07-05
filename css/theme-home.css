@@ -2,8 +2,14 @@
 body {
   background-color: var(--color-blue-dodger);
 }
+body .neon-blue {
+  animation: none;
+}
 
 /* HOME PAGE - DARK THEME */
 body.dark-mode {
   background-color: #101010;
+}
+body.dark-mode .neon-blue {
+  animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }

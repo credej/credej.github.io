@@ -485,6 +485,12 @@
   .intro {
     text-align: justify;
   }
+  .intro p {
+    font-size: var(--font-xl);
+  }
+  .intro-category-icons i {
+    font-size: var(--font-xxxl);
+  }
   .navbar-logo h1 {
     font-size: var(--font-xl);
   }
