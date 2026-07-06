@@ -3114,6 +3114,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/otherstuff\/fooddeals\/img\/bg-money.jpg" : {
+      "ft" : 16384,
+      "iS" : 86595,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/otherstuff\/fooddeals\/img\/bg-money.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/otherstuff\/fooddeals\/img\/fooddeals-logo.jpg" : {
       "ft" : 16384,
       "iS" : 2347,
