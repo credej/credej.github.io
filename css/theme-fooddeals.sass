@@ -1,7 +1,7 @@
 /* THEME - LIGHT */
 
 body
-  // background-color: #caffbf
+  background-color: var(--color-green)
   height: 100vh
   background-size: cover
   background-position: center
@@ -9,66 +9,14 @@ body
   font-size: var(--font-size-normal)
   background-image: url('img/bg-money.jpg')
 
-.header-simple-title
-  display: flex
-  flex-direction: column
-  h1
-    color: var(--color-green)
-    font-size: var(--font-8xl)
-    letter-spacing: 0
-    text-shadow: var(--text-shadow-3)
-  img
-    padding: 8px 0
-  span
-    font-size: var(--font-7xl)
-    padding: 12px 0
-
-.header-simple-title
-  color: var(--color-grey-medium)
-  padding: 0 24px
-  h1
-    color: #22313F
-    font-family: 'Array', sans-serif
-    font-family: 'Satoshi', sans-serif
-    font-family: 'Clash Display', sans-serif
-    font-family: 'Telma', cursive
-    font-family: 'Author', sans-serif
-    font-family: 'Alpino', sans-serif
-    font-family: 'Comico', cursive
-    font-family: 'Playwrite NZ', cursive
-    font-optical-sizing: auto
-    font-family: "Helvetica Neue", sans-serif
-    font-size: 11.4rem
-    line-height: 3rem
-    text-align: center
-    text-transform: uppercase
-    letter-spacing: 0.03em
-    text-shadow: -0.08em 0 0 #F22613,  0.08em 0 0 #00FFFF
-  span
-    color: var(--color-green)
-    font-size: var(--font-9xl)
-
-.header-simple-excerpt
-  p
-    color: var(--color-green)
-    font-size: var(--font-xl)
-    font-family: 'Playwrite NZ', cursive
-    text-shadow: var(--text-shadow-3)
-
-.navbar-menu
-  i
-    color: var(--color-grey-medium)
-    &:hover
-      color: var(--color-grey-dark)
-
 .deal-container
-  background-color: #ececec
   background-repeat: no-repeat
   background-position: center
   background-size: cover
   background-clip: padding-box
+  background: #A3E2C3
+  border: 4px dashed var(--color-grey-medium) !important
   break-inside: avoid
-  border: 2px dashed var(--color-green)
   border-radius: 24px
   min-height: 400px
   margin: 48px 0 0
@@ -78,15 +26,26 @@ body
     font-size: var(--font-m)
     margin: 8px 0
   &:hover
-    background-color: var(--color-green)
-    color: white
+    border: 4px dashed #fff !important
     cursor: pointer !important
     opacity: 1.0
   span
     color: var(--color-grey-light)
 
+.deal-container-ad
+  background-color: var(--color-green)
+  background-color: red
+  color: white
+  border: 4px dashed #fff !important
+  cursor: pointer !important
+  opacity: 1.0
+  p
+    text-shadow: var(--text-shadow-3)
+  .deal-title
+    color: white
+
 .deal-title
-  color: var(--color-green)
+  color: var(--color-grey-dark)
   font-size: var(--font-xxxxl) !important
   font-weight: 900
   font-family: "Cutive Mono", monospace
@@ -102,8 +61,53 @@ body
 .deal-price
   font-size: var(--font-xxl) !important
 
-.deal-container-ad
-  border: 5px dashed var(--color-green)
-
 .deal-desc
   font-style: italic
+
+.header-simple-title
+  color: var(--color-grey-medium)
+  display: flex
+  flex-direction: column
+  padding: 0 24px
+  h1
+    font-size: var(--font-8xl)
+    color: #fff !important
+    font-family: 'Clash Display', sans-serif
+    font-family: 'Comico', cursive
+    font-family: 'Telma', cursive
+    font-size: var(--font-9xl)
+    letter-spacing: 0
+    text-shadow: var(--text-shadow-4)
+    text-transform: lowercase
+  img
+    padding: 8px 0
+  span
+    color: #E79090
+    font-size: var(--font-9xl)
+    padding: 12px 0
+
+.header-simple-excerpt
+  padding: 0
+  p
+    color: var(--color-grey-medium)
+    font-size: var(--font-xl)
+    font-family: 'Playwrite NZ', cursive
+    text-shadow: var(--text-shadow-3)
+
+.navbar-menu
+  i
+    color: var(--color-grey-medium)
+    &:hover
+      color: var(--color-grey-dark)
+
+.site-main
+  margin: 48px 0
+
+
+/* BOOKMARKS - DARK */
+
+body.dark-mode 
+  background-color: var(--color-blue-storm)
+  .deal-container
+    border: 4px dashed var(--color-green) 
+

@@ -316,6 +316,31 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/test.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/test-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/test.sass" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 2,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/test.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/theme-arch.css" : {
       "aP" : 1,
       "bl" : 0,

@@ -82,7 +82,10 @@
       font-size: var(--font-s)
     a
       font-size: var(--font-m)
-  
+
+  .footer  
+    padding: 0 
+
   .footer-column
     display: flex
     align-items: center
@@ -155,10 +158,6 @@
   #navbar
     padding: 0 7.5vw
   
-  .site-main,
-  .footer  
-    padding: 0 
-  
   .navbar-logo
     h1
       font-size: var(--font-l) !important
@@ -170,14 +169,14 @@
     h5
       text-align: center
 
+  .page-header-image
+    flex-basis: 100%
+
   .page-header-title
     justify-content: center
     h1 
       font-size: var(--font-xl)
       letter-spacing: 0.3rem
-
-  .page-header-image
-    flex-basis: 100%
 
   .page-title
     font-size: var(--font-l)
@@ -192,18 +191,11 @@
     h5
       font-size: var(--font-s)
 
-  .project-title
-    justify-content: center
-    flex-direction: column
-    margin: 12px 0
-    i
-      margin: 0 0 12px
-    h1
-      font-size: var(--font-xl)
-      letter-spacing: 0.5rem
-      line-height: 2rem
-      &:after
-        display: none
+  .project-links 
+    padding: 24px 0
+    a
+      font-size: var(--font-l)
+      text-shadow: var(--text-shadow-1)
 
   .project-overview  
     p
@@ -213,17 +205,8 @@
       line-height: 1.6rem
       text-align: justify
 
-  .project-links 
-    padding: 24px 0
-    a
-      font-size: var(--font-m)
-      text-shadow: var(--text-shadow-1)
-
   .project-section
-    padding: 48px 24px 72px
-
-  .project-section-title
-    text-align: center
+    padding: 48px
 
   .project-section-desc
     p
@@ -231,15 +214,35 @@
       line-height: 1.4rem
       text-align: center
 
-  .project-subtitle
-    font-size: var(--font-s)
+  .project-section-title
     text-align: center
+
+  .project-subtitle
+    font-size: var(--font-xs)
+    text-align: center
+
+  .project-tags
+    font-size: var(--font-xxs)
+
+  .project-title
+    justify-content: center
+    flex-direction: column
+    margin: 12px 0
+    i
+      margin: 0 0 12px
+    h1
+      font-size: var(--font-xxxxl)
+      letter-spacing: 0.5rem
+      line-height: 2rem
+      &:after
+        display: none
 
   .section-header
     text-align: center
 
   .site-main
     margin: 108px 0
+    padding: 0 
 
   .subcategory
     filter: grayscale(0.0)
@@ -274,25 +277,32 @@
 @media screen and (min-width: 100px) and (max-width: 439px)
   #navbar
     padding: 0 7.5vw !important
+
   .bookmark-glossary
     margin: 36px 0
     a 
       padding: 6px 12px
+
   .category-links
     line-height: 1.8rem
     text-align: center
+
   .category-title-container
     display: flex
     align-items: space-between
+
   .category-subtitle
     p
       line-height: 1.5rem
       text-align: center
+
   // .img-gallery-small
   //   display: none
+
   .img-gallery-full
     img
-      margin: 48px 0 0  
+      margin: 48px 0 0
+
   .navbar-logo
     h1
       font-size: var(--font-m) 
@@ -302,15 +312,29 @@
 @media screen and (min-width: 540px) and (max-width: 755px)
   .badges
     margin: 144px 0 !important  
+
   .category-links
     a
       font-size: var(--font-l)
-  .category-title > h1
+
+  .category-title h1
     font-size: var(--font-6xl)
+
   #navbar,
   .site-main,
   .footer
     padding: 0 7.5vw
+
+  .project-tags
+    font-size: var(--font-xxxs)
+
+  .project-links
+    a
+      font-size: var(--font-xl)
+
+  .project-title h1
+    font-size: var(--font-5xl)
+
   .subcategory-title
     h2
       font-size: var(--font-xxxl)
@@ -334,7 +358,7 @@
     flex-direction: column
     text-align: center 
     h1
-      font-size: var(--font-6xl)
+      font-size: var(--font-9xl)
     i
       padding: 12px 0
 
@@ -350,12 +374,21 @@
 
   .project-links
     text-align: center
+    a
+      font-size: var(--font-xl)
 
   .project-overview
     p
       text-align: justify
 
+  .project-section
+    padding: 48px
+
+  .project-section-title h3
+    font-size: var(--font-xxl)
+
   .project-title
+    font-size: var(--font-8xl)
     justify-content: center
 
   .project-subtitle,
@@ -377,83 +410,150 @@
 @media screen and (min-width: 1080px) and (max-width: 1279px)
   a>.blue>:first-child
     padding: 0 12px 0 0
+
   .category-title
     h1
       font-size: var(--font-6xl)
+
   .navbar-logo
     h1
       font-size: var(--font-l)
+
   #navbar,
   .site-main,
   .footer
     padding: 0 12.5vw
+
+  .project-links a
+    font-size: var(--font-xl)
+
+  .project-section
+    padding: 48px
+
+  .project-section-title h3
+    font-size: var(--font-xxl)
+
+  .project-section-subtitle
+    font-size: var(--font-l)
+
+  .project-title h1
+    font-size: var(--font-5xl)
 
   .subcategory-title
     h2
       font-size: var(--font-5xl)
 
 @media screen and (min-width: 1280px) and (max-width: 1979px)
+
   a>.blue>:first-child
     padding: 0 12px 0 0
+
   .category-links
     padding: 0 0 72px
+
   .category-title
     h1
       font-size: var(--font-5xl)
     i
       font-size: var(--font-xxxl)
+
   .intro
     text-align: justify
     a
       font-size: var(--font-xl)
     p
       font-size: var(--font-l)
+
   .footer-main
     display: flex
     justify-content: center
     align-items: center
+
   .navbar-logo
     h1
       font-size: var(--font-xl)
+
   .page-header
     display: flex
+
   #navbar,
   .site-main,
   .footer
     padding: 0 15vw
+
+  .project-links a
+    font-size: var(--font-xl)
+
+  .project-section
+    padding: 72px
+
+  .project-section-title h3
+    font-size: var(--font-xxxl)
+
+  .project-title h1
+    font-size: var(--font-5xl)
+
   .subcategory
     padding: 0
     i
       font-size: var(--font-xxxl)
+
   .subcategory-title
     h2
       font-size: var(--font-xxl)
 
 @media (min-width: 1980px)
+
   a>.blue>:first-child
     padding: 0 12px 0 0
+
   #footer,
   .site-main
     width: 100% !important
+
   .category-links
     padding: 8px 0 48px
+
   .category-title
     h1
       font-size: var(--font-5xl)
     i
       font-size: var(--font-xxxl)
+
   .intro
     text-align: justify
     p
       font-size: var(--font-xl)
+
   .intro-category-icons
     i
       font-size: var(--font-xxxl)
+
   .navbar-logo
     h1
       font-size: var(--font-xl)
+
   .page-header
     display: flex
+
+  .project-links
+    margin: 24px 0 0
+    a
+      font-size: var(--font-xl) 
+
+  .project-overview p,
+  .project-section-desc p
+    font-size: var(--font-l)
+
+  .project-section
+    padding: 72px
+
+  .project-section-title h3
+    font-size: var(--font-xxxxl)
+
+  .project-title h1
+    font-size: var(--font-7xl)
+
   #navbar,
   .site-main,
   .footer

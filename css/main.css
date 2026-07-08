@@ -626,8 +626,9 @@ p {
   margin: 0 24px 0 0;
 }
 
+.project-header,
 .page-section {
-  margin: 48px 0;
+  margin: 48px;
 }
 
 .page-title {
@@ -652,7 +653,6 @@ p {
 .project-header h1 {
   color: white;
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xxl);
 }
 .project-header h1:after {
   padding: 24px;
@@ -678,7 +678,6 @@ p {
 
 .project-section {
   font-family: "Yellowtail", monospace;
-  padding: 72px 72px 96px;
 }
 .project-section p {
   color: var(--color-white);
@@ -689,10 +688,6 @@ p {
 }
 .project-section a:hover {
   animation: blinker 1s linear infinite;
-}
-.project-section h1 {
-  text-wrap: wrap;
-  word-break: break-all;
 }
 .project-section .img {
   display: flex;
@@ -759,7 +754,6 @@ p {
   margin: 0 24px 0 0;
 }
 .project-title h1 {
-  font-size: var(--font-xxl);
   letter-spacing: 0.71rem;
 }
 
@@ -883,13 +877,13 @@ p {
   filter: grayscale(0.8);
   opacity: 0.6;
   padding: 48px 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.21s ease-in-out;
 }
 .subcategory:hover {
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
-  transition: 0.4s ease-in-out;
+  transition: 0.21s ease-in-out;
 }
 .subcategory:hover h2 {
   transition: 0.1s ease-in-out;
