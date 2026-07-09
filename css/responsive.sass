@@ -388,7 +388,7 @@
     font-size: var(--font-xxl)
 
   .project-title
-    font-size: var(--font-8xl)
+    font-size: var(--font-6xl)
     justify-content: center
 
   .project-subtitle,
@@ -481,8 +481,10 @@
   .footer
     padding: 0 15vw
 
-  .project-links a
-    font-size: var(--font-xl)
+  .project-links 
+    margin: 24px 0 0
+    a
+      font-size: var(--font-xl)
 
   .project-section
     padding: 72px
@@ -529,6 +531,10 @@
     i
       font-size: var(--font-xxxl)
 
+  .menu-category-title
+    h2
+      font-size: var(--font-xxxl) !important
+
   .navbar-logo
     h1
       font-size: var(--font-xl)
@@ -543,7 +549,7 @@
 
   .project-overview p,
   .project-section-desc p
-    font-size: var(--font-l)
+    font-size: var(--font-xl)
 
   .project-section
     padding: 72px
@@ -555,10 +561,23 @@
     font-size: var(--font-7xl)
 
   #navbar,
-  .site-main,
-  .footer
+  .site-main
     padding: 0 20vw
+
+  .subcategory-excerpt
+    p
+      font-size: var(--font-xl)
+      line-height: 2rem
 
   .subcategory-title
     h2
       font-size: var(--font-xxxl)
+
+
+
+@media (min-width: 2450px)
+
+  #navbar,
+  .site-main,
+  .footer
+    padding: 0 25vw

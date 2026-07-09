@@ -27,9 +27,6 @@ body .badge img {
 body .badge img:hover {
   transform: scale(1.1);
 }
-body .bg-cyber {
-  background-color: #7CCAC2;
-}
 body .effect-glitch {
   color: var(--color-blue);
 }
@@ -63,9 +60,6 @@ body .effect-glitch {
 body.dark-mode {
   background-color: var(--color-blue-storm);
   color: var(--color-white);
-}
-body.dark-mode .bg-cyber {
-  background-color: #030D19;
 }
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-medium);

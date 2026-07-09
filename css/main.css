@@ -251,7 +251,7 @@ p {
   padding: 48px;
 }
 .footer-text p {
-  color: var(--color-black);
+  color: var(--color-grey-dark);
   font-family: "Array", sans-serif;
   font-size: 4rem;
 }
@@ -626,11 +626,6 @@ p {
   margin: 0 24px 0 0;
 }
 
-.project-header,
-.page-section {
-  margin: 48px;
-}
-
 .page-title {
   display: flex;
   flex-direction: row;
@@ -703,7 +698,7 @@ p {
   margin: 36px 0 0;
 }
 .project-section-desc p {
-  font-family: "Courier Prime", monospace;
+  font-family: "JetBrains Mono", sans-serif;
   text-indent: 36px;
 }
 

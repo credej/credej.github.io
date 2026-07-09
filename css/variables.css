@@ -55,6 +55,7 @@
   --text-shadow-2: 2px 4px 3px rgba(0,0,0,0.3);
   --text-shadow-3: -1px 1px 1px rgba(0,0,0,0.45);
   --text-shadow-4: -2px 3px 3px rgba(0,0,0,0.45);
+  --text-shadow-5: -1px 5px 8px rgba(0,0,0,0.45);
 }
 
 /* BORDER & COLOR EFFECTS */
@@ -184,7 +185,7 @@
 }
 
 body.dark-mode .border-blue {
-  border-image: linear-gradient(to bottom, #101010 0%, #00CDFF 40%, #101010 100%) 1;
+  border-image: linear-gradient(to right, #101010 0%, #00CDFF 40%, #101010 100%) 1;
 }
 body.dark-mode .border-green {
   border-image: linear-gradient(to bottom, #101010 0%, #2FF8A0 40%, #101010 100%) 1;

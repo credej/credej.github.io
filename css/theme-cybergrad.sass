@@ -2,6 +2,7 @@
 
 body
   background-color: var(--color-turqoise-medium)
+
   .badge
     display: flex
     flex-direction: column
@@ -22,26 +23,52 @@ body
       transition: 0.3s
       &:hover
         transform: scale(1.1)
-  .bg-cyber
-    background-color: #7CCAC2
+
+  .img-gallery
+    margin: 48px 0 0
+
   .img-fullsize
     figcaption
       color: var(--color-grey-dark)
+
+  .navbar-logo
+    h1
+      color: #ececec
+      &:after
+        background-color: #ececec
+
+  .page-section
+    padding: 24px 0
+
   .project-links
     a
-      color: var(--color-white)
-      text-shadow: var(--text-shadow-2)
+      color: #fff
+      text-shadow: var(--text-shadow-3)
+
   .project-overview p
-    color: var(--color-grey-dark)
-  .project-section-desc,
+    color: var(--color-grey-medium)
+
+  .project-section
+    background-color: #AEF4E9
+
   .project-section p
-    color: var(--color-grey-dark)
+    color: var(--color-grey-medium)
+
   .project-section-title
     h3
-      color: var(--color-white)
+      color: var(--color-grey-medium)
+      text-shadow: var(--text-shadow-3)
+
   .project-subtitle
     color: var(--color-grey-medium)
+
+  .project-tag
+    background-color: #AEF4E9
+    color: var(--color-grey-medium)
+
   .project-title
+    h1
+      text-shadow: var(--text-shadow-1)
     i
       color: var(--color-white)
 
@@ -50,28 +77,43 @@ body
 /* DARK */
 
 body.dark-mode
-  background-color: var(--color-cyber-bg) !important
-  .bg-cyber
-    background-color: #030D19
+  background-color: #040D19
+
   .img-fullsize
     figcaption
       color: var(--color-grey-medium)
+
+  .project-section
+    background-color: #071426
+
   .project-overview p
     color: var(--color-grey-light)
+
   .project-links
     a
       color: var(--color-turqoise-medium)
+      &:hover
+        color: #1AFFDB
+
+  .project-section
+    ackground-color: var(--color-cyber-bg) !important
+
   .project-section-desc
+    p
+      color: var(--color-grey-medium)
     a
-      color: var(--color-blue)
-  .project-section-desc,
-  .project-section p
+      color: var(--color-grey-light)
+
+  .project-subtitle h2
     color: #BFE4E2
+
   .project-section-title
     h3
       color: var(--color-white)
+
   .project-subtitle
     color: var(--color-grey-light)
+
   .project-title
     i
       color: var(--color-turqoise-medium)

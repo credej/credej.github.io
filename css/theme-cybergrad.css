@@ -27,28 +27,47 @@ body .badge img {
 body .badge img:hover {
   transform: scale(1.1);
 }
-body .bg-cyber {
-  background-color: #7CCAC2;
+body .img-gallery {
+  margin: 48px 0 0;
 }
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
+body .navbar-logo h1 {
+  color: #ececec;
+}
+body .navbar-logo h1:after {
+  background-color: #ececec;
+}
+body .page-section {
+  padding: 24px 0;
+}
 body .project-links a {
-  color: var(--color-white);
-  text-shadow: var(--text-shadow-2);
+  color: #fff;
+  text-shadow: var(--text-shadow-3);
 }
 body .project-overview p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-medium);
 }
-body .project-section-desc,
+body .project-section {
+  background-color: #AEF4E9;
+}
 body .project-section p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-medium);
 }
 body .project-section-title h3 {
-  color: var(--color-white);
+  color: var(--color-grey-medium);
+  text-shadow: var(--text-shadow-3);
 }
 body .project-subtitle {
   color: var(--color-grey-medium);
+}
+body .project-tag {
+  background-color: #AEF4E9;
+  color: var(--color-grey-medium);
+}
+body .project-title h1 {
+  text-shadow: var(--text-shadow-1);
 }
 body .project-title i {
   color: var(--color-white);
@@ -56,13 +75,13 @@ body .project-title i {
 
 /* DARK */
 body.dark-mode {
-  background-color: var(--color-cyber-bg) !important;
-}
-body.dark-mode .bg-cyber {
-  background-color: #030D19;
+  background-color: #040D19;
 }
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-medium);
+}
+body.dark-mode .project-section {
+  background-color: #071426;
 }
 body.dark-mode .project-overview p {
   color: var(--color-grey-light);
@@ -70,11 +89,19 @@ body.dark-mode .project-overview p {
 body.dark-mode .project-links a {
   color: var(--color-turqoise-medium);
 }
-body.dark-mode .project-section-desc a {
-  color: var(--color-blue);
+body.dark-mode .project-links a:hover {
+  color: #1AFFDB;
 }
-body.dark-mode .project-section-desc,
-body.dark-mode .project-section p {
+body.dark-mode .project-section {
+  ackground-color: var(--color-cyber-bg) !important;
+}
+body.dark-mode .project-section-desc p {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .project-section-desc a {
+  color: var(--color-grey-light);
+}
+body.dark-mode .project-subtitle h2 {
   color: #BFE4E2;
 }
 body.dark-mode .project-section-title h3 {

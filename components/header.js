@@ -89,7 +89,11 @@ class Header extends HTMLElement {
                   <div class="menu-category">
                      <div class="menu-category-title">
                         <i class="iconoir-telegram yellow"></i>
-                        <h2>Travel <em>(Coming soon!)</em></h2>
+                        <h2>Good Eats</h2>
+                     </div>
+                     <div class="menu-list">
+                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Recipe Book</a>
+                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a>
                      </div>
                   </div>
                </div>
@@ -102,8 +106,6 @@ class Header extends HTMLElement {
                      <div class="menu-list">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
-                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Good Eats</a>
-                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a>
                      </div>
                   </div>
                </div>
