@@ -137,6 +137,11 @@
     padding: 24px 0
     padding-bottom: 150px
   
+  #navbar,
+  .footer,
+  .project-header
+    padding: 0 7.5vw !important
+
   .menu-expanded
     box-sizing: border-box
     flex-direction: column
@@ -154,8 +159,6 @@
   
   #navbar
     overflow: scroll
-    
-  #navbar
     padding: 0 7.5vw
   
   .navbar-logo
@@ -192,7 +195,8 @@
       font-size: var(--font-s)
 
   .project-links 
-    padding: 24px 0
+    margin: 0 0 72px
+    padding: 12px 0
     a
       font-size: var(--font-l)
       text-shadow: var(--text-shadow-1)
@@ -325,12 +329,13 @@
   .footer
     padding: 0 7.5vw
 
-  .project-tags
-    font-size: var(--font-xxxs)
-
-  .project-links
+  .project-links 
+    margin: 0 0 72px
     a
       font-size: var(--font-xl)
+
+  .project-tags
+    font-size: var(--font-xxxs)
 
   .project-title h1
     font-size: var(--font-5xl)
@@ -373,6 +378,7 @@
       font-size: var(--font-l)
 
   .project-links
+    margin: 12px 0 72px
     text-align: center
     a
       font-size: var(--font-xl)
@@ -424,8 +430,10 @@
   .footer
     padding: 0 12.5vw
 
-  .project-links a
-    font-size: var(--font-xl)
+  .project-links 
+    margin: 24px 0 96px
+    a
+      font-size: var(--font-xl)
 
   .project-section
     padding: 48px
@@ -482,7 +490,7 @@
     padding: 0 15vw
 
   .project-links 
-    margin: 24px 0 0
+    margin: 24px 0 96px
     a
       font-size: var(--font-xl)
 
@@ -492,8 +500,11 @@
   .project-section-title h3
     font-size: var(--font-xxxl)
 
-  .project-title h1
-    font-size: var(--font-5xl)
+  .project-title 
+    h1
+      font-size: var(--font-5xl)
+    i
+      font-size: var(--font-xxxl)
 
   .subcategory
     padding: 0
@@ -543,7 +554,7 @@
     display: flex
 
   .project-links
-    margin: 24px 0 0
+    margin: 24px 0 144px
     a
       font-size: var(--font-xl) 
 
@@ -557,8 +568,11 @@
   .project-section-title h3
     font-size: var(--font-xxxxl)
 
-  .project-title h1
-    font-size: var(--font-7xl)
+  .project-title
+    h1
+      font-size: var(--font-7xl)
+    i
+      font-size: var(--font-xxxl)
 
   #navbar,
   .site-main
@@ -573,11 +587,14 @@
     h2
       font-size: var(--font-xxxl)
 
-
-
 @media (min-width: 2450px)
 
   #navbar,
   .site-main,
   .footer
     padding: 0 25vw
+
+  .project-title
+    i
+      font-size: var(--font-xxxl)
+

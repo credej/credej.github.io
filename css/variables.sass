@@ -82,7 +82,7 @@
 .border-white
   border-style: solid
   border-left: none 
-  border-width: 0 1px 2px 2px 
+  border-width: 0 0 0 20px
 
 .turquoise
   color: #5EEAD4
@@ -90,7 +90,8 @@
 .blue, .blue a, .blue i
   color: #00CDFF
 .border-blue
-  border-image: linear-gradient(to bottom, #00CDFF 0%, #1862c9 100%) 1
+  border-left: 2px solid pink !important
+  border-right: 2px solid pink !important
 
 .green, .green a, .green i
   color: #2FF8A0 
@@ -150,7 +151,7 @@
 
 body.dark-mode 
   .border-blue
-    border-image: linear-gradient(to right, #101010 0%, #00CDFF 40%, #101010 100%) 1
+    border-image: linear-gradient(to bottom, #101010 0%, #00CDFF 40%, #101010 100%) 1
   .border-green
     border-image: linear-gradient(to bottom, #101010 0%, #2FF8A0 40%, #101010 100%) 1
   .border-red

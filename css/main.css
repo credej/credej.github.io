@@ -493,6 +493,7 @@ p {
   display: inline-block;
   height: 1.3em;
   margin-left: 4px;
+  opacity: 0.25;
   vertical-align: text-bottom;
   width: 0.67em;
 }
@@ -718,6 +719,7 @@ p {
 }
 
 .project-tags {
+  cursor: default;
   display: block;
   font-size: 1em;
 }
@@ -745,7 +747,7 @@ p {
   align-items: center;
 }
 .project-title i {
-  font-size: var(--font-xl);
+  font-size: var(--font-xxl);
   margin: 0 24px 0 0;
 }
 .project-title h1 {

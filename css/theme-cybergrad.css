@@ -93,7 +93,7 @@ body.dark-mode .project-links a:hover {
   color: #1AFFDB;
 }
 body.dark-mode .project-section {
-  ackground-color: var(--color-cyber-bg) !important;
+  background-color: var(--color-cyber-bg) !important;
 }
 body.dark-mode .project-section-desc p {
   color: var(--color-grey-medium);

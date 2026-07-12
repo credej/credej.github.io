@@ -146,6 +146,11 @@
     padding: 24px 0;
     padding-bottom: 150px;
   }
+  #navbar,
+  .footer,
+  .project-header {
+    padding: 0 7.5vw !important;
+  }
   .menu-expanded {
     box-sizing: border-box;
     flex-direction: column;
@@ -162,8 +167,6 @@
   }
   #navbar {
     overflow: scroll;
-  }
-  #navbar {
     padding: 0 7.5vw;
   }
   .navbar-logo h1 {
@@ -203,7 +206,8 @@
     font-size: var(--font-s);
   }
   .project-links {
-    padding: 24px 0;
+    margin: 0 0 72px;
+    padding: 12px 0;
   }
   .project-links a {
     font-size: var(--font-l);
@@ -334,11 +338,14 @@
   .footer {
     padding: 0 7.5vw;
   }
-  .project-tags {
-    font-size: var(--font-xxxs);
+  .project-links {
+    margin: 0 0 72px;
   }
   .project-links a {
     font-size: var(--font-xl);
+  }
+  .project-tags {
+    font-size: var(--font-xxxs);
   }
   .project-title h1 {
     font-size: var(--font-5xl);
@@ -384,6 +391,7 @@
     font-size: var(--font-l);
   }
   .project-links {
+    margin: 12px 0 72px;
     text-align: center;
   }
   .project-links a {
@@ -434,6 +442,9 @@
   .site-main,
   .footer {
     padding: 0 12.5vw;
+  }
+  .project-links {
+    margin: 24px 0 96px;
   }
   .project-links a {
     font-size: var(--font-xl);
@@ -493,7 +504,7 @@
     padding: 0 15vw;
   }
   .project-links {
-    margin: 24px 0 0;
+    margin: 24px 0 96px;
   }
   .project-links a {
     font-size: var(--font-xl);
@@ -506,6 +517,9 @@
   }
   .project-title h1 {
     font-size: var(--font-5xl);
+  }
+  .project-title i {
+    font-size: var(--font-xxxl);
   }
   .subcategory {
     padding: 0;
@@ -553,7 +567,7 @@
     display: flex;
   }
   .project-links {
-    margin: 24px 0 0;
+    margin: 24px 0 144px;
   }
   .project-links a {
     font-size: var(--font-xl);
@@ -570,6 +584,9 @@
   }
   .project-title h1 {
     font-size: var(--font-7xl);
+  }
+  .project-title i {
+    font-size: var(--font-xxxl);
   }
   #navbar,
   .site-main {
@@ -588,5 +605,8 @@
   .site-main,
   .footer {
     padding: 0 25vw;
+  }
+  .project-title i {
+    font-size: var(--font-xxxl);
   }
 }
