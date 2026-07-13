@@ -1,7 +1,8 @@
-/* COLOR, TEXT & SHADOW VARIABLES */
+/* COLOR, TEXT & SHADOWS */
 
 :root
   --color-blue: #2B78E4
+  --color-blue-2: #5EEAD4
   --color-green: #6DFFB0
   --color-red: #D9044C
   --color-orange: #ea673e
@@ -65,73 +66,130 @@
   --text-shadow-4: -2px 3px 3px rgba(0,0,0,0.45)
   --text-shadow-5: -1px 5px 8px rgba(0,0,0,0.45)
 
-/* BORDER & COLOR EFFECTS */
 
-.br-top
-  border-radius: 24px 24px 0 0
 
-.br-top-left
-  border-radius: 0 16px 0 0
+
+
+
+
+
+
+
+/* COLOR EFFECTS */
+
+.blue, 
+.blue a, 
+.blue i
+  color: #5EEAD4
+
+.green, 
+.green a, 
+.green i
+  color: #2FF8A0 
+
+.red, 
+.red a, 
+.red i
+  color: #FF005E
+
+.orange, 
+.orange a, 
+.orange i
+  color: #FF6B63
+
+.yellow, 
+.yellow a, 
+.yellow i
+  color: #C8E501
+
+.purple, 
+.purple a, 
+.purple i
+  color: #7C83FD 
+
+.white, 
+.white a, 
+.white i
+  color: #ececec 
+
+.grey, 
+.grey a, 
+.grey i
+  color: #7A7A7A 
+
+.black, 
+.black a, 
+.black i
+  color: #000
+
+
+
+
+
+
+
+
+
+
+/* BORDER COLORS */
 
 .border-blue,
 .border-green,
 .border-red,
 .border-orange,
-.border-purple,
 .border-yellow,
-.border-white
-  border-style: solid
-  border-left: none 
-  border-width: 0 0 0 20px
+.border-purple,
+.border-white, 
+.border-grey,
+.border-black
+  border-width: 1px 
 
-.turquoise
-  color: #5EEAD4
-
-.blue, .blue a, .blue i
-  color: #00CDFF
 .border-blue
-  border-left: 2px solid pink !important
-  border-right: 2px solid pink !important
-
-.green, .green a, .green i
-  color: #2FF8A0 
+  border-image: linear-gradient(to bottom, #AEF4E9 5%, #265E55 40%, #AEF4E9 95%) 1
 .border-green
   border-image: linear-gradient(to bottom, #2FF8A0 0%, #1862c9 100%) 1
-
-.red, .red a, .red i
-  color: #FF005E
 .border-red
   border-image: linear-gradient(to bottom, #FF005E 0%, #1862c9 100%) 1
-
-.orange, .orange a, .orange i
-  color: #FF6B63
 .border-orange
   border-image: linear-gradient(to bottom, #FF6B63 0%, #1862c9 100%) 1
-
-.yellow, .yellow a, .yellow i
-  color: #C8E501
 .border-yellow
   border-image: linear-gradient(to bottom, #C8E501 0%, #1862c9 100%) 1
-
-.purple, .purple a, .purple i
-  color: #7C83FD 
 .border-purple
   border-image: linear-gradient(to bottom, #7C83FD 0%, #1862c9 100%) 1
-
-.white, .white a, .white i
-  color: #ececec 
 .border-white
   border-image: linear-gradient(to bottom, #ececec 0%, #1862c9 100%) 1
-
-.grey, .grey a, .grey i
-  color: #7A7A7A 
 .border-grey
   border-image: linear-gradient(to bottom, #C8C8C8 0%, #1862c9 100%) 1
-
-.black, .black a, .black i
-  color: #000
 .border-black
   border-image: linear-gradient(to right, #000 0%, #1862c9 100%) 1
+
+body.dark-mode 
+  .border-blue
+    border-image: linear-gradient(to bottom, #071426 5%, #5EEAD4 40%, #071426 95%) 1
+  .border-green
+    border-image: linear-gradient(to bottom, #101010 0%, #2FF8A0 40%, #101010 100%) 1
+  .border-red
+    border-image: linear-gradient(to bottom, #101010 0%, #FF005E 40%, #101010 100%) 1
+  .border-orange
+    border-image: linear-gradient(to bottom, #101010 0%, #FF6B63 40%, #101010 100%) 1
+  .border-yellow
+    border-image: linear-gradient(to bottom, #101010 0%, #C8E501 40%, #101010 100%) 1
+  .border-purple
+    border-image: linear-gradient(to bottom, #101010 0%, #7C83FD 40%, #101010 100%) 1
+  .border-white
+    border-image: linear-gradient(to bottom, #101010 0%, #ececec 40%, #101010 100%) 1
+  .border-grey
+    border-image: linear-gradient(to bottom, #101010 0%, #C8C8C8 40%, #101010 100%) 1
+  .border-black
+    border-image: linear-gradient(to bottom, #101010 0%, #000 40%, #101010 100%) 1
+
+
+
+
+
+
+
+/* GLASS BACKGROUND EFFECT */
 
 .bg-glass-blue
   background-color: hsl(from var(--color-red) h s 90%)  
@@ -150,25 +208,6 @@
   background: rgba(255, 255, 255, .147)
 
 body.dark-mode 
-  .border-blue
-    border-image: linear-gradient(to bottom, #101010 0%, #00CDFF 40%, #101010 100%) 1
-  .border-green
-    border-image: linear-gradient(to bottom, #101010 0%, #2FF8A0 40%, #101010 100%) 1
-  .border-red
-    border-image: linear-gradient(to bottom, #101010 0%, #FF005E 40%, #101010 100%) 1
-  .border-orange
-    border-image: linear-gradient(to bottom, #101010 0%, #FF6B63 40%, #101010 100%) 1
-  .border-yellow
-    border-image: linear-gradient(to bottom, #101010 0%, #C8E501 40%, #101010 100%) 1
-  .border-purple
-    border-image: linear-gradient(to bottom, #101010 0%, #7C83FD 40%, #101010 100%) 1
-  .border-white
-    border-image: linear-gradient(to bottom, #101010 0%, #ececec 40%, #101010 100%) 1
-  .border-grey
-    border-image: linear-gradient(to bottom, #101010 0%, #C8C8C8 40%, #101010 100%) 1
-  .border-black
-    border-image: linear-gradient(to bottom, #101010 0%, #000 40%, #101010 100%) 1
-
   .bg-glass-blue
     background: rgba(0, 225, 237, .045)
   .bg-glass-green
@@ -184,12 +223,30 @@ body.dark-mode
   .bg-glass-white
     background: rgba(255, 255, 255, .035)
 
+
+
+
+
+
+
+
+
+
 /* FONT EFFECTS */
 
 .redacted
   color: black
   font-family: "Redacted Script", system-ui
   font-family: "Redacted", system-ui
+
+
+
+
+
+
+
+
+
 
 /* NEON LIGHT EFFECT */
 
@@ -235,6 +292,15 @@ body.dark-mode
   html 
     scroll-behavior: auto
 
+
+
+
+
+
+
+
+
+
 /* GLITCH EFFECT */
 
 .effect-glitch
@@ -272,7 +338,14 @@ body.dark-mode
 
 
 
-/* BACKGROUND EFFECTS */
+
+
+
+
+
+
+
+/* RAINBOW BACKGROUND EFFECT */
 
 .bg-rainbow
   background: linear-gradient(124deg, #D9044C, #ea673e, #facc15, #17f9a6, #00E1FF, #7164FF, #ececec)

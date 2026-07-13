@@ -1,5 +1,6 @@
 /* LIGHT */
 body {
+  background-color: #265E55;
   background-color: var(--color-turqoise-medium);
 }
 body .badge {
