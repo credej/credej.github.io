@@ -29,7 +29,6 @@
       font-size: var(--font-m)
   
   .category
-    border: none !important
     margin: 0
     padding: 72px 7.5vw 24px
     p
@@ -60,7 +59,7 @@
     h1
       display: flex 
       font-size: var(--font-xxxxl)
-      line-height: 2.4rem
+      line-height: 3rem
       letter-spacing: 0.52rem
       overflow: wrap
       padding: 8px 36px
@@ -72,7 +71,7 @@
       &:after
         display: none
     i
-      font-size: var(--font-xxl)
+      font-size: var(--font-xxxl)
       padding: 0 0 12px 
   
   .contact
@@ -122,6 +121,8 @@
     justify-content: center
     span
       padding: 0 8px
+    i
+      font-size: var(--font-xxxl)
   
   .intro-text
     p
@@ -349,12 +350,13 @@
     padding: 0 12px 0 0
 
   .category-links
+    line-height: 2.4rem
     text-indent: 0
     text-align: center
-    line-height: 1.4rem
     a
+      font-size: var(--font-xxxl)
       display: block
-      padding: 8px 0
+      padding: 12px 0
     .category-links-slash
       display: none
 
@@ -365,13 +367,26 @@
     h1
       font-size: var(--font-9xl)
     i
+      font-size: var(--font-5xl)
       padding: 12px 0
 
   .category-subtitle
-    text-align: center 
+    p
+      font-size: var(--font-xxl)
+      line-height: 2rem
+      padding: 4px 0
+      text-align: center 
 
   .hide-mobile
     display: none
+
+  .intro-category-icons
+    i
+      font-size: var(--font-xxxxl)
+  .intro-text
+    p
+      font-size: var(--font-xxl)
+      line-height: 2.4rem
 
   .navbar-logo
     h1
@@ -387,8 +402,8 @@
     p
       text-align: justify
 
-  .project-section
-    padding: 48px
+  .category
+    max-width: 920px !important
 
   .project-section-title h3
     font-size: var(--font-xxl)
@@ -398,13 +413,19 @@
     justify-content: center
 
   .project-subtitle,
-  .project-tags
+  .project-tags,
+  .subcategory-excerpt
     text-align: center
 
   #navbar,
   .site-main,
   .footer
-    padding: 0 7.5vw
+    padding: 0 7.5vw !important
+
+  .subcategory-excerpt
+    p
+      font-size: var(--font-xxl)
+      line-height: 2.4rem
 
   .subcategory-title
     display: flex
@@ -436,7 +457,7 @@
       font-size: var(--font-xl)
 
   .project-section
-    padding: 48px
+    padding: 72px
 
   .project-section-title h3
     font-size: var(--font-xxl)
@@ -563,7 +584,7 @@
     font-size: var(--font-xl)
 
   .project-section
-    padding: 72px
+    padding: 96px
 
   .project-section-title h3
     font-size: var(--font-xxxxl)
