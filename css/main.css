@@ -456,7 +456,6 @@ p {
 }
 
 #navbar {
-  bottom: 0;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -465,7 +464,25 @@ p {
   max-height: 100vh;
   position: fixed;
   backdrop-filter: blur(187px);
-  -webkit-backdrop-filter: blur(187px);
+}
+
+#navbar-theme-toggle {
+  background: transparent;
+  border: none;
+  display: block;
+  fill: var(--color-yellow);
+  height: 2rem;
+  position: relative;
+  width: 2rem;
+}
+#navbar-theme-toggle img, #navbar-theme-toggle svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.5625rem;
+  height: 1.5625rem;
+  pointer-events: none;
 }
 
 .navbar {
@@ -502,6 +519,10 @@ p {
   color: var(--color-green);
 }
 
+.navbar-logo-spacer {
+  margin: 0 3px;
+}
+
 .navbar-menu {
   display: flex;
   align-items: center;
@@ -512,37 +533,6 @@ p {
 }
 .navbar-menu i:hover {
   color: white;
-}
-
-#navbar {
-  backdrop-filter: blur(187px);
-  -webkit-backdrop-filter: blur(187px);
-  box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
-  -webkit-box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
-  -moz-box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
-}
-
-.navbar-logo-spacer {
-  margin: 0 3px;
-}
-
-#navbar-theme-toggle {
-  background: transparent;
-  border: none;
-  display: block;
-  fill: var(--color-yellow);
-  height: 2rem;
-  position: relative;
-  width: 2rem;
-}
-#navbar-theme-toggle img, #navbar-theme-toggle svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1.5625rem;
-  height: 1.5625rem;
-  pointer-events: none;
 }
 
 .page-header {
@@ -768,7 +758,7 @@ p {
 }
 
 .site-main {
-  margin: 72px 0 0;
+  margin: 144px 0 0;
 }
 
 .stats-container {
