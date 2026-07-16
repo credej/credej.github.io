@@ -517,6 +517,9 @@ p {
 #navbar {
   backdrop-filter: blur(187px);
   -webkit-backdrop-filter: blur(187px);
+  box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 10px -10px 54px -4px rgba(0, 0, 0, 0.77);
 }
 
 .navbar-logo-spacer {
@@ -715,7 +718,7 @@ p {
 .project-subtitle {
   color: var(--color-white);
   opacity: 0.5;
-  font-size: var(--font-m);
+  font-size: var(--font-xl);
   margin: 4px 0;
 }
 
@@ -765,7 +768,7 @@ p {
 }
 
 .site-main {
-  margin: 144px 0 0;
+  margin: 72px 0 0;
 }
 
 .stats-container {

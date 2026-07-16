@@ -117,13 +117,16 @@
     display: none;
   }
   .intro {
-    margin: 96px 24px;
+    margin: 48px 48px;
     text-align: center;
   }
   .intro p {
     font-size: var(--font-m);
     line-height: 1.8rem;
     text-align: center !important;
+  }
+  .intro-text {
+    margin: 48px 36px 72px;
   }
   .intro-category-icons {
     justify-content: center;
@@ -259,8 +262,7 @@
     text-align: center;
   }
   .site-main {
-    margin: 108px 0;
-    padding: 0;
+    margin: 0;
   }
   .subcategory {
     filter: grayscale(0);
