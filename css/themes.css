@@ -33,7 +33,7 @@ body #navbar-theme-toggle .cs-sun {
 }
 body .navbar-logo a,
 body .navbar-menu i {
-  color: #454 !important;
+  color: var(--color-blue-light);
 }
 body .project-tag {
   background-color: var(--color-grey-light);

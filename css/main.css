@@ -502,6 +502,7 @@ p {
   font-family: "JetBrains Mono", sans-serif;
 }
 .navbar-logo h1 {
+  cursor: pointer;
   font-size: var(--font-xxxl);
 }
 .navbar-logo h1:after {
