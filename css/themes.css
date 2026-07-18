@@ -18,9 +18,6 @@ body .menu-category-title h2 {
   font-weight: 900;
   text-shadow: var(--text-shadow-3);
 }
-body .menu-list a {
-  color: var(--color-grey-dark);
-}
 body .menu-list a:hover {
   color: var(--color-white);
   text-shadow: var(--text-shadow-2);
@@ -33,6 +30,10 @@ body #navbar-theme-toggle .cs-sun {
   z-index: 1;
   opacity: 0;
   transition: transform 0s, opacity 0s;
+}
+body .navbar-logo a,
+body .navbar-menu i {
+  color: #454 !important;
 }
 body .project-tag {
   background-color: var(--color-grey-light);
@@ -67,7 +68,6 @@ body.dark-mode .menu-category-title h2 {
   text-shadow: var(--text-shadow-3);
 }
 body.dark-mode .menu-list a {
-  color: var(--color-grey-light);
   text-shadow: var(--text-shadow-1);
 }
 body.dark-mode .menu-list a:hover {

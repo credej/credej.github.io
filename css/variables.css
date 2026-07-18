@@ -63,7 +63,7 @@
 .blue,
 .blue a,
 .blue i {
-  color: #5EEAD4;
+  color: #5EEAD4 !important;
 }
 
 .green,

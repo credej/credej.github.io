@@ -447,6 +447,7 @@ p {
 }
 .menu-list a {
   font-family: "Yellowtail", monospace;
+  font-family: "Jetbrains Mono", monospace;
   font-size: var(--font-m);
   line-height: 1.4rem;
   padding: 6px 0;
@@ -493,23 +494,22 @@ p {
 }
 
 .navbar-logo {
-  display: flex;
   align-items: center;
+  display: flex;
   margin: 12px 0;
 }
-.navbar-logo h1 {
-  color: var(--color-grey-light);
-  cursor: pointer;
+.navbar-logo a {
   font-family: "JetBrains Mono", sans-serif;
+}
+.navbar-logo h1 {
   font-size: var(--font-xxxl);
-  word-break: break-word;
 }
 .navbar-logo h1:after {
   background-color: var(--color-grey-light);
   border-radius: 1px;
   content: "";
   display: inline-block;
-  height: 1.3em;
+  height: 1.2em;
   margin-left: 4px;
   opacity: 0.25;
   vertical-align: text-bottom;
