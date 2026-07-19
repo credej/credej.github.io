@@ -291,6 +291,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/css\/sky.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/sky.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
