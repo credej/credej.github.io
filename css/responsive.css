@@ -427,15 +427,35 @@
   .project-overview p {
     text-align: justify;
   }
+  .project-section {
+    padding: 72px;
+  }
+  .project-title {
+    flex-direction: column;
+  }
+  .project-title h1 {
+    text-align: center;
+  }
   .category {
     max-width: 920px !important;
   }
   .project-section-title h3 {
     font-size: var(--font-xxl);
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: var(--font-l);
+    margin: 12px 0;
   }
   .project-title {
     font-size: var(--font-6xl);
     justify-content: center;
+  }
+  .project-title h1 {
+    line-height: 2.2rem;
+  }
+  .project-title i {
+    margin: 0 0 12px;
   }
   .project-subtitle,
   .project-tags,
@@ -496,6 +516,7 @@
   .project-title h1 {
     font-size: var(--font-5xl);
   }
+  .subcategory-excerpt h2,
   .subcategory-title h2 {
     font-size: var(--font-xxxl);
   }
