@@ -218,7 +218,6 @@
 
   .project-header
     padding: 0
-    text-align: center
     a:hover
       animation: none /* shim */
     h5
@@ -233,16 +232,11 @@
 
   .project-overview  
     p
-      font-family: 'Comico', cursive
-      font-family: 'Melodrama', serif
-      font-family: 'Boxing', sans-serif
-      font-family: 'Kola', sans-serif
-      font-size: var(--font-m)
+      font-size: var(--font-l)
       line-height: 1.6rem
-      text-align: justify
 
   .project-section
-    padding: 48px
+    padding: 24px
 
   .project-section-desc
     p
@@ -254,22 +248,21 @@
     text-align: center
 
   .project-subtitle
-    font-size: var(--font-xs)
-    text-align: center
+    font-size: var(--font-m)
+    text-align: left
 
   .project-tag
+    font-size: var(--font-m)
     margin: 4px 4px 4px 0
     padding: 2px 8px
 
-  .project-tags
-    font-size: var(--font-xxs)
-
   .project-title
-    justify-content: center
+    justify-content: flex-start
+    align-items: flex-start
     flex-direction: column
     margin: 12px 0
     i
-      margin: 0 0 12px
+      margin: 0 0 16px
     h1
       font-size: var(--font-xxxxl)
       letter-spacing: 0.5rem
@@ -328,6 +321,10 @@
   .site-main,
   .footer
     padding: 0 7.5vw
+
+
+  .project-section
+    padding: 72px
 
   .project-links 
     margin: 0 0 72px
@@ -391,6 +388,9 @@
     h1
       font-size: var(--font-l)
 
+  .project-header
+    padding: 0 48px
+
   .project-links
     margin: 12px 0 72px
     text-align: center
@@ -403,6 +403,8 @@
 
   .project-section
     padding: 72px
+    p
+      text-align: justify
 
   .project-title
     flex-direction: column
@@ -412,20 +414,30 @@
   .category
     max-width: 920px !important
 
+  .menu-category-title
+    h2
+      color: #fff
+      font-size: var(--font-l) !important
+      font-weight: 900
+      text-shadow: var(--text-shadow-3)
+
+  .menu-list
+    a
+      font-size: var(--font-m) !important
+
   .project-section-title 
     h3
       font-size: var(--font-xxl)
       text-align: center
 
   .project-subtitle
-    font-size: var(--font-l)
     margin: 12px 0
 
   .project-title
     font-size: var(--font-6xl)
     justify-content: center
     h1
-      line-height: 2.2rem
+      line-height: 2.8rem
     i
       margin: 0 0 12px
 
@@ -462,6 +474,17 @@
   .intro-text
     p
       font-size: var(--font-xl)
+
+  .menu-category-title
+    h2
+      color: #fff
+      font-size: var(--font-xl) !important
+      font-weight: 900
+      text-shadow: var(--text-shadow-3)
+
+  .menu-list
+    a
+      font-size: var(--font-m) !important
 
   .navbar-logo
     h1
@@ -520,17 +543,28 @@
     justify-content: center
     align-items: center
 
+  .menu-category-title
+    h2
+      color: #fff
+      font-size: var(--font-xxxl) !important
+      font-weight: 900
+      text-shadow: var(--text-shadow-3)
+
+  .menu-list
+    a
+      font-size: var(--font-l) !important
+
   .navbar-logo
     h1
       font-size: var(--font-xl)
-
-  .page-header
-    display: flex
 
   #navbar,
   .site-main,
   .footer
     padding: 0 15vw
+
+  .page-header
+    display: flex
 
   .project-links 
     margin: 24px 0 96px
@@ -587,7 +621,14 @@
 
   .menu-category-title
     h2
-      font-size: var(--font-7xl)
+      color: #fff
+      font-size: var(--font-xxxxl) !important
+      font-weight: 900
+      text-shadow: var(--text-shadow-3)
+
+  .menu-list
+    a
+      font-size: var(--font-xl) !important
 
   .navbar-logo
     h1

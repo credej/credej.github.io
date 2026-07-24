@@ -34,7 +34,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-laptop-dev-mode white"></i>
                         <h2>Software UI/UX</h2>
                      </div>
-                     <div class="menu-list blue-mobile">
+                     <div class="menu-list blue">
                         <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
                         <a href="/pages/software/redteam/index.html" target=_self>Red Team Operation Management</a>
                         <a href="/pages/software/collectibles/index.html" target=_self>Online Collectibles Store</a>
@@ -49,7 +49,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-edit-pencil white"></i>
                         <h2>Design</em></h2>
                      </div>
-                     <div class="menu-list green-mobile">
+                     <div class="menu-list green">
                         <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
                         <a href="/pages/design/graphicsweb/index.html" target=_self>Graphics & Web</a>
                         <a href="/pages/design/artwork/index.html" target=_self>Artwork</a>
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-cpu white"></i>
                         <h2>Gadgets</h2>
                      </div>
-                     <div class="menu-list red-mobile">
+                     <div class="menu-list red">
                         <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
                         <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
                         <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
@@ -80,7 +80,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-tools white"></i>
                         <h2>DIY</h2>
                      </div>
-                     <div class="menu-list orange-mobile">
+                     <div class="menu-list orange">
                         <a href="/pages/diy/cli/index.html" target=_self>Command Line Interface</a>
                         <a href="/pages/diy/freedomtech/index.html" target=_self>Decentralized Tech</a>
                      </div>
@@ -92,7 +92,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-telegram white"></i>
                         <h2>Good Eats</h2>
                      </div>
-                     <div class="menu-list yellow-mobile">
+                     <div class="menu-list yellow">
                        <a href="/pages/otherstuff/goodeats/index.html" target=_self>Recipe Book</a>
                        <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a>
                      </div>
@@ -104,7 +104,7 @@ class Header extends HTMLElement {
                         <i class="iconoir-bookmark-book white"></i>
                         <h2>Other Stuff</h2>
                      </div>
-                     <div class="menu-list purple-mobile">
+                     <div class="menu-list purple">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
                      </div>

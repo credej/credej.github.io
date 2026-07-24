@@ -38,9 +38,12 @@ table
 
 /* FONTS & CURSOR */
 
-a
-  cursor: pointer
+a,
+.category-links,
+.category-links a
+  cursor: pointer !important
 
+.category-links span,
 .menu-category-title,
 .quote-by,
 .quote-text,
@@ -75,7 +78,7 @@ p
   font-family: "Reddit Mono", monospace 
   font-family: "Courier Prime", monospace
   font-family: "Cutive Mono", monospace
-  font-family: 'JetBrains Mono', sans-serif
+  font-family: "JetBrains Mono", monospace
 
 /* MAIN STYLES */
 
@@ -134,6 +137,7 @@ p
     text-align: center
 
 .category-subtitle
+  margin: 0 0 24px
   text-shadow: var(--text-shadow-3)
   p
     font-family: "Reddit Mono", monospace
@@ -350,6 +354,7 @@ p
   h2
     font-family: "Yellowtail", monospace
     font-family: "Courier Prime", monospace
+    font-family: "JetBrains Mono", monospace !important
     font-size: var(--font-l)
     line-height: 1.1rem
     text-align: center
@@ -422,7 +427,7 @@ p
   display: flex
   margin: 12px 0
   a
-    font-family: 'JetBrains Mono', sans-serif
+    font-family: "JetBrains Mono", monospace
   h1
     cursor: pointer
     font-size: var(--font-xxxl)
@@ -556,13 +561,13 @@ p
   p
     font-size: var(--font-l)
     font-family: "Yellowtail", monospace
-    text-indent: 48px
 
 .project-section
   p
     color: var(--color-white)
     font-family: "Yellowtail", monospace
     line-height: 1.8rem
+    margin: 18px 0
   a
     mix-blend-mode: normal !important
     &:hover
@@ -578,23 +583,28 @@ p
 .project-section-desc
   margin: 36px 0
   p
-    font-family: 'JetBrains Mono', sans-serif
+    font-family: "JetBrains Mono", monospace
     // text-align: justify
     text-indent: 36px
 
 .project-section-subtitle
   color: var(--color-grey-medium)
 
+.project-subtitle
+  color: var(--color-white)
+  opacity: 0.5
+  margin: 4px 0
+
 .project-section-title
   h3
     font-family: "Courier Prime", monospace
     font-size: var(--font-xxxxl) !important
+    line-height: 2.4rem
 
-.project-subtitle
-  color: var(--color-white)
-  opacity: 0.5
-  font-size: var(--font-xl)
-  margin: 4px 0
+.project-section-tags
+  color: var(--color-grey-medium)
+  font-size: var(--font-xl) !important
+  font-family: "Courier Prime", monospace
 
 .project-tags
   cursor: default
@@ -856,4 +866,108 @@ p
 
 .spacer-l
   height: 180p
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Settings
+
+$c_0: #000000
+$c_1: #353540
+
+// Basic reset
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+
+.l-container
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-gap: 30px
+  width: 100%
+  max-width: 1200px
+  padding: 30px
+
+  @media screen and (max-width: 760px)
+    grid-template-columns: repeat(2, 1fr)
+
+.b-game-card
+  position: relative
+  z-index: 1
+  width: 100%
+  padding-bottom: 150%
+  perspective: 1000px
+
+  &__cover
+    position: absolute
+    z-index: 1
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    overflow: hidden
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%)
+    background-size: cover
+    perspective-origin: 50% 50%
+    transform-style: preserve-3d
+    transform-origin: top center
+    will-change: transform
+    transform: skewX(.001deg)
+    transition: transform .35s ease-in-out
+
+    // Gloss
+
+    &::after
+      display: block
+      content: ''
+      position: absolute
+      z-index: 100
+      top: 0
+      left: 0
+      width: 100%
+      height: 120%
+      background: linear-gradient(226deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 35%, rgba(255,255,255,0.2) 42%, rgba(255,255,255,0) 60%)
+      transform: translateY(-20%)
+      will-change: transform
+      transition: transform .65s cubic-bezier(0.18, 0.9, 0.58, 1)
+
+  &:hover &__cover
+    transform: rotateX(7deg) translateY(-6px)
+
+    &::after
+      transform: translateY(0%)
+
+  // Shadows
+
+  &::before
+    display: block
+    content: ''
+    position: absolute
+    top: 5%
+    left: 5%
+    width: 90%
+    height: 90%
+    background: rgba($c_0, 0.5)
+    box-shadow: 0 6px 12px 12px rgba($c_0, 0.4)
+    will-change: opacity
+    transform-origin: top center
+    transform: skewX(.001deg)
+    transition: transform .35s ease-in-out, opacity .5s ease-in-out
+
+  &:hover::before
+    opacity: 0.6
+    transform: rotateX(7deg) translateY(-6px) scale(1.05)
 

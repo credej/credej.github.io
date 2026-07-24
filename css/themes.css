@@ -13,11 +13,6 @@ body .intro-text {
 body .intro-text a span {
   text-shadow: var(--text-shadow-3);
 }
-body .menu-category-title h2 {
-  color: var(--color-grey-dark);
-  font-weight: 900;
-  text-shadow: var(--text-shadow-3);
-}
 body .menu-list a:hover {
   color: var(--color-white);
   text-shadow: var(--text-shadow-2);
@@ -51,6 +46,9 @@ body .stat {
   background-color: #1f262c;
 }
 
+body.dark-mode .category {
+  box-shadow: 8px 16px 16px hsla(0, 0%, 0%, 0.25);
+}
 body.dark-mode .category-subtitle p {
   color: var(--color-grey-medium);
 }
@@ -65,11 +63,6 @@ body.dark-mode .dark {
 }
 body.dark-mode .intro-text {
   color: var(--color-grey-light);
-}
-body.dark-mode .menu-category-title h2 {
-  color: var(--color-grey-light);
-  font-weight: 900;
-  text-shadow: var(--text-shadow-3);
 }
 body.dark-mode .menu-list a {
   text-shadow: var(--text-shadow-1);
