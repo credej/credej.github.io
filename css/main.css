@@ -163,7 +163,6 @@ p {
 }
 
 .category-subtitle {
-  margin: 0 0 24px;
   text-shadow: var(--text-shadow-3);
 }
 .category-subtitle p {
@@ -448,7 +447,7 @@ p {
 .menu-list {
   display: flex;
   flex-direction: column;
-  padding: 8px 0;
+  padding: 12px 0;
 }
 .menu-list a {
   font-family: "Yellowtail", monospace;

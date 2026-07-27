@@ -34,12 +34,6 @@ body .img-gallery {
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-body .navbar-logo h1 {
-  color: #ececec;
-}
-body .navbar-logo h1:after {
-  background-color: #ececec;
-}
 body .page-section {
   padding: 24px 0;
 }
@@ -69,9 +63,6 @@ body .project-tag {
 }
 body .project-title h1 {
   text-shadow: var(--text-shadow-1);
-}
-body .project-title i {
-  color: var(--color-white);
 }
 
 /* DARK */

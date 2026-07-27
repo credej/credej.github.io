@@ -1,3 +1,12 @@
+#navbar {
+  border: 1px solid green !important;
+  display: none !important;
+}
+
+.header-simple {
+  padding: 120px 0 0;
+}
+
 /* THEME - LIGHT */
 body {
   background-color: var(--color-green);
@@ -109,7 +118,6 @@ body {
 .header-simple-title span {
   color: #E79090;
   font-size: var(--font-9xl);
-  padding: 12px 0;
 }
 
 .header-simple-excerpt {
