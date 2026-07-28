@@ -85,12 +85,13 @@ body {
 /* CSS EFFECT - CLOUDS */
 
 
-section{
+/*transform: scaleY(-1); add this line to section */
+
+/*section{
   position: absolute;
   width: 100%;
   height: 100vh;
   background: #3586ff;
-  /*transform: scaleY(-1);*/
 }
 section .air{
   position: absolute;
@@ -144,7 +145,7 @@ section .air.air4{
   100%{
     background-position-x: -1000px; 
   }
-}
+}*/
 
 
 /* CSS EFFECT - SKY */

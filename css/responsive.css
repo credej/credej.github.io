@@ -233,6 +233,7 @@
     letter-spacing: 0.6rem;
   }
   .project-header {
+    text-align: center;
     padding: 0;
   }
   .project-header a:hover {
@@ -254,7 +255,8 @@
     line-height: 1.6rem;
   }
   .project-section {
-    padding: 24px;
+    padding: 48px;
+    margin: 24px;
   }
   .project-section-desc p {
     font-size: var(--font-s);
@@ -264,9 +266,15 @@
   .project-section-title {
     text-align: center;
   }
+  .project-section-subtitle h4 {
+    text-align: center;
+  }
   .project-subtitle {
     font-size: var(--font-m);
-    text-align: left;
+    text-align: center;
+  }
+  .project-subtitle h2 {
+    text-align: center;
   }
   .project-tag {
     font-size: var(--font-m);
@@ -274,8 +282,7 @@
     padding: 2px 8px;
   }
   .project-title {
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin: 12px 0;
   }
@@ -345,6 +352,9 @@
   }
   .project-section {
     padding: 72px;
+  }
+  .project-section-subtitle h4 {
+    text-align: center;
   }
   .project-links {
     margin: 0 0 72px;
@@ -428,6 +438,9 @@
   }
   .project-section p {
     text-align: justify;
+  }
+  .project-section-subtitle h4 {
+    text-align: center;
   }
   .project-title {
     flex-direction: column;
