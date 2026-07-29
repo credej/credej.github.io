@@ -1,34 +1,4 @@
 @media screen and (min-width: 100px) and (max-width: 755px) {
-  .blue-mobile {
-    color: #5EEAD4 !important;
-  }
-  .green-mobile {
-    color: #2FF8A0;
-  }
-  .red-mobile {
-    color: #FF005E;
-  }
-  .orange-mobile {
-    color: #FF6B63;
-  }
-  .yellow-mobile {
-    color: #C8E501;
-  }
-  .purple-mobile {
-    color: #7C83FD;
-  }
-  .white-mobile {
-    color: #ececec;
-  }
-  .grey-mobile {
-    color: #7A7A7A;
-  }
-  .black-mobile {
-    color: #000;
-  }
-  #info {
-    display: none;
-  }
   .badge {
     height: auto !important;
     padding: 48px 0;
@@ -70,8 +40,8 @@
   }
   .category-links a {
     display: block;
-    font-size: var(--font-m);
-    line-height: 1.2rem;
+    font-size: var(--font-l);
+    line-height: 1.6rem;
     padding: 6px 0;
   }
   .category-subtitle {
@@ -79,8 +49,9 @@
     text-align: center;
   }
   .category-subtitle p {
-    font-size: var(--font-m);
+    font-size: var(--font-l);
     letter-spacing: -0.1rem;
+    line-height: 1.6rem;
   }
   .category-title {
     display: flex;
@@ -90,7 +61,7 @@
   .category-title h1 {
     display: flex;
     font-size: var(--font-xxxxl);
-    line-height: 3rem;
+    line-height: 2.6rem;
     letter-spacing: 0.52rem;
     overflow: wrap;
     padding: 8px 36px;
@@ -141,7 +112,7 @@
     display: none;
   }
   .intro {
-    margin: 0 48px;
+    margin: 0 48px 24px;
     text-align: center;
   }
   .intro p {
@@ -244,11 +215,14 @@
   }
   .project-links {
     margin: 0 0 72px;
-    padding: 12px 0;
+    padding: 0;
   }
   .project-links a {
     font-size: var(--font-l);
     text-shadow: var(--text-shadow-1);
+  }
+  .project-overview {
+    padding: 48px 0;
   }
   .project-overview p {
     font-size: var(--font-l);
@@ -266,7 +240,7 @@
   .project-section-title {
     text-align: center;
   }
-  .project-section-subtitle h4 {
+  .project-section-title h4 {
     text-align: center;
   }
   .project-subtitle {
@@ -274,6 +248,7 @@
     text-align: center;
   }
   .project-subtitle h2 {
+    line-height: 1.2rem;
     text-align: center;
   }
   .project-tag {
@@ -328,7 +303,8 @@
     text-align: center;
   }
   .subcategory-excerpt p {
-    font-size: var(--font-s);
+    font-size: var(--font-m);
+    padding: 12px;
     text-align: center;
   }
   .stats-container {
@@ -353,7 +329,7 @@
   .project-section {
     padding: 72px;
   }
-  .project-section-subtitle h4 {
+  .project-section-title h4 {
     text-align: center;
   }
   .project-links {
@@ -439,7 +415,7 @@
   .project-section p {
     text-align: justify;
   }
-  .project-section-subtitle h4 {
+  .project-section-title h4 {
     text-align: center;
   }
   .project-title {
@@ -539,7 +515,7 @@
   .project-section-title h3 {
     font-size: var(--font-xxl);
   }
-  .project-section-subtitle {
+  .project-section-title h4 {
     font-size: var(--font-l);
   }
   .project-title h1 {

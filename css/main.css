@@ -698,8 +698,9 @@ p {
   text-indent: 36px;
 }
 
-.project-section-subtitle {
+.project-section-title h4 {
   color: var(--color-grey-medium);
+  font-family: "JetBrains Mono", monospace;
 }
 
 .project-subtitle {
