@@ -8,7 +8,10 @@ body {
 }
 
 .header-simple-title {
-  color: var(--color-grey-light);
+  color: var(--color-white);
+}
+.header-simple-title i {
+  color: var(--color-purple);
 }
 
 .navbar-menu i {

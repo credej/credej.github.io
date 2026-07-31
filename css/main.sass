@@ -121,6 +121,9 @@ p
     opacity: 0.4
     padding: 0 8px
 
+.category-links-footer
+  padding: 8px 0 !important
+
 .category-title
   display: flex
   align-items: center
@@ -437,10 +440,13 @@ p
       display: inline-block
       height: 1.2em
       margin-left: 4px
-      opacity: 0.25
+      opacity: 0.4
       vertical-align: text-bottom
       width: 0.67em
       @extend .blinker
+  h1:hover
+    &:after
+      background-color: var(--color-green)
 
 .navbar-logo-spacer
   margin: 0 3px

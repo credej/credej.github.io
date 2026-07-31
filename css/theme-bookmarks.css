@@ -85,10 +85,7 @@ body .header-simple-title {
   color: var(--color-white);
 }
 body .header-simple-title i {
-  color: var(--color-green);
-}
-body .navbar-logo h1 {
-  color: var(--color-white);
+  color: var(--color-purple);
 }
 body .page-header-excerpt {
   background-color: #7385F6;
@@ -117,12 +114,6 @@ body.dark-mode .bookmark-glossary {
 }
 body.dark-mode .bookmark-glossary a {
   color: var(--color-blue-storm);
-}
-body.dark-mode .header-simple-title {
-  color: var(--color-white);
-}
-body.dark-mode .header-simple-title i {
-  color: var(--color-purple);
 }
 body.dark-mode .page-header-excerpt {
   background-color: #191D26;
