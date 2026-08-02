@@ -150,11 +150,12 @@ p
 .contact
   margin: 96px 0
   padding: 48px 72px 72px
+  ul, p
+    font-size: var(--font-l)
   p
-    color: var(--color-grey-light) !important
-    font-size: var(--font-m)
+    color: var(--color-grey-medium) !important
     line-height: 2rem
-    margin: 24px 0
+    margin: 36px 0
   a
     color: var(--color-white)
     font-size: var(--font-m)
@@ -162,8 +163,11 @@ p
   a:hover
     animation: blinker 1s linear infinite
   ul
-    color: var(--color-grey-dark)
+    color: var(--color-grey-light)
+    list-style-type: disc
     margin: 0 0 24px
+  li
+    margin: 24px
 
 .footer
   margin: 144px 0 72px
@@ -233,7 +237,7 @@ p
   justify-content: center
   align-items: center
   color: var(--color-grey-light)
-  font-size: var(--font-xxxl)
+  font-size: var(--font-5xl)
   i
     font-size: var(--font-xxl)
     margin: 0 24px 0 0
@@ -351,6 +355,7 @@ p
   align-items: center
   padding: 4px 0
   i
+    color: var(--color-grey-light)
     font-size: var(--font-xl)
     padding: 0 14px 0 0 
   h2
@@ -360,7 +365,6 @@ p
     font-size: var(--font-l)
     line-height: 1.1rem
     text-align: center
-    text-transform: uppercase
 
 #menu-expanded
   height: 100vh
@@ -447,6 +451,8 @@ p
   h1:hover
     &:after
       background-color: var(--color-green)
+  h1:active
+    color: #48DC8C
 
 .navbar-logo-spacer
   margin: 0 3px
@@ -458,7 +464,9 @@ p
   i
     color: var(--color-grey-light)
   i:hover
-    color: white
+    color: var(--color-green)
+  i:active
+    color: #48DC8C
 
 .page-header
   display: flex
@@ -698,7 +706,7 @@ p
     border-bottom: 2px solid #000
     text-transform: uppercase
     letter-spacing: 0.07em
-    font-size: var(--font-xxxxl)
+    font-size: var(--font-9xl)
   p
     font-family: "Doto", serif 
     margin: 12px 0 36px
@@ -735,11 +743,12 @@ p
   h1
     color: var(--color-yellow)
     font-family: "Doto", serif 
-    font-size: var(--font-xxl)
+    font-size: var(--font-7xl)
     margin: 24px 0
     text-transform: uppercase
 
 .subcategory
+  font-size: var(--font-xxl)
   filter: grayscale(0.8)
   opacity: 0.6
   padding: 48px 0

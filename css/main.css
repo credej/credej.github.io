@@ -180,11 +180,13 @@ p {
   margin: 96px 0;
   padding: 48px 72px 72px;
 }
+.contact ul, .contact p {
+  font-size: var(--font-l);
+}
 .contact p {
-  color: var(--color-grey-light) !important;
-  font-size: var(--font-m);
+  color: var(--color-grey-medium) !important;
   line-height: 2rem;
-  margin: 24px 0;
+  margin: 36px 0;
 }
 .contact a {
   color: var(--color-white);
@@ -195,8 +197,12 @@ p {
   animation: blinker 1s linear infinite;
 }
 .contact ul {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-light);
+  list-style-type: disc;
   margin: 0 0 24px;
+}
+.contact li {
+  margin: 24px;
 }
 
 .footer {
@@ -279,7 +285,7 @@ p {
   justify-content: center;
   align-items: center;
   color: var(--color-grey-light);
-  font-size: var(--font-xxxl);
+  font-size: var(--font-5xl);
 }
 .header-simple-title i {
   font-size: var(--font-xxl);
@@ -421,6 +427,7 @@ p {
   padding: 4px 0;
 }
 .menu-category-title i {
+  color: var(--color-grey-light);
   font-size: var(--font-xl);
   padding: 0 14px 0 0;
 }
@@ -431,7 +438,6 @@ p {
   font-size: var(--font-l);
   line-height: 1.1rem;
   text-align: center;
-  text-transform: uppercase;
 }
 
 #menu-expanded {
@@ -527,6 +533,9 @@ p {
 .navbar-logo h1:hover:after {
   background-color: var(--color-green);
 }
+.navbar-logo h1:active {
+  color: #48DC8C;
+}
 
 .navbar-logo-spacer {
   margin: 0 3px;
@@ -541,7 +550,10 @@ p {
   color: var(--color-grey-light);
 }
 .navbar-menu i:hover {
-  color: white;
+  color: var(--color-green);
+}
+.navbar-menu i:active {
+  color: #48DC8C;
 }
 
 .page-header {
@@ -831,7 +843,7 @@ p {
   border-bottom: 2px solid #000;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  font-size: var(--font-xxxxl);
+  font-size: var(--font-9xl);
 }
 .stat p {
   font-family: "Doto", serif;
@@ -875,12 +887,13 @@ p {
 .stats-container-title h1 {
   color: var(--color-yellow);
   font-family: "Doto", serif;
-  font-size: var(--font-xxl);
+  font-size: var(--font-7xl);
   margin: 24px 0;
   text-transform: uppercase;
 }
 
 .subcategory {
+  font-size: var(--font-xxl);
   filter: grayscale(0.8);
   opacity: 0.6;
   padding: 48px 0;

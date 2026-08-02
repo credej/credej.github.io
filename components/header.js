@@ -14,7 +14,7 @@ class Header extends HTMLElement {
 
             <div class="navbar-menu flex flex-end">
                <button id="menu-button" class="navbar-menu">
-                  <i class="iconoir-menu-scale"></i>
+                  <i class="iconoir-menu"></i>
                </button>
             </div>
 

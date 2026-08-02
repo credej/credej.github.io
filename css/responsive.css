@@ -105,9 +105,6 @@
   .header-simple-excerpt p {
     font-size: var(--font-s);
   }
-  .header-simple-title h1, .header-simple-title i {
-    font-size: var(--font-xl);
-  }
   .hide-mobile {
     display: none;
   }
@@ -165,9 +162,6 @@
   .menu-category-title h2 {
     color: #fff !important;
     font-size: var(--font-xxl);
-  }
-  .menu-category-title i {
-    color: white;
   }
   .menu-list a {
     font-size: var(--font-m);
