@@ -2,7 +2,6 @@
 /* PAGE ELEMENTS */
 body {
   display: flex;
-  justify-content: center;
 }
 body::-webkit-scrollbar {
   width: 12px;
