@@ -258,14 +258,21 @@ p {
 }
 
 .footer-text {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 48px;
 }
-.footer-text p {
+.footer-text h1 {
   color: var(--color-grey-dark);
   font-family: "Array", sans-serif;
   font-size: 4rem;
+}
+.footer-text p {
+  color: var(--color-grey-medium);
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-s);
 }
 
 .footer-text-flashing {
