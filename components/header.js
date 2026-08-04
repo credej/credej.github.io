@@ -108,6 +108,8 @@ class Header extends HTMLElement {
                      <div class="menu-list purple">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
+                       <a style="opacity: 0.05;" href="/pages/otherstuff/test/index.html" target=_self>Test 1</a>
+                       <a style="opacity: 0.05;" href="/pages/otherstuff/test/index-2.html" target=_self>Test 2</a>
                      </div>
                   </div>
                </div>

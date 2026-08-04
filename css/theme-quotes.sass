@@ -7,13 +7,33 @@ body
   color: var(--color-purple)
 
 .header-simple-title
-  color: var(--color-white)
+  h1
+    color: var(--color-grey-medium)
   i
     color: var(--color-purple)
 
+.menu-category-title
+  h2
+    color: var(--color-grey-medium)    
+    text-shadow: none
+  i
+    color: var(--color-grey-medium)    
+
+.menu-list
+  a
+    text-shadow: var(--text-shadow-3)
+
+.navbar-logo 
+  h1
+    color: var(--color-grey-light)    
+    &:hover
+      color: var(--color-grey-medium)    
+      &:after
+        background-color: var(--color-grey-medium)
+    
 .navbar-menu
   i
-    color: var(--color-grey-medium)
+    color: var(--color-grey-light)
     &:hover
       color: var(--color-grey-dark)
 
@@ -79,11 +99,31 @@ body.dark-mode
   background-color: var(--color-black) 
   color: white
 
+  .header-simple-title
+    h1
+      color: var(--color-white)
+    i
+      color: var(--color-purple)
+
   .quote
     background-color: var(--color-black) 
 
   .quote-by
     color: var(--color-grey-medium)
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-medium)    
+      &:hover
+        color: #48DC8C 
+        &:after
+          background-color: var(--color-green)
+
+  .navbar-menu
+    i
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-grey-light)
 
   .page-header-excerpt
     background-color: #1D212C

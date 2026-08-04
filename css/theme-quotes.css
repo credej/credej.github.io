@@ -7,15 +7,37 @@ body {
   color: var(--color-purple);
 }
 
-.header-simple-title {
-  color: var(--color-white);
+.header-simple-title h1 {
+  color: var(--color-grey-medium);
 }
 .header-simple-title i {
   color: var(--color-purple);
 }
 
-.navbar-menu i {
+.menu-category-title h2 {
   color: var(--color-grey-medium);
+  text-shadow: none;
+}
+.menu-category-title i {
+  color: var(--color-grey-medium);
+}
+
+.menu-list a {
+  text-shadow: var(--text-shadow-3);
+}
+
+.navbar-logo h1 {
+  color: var(--color-grey-light);
+}
+.navbar-logo h1:hover {
+  color: var(--color-grey-medium);
+}
+.navbar-logo h1:hover:after {
+  background-color: var(--color-grey-medium);
+}
+
+.navbar-menu i {
+  color: var(--color-grey-light);
 }
 .navbar-menu i:hover {
   color: var(--color-grey-dark);
@@ -88,11 +110,32 @@ body.dark-mode {
   background-color: var(--color-black);
   color: white;
 }
+body.dark-mode .header-simple-title h1 {
+  color: var(--color-white);
+}
+body.dark-mode .header-simple-title i {
+  color: var(--color-purple);
+}
 body.dark-mode .quote {
   background-color: var(--color-black);
 }
 body.dark-mode .quote-by {
   color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: #48DC8C;
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-green);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-grey-light);
 }
 body.dark-mode .page-header-excerpt {
   background-color: #1D212C;

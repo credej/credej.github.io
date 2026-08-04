@@ -15,7 +15,6 @@ body .intro-text a span {
 }
 body .menu-list a:hover {
   color: var(--color-white);
-  text-shadow: var(--text-shadow-2);
 }
 body #navbar-theme-toggle .cs-moon {
   z-index: 2;
@@ -25,14 +24,6 @@ body #navbar-theme-toggle .cs-sun {
   z-index: 1;
   opacity: 0;
   transition: transform 0s, opacity 0s;
-}
-body .navbar-logo a,
-body .navbar-menu i {
-  color: #495057;
-}
-body .navbar-logo a h1:after,
-body .navbar-menu i h1:after {
-  background-color: #495057;
 }
 body .project-tag {
   background-color: var(--color-grey-light);

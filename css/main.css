@@ -535,6 +535,9 @@ p {
   vertical-align: text-bottom;
   width: 0.67em;
 }
+.navbar-logo h1:hover {
+  color: #48DC8C;
+}
 .navbar-logo h1:hover:after {
   background-color: var(--color-green);
 }
