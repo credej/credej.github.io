@@ -328,7 +328,6 @@ p {
   flex-grow: 1;
 }
 .img-gallery img {
-  margin: 52px 0;
   max-height: 100%;
   min-width: 100%;
   object-fit: cover;

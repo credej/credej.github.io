@@ -5,6 +5,9 @@ body {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
+body .project-overview p {
+  color: var(--color-grey-light);
+}
 body .project-section-desc p {
   color: var(--color-grey-dark);
 }

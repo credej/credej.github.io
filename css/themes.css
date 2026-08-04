@@ -68,8 +68,7 @@ body.dark-mode .menu-list a {
   text-shadow: var(--text-shadow-1);
 }
 body.dark-mode .menu-list a:hover {
-  color: var(--color-green);
-  text-shadow: var(--text-shadow-3);
+  color: var(--color-white);
 }
 body.dark-mode #navbar-theme-toggle .cs-sun {
   transform: translate(-50%, -50%);
