@@ -50,6 +50,13 @@ body .bookmark-glossary a:hover {
   border: 3px solid rgb(109, 255, 176);
   color: var(--color-green) !important;
 }
+body .bookmark-old a {
+  text-decoration: line-through;
+}
+body .bookmark-old a:hover {
+  animation: blinker 1s linear infinite;
+  opacity: 0.5;
+}
 body .bookmark-section {
   break-inside: avoid;
   display: flex;
@@ -71,13 +78,6 @@ body .bookmark-section li {
 body .bookmark-section a {
   padding: 4px 0 4px 12px;
 }
-body .bookmark-old a {
-  text-decoration: line-through;
-}
-body .bookmark-old a:hover {
-  animation: blinker 1s linear infinite;
-  opacity: 0.5;
-}
 body .header-simple-excerpt {
   color: var(--color-grey-light);
 }
@@ -85,7 +85,16 @@ body .header-simple-title {
   color: var(--color-white);
 }
 body .header-simple-title i {
-  color: var(--color-purple);
+  color: var(--color-white);
+}
+body .navbar-logo h1 {
+  color: var(--color-grey-light);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-green);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-green);
 }
 body .page-header-excerpt {
   background-color: #7385F6;

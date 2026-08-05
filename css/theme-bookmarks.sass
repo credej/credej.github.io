@@ -18,7 +18,7 @@ body
     li 
       font-family: "Courier Prime", monospace
     h2
-      padding: 0 16pxw
+      padding: 0 16px
 
   .bookmark-glossary
     cursor: pointer
@@ -43,6 +43,12 @@ body
         border: 3px solid rgb(109 255 176 / 1)
         color: var(--color-green) !important
 
+  .bookmark-old
+    a
+      text-decoration: line-through
+      &:hover
+        animation: blinker 1s linear infinite
+        opacity: 0.5
 
   .bookmark-section
     break-inside: avoid
@@ -62,20 +68,21 @@ body
     a
       padding: 4px 0 4px 12px
 
-  .bookmark-old
-    a
-      text-decoration: line-through
-      &:hover
-        animation: blinker 1s linear infinite
-        opacity: 0.5
-
   .header-simple-excerpt
     color: var(--color-grey-light)
 
   .header-simple-title
     color: var(--color-white)
     i
-      color: var(--color-purple)
+      color: var(--color-white)
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-light)    
+      &:hover
+        color: var(--color-green)    
+        &:after
+          background-color: var(--color-green)
 
   .page-header-excerpt
     background-color: #7385F6
