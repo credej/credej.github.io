@@ -1,6 +1,21 @@
 /* LIGHT */
 body
   background-color: #1F4483 !important
+
+  .navbar-logo 
+    h1
+      color: var(--color-blue-light)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-white)
+    
+  .navbar-menu
+    i
+      color: var(--color-blue-light)
+      &:hover
+        color: var(--color-white)
+
   .project-section-desc p
     color: var(--color-blue-light)
   .project-header
@@ -11,9 +26,25 @@ body
       text-shadow: var(--text-shadow-1)
 
 /* DARK */
-body.dark-mode 
+
+body.dark-mode
   background-color: #09111C !important
   color: white
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-green)    
+        &:after
+          background-color: var(--color-green)
+    
+  .navbar-menu
+    i
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-green)
+
   .quote-text
     color: var(--color-blue-light)
   .page-header-excerpt

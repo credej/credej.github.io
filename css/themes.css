@@ -1,5 +1,5 @@
-body .category-subtitle p {
-  color: var(--color-grey-light);
+body .category-subtitle {
+  margin: 0 0 8px;
 }
 body .category-links a {
   text-shadow: var(--text-shadow-3);

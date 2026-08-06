@@ -22,10 +22,38 @@ body
     i
       color: var(--color-grey-dark)
 
+  .navbar-logo 
+    h1
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-grey-dark)    
+        &:after
+          background-color: var(--color-grey-dark)
+    
+  .navbar-menu
+    i
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-grey-dark)
+
 /* CYBERGRAD - DARK */
 body.dark-mode 
   background-color: var(--color-black)
   color: white
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-green)    
+        &:after
+          background-color: var(--color-green)
+    
+  .navbar-menu
+    i
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-green)
   .project-title 
     animation: pulsate 0.11s ease-in-out infinite alternate
     h1

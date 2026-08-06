@@ -2,6 +2,21 @@
 body {
   background-color: #1F4483 !important;
 }
+body .navbar-logo h1 {
+  color: var(--color-blue-light);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-white);
+}
+body .navbar-menu i {
+  color: var(--color-blue-light);
+}
+body .navbar-menu i:hover {
+  color: var(--color-white);
+}
 body .project-section-desc p {
   color: var(--color-blue-light);
 }
@@ -16,6 +31,21 @@ body .project-links a {
 body.dark-mode {
   background-color: #09111C !important;
   color: white;
+}
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-green);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-green);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-green);
 }
 body.dark-mode .quote-text {
   color: var(--color-blue-light);

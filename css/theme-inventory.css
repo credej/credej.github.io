@@ -30,29 +30,46 @@ body .badge img:hover {
 body .effect-glitch {
   color: var(--color-blue);
 }
-
-.img-fullsize figcaption {
+body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
-.img-fullsize .project-section-desc p {
+body .navbar-logo h1 {
+  color: var(--color-blue-light);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-white);
+}
+body .navbar-menu i {
+  color: var(--color-blue-light);
+}
+body .navbar-menu i:hover {
+  color: var(--color-white);
+}
+body .project-section-desc p {
   color: #fff;
 }
-.img-fullsize .project-section-desc,
-.img-fullsize .project-header,
-.img-fullsize .project-section p {
+body .project-section-title h4 {
+  color: var(--color-grey-medium);
+}
+body .project-section-desc,
+body .project-header,
+body .project-section p {
   color: var(--color-white);
 }
-.img-fullsize .project-links a {
-  color: var(--color-green);
+body .project-links a {
+  color: var(--color-blue-light);
 }
-.img-fullsize .project-links a:hover {
+body .project-links a:hover {
   color: var(--color-white);
 }
-.img-fullsize .project-subtitle {
+body .project-subtitle {
   color: #fff;
   text-shadow: var(--text-shadow-3);
 }
-.img-fullsize .project-title i {
+body .project-title i {
   color: var(--color-blue-light);
 }
 

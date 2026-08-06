@@ -2,6 +2,7 @@
 
 body
   background-color: var(--color-grey-medium)
+
   .badge
     display: flex
     flex-direction: column
@@ -22,25 +23,51 @@ body
       transition: 0.3s
       &:hover
         transform: scale(1.1)
+
   .effect-glitch
     color: var(--color-blue)
-.img-fullsize
-  figcaption
-      color: var(--color-grey-dark)
+
+  .img-fullsize
+    figcaption
+        color: var(--color-grey-dark)
+
+  .navbar-logo 
+    h1
+      color: var(--color-blue-light)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-white)
+    
+  .navbar-menu
+    i
+      color: var(--color-blue-light)
+      &:hover
+        color: var(--color-white)
+
   .project-section-desc p
     color: #fff
+
+  .project-section-title 
+    h4
+      color: var(--color-grey-medium)
+
+
   .project-section-desc,
   .project-header,
   .project-section p
     color: var(--color-white)
+
   .project-links
     a
-      color: var(--color-green)
+      color: var(--color-blue-light)
       &:hover
         color: var(--color-white)
+
   .project-subtitle
     color: #fff
     text-shadow: var(--text-shadow-3)
+
   .project-title
     i 
       color: var(--color-blue-light)

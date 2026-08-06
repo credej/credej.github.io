@@ -25,11 +25,41 @@ body .project-title h1 {
 body .project-title i {
   color: var(--color-grey-dark);
 }
+body .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-grey-dark);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-grey-dark);
+}
+body .navbar-menu i {
+  color: var(--color-grey-medium);
+}
+body .navbar-menu i:hover {
+  color: var(--color-grey-dark);
+}
 
 /* CYBERGRAD - DARK */
 body.dark-mode {
   background-color: var(--color-black);
   color: white;
+}
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-green);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-green);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-green);
 }
 body.dark-mode .project-title {
   animation: pulsate 0.11s ease-in-out infinite alternate;

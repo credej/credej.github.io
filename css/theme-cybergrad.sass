@@ -32,6 +32,20 @@ body
     figcaption
       color: var(--color-grey-dark)
 
+  .navbar-logo 
+    h1
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-grey-light)    
+        &:after
+          background-color: var(--color-grey-light)
+    
+  .navbar-menu
+    i
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-grey-medium)
+
   .page-section
     padding: 24px 0
 
@@ -64,6 +78,8 @@ body
   .project-title
     h1
       text-shadow: var(--text-shadow-1)
+    i
+      color: var(--color-grey-light)
 
 
 
@@ -75,6 +91,20 @@ body.dark-mode
   .img-fullsize
     figcaption
       color: var(--color-grey-medium)
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-white)
+    
+  .navbar-menu
+    i
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-white)
 
   .project-section
     background-color: #071426

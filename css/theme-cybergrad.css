@@ -34,6 +34,21 @@ body .img-gallery {
 body .img-fullsize figcaption {
   color: var(--color-grey-dark);
 }
+body .navbar-logo h1 {
+  color: var(--color-grey-light);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-grey-light);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-grey-light);
+}
+body .navbar-menu i {
+  color: var(--color-grey-light);
+}
+body .navbar-menu i:hover {
+  color: var(--color-grey-medium);
+}
 body .page-section {
   padding: 24px 0;
 }
@@ -64,6 +79,9 @@ body .project-tag {
 body .project-title h1 {
   text-shadow: var(--text-shadow-1);
 }
+body .project-title i {
+  color: var(--color-grey-light);
+}
 
 /* DARK */
 body.dark-mode {
@@ -71,6 +89,21 @@ body.dark-mode {
 }
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-white);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-white);
 }
 body.dark-mode .project-section {
   background-color: #071426;

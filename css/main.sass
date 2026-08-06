@@ -112,10 +112,11 @@ p
   text-shadow: var(--text-shadow-2)
   a
     font-size: var(--font-l)
+    font-style: italic
+    text-decoration: underline
+    text-decoration-style: dotted
     &:hover
       animation: blinker 1s linear infinite
-      text-decoration: underline
-      text-decoration-style: dotted
   span
     opacity: 0.4
     padding: 0 8px
@@ -139,7 +140,6 @@ p
     text-align: center
 
 .category-subtitle
-  text-shadow: var(--text-shadow-3)
   p
     font-family: "Reddit Mono", monospace
     font-family: "Courier Prime", monospace
@@ -471,7 +471,7 @@ p
   i:hover
     color: var(--color-green)
   i:active
-    color: #48DC8C
+    opacity: 0.5
 
 .page-header
   display: flex
@@ -754,7 +754,7 @@ p
 
 .subcategory
   font-size: var(--font-xxl)
-  filter: grayscale(0.8)
+  filter: grayscale(0.5)
   opacity: 0.6
   padding: 48px 0
   transition: 0.21s ease-in-out
