@@ -23,7 +23,7 @@ body .bookmark li {
   font-family: "Courier Prime", monospace;
 }
 body .bookmark h2 {
-  padding: 0 16pxw;
+  padding: 0 16px;
 }
 body .bookmark-glossary {
   cursor: pointer;
@@ -135,4 +135,7 @@ body.dark-mode .page-header-title h1 {
 }
 body.dark-mode .section-header h5 {
   color: var(--color-white);
+}
+body.dark-mode .header-simple-title i {
+  color: var(--color-purple);
 }

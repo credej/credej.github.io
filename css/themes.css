@@ -4,9 +4,6 @@ body .category-subtitle {
 body .category-links a {
   text-shadow: var(--text-shadow-3);
 }
-body .contact-bullets ul {
-  color: var(--color-grey-light);
-}
 body .intro-text {
   color: var(--color-grey-dark);
 }
@@ -42,9 +39,6 @@ body.dark-mode .category {
 }
 body.dark-mode .category-subtitle p {
   color: var(--color-grey-medium);
-}
-body.dark-mode .contact p {
-  color: var(--color-grey-light);
 }
 body.dark-mode .contact-bullets ul {
   color: var(--color-grey-medium);

@@ -1,5 +1,21 @@
 @charset "UTF-8";
 /* PAGE ELEMENTS */
+* {
+  box-sizing: border-box;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
 body {
   display: flex;
 }
@@ -124,6 +140,9 @@ p {
   text-wrap: wrap;
   word-break: break-all;
 }
+.category li {
+  list-style: none;
+}
 
 .category-links {
   line-height: 2rem;
@@ -181,7 +200,6 @@ p {
   font-size: var(--font-l);
 }
 .contact p {
-  color: var(--color-grey-medium) !important;
   line-height: 2rem;
   margin: 36px 0;
 }
@@ -200,6 +218,9 @@ p {
 }
 .contact li {
   margin: 24px;
+}
+.contact span {
+  opacity: 0.4;
 }
 
 .footer {

@@ -9,6 +9,10 @@ body {
 body .category-subtitle p {
   color: var(--color-blue-light);
 }
+body .contact p,
+body .contact ul {
+  color: var(--color-blue-light);
+}
 body .navbar-logo h1 {
   color: var(--color-blue-light);
 }
@@ -31,6 +35,12 @@ body .neon-blue {
 /* HOME PAGE - DARK THEME */
 body.dark-mode {
   background-color: #101010;
+}
+body.dark-mode .contact p {
+  color: var(--color-grey-light);
+}
+body.dark-mode .contact ul {
+  color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1 {
   color: var(--color-grey-medium);
