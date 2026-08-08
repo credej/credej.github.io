@@ -62,6 +62,9 @@ body .cli-section h1 {
 body .cli-section h2 {
   color: var(--color-grey-medium);
 }
+body .navbar-logo {
+  color: var(--color-white);
+}
 body .page-header {
   margin: 0 !important;
 }
@@ -93,6 +96,9 @@ body.dark-mode .cli-command p {
 }
 body.dark-mode #menu-button i {
   color: var(--color-white);
+}
+body.dark-mode .navbar-logo {
+  color: var(--color-green);
 }
 body.dark-mode .page-header {
   margin: 0 !important;

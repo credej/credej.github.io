@@ -39,9 +39,6 @@ body.dark-mode {
 body.dark-mode .contact p {
   color: var(--color-grey-light);
 }
-body.dark-mode .contact ul {
-  color: var(--color-white);
-}
 body.dark-mode .navbar-logo h1 {
   color: var(--color-grey-medium);
 }
