@@ -170,7 +170,7 @@
     overflow: scroll;
   }
   .navbar-logo h1 {
-    font-size: var(--font-m) !important;
+    font-size: 1.1rem;
     letter-spacing: -0.05rem;
   }
   .page-header h1 {
