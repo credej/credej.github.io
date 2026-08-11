@@ -29,7 +29,7 @@
 }
 
 .script-subtitle {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-light);
   font-family: "Cutive Mono", monospace;
   font-size: var(--font-l);
 }
@@ -53,6 +53,9 @@ body {
 body #menu-button i {
   color: var(--color-grey-light);
 }
+body .cli-command {
+  background-color: #1818C4;
+}
 body .cli-command p {
   color: var(--color-white);
 }
@@ -60,7 +63,7 @@ body .cli-section h1 {
   color: var(--color-white);
 }
 body .cli-section h2 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-light);
 }
 body .navbar-logo {
   color: var(--color-white);

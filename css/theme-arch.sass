@@ -3,36 +3,59 @@
 body
   background-color: #fff
   display: grid
+
   #menu-button
     i
       color: var(--color-grey-dark)
+
   .page-header
     margin: 0 !important
+
   .page-header-excerpt
     background-color: #101010
     text-align: right
     p
       color: var(--color-grey-medium) !important
+
   .page-header-title
     h1
       color: var(--color-grey-medium)
     i 
       color: var(--color-grey-medium)
+
+  .navbar-logo
+    h1
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-grey-dark)    
+        &:after
+          background-color: var(--color-grey-medium)
       
+
+
 /* THEME - DARK */
 
 body.dark-mode
   background-color: #000
   display: grid
+
   #menu-button
     i
       color: var(--color-white)
+
+  .navbar-logo
+    h1
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-grey-light)
+
   .page-header
     margin: 0 !important
+
   .page-header-title
     h1
       color: var(--color-white) 
     i 
       color: var(--color-green)
-
-

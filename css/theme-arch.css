@@ -22,6 +22,15 @@ body .page-header-title h1 {
 body .page-header-title i {
   color: var(--color-grey-medium);
 }
+body .navbar-logo h1 {
+  color: var(--color-grey-medium);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-grey-dark);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-grey-medium);
+}
 
 /* THEME - DARK */
 body.dark-mode {
@@ -30,6 +39,15 @@ body.dark-mode {
 }
 body.dark-mode #menu-button i {
   color: var(--color-white);
+}
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-grey-light);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-grey-light);
 }
 body.dark-mode .page-header {
   margin: 0 !important;

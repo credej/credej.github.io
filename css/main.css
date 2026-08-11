@@ -4,18 +4,6 @@
   box-sizing: border-box;
 }
 
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
-  display: block;
-  vertical-align: middle;
-}
-
 body {
   display: flex;
 }
