@@ -475,6 +475,9 @@
   .category-title h1 {
     font-size: var(--font-6xl);
   }
+  .intro-category-icons i {
+    font-size: var(--font-xxxl) !important;
+  }
   .intro-text p {
     font-size: var(--font-xl);
   }

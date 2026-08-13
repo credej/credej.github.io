@@ -316,7 +316,7 @@ p {
   justify-content: center;
   align-items: center;
   color: var(--color-grey-light);
-  font-size: var(--font-5xl);
+  font-size: var(--font-7xl);
 }
 .header-simple-title i {
   font-size: var(--font-xxl);
@@ -430,7 +430,7 @@ p {
 }
 
 #menu-button i {
-  font-size: var(--font-xl);
+  font-size: var(--font-xxxl);
 }
 
 .menu-category {
