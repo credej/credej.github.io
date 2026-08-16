@@ -350,7 +350,7 @@
     text-align: center;
   }
   .category-links a {
-    font-size: var(--font-xxxl);
+    font-size: var(--font-xxl);
     display: block;
     padding: 12px 0;
   }
@@ -472,11 +472,14 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .category-links a {
+    font-size: var(--font-xxl);
+  }
   .category-title h1 {
     font-size: var(--font-6xl);
   }
   .intro-category-icons i {
-    font-size: var(--font-xxxl) !important;
+    font-size: var(--font-xxxxl) !important;
   }
   .intro-text p {
     font-size: var(--font-xl);
@@ -528,8 +531,14 @@
   .category-links {
     padding: 0 0 72px;
   }
+  .category-links a {
+    font-size: var(--font-l);
+  }
+  .category-subtitle p {
+    font-size: var(--font-xxl);
+  }
   .category-title h1 {
-    font-size: var(--font-5xl);
+    font-size: var(--font-7xl);
   }
   .category-title i {
     font-size: var(--font-xxxl);
@@ -609,6 +618,9 @@
   }
   .category-links {
     padding: 8px 0 48px;
+  }
+  .category-links a {
+    font-size: var(--font-xxxl);
   }
   .category-title h1 {
     font-size: var(--font-5xl);
