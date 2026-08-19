@@ -155,6 +155,18 @@ body .bookmark-old a:hover {
 body.dark-mode {
   background-color: var(--color-remedy-green-dark);
 }
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-remedy-green-light);
+}
+body.dark-mode .navbar-logo h1:after {
+  background-color: var(--color-remedy-green-light);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-yellow);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-yellow);
+}
 body.dark-mode .page-header-excerpt {
   background: #343A2F;
 }

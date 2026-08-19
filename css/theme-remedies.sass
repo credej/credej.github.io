@@ -141,22 +141,38 @@ body
 
 body.dark-mode 
   background-color: var(--color-remedy-green-dark)
+
+  .navbar-logo 
+    h1
+      color: var(--color-remedy-green-light)
+      &:after
+        background-color: var(--color-remedy-green-light)
+      &:hover
+        color: var(--color-yellow)    
+        &:after
+          background-color: var(--color-yellow)
+
   .page-header-excerpt
     background: #343A2F
     p
       color: var(--color-grey-light)
+
   .page-header-title
     i
       color: var(--color-remedy-green-light)
+
   .remedy
     h2
       color: var(--color-remedy-green-light)
     p
       color: var(--color-remedy-green-light)
+
   .remedy-list
     color: var(--color-grey-light)
+
   .remedy-tag
     background-color: var(--color-remedy-green-light)
+
   .remedy-title
     p
       color: var(--color-remedy-green-light)
