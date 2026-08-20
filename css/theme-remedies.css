@@ -65,7 +65,7 @@ body .remedy-glossary a {
   border: 3px solid var(--color-yellow);
   border-radius: 8px 0 8px 0;
   color: var(--color-yellow);
-  font-family: "Cutive Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: var(--font-l);
   font-weight: 900;
   padding: 12px;

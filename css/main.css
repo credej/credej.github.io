@@ -22,12 +22,13 @@ p {
   font-family: "Telma", cursive;
   /* google fonts */
   font-family: "Courier Prime", monospace;
-  font-family: "Cutive Mono", monospace;
   font-family: "Doto", serif;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Geostar Fill", serif;
+  font-family: "Press Start 2P", system-ui;
   font-family: "Redacted Script", cursive;
   font-family: "Reddit Mono", monospace;
   font-family: "Tiny5", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 body {

@@ -42,7 +42,7 @@ body .bookmark-glossary a {
   font-weight: 900;
   padding: 12px;
   margin: 4px;
-  font-family: "Cutive Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 body .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
