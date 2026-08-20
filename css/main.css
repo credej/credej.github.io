@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+p {
+  font-size: var(--font-m);
+  /* fontshare fonts */
+  font-family: "Alpino", sans-serif;
+  font-family: "Array", sans-serif;
+  font-family: "Author", sans-serif;
+  font-family: "Boxing", sans-serif;
+  font-family: "Clash Display", sans-serif;
+  font-family: "Comico", cursive;
+  font-family: "Kihim", sans-serif;
+  font-family: "Kola", sans-serif;
+  font-family: "Literata", serif;
+  font-family: "Melodrama", serif;
+  font-family: "RX100", sans-serif;
+  font-family: "Satoshi", sans-serif;
+  font-family: "Telma", cursive;
+  /* google fonts */
+  font-family: "Courier Prime", monospace;
+  font-family: "Cutive Mono", monospace;
+  font-family: "Doto", serif;
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Redacted Script", cursive;
+  font-family: "Reddit Mono", monospace;
+  font-family: "Tiny5", monospace;
+}
+
 body {
   display: flex;
 }
@@ -66,34 +92,6 @@ a,
 .stat li,
 p, h1, h2, h3, h4, h5 {
   cursor: default;
-}
-
-p {
-  font-size: var(--font-m);
-  font-family: "Array", sans-serif;
-  font-family: "Satoshi", sans-serif;
-  font-family: "Clash Display", sans-serif;
-  font-family: "Telma", cursive;
-  font-family: "Author", sans-serif;
-  font-family: "Alpino", sans-serif;
-  font-family: "Comico", cursive;
-  font-family: "Melodrama", serif;
-  font-family: "Boxing", sans-serif;
-  font-family: "Kola", sans-serif;
-  font-family: "RX100", sans-serif;
-  font-family: "Literata", serif;
-  font-family: "Kihim", sans-serif;
-  font-family: "Array", sans-serif;
-  font-family: "Redacted Script", cursive;
-  font-family: "Libre Barcode 39 Text", system-ui;
-  font-family: "Press Start 2P", system-ui;
-  font-family: "Cutive Mono", monospace;
-  font-family: "Doto", serif;
-  font-family: "Tiny5", monospace;
-  font-family: "Reddit Mono", monospace;
-  font-family: "Courier Prime", monospace;
-  font-family: "Cutive Mono", monospace;
-  font-family: "JetBrains Mono", monospace;
 }
 
 /* MAIN STYLES */
