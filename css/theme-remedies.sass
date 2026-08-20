@@ -1,16 +1,40 @@
 /* BOOKMARKS - LIGHT */
 
 body
-  background-color: var(--color-remedy-green-light)
-  .page-header-excerpt
-    background-color: #6B7A60
-    p
+  background-color: #6B7A60
+        
+  .navbar-logo 
+    h1
       color: var(--color-grey-light)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-white)
+
+  .navbar-menu
+    i
+      color: var(--color-grey-light)
+    i:hover
+      color: var(--color-white)
+    i:active
+      opacity: 0.8
+
+  #navbar-theme-toggle
+    opacity: 0.71
+    &:hover
+      opacity: 1.0
+
+  .page-header-excerpt
+    background-color: #7B8A6F
+    p
+      color: var(--color-white)
+
   .page-header-title
     h1
       color: var(--color-white)
     i
-      color: var(--color-grey-light)
+      color: var(--color-yellow)
+
   .section-header
     h5
       color: var(--color-white)
@@ -71,9 +95,8 @@ body
       padding: 12px 0
 
   .remedy-section-title
-    align-items: center
     display: flex
-    flex-direction: row
+    flex-direction: column
     h2
       color: var(--color-white)
       font-size: var(--font-xl)
@@ -106,14 +129,11 @@ body
     background-color: #6B7A60
     border-radius: 3px
     color: var(--color-grey-light)
-    cursor: pointer
     display: inline-block
     letter-spacing: 0
     margin: 16px 16px 16px 0
-    opacity: 0.8
+    opacity: 0.5
     padding: 4px 12px
-    &:hover 
-      opacity: 1
 
   .remedy-title
     color: var(--color-yellow)
@@ -151,6 +171,19 @@ body.dark-mode
         color: var(--color-yellow)    
         &:after
           background-color: var(--color-yellow)
+
+  .navbar-menu
+    i
+      color: var(--color-remedy-green-light)
+    i:hover
+      color: var(--color-yellow)
+    i:active
+      opacity: 0.7
+
+  #navbar-theme-toggle
+    fill: var(--color-remedy-green-light)
+    &:hover
+      fill: var(--color-yellow)
 
   .page-header-excerpt
     background: #343A2F

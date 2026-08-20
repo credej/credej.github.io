@@ -612,10 +612,10 @@
     padding: 8px 0 48px;
   }
   .category-links a {
-    font-size: var(--font-xxxl);
+    font-size: var(--font-xxl);
   }
   .category-title h1 {
-    font-size: var(--font-5xl);
+    font-size: var(--font-6xl);
   }
   .category-title i {
     font-size: var(--font-xxxl);
@@ -631,7 +631,7 @@
   }
   .menu-category-title h2 {
     color: #fff;
-    font-size: var(--font-xxs) !important;
+    font-size: var(--font-xxl) !important;
     font-weight: 900;
     text-shadow: var(--text-shadow-3);
   }

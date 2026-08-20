@@ -1,18 +1,42 @@
 /* BOOKMARKS - LIGHT */
 body {
-  background-color: var(--color-remedy-green-light);
-}
-body .page-header-excerpt {
   background-color: #6B7A60;
 }
-body .page-header-excerpt p {
+body .navbar-logo h1 {
   color: var(--color-grey-light);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-white);
+}
+body .navbar-menu i {
+  color: var(--color-grey-light);
+}
+body .navbar-menu i:hover {
+  color: var(--color-white);
+}
+body .navbar-menu i:active {
+  opacity: 0.8;
+}
+body #navbar-theme-toggle {
+  opacity: 0.71;
+}
+body #navbar-theme-toggle:hover {
+  opacity: 1;
+}
+body .page-header-excerpt {
+  background-color: #7B8A6F;
+}
+body .page-header-excerpt p {
+  color: var(--color-white);
 }
 body .page-header-title h1 {
   color: var(--color-white);
 }
 body .page-header-title i {
-  color: var(--color-grey-light);
+  color: var(--color-yellow);
 }
 body .section-header h5 {
   color: var(--color-white);
@@ -79,9 +103,8 @@ body .remedy-list-title h3 {
   padding: 12px 0;
 }
 body .remedy-section-title {
-  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 body .remedy-section-title h2 {
   color: var(--color-white);
@@ -118,15 +141,11 @@ body .remedy-tag {
   background-color: #6B7A60;
   border-radius: 3px;
   color: var(--color-grey-light);
-  cursor: pointer;
   display: inline-block;
   letter-spacing: 0;
   margin: 16px 16px 16px 0;
-  opacity: 0.8;
+  opacity: 0.5;
   padding: 4px 12px;
-}
-body .remedy-tag:hover {
-  opacity: 1;
 }
 body .remedy-title {
   color: var(--color-yellow);
@@ -166,6 +185,21 @@ body.dark-mode .navbar-logo h1:hover {
 }
 body.dark-mode .navbar-logo h1:hover:after {
   background-color: var(--color-yellow);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-remedy-green-light);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-yellow);
+}
+body.dark-mode .navbar-menu i:active {
+  opacity: 0.7;
+}
+body.dark-mode #navbar-theme-toggle {
+  fill: var(--color-remedy-green-light);
+}
+body.dark-mode #navbar-theme-toggle:hover {
+  fill: var(--color-yellow);
 }
 body.dark-mode .page-header-excerpt {
   background: #343A2F;
