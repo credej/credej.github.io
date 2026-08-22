@@ -18,10 +18,13 @@ body .navbar-logo h1 {
   color: var(--color-blue-light);
 }
 body .navbar-logo h1:hover {
-  color: var(--color-white);
+  color: #ececec;
 }
 body .navbar-logo h1:hover:after {
-  background-color: var(--color-white);
+  background-color: #ececec;
+}
+body .navbar-logo h1:after {
+  background-color: #ececec;
 }
 body .navbar-menu i {
   color: var(--color-blue-light);
