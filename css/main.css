@@ -115,6 +115,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .category {
+  box-shadow: var(--box-shadow-3);
   font-family: "Yellowtail", monospace;
   margin: 96px 0;
   padding: 72px;
@@ -158,6 +159,22 @@ p, h1, h2, h3, h4, h5 {
   opacity: 0.4;
 }
 
+.category-subtitle p {
+  font-family: "Reddit Mono", monospace;
+  font-family: "Courier Prime", monospace;
+  font-size: var(--font-l);
+  font-style: italic;
+  font-family: "Alpino", sans-serif;
+  font-family: "Array", sans-serif;
+  font-family: "Author", sans-serif;
+  font-family: "Boxing", sans-serif;
+  font-family: "Clash Display", sans-serif;
+  font-family: "Comico", cursive;
+  font-family: "Kihim", sans-serif;
+  font-family: "Kola", sans-serif;
+  font-family: "Literata", serif;
+}
+
 .category-title {
   display: flex;
   align-items: center;
@@ -174,13 +191,6 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-xl);
   padding: 0 24px 4px 0;
   text-align: center;
-}
-
-.category-subtitle p {
-  font-family: "Reddit Mono", monospace;
-  font-family: "Courier Prime", monospace;
-  font-size: var(--font-l);
-  font-style: italic;
 }
 
 .contact {
