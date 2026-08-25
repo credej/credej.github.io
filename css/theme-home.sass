@@ -13,7 +13,11 @@ body
 
   .contact p,
   .contact ul
-    color: var(--color-blue-light)
+    color: var(--color-white)
+
+  .footer-text
+    h1
+      color: var(--color-white)
 
   .navbar-logo 
     h1
@@ -34,13 +38,25 @@ body
   .neon-blue
     animation: none
 
+  .stats
+    h1
+      color: var(--color-cyber-bg)
+      font-weight: 700
+
 /* HOME PAGE - DARK THEME */
 
 body.dark-mode 
   background-color: #101010
 
-  .contact p
+  .contact p,
+  .contact ul
     color: var(--color-grey-light)
+
+  .footer-text
+    h1
+      color: var(--color-grey-light)
+    p
+      color: var(--color-grey-medium)
 
   .navbar-logo 
     h1
@@ -58,3 +74,7 @@ body.dark-mode
 
   .neon-blue
     animation: pulsate-blue 0.11s ease-in-out infinite alternate
+
+  .stats
+    h1
+      color: var(--color-yellow)

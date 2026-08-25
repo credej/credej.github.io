@@ -3125,6 +3125,124 @@
       "oAP" : "\/pages\/gadgets\/otherdevices\/index.html",
       "oF" : 0
     },
+    "\/pages\/health\/recipes\/img\/goodeats-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 343498,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/img\/goodeats-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/recipes\/img\/recipe-salad-spinach-poppy.jpg" : {
+      "ft" : 16384,
+      "iS" : 1134383,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/img\/recipe-salad-spinach-poppy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/recipes\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/health\/recipes\/rolodex\/cookies\/crumbl\/img\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 1691864,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/cookies\/crumbl\/img\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/recipes\/rolodex\/cookies\/crumbl\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/cookies\/crumbl\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/health\/recipes\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 2042375,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/recipes\/rolodex\/maindish\/bbq-ribs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/maindish\/bbq-ribs\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/health\/recipes\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg" : {
+      "ft" : 16384,
+      "iS" : 2042375,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/recipes\/rolodex\/maindish\/spaghettimeatballs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/recipes\/rolodex\/maindish\/spaghettimeatballs\/index.html",
+      "oF" : 0
+    },
+    "\/pages\/health\/remedies\/img\/remedies-banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 244537,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/remedies\/img\/remedies-banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/remedies\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/remedies\/index.html",
+      "oF" : 0
+    },
     "\/pages\/otherstuff\/bookmarks\/img\/bookmarks-banner.jpg" : {
       "ft" : 16384,
       "iS" : 1928551,
@@ -3204,103 +3322,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/otherstuff\/fooddeals\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/goodeats\/img\/goodeats-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 343498,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/img\/goodeats-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/goodeats\/img\/recipe-salad-spinach-poppy.jpg" : {
-      "ft" : 16384,
-      "iS" : 1134383,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/img\/recipe-salad-spinach-poppy.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/goodeats\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/img\/recipe-cookie-crumbl.jpg" : {
-      "ft" : 16384,
-      "iS" : 1691864,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/img\/recipe-cookie-crumbl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/cookies\/crumbl\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg" : {
-      "ft" : 16384,
-      "iS" : 2042375,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/images\/recipe-cookie-crumbl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/bbq-ribs\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg" : {
-      "ft" : 16384,
-      "iS" : 2042375,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/images\/recipe-cookie-crumbl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/goodeats\/rolodex\/maindish\/spaghettimeatballs\/index.html",
       "oF" : 0
     },
     "\/pages\/otherstuff\/quotes\/img\/bookmarks-banner.jpg" : {
@@ -3413,27 +3434,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/otherstuff\/quotes\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/remedies\/img\/remedies-banner.jpg" : {
-      "ft" : 16384,
-      "iS" : 244537,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/remedies\/img\/remedies-banner.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/remedies\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/remedies\/index.html",
       "oF" : 0
     },
     "\/pages\/otherstuff\/test\/img\/banner-bookmark.jpg" : {

@@ -12,7 +12,10 @@ body .category-subtitle p {
 }
 body .contact p,
 body .contact ul {
-  color: var(--color-blue-light);
+  color: var(--color-white);
+}
+body .footer-text h1 {
+  color: var(--color-white);
 }
 body .navbar-logo h1 {
   color: var(--color-blue-light);
@@ -35,13 +38,24 @@ body .navbar-menu i:hover {
 body .neon-blue {
   animation: none;
 }
+body .stats h1 {
+  color: var(--color-cyber-bg);
+  font-weight: 700;
+}
 
 /* HOME PAGE - DARK THEME */
 body.dark-mode {
   background-color: #101010;
 }
-body.dark-mode .contact p {
+body.dark-mode .contact p,
+body.dark-mode .contact ul {
   color: var(--color-grey-light);
+}
+body.dark-mode .footer-text h1 {
+  color: var(--color-grey-light);
+}
+body.dark-mode .footer-text p {
+  color: var(--color-grey-medium);
 }
 body.dark-mode .navbar-logo h1 {
   color: var(--color-grey-medium);
@@ -60,4 +74,7 @@ body.dark-mode .navbar-menu i:hover {
 }
 body.dark-mode .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
+}
+body.dark-mode .stats h1 {
+  color: var(--color-yellow);
 }

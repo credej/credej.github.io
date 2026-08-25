@@ -155,7 +155,6 @@ p, h1, h2, h3, h4, h5
     text-align: center
 
 .contact
-  padding: 96px 72px
   a
     color: var(--color-white)
     font-size: var(--font-xl)
@@ -168,8 +167,12 @@ p, h1, h2, h3, h4, h5
   a:hover
     animation: blinker 1s linear infinite
   ul
+    font-size: var(--font-xxl)
+    font-family: "Reddit Mono", monospace 
+    font-family: "Doto", serif
     list-style-type: disc
     margin: 0 0 24px
+    text-transform: uppercase
   li
     margin: 24px
   span
@@ -238,19 +241,18 @@ p, h1, h2, h3, h4, h5
     color: var(--color-orange)
 
 .footer-text
-  align-items: center
-  display: flex
-  flex-direction: column
-  justify-content: center
   padding: 48px
+  text-align: center
   h1
-    color: var(--color-grey-dark)
+    color: var(--color-grey-medium)
     font-family: 'Array', sans-serif
     font-size: 4rem
+    line-height: 4.4rem
+    padding: 12px 0
   p
     color: var(--color-grey-medium)
     font-family: "Yellowtail", monospace
-    font-size: var(--font-s)
+    color: var(--color-grey-dark)
 
 .footer-text-flashing
   animation: blink-animation 0.87s infinite
@@ -428,6 +430,7 @@ p, h1, h2, h3, h4, h5
   max-height: 100vh 
   position: fixed
   backdrop-filter: blur(187px)
+  overflow-y: none
   // -webkit-backdrop-filter: blur(187px)
   // box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
   // -webkit-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
@@ -446,8 +449,8 @@ p, h1, h2, h3, h4, h5
       top: 50%
       left: 50%
       transform: translate(-50%, -50%)
-      width: 1.25rem
-      height: 1.25rem
+      width: 1.6rem
+      height: 1.6rem
       pointer-events: none
 
 .navbar
@@ -691,10 +694,19 @@ p, h1, h2, h3, h4, h5
   flex-direction: space-between
   gap: 1rem
 
+
 .stats
   flex: 1
   padding: 1rem
-  margin: 72px 0 !important
+  margin: 96px 0 0 !important
+  h1
+    display: flex
+    justify-content: center
+    font-family: "Doto", serif 
+    font-size: var(--font-7xl)
+    margin: 24px 0
+    text-transform: uppercase
+    word-break: normal
 
 .stat 
   flex: 1
@@ -710,7 +722,7 @@ p, h1, h2, h3, h4, h5
     font-family: "Geostar Fill", serif  
     span 
       color: var(--color-grey-medium)
-      font-size: var(--font-s)
+      font-size: var(--font-xxxl)
       margin-right: 12px
   a 
     text-decoration: none
@@ -733,6 +745,12 @@ p, h1, h2, h3, h4, h5
     text-transform: uppercase
     letter-spacing: 0.07em
     font-size: var(--font-9xl)
+    font-family: "Doto", serif 
+  h3
+    font-family: "Doto", serif 
+    font-weight: 900
+    font-size: var(--font-xl)
+    margin: 12px 0 36px
   p
     font-family: "Doto", serif 
     margin: 12px 0 36px
@@ -761,16 +779,6 @@ p, h1, h2, h3, h4, h5
   margin: auto
   h1
     text-align: center
-
-.stats-container-title
-  display: flex
-  justify-content: center
-  h1
-    color: var(--color-yellow)
-    font-family: "Doto", serif 
-    font-size: var(--font-7xl)
-    margin: 24px 0
-    text-transform: uppercase
 
 .subcategory
   font-size: var(--font-xxl)
