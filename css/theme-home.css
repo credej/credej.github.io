@@ -39,7 +39,7 @@ body .neon-blue {
   animation: none;
 }
 body .stats h1 {
-  color: var(--color-cyber-bg);
+  color: var(--color-green);
   font-weight: 700;
 }
 
@@ -76,5 +76,5 @@ body.dark-mode .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }
 body.dark-mode .stats h1 {
-  color: var(--color-yellow);
+  color: var(--color-green);
 }

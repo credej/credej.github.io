@@ -129,12 +129,13 @@ p, h1, h2, h3, h4, h5 {
   word-break: break-all;
 }
 .category li {
+  font-size: var(--font-xxxl);
+  line-height: 2rem;
   list-style: none;
 }
 
 .category-links {
   line-height: 2rem;
-  padding: 8px 0 48px;
   text-shadow: var(--text-shadow-2);
 }
 .category-links a {
@@ -193,7 +194,7 @@ p, h1, h2, h3, h4, h5 {
 }
 .contact p {
   line-height: 2rem;
-  margin: 72px 0 0;
+  margin: 24px 0;
 }
 .contact a:hover {
   animation: blinker 1s linear infinite;
@@ -832,7 +833,7 @@ p, h1, h2, h3, h4, h5 {
 .stats {
   flex: 1;
   padding: 1rem;
-  margin: 96px 0 0 !important;
+  margin: 192px 0 0 !important;
 }
 .stats h1 {
   display: flex;
@@ -924,6 +925,7 @@ p, h1, h2, h3, h4, h5 {
   justify-content: space-between;
   max-width: 960px;
   margin: auto;
+  flex-direction: column;
 }
 .stats-container h1 {
   text-align: center;

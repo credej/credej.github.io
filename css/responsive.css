@@ -286,9 +286,6 @@
     padding: 12px;
     text-align: center;
   }
-  .stats-container {
-    display: block;
-  }
   .stat {
     margin: 48px 0;
   }
@@ -587,6 +584,9 @@
   .project-title i {
     font-size: var(--font-xxxl);
   }
+  .stats-container {
+    flex-direction: row;
+  }
   .subcategory {
     padding: 0;
   }
@@ -601,7 +601,6 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  #footer,
   .site-main {
     width: 100% !important;
   }
@@ -667,6 +666,9 @@
   .site-main {
     padding: 0 20vw;
   }
+  .stats-container {
+    flex-direction: row;
+  }
   .subcategory-excerpt p {
     font-size: var(--font-xl);
     line-height: 2rem;
@@ -677,8 +679,7 @@
 }
 @media (min-width: 2450px) {
   #navbar,
-  .site-main,
-  .footer {
+  .site-main {
     padding: 0 25vw;
   }
   .project-title i {
