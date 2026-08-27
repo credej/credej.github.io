@@ -6,6 +6,12 @@
 body {
   background-color: var(--color-blue-dodger);
 }
+body .category-links a {
+  text-shadow: var(--text-shadow-3);
+}
+body .category-subtitle {
+  margin: 0 0 8px;
+}
 body .category-subtitle p {
   color: var(--color-grey-light);
   text-shadow: var(--text-shadow-1);
@@ -15,6 +21,15 @@ body .contact ul {
   color: var(--color-white);
 }
 body .footer-text h1 {
+  color: var(--color-white);
+}
+body .intro-text {
+  color: var(--color-grey-dark);
+}
+body .intro-text a span {
+  text-shadow: var(--text-shadow-3);
+}
+body .menu-list a:hover {
   color: var(--color-white);
 }
 body .navbar-logo h1 {
@@ -38,6 +53,17 @@ body .navbar-menu i:hover {
 body .neon-blue {
   animation: none;
 }
+body .project-tag {
+  background-color: var(--color-grey-light);
+  color: var(--color-grey-dark);
+  opacity: 0.5;
+}
+body .project-title h1 {
+  text-shadow: none;
+}
+body .stat {
+  background-color: #1f262c;
+}
 body .stats h1 {
   color: var(--color-green);
   font-weight: 700;
@@ -47,15 +73,36 @@ body .stats h1 {
 body.dark-mode {
   background-color: #101010;
 }
+body.dark-mode .category {
+  box-shadow: 8px 16px 16px hsla(0, 0%, 0%, 0.25);
+}
+body.dark-mode .category-subtitle p {
+  color: var(--color-grey-medium);
+}
 body.dark-mode .contact p,
 body.dark-mode .contact ul {
   color: var(--color-grey-light);
+}
+body.dark-mode .contact-bullets ul {
+  color: var(--color-grey-medium);
+}
+body.dark-mode .dark {
+  display: block !important;
 }
 body.dark-mode .footer-text h1 {
   color: var(--color-grey-light);
 }
 body.dark-mode .footer-text p {
   color: var(--color-grey-medium);
+}
+body.dark-mode .intro-text {
+  color: var(--color-grey-light);
+}
+body.dark-mode .menu-list a {
+  text-shadow: var(--text-shadow-1);
+}
+body.dark-mode .menu-list a:hover {
+  color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1 {
   color: var(--color-grey-medium);
@@ -74,6 +121,12 @@ body.dark-mode .navbar-menu i:hover {
 }
 body.dark-mode .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
+}
+body.dark-mode .project-title h1 {
+  text-shadow: inherit;
+}
+body.dark-mode .stat {
+  background-color: #2F313D;
 }
 body.dark-mode .stats h1 {
   color: var(--color-green);

@@ -273,8 +273,8 @@ p, h1, h2, h3, h4, h5 {
 .footer-categories {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
-  margin: 48px 0;
-  padding: 32px 72px;
+  margin: 72px 0;
+  padding: 72px;
   text-align: center;
 }
 
@@ -327,17 +327,17 @@ p, h1, h2, h3, h4, h5 {
   margin: 0 24px 0 0;
 }
 .header-simple-title h1 {
-  letter-spacing: 0.29rem;
   font-family: "Melodrama", serif;
   font-family: "Reddit Mono", monospace;
   font-family: "Tiny5", monospace;
+  letter-spacing: 0.29rem;
+  line-height: 3rem;
+  text-shadow: var(--text-shadow-1);
   text-transform: uppercase;
 }
 
 .header-simple-excerpt {
-  color: var(--color-grey-medium);
   margin: 0 25vw;
-  padding: 8px 0;
 }
 
 .img-fullsize {
@@ -555,6 +555,7 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-xxxl);
 }
 .navbar-logo h1:after {
+  background-color: #ececec;
   border-radius: 1px;
   content: "";
   display: inline-block;
@@ -851,7 +852,7 @@ p, h1, h2, h3, h4, h5 {
   box-shadow: var(--box-shadow-1);
   color: #fff;
   margin: 15px 8px;
-  padding: 32px;
+  padding: 48px 32px;
 }
 .stat:hover {
   transform: translateY(-12px);

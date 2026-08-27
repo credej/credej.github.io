@@ -12,15 +12,13 @@ body .badge {
   text-align: center;
 }
 body .badge h3 {
-  color: #BFE4E2;
+  color: #265E55;
   font-family: "Reddit Mono", monospace;
-  font-size: var(--font-l);
   margin: 24px 0 12px;
 }
 body .badge p {
-  color: var(--color-white);
+  color: #41A392;
   font-family: "Reddit Mono", monospace;
-  font-size: var(--font-s);
 }
 body .badge img {
   transition: 0.3s;
@@ -57,6 +55,9 @@ body .navbar-menu i {
 }
 body .navbar-menu i:hover {
   color: var(--color-grey-medium);
+}
+body .neon-blue {
+  animation: none;
 }
 body .page-section {
   padding: 24px 0;
@@ -101,6 +102,9 @@ body .project-title i {
 body.dark-mode {
   background-color: #040D19;
 }
+body.dark-mode .badge h3 {
+  color: #BFE4E2;
+}
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-medium);
 }
@@ -118,6 +122,9 @@ body.dark-mode .navbar-menu i {
 }
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-white);
+}
+body.dark-mode .neon-blue {
+  animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }
 body.dark-mode .project-header h2 {
   color: #BFE4E2;

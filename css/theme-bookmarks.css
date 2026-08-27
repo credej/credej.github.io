@@ -1,6 +1,6 @@
 /* BOOKMARKS - LIGHT */
 .site-main {
-  margin: 72px 0 0;
+  margin: 48px 0 0;
 }
 
 body {
@@ -30,25 +30,27 @@ body .bookmark-glossary {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 12px 24px 0;
   padding: 0 0 96px;
 }
 body .bookmark-glossary a {
   background: var(--color-green);
   border: 3px solid var(--color-green);
-  color: var(--color-purple);
+  color: var(--color-purple) !important;
   border-radius: 8px 8px 8px 0;
   cursor: pointer;
-  font-size: var(--font-l);
-  font-weight: 900;
+  font-weight: 500;
   padding: 12px;
   margin: 4px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Courier Prime", monospace;
+  box-shadow: var(--box-shadow-3);
 }
 body .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
-  background: none;
+  background: var(--color-purple);
   border: 3px solid rgb(109, 255, 176);
   color: var(--color-green) !important;
+  font-weight: 900;
 }
 body .bookmark-old a {
   text-decoration: line-through;
@@ -85,7 +87,7 @@ body .header-simple-title {
   color: var(--color-white);
 }
 body .header-simple-title i {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 body .navbar-logo h1 {
   color: var(--color-grey-light);
@@ -119,10 +121,19 @@ body.dark-mode .bookmark a {
 body.dark-mode .bookmark-glossary {
   display: flex;
   flex-wrap: wrap;
-  margin: 12px 0 0;
+  padding: 0 24px;
 }
 body.dark-mode .bookmark-glossary a {
-  color: var(--color-blue-storm);
+  background: var(--color-purple);
+  border: 3px solid var(--color-purple);
+  color: var(--color-blue-storm) !important;
+}
+body.dark-mode .bookmark-glossary a:hover {
+  animation: blinker 1s linear infinite;
+  background: var(--color-green);
+  border: 3px solid var(--color-green);
+  color: var(--color-blue-storm) !important;
+  font-weight: 900;
 }
 body.dark-mode .page-header-excerpt {
   background-color: #191D26;

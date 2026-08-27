@@ -12,14 +12,12 @@ body
     height: 450px
     text-align: center
     h3
-      color: #BFE4E2
+      color: #265E55
       font-family: "Reddit Mono", monospace
-      font-size: var(--font-l)
       margin: 24px 0 12px
     p
-      color: var(--color-white)
+      color: #41A392
       font-family: "Reddit Mono", monospace
-      font-size: var(--font-s)
     img
       transition: 0.3s
       &:hover
@@ -55,6 +53,9 @@ body
       color: var(--color-grey-light)
       &:hover
         color: var(--color-grey-medium)
+
+  .neon-blue
+    animation: none
 
   .page-section
     padding: 24px 0
@@ -104,6 +105,10 @@ body
 body.dark-mode
   background-color: #040D19
 
+  .badge
+    h3
+      color: #BFE4E2
+
   .img-fullsize
     figcaption
       color: var(--color-grey-medium)
@@ -121,6 +126,9 @@ body.dark-mode
       color: var(--color-grey-medium)
       &:hover
         color: var(--color-white)
+
+  .neon-blue
+    animation: pulsate-blue 0.11s ease-in-out infinite alternate
 
   .project-header
     h2

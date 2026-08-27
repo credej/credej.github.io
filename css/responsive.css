@@ -3,6 +3,12 @@
     height: auto !important;
     padding: 48px 0;
   }
+  .badge h3 {
+    font-size: var(--font-xxxl);
+  }
+  .badge p {
+    font-size: var(--font-l);
+  }
   .badges-container {
     padding: 12px 36px;
   }
@@ -11,21 +17,13 @@
   }
   .bookmark-glossary {
     justify-content: center;
-  }
-  .bookmark-glossary a {
-    font-size: var(--font-m) !important;
-    letter-spacing: -0.15rem;
-    padding: 8px !important;
-    margin: 2px !important;
+    padding: 0 0 96px !important;
   }
   .bookmark-section {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  .bookmark-section li {
-    font-size: var(--font-m);
   }
   .category {
     margin: 0;
@@ -91,13 +89,16 @@
     width: 100%;
   }
   .header-simple {
-    padding: 144px 0 0;
+    padding: 120px 0 0;
   }
   .header-simple-excerpt {
     margin: 0 10vw;
   }
   .header-simple-excerpt p {
     font-size: var(--font-s);
+  }
+  .header-simple-title {
+    font-size: var(--font-xxxl);
   }
   .hide-mobile {
     display: none;
@@ -331,6 +332,13 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .badge h3 {
+    font-size: var(--font-xxxxl);
+  }
+  .badge p {
+    font-size: var(--font-xl);
+    padding: 0 48px;
+  }
   .category-links {
     line-height: 2.4rem;
     text-indent: 0;
@@ -391,9 +399,7 @@
   .project-section {
     padding: 72px;
   }
-  .project-section p {
-    text-align: justify;
-  }
+  .project-section-desc,
   .project-section-title h4 {
     text-align: center;
   }
@@ -458,6 +464,12 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .badge h3 {
+    font-size: var(--font-xxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
   .category-links a {
     font-size: var(--font-xxl);
   }
@@ -513,6 +525,12 @@
 @media screen and (min-width: 1280px) and (max-width: 1979px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
+  }
+  .badge h3 {
+    font-size: var(--font-xxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
   }
   .category-links {
     padding: 0 0 72px;
@@ -601,6 +619,12 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
+  .badge h3 {
+    font-size: var(--font-xxxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
   .site-main {
     width: 100% !important;
   }
@@ -623,7 +647,7 @@
     font-size: var(--font-xl);
   }
   .intro-category-icons i {
-    font-size: var(--font-5xl) !important;
+    font-size: var(--font-xxxl) !important;
   }
   .menu-category-title h2 {
     color: #fff;
@@ -663,7 +687,8 @@
     font-size: var(--font-xxxl);
   }
   #navbar,
-  .site-main {
+  .site-main,
+  .footer {
     padding: 0 20vw;
   }
   .stats-container {

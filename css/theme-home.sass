@@ -6,7 +6,12 @@
 body
   background-color: var(--color-blue-dodger)
 
+  .category-links
+    a
+      text-shadow: var(--text-shadow-3)
+
   .category-subtitle
+    margin: 0 0 8px
     p
       color: var(--color-grey-light)
       text-shadow: var(--text-shadow-1)
@@ -18,6 +23,18 @@ body
   .footer-text
     h1
       color: var(--color-white)
+
+  .intro-text
+    color: var(--color-grey-dark)
+    a
+      span  
+        text-shadow: var(--text-shadow-3)
+
+  .menu-list
+    a
+      &:hover 
+        color: var(--color-white)
+
 
   .navbar-logo 
     h1
@@ -38,6 +55,19 @@ body
   .neon-blue
     animation: none
 
+  .project-tag
+    background-color: var(--color-grey-light)
+    color: var(--color-grey-dark)
+    opacity: 0.5
+
+  .project-title
+    h1
+      text-shadow: none
+
+  .stat 
+    background-color: #1f262c
+
+
   .stats
     h1
       color: var(--color-green)
@@ -48,15 +78,37 @@ body
 body.dark-mode 
   background-color: #101010
 
+  .category
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25)
+
+  .category-subtitle
+    p
+      color: var(--color-grey-medium)
+
   .contact p,
   .contact ul
     color: var(--color-grey-light)
+
+  .contact-bullets ul
+    color: var(--color-grey-medium)
+
+  .dark 
+    display: block !important
 
   .footer-text
     h1
       color: var(--color-grey-light)
     p
       color: var(--color-grey-medium)
+
+  .intro-text
+    color: var(--color-grey-light)
+
+  .menu-list
+    a
+      text-shadow: var(--text-shadow-1)
+      &:hover 
+        color: var(--color-white)
 
   .navbar-logo 
     h1
@@ -74,6 +126,13 @@ body.dark-mode
 
   .neon-blue
     animation: pulsate-blue 0.11s ease-in-out infinite alternate
+    
+  .project-title
+    h1
+      text-shadow: inherit
+
+  .stat
+    background-color: #2F313D
 
   .stats
     h1

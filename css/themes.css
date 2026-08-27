@@ -1,18 +1,3 @@
-body .category-subtitle {
-  margin: 0 0 8px;
-}
-body .category-links a {
-  text-shadow: var(--text-shadow-3);
-}
-body .intro-text {
-  color: var(--color-grey-dark);
-}
-body .intro-text a span {
-  text-shadow: var(--text-shadow-3);
-}
-body .menu-list a:hover {
-  color: var(--color-white);
-}
 body #navbar-theme-toggle .cs-moon {
   z-index: 2;
   transition: transform 0s, opacity 0s, fill 0s;
@@ -22,39 +7,7 @@ body #navbar-theme-toggle .cs-sun {
   opacity: 0;
   transition: transform 0s, opacity 0s;
 }
-body .project-tag {
-  background-color: var(--color-grey-light);
-  color: var(--color-grey-dark);
-  opacity: 0.5;
-}
-body .project-title h1 {
-  text-shadow: none;
-}
-body .stat {
-  background-color: #1f262c;
-}
 
-body.dark-mode .category {
-  box-shadow: 8px 16px 16px hsla(0, 0%, 0%, 0.25);
-}
-body.dark-mode .category-subtitle p {
-  color: var(--color-grey-medium);
-}
-body.dark-mode .contact-bullets ul {
-  color: var(--color-grey-medium);
-}
-body.dark-mode .dark {
-  display: block !important;
-}
-body.dark-mode .intro-text {
-  color: var(--color-grey-light);
-}
-body.dark-mode .menu-list a {
-  text-shadow: var(--text-shadow-1);
-}
-body.dark-mode .menu-list a:hover {
-  color: var(--color-white);
-}
 body.dark-mode #navbar-theme-toggle .cs-sun {
   transform: translate(-50%, -50%);
   opacity: 1;
@@ -62,14 +15,4 @@ body.dark-mode #navbar-theme-toggle .cs-sun {
 body.dark-mode #navbar-theme-toggle .cs-moon {
   transform: translate(-50%, -150%);
   opacity: 0;
-}
-body.dark-mode .project-tag {
-  background-color: var(--color-grey-dark);
-  color: var(--color-grey-light);
-}
-body.dark-mode .project-title h1 {
-  text-shadow: inherit;
-}
-body.dark-mode .stat {
-  background-color: #2F313D;
 }
