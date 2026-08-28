@@ -4,6 +4,9 @@ body {
   display: grid;
 }
 body #menu-button i {
+  color: var(--color-grey-medium);
+}
+body #menu-button i:hover {
   color: var(--color-grey-dark);
 }
 body .page-header {
@@ -38,6 +41,9 @@ body.dark-mode {
   display: grid;
 }
 body.dark-mode #menu-button i {
+  color: var(--color-grey-light);
+}
+body.dark-mode #menu-button i:hover {
   color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1 {

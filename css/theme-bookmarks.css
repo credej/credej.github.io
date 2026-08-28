@@ -68,17 +68,14 @@ body .bookmark-section {
 body .bookmark-section h2 {
   color: var(--color-green);
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xl);
   font-weight: 900;
-  padding: 0 0 1vh;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
 body .bookmark-section li {
   font-size: var(--font-l);
+  line-height: 1.2rem;
+  padding: 6px 12px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
-}
-body .bookmark-section a {
-  padding: 4px 0 4px 12px;
 }
 body .header-simple-excerpt {
   color: var(--color-grey-light);
@@ -121,18 +118,17 @@ body.dark-mode .bookmark a {
 body.dark-mode .bookmark-glossary {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 24px;
 }
 body.dark-mode .bookmark-glossary a {
   background: var(--color-purple);
   border: 3px solid var(--color-purple);
-  color: var(--color-blue-storm) !important;
+  color: var(--color-green) !important;
 }
 body.dark-mode .bookmark-glossary a:hover {
   animation: blinker 1s linear infinite;
   background: var(--color-green);
   border: 3px solid var(--color-green);
-  color: var(--color-blue-storm) !important;
+  color: var(--color-purple) !important;
   font-weight: 900;
 }
 body.dark-mode .page-header-excerpt {
@@ -148,5 +144,5 @@ body.dark-mode .section-header h5 {
   color: var(--color-white);
 }
 body.dark-mode .header-simple-title i {
-  color: var(--color-purple);
+  color: var(--color-green);
 }

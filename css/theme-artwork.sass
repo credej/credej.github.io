@@ -1,38 +1,73 @@
 /* THEME - LIGHT */
 
 body
-  background-color: var(--color-grey-light)
+  background-color: #eeeeed
   display: grid
+
+  .img-gallery
+    img
+      border-radius: 8px !important
+
   #menu-button
     i
-      color: var(--color-grey-dark)
+      color: var(--color-grey-medium)
+      &:hover
+        color: var(--color-grey-dark)    
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-grey-medium)    
+        &:after
+          background-color: var(--color-grey-medium)
+
   .page-header
     margin: 0 !important
+
   .page-header-excerpt
     background-color: #000
     text-align: right
     p
       color: var(--color-grey-medium) !important
+
   .page-header-title
     h1
       color: var(--color-grey-dark)
     i 
       color: var(--color-grey-medium)
-  .page-section
-    img
-      filter: grayscale(100%)
-      &:hover
-        filter: grayscale(0%)
+
+  // .page-section
+  //   img
+  //     filter: grayscale(100%)
+  //     &:hover
+  //       filter: grayscale(0%)
+
+
         
 /* THEME - DARK */
 
 body.dark-mode
+  background-color: #111112
   display: grid
+
   #menu-button
     i
-      color: var(--color-white)
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-white)    
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-light)
+      &:hover
+        color: var(--color-white)    
+        &:after
+          background-color: var(--color-white)
+
   .page-header
     margin: 0 !important
+
   .page-header-title
     h1
       color: var(--color-white) 

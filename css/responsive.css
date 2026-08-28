@@ -25,6 +25,9 @@
     justify-content: center;
     text-align: center;
   }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
   .category {
     margin: 0;
     padding: 72px 7.5vw 24px;
@@ -174,14 +177,21 @@
   .page-header h5 {
     text-align: center;
   }
-  .page-header-image {
+  .page-header-image img {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .page-header-excerpt {
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+  .page-header-image,
+  .page-header-excerpt {
     flex-basis: 100%;
   }
   .page-header-title {
-    justify-content: center;
+    justify-content: flex-start;
   }
   .page-header-title h1 {
-    font-size: var(--font-xl);
+    font-size: var(--font-5xl);
     letter-spacing: 0.3rem;
   }
   .page-title {
@@ -295,6 +305,9 @@
   .badges {
     margin: 144px 0 !important;
   }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
   .category-links a {
     font-size: var(--font-l);
   }
@@ -305,6 +318,16 @@
   .site-main,
   .footer {
     padding: 0 7.5vw;
+  }
+  .page-header-image img {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .page-header-excerpt {
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+  .page-header-image,
+  .page-header-excerpt {
+    flex-basis: 100%;
   }
   .project-section {
     padding: 72px;
@@ -338,6 +361,9 @@
   .badge p {
     font-size: var(--font-xl);
     padding: 0 48px;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
   }
   .category-links {
     line-height: 2.4rem;
@@ -382,6 +408,16 @@
   }
   .navbar-logo h1 {
     font-size: var(--font-l);
+  }
+  .page-header-image img {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .page-header-excerpt {
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+  .page-header-image,
+  .page-header-excerpt {
+    flex-basis: 100%;
   }
   .project-header {
     padding: 0 48px;
@@ -470,6 +506,9 @@
   .badge p {
     font-size: var(--font-m);
   }
+  .bookmark-section h2 {
+    font-size: var(--font-xxl);
+  }
   .category-links a {
     font-size: var(--font-xxl);
   }
@@ -498,6 +537,16 @@
   .site-main,
   .footer {
     padding: 0 12.5vw;
+  }
+  .page-header-image img {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .page-header-excerpt {
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+  .page-header-image,
+  .page-header-excerpt {
+    flex-basis: 100%;
   }
   .project-links {
     margin: 24px 0 96px;
@@ -531,6 +580,9 @@
   }
   .badge p {
     font-size: var(--font-m);
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxl);
   }
   .category-links {
     padding: 0 0 72px;
@@ -624,6 +676,20 @@
   }
   .badge p {
     font-size: var(--font-m);
+  }
+  .bookmark a {
+    font-size: var(--font-xxl);
+    line-height: 1.6rem;
+  }
+  .bookmark-glossary a {
+    font-size: var(--font-xl);
+    padding: 12px 24px;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
+  .bookmark-section li {
+    line-height: 1.4rem;
   }
   .site-main {
     width: 100% !important;
