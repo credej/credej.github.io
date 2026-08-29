@@ -338,6 +338,7 @@ p, h1, h2, h3, h4, h5 {
 
 .header-simple-excerpt {
   margin: 0 25vw;
+  padding: 12px 0;
 }
 
 .img-fullsize {
@@ -360,7 +361,7 @@ p, h1, h2, h3, h4, h5 {
   max-height: 100%;
   min-width: 100%;
   object-fit: cover;
-  padding: 24px 0;
+  margin: 48px 0;
   vertical-align: bottom;
   width: 100%;
 }
@@ -728,7 +729,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .project-section p {
-  color: var(--color-white);
   font-family: "Yellowtail", monospace;
   line-height: 1.8rem;
   margin: 18px 0;
@@ -749,25 +749,22 @@ p, h1, h2, h3, h4, h5 {
   margin-right: 24px;
 }
 
-.project-section-desc {
-  margin: 36px 0;
-}
-.project-section-desc p {
-  font-family: "JetBrains Mono", monospace;
-  text-indent: 36px;
-}
-
 .project-section-title h3 {
   font-family: "Courier Prime", monospace;
-  font-size: var(--font-xxxxl) !important;
+  font-size: var(--font-5xl) !important;
   line-height: 2.4rem;
 }
 
 /* this should be .project-section-subtitle */
 .project-section-title h4 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
   font-family: "JetBrains Mono", monospace;
   padding: 12px 0;
+}
+.project-section-title p {
+  color: var(--color-white);
+  font-family: "Yellowtail", monospace;
+  font-size: var(--font-l);
 }
 
 .project-section-tags {

@@ -3,9 +3,6 @@ body {
   background-color: #eeeeed;
   display: grid;
 }
-body .img-gallery img {
-  border-radius: 8px !important;
-}
 body #menu-button i {
   color: var(--color-grey-medium);
 }
@@ -35,7 +32,7 @@ body .page-header-title h1 {
   color: var(--color-grey-dark);
 }
 body .page-header-title i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-light);
 }
 
 /* THEME - DARK */

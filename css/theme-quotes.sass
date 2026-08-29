@@ -5,15 +5,22 @@
 
 body
   background-color: #ececec
+  background-color: #78cdd0
+  background-color: #96D4D6
 
 .effect-glitch
   color: var(--color-purple)
 
+.header-simple-excerpt
+  p
+    color: var(--color-grey-medium)
+
+
 .header-simple-title
   h1
-    color: var(--color-grey-medium)
+    color: #ececec
   i
-    color: var(--color-purple)
+    color: var(--color-grey-light)
 
 .menu-category-title
   h2
@@ -26,59 +33,64 @@ body
   a
     text-shadow: var(--text-shadow-3)
 
-.navbar-logo 
+.navbar-logo
   h1
-    color: var(--color-grey-light)    
+    color: var(--color-grey-medium)
+    &:after
+      background-color: var(--color-grey-medium)
     &:hover
-      color: var(--color-grey-medium)    
+      color: var(--color-white)    
       &:after
-        background-color: var(--color-grey-medium)
+        background-color: var(--color-grey-dark)
     
 .navbar-menu
   i
-    color: var(--color-grey-light)
+    color: var(--color-grey-medium)
     &:hover
-      color: var(--color-grey-dark)
+      color: var(--color-white)
 
 .quote-container
   break-inside: avoid
 
 .quote
-  padding: 0 0 72px
+  padding: 0 0 48px
   text-align: right
 
 .quote-text
   background-color: whitesmoke
-  border-radius: 16px 16px 0 16px
+  background-color: #CDF4F3
+  border-radius: 24px 24px 0 24px
   box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.1)
-  color: var(--color-grey-light) !important
-  font-family: "Reddit Mono", monospace
+  color: var(--color-grey-medium)
   font-family: "Lusitana", serif
-  font-size: var(--font-xl)
+  font-size: var(--font-xxl)
   font-style: italic
   font-weight: 400
-  letter-spacing: 1px
   line-height: 2rem
   margin-bottom: 12px
-  padding: 36px
+  padding: 48px
   text-align: left
+  text-shadow: var(--text-shadow-1)
 
 .quote-by
-  color: var(--color-grey-medium)
+  color: var(--color-white)
   font-family: "Roboto Mono", monospace
   font-size: var(--font-l)
   font-style: normal
-  font-weight: 400
+  font-weight: 900
+  opacity: 0.71
+  padding: 8px 0
+  text-shadow: var(--text-shadow-3)
 
-.quote-link 
+.quote-link
   font-family: "JetBrains Mono", "Courier Prime", monospace
-  color: var(--color-purple)
-  font-size: var(--font-m)
+  color: #ececec
+  font-size: var(--font-l)
   line-height: 1.0rem
-  margin: 8px 0
   text-align: right
+  text-decoration: underline
   // text-shadow: var(--text-shadow-3)
-  &:hover 
+  &:hover
     animation: blinker 0.4s linear infinite
 
 .page-header-excerpt
@@ -102,6 +114,10 @@ body.dark-mode
   background-color: var(--color-black) 
   color: white
 
+  .header-simple-excerpt
+    p
+      color: var(--color-grey-medium)
+
   .header-simple-title
     h1
       color: var(--color-white)
@@ -114,19 +130,24 @@ body.dark-mode
   .quote-by
     color: var(--color-grey-medium)
 
-  .navbar-logo 
+  .quote-link
+    color: var(--color-grey-medium)
+
+  .navbar-logo
     h1
-      color: var(--color-grey-medium)    
+      color: var(--color-grey-medium)
+      &:after
+        background-color: var(--color-grey-medium)
       &:hover
-        color: #48DC8C 
+        color: var(--color-purple)    
         &:after
-          background-color: var(--color-green)
+          background-color: var(--color-purple)
 
   .navbar-menu
     i
       color: var(--color-grey-medium)
       &:hover
-        color: var(--color-grey-light)
+        color: var(--color-purple)
 
   .page-header-excerpt
     background-color: #1D212C

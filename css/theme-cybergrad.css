@@ -76,7 +76,7 @@ body .project-section {
   background-color: #AEF4E9;
 }
 body .project-section p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-light);
 }
 body .project-section-title h3 {
   color: var(--color-turqoise-medium);
@@ -130,9 +130,6 @@ body.dark-mode .project-header h2 {
   color: #BFE4E2;
   color: var(--color-grey-light);
 }
-body.dark-mode .project-section {
-  background-color: #071426;
-}
 body.dark-mode .project-overview p {
   color: var(--color-grey-light);
 }
@@ -143,7 +140,7 @@ body.dark-mode .project-links a:hover {
   color: #1AFFDB;
 }
 body.dark-mode .project-section {
-  background-color: var(--color-cyber-bg) !important;
+  background-color: var(--color-cyber-bg);
 }
 body.dark-mode .project-section-desc p {
   color: var(--color-grey-medium);
@@ -153,6 +150,10 @@ body.dark-mode .project-section-desc a {
 }
 body.dark-mode .project-section-title h3 {
   color: var(--color-white);
+}
+body.dark-mode .project-tag {
+  background-color: var(--color-cyber-bg);
+  color: var(--color-grey-medium);
 }
 body.dark-mode .project-title h1 {
   color: var(--color-white);

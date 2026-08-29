@@ -23,7 +23,7 @@ body .page-header-title h1 {
   color: var(--color-grey-medium);
 }
 body .page-header-title i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-light);
 }
 body .navbar-logo h1 {
   color: var(--color-grey-medium);
