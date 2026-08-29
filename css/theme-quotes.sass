@@ -5,22 +5,29 @@
 
 body
   background-color: #ececec
-  background-color: #78cdd0
+  background-color: var(--color-purple)
   background-color: #96D4D6
+  background-color: #98A6FC
+
+.border-quote
+  border-width: 0 2px 0 2px 
+  border-image: linear-gradient(to bottom, #98A6FC 15%, #fff 40%, #98A6FC 85%) 1
 
 .effect-glitch
   color: var(--color-purple)
 
 .header-simple-excerpt
   p
-    color: var(--color-grey-medium)
-
+    color: var(--color-white)
 
 .header-simple-title
   h1
     color: #ececec
+    text-shadow: var(--text-shadow-2)
   i
-    color: var(--color-grey-light)
+    color: var(--color-purple)
+  .neon-blue
+    animation: none
 
 .menu-category-title
   h2
@@ -39,15 +46,15 @@ body
     &:after
       background-color: var(--color-grey-medium)
     &:hover
-      color: var(--color-white)    
-      &:after
-        background-color: var(--color-grey-dark)
-    
+      color: var(--color-purple)    
+      &:after 
+        background-color: var(--color-purple)
+
 .navbar-menu
   i
     color: var(--color-grey-medium)
     &:hover
-      color: var(--color-white)
+      color: var(--color-purple)
 
 .quote-container
   break-inside: avoid
@@ -57,20 +64,19 @@ body
   text-align: right
 
 .quote-text
-  background-color: whitesmoke
-  background-color: #CDF4F3
+  background-color: var(--color-purple)
   border-radius: 24px 24px 0 24px
   box-shadow: 4.0px 8.0px 10.0px hsl(0deg 0% 0% / 0.1)
-  color: var(--color-grey-medium)
+  color: var(--color-white)
   font-family: "Lusitana", serif
   font-size: var(--font-xxl)
   font-style: italic
-  font-weight: 400
+  font-weight: 900
+  letter-spacing: 0.5px
   line-height: 2rem
   margin-bottom: 12px
-  padding: 48px
+  padding: 48px 48px 60px
   text-align: left
-  text-shadow: var(--text-shadow-1)
 
 .quote-by
   color: var(--color-white)
@@ -88,10 +94,12 @@ body
   font-size: var(--font-l)
   line-height: 1.0rem
   text-align: right
-  text-decoration: underline
+  font-style: italic
   // text-shadow: var(--text-shadow-3)
   &:hover
-    animation: blinker 0.4s linear infinite
+    animation: blinker 1.4s linear infinite
+    color: var(--color-purple) !important
+    text-decoration: underline dashed var(--color-purple) 
 
 .page-header-excerpt
   background-color: whitesmoke
@@ -114,6 +122,10 @@ body.dark-mode
   background-color: var(--color-black) 
   color: white
 
+  .border-quote
+    border-width: 0 1px 0 1px 
+    border-image: linear-gradient(to bottom, #101820 15%, #7C83FD 40%, #101820 85%) 1
+
   .header-simple-excerpt
     p
       color: var(--color-grey-medium)
@@ -123,6 +135,8 @@ body.dark-mode
       color: var(--color-white)
     i
       color: var(--color-purple)
+    .neon-blue
+      animation: pulsate-blue 0.11s ease-in-out infinite alternate
 
   .quote
     background-color: var(--color-black) 

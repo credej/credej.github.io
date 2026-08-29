@@ -86,6 +86,9 @@ body .header-simple-title {
 body .header-simple-title i {
   color: var(--color-green);
 }
+body .header-simple-title .neon-blue {
+  animation: none;
+}
 body .navbar-logo h1 {
   color: var(--color-grey-light);
 }
@@ -145,4 +148,7 @@ body.dark-mode .section-header h5 {
 }
 body.dark-mode .header-simple-title i {
   color: var(--color-green);
+}
+body.dark-mode .header-simple-title .neon-blue {
+  animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }
