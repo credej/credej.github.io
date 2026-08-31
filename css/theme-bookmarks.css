@@ -1,6 +1,6 @@
 /* BOOKMARKS - LIGHT */
 .site-main {
-  margin: 48px 0 0;
+  margin: 0;
 }
 
 body {
@@ -30,7 +30,7 @@ body .bookmark-glossary {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 12px 24px 0;
+  margin: 12px 0 0;
   padding: 0 0 96px;
 }
 body .bookmark-glossary a {

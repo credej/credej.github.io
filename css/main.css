@@ -2,6 +2,8 @@
 /* PAGE ELEMENTS */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -316,9 +318,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .header-simple-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: var(--color-grey-light);
   font-size: var(--font-8xl);
 }

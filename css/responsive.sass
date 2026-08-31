@@ -84,15 +84,31 @@
     width: 100%
 
   .header-simple
-    padding: 120px 0 0
+    padding: 96px 0 48px
   
   .header-simple-excerpt
+    font-size: var(--font-xxxl)
     margin: 0 10vw
+    padding: 12px 0
     p
       font-size: var(--font-s)
   
   .header-simple-title
-    font-size: var(--font-xxxl)
+    h1
+      font-size: var(--font-7xl)
+      hyphens: auto
+      word-wrap: break-word
+      overflow-wrap: break-word
+      padding: 0 48px
+      white-space: normal
+      word-break: break-word
+
+  .site-main
+    padding: 0 48px
+
+  .header-simple-title
+    i
+      margin: 0 
 
   .hide-mobile
     display: none
@@ -247,6 +263,17 @@
       line-height: 2rem
       &:after
         display: none
+
+  .quote
+    padding: 0 0 24px !important
+
+  .quote-by
+    padding: 4px 0 !important
+
+  .quote-text
+    font-size: var(--font-l) !important
+    padding: 36px 36px 48px !important
+    line-height: 1.4rem !important
 
   .section-header
     text-align: center
