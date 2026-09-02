@@ -27,7 +27,7 @@ body
     flex-wrap: wrap
     justify-content: center
     margin: 12px 0 0
-    padding: 0 0 96px
+    padding: 36px 0 96px
     a
       background: var(--color-green)      
       border: 3px solid var(--color-green)
@@ -70,12 +70,12 @@ body
       text-shadow: 2px 4px 3px rgba(0,0,0,0.29)
 
   .header-simple-excerpt
-    color: var(--color-grey-light)
+    color: #A2D9FE
 
   .header-simple-title
     color: var(--color-white)
     i
-      color: var(--color-green)
+      color: #A2D9FE
     .neon-blue
       animation: none
 
@@ -106,8 +106,15 @@ body.dark-mode
   background-color: var(--color-blue-storm)
 
   .bookmark
+    flex-grow: 1
+    flex-shrink: 1
+    flex-basis: 0%
+    padding: 12px 72px 12px 0 
     a
-      color: var(--color-purple)
+      color: var(--color-purple) 
+    a:hover
+      color: var(--color-blue-light) 
+      animation: blinker 1s linear infinite
 
   .bookmark-glossary
     display: flex
@@ -122,6 +129,9 @@ body.dark-mode
         border: 3px solid var(--color-green)
         color: var(--color-purple) !important
         font-weight: 900
+
+  .header-simple-excerpt
+    color: var(--color-purple)
 
   .page-header-excerpt
     background-color: #191D26
@@ -138,7 +148,7 @@ body.dark-mode
 
   .header-simple-title
     i
-      color: var(--color-green)
+      color: var(--color-purple)
     .neon-blue
       animation: pulsate-blue 0.11s ease-in-out infinite alternate
 

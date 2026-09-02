@@ -329,7 +329,7 @@ p, h1, h2, h3, h4, h5 {
   font-family: "Geostar Fill", serif;
   letter-spacing: 0.29rem;
   line-height: 3rem;
-  text-shadow: var(--text-shadow-1);
+  text-shadow: var(--text-shadow-3);
   text-transform: uppercase;
 }
 

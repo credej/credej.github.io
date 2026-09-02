@@ -606,14 +606,17 @@
   .badge p {
     font-size: var(--font-m);
   }
-  .bookmark-section h2 {
-    font-size: var(--font-xxl);
+  .bookmark-glossary a {
+    font-size: var(--font-l);
   }
   .category-links {
     padding: 0 0 72px;
   }
   .category-links a {
     font-size: var(--font-l);
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxl);
   }
   .category-subtitle p {
     font-size: var(--font-l);
