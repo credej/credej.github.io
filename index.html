@@ -3,12 +3,18 @@
    <head>
       <title>Home</title>
       <meta name="description" content="home">
+      <script src="components/header-min.js" type="text/javascript" defer></script>
+      <script>
+       (function () {
+         const theme = localStorage.getItem("theme") || "light";
+         document.documentElement.setAttribute("data-theme", theme);
+       })();
+      </script>
+      <script src="components/themes.js" type="text/javascript" defer></script>
       <link rel="stylesheet" type="text/css" href="/css/style.css">
       <link rel=stylesheet type=text/css href="../../../css/theme-home.css">
       <script src="https://cdn.tailwindcss.com"></script>
       <script src="components/headlinks-min.js" type="text/javascript" dsefer></script>
-      <script src="components/header-min.js" type="text/javascript" defer></script>
-      <script src="components/themes.js" type="text/javascript" defer></script>
       <head-links></head-links>
       <link href="https://api.fontshare.com/v2/css?f[]=array@400&f[]=satoshi@300,700,901&f[]=clash-display@300&f[]=telma@900&f[]=author@601&f[]=alpino@500,900&f[]=comico@400&f[]=melodrama@500&f[]=boxing@400&f[]=kola@400&f[]=rx-100@400&f[]=literata@800&f[]=kihim@400&f[]=jet-brains-mono@300&f[]=roundo@500&display=swap" rel="stylesheet">
    </head>
@@ -570,7 +576,6 @@
       });
    </script>
 
-   <script src="/components/darktheme.js" type="text/javascript"></script>
 </html>
 
    <section>
