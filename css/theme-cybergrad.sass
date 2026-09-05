@@ -1,7 +1,6 @@
 /* LIGHT */
 
 body
-  background-color: #265E55
   background-color: var(--color-turqoise-medium)
 
   .badge
@@ -23,18 +22,21 @@ body
       &:hover
         transform: scale(1.1)
 
+  .border-blue
+    border-image: linear-gradient(to bottom, #5EEAD4 5%, #fff 40%, #5EEAD4 95%) 1
+
   .img-gallery
     margin: 48px 0 0
 
   .img-fullsize
     figcaption
-      color: var(--color-grey-dark)
+      color: var(--color-grey-5)
 
   .menu-category-title
     h2
       text-shadow: var(--text-shadow-2)
     i
-      color: var(--color-grey-light)
+      color: var(--color-grey-1)
 
   .menu-list
     a
@@ -42,17 +44,17 @@ body
         
   .navbar-logo 
     h1
-      color: var(--color-white)
+      color: var(--color-grey-1)
       &:hover
-        color: var(--color-white)    
+        color: var(--color-grey-3)    
         &:after
-          background-color: var(--color-white)
+          background-color: var(--color-grey-1)
     
   .navbar-menu
     i
-      color: var(--color-grey-light)
+      color: var(--color-grey-1)
       &:hover
-        color: var(--color-grey-medium)
+        color: var(--color-grey-3)
 
   .neon-blue
     animation: none
@@ -61,7 +63,7 @@ body
     padding: 24px 0
 
   .project-header
-    color: var(--color-grey-medium)
+    color: var(--color-white)
 
   .project-links
     a
@@ -69,34 +71,36 @@ body
       text-shadow: var(--text-shadow-2)
 
   .project-overview p
-    color: var(--color-grey-medium)
+    color: var(--color-grey-2)
 
   .project-section
-    background-color: #AEF4E9
+    background-color: #7EF9E5
 
   .project-section p
-    color: var(--color-grey-light)
+    color: var(--color-grey-2)
 
   .project-section-title
     h3
-      color: var(--color-turqoise-medium)
+      color: var(--color-white)
+      font-weight: 900
       text-shadow: var(--text-shadow-3)
+    h4
+      color: var(--color-grey-1)
 
   .project-subtitle
     h2
-      color: var(--color-grey-medium)
+      color: var(--color-grey-2)
 
   .project-tag
     background-color: #AEF4E9
-    color: var(--color-grey-medium)
+    color: var(--color-grey-3)
 
   .project-title
     h1
-      color: #AEF4E9
       color: var(--color-white)
-      text-shadow: var(--text-shadow-5)
+      text-shadow: var(--text-shadow-1)
     i
-      color: var(--color-grey-light)
+      color: #1AFFDB
 
 
 
@@ -111,11 +115,11 @@ body.dark-mode
 
   .img-fullsize
     figcaption
-      color: var(--color-grey-medium)
+      color: var(--color-grey-3)
 
   .navbar-logo 
     h1
-      color: var(--color-grey-medium)
+      color: var(--color-grey-3)
       &:hover
         color: var(--color-white)    
         &:after
@@ -123,7 +127,7 @@ body.dark-mode
     
   .navbar-menu
     i
-      color: var(--color-grey-medium)
+      color: var(--color-grey-3)
       &:hover
         color: var(--color-white)
 
@@ -133,10 +137,10 @@ body.dark-mode
   .project-header
     h2
       color: #BFE4E2
-      color: var(--color-grey-light)
+      color: var(--color-grey-1)
 
   .project-overview p
-    color: var(--color-grey-light)
+    color: var(--color-grey-1)
 
   .project-links
     a
@@ -149,9 +153,9 @@ body.dark-mode
 
   .project-section-desc
     p
-      color: var(--color-grey-medium)
+      color: var(--color-grey-3)
     a
-      color: var(--color-grey-light)
+      color: var(--color-grey-1)
 
   .project-section-title
     h3
@@ -159,7 +163,7 @@ body.dark-mode
 
   .project-tag
     background-color: var(--color-cyber-bg) 
-    color: var(--color-grey-medium)
+    color: var(--color-grey-3)
 
   .project-title
     h1

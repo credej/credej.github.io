@@ -4,6 +4,7 @@ class HeadLinks extends HTMLElement {
     this.innerHTML = `
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <script src="/components/themes.js" type="text/javascript" defer></script>
+      <script src="components/header-min.js" type="text/javascript" defer></script>
       <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
       <!-- iconoir fonts -->

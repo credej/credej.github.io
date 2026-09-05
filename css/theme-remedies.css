@@ -3,7 +3,7 @@ body {
   background-color: #6B7A60;
 }
 body .navbar-logo h1 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-logo h1:hover {
   color: var(--color-white);
@@ -12,7 +12,7 @@ body .navbar-logo h1:hover:after {
   background-color: var(--color-white);
 }
 body .navbar-menu i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-menu i:hover {
   color: var(--color-white);
@@ -113,7 +113,7 @@ body .remedy-section-title h2 {
   text-transform: uppercase;
 }
 body .remedy-section-subtitle {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   font-size: var(--font-m);
   font-style: italic;
   line-height: 1.4rem;
@@ -127,7 +127,7 @@ body .remedy-section {
   padding: 36px 0 0;
 }
 body .remedy-section h3 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   font-size: var(--font-l);
 }
 body .remedy-section a:hover {
@@ -140,7 +140,7 @@ body .remedy-section span {
 body .remedy-tag {
   background-color: #6B7A60;
   border-radius: 3px;
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   display: inline-block;
   letter-spacing: 0;
   margin: 16px 16px 16px 0;
@@ -162,7 +162,7 @@ body .remedy-title p {
   text-shadow: var(--text-shadow-3);
 }
 body .bookmark-old a {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   text-decoration: line-through;
 }
 body .bookmark-old a:hover {
@@ -205,7 +205,7 @@ body.dark-mode .page-header-excerpt {
   background: #343A2F;
 }
 body.dark-mode .page-header-excerpt p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .page-header-title i {
   color: var(--color-remedy-green-light);
@@ -217,7 +217,7 @@ body.dark-mode .remedy p {
   color: var(--color-remedy-green-light);
 }
 body.dark-mode .remedy-list {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .remedy-tag {
   background-color: var(--color-remedy-green-light);

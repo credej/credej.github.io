@@ -1,6 +1,6 @@
 /* LIGHT */
 body {
-  background-color: var(--color-grey-medium);
+  background-color: var(--color-grey-3);
 }
 body .badge {
   display: flex;
@@ -31,7 +31,7 @@ body .effect-glitch {
   color: var(--color-blue);
 }
 body .img-fullsize figcaption {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .navbar-logo h1 {
   color: var(--color-blue-light);
@@ -52,7 +52,7 @@ body .project-section-desc p {
   color: #fff;
 }
 body .project-section-title h4 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .project-section-desc,
 body .project-header,
@@ -79,7 +79,7 @@ body.dark-mode {
   color: var(--color-white);
 }
 body.dark-mode .img-fullsize figcaption {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-section-desc a {
   color: var(--color-blue);
@@ -89,7 +89,7 @@ body.dark-mode .project-section p {
   color: var(--color-blue-light);
 }
 body.dark-mode .project-subtitle {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .project-links a {
   color: var(--color-blue-light);

@@ -13,7 +13,7 @@ body .category-subtitle {
   margin: 0 0 8px;
 }
 body .category-subtitle p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   text-shadow: var(--text-shadow-1);
 }
 body .contact p,
@@ -24,7 +24,7 @@ body .footer-text h1 {
   color: var(--color-white);
 }
 body .intro-text {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .intro-text a span {
   text-shadow: var(--text-shadow-3);
@@ -54,8 +54,8 @@ body .neon-blue {
   animation: none;
 }
 body .project-tag {
-  background-color: var(--color-grey-light);
-  color: var(--color-grey-dark);
+  background-color: var(--color-grey-1);
+  color: var(--color-grey-5);
   opacity: 0.5;
 }
 body .project-title h1 {
@@ -77,26 +77,26 @@ body.dark-mode .category {
   box-shadow: 8px 16px 16px hsla(0, 0%, 0%, 0.25);
 }
 body.dark-mode .category-subtitle p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .contact p,
 body.dark-mode .contact ul {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .contact-bullets ul {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .dark {
   display: block !important;
 }
 body.dark-mode .footer-text h1 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .footer-text p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .intro-text {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .menu-list a {
   text-shadow: var(--text-shadow-1);
@@ -105,7 +105,7 @@ body.dark-mode .menu-list a:hover {
   color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-logo h1:hover {
   color: var(--color-green);
@@ -114,7 +114,7 @@ body.dark-mode .navbar-logo h1:hover:after {
   background-color: var(--color-green);
 }
 body.dark-mode .navbar-menu i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-green);

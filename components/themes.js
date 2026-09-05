@@ -2,7 +2,7 @@
       // helper functions to toggle dark mode
       function enableDarkMode() {
          document.body.classList.add('dark-mode');
-         localStorage.setItem('theme', 'darks');
+         localStorage.setItem('theme', 'dark');
       }
       function disableDarkMode() {
          document.body.classList.remove('dark-mode');

@@ -1,39 +1,90 @@
 /* LIGHT */
 body
   background-color: #4E82BE
+
   .bg-glass-blue
     background: rgba(0, 225, 237, 0.647)
-  .project-overview p
-    color: var(--color-grey-light)
+
+  .border-blue
+    border-image: linear-gradient(to bottom, #071426 5%, #4E82BE 40%, #071426 95%) 1
+  
+  .header-simple-title
+    color: var(--color-white)
+    i
+      color: #A2D9FE
+    .neon-blue
+      animation: none
+
+  .img-fullsize
+    p
+      color: var(--color-grey-1)
+      text-align: center
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-1)
+      &:hover
+        color: var(--color-green)    
+        &:after
+          background-color: var(--color-green)
+
+  .neon-blue
+    animation: none
+
+  .project-overview 
+    p
+      color: var(--color-white)
+
   .project-section-desc
     p
-      color: var(--color-grey-dark)
+      color: var(--color-grey-5)
+
   .project-section 
     p
-      color: var(--color-grey-dark)
+      color: var(--color-grey-5)
+
   .project-section-desc
-    p
-      color: var(--color-grey-light) 
-  .project-title h1,
-  .project-subtitle,
-  figcaption
-    color: var(--color-grey-light) 
+    color: var(--color-grey-1) 
+
+  .project-subtitle
+    h2
+      color: var(--color-grey-1)
+
+  .project-tag
+    background-color: #6595CC
+    color: var(--color-grey-4)
+
   .project-title
     h1
       color: var(--color-white)
     i
-      color: var(--color-grey-light)
+      color: var(--color-grey-1) !important
 
 /* DARK */
 body.dark-mode 
   background-color: #000 
   color: white
+
+  .border-blue
+    border-image: linear-gradient(to bottom, #071426 5%, #4E82BE 40%, #071426 95%) 1
+  
+  .neon-blue
+    animation: pulsate-blue 0.11s ease-in-out infinite alternate
+
+  .project-tag
+    background-color: var(--color-grey-5)
+    color: var(--color-grey-3)
+
+  .project-subtitle
+    h2
+      color: var(--color-grey-3)
+
   .project-title 
-    animation: pulsate 0.11s ease-in-out infinite alternate
     h1
       color: var(--color-white)
-  figcaption
-    color: var(--color-grey-medium)
+    i
+      color: var(--color-blue-light) !important
+
   .project-title
     i
       color: #4E82BE

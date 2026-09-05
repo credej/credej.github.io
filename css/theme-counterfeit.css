@@ -5,28 +5,58 @@ body {
 body .bg-glass-blue {
   background: rgba(0, 225, 237, 0.647);
 }
+body .border-blue {
+  border-image: linear-gradient(to bottom, #071426 5%, #4E82BE 40%, #071426 95%) 1;
+}
+body .header-simple-title {
+  color: var(--color-white);
+}
+body .header-simple-title i {
+  color: #A2D9FE;
+}
+body .header-simple-title .neon-blue {
+  animation: none;
+}
+body .img-fullsize p {
+  color: var(--color-grey-1);
+  text-align: center;
+}
+body .navbar-logo h1 {
+  color: var(--color-grey-1);
+}
+body .navbar-logo h1:hover {
+  color: var(--color-green);
+}
+body .navbar-logo h1:hover:after {
+  background-color: var(--color-green);
+}
+body .neon-blue {
+  animation: none;
+}
 body .project-overview p {
-  color: var(--color-grey-light);
+  color: var(--color-white);
 }
 body .project-section-desc p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .project-section p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
-body .project-section-desc p {
-  color: var(--color-grey-light);
+body .project-section-desc {
+  color: var(--color-grey-1);
 }
-body .project-title h1,
-body .project-subtitle,
-body figcaption {
-  color: var(--color-grey-light);
+body .project-subtitle h2 {
+  color: var(--color-grey-1);
+}
+body .project-tag {
+  background-color: #6595CC;
+  color: var(--color-grey-4);
 }
 body .project-title h1 {
   color: var(--color-white);
 }
 body .project-title i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1) !important;
 }
 
 /* DARK */
@@ -34,14 +64,24 @@ body.dark-mode {
   background-color: #000;
   color: white;
 }
-body.dark-mode .project-title {
-  animation: pulsate 0.11s ease-in-out infinite alternate;
+body.dark-mode .border-blue {
+  border-image: linear-gradient(to bottom, #071426 5%, #4E82BE 40%, #071426 95%) 1;
+}
+body.dark-mode .neon-blue {
+  animation: pulsate-blue 0.11s ease-in-out infinite alternate;
+}
+body.dark-mode .project-tag {
+  background-color: var(--color-grey-5);
+  color: var(--color-grey-3);
+}
+body.dark-mode .project-subtitle h2 {
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-title h1 {
   color: var(--color-white);
 }
-body.dark-mode figcaption {
-  color: var(--color-grey-medium);
+body.dark-mode .project-title i {
+  color: var(--color-blue-light) !important;
 }
 body.dark-mode .project-title i {
   color: #4E82BE;

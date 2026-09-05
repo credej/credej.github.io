@@ -29,7 +29,7 @@
 }
 
 .script-subtitle {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
   font-family: "JetBrains Mono", monospace;
   font-size: var(--font-l);
 }
@@ -51,7 +51,7 @@ body {
   display: grid;
 }
 body #menu-button i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .cli-command {
   background-color: #1818C4;
@@ -63,7 +63,7 @@ body .cli-section h1 {
   color: var(--color-white);
 }
 body .cli-section h2 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-logo {
   color: var(--color-white);
@@ -79,10 +79,10 @@ body .page-header-excerpt p {
   color: var(--color-green) !important;
 }
 body .page-header-title h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .page-header-title i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 
 /* THEME - DARK */

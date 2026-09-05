@@ -12,9 +12,11 @@
   --color-blue-alt: #00E1FF;
   --color-blue-light: #A1D9FE;
   --color-green-terminal: #17f9a6;
-  --color-grey-dark: #343434;
-  --color-grey-medium: #7A7A7A;
-  --color-grey-light: #AEAEAE;
+  --color-grey-1: #AEAEAE;
+  --color-grey-2: #979797;
+  --color-grey-3: #7A7A7A;
+  --color-grey-4: #535353;
+  --color-grey-5: #343434;
   --color-blue-storm: #1D212C;
   --color-turqoise-medium: #5EEAD4;
   --color-blue-dodger: #2B78E4;
@@ -24,6 +26,7 @@
   --color-remedy-green-light: #606c38;
   --color-remedy-green-medium: #283618;
   --color-remedy-green-dark: #292E25;
+  --color-blue-dtek: #4E82BE;
   --color-terminal-1: #00ff50;
   --color-terminal-2: #39ff3c85;
   --color-terminal-3: #00ff502e;

@@ -90,7 +90,7 @@ body .header-simple-title .neon-blue {
   animation: none;
 }
 body .navbar-logo h1 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-logo h1:hover {
   color: var(--color-green);
@@ -151,7 +151,7 @@ body.dark-mode .page-header-excerpt {
   background-color: #191D26;
 }
 body.dark-mode .page-header-excerpt p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .page-header-title h1 {
   color: var(--color-white);

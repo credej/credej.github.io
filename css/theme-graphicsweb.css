@@ -4,13 +4,13 @@ body {
   display: grid;
 }
 body #menu-button i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body #menu-button i:hover {
   color: var(--color-white);
 }
 body .navbar-logo h1 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-logo h1:hover {
   color: var(--color-white);
@@ -23,7 +23,7 @@ body .page-header-excerpt {
   text-align: right;
 }
 body .page-header-excerpt p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .page-header-title h1 {
   color: var(--color-white);
@@ -38,7 +38,7 @@ body.dark-mode {
   display: grid;
 }
 body.dark-mode #menu-button i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode #menu-button i:hover {
   color: var(--color-white);

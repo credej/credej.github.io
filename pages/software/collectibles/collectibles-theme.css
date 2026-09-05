@@ -10,35 +10,35 @@ body .project-links a {
   text-shadow: var(--text-shadow-3);
 }
 body .project-section p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .project-section-desc p {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .project-subtitle,
 body figcaption {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .project-title h1 {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .project-title i {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .navbar-logo h1:hover {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .navbar-logo h1:hover:after {
-  background-color: var(--color-grey-dark);
+  background-color: var(--color-grey-5);
 }
 body .navbar-menu i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .navbar-menu i:hover {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 
 /* CYBERGRAD - DARK */
@@ -47,7 +47,7 @@ body.dark-mode {
   color: white;
 }
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-logo h1:hover {
   color: var(--color-green);
@@ -56,7 +56,7 @@ body.dark-mode .navbar-logo h1:hover:after {
   background-color: var(--color-green);
 }
 body.dark-mode .navbar-menu i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-green);
@@ -68,10 +68,10 @@ body.dark-mode .project-title h1 {
   color: var(--color-white);
 }
 body.dark-mode figcaption {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-section-desc p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-links a {
   color: #FFDF00;
@@ -80,5 +80,5 @@ body.dark-mode .project-title i {
   color: #FFDF00;
 }
 body.dark-mode .project-subtitle {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }

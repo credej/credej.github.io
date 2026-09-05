@@ -33,7 +33,7 @@ body.dark-mode {
   color: white;
 }
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-logo h1:hover {
   color: var(--color-green);
@@ -42,7 +42,7 @@ body.dark-mode .navbar-logo h1:hover:after {
   background-color: var(--color-green);
 }
 body.dark-mode .navbar-menu i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-green);

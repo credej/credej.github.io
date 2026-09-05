@@ -4,10 +4,10 @@ body {
   display: grid;
 }
 body #menu-button i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body #menu-button i:hover {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .page-header {
   margin: 0 !important;
@@ -17,22 +17,22 @@ body .page-header-excerpt {
   text-align: right;
 }
 body .page-header-excerpt p {
-  color: var(--color-grey-medium) !important;
+  color: var(--color-grey-3) !important;
 }
 body .page-header-title h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .page-header-title i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .navbar-logo h1:hover {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .navbar-logo h1:hover:after {
-  background-color: var(--color-grey-medium);
+  background-color: var(--color-grey-3);
 }
 
 /* THEME - DARK */
@@ -41,19 +41,19 @@ body.dark-mode {
   display: grid;
 }
 body.dark-mode #menu-button i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode #menu-button i:hover {
   color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .navbar-logo h1:hover {
   color: var(--color-white);
 }
 body.dark-mode .navbar-logo h1:hover:after {
-  background-color: var(--color-grey-light);
+  background-color: var(--color-grey-1);
 }
 body.dark-mode .page-header {
   margin: 0 !important;

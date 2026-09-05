@@ -3658,6 +3658,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 1436164,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/counterfeit\/index.html" : {
       "cB" : 0,
       "ft" : 8192,

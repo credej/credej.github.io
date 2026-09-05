@@ -1,6 +1,5 @@
 /* LIGHT */
 body {
-  background-color: #265E55;
   background-color: var(--color-turqoise-medium);
 }
 body .badge {
@@ -26,35 +25,38 @@ body .badge img {
 body .badge img:hover {
   transform: scale(1.1);
 }
+body .border-blue {
+  border-image: linear-gradient(to bottom, #5EEAD4 5%, #fff 40%, #5EEAD4 95%) 1;
+}
 body .img-gallery {
   margin: 48px 0 0;
 }
 body .img-fullsize figcaption {
-  color: var(--color-grey-dark);
+  color: var(--color-grey-5);
 }
 body .menu-category-title h2 {
   text-shadow: var(--text-shadow-2);
 }
 body .menu-category-title i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .menu-list a {
   text-shadow: var(--text-shadow-3);
 }
 body .navbar-logo h1 {
-  color: var(--color-white);
+  color: var(--color-grey-1);
 }
 body .navbar-logo h1:hover {
-  color: var(--color-white);
+  color: var(--color-grey-3);
 }
 body .navbar-logo h1:hover:after {
-  background-color: var(--color-white);
+  background-color: var(--color-grey-1);
 }
 body .navbar-menu i {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body .navbar-menu i:hover {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .neon-blue {
   animation: none;
@@ -63,39 +65,42 @@ body .page-section {
   padding: 24px 0;
 }
 body .project-header {
-  color: var(--color-grey-medium);
+  color: var(--color-white);
 }
 body .project-links a {
   color: #fff;
   text-shadow: var(--text-shadow-2);
 }
 body .project-overview p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-2);
 }
 body .project-section {
-  background-color: #AEF4E9;
+  background-color: #7EF9E5;
 }
 body .project-section p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-2);
 }
 body .project-section-title h3 {
-  color: var(--color-turqoise-medium);
+  color: var(--color-white);
+  font-weight: 900;
   text-shadow: var(--text-shadow-3);
 }
+body .project-section-title h4 {
+  color: var(--color-grey-1);
+}
 body .project-subtitle h2 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-2);
 }
 body .project-tag {
   background-color: #AEF4E9;
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body .project-title h1 {
-  color: #AEF4E9;
   color: var(--color-white);
-  text-shadow: var(--text-shadow-5);
+  text-shadow: var(--text-shadow-1);
 }
 body .project-title i {
-  color: var(--color-grey-light);
+  color: #1AFFDB;
 }
 
 /* DARK */
@@ -106,10 +111,10 @@ body.dark-mode .badge h3 {
   color: #BFE4E2;
 }
 body.dark-mode .img-fullsize figcaption {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-logo h1:hover {
   color: var(--color-white);
@@ -118,7 +123,7 @@ body.dark-mode .navbar-logo h1:hover:after {
   background-color: var(--color-white);
 }
 body.dark-mode .navbar-menu i {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-white);
@@ -128,10 +133,10 @@ body.dark-mode .neon-blue {
 }
 body.dark-mode .project-header h2 {
   color: #BFE4E2;
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .project-overview p {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .project-links a {
   color: var(--color-turqoise-medium);
@@ -143,17 +148,17 @@ body.dark-mode .project-section {
   background-color: var(--color-cyber-bg);
 }
 body.dark-mode .project-section-desc p {
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-section-desc a {
-  color: var(--color-grey-light);
+  color: var(--color-grey-1);
 }
 body.dark-mode .project-section-title h3 {
   color: var(--color-white);
 }
 body.dark-mode .project-tag {
   background-color: var(--color-cyber-bg);
-  color: var(--color-grey-medium);
+  color: var(--color-grey-3);
 }
 body.dark-mode .project-title h1 {
   color: var(--color-white);
