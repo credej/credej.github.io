@@ -9,6 +9,7 @@
 p {
   font-size: var(--font-m);
   /* fontshare fonts */
+  font-family: "Alfa Slab One", serif;
   font-family: "Alpino", sans-serif;
   font-family: "Array", sans-serif;
   font-family: "Author", sans-serif;
@@ -337,6 +338,9 @@ p, h1, h2, h3, h4, h5 {
   text-transform: uppercase;
 }
 
+.img-fullsize {
+  break-inside: avoid;
+}
 .img-fullsize figcaption {
   padding: 18px 0;
   text-align: center;
@@ -354,6 +358,7 @@ p, h1, h2, h3, h4, h5 {
   flex-grow: 1;
 }
 .img-gallery img {
+  box-shadow: var(--box-shadow-3);
   max-height: 100%;
   min-width: 100%;
   width: 100%;
@@ -692,7 +697,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-header h1 {
   color: white;
-  font-family: "Courier Prime", monospace;
 }
 .project-header h1:after {
   padding: 24px;
@@ -791,10 +795,12 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-title i {
   font-size: var(--font-xxl);
-  margin: 0 24px 0 0;
+  margin: 0 24px 6px 0;
 }
 .project-title h1 {
-  letter-spacing: 0.71rem;
+  font-family: "Alfa Slab One", serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .section-header {

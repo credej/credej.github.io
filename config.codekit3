@@ -882,6 +882,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/covisus\/DMSMS2017.jpg" : {
+      "ft" : 16384,
+      "iS" : 1927866,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/covisus\/DMSMS2017.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/covisus\/DTEK-UI-Monitor-1011x1024.png" : {
+      "ft" : 32768,
+      "iS" : 660953,
+      "oA" : 0,
+      "oAP" : "\/img\/covisus\/DTEK-UI-Monitor-1011x1024.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/covisus\/IMG_5527.jpg" : {
+      "ft" : 16384,
+      "iS" : 2932632,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/covisus\/IMG_5527.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/covisus\/MicroElec-5-1.png" : {
+      "ft" : 32768,
+      "iS" : 271437,
+      "oA" : 0,
+      "oAP" : "\/img\/covisus\/MicroElec-5-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/img\/experimental-pi-boy-dmg\/gadgets-diy-banner.JPG" : {
       "ft" : 16384,
       "iS" : 4007380,
@@ -3619,6 +3671,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg" : {
+      "ft" : 16384,
+      "iS" : 50206,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-app-1.jpg" : {
       "ft" : 16384,
       "iS" : 160483,
@@ -3670,6 +3735,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-video.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-dtek-video.mp4",
+      "oF" : 0
     },
     "\/pages\/software\/counterfeit\/index.html" : {
       "cB" : 0,

@@ -622,7 +622,7 @@
     font-size: var(--font-l);
   }
   .category-title h1 {
-    font-size: var(--font-6xl);
+    font-size: var(--font-7xl);
   }
   .category-title i {
     font-size: var(--font-xxxl);
@@ -676,8 +676,17 @@
   .project-section-title h3 {
     font-size: var(--font-xxxl);
   }
+  .project-subtitle {
+    font-size: var(--font-l);
+  }
+  .project-subtitle h2 {
+    margin: 0;
+  }
+  .project-tags {
+    margin: 8px 0;
+  }
   .project-title h1 {
-    font-size: var(--font-5xl);
+    font-size: var(--font-7xl);
   }
   .project-title i {
     font-size: var(--font-xxxl);
@@ -729,7 +738,7 @@
     font-size: var(--font-xxl);
   }
   .category-title h1 {
-    font-size: var(--font-6xl);
+    font-size: var(--font-7xl);
   }
   .category-title i {
     font-size: var(--font-xxxl);
@@ -773,6 +782,15 @@
   }
   .project-section-title h3 {
     font-size: var(--font-xxxxl);
+  }
+  .project-subtitle {
+    font-size: var(--font-xl);
+  }
+  .project-subtitle h2 {
+    margin: 0;
+  }
+  .project-tags {
+    margin: 8px 0;
   }
   .project-title h1 {
     font-size: var(--font-7xl);
