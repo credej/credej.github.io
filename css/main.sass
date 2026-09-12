@@ -436,21 +436,28 @@ p, h1, h2, h3, h4, h5
   // -moz-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
 
 #navbar-theme-toggle
-    background: transparent
-    border: none
-    display: block
-    fill: var(--color-yellow) 
-    height: 2rem
-    position: relative
-    width: 2rem
-    img, svg
-      position: absolute
-      top: 50%
-      left: 50%
-      transform: translate(-50%, -50%)
-      width: 1.6rem
-      height: 1.6rem
-      pointer-events: none
+  background: transparent
+  border: none
+  display: block
+  fill: var(--color-yellow) 
+  height: 2rem
+  opacity: 0.5
+  position: relative
+  width: 2rem
+  img, svg
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 1.6rem
+    height: 1.6rem
+    pointer-events: none
+  &:hover
+    opacity: 1.0
+  &:active
+    opacity: 0.9
+
+
 
 .navbar
   display: flex
@@ -670,7 +677,8 @@ p, h1, h2, h3, h4, h5
     margin: 0 24px 6px 0
   h1
     font-family: "Alfa Slab One", serif
-    letter-spacing: 0.1rem
+    font-family: "Courier Prime", monospace
+    letter-spacing: 1rem
     text-transform: uppercase
 
 
@@ -789,8 +797,8 @@ p, h1, h2, h3, h4, h5
     transition: 0.21s ease-in-out
     h2
       transition: 1s ease-in-out
-    p
-      color: var(--color-grey-1)
+  &:active
+    opacity: 0.9
 
 .subcategory-banner
   img

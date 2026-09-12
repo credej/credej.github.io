@@ -522,6 +522,7 @@ p, h1, h2, h3, h4, h5 {
   display: block;
   fill: var(--color-yellow);
   height: 2rem;
+  opacity: 0.5;
   position: relative;
   width: 2rem;
 }
@@ -533,6 +534,12 @@ p, h1, h2, h3, h4, h5 {
   width: 1.6rem;
   height: 1.6rem;
   pointer-events: none;
+}
+#navbar-theme-toggle:hover {
+  opacity: 1;
+}
+#navbar-theme-toggle:active {
+  opacity: 0.9;
 }
 
 .navbar {
@@ -799,7 +806,8 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-title h1 {
   font-family: "Alfa Slab One", serif;
-  letter-spacing: 0.1rem;
+  font-family: "Courier Prime", monospace;
+  letter-spacing: 1rem;
   text-transform: uppercase;
 }
 
@@ -939,8 +947,8 @@ p, h1, h2, h3, h4, h5 {
 .subcategory:hover h2 {
   transition: 1s ease-in-out;
 }
-.subcategory:hover p {
-  color: var(--color-grey-1);
+.subcategory:active {
+  opacity: 0.9;
 }
 
 .subcategory-banner img {
