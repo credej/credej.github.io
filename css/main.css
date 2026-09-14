@@ -562,6 +562,7 @@ p, h1, h2, h3, h4, h5 {
 .navbar-logo h1 {
   cursor: pointer;
   font-size: var(--font-xxxl);
+  font-weight: 700;
 }
 .navbar-logo h1:after {
   background-color: #ececec;

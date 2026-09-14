@@ -35,9 +35,15 @@ body .footer-text h1 {
   color: var(--color-white);
 }
 body .intro-text {
-  color: var(--color-grey-5);
+  color: var(--color-blue-light);
 }
 body .intro-text a span {
+  text-shadow: var(--text-shadow-3);
+}
+body .menu-category-title i {
+  color: #ececec;
+}
+body .menu-list a {
   text-shadow: var(--text-shadow-3);
 }
 body .menu-list a:hover {
