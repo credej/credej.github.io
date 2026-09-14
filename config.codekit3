@@ -3627,7 +3627,7 @@
       "oAP" : "\/pages\/software\/counterfeit\/img\/counterfeit-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4084,9 +4084,22 @@
       "oAP" : "\/pages\/software\/cybergrad\/index.html",
       "oF" : 0
     },
+    "\/pages\/software\/inventory\/img\/inventory-banner-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 183467,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/software\/inventory\/img\/inventory-banner-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/pages\/software\/inventory\/img\/inventory-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 88983,
+      "iS" : 238116,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/inventory\/img\/inventory-banner.jpg",

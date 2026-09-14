@@ -128,7 +128,7 @@
 .border-white,
 .border-grey,
 .border-black {
-  border-width: 0 1px 0 1px;
+  border-width: 0 3px 0 3px;
 }
 
 .border-blue {
@@ -214,11 +214,11 @@ body.dark-mode .border-black {
 }
 
 .bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.15);
+  background: rgba(247, 204, 21, 0.3);
 }
 
 .bg-glass-purple {
-  background: rgba(113, 100, 255, 0.4);
+  background: rgba(113, 100, 255, 0.37);
 }
 
 .bg-glass-white {

@@ -7,15 +7,18 @@ body
     a
       color: #fff
       text-shadow: var(--text-shadow-3)
+  .project-overview
+    p
+      color: var(--color-grey-4)
   .project-section 
     p
       color: var(--color-grey-5)
   .project-section-desc
     p
       color: var(--color-grey-5) 
-  .project-subtitle,
-  figcaption
-    color: var(--color-grey-5) 
+  .project-subtitle
+    h2
+      color: var(--color-grey-4) 
   .project-title
     h1
       color: var(--color-grey-5)
@@ -36,6 +39,10 @@ body
       &:hover
         color: var(--color-grey-5)
 
+  .project-tag
+    background-color: var(--color-white)
+    color: var(--color-grey-1)
+
 /* CYBERGRAD - DARK */
 body.dark-mode 
   background-color: var(--color-black)
@@ -54,20 +61,31 @@ body.dark-mode
       color: var(--color-grey-3)
       &:hover
         color: var(--color-green)
+
+  .project-overview
+    p
+      color: var(--color-grey-2)
+
+  .project-tag
+    background-color: var(--color-grey-5)
+    color: var(--color-grey-4)
+
   .project-title 
     animation: pulsate 0.11s ease-in-out infinite alternate
     h1
       color: var(--color-white)
-  figcaption
-    color: var(--color-grey-3)
+
   .project-section-desc
     p
       color: var(--color-grey-3)
+
   .project-links
     a
       color: #FFDF00
+
   .project-title
     i
       color: #FFDF00
+
   .project-subtitle
     color: var(--color-grey-3) 

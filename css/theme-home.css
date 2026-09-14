@@ -6,6 +6,17 @@
 body {
   background-color: var(--color-blue-dodger);
 }
+body .border-blue,
+body .border-green,
+body .border-red,
+body .border-orange,
+body .border-yellow,
+body .border-purple,
+body .border-white,
+body .border-grey,
+body .border-black {
+  border: none;
+}
 body .category-links a {
   text-shadow: var(--text-shadow-3);
 }
