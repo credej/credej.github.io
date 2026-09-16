@@ -11,7 +11,7 @@ body {
 }
 
 .border-quote {
-  border-width: 0 2px 0 2px;
+  border-width: 1px 2px 0 2px;
   border-image: linear-gradient(to bottom, #98A6FC 15%, #fff 40%, #98A6FC 85%) 1;
 }
 
@@ -192,4 +192,17 @@ body.dark-mode .quote-link a {
 body.dark-mode .quote-text {
   background-color: #1D212C;
   color: var(--color-grey-1);
+}
+
+@media screen and (min-width: 100px) and (max-width: 755px) {
+  .quote {
+    padding: 0 0 72px;
+  }
+  .quote-by {
+    padding: 4px 0;
+  }
+  .quote-text {
+    font-size: var(--font-xl);
+    padding: 36px 36px 48px;
+  }
 }

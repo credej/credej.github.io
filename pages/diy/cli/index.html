@@ -16,26 +16,26 @@
    <body>
       <header-component></header-component>
 
-      <canvas id="c"></canvas>
+      <!-- <canvas id="c"></canvas> -->
 
       <div class="site">
 
-         <div class="header-simple">
-            <div class="header-simple-title"> <!-- 
-               <i class="iconoir-bug"></i> -->
-               <i class="iconoir-laptop"></i>
-               <h1>DIY: command line interface</h1>
-            </div>
-
-            <div class="header-simple-excerpt">
-               <p>Wake up, Neo...</p>
-            </div>
-         </div>
-
          <div class="site-main">
 
+            <div class="header-simple">
+               <div class="header-simple-title"> <!-- 
+                  <i class="iconoir-bug"></i> -->
+                  <i class="iconoir-laptop"></i>
+                  <h1>DIY: command line interface</h1>
+               </div>
 
-            <div class="page-section">
+               <div class="header-simple-excerpt">
+                  <p>Wake up, Neo...</p>
+               </div>
+            </div>
+
+            <!-- why does this make page get cut off? other 'page-section' does not -->
+            <!-- <div class="page-section">
                <div class="cli-section">
                   <h1 class="script-title neon-blue">// YOUTUBE DOWNLOAD PRO (YT-DLP)</h1>
                   <p class="script-subtitle">This guide will explain how to download your own copy of a song (or even an entire playlist) right from youtube giving you your own personal copy that can play offline??? Tired of paying Spotify to rent music? Youtube download pro has your back. This guide is for MacOS - please see additional <a href="https://www.spacebar.news/how-to-install-yt-dlp/" target="_blank">Linux and Winoows instructions here</a> or <a href="https://github.com/yt-dlp/yt-dlp" target="_blank">view the source code</a></p>
@@ -68,14 +68,15 @@
                      <p>$&nbsp; yt-dlp --format "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" --playlist-end 1 "https://www.youtube.com/watch?v=5telYPUNxWg"</p>
                   </div>
                </div>
-            </div>            
+            </div>     -->        
 
             <div class="page-section">
                <div class="cli-section">
                   <h1 class="script-title neon-blue">// WGET </h1>
                   <p class="script-subtitle">copy any website's code</p>
 
-                  <h2>1. Install and add to home path, restart terminal</h2>
+                  <h2>1. Install wget, add to home path, restart terminal</h2>
+                  <p>
                   <div class="cli-command">
                      <p>$&nbsp; brew install wget</p>
                      <p>$&nbsp; ls -ld .?*</p>

@@ -48,11 +48,8 @@
       line-height: 1.6rem
 
   .category-title
-    align-items: center
-    justify-content: center
-    display: flex
-    flex-direction: row
-    text-align: center
+    max-width: fit-content
+    margin-inline: auto
     h1
       display: flex 
       font-size: var(--font-5xl)
@@ -65,6 +62,7 @@
       -moz-hyphens: auto
       -ms-hyphens: auto
       text-align: center
+      min-width: 0
       &:after
         display: none
     i
@@ -86,7 +84,7 @@
     width: 100%
 
   .header-simple
-    padding: 96px 0 48px
+    padding: 0
   
   .header-simple-excerpt
     font-size: var(--font-xxxl)
@@ -97,17 +95,15 @@
   
   .header-simple-title
     h1
-      font-size: var(--font-7xl)
-      hyphens: auto
-      word-wrap: break-word
+      font-size: var(--font-9xl)
+      hyphens: none
+      letter-spacing: -0.01rem
       overflow-wrap: break-word
-      padding: 0 48px
       white-space: normal
       word-break: break-word
-
-  .header-simple-title
+      word-wrap: break-word
     i
-      margin: 0 
+      margin: 0 !important
 
   .hide-mobile
     display: none
@@ -149,9 +145,10 @@
   
   #navbar,
   .footer,
-  .project-header
+  .project-header,
+  .site-main
     padding: 0 7.5vw
-
+    overflow: hidden
   .menu-expanded
     box-sizing: border-box
     flex-direction: column
@@ -263,22 +260,11 @@
       &:after
         display: none
 
-  .quote
-    padding: 0 0 24px !important
-
-  .quote-by
-    padding: 4px 0 !important
-
-  .quote-text
-    font-size: var(--font-l) !important
-    padding: 36px 36px 48px !important
-    line-height: 1.4rem !important
+  .site
+    margin-top: 120px
 
   .section-header
     text-align: center
-
-  .site-main
-    margin: 120px 0 0
 
   .subcategory
     filter: grayscale(0.0)
@@ -627,6 +613,10 @@
       font-size: var(--font-7xl)
     i
       font-size: var(--font-xxxl)
+  
+  .header-simple-title
+    h1
+      font-size: var(--font-9xl) 
 
   .intro
     text-align: justify
@@ -730,6 +720,10 @@
       font-size: var(--font-xxxl)
     li
       line-height: 1.4rem
+  
+  .header-simple-title
+    h1
+      font-size: var(--font-9xl) 
 
   .site-main
     width: 100% !important

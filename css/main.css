@@ -8,30 +8,6 @@
 
 p {
   font-size: var(--font-m);
-  /* fontshare fonts */
-  font-family: "Alfa Slab One", serif;
-  font-family: "Alpino", sans-serif;
-  font-family: "Array", sans-serif;
-  font-family: "Author", sans-serif;
-  font-family: "Boxing", sans-serif;
-  font-family: "Clash Display", sans-serif;
-  font-family: "Comico", cursive;
-  font-family: "Kihim", sans-serif;
-  font-family: "Kola", sans-serif;
-  font-family: "Literata", serif;
-  font-family: "Melodrama", serif;
-  font-family: "RX100", sans-serif;
-  font-family: "Satoshi", sans-serif;
-  font-family: "Telma", cursive;
-  /* google fonts */
-  font-family: "Courier Prime", monospace;
-  font-family: "Doto", serif;
-  font-family: "Geostar Fill", serif;
-  font-family: "Press Start 2P", system-ui;
-  font-family: "Redacted Script", cursive;
-  font-family: "Reddit Mono", monospace;
-  font-family: "Tiny5", monospace;
-  font-family: "JetBrains Mono", monospace;
 }
 
 body {
@@ -175,6 +151,9 @@ p, h1, h2, h3, h4, h5 {
   align-items: center;
 }
 .category-title h1 {
+  clear: both;
+  display: block;
+  float: left;
   color: white;
   font-family: "Courier Prime", monospace;
   font-size: var(--font-xxl);
@@ -332,7 +311,7 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-xxl);
 }
 .header-simple-title h1 {
-  font-family: "Geostar Fill", serif;
+  font-family: "Reddit Mono", monospace;
   letter-spacing: 0.29rem;
   line-height: 3rem;
   text-shadow: var(--text-shadow-3);
@@ -938,7 +917,7 @@ p, h1, h2, h3, h4, h5 {
 .subcategory {
   font-size: var(--font-xxl);
   filter: grayscale(0.5);
-  opacity: 0.6;
+  opacity: 0.87;
   padding: 48px 0;
   transition: 0.21s ease-in-out;
 }

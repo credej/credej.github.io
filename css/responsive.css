@@ -52,11 +52,8 @@
     line-height: 1.6rem;
   }
   .category-title {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    max-width: fit-content;
+    margin-inline: auto;
   }
   .category-title h1 {
     display: flex;
@@ -70,6 +67,7 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     text-align: center;
+    min-width: 0;
   }
   .category-title h1:after {
     display: none;
@@ -94,7 +92,7 @@
     width: 100%;
   }
   .header-simple {
-    padding: 96px 0 48px;
+    padding: 0;
   }
   .header-simple-excerpt {
     font-size: var(--font-xxxl);
@@ -105,16 +103,16 @@
     font-size: var(--font-s);
   }
   .header-simple-title h1 {
-    font-size: var(--font-7xl);
-    hyphens: auto;
-    word-wrap: break-word;
+    font-size: var(--font-9xl);
+    hyphens: none;
+    letter-spacing: -0.01rem;
     overflow-wrap: break-word;
-    padding: 0 48px;
     white-space: normal;
     word-break: break-word;
+    word-wrap: break-word;
   }
   .header-simple-title i {
-    margin: 0;
+    margin: 0 !important;
   }
   .hide-mobile {
     display: none;
@@ -155,8 +153,10 @@
   }
   #navbar,
   .footer,
-  .project-header {
+  .project-header,
+  .site-main {
     padding: 0 7.5vw;
+    overflow: hidden;
   }
   .menu-expanded {
     box-sizing: border-box;
@@ -275,22 +275,11 @@
   .project-title h1:after {
     display: none;
   }
-  .quote {
-    padding: 0 0 24px !important;
-  }
-  .quote-by {
-    padding: 4px 0 !important;
-  }
-  .quote-text {
-    font-size: var(--font-l) !important;
-    padding: 36px 36px 48px !important;
-    line-height: 1.4rem !important;
+  .site {
+    margin-top: 120px;
   }
   .section-header {
     text-align: center;
-  }
-  .site-main {
-    margin: 120px 0 0;
   }
   .subcategory {
     filter: grayscale(0);
@@ -626,6 +615,9 @@
   .category-title i {
     font-size: var(--font-xxxl);
   }
+  .header-simple-title h1 {
+    font-size: var(--font-9xl);
+  }
   .intro {
     text-align: justify;
   }
@@ -726,6 +718,9 @@
   }
   .bookmark-section li {
     line-height: 1.4rem;
+  }
+  .header-simple-title h1 {
+    font-size: var(--font-9xl);
   }
   .site-main {
     width: 100% !important;

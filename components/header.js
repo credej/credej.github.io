@@ -93,8 +93,8 @@ class Header extends HTMLElement {
                         <h2>Good Eats</h2>
                      </div>
                      <div class="menu-list yellow">
-                       <a href="/pages/otherstuff/goodeats/index.html" target=_self>Recipe Book</a>
-                       <a href="/pages/otherstuff/remedies/index.html" target=_self>Home Remedies</a>
+                       <a href="/pages/health/recipes/index.html" target=_self>Recipe Book</a>
+                       <a href="/pages/health/remedies/index.html" target=_self>Home Remedies</a>
                        <a href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
                      </div>
                   </div>

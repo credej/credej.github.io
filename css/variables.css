@@ -97,7 +97,7 @@
 .purple,
 .purple a,
 .purple i {
-  color: #7C83FD;
+  color: #878EFE;
 }
 
 .white,
@@ -152,7 +152,7 @@
 }
 
 .border-purple {
-  border-image: linear-gradient(to bottom, #101010 0%, #7C83FD 40%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #101010 0%, #878EFE 40%, #101010 100%) 1;
 }
 
 .border-white {
@@ -183,7 +183,7 @@ body.dark-mode .border-yellow {
   border-image: linear-gradient(to bottom, #101010 0%, #C8E501 40%, #101010 100%) 1;
 }
 body.dark-mode .border-purple {
-  border-image: linear-gradient(to bottom, #101010 0%, #7C83FD 40%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #101010 0%, #878EFE 40%, #101010 100%) 1;
 }
 body.dark-mode .border-white {
   border-image: linear-gradient(to bottom, #101010 0%, #ececec 40%, #101010 100%) 1;
@@ -198,11 +198,11 @@ body.dark-mode .border-black {
 /* GLASS BACKGROUND EFFECT */
 .bg-glass-blue {
   background-color: hsl(from var(--color-red) h s 90%);
-  background: rgba(0, 225, 237, 0.147);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .bg-glass-green {
-  background: rgba(150, 247, 109, 0.13);
+  background: rgba(150, 247, 109, 0.43);
 }
 
 .bg-glass-red {
@@ -226,7 +226,7 @@ body.dark-mode .border-black {
 }
 
 body.dark-mode .bg-glass-blue {
-  background: rgba(0, 225, 237, 0.045);
+  background: rgba(0, 225, 237, 0.035);
 }
 body.dark-mode .bg-glass-green {
   background: rgba(150, 247, 109, 0.038);
