@@ -24,7 +24,7 @@ body .category-subtitle {
   margin: 0 0 8px;
 }
 body .category-subtitle p {
-  color: var(--color-grey-1);
+  color: var(--color-blue-light);
   text-shadow: var(--text-shadow-1);
 }
 body .contact p,

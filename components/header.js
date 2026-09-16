@@ -13,7 +13,7 @@ class Header extends HTMLElement {
 
             <div class="navbar-logo flex">
                <a href="/index.html" class="effect-glitch">
-                  <div id="hover-element"><h1>work<span class="navbar-logo-spacer">@</span>ndotherstuff:~ $ <span class="navbar-logo-cursor"></span></h1></div>
+                  <div id="hover-element"><h1>work<span class="navbar-logo-spacer">@</span>ndotherstuff:~$ <span class="navbar-logo-cursor"></span></h1></div>
                   <audio id="hover-sound" src="/mp3/zap.mp3" preload="auto"></audio>
                </a>
             </div>

@@ -52,17 +52,19 @@
     line-height: 1.6rem;
   }
   .category-title {
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
   .category-title h1 {
     display: flex;
-    font-size: var(--font-xxxxl);
+    font-size: var(--font-5xl);
     line-height: 2.6rem;
     letter-spacing: 0.52rem;
     overflow: wrap;
-    padding: 8px 36px;
+    padding: 8px 0 8px 24px;
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -74,7 +76,7 @@
   }
   .category-title i {
     font-size: var(--font-xxxl);
-    padding: 0 0 12px;
+    padding: 0;
   }
   .contact {
     padding: 48px 48px 0;
@@ -179,7 +181,7 @@
     overflow: scroll;
   }
   .navbar-logo h1 {
-    font-size: 1.21rem;
+    font-size: 1.3rem;
     letter-spacing: -0.1rem;
   }
   .page-header h1 {
