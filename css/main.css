@@ -129,7 +129,7 @@ p, h1, h2, h3, h4, h5 {
   padding: 0 8px;
 }
 
-.category-links-footer {
+.footer-quick-links {
   padding: 8px 0 !important;
 }
 
@@ -139,7 +139,7 @@ p, h1, h2, h3, h4, h5 {
 
 .category-subtitle p {
   font-family: "Yellowtail", monospace;
-  font-size: var(--font-l);
+  font-size: var(--font-xxxl);
   font-style: italic;
 }
 
@@ -189,9 +189,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .contact li {
   margin: 24px;
-}
-.contact span {
-  opacity: 0.4;
 }
 
 .contact-title {
