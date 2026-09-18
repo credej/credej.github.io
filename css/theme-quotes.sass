@@ -1,7 +1,7 @@
 /* THEME - LIGHT */
 
 .site-main
-  margin: 96px 0 0
+  margin: 48px 0 0
 
 body
   background-color: #ececec
@@ -63,6 +63,33 @@ body
   padding: 0 0 48px
   text-align: right
 
+.quote-by
+  color: var(--color-white)
+  font-family: "Roboto Mono", monospace
+  font-size: var(--font-l)
+  font-style: normal
+  font-weight: 900
+  opacity: 0.71
+  padding: 8px 0
+  text-shadow: var(--text-shadow-3)
+
+.quote-by,
+.quote-text
+  cursor: default
+
+.quote-link
+  font-family: "JetBrains Mono", "Courier Prime", monospace
+  color: #ececec
+  font-size: var(--font-l)
+  line-height: 1.0rem
+  text-align: right
+  font-style: italic
+  // text-shadow: var(--text-shadow-3)
+  &:hover
+    animation: blinker 1.4s linear infinite
+    color: var(--color-purple) !important
+    text-decoration: underline dashed var(--color-purple)
+
 .quote-text
   background-color: var(--color-purple)
   border-radius: 24px 24px 0 24px
@@ -77,29 +104,7 @@ body
   margin-bottom: 12px
   padding: 48px 48px 60px
   text-align: left
-
-.quote-by
-  color: var(--color-white)
-  font-family: "Roboto Mono", monospace
-  font-size: var(--font-l)
-  font-style: normal
-  font-weight: 900
-  opacity: 0.71
-  padding: 8px 0
-  text-shadow: var(--text-shadow-3)
-
-.quote-link
-  font-family: "JetBrains Mono", "Courier Prime", monospace
-  color: #ececec
-  font-size: var(--font-l)
-  line-height: 1.0rem
-  text-align: right
-  font-style: italic
-  // text-shadow: var(--text-shadow-3)
-  &:hover
-    animation: blinker 1.4s linear infinite
-    color: var(--color-purple) !important
-    text-decoration: underline dashed var(--color-purple) 
+  text-shadow: var(--text-shadow-2)
 
 .page-header-excerpt
   background-color: whitesmoke
@@ -175,8 +180,6 @@ body.dark-mode
   .quote-text
     background-color: #1D212C
     color: var(--color-grey-1) 
-
-
 
 
 

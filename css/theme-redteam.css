@@ -47,9 +47,6 @@ body.dark-mode .navbar-menu i {
 body.dark-mode .navbar-menu i:hover {
   color: var(--color-green);
 }
-body.dark-mode .quote-text {
-  color: var(--color-blue-light);
-}
 body.dark-mode .page-header-excerpt {
   background: #170509 !important !important;
 }

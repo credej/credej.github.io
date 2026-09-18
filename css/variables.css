@@ -197,36 +197,37 @@ body.dark-mode .border-black {
 
 /* GLASS BACKGROUND EFFECT */
 .bg-glass-blue {
-  background-color: hsl(from var(--color-red) h s 90%);
+  background: hsl(from var(--color-red) h s 90%);
   background: rgba(255, 255, 255, 0.1);
 }
 
 .bg-glass-green {
-  background: rgba(150, 247, 109, 0.43);
+  background: rgba(150, 247, 109, 0.25);
 }
 
 .bg-glass-red {
-  background: rgba(217, 47, 4, 0.12);
+  background: rgba(217, 47, 4, 0.2);
 }
 
 .bg-glass-orange {
-  background: rgba(247, 147, 26, 0.15);
+  background: rgba(247, 147, 26, 0.21);
 }
 
 .bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.3);
+  background: rgba(247, 204, 21, 0.35);
 }
 
 .bg-glass-purple {
-  background: rgba(113, 100, 255, 0.37);
+  background: rgba(113, 100, 255, 0.21);
 }
 
 .bg-glass-white {
-  background: rgba(255, 255, 255, 0.147);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 body.dark-mode .bg-glass-blue {
-  background: rgba(0, 225, 237, 0.035);
+  background: rgba(0, 225, 237, 0.031);
+  background: rgba(255, 255, 255, 0.1);
 }
 body.dark-mode .bg-glass-green {
   background: rgba(150, 247, 109, 0.038);

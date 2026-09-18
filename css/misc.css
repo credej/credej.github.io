@@ -679,34 +679,8 @@ textarea
   resize: vertical
 
 */
-/*
-.quote-text
-  background-color: rgb(15 23 42)
-  background: hsla(205, 46%, 10%, 1)
-  background: linear-gradient(180deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%)
-  background: -moz-linear-gradient(180deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%)
-  background: -webkit-linear-gradient(180deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%)
-  border-radius: 18px 18px 0 18px
-  color: var(--color-light)
-  cursor: default
-  font-family: "Redacted Script", cursive
-  font-size: var(--font-l)
-  font-style: italic
-  font-weight: 400
-  line-height: 4rem
-  margin-bottom: 12px
-  padding: 24px 36px 36px
-  text-align: left
-  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
-  &:hover 
-    color: var(--color-base)
-    cursor: pointer
-    font-family: "Reddit Mono", monospace
-    font-family: "Lusitana", serif
-    font-size: var(--font-l)
-  &:active 
-    opacity: 0.93
-*/
+
+
 
 
 /*.article-head-title
