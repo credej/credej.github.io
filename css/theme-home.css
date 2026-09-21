@@ -28,6 +28,13 @@ body .category-subtitle p {
   color: var(--color-blue-light);
   text-shadow: var(--text-shadow-1);
 }
+body .contact {
+  padding: 48px 0 0;
+  text-align: center;
+}
+body .contact p {
+  font-size: var(--font-l);
+}
 body .contact p,
 body .contact ul {
   color: var(--color-white);

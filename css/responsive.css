@@ -29,8 +29,7 @@
     font-size: var(--font-xxxl);
   }
   .category {
-    margin: 0;
-    padding: 72px 7.5vw 24px;
+    padding: 48px 24px;
   }
   .category-links {
     padding: 0 36px;
@@ -75,13 +74,6 @@
   .category-title i {
     font-size: var(--font-xxxl);
     padding: 0;
-  }
-  .contact {
-    padding: 48px 48px 0;
-    text-align: center;
-  }
-  .contact p {
-    font-size: var(--font-l);
   }
   .footer {
     padding: 0;
@@ -283,7 +275,7 @@
   .subcategory {
     filter: grayscale(0);
     opacity: 1;
-    padding: 72px 0;
+    padding: 48px 0;
   }
   .subcategory-container {
     margin: 48px 0 0;
