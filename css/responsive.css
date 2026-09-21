@@ -29,7 +29,7 @@
     font-size: var(--font-xxxl);
   }
   .category {
-    padding: 48px 24px;
+    padding: 48px;
   }
   .category-links {
     padding: 0 36px;
@@ -75,8 +75,11 @@
     font-size: var(--font-xxxl);
     padding: 0;
   }
+  .contact-text {
+    padding: 48px;
+  }
   .footer {
-    padding: 0;
+    padding: 48px;
   }
   .footer-column {
     display: flex;
@@ -118,7 +121,7 @@
     text-align: center !important;
   }
   .intro-text {
-    margin: 48px 36px;
+    margin: 48px;
   }
   .intro-category-icons {
     justify-content: center;
@@ -143,12 +146,6 @@
     padding: 24px 0;
     padding-bottom: 150px;
   }
-  #navbar,
-  .project-header,
-  .site-main {
-    padding: 0 7.5vw;
-    overflow: hidden;
-  }
   .menu-expanded {
     box-sizing: border-box;
     flex-direction: column;
@@ -170,6 +167,11 @@
   }
   #navbar {
     overflow: scroll;
+  }
+  #navbar,
+  .project-header {
+    padding: 0 7.5vw;
+    overflow: hidden;
   }
   .navbar-logo h1 {
     font-size: 1.3rem;

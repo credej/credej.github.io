@@ -174,7 +174,8 @@ p, h1, h2, h3, h4, h5 {
 }
 .contact p {
   line-height: 2rem;
-  padding: 12px 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .contact a:hover {
   animation: blinker 1s linear infinite;
