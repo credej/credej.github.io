@@ -17,34 +17,95 @@ body
   .border-black
     border: none
 
-  .category-links
+  .category
+    border-radius: 4px
+    box-shadow: var(--box-shadow-3)
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    margin: 96px 0
+    padding: 72px
     a
-      text-shadow: var(--text-shadow-3)
+      color: var(--color-white)
+      font-size: var(--font-xl)
+      font-weight: 900
+      overflow-wrap: break-word
+      word-wrap: break-word
+      word-break: break-word
+      hyphens: auto
+    ul, p
+      font-size: var(--font-l)
+    p
+      color: #D4D4D4
+      line-height: 2rem
+      padding-top: 12px
+      padding-bottom: 12px
+      text-shadow: var(--text-shadow-1)
+    a:hover
+      animation: blinker 1s linear infinite
+    ul
+      font-size: var(--font-xxl)
+      font-family: "Reddit Mono", monospace 
+      font-family: "Doto", serif
+      list-style-type: disc
+      margin: 0 0 24px
+      text-transform: uppercase
+    li
+      margin: 24px
+    h1
+      color: white
+      text-wrap: wrap
+      word-break: break-all
+
+  .category-links
+    line-height: 2rem
+    text-shadow: var(--text-shadow-2)
+    a
+      font-size: var(--font-l)
+      font-style: italic
+      text-decoration-style: dotted
+      &:hover
+        animation: blinker 1s linear infinite
+        text-decoration: underline
+    span
+      opacity: 0.4
+      padding: 0 8px
+
 
   .category-subtitle
     margin: 0 0 8px
     p
       color: var(--color-blue-light)
+      font-family: "Yellowtail", monospace
+      font-size: var(--font-xxxl)
+      font-style: italic
       text-shadow: var(--text-shadow-1)
-  
-  .contact
-    padding: 48px 0 0
-    text-align: center
-    p
-      font-size: var(--font-l)
 
-  .contact p,
-  .contact ul
-    color: var(--color-white)
+  .category-title
+    display: flex
+    align-items: center
+    h1
+      clear: both
+      display: block
+      float: left
+      color: white
+      font-family: "Courier Prime", monospace
+      font-size: var(--font-5xl)
+      letter-spacing: 0.8rem
+      text-transform: uppercase
+      word-break: break-word
+    i
+      font-size: var(--font-xl)
+      padding: 0 24px 4px 0
+      text-align: center
 
   .footer  
-    border-top: 2px solid var(--color-grey-1)
+    border-top: 2px dashed var(--color-grey-1)
 
   .footer-text-thanks
     padding: 24px 0
     text-align: center
     h1
-      color: var(--color-grey-1) 
+      color: var(--color-white) 
       font-family: 'Array', sans-serif
       font-size: var(--font-xxl)
       line-height: 2.4rem
@@ -90,9 +151,16 @@ body
     animation: none
 
   .project-tag
-    background-color: var(--color-grey-1)
-    color: var(--color-grey-5)
+    background: rgba(255, 255, 255, .1)
+    color: var(--color-white)
     opacity: 0.5
+
+  .project-tags
+    h1
+      color: var(--color-white)
+      padding: 8px 0
+    span
+      color: var(--color-grey-2)
 
   .project-title
     h1
@@ -150,7 +218,9 @@ body
       font-size: var(--font-xl)
       margin: 12px 0 36px
     p
+      color: var(--color-white)
       font-family: "Doto", serif 
+      font-weight: 900
       margin: 12px 0 36px
     ul 
       margin: 0 0 35px

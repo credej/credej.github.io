@@ -90,162 +90,13 @@ p, h1, h2, h3, h4, h5 {
   padding: 4px 0;
 }
 
-.category {
-  border-radius: 4px;
-  box-shadow: var(--box-shadow-3);
-  font-family: "Yellowtail", monospace;
-  margin: 96px 0;
-  padding: 72px;
-}
-.category a {
-  font-size: var(--font-m);
-}
-.category h1 {
-  color: white;
-  text-wrap: wrap;
-  word-break: break-all;
-}
-.category li {
-  font-size: var(--font-xxxl);
-  line-height: 2rem;
-  list-style: none;
-}
-
-.category-links {
-  line-height: 2rem;
-  text-shadow: var(--text-shadow-2);
-}
-.category-links a {
-  font-size: var(--font-l);
-  font-style: italic;
-  text-decoration-style: dotted;
-}
-.category-links a:hover {
-  animation: blinker 1s linear infinite;
-  text-decoration: underline;
-}
-.category-links span {
-  opacity: 0.4;
-  padding: 0 8px;
-}
-
 .footer-quick-links {
   padding: 8px 0 !important;
-}
-
-.category-links-slash {
-  opacity: 0.4;
-}
-
-.category-subtitle p {
-  font-family: "Yellowtail", monospace;
-  font-size: var(--font-xxxl);
-  font-style: italic;
-}
-
-.category-title {
-  display: flex;
-  align-items: center;
-}
-.category-title h1 {
-  clear: both;
-  display: block;
-  float: left;
-  color: white;
-  font-family: "Courier Prime", monospace;
-  font-size: var(--font-xxl);
-  letter-spacing: 0.8rem;
-  text-transform: uppercase;
-  word-break: break-word;
-}
-.category-title i {
-  font-size: var(--font-xl);
-  padding: 0 24px 4px 0;
-  text-align: center;
-}
-
-.contact a {
-  color: var(--color-white);
-  font-size: var(--font-xl);
-  font-weight: 900;
-}
-.contact ul, .contact p {
-  font-size: var(--font-l);
-}
-.contact p {
-  line-height: 2rem;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.contact a:hover {
-  animation: blinker 1s linear infinite;
-}
-.contact ul {
-  font-size: var(--font-xxl);
-  font-family: "Reddit Mono", monospace;
-  font-family: "Doto", serif;
-  list-style-type: disc;
-  margin: 0 0 24px;
-  text-transform: uppercase;
-}
-.contact li {
-  margin: 24px;
-}
-
-.contact-title {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-}
-.contact-title h1 {
-  color: white;
-  font-family: "Courier Prime", monospace;
-  font-size: var(--font-5xl);
-  letter-spacing: 0.8rem;
-  text-transform: uppercase;
-  word-break: break-word;
-}
-.contact-title i {
-  font-size: var(--font-xl);
-  padding: 0 24px 4px 0;
-  text-align: center;
 }
 
 .footer {
   border-top: 2px solid var(--color-grey-5);
   margin: 120px 0 24px;
-}
-
-.footer-back-to-top {
-  align-items: center;
-  background-color: var(--color-grey-3);
-  border-radius: 15%;
-  bottom: 96px;
-  display: flex;
-  justify-content: center;
-  left: 72px;
-  opacity: 0.5 !important;
-  padding: 0.87rem;
-  position: fixed;
-  transition: all 0.2s;
-  visibility: hidden;
-  width: 4rem;
-  z-index: 8999;
-}
-.footer-back-to-top:hover {
-  background-color: #000;
-  opacity: 0.9;
-}
-.footer-back-to-top:active {
-  background-color: var(--color-black);
-  opacity: 1;
-}
-
-.footer-back-to-top-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-categories {
@@ -792,8 +643,8 @@ p, h1, h2, h3, h4, h5 {
 
 .subcategory {
   font-size: var(--font-xxl);
-  filter: grayscale(0.5);
-  opacity: 0.87;
+  filter: grayscale(0.3);
+  opacity: 0.71;
   padding: 48px 0;
   transition: 0.21s ease-in-out;
 }
