@@ -95,7 +95,7 @@ class Header extends HTMLElement {
                      <div class="menu-list yellow">
                        <a href="/pages/health/recipes/index.html" target=_self>Recipe Book</a>
                        <a href="/pages/health/remedies/index.html" target=_self>Home Remedies</a>
-                       <a href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
+                       <a style="opacity: 0.05;' href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
                      </div>
                   </div>
                </div>

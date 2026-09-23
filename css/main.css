@@ -202,46 +202,6 @@ p, h1, h2, h3, h4, h5 {
   bottom: 15px;
 }
 
-.intro-category-icons {
-  display: flex;
-  flex-shrink: 1;
-}
-.intro-category-icons i {
-  font-size: var(--font-xl);
-}
-.intro-category-icons h1 {
-  font-size: var(--font-xl);
-  padding: 0;
-}
-.intro-category-icons h1:after {
-  animation: blink-animation 0.9s infinite;
-  -webkit-animation: blink-animation 0.9s infinite;
-  -moz-animation: blink-animation 0.9s infinite;
-  -o-animation: blink-animation 0.9s infinite;
-  content: "_";
-}
-.intro-category-icons span {
-  padding: 0 8px;
-}
-
-.intro-text {
-  margin: 12px 0 50px;
-}
-.intro-text a {
-  font-weight: 700;
-  text-shadow: var(--text-shadow-3);
-}
-.intro-text a:hover {
-  animation: blinker 1s linear infinite;
-}
-.intro-text p {
-  display: inline-block;
-  font-size: var(--font-m);
-  font-family: "Reddit Mono", monospace;
-  line-height: 2rem;
-  text-align: left;
-}
-
 #menu-button i {
   font-size: var(--font-xxxl);
 }
@@ -641,6 +601,7 @@ p, h1, h2, h3, h4, h5 {
   margin: 144px 0 0;
 }
 
+/* cannot move this to theme-home.sass without breaking layout */
 .subcategory {
   font-size: var(--font-xxl);
   filter: grayscale(0.3);

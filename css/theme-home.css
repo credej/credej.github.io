@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* HOME PAGE - LIGHT THEME */
-.category {
-  margin: 48px 0;
-}
-
 body {
   background-color: var(--color-blue-dodger);
 }
@@ -23,11 +19,10 @@ body .category {
   box-shadow: var(--box-shadow-3);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
-  margin: 96px 0;
+  margin: 72px 0;
   padding: 72px;
 }
 body .category a {
-  color: var(--color-white);
   font-size: var(--font-xl);
   font-weight: 900;
   overflow-wrap: break-word;
@@ -35,7 +30,7 @@ body .category a {
   word-break: break-word;
   hyphens: auto;
 }
-body .category ul, body .category p {
+body .category ul {
   font-size: var(--font-l);
 }
 body .category p {
@@ -87,7 +82,6 @@ body .category-subtitle {
 body .category-subtitle p {
   color: var(--color-blue-light);
   font-family: "Yellowtail", monospace;
-  font-size: var(--font-xxxl);
   font-style: italic;
   text-shadow: var(--text-shadow-1);
 }
@@ -108,8 +102,10 @@ body .category-title h1 {
 }
 body .category-title i {
   font-size: var(--font-xl);
-  padding: 0 24px 4px 0;
   text-align: center;
+}
+body .contact a {
+  color: var(--color-white) !important;
 }
 body .footer {
   border-top: 2px dashed var(--color-grey-1);
@@ -125,16 +121,52 @@ body .footer-text-thanks h1 {
   line-height: 2.4rem;
 }
 body .footer-text-thanks h2 {
-  color: var(--color-grey-2);
+  color: var(--color-grey-1);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-s);
   padding: 4px 0;
 }
+body .intro-category-icons {
+  display: flex;
+  flex-shrink: 1;
+}
+body .intro-category-icons i {
+  font-size: var(--font-xl);
+}
+body .intro-category-icons h1 {
+  font-size: var(--font-xl);
+  padding: 0;
+}
+body .intro-category-icons h1:after {
+  animation: blink-animation 0.9s infinite;
+  -webkit-animation: blink-animation 0.9s infinite;
+  -moz-animation: blink-animation 0.9s infinite;
+  -o-animation: blink-animation 0.9s infinite;
+  content: "_";
+}
+body .intro-category-icons span {
+  padding: 0 8px;
+}
 body .intro-text {
   color: var(--color-blue-light);
+  margin: 12px 0 0;
+}
+body .intro-text a {
+  font-weight: 700;
+  text-shadow: var(--text-shadow-3);
 }
 body .intro-text a span {
   text-shadow: var(--text-shadow-3);
+}
+body .intro-text a:hover {
+  animation: blinker 1s linear infinite;
+}
+body .intro-text p {
+  display: inline-block;
+  font-size: var(--font-l);
+  font-family: "Reddit Mono", monospace;
+  line-height: 2rem;
+  text-align: left;
 }
 body .menu-category-title i {
   color: #ececec;
@@ -181,9 +213,6 @@ body .project-tags span {
 body .project-title h1 {
   text-shadow: none;
 }
-body .subcategory-excerpt {
-  color: var(--color-white);
-}
 body .stats h1 {
   color: var(--color-green);
   font-weight: 700;
@@ -192,14 +221,10 @@ body .stat {
   background-color: #6D9DE0;
   flex: 1;
   border-radius: 6px;
-  box-shadow: var(--box-shadow-1);
+  box-shadow: var(--box-shadow-3);
   color: #fff;
   margin: 15px 8px;
   padding: 48px 32px;
-}
-body .stat:hover {
-  transform: translateY(-12px);
-  transition: transform 0.1s ease-out, background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 body .stat .numbers {
   font-family: "Geostar Fill", serif;
@@ -211,12 +236,14 @@ body .stat .numbers span {
   opacity: 0.4;
 }
 body .stat a {
-  color: #fff;
-  background: #000;
-  border: 2px solid #000;
+  background: #fff;
   border-radius: 5px;
-  font-size: 15px;
-  font-weight: bolda;
+  box-shadow: var(--box-shadow-3);
+  color: var(--color-blue-dodger);
+  display: flex;
+  font-size: var(--font-l);
+  font-weight: bold;
+  justify-content: center;
   letter-spacing: 0.05em;
   padding: 10px 20px;
   text-align: center;
@@ -224,8 +251,8 @@ body .stat a {
   text-transform: uppercase;
 }
 body .stat a:hover {
-  background-color: var(--color-yellow);
-  color: var(--color-black);
+  background-color: var(--color-blue-dodger);
+  color: var(--color-white);
 }
 body .stat h2 {
   margin-top: 0;
@@ -282,11 +309,13 @@ body .stats-container {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  max-width: 960px;
   margin: auto;
 }
 body .stats-container h1 {
   text-align: center;
+}
+body .subcategory-excerpt p {
+  font-size: var(--font-l);
 }
 
 /* HOME PAGE - DARK THEME */
@@ -294,7 +323,7 @@ body.dark-mode {
   background-color: #101010;
 }
 body.dark-mode .category {
-  box-shadow: 8px 16px 16px hsla(0, 0%, 0%, 0.25);
+  box-shadow: var(--box-shadow-2);
 }
 body.dark-mode .category-subtitle p {
   color: var(--color-grey-3);
@@ -310,16 +339,16 @@ body.dark-mode .dark {
   display: block !important;
 }
 body.dark-mode .footer {
-  border-top: 2px solid var(--color-grey-5);
+  border-top: 2px dashed var(--color-grey-4);
 }
 body.dark-mode .footer-text-thanks {
   text-align: center;
 }
 body.dark-mode .footer-text-thanks h1 {
-  color: var(--color-grey-4);
+  color: var(--color-grey-3);
 }
 body.dark-mode .footer-text-thanks h2 {
-  color: var(--color-grey-5);
+  color: var(--color-grey-4);
 }
 body.dark-mode .intro-text {
   color: var(--color-grey-1);
@@ -354,11 +383,35 @@ body.dark-mode .project-title h1 {
 body.dark-mode .stat {
   background-color: #2F313D;
 }
+body.dark-mode .stat a {
+  background: #000;
+  color: #fff;
+}
 body.dark-mode .stats h1 {
   color: var(--color-green);
 }
 
+/* MEDIA QUERIES */
 @media screen and (min-width: 100px) and (max-width: 755px) {
+  .category {
+    padding: 48px 0 !important;
+  }
+  .category-title,
+  .category-subtitle,
+  .subcategory-excerpt {
+    padding: 0 36px;
+  }
+  .intro-text p {
+    padding: 24px;
+  }
+  .project-tags,
+  .stats h1,
+  .stat {
+    text-align: center;
+  }
+  .subcategory-title h2 {
+    font-size: var(--font-xxxl) !important;
+  }
   .stats-container {
     flex-direction: column !important;
   }
@@ -366,5 +419,21 @@ body.dark-mode .stats h1 {
 @media screen and (min-width: 1080px) and (max-width: 1279px) {
   .stats-container {
     flex-direction: column !important;
+  }
+  .category-title i {
+    padding: 0 24px 4px 0;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1979px) {
+  .category-subtitle p {
+    font-size: var(--font-l);
+  }
+  .category-title i {
+    padding: 0 24px 4px 0;
+  }
+}
+@media screen and (min-width: 1980px) {
+  .category-title i {
+    padding: 0 24px 4px 0;
   }
 }

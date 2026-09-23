@@ -163,37 +163,6 @@ p, h1, h2, h3, h4, h5
   position: fixed
   bottom: 15px
 
-.intro-category-icons
-  display: flex
-  flex-shrink: 1
-  i
-    font-size: var(--font-xl)
-  h1
-    font-size: var(--font-xl)
-    padding: 0
-    &:after
-      animation: blink-animation .9s infinite
-      -webkit-animation: blink-animation .9s infinite
-      -moz-animation: blink-animation .9s infinite
-      -o-animation: blink-animation .9s infinite
-      content: "_"    
-  span
-    padding: 0 8px
-
-.intro-text
-  margin: 12px 0 50px
-  a
-    font-weight: 700
-    text-shadow: var(--text-shadow-3)
-  a:hover
-    animation: blinker 1s linear infinite
-  p
-    display: inline-block
-    font-size: var(--font-m)
-    font-family: "Reddit Mono", monospace
-    line-height: 2rem
-    text-align: left
-
 #menu-button
   i
     font-size: var(--font-xxxl)
@@ -531,6 +500,10 @@ p, h1, h2, h3, h4, h5
 .site-main
   margin: 144px 0 0
 
+
+
+/* cannot move this to theme-home.sass without breaking layout */
+
 .subcategory
   font-size: var(--font-xxl)
   filter: grayscale(0.3)
@@ -574,6 +547,12 @@ p, h1, h2, h3, h4, h5
   h2
     cursor: pointer
     font-size: var(--font-l)
+
+
+
+
+
+
 
 .tooltip-container
   position: relative
