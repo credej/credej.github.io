@@ -1564,20 +1564,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/arch\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/arch\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/design\/artwork\/img\/artwork-banner-backup.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-banner-backup.jpg" : {
       "ft" : 16384,
       "iS" : 681272,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-backup.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-banner-backup.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1585,25 +1577,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-banner-lg.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-banner-lg.jpg" : {
       "ft" : 16384,
       "iS" : 291296,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-lg.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-banner-lg.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-banner-sm.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-banner-sm.jpg" : {
       "ft" : 16384,
       "iS" : 113623,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-banner-sm.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-banner-sm.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1611,12 +1603,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-bee.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-bee.jpg" : {
       "ft" : 16384,
       "iS" : 3436513,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-bee.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-bee.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1624,11 +1616,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-cobra.png" : {
+    "\/pages\/design\/arch\/img\/artwork-cobra.png" : {
       "ft" : 32768,
       "iS" : 7349489,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-cobra.png",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-cobra.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1637,12 +1629,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-dog-max.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-dog-max.jpg" : {
       "ft" : 16384,
       "iS" : 414999,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-dog-max.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-dog-max.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1650,12 +1642,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-gemini-symbols.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-gemini-symbols.jpg" : {
       "ft" : 16384,
       "iS" : 139243,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-gemini-symbols.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-gemini-symbols.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1663,12 +1655,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-indians.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-indians.jpg" : {
       "ft" : 16384,
       "iS" : 628362,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-indians.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-indians.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1676,38 +1668,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-subway-1.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-subway-1.jpg" : {
       "ft" : 16384,
       "iS" : 48387,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-subway-1.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-subway-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-combined.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-combined.jpg" : {
       "ft" : 16384,
       "iS" : 3353274,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-combined.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-combined.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day-color.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-day-color.jpg" : {
       "ft" : 16384,
       "iS" : 1601419,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day-color.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-day-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1715,12 +1707,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-day.jpg" : {
       "ft" : 16384,
       "iS" : 4791430,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-day.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-day.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1728,12 +1720,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night-color.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-night-color.jpg" : {
       "ft" : 16384,
       "iS" : 1544042,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night-color.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-night-color.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1741,12 +1733,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-night.jpg" : {
       "ft" : 16384,
       "iS" : 9015643,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo-gemini-night.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo-gemini-night.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1754,18 +1746,26 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/pages\/design\/artwork\/img\/artwork-tattoo.jpg" : {
+    "\/pages\/design\/arch\/img\/artwork-tattoo.jpg" : {
       "ft" : 16384,
       "iS" : 2944520,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/img\/artwork-tattoo.jpg",
+      "oAP" : "\/pages\/design\/arch\/img\/artwork-tattoo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/pages\/design\/arch\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/design\/arch\/index.html",
+      "oF" : 0
     },
     "\/pages\/design\/artwork\/index.html" : {
       "cB" : 0,

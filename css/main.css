@@ -164,9 +164,9 @@ p, h1, h2, h3, h4, h5 {
   flex-grow: 1;
 }
 .img-gallery img {
-  box-shadow: var(--box-shadow-3);
   max-height: 100%;
   min-width: 100%;
+  margin: 36px 0;
   width: 100%;
 }
 
