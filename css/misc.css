@@ -1,6 +1,47 @@
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
 
+/* Enables smooth scrolling when the anchor link is clicked */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styles for the button */
+.back-to-top {
+  background-color: #000;
+  bottom: 2rem;
+  color: #fff;
+  opacity: 0.5;
+  position: fixed;
+  left: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.71rem;
+  height: 2.71rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  text-decoration: none;a(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Hover effects */
+.back-to-top:hover {
+  opacity: 1;
+}
+
+.back-to-top:active {
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
+
+/* Accessibility: Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 
 *
   border: 1px solid red !important

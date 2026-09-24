@@ -610,9 +610,6 @@
   .intro p {
     font-size: var(--font-l);
   }
-  .intro-category-icons i {
-    font-size: var(--font-xxl) !important;
-  }
   .footer-main {
     display: flex;
     justify-content: center;

@@ -56,13 +56,10 @@ table {
 }
 
 /* FONTS & CURSOR */
-a,
-.category-links,
-.category-links a {
+a {
   cursor: pointer !important;
 }
 
-.category-links span,
 .menu-category-title,
 .project-section,
 .project-title,
@@ -613,17 +610,12 @@ p, h1, h2, h3, h4, h5 {
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
-  transition: 0.21s ease-in-out;
-}
-.subcategory:hover h2 {
-  transition: 1s ease-in-out;
 }
 
 .subcategory-banner {
   box-shadow: var(--box-shadow-3);
 }
 .subcategory-banner img {
-  border-radius: 4px;
   margin: 18px 0;
 }
 

@@ -1,7 +1,7 @@
 :root {
   --color-blue: #2B78E4;
   --color-blue-2: #5EEAD4;
-  --color-green: #6DFFB0;
+  --color-green: #6DFF9A;
   --color-red: #D9044C;
   --color-orange: #ea673e;
   --color-purple: #697BED;
@@ -118,7 +118,6 @@
   color: #000;
 }
 
-/* BORDER COLORS */
 .border-blue,
 .border-green,
 .border-red,
@@ -193,59 +192,6 @@ body.dark-mode .border-grey {
 }
 body.dark-mode .border-black {
   border-image: linear-gradient(to bottom, #101010 0%, #000 40%, #101010 100%) 1;
-}
-
-/* GLASS BACKGROUND EFFECT */
-.bg-glass-blue {
-  background: hsl(from var(--color-red) h s 90%);
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.bg-glass-green {
-  background: rgba(150, 247, 109, 0.25);
-}
-
-.bg-glass-red {
-  background: rgba(217, 47, 4, 0.2);
-}
-
-.bg-glass-orange {
-  background: rgba(247, 147, 26, 0.21);
-}
-
-.bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.35);
-}
-
-.bg-glass-purple {
-  background: rgba(113, 100, 255, 0.21);
-}
-
-.bg-glass-white {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-body.dark-mode .bg-glass-blue {
-  background: rgba(0, 225, 237, 0.031);
-  background: rgba(255, 255, 255, 0.1);
-}
-body.dark-mode .bg-glass-green {
-  background: rgba(150, 247, 109, 0.038);
-}
-body.dark-mode .bg-glass-red {
-  background: rgba(217, 47, 4, 0.045);
-}
-body.dark-mode .bg-glass-orange {
-  background: rgba(247, 147, 26, 0.04);
-}
-body.dark-mode .bg-glass-purple {
-  background: rgba(113, 100, 255, 0.045);
-}
-body.dark-mode .bg-glass-yellow {
-  background: rgba(247, 204, 21, 0.035);
-}
-body.dark-mode .bg-glass-white {
-  background: rgba(255, 255, 255, 0.035);
 }
 
 /* FONT EFFECTS */
