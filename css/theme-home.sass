@@ -1,5 +1,5 @@
 body
-  background-color: var(--color-blue-dodger)
+  background-color: #5456F7
 
   .border-blue,
   .border-green,
@@ -18,7 +18,7 @@ body
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
     margin: 72px 0
-    padding: 72px
+    padding: 72px !important
     a
       font-size: var(--font-xl)
       font-weight: 900
@@ -62,11 +62,12 @@ body
       padding: 0 8px
 
   .category-subtitle
-    margin: 0 0 8px
+    margin: -8px 0 8px
     p
       color: var(--color-blue-light)
       font-family: "Yellowtail", monospace
       font-style: italic
+      line-height: 1.5rem
       text-shadow: var(--text-shadow-1)
 
   .category-title
@@ -407,17 +408,25 @@ body.dark-mode
 
 @media screen and (min-width: 100px) and (max-width: 755px)
 
+  .back-to-top
+    bottom: 7vw
+    left: 7vw
+
   .category
     padding: 48px 0 !important
 
-  .category-title,
-  .category-subtitle,
-  .subcategory-excerpt
-    padding: 0 36px
+  .category-links a
+    white-space: nowrap
+
+  .category-subtitle
+    margin: 8px 0 !important
+
+  .footer-text-thanks
+    padding: 96px 0 0
 
   .intro-category-icons
     i
-      font-size: var(--font-xxl) !important
+      font-size: var(--font-xxxl) !important
 
   .intro-text
     p
