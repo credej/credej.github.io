@@ -19,7 +19,6 @@ body .category {
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
   margin: 72px 0;
-  padding: 72px !important;
 }
 body .category a {
   font-size: var(--font-xl);
@@ -466,6 +465,19 @@ body.dark-mode .bg-glass-white {
   .category-subtitle {
     margin: 8px 0 !important;
   }
+  .category-links,
+  .category-title,
+  .category-subtitle,
+  .subcategory-title,
+  .subcategory-excerpt p {
+    padding: 0 48px;
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
+  }
+  .subcategory-excerpt {
+    padding: 12px 0;
+  }
   .footer-text-thanks {
     padding: 96px 0 0;
   }
@@ -473,7 +485,7 @@ body.dark-mode .bg-glass-white {
     font-size: var(--font-xxxl) !important;
   }
   .intro-text p {
-    padding: 24px;
+    padding: 24px 48px;
   }
   .project-tags,
   .stats h1,

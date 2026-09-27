@@ -628,7 +628,6 @@ p, h1, h2, h3, h4, h5 {
   align-items: stretch;
   color: var(--color-grey-1);
   display: flex;
-  min-height: 80px;
 }
 .subcategory-excerpt p {
   align-items: stretch;
@@ -640,7 +639,6 @@ p, h1, h2, h3, h4, h5 {
   color: var(--color-white);
   display: flex;
   align-items: flex-end;
-  height: 70px;
   font-family: "Reddit Mono", monospace;
 }
 .subcategory-title h2 {

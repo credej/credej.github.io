@@ -18,7 +18,7 @@ body
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
     margin: 72px 0
-    padding: 72px !important
+    // padding: 72px !important
     a
       font-size: var(--font-xl)
       font-weight: 900
@@ -419,7 +419,20 @@ body.dark-mode
     white-space: nowrap
 
   .category-subtitle
-    margin: 8px 0 !important
+    margin: 8px 0 !important  
+
+  .category-links,
+  .category-title,
+  .category-subtitle,
+  .subcategory-title,
+  .subcategory-excerpt p
+    padding: 0 48px
+    word-break: normal     /* Prevent breaking words anywhere */
+    overflow-wrap: normal    /* Prevent breaking long strings or URLs */
+    hyphens: none
+
+  .subcategory-excerpt
+    padding: 12px 0
 
   .footer-text-thanks
     padding: 96px 0 0
@@ -430,7 +443,7 @@ body.dark-mode
 
   .intro-text
     p
-      padding: 24px 
+      padding: 24px 48px
 
   .project-tags,
   .stats h1,
