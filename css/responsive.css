@@ -628,7 +628,6 @@
     font-size: var(--font-xl);
   }
   #navbar,
-  .footer,
   .site-main {
     padding: 0 15vw;
   }
