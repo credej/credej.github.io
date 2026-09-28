@@ -208,6 +208,9 @@ body .project-tags span {
 body .project-title h1 {
   text-shadow: none;
 }
+body .site-main {
+  margin: 144px 0 0;
+}
 body .stats h1 {
   color: var(--color-green);
   font-weight: 700;

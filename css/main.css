@@ -227,7 +227,6 @@ p, h1, h2, h3, h4, h5 {
   padding: 4px 0;
 }
 .menu-category-title i {
-  color: var(--color-grey-1);
   font-size: var(--font-xl);
   padding: 0 14px 0 0;
 }
@@ -592,10 +591,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .section-header h5 {
   color: white;
-}
-
-.site-main {
-  margin: 144px 0 0;
 }
 
 /* cannot move this to theme-home.sass without breaking layout */
