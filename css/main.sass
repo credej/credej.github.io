@@ -59,6 +59,68 @@ p, h1, h2, h3, h4, h5
 .anchor
   scroll-margin-top: 28px 
 
+/* BACK TO TOP BUTTON */
+
+.back-to-top 
+  background-color: #000
+  bottom: 2rem
+  color: #fff
+  opacity: 0.3
+  position: fixed
+  left: 2rem
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  width: 2.71rem
+  height: 2.71rem
+  border-radius: 50%
+  font-size: 1.2rem
+  text-decoration: none
+  transition: transform 0.2s ease, background-color 0.2s ease
+  z-index: 9998
+
+.back-to-top-2 
+  background-color: #000
+  bottom: 6rem
+  color: #fff
+  opacity: 0.3
+  position: fixed
+  left: 2rem
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  width: 2.71rem
+  height: 2.71rem
+  border-radius: 50%
+  font-size: 1.2rem
+  text-decoration: none
+  transition: transform 0.2s ease, background-color 0.2s ease
+  z-index: 9998
+
+.back-to-top-3
+  bottom: 8rem
+  opacity: 0.5
+  position: fixed
+  left: 0.5rem
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  width: 2.71rem
+  height: 2.71rem
+  border-radius: 50%
+  font-size: 1.2rem
+  text-decoration: none
+  transition: transform 0.2s ease, background-color 0.2s ease
+  z-index: 9998
+
+/* Hover effects */
+.back-to-top:hover 
+  opacity: 1
+
+.back-to-top:active 
+  transform: translateY(-2px)
+  opacity: 0.7
+
 .badges
   margin: 96px 0
 
@@ -164,6 +226,20 @@ p, h1, h2, h3, h4, h5
 #menu-button
   i
     font-size: var(--font-xxxl)
+  // // styling for a text-based menu button
+  // p
+  //   cursor: pointer
+  //   filter: grayscale(0.5)
+  //   font-family: "Noto Color Emoji", sans-serif
+  //   font-weight: 400
+  //   font-size: var(--font-xxl)
+  //   font-style: normal
+  //   opacity: 0.7
+  //   &:hover
+  //     filter: grayscale(0.0)
+  //     opacity: 1
+  //   &:active
+  //     opacity: 0.9
 
 .menu-category
   display: flex
@@ -200,6 +276,7 @@ p, h1, h2, h3, h4, h5
   height: 100vh
   -ms-overflow-style: none  /* IE and Edge */
   scrollbar-width: none
+  z-index: 9999
 
 .menu-expanded
   display: flex
@@ -239,13 +316,16 @@ p, h1, h2, h3, h4, h5
 #navbar-theme-toggle
   background: transparent
   border: none
+  bottom: 2rem
   display: block
   fill: var(--color-yellow) 
   height: 2rem
+  left: 2rem
   opacity: 0.71
-  position: relative
+  position: absolute
   width: 2rem
   -webkit-animation: fadein 1s linear 1 normal forwards
+  z-index: 9999
   img, svg
     position: absolute
     top: 50%
@@ -287,27 +367,15 @@ p, h1, h2, h3, h4, h5
       vertical-align: text-bottom
       width: 0.67em
       @extend .blinker
-  h1:hover
-    color: #48DC8C 
-    &:after
-      background-color: var(--color-green)
-  h1:active
-    color: #48DC8C 
-
 
 .navbar-logo-spacer
   margin: 0 1px
 
 .navbar-menu
-  display: flex
   align-items: center
+  cursor: pointer
+  display: flex
   justify-content: center
-  i
-    color: var(--color-grey-1)
-  i:hover
-    color: var(--color-green)
-  i:active
-    opacity: 0.5
 
 .page-header
   display: flex
@@ -496,6 +564,7 @@ p, h1, h2, h3, h4, h5
 
 
 
+
 /* cannot move this to theme-home.sass without breaking layout */
 
 .subcategory
@@ -535,6 +604,8 @@ p, h1, h2, h3, h4, h5
   h2
     cursor: pointer
     font-size: var(--font-l)
+
+
 
 
 

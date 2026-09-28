@@ -44,9 +44,6 @@ body.dark-mode .navbar-logo h1:hover:after {
 body.dark-mode .navbar-menu i {
   color: var(--color-grey-3);
 }
-body.dark-mode .navbar-menu i:hover {
-  color: var(--color-green);
-}
 body.dark-mode .page-header-excerpt {
   background: #170509 !important !important;
 }
@@ -56,4 +53,13 @@ body.dark-mode .page-header-excerpt p {
 }
 body.dark-mode .project-links a:hover {
   color: #FF005B;
+}
+
+@media screen and (min-width: 100px) and (max-width: 755px) {
+  .navbar-menu i {
+    color: var(--color-blue-light);
+  }
+  .navbar-menu i:active {
+    opacity: 0.9;
+  }
 }

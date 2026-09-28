@@ -73,7 +73,7 @@ body .category-links span {
   padding: 0 8px;
 }
 body .category-subtitle {
-  margin: -8px 0 8px;
+  margin: 0 0 10px;
 }
 body .category-subtitle p {
   color: var(--color-blue-light);
@@ -163,26 +163,20 @@ body .intro-text p {
   line-height: 2rem;
   text-align: left;
 }
-body .menu-category-title i {
-  color: #ececec;
-}
 body .menu-list a {
-  text-shadow: var(--text-shadow-3);
+  text-shadow: var(--text-shadow-1);
 }
 body .menu-list a:hover {
-  color: var(--color-white);
+  color: var(--color-white) !important;
 }
 body .navbar-logo h1 {
   color: var(--color-blue-light);
 }
 body .navbar-logo h1:hover {
-  color: #ececec;
+  color: var(--color-white);
 }
 body .navbar-logo h1:hover:after {
-  background-color: #ececec;
-}
-body .navbar-logo h1:after {
-  background-color: #ececec;
+  background-color: var(--color-grey-5);
 }
 body .navbar-menu i {
   color: var(--color-blue-light);
@@ -207,9 +201,6 @@ body .project-tags span {
 }
 body .project-title h1 {
   text-shadow: none;
-}
-body .site-main {
-  margin: 144px 0 0;
 }
 body .stats h1 {
   color: var(--color-green);
@@ -361,26 +352,23 @@ body.dark-mode .footer-text-thanks h2 {
 body.dark-mode .intro-text {
   color: var(--color-grey-1);
 }
-body.dark-mode .menu-list a {
-  text-shadow: var(--text-shadow-1);
-}
-body.dark-mode .menu-list a:hover {
-  color: var(--color-white);
-}
 body.dark-mode .navbar-logo h1 {
-  color: var(--color-grey-3);
+  color: var(--color-grey-1);
+}
+body.dark-mode .navbar-logo h1:after {
+  background-color: var(--color-grey-1);
 }
 body.dark-mode .navbar-logo h1:hover {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 body.dark-mode .navbar-logo h1:hover:after {
-  background-color: var(--color-white);
+  background-color: var(--color-green);
 }
 body.dark-mode .navbar-menu i {
-  color: var(--color-grey-3);
+  color: var(--color-grey-1);
 }
 body.dark-mode .navbar-menu i:hover {
-  color: var(--color-white);
+  color: var(--color-green);
 }
 body.dark-mode .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
@@ -456,10 +444,6 @@ body.dark-mode .bg-glass-white {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 100px) and (max-width: 755px) {
-  .back-to-top {
-    bottom: 7vw;
-    left: 7vw;
-  }
   .category {
     padding: 48px 0 !important;
   }

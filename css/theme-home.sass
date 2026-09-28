@@ -63,7 +63,7 @@ body
       padding: 0 8px
 
   .category-subtitle
-    margin: -8px 0 8px
+    margin: 0 0 10px
     p
       color: var(--color-blue-light)
       font-family: "Yellowtail", monospace
@@ -141,31 +141,25 @@ body
       line-height: 2rem
       text-align: left
 
-  .menu-category-title
-    i
-      color: #ececec
-
   .menu-list
     a
-      text-shadow: var(--text-shadow-3)
+      text-shadow: var(--text-shadow-1)
       &:hover 
-        color: var(--color-white)
+        color: var(--color-white) !important
 
   .navbar-logo 
     h1
-      color: var(--color-blue-light)
+      color: var(--color-blue-light) 
       &:hover
-        color: #ececec  
+        color: var(--color-white)    
         &:after
-          background-color: #ececec
-      &:after
-        background-color: #ececec
+          background-color: var(--color-grey-5)
     
   .navbar-menu
     i
       color: var(--color-blue-light)
       &:hover
-        color: var(--color-white)
+        color: var(--color-white) 
 
   .neon-blue
     animation: none
@@ -185,9 +179,6 @@ body
   .project-title
     h1
       text-shadow: none
-
-  .site-main
-    margin: 144px 0 0
 
   .stats
     h1
@@ -328,25 +319,21 @@ body.dark-mode
   .intro-text
     color: var(--color-grey-1)
 
-  .menu-list
-    a
-      text-shadow: var(--text-shadow-1)
-      &:hover 
-        color: var(--color-white)
-
   .navbar-logo 
     h1
-      color: var(--color-grey-3)
+      color: var(--color-grey-1)  
+      &:after
+        background-color: var(--color-grey-1)
       &:hover
-        color: var(--color-white)    
+        color: var(--color-green)    
         &:after
-          background-color: var(--color-white)
+          background-color: var(--color-green)
     
   .navbar-menu
     i
-      color: var(--color-grey-3)
+      color: var(--color-grey-1)
       &:hover
-        color: var(--color-white)
+        color: var(--color-green)
 
   .neon-blue
     animation: pulsate-blue 0.11s ease-in-out infinite alternate
@@ -412,10 +399,6 @@ body.dark-mode
 
 @media screen and (min-width: 100px) and (max-width: 755px)
 
-  .back-to-top
-    bottom: 7vw
-    left: 7vw
-
   .category
     padding: 48px 0 !important
 
@@ -434,7 +417,7 @@ body.dark-mode
     word-break: normal     /* Prevent breaking words anywhere */
     overflow-wrap: normal    /* Prevent breaking long strings or URLs */
     hyphens: none
-
+    
   .subcategory-excerpt
     padding: 12px 0
 
