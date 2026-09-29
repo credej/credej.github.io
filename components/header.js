@@ -131,7 +131,7 @@ class Header extends HTMLElement {
          </div>
       </nav>
 
-      /* SIDEBAR MENU */
+      <!--  LEFT SIDEBAR MENU -->
 
       <a class="back-to-top back-to-top-theme" aria-label="Back to top">
          <button id="navbar-theme-toggle">
