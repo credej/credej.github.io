@@ -29,8 +29,6 @@ body
     ul
       font-size: var(--font-l)
     p
-      color: #D4D4D4
-      line-height: 2rem
       text-shadow: var(--text-shadow-1)
     ul
       font-size: var(--font-xxl)
@@ -68,7 +66,6 @@ body
       color: var(--color-blue-light)
       font-family: "Yellowtail", monospace
       font-style: italic
-      line-height: 1.5rem
       text-shadow: var(--text-shadow-1)
 
   .category-title
@@ -274,14 +271,15 @@ body
       text-align: center
 
   .subcategory-excerpt
-    display: flex
-    justify-content: center
     p
-      font-size: var(--font-l)
+      color: var(--color-grey-1)
+      padding: 4px 36px
 
   .subcategory-title
     h2
-      font-size: var(--font-xxxl) 
+      font-size: var(--font-xxxl)
+      line-height: 2rem
+      padding: 8px 0
       text-shadow: var(--text-shadow-2)
 
 /* HOME PAGE - DARK THEME */
@@ -341,6 +339,9 @@ body.dark-mode
   .project-title
     h1
       text-shadow: inherit
+
+  .subcategory-excerpt
+    color: var(--color-grey-3)
 
   .stat
     background-color: #2F313D
@@ -421,6 +422,10 @@ body.dark-mode
   .subcategory-excerpt
     padding: 12px 0
 
+  .category-subtitle
+    p
+      line-height: 1.5rem 
+
   .footer-text-thanks
     padding: 96px 0 0
 
@@ -448,6 +453,17 @@ body.dark-mode
 
   .category
     padding: 48px 0 !important
+
+  .category-links
+    line-height: 2.4rem
+    text-indent: 0
+    text-align: center
+    a
+      font-size: var(--font-xxl)
+      display: block
+      padding: 4px 0
+    .category-links-slash
+      display: none
 
   .category-links,
   .category-title,
@@ -483,10 +499,6 @@ body.dark-mode
 
   .subcategory-excerpt
     padding: 12px 0
-
-  .stats-container
-    flex-direction: column !important
-
 
   .category-title 
     h1
@@ -526,6 +538,9 @@ body.dark-mode
 
 
 @media screen and (min-width: 1980px)
+
+  .category
+    padding: 72px
 
   .category-title 
     i

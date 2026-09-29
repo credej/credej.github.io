@@ -32,8 +32,6 @@ body .category ul {
   font-size: var(--font-l);
 }
 body .category p {
-  color: #D4D4D4;
-  line-height: 2rem;
   text-shadow: var(--text-shadow-1);
 }
 body .category ul {
@@ -79,7 +77,6 @@ body .category-subtitle p {
   color: var(--color-blue-light);
   font-family: "Yellowtail", monospace;
   font-style: italic;
-  line-height: 1.5rem;
   text-shadow: var(--text-shadow-1);
 }
 body .category-title {
@@ -305,15 +302,14 @@ body .stats-container {
 body .stats-container h1 {
   text-align: center;
 }
-body .subcategory-excerpt {
-  display: flex;
-  justify-content: center;
-}
 body .subcategory-excerpt p {
-  font-size: var(--font-l);
+  color: var(--color-grey-1);
+  padding: 4px 36px;
 }
 body .subcategory-title h2 {
   font-size: var(--font-xxxl);
+  line-height: 2rem;
+  padding: 8px 0;
   text-shadow: var(--text-shadow-2);
 }
 
@@ -375,6 +371,9 @@ body.dark-mode .neon-blue {
 }
 body.dark-mode .project-title h1 {
   text-shadow: inherit;
+}
+body.dark-mode .subcategory-excerpt {
+  color: var(--color-grey-3);
 }
 body.dark-mode .stat {
   background-color: #2F313D;
@@ -466,6 +465,9 @@ body.dark-mode .bg-glass-white {
   .subcategory-excerpt {
     padding: 12px 0;
   }
+  .category-subtitle p {
+    line-height: 1.5rem;
+  }
   .footer-text-thanks {
     padding: 96px 0 0;
   }
@@ -490,6 +492,19 @@ body.dark-mode .bg-glass-white {
 @media screen and (min-width: 756px) and (max-width: 1079px) {
   .category {
     padding: 48px 0 !important;
+  }
+  .category-links {
+    line-height: 2.4rem;
+    text-indent: 0;
+    text-align: center;
+  }
+  .category-links a {
+    font-size: var(--font-xxl);
+    display: block;
+    padding: 4px 0;
+  }
+  .category-links .category-links-slash {
+    display: none;
   }
   .category-links,
   .category-title,
@@ -525,9 +540,6 @@ body.dark-mode .bg-glass-white {
   .subcategory-excerpt {
     padding: 12px 0;
   }
-  .stats-container {
-    flex-direction: column !important;
-  }
   .category-title h1 {
     font-size: var(--font-7xl);
   }
@@ -561,6 +573,9 @@ body.dark-mode .bg-glass-white {
   }
 }
 @media screen and (min-width: 1980px) {
+  .category {
+    padding: 72px;
+  }
   .category-title i {
     font-size: var(--font-xxxxl);
     padding: 0 24px 4px 0;
