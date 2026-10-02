@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                </a>
             </div>
 
-            <div class="navbar-menu effect-glitch">
+            <div class="navbar-menu">
                <button id="menu-button" class="">
                   <i class="iconoir-menu"></i>
                </button>

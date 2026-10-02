@@ -88,7 +88,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .back-to-top-theme {
-  bottom: 8rem;
+  bottom: 8.5rem;
   opacity: 0.5;
   left: 0.5rem;
   font-size: 1.2rem;
@@ -110,11 +110,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .back-to-top-home span {
   font-size: 1.8rem;
-}
-
-/* Hover effects */
-.back-to-top:hover {
-  opacity: 1;
 }
 
 .back-to-top:active {
@@ -314,20 +309,23 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-m);
   line-height: 1.4rem;
   padding: 6px 0;
+  text-shadow: var(--text-shadow-1);
 }
 .menu-list a:hover {
   animation: blinker 1s linear infinite;
+  color: var(--color-white) !important;
 }
 
 #navbar {
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 10000;
   overflow: hidden;
   width: 100%;
   max-height: 100vh;
   position: fixed;
   backdrop-filter: blur(187px);
+  -webkit-backdrop-filter: blur(187px);
   overflow-y: none;
 }
 
@@ -339,7 +337,6 @@ p, h1, h2, h3, h4, h5 {
   fill: var(--color-yellow);
   height: 2rem;
   left: 2rem;
-  opacity: 0.71;
   position: absolute;
   width: 2rem;
   -webkit-animation: fadein 1s linear 1 normal forwards;
@@ -361,6 +358,26 @@ p, h1, h2, h3, h4, h5 {
   opacity: 0.9;
 }
 
+.navbar-logo h1 {
+  color: var(--color-grey-1);
+}
+.navbar-logo h1:after {
+  background-color: var(--color-grey-1);
+}
+.navbar-logo h1:hover {
+  color: var(--color-green);
+}
+.navbar-logo h1:hover:after {
+  background-color: var(--color-green);
+}
+
+.navbar-menu i {
+  color: var(--color-grey-1);
+}
+.navbar-menu i:hover {
+  color: var(--color-green);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -380,7 +397,7 @@ p, h1, h2, h3, h4, h5 {
 .navbar-logo h1 {
   cursor: pointer;
   font-size: var(--font-xxxl);
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-logo h1:after {
   background-color: #ececec;
@@ -395,7 +412,8 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .navbar-logo-spacer {
-  margin: 0 1px;
+  font-family: "Yellowtail", monospace;
+  margin: 0 3px;
 }
 
 .navbar-menu {
@@ -676,44 +694,6 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-l);
 }
 
-.tooltip-container {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-.tooltip-container::before {
-  background-color: #333;
-  border-radius: 4px;
-  bottom: 125%;
-  color: #fff;
-  content: attr(data-tooltip);
-  font-size: 0.9em;
-  opacity: 0;
-  padding: 8px 12px;
-  position: absolute;
-  transform: translateX(0%);
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  visibility: hidden;
-  white-space: nowrap;
-}
-.tooltip-container::after {
-  content: "";
-  position: absolute;
-  bottom: 115%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 5px;
-  border-style: solid;
-  border-color: #333 transparent transparent transparent;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-.tooltip-container:hover::before, .tooltip-container:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
 /* EFFECTS */
 .blinker, .navbar-logo h1:after, .project-header h1:after {
   animation: blink-animation 1s infinite;
@@ -862,4 +842,28 @@ p, h1, h2, h3, h4, h5 {
 .b-game-card:hover::before {
   opacity: 0.6;
   transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+/* HOVER STYLING*/
+/* base style (mobile touch) */
+.back-to-top-arrow,
+.back-to-top-home,
+.back-to-top-theme {
+  opacity: 0.71;
+}
+
+.navbar-menu i:hover {
+  color: var(--color-grey-1);
+}
+
+/* hover style (mouse hover) */
+@media (hover: hover) {
+  .back-to-top-arrow:hover,
+  .back-to-top-home:hover,
+  .back-to-top-theme:hover {
+    opacity: 1;
+  }
+  .navbar-menu i:hover {
+    color: var(--color-green);
+  }
 }
