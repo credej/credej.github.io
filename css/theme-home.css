@@ -56,7 +56,7 @@ body .category-links {
 body .category-links a {
   font-size: var(--font-l);
   font-style: italic;
-  opacity: 0.5;
+  opacity: 0.6;
   text-decoration-style: dotted;
 }
 body .category-links a:hover {
@@ -124,7 +124,7 @@ body .footer-text-thanks h2 {
 body .intro-category-icons {
   display: flex;
   flex-shrink: 1;
-  padding: 0 0 12px;
+  padding: 0 0 18px;
 }
 body .intro-category-icons h1 {
   font-size: var(--font-xl);
@@ -445,7 +445,7 @@ body.dark-mode .bg-glass-white {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 100px) and (max-width: 755px) {
+@media screen and (min-width: 201px) and (max-width: 755px) {
   body .category {
     border-radius: 0;
     padding: 48px 0;
@@ -484,6 +484,7 @@ body.dark-mode .bg-glass-white {
   }
   body .intro-text p {
     padding: 24px 36px;
+    padding: 0 8.5vw;
   }
   body .project-tags,
   body .stats h1,
@@ -549,7 +550,7 @@ body.dark-mode .bg-glass-white {
     font-size: var(--font-5xl) !important;
   }
 }
-@media screen and (min-width: 1080px) and (max-width: 1279px) {
+@media screen and (min-width: 1080px) and (max-width: 1365px) {
   .category {
     padding: 48px !important;
   }
@@ -590,7 +591,8 @@ body.dark-mode .bg-glass-white {
     font-size: var(--font-xxxxl) !important;
   }
 }
-@media screen and (min-width: 1280px) and (max-width: 1979px) {
+/* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
+@media screen and (min-width: 1366px) and (max-width: 1979px) {
   body .category {
     padding: 72px;
   }

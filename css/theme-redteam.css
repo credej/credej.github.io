@@ -55,7 +55,7 @@ body.dark-mode .project-links a:hover {
   color: #FF005B;
 }
 
-@media screen and (min-width: 100px) and (max-width: 755px) {
+@media screen and (min-width: 201px) and (max-width: 755px) {
   .navbar-menu i {
     color: var(--color-blue-light);
   }
