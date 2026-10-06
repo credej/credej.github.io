@@ -291,6 +291,9 @@ body
 
   .subcategory-excerpt
     p
+      // align-items: stretch
+      cursor: pointer
+      line-height: 1.6rem
       color: var(--color-blue-light)
       padding: 4px 0
 
@@ -402,109 +405,131 @@ body.dark-mode
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 100px) and (max-width: 755px)
+  
+  body
+    .category
+      border-radius: 0
+      padding: 48px 0
 
-  .category
-    padding: 48px 0 !important
+    .category-subtitle
+      margin: 12px 0 
 
-  .category-links a
-    white-space: nowrap
+    .category-links a
+      opacity: 1 
+      white-space: nowrap
 
-  .category-subtitle
-    margin: 8px 0 !important  
+    .category-links,
+    .category-title,
+    .category-subtitle,
+    .subcategory-title,
+    .subcategory-excerpt p
+      padding: 0 48px
+      word-break: normal     /* Prevent breaking words anywhere */
+      overflow-wrap: normal    /* Prevent breaking long strings or URLs */
+      hyphens: none
 
-  .category-links,
-  .category-title,
-  .category-subtitle,
-  .subcategory-title,
-  .subcategory-excerpt p
-    padding: 0 48px
-    word-break: normal     /* Prevent breaking words anywhere */
-    overflow-wrap: normal    /* Prevent breaking long strings or URLs */
-    hyphens: none
+    .footer-text-thanks
+      padding: 12px 0 !important
 
-  .footer-text-thanks
-    padding: 12px 0 !important
+    .subcategory-excerpt
+      padding: 12px 0
 
-  .subcategory-excerpt
-    padding: 12px 0
+    .category-subtitle
+      p
+        line-height: 1.5rem 
 
-  .category-subtitle
-    p
-      line-height: 1.5rem 
+    .footer-text-thanks
+      padding: 96px 0 0
 
-  .footer-text-thanks
-    padding: 96px 0 0
+    .intro-category-icons
+      i
+        font-size: var(--font-xxxl) !important
 
-  .intro-category-icons
-    i
-      font-size: var(--font-xxxl) !important
+    .intro-text
+      p
+        padding: 24px 36px
 
-  .intro-text
-    p
-      padding: 24px 48px
+    .project-tags,
+    .stats h1,
+    .stat
+      text-align: center
 
-  .project-tags,
-  .stats h1,
-  .stat
-    text-align: center
+    .site-main
+      padding: 106px 0 0 
 
-  .site-main
-    padding: 144px 0 0 !important
+    .stats-container
+      flex-direction: column !important
 
-  .stats-container
-    flex-direction: column !important
+    .subcategory
+      filter: grayscale(0)
+      opacity: 1.0
 
 
 @media screen and (min-width: 756px) and (max-width: 1079px)
+  
+  body
 
-  .category
-    padding: 48px 0 !important
+    .category
+      padding: 48px 0 !important
 
-  .category-links
-    line-height: 2.4rem
-    text-indent: 0
-    text-align: center
-    a
-      font-size: var(--font-xxl)
-      display: block
-      padding: 4px 0
-    .category-links-slash
-      display: none
+    .category-links
+      line-height: 2.4rem
+      text-indent: 0
+      text-align: center
+      a
+        font-size: var(--font-xl)
+        display: block
+        opacity: 1 
+        padding: 4px 0
+      .category-links-slash
+        display: none
 
-  .category-links,
-  .category-title,
-  .category-subtitle,
-  .subcategory-title,
-  .subcategory-excerpt p
-    padding: 0 48px
-    word-break: normal     /* Prevent breaking words anywhere */
-    overflow-wrap: normal    /* Prevent breaking long strings or URLs */
-    hyphens: none
+    .category-subtitle p
+      font-size: var(--font-xl)
 
-  .subcategory-excerpt
-    padding: 12px 0
+    .category-links,
+    .category-title,
+    .category-subtitle,
+    .subcategory-title,
+    .subcategory-excerpt p
+      padding: 0 48px
+      word-break: normal     /* Prevent breaking words anywhere */
+      overflow-wrap: normal    /* Prevent breaking long strings or URLs */
+      hyphens: none
 
-  .stats-container
-    flex-direction: column !important
+    .stats-container
+      flex-direction: column !important
 
+    .subcategory
+      filter: grayscale(0)
+      opacity: 1.0
+
+    .subcategory-excerpt
+      padding: 12px 0
+      p
+        line-height: 2.2rem
+
+    .subcategory-title
+      h2
+        font-size: var(--font-5xl) !important
 
 @media screen and (min-width: 1080px) and (max-width: 1279px)
 
   .category
-    padding: 48px 0 !important
+    padding: 48px !important
 
   .category-links,
   .category-title,
   .category-subtitle,
   .subcategory-title,
   .subcategory-excerpt p
-    padding: 0 48px
+    padding: 0 48px !important
     word-break: normal     /* Prevent breaking words anywhere */
     overflow-wrap: normal    /* Prevent breaking long strings or URLs */
     hyphens: none
 
-  .subcategory-excerpt
-    padding: 12px 0
+  .category-subtitle p
+    font-size: var(--font-l)
 
   .category-title 
     h1
@@ -516,6 +541,15 @@ body.dark-mode
   .stats-container
     flex-direction: column !important
 
+  .subcategory
+    filter: grayscale(0)
+    opacity: 1.0
+
+  .subcategory-excerpt
+    padding: 12px 0
+    p
+      line-height: 2rem !important
+
   .subcategory-title
     h2
       font-size: var(--font-xxxxl) !important
@@ -523,31 +557,38 @@ body.dark-mode
 
 @media screen and (min-width: 1280px) and (max-width: 1979px)
 
-  .category
-    padding: 72px
+  body
 
-  .category-subtitle
-    p
-      font-size: var(--font-l)
+    .category
+      padding: 72px
 
-  .category-title
-    h1
-      font-size: var(--font-9xl)  
-    i
-      font-size: var(--font-xxxxl) 
-      padding: 0 24px 4px 0
+    .category-links a
+      opacity: 1.0
 
-  .intro-category-icons
-    i
-      font-size: var(--font-xxxl)
+    .category-subtitle
+      p
+        font-size: var(--font-l)
 
-  .subcategory
-    padding: 24px 0
+    .category-title
+      h1
+        font-size: var(--font-9xl)  
+      i
+        font-size: var(--font-xxxxl) 
+        padding: 0 24px 4px 0
 
-  .subcategory-title
-    h2
-      font-size: var(--font-xxxxl) !important
-      line-height: 3rem 
+    .intro-category-icons
+      i
+        font-size: var(--font-xxxl)
+
+    .subcategory
+      padding: 24px 0
+      filter: grayscale(0)
+      opacity: 1.0
+
+    .subcategory-title
+      h2
+        font-size: var(--font-xxxxl) !important
+        line-height: 3rem 
 
 
 @media screen and (min-width: 1980px)
