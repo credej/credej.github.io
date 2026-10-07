@@ -17,7 +17,6 @@ body
     box-shadow: var(--box-shadow-3)
     font-family: "Yellowtail", monospace
     font-size: var(--font-m)
-    margin: 72px 0
     // padding: 72px !important
     a
       font-size: var(--font-xl)
@@ -409,17 +408,21 @@ body.dark-mode
   body
     .category
       border-radius: 0
-      padding: 48px 0
+      padding: 72px 0
 
-    .category-subtitle
-      margin: 12px 0 
+    .category-title
+      display: flex
+      flex-direction: column
+      padding: 0 
+      i
+        margin-bottom: 12px
 
-    .category-links a
-      opacity: 1 
-      white-space: nowrap
+    .category-links 
+      padding: 24px 0 
+      a
+        opacity: 1 
+        white-space: nowrap
 
-    .category-links,
-    .category-title,
     .category-subtitle,
     .subcategory-title,
     .subcategory-excerpt p
@@ -446,6 +449,7 @@ body.dark-mode
         font-size: var(--font-xxxl) !important
 
     .intro-text
+      padding: 0 0 72px
       p
         padding: 24px 36px
         padding: 0 8.5vw
