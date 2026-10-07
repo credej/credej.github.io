@@ -306,7 +306,7 @@
     margin: 48px 0;
   }
 }
-@media screen and (min-width: 201px) and (max-width: 419px) {
+@media screen and (min-width: 201px) and (max-width: 500px) {
   #menu-button i {
     padding-top: 4px;
   }
