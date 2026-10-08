@@ -324,8 +324,11 @@ body .stats-container h1 {
 body .subcategory-excerpt p {
   cursor: pointer;
   line-height: 1.6rem;
-  color: var(--color-blue-light);
   padding: 4px 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/150150/beach-calm-waters-cloud-formation-187919.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 body .subcategory-title h2 {
   font-size: var(--font-xxxl);
@@ -364,6 +367,15 @@ body.dark-mode .footer-text-thanks h1 {
 }
 body.dark-mode .footer-text-thanks h2 {
   color: var(--color-grey-4);
+}
+body.dark-mode .footer-text-thanks a {
+  text-decoration: underline;
+}
+body.dark-mode .footer-text-thanks a:hover {
+  color: var(--color-grey-2);
+}
+body.dark-mode .footer-text-thanks a:active {
+  opacity: 0.87;
 }
 body.dark-mode .intro-text {
   color: var(--color-grey-2);
@@ -447,7 +459,17 @@ body.dark-mode .bg-glass-white {
 @media screen and (min-width: 201px) and (max-width: 755px) {
   body .category {
     border-radius: 0;
-    padding: 72px 0;
+    padding: 60px 0;
+  }
+  body .category-links {
+    padding: 24px 0;
+  }
+  body .category-links a {
+    opacity: 1;
+    white-space: nowrap;
+  }
+  body .category-subtitle p {
+    line-height: 1.5rem;
   }
   body .category-title {
     display: flex;
@@ -456,13 +478,6 @@ body.dark-mode .bg-glass-white {
   }
   body .category-title i {
     margin-bottom: 12px;
-  }
-  body .category-links {
-    padding: 24px 0;
-  }
-  body .category-links a {
-    opacity: 1;
-    white-space: nowrap;
   }
   body .category-subtitle,
   body .subcategory-title,
@@ -475,12 +490,6 @@ body.dark-mode .bg-glass-white {
   body .footer-text-thanks {
     padding: 12px 0 !important;
   }
-  body .subcategory-excerpt {
-    padding: 12px 0;
-  }
-  body .category-subtitle p {
-    line-height: 1.5rem;
-  }
   body .footer-text-thanks {
     padding: 96px 0 0;
   }
@@ -488,7 +497,7 @@ body.dark-mode .bg-glass-white {
     font-size: var(--font-xxxl) !important;
   }
   body .intro-text {
-    padding: 0 0 72px;
+    padding: 0 0 60px;
   }
   body .intro-text p {
     padding: 24px 36px;
@@ -509,9 +518,13 @@ body.dark-mode .bg-glass-white {
     filter: grayscale(0);
     opacity: 1;
   }
+  body .subcategory-excerpt {
+    padding: 12px 0;
+  }
 }
 @media screen and (min-width: 756px) and (max-width: 1079px) {
   body .category {
+    margin: 48px 0;
     padding: 48px 0 !important;
   }
   body .category-links {
@@ -560,6 +573,7 @@ body.dark-mode .bg-glass-white {
 }
 @media screen and (min-width: 1080px) and (max-width: 1365px) {
   .category {
+    margin: 48px 0;
     padding: 48px !important;
   }
   .category-links,
@@ -602,6 +616,7 @@ body.dark-mode .bg-glass-white {
 /* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
 @media screen and (min-width: 1366px) and (max-width: 1979px) {
   body .category {
+    margin: 72px 0;
     padding: 72px;
   }
   body .category-links a {
@@ -632,6 +647,7 @@ body.dark-mode .bg-glass-white {
 }
 @media screen and (min-width: 1980px) {
   .category {
+    margin: 72px 0;
     padding: 72px;
   }
   .category-title i {

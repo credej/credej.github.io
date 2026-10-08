@@ -1,4 +1,9 @@
 :root {
+  --color-bg: #282828;
+  --color-highlight: #FABD2F;
+  --color-text-1: #EBDBB2;
+  --color-text-2: #9C8E7B;
+  --color-hover-bg: #32302F;
   --color-blue: #2B78E4;
   --color-blue-2: #7FFFD4;
   --color-green: #6DFF9A;
