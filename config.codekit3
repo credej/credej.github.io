@@ -1021,51 +1021,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/img\/gadgets-keyboard-repair-cross.JPG" : {
-      "ft" : 16384,
-      "iS" : 3095208,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/gadgets-keyboard-repair-cross.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/img\/gadgets-keyboard-repair.JPG" : {
       "ft" : 16384,
       "iS" : 3965206,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/gadgets-keyboard-repair.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/gadgets-orangeclock-back.JPG" : {
-      "ft" : 16384,
-      "iS" : 2695968,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/gadgets-orangeclock-back.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/gadgets-orangeclock-front.JPG" : {
-      "ft" : 16384,
-      "iS" : 2655580,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/img\/gadgets-orangeclock-front.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1085,6 +1046,24 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/img\/header-hole.9d81b0e9.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/header-hole.9d81b0e9.pdf",
+      "oF" : 0
+    },
+    "\/img\/header-hole.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/header-hole.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/img\/header.jpg" : {
       "ft" : 16384,
