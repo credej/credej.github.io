@@ -120,23 +120,23 @@ body .footer-text-thanks h2 {
   font-size: var(--font-xs);
   padding: 4px 0;
 }
-body .intro-category-icons {
+body .intro-icons {
   display: flex;
   flex-shrink: 1;
   padding: 0 0 18px;
 }
-body .intro-category-icons h1 {
+body .intro-icons h1 {
   font-size: var(--font-xl);
   padding: 0;
 }
-body .intro-category-icons h1:after {
+body .intro-icons h1:after {
   animation: blink-animation 0.9s infinite;
   -webkit-animation: blink-animation 0.9s infinite;
   -moz-animation: blink-animation 0.9s infinite;
   -o-animation: blink-animation 0.9s infinite;
   content: "_";
 }
-body .intro-category-icons span {
+body .intro-icons span {
   font-family: "Yellowtail", monospace;
   padding: 0 8px;
   display: flex;
@@ -322,13 +322,12 @@ body .stats-container h1 {
   text-align: center;
 }
 body .subcategory-excerpt p {
+  align-items: stretch;
+  color: var(--color-white);
   cursor: pointer;
+  font-weight: 300;
   line-height: 1.6rem;
   padding: 4px 0;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/150150/beach-calm-waters-cloud-formation-187919.jpg);
-  background-size: cover;
-  -webkit-background-clip: text;
-  color: transparent;
 }
 body .subcategory-title h2 {
   font-size: var(--font-xxxl);
@@ -493,7 +492,7 @@ body.dark-mode .bg-glass-white {
   body .footer-text-thanks {
     padding: 96px 0 0;
   }
-  body .intro-category-icons i {
+  body .intro-icons i {
     font-size: var(--font-xxxl) !important;
   }
   body .intro-text {
@@ -632,7 +631,7 @@ body.dark-mode .bg-glass-white {
     font-size: var(--font-xxxxl);
     padding: 0 24px 4px 0;
   }
-  body .intro-category-icons i {
+  body .intro-icons i {
     font-size: var(--font-xxxl);
   }
   body .subcategory {
