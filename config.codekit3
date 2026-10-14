@@ -1746,14 +1746,6 @@
       "oAP" : "\/pages\/design\/arch\/index.html",
       "oF" : 0
     },
-    "\/pages\/design\/artwork\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/design\/artwork\/index.html",
-      "oF" : 0
-    },
     "\/pages\/design\/graphicsweb\/img\/cybergrad-badges-sample.jpg" : {
       "ft" : 16384,
       "iS" : 148816,
@@ -4410,6 +4402,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/software\/redteam\/index.html",
+      "oF" : 0
+    },
+    "\/test.opml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/test.opml",
       "oF" : 0
     }
   },

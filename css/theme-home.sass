@@ -1,16 +1,16 @@
 body
   background-color: #5456F7
 
-  .border-blue,
-  .border-green,
-  .border-red,
-  .border-orange,
-  .border-yellow,
-  .border-purple,
-  .border-white, 
-  .border-grey,
-  .border-black
-    border: none
+  .banner-full
+    background-color: #1A1B26
+    width: 100vw
+    position: relative
+    left: 50%
+    right: 50%
+    margin-left: -50vw
+    margin-right: -50vw
+    h1
+      padding: 200px
 
   .category
     border-radius: 12px
@@ -62,7 +62,7 @@ body
   .category-subtitle
     margin: 0 0 10px
     p
-      color: var(--color-grey-1)
+      color: var(--color-blue-light)
       font-family: "Yellowtail", monospace
       font-style: italic
       text-shadow: var(--text-shadow-1)
@@ -85,6 +85,7 @@ body
   .contact
     a
       color: var(--color-white) !important
+      text-decoration: underline
     p
       margin: 24px 0
 
@@ -148,7 +149,7 @@ body
     font-size: var(--font-l)
     &::before
       background-color: #333
-      border-radius: 4px
+      border-radius: 12px
       bottom: 125%
       color: #fff
       content: attr(data-tooltip)
@@ -202,24 +203,24 @@ body
       font-weight: 700
 
   .stat 
+    background: var(--color-white)
     flex: 1
-    border-radius: 60px
+    border-radius: 12px
     box-shadow: var(--box-shadow-3)
-    color: #fff
+    color: var(--color-purple)
     margin: 15px 8px
     padding: 48px
     .numbers
       font-family: "Geostar Fill", serif  
       span 
-        color: #fff
+        color: var(--color-purple)
         font-size: var(--font-xxxxl)
         margin-right: 12px
-        opacity: 0.4
     a 
-      background: #fff
-      border-radius: 60px
+      background: var(--color-purple)
+      border-radius: 0
       box-shadow: var(--box-shadow-3)
-      color: var(--color-grey-2) !important
+      color: var(--color-white) !important
       display: flex
       font-size: var(--font-l)
       font-weight: bold
@@ -230,12 +231,13 @@ body
       text-decoration: none
       text-transform: uppercase
       &:hover
-        color: var(--color-white) !important
+        color: var(--color-green) !important
+        opacity: 1
       &:active
-        opacity: 0.7
+        opacity: 0.9
     h2 
       margin-top: 0
-      border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+      border-bottom: 1px solid rgba(105, 123, 237, 0.8)
       text-transform: uppercase
       letter-spacing: 0.07em
       font-size: var(--font-9xl)
@@ -244,27 +246,10 @@ body
       font-size: var(--font-xl)
       margin: 12px 0 36px
     p
-      color: var(--color-white)
+      color: var(--color-purple)
       font-family: "Doto", serif 
       font-weight: 900
       margin: 12px 0 36px
-    ul 
-      margin: 0 0 35px
-      padding-left: 16px
-      list-style: none
-      line-height: 1.8
-      color: #b5b5b5
-      font-family: "Reddit Mono", monospace 
-    li::before 
-      content: "•"
-      color: #000
-      display: inline-block
-      width: 20px
-      margin-left: -15px
-      position: relative
-      top: 4px
-      font-size: 26px
-      line-height: 0
 
   .stats
     flex: 1
@@ -284,7 +269,6 @@ body
     flex-direction: row
     gap: 1rem
     // max-width: 960px
-    margin: auto
     h1
       text-align: center
 
@@ -299,6 +283,7 @@ body
 
   .subcategory-title
     h2
+      color: white
       font-size: var(--font-xxxl)
       padding: 8px 0
       text-shadow: var(--text-shadow-2)
@@ -358,8 +343,20 @@ body.dark-mode
   .stat
     background-color: #2F313D
     a 
+      color: var(--color-grey-3) !important
       background: #000
-      color: #fff
+      &:hover
+        color: var(--color-grey-5) !important
+    .numbers
+      span 
+        color: var(--color-grey-2)
+
+  .stat 
+    color: var(--color-white)
+    a 
+      background: var(--color-white)
+    h2 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.8)
 
   .stats
     h1
@@ -368,41 +365,6 @@ body.dark-mode
 
 
 
-
-/* GLASS BACKGROUND EFFECT */
-
-.bg-glass-blue
-  background: rgba(94, 234, 212, 0.2) 
-.bg-glass-green
-  background: rgba(109, 255, 154, .35)
-.bg-glass-red
-  background: rgba(217, 4, 76, .4)
-.bg-glass-orange
-  background: rgba(255, 173, 0, .5)
-.bg-glass-yellow
-  background: rgba(245, 252, 0, 0.5)
-.bg-glass-purple
-  background: rgba(105, 123, 237, 0.71)
-.bg-glass-white
-  background: rgba(255, 255, 255, .1)
-.bg-glass-black
-  background: rgba(0, 0, 0, .1)
-
-body.dark-mode 
-  .bg-glass-blue 
-    background: rgba(94, 234, 212, .031)
-  .bg-glass-green
-    background: rgba(109, 255, 154, .038)
-  .bg-glass-red
-    background: rgba(217, 47, 4, .045)
-  .bg-glass-orange
-    background: rgba(234, 103, 62, .04)
-  .bg-glass-yellow
-    background: rgba(255, 252, 103, .035)
-  .bg-glass-purple
-    background: rgba(105, 123, 237, .045)
-  .bg-glass-white
-    background: rgba(255, 255, 255, .035)
 
 
 
@@ -606,17 +568,11 @@ body.dark-mode
         font-size: var(--font-xxxxl) !important
         line-height: 3rem 
 
-
 @media screen and (min-width: 1980px)
 
   .category
     margin: 72px 0
     padding: 72px
-
-  .category-title 
-    i
-      font-size: var(--font-xxxxl) 
-      padding: 0 24px 4px 0
 
   .category-links
     a
@@ -624,7 +580,14 @@ body.dark-mode
 
   .category-subtitle
     p
-      font-size: var(--font-xxxl)
+      font-size: var(--font-xl)
+
+  .category-title 
+    i
+      font-size: var(--font-xxxxl) 
+      padding: 0 24px 4px 0
+    h1
+      font-size: var(--font-10xl) 
 
   .intro-text
     p
@@ -633,5 +596,4 @@ body.dark-mode
 
   .subcategory-title
     h2
-      font-size: var(--font-xxxxl) !important
-
+      font-size: var(--font-5xl) !important

@@ -1,4 +1,4 @@
-/* PAGE ELEMENTS */eeeeeee
+/* PAGE ELEMENTS */
 *
   box-sizing: border-box !important
   margin: 0
@@ -565,18 +565,22 @@ p, h1, h2, h3, h4, h5
 
 .subcategory
   font-size: var(--font-xxl)
-  filter: grayscale(0.5)
-  opacity: 0.87
+  opacity: 0.71
   padding: 48px 0
-  transition: 0.21s ease-in-out
+  transition: 0.05s ease-in-out
   &:hover
     cursor: pointer
     filter: grayscale(0)
     opacity: 1.0
+    h2
+      color: var(--color-green) !important
+  &:active
+    opacity: 0.9
+
 
 .subcategory-banner
-  box-shadow: var(--box-shadow-3) 
   img
+    box-shadow: var(--box-shadow-3) 
     margin: 18px 0 
 
 .subcategory-container
@@ -588,9 +592,6 @@ p, h1, h2, h3, h4, h5
   display: flex
   align-items: flex-end
   font-family: "Reddit Mono", monospace 
-  h2
-    cursor: pointer
-    font-size: var(--font-l)
 
 /* EFFECTS */
 
