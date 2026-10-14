@@ -64,9 +64,8 @@ class Header extends HTMLElement {
                         <h2>Design</em></h2>
                      </div>
                      <div class="menu-list green">
-                        <a href="/pages/design/arch/index.html" target=_self>Architecture</a>
+                        <a href="/pages/design/arch/index.html" target=_self>Art & Architecture</a>
                         <a href="/pages/design/graphicsweb/index.html" target=_self>Graphics & Web</a>
-                        <a href="/pages/design/artwork/index.html" target=_self>Artwork</a>
                      </div>
                   </div>
                </div>
@@ -77,11 +76,11 @@ class Header extends HTMLElement {
                         <h2>Gadgets</h2>
                      </div>
                      <div class="menu-list red">
-                        <a href="/pages/gadgets/computers/index.html" target=_self>Computers</a>
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Keyboards & Mice</a>
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Gaming Rigs</a>
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Other Devices</a>
-                        <a href="/pages/gadgets/keyboardmice/index.html" target=_self>Everyday Carry</a>
+                        <a href="" target=_self>Computers</a>
+                        <a href="" target=_self>Keyboards & Mice</a>
+                        <a href="" target=_self>Gaming Rigs</a>
+                        <a href="" target=_self>Other Devices</a>
+                        <a href="" target=_self>Everyday Carry</a>
                      </div>
                   </div>
                </div>
@@ -109,7 +108,7 @@ class Header extends HTMLElement {
                      <div class="menu-list yellow">
                        <a href="/pages/health/recipes/index.html" target=_self>Recipe Book</a>
                        <a href="/pages/health/remedies/index.html" target=_self>Home Remedies</a>
-                       <a style="opacity: 0.05;' href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
+                       <a style="opacity: 0.01;' href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
                      </div>
                   </div>
                </div>
@@ -122,8 +121,8 @@ class Header extends HTMLElement {
                      <div class="menu-list purple">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
-                       <a style="opacity: 0.05;" href="/pages/otherstuff/test/index.html" target=_self>Test 1</a>
-                       <a style="opacity: 0.05;" href="/pages/otherstuff/test/index-2.html" target=_self>Test 2</a>
+                       <a style="opacity: 0.01;" href="/pages/otherstuff/test/index.html" target=_self>Test 1</a>
+                       <a style="opacity: 0.01;" href="/pages/otherstuff/test/index-2.html" target=_self>Test 2</a>
                      </div>
                   </div>
                </div>

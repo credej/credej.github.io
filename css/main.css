@@ -88,14 +88,14 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .back-to-top-theme {
-  bottom: 8.5rem;
+  bottom: 8.8rem;
   opacity: 0.5;
   left: 0.5rem;
   font-size: 1.2rem;
 }
 
 .back-to-top-arrow {
-  bottom: 2rem;
+  bottom: 2.3rem;
   color: #fff;
   opacity: 0.3;
   left: 2rem;
@@ -103,7 +103,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .back-to-top-home {
-  bottom: 6rem;
+  bottom: 6.3rem;
   color: #fff;
   opacity: 0.3;
   left: 2rem;

@@ -218,7 +218,8 @@ body
         margin-right: 12px
     a 
       background: var(--color-purple)
-      border-radius: 0
+      background-image: linear-gradient(161.15deg, #6974DC 12.73%, #9679DD 72.95%)
+      border-radius: 12px
       box-shadow: var(--box-shadow-3)
       color: var(--color-white) !important
       display: flex
@@ -231,6 +232,7 @@ body
       text-decoration: none
       text-transform: uppercase
       &:hover
+
         color: var(--color-green) !important
         opacity: 1
       &:active
@@ -311,7 +313,7 @@ body.dark-mode
     display: block !important
     
   .footer
-    border-top: 2px dashed var(--color-grey-4)
+    border-top: 2px dashed rgba(255, 255, 255, 0.1)
 
   .footer-text-thanks
     text-align: center
@@ -345,8 +347,12 @@ body.dark-mode
     a 
       color: var(--color-grey-3) !important
       background: #000
+      border: 3px solid #2F313D !important
       &:hover
-        color: var(--color-grey-5) !important
+        border-style: inset !important
+        border: 3px solid var(--color-green) !important
+        color: var(--color-green) !important
+        text-shadow: var(--text-shadow-3)
     .numbers
       span 
         color: var(--color-grey-2)
@@ -376,7 +382,8 @@ body.dark-mode
   
   body
     .category
-      border-radius: 0
+      // border-radius: 0
+      border: none
       padding: 60px 0
 
     .category-links 
@@ -392,7 +399,7 @@ body.dark-mode
     .category-title
       display: flex
       flex-direction: column
-      padding: 0 
+      padding: 0 36px
       i
         margin-bottom: 12px
 
@@ -572,7 +579,7 @@ body.dark-mode
 
   .category
     margin: 72px 0
-    padding: 72px
+    padding: 120px 160px
 
   .category-links
     a
@@ -581,6 +588,7 @@ body.dark-mode
   .category-subtitle
     p
       font-size: var(--font-xl)
+      margin-top: -8px
 
   .category-title 
     i
