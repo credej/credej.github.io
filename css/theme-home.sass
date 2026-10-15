@@ -13,6 +13,7 @@ body
       padding: 200px
 
   .category
+    background-image: radial-gradient(circle at -229% -377%, #0000001a 55%, transparent 67.05%),radial-gradient(circle at -37% -54%, #0000000e 59%, transparent 59.05%),radial-gradient(circle at -6% 48%, #0000000e 51%, transparent 51.05%),linear-gradient(-11deg, #00000011 56%, transparent 56.05%);
     border-radius: 12px
     box-shadow: var(--box-shadow-3)
     font-family: "Yellowtail", monospace
@@ -290,11 +291,14 @@ body
       padding: 8px 0
       text-shadow: var(--text-shadow-2)
 
+
+
+
+
 /* HOME PAGE - DARK THEME */
 
 body.dark-mode 
   background-color: #101010
-
   .category
     box-shadow: var(--box-shadow-2)
 
@@ -345,12 +349,11 @@ body.dark-mode
   .stat
     background-color: #2F313D
     a 
-      color: var(--color-grey-3) !important
+      color: var(--color-grey-1) !important
       background: #000
-      border: 3px solid #2F313D !important
+      background: linear-gradient(90deg, #121216 0.000%, #121216 7.692%, #16171a calc(7.692% + 1px), #16171a 15.385%, #1a1b1f calc(15.385% + 1px), #1a1b1f 23.077%, #1f2023 calc(23.077% + 1px), #1f2023 30.769%, #232427 calc(30.769% + 1px), #232427 38.462%, #27282b calc(38.462% + 1px), #27282b 46.154%, #2b2c2f calc(46.154% + 1px), #2b2c2f 53.846%, #2f3033 calc(53.846% + 1px), #2f3033 61.538%, #323337 calc(61.538% + 1px), #323337 69.231%, #36373a calc(69.231% + 1px), #36373a 76.923%, #38393d calc(76.923% + 1px), #38393d 84.615%, #3b3c40 calc(84.615% + 1px), #3b3c40 92.308%, #3d3e42 calc(92.308% + 1px) 100.000%);
+
       &:hover
-        border-style: inset !important
-        border: 3px solid var(--color-green) !important
         color: var(--color-green) !important
         text-shadow: var(--text-shadow-3)
     .numbers
@@ -359,8 +362,6 @@ body.dark-mode
 
   .stat 
     color: var(--color-white)
-    a 
-      background: var(--color-white)
     h2 
       border-bottom: 1px solid rgba(0, 0, 0, 0.8)
 
@@ -388,7 +389,7 @@ body.dark-mode
 
     .category-links 
       padding: 24px 0 
-      a
+      a 
         opacity: 1 
         white-space: nowrap
 
