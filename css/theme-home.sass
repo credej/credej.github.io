@@ -13,7 +13,7 @@ body
       padding: 200px
 
   .category
-    background-image: radial-gradient(circle at -229% -377%, #0000001a 55%, transparent 67.05%),radial-gradient(circle at -37% -54%, #0000000e 59%, transparent 59.05%),radial-gradient(circle at -6% 48%, #0000000e 51%, transparent 51.05%),linear-gradient(-11deg, #00000011 56%, transparent 56.05%);
+    background-image: radial-gradient(circle at -229% -377%, #0000000b 55%, transparent 67.05%),radial-gradient(circle at -37% -54%, #00000007 59%, transparent 59.05%),radial-gradient(circle at -6% 48%, #00000005 51%, transparent 51.05%),linear-gradient(-11deg, #00000011 56%, transparent 56.05%);
     border-radius: 12px
     box-shadow: var(--box-shadow-3)
     font-family: "Yellowtail", monospace
@@ -507,7 +507,6 @@ body.dark-mode
   .category-subtitle,
   .subcategory-title,
   .subcategory-excerpt p
-    padding: 0 48px !important
     word-break: normal     /* Prevent breaking words anywhere */
     overflow-wrap: normal    /* Prevent breaking long strings or URLs */
     hyphens: none
@@ -536,7 +535,7 @@ body.dark-mode
 
   .subcategory-title
     h2
-      font-size: var(--font-xxxxl) !important 
+      font-size: var(--font-xxxl) !important 
 
 /* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
 
@@ -573,10 +572,45 @@ body.dark-mode
 
     .subcategory-title
       h2
-        font-size: var(--font-xxxxl) !important
+        font-size: var(--font-xxxl) !important
         line-height: 3rem 
 
-@media screen and (min-width: 1980px)
+@media screen and (min-width: 1980px) and (max-width: 2559px)
+
+  .category
+    margin: 72px 0
+    padding: 80px 120px
+
+  .category-links
+    a
+      font-size: var(--font-xxl) !important
+
+  .category-subtitle
+    p
+      font-size: var(--font-xl)
+      margin-top: -8px
+
+  .category-title 
+    i
+      font-size: var(--font-xxxxl) 
+      padding: 0 24px 4px 0
+    h1
+      font-size: var(--font-10xl) 
+
+  .intro-text
+    p
+      font-size: var(--font-xxl) !important
+      line-height: 2.4rem !important
+
+  .site-main
+    padding: 0 12vw
+
+  .subcategory-title
+    h2
+      font-size: var(--font-5xl) !important
+
+
+@media screen and (min-width: 2560px)
 
   .category
     margin: 72px 0
@@ -602,6 +636,9 @@ body.dark-mode
     p
       font-size: var(--font-xxl) !important
       line-height: 2.4rem !important
+
+  .site-main
+    padding: 0 15vw
 
   .subcategory-title
     h2
