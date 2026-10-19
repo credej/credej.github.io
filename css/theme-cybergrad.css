@@ -2,6 +2,18 @@
 body {
   background-color: var(--color-turqoise-medium);
 }
+body .badges {
+  margin: 96px 0;
+}
+body .badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px 24px;
+}
+body .badges-container img {
+  width: 200px;
+  padding: 4px 0;
+}
 body .badge {
   display: flex;
   flex-direction: column;

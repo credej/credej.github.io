@@ -1,17 +1,6 @@
 body
   background-color: #5456F7
 
-  .banner-full
-    background-color: #1A1B26
-    width: 100vw
-    position: relative
-    left: 50%
-    right: 50%
-    margin-left: -50vw
-    margin-right: -50vw
-    h1
-      padding: 200px
-
   .category
     background-image: radial-gradient(circle at -229% -377%, #0000000b 55%, transparent 67.05%),radial-gradient(circle at -37% -54%, #00000007 59%, transparent 59.05%),radial-gradient(circle at -6% 48%, #00000005 51%, transparent 51.05%),linear-gradient(-11deg, #00000011 56%, transparent 56.05%);
     border-radius: 12px
@@ -43,6 +32,13 @@ body
       color: white
       text-wrap: wrap
       word-break: break-all
+      
+  .category-excerpt
+    color: var(--color-blue-light) !important
+    font-family: "Yellowtail", monospace
+    font-style: italic
+    margin: 0 0 10px
+    text-shadow: var(--text-shadow-1)
 
   .category-links
     line-height: 2rem
@@ -60,13 +56,28 @@ body
       opacity: 0.4
       padding: 0 8px
 
-  .category-subtitle
-    margin: 0 0 10px
+  .category-sub
+    opacity: 0.71 !important
+    &:hover
+      opacity: 1 !important
+    &:active
+      opacity: 0.9 !important
+
+  .category-sub-excerpt
     p
-      color: var(--color-blue-light)
-      font-family: "Yellowtail", monospace
-      font-style: italic
-      text-shadow: var(--text-shadow-1)
+      align-items: stretch
+      color: var(--color-white)
+      cursor: pointer
+      font-weight: 300
+      line-height: 1.6rem
+      padding: 4px 0
+
+  .category-sub-title
+    h2
+      color: white
+      font-size: var(--font-xxxl)
+      padding: 8px 0
+      text-shadow: var(--text-shadow-2)
 
   .category-title
     display: flex
@@ -199,9 +210,17 @@ body
       text-shadow: none
 
   .stats
+    flex: 1
+    padding: 1rem
+    margin: 120px 0 0 
     h1
       color: var(--color-green)
+      display: flex
+      font-family: "Doto", serif
+      justify-content: center
+      font-size: var(--font-7xl)
       font-weight: 700
+      margin: 24px 0
 
   .stat 
     background: var(--color-white)
@@ -247,23 +266,12 @@ body
     h3
       font-weight: 900
       font-size: var(--font-xl)
-      margin: 12px 0 36px
+      margin: 24px 0 12px 
     p
       color: var(--color-purple)
       font-family: "Doto", serif 
       font-weight: 900
       margin: 12px 0 36px
-
-  .stats
-    flex: 1
-    padding: 1rem
-    margin: 120px 0 0 
-    h1
-      display: flex
-      font-family: "Doto", serif
-      justify-content: center
-      font-size: var(--font-7xl)
-      margin: 24px 0
       text-transform: uppercase
       word-break: normal
 
@@ -275,23 +283,6 @@ body
     h1
       text-align: center
 
-  .subcategory-excerpt
-    p
-      align-items: stretch
-      color: var(--color-white)
-      cursor: pointer
-      font-weight: 300
-      line-height: 1.6rem
-      padding: 4px 0
-
-  .subcategory-title
-    h2
-      color: white
-      font-size: var(--font-xxxl)
-      padding: 8px 0
-      text-shadow: var(--text-shadow-2)
-
-
 
 
 
@@ -302,7 +293,7 @@ body.dark-mode
   .category
     box-shadow: var(--box-shadow-2)
 
-  .category-subtitle
+  .category-excerpt
     p
       color: var(--color-grey-3)
 
@@ -342,16 +333,18 @@ body.dark-mode
     h1
       text-shadow: inherit
 
-  .subcategory-excerpt
+  .category-sub-excerpt
     p
       color: var(--color-grey-2)
 
   .stat
     background-color: #2F313D
+    color: var(--color-white)
+    h2 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.8)
     a 
       color: var(--color-grey-1) !important
       background: #000
-      background: linear-gradient(90deg, #121216 0.000%, #121216 7.692%, #16171a calc(7.692% + 1px), #16171a 15.385%, #1a1b1f calc(15.385% + 1px), #1a1b1f 23.077%, #1f2023 calc(23.077% + 1px), #1f2023 30.769%, #232427 calc(30.769% + 1px), #232427 38.462%, #27282b calc(38.462% + 1px), #27282b 46.154%, #2b2c2f calc(46.154% + 1px), #2b2c2f 53.846%, #2f3033 calc(53.846% + 1px), #2f3033 61.538%, #323337 calc(61.538% + 1px), #323337 69.231%, #36373a calc(69.231% + 1px), #36373a 76.923%, #38393d calc(76.923% + 1px), #38393d 84.615%, #3b3c40 calc(84.615% + 1px), #3b3c40 92.308%, #3d3e42 calc(92.308% + 1px) 100.000%);
 
       &:hover
         color: var(--color-green) !important
@@ -360,16 +353,10 @@ body.dark-mode
       span 
         color: var(--color-grey-2)
 
-  .stat 
-    color: var(--color-white)
-    h2 
-      border-bottom: 1px solid rgba(0, 0, 0, 0.8)
-
   .stats
+    background: conic-gradient(from 45deg, #a5c8e4 0.000deg, #697BED 30.000deg, #6DFF9A 60.000deg, #a67451 90.000deg, #655cd0 120.000deg, #604b5e 150.000deg, #9c44c2 180.000deg, #FF345E 210.000deg, #e4ad47 240.000deg, #F97143 270.000deg, #6a80a1 300.000deg, #5d9d90 330.000deg, #a5c8e4 360.000deg)
     h1
-      color: var(--color-green)
-
-
+      color: var(--color-white)
 
 
 
@@ -385,7 +372,24 @@ body.dark-mode
     .category
       // border-radius: 0
       border: none
-      padding: 60px 0
+      padding: 48px
+    
+    .category-links
+      padding: 0 36px
+      text-align: center
+      a
+        display: block
+        font-size: var(--font-l)
+        line-height: 1.6rem
+        padding: 6px 0
+    
+    .category-excerpt
+      padding: 0 0 24px
+      text-align: center
+      p
+        font-size: var(--font-l)
+        letter-spacing: -0.1rem
+        line-height: 1.6rem
 
     .category-links 
       padding: 24px 0 
@@ -393,24 +397,73 @@ body.dark-mode
         opacity: 1 
         white-space: nowrap
 
-    .category-subtitle
+    .category-excerpt
       p
         line-height: 1.5rem 
 
-    .category-title
-      display: flex
-      flex-direction: column
-      padding: 0 36px
-      i
-        margin-bottom: 12px
-
-    .category-subtitle,
-    .subcategory-title,
-    .subcategory-excerpt p
+    .category-excerpt,
+    .category-sub-title,
+    .category-sub-excerpt p
       padding: 0 48px
       word-break: normal     /* Prevent breaking words anywhere */
       overflow-wrap: normal    /* Prevent breaking long strings or URLs */
       hyphens: none
+
+    .category-sub
+      filter: grayscale(0.0)
+      opacity: 1.0 
+      padding: 48px 0
+
+    .category-sub-banner
+      img
+        margin: 12px 0 4px
+    
+    .category-sub-container
+      margin: 48px 0 0
+
+    .category-sub-excerpt
+      padding: 12px 0
+
+    .category-sub-title
+      padding: 8px 0
+      justify-content: center
+      text-align: center
+      h2
+        line-height: 1.4em
+        font-size: var(--font-xxl)
+
+    .category-sub-excerpt
+      text-align: center
+      p
+        font-size: var(--font-m)
+        padding: 12px
+        text-align: center
+
+    .category-title
+      display: flex
+      flex-direction: column
+      max-width: fit-content
+      margin-inline: auto
+      padding: 0 36px
+      h1
+        display: flex 
+        font-size: var(--font-5xl)
+        line-height: 2.6rem
+        letter-spacing: 0.52rem
+        overflow: wrap
+        padding: 8px 0 8px 24px
+        hyphens: auto /* Automatically hyphenates words based on language rules */
+        -webkit-hyphens: auto
+        -moz-hyphens: auto
+        -ms-hyphens: auto
+        text-align: center
+        min-width: 0
+        &:after
+          display: none
+      i
+        font-size: var(--font-xxxl)
+        margin-bottom: 12px
+        padding: 0
 
     .footer-text-thanks
       padding: 12px 0 !important
@@ -439,13 +492,18 @@ body.dark-mode
     .stats-container
       flex-direction: column !important
 
-    .subcategory
-      filter: grayscale(0)
-      opacity: 1.0
+@media screen and (min-width: 540px) and (max-width: 755px)
 
-    .subcategory-excerpt
-      padding: 12px 0
+  .category-links
+    a
+      font-size: var(--font-l)
 
+  .category-sub-title
+    h2
+      font-size: var(--font-xxxl)
+
+  .category-title h1
+    font-size: var(--font-6xl)
 
 @media screen and (min-width: 756px) and (max-width: 1079px)
   
@@ -453,7 +511,15 @@ body.dark-mode
 
     .category
       margin: 48px 0
+      max-width: 920px !important
       padding: 48px 0 !important
+
+    .category-excerpt
+      p
+        font-size: var(--font-xl)
+        line-height: 2rem
+        padding: 4px 0
+        text-align: center 
 
     .category-links
       line-height: 2.4rem
@@ -467,34 +533,46 @@ body.dark-mode
       .category-links-slash
         display: none
 
-    .category-subtitle p
-      font-size: var(--font-xl)
-
     .category-links,
     .category-title,
-    .category-subtitle,
-    .subcategory-title,
-    .subcategory-excerpt p
+    .category-excerpt,
+    .category-sub-title,
+    .category-sub-excerpt p
       padding: 0 48px
       word-break: normal     /* Prevent breaking words anywhere */
       overflow-wrap: normal    /* Prevent breaking long strings or URLs */
       hyphens: none
 
-    .stats-container
-      flex-direction: column !important
-
-    .subcategory
+    .category-sub
       filter: grayscale(0)
       opacity: 1.0
 
-    .subcategory-excerpt
+    .category-sub-excerpt
+      text-align: center
       padding: 12px 0
       p
+        font-size: var(--font-xxl)
         line-height: 2.2rem
 
-    .subcategory-title
+    .category-sub-title
+      display: flex
+      align-items: center
+      justify-content: center
       h2
         font-size: var(--font-5xl) !important
+
+    .category-title
+      display: flex
+      flex-direction: column
+      text-align: center 
+      h1
+        font-size: var(--font-9xl)
+      i
+        font-size: var(--font-5xl)
+        padding: 12px 0
+
+    .stats-container
+      flex-direction: column !important
 
 @media screen and (min-width: 1080px) and (max-width: 1365px)
 
@@ -504,15 +582,38 @@ body.dark-mode
 
   .category-links,
   .category-title,
-  .category-subtitle,
-  .subcategory-title,
-  .subcategory-excerpt p
+  .category-excerpt,
+  .category-sub-title,
+  .category-sub-excerpt p
     word-break: normal     /* Prevent breaking words anywhere */
     overflow-wrap: normal    /* Prevent breaking long strings or URLs */
     hyphens: none
 
-  .category-subtitle p
+  .category-excerpt p
     font-size: var(--font-l)
+
+  .category-links
+    padding: 8px 0 48px
+    a
+      opacity: 1 !important
+
+  .category-sub
+    filter: grayscale(0)
+    opacity: 1.0
+
+  .category-sub-excerpt
+    padding: 12px 0
+    p
+      line-height: 2rem !important
+
+  .category-sub-excerpt,
+  .category-sub-title
+    h2
+      font-size: var(--font-xxxl)
+
+  .category-sub-title
+    h2
+      font-size: var(--font-xxxl) !important 
 
   .category-title 
     h1
@@ -524,19 +625,6 @@ body.dark-mode
   .stats-container
     flex-direction: column !important
 
-  .subcategory
-    filter: grayscale(0)
-    opacity: 1.0
-
-  .subcategory-excerpt
-    padding: 12px 0
-    p
-      line-height: 2rem !important
-
-  .subcategory-title
-    h2
-      font-size: var(--font-xxxl) !important 
-
 /* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
 
 @media screen and (min-width: 1366px) and (max-width: 1979px)
@@ -547,12 +635,24 @@ body.dark-mode
       margin: 72px 0
       padding: 72px
 
-    .category-links a
-      opacity: 1 
-
-    .category-subtitle
+    .category-excerpt
       p
         font-size: var(--font-l)
+
+    .category-links 
+      padding: 8px 0 48px
+
+    .category-sub
+      padding: 24px 0
+      filter: grayscale(0)
+      opacity: 1.0
+      i
+        font-size: var(--font-xxxl)
+
+    .category-sub-title
+      h2
+        font-size: var(--font-xxxl) !important
+        line-height: 3rem 
 
     .category-title
       h1
@@ -565,30 +665,30 @@ body.dark-mode
       i
         font-size: var(--font-xxxl)
 
-    .subcategory
-      padding: 24px 0
-      filter: grayscale(0)
-      opacity: 1.0
-
-    .subcategory-title
-      h2
-        font-size: var(--font-xxxl) !important
-        line-height: 3rem 
-
 @media screen and (min-width: 1980px) and (max-width: 2559px)
 
   .category
     margin: 72px 0
     padding: 80px 120px
 
-  .category-links
-    a
-      font-size: var(--font-xxl) !important
-
-  .category-subtitle
+  .category-excerpt
     p
       font-size: var(--font-xl)
       margin-top: -8px
+
+  .category-links
+    padding: 8px 0 48px
+    a
+      font-size: var(--font-xxl) !important
+
+  .category-sub-excerpt
+    p
+      font-size: var(--font-xl)
+      line-height: 2rem
+
+  .category-sub-title
+    h2
+      font-size: var(--font-5xl) !important
 
   .category-title 
     i
@@ -605,10 +705,6 @@ body.dark-mode
   .site-main
     padding: 0 12vw
 
-  .subcategory-title
-    h2
-      font-size: var(--font-5xl) !important
-
 
 @media screen and (min-width: 2560px)
 
@@ -616,14 +712,19 @@ body.dark-mode
     margin: 72px 0
     padding: 120px 160px
 
-  .category-links
-    a
-      font-size: var(--font-xxl) !important
-
-  .category-subtitle
+  .category-excerpt
     p
       font-size: var(--font-xl)
       margin-top: -8px
+
+  .category-links
+    padding: 8px 0 48px
+    a
+      font-size: var(--font-xxl) !important
+
+  .category-sub-title
+    h2
+      font-size: var(--font-5xl) !important
 
   .category-title 
     i
@@ -639,7 +740,3 @@ body.dark-mode
 
   .site-main
     padding: 0 15vw
-
-  .subcategory-title
-    h2
-      font-size: var(--font-5xl) !important

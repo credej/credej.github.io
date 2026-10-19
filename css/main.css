@@ -117,18 +117,17 @@ p, h1, h2, h3, h4, h5 {
   opacity: 0.7;
 }
 
-.badges {
-  margin: 96px 0;
+.banner-full {
+  background-color: #1A1B26;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
-
-.badges-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 48px 24px;
-}
-.badges-container img {
-  width: 200px;
-  padding: 4px 0;
+.banner-full h1 {
+  padding: 200px;
 }
 
 .footer-quick-links {
@@ -365,17 +364,17 @@ p, h1, h2, h3, h4, h5 {
   background-color: var(--color-grey-1);
 }
 .navbar-logo h1:hover {
-  color: var(--color-green);
+  color: var(--color-blue-light);
 }
 .navbar-logo h1:hover:after {
-  background-color: var(--color-green);
+  background-color: var(--color-blue);
 }
 
 .navbar-menu i {
   color: var(--color-grey-1);
 }
 .navbar-menu i:hover {
-  color: var(--color-green);
+  color: var(--color-blue);
 }
 
 .navbar {
@@ -648,31 +647,31 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* cannot move this to theme-home.sass without breaking layout */
-.subcategory {
+.category-sub {
   font-size: var(--font-xxl);
   opacity: 0.71;
   padding: 48px 0;
   transition: 0.1s ease-in-out;
 }
-.subcategory:hover {
+.category-sub:hover {
   cursor: pointer;
   opacity: 1;
 }
-.subcategory:active {
+.category-sub:active {
   opacity: 0.9;
 }
 
-.subcategory-banner img {
+.category-sub-banner img {
   box-shadow: var(--box-shadow-3);
   margin: 18px 0;
 }
 
-.subcategory-container {
+.category-sub-container {
   display: flex;
   break-inside: avoid-column;
 }
 
-.subcategory-title {
+.category-sub-title {
   color: var(--color-white);
   display: flex;
   align-items: flex-end;
