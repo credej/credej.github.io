@@ -282,14 +282,14 @@ p, h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
-#menu-expanded {
+#navbar-menu-expanded {
   height: 100vh;
   -ms-overflow-style: none;
   scrollbar-width: none;
   z-index: 9999;
 }
 
-.menu-expanded {
+.navbar-menu-expanded {
   display: flex;
   overflow-y: auto;
   overflow-y: scroll;

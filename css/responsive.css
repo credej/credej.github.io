@@ -93,14 +93,14 @@
   .intro-text a {
     font-size: var(--font-xl);
   }
-  #menu-expanded {
+  #navbar-menu-expanded {
     height: 100vh;
     left: 0;
     overflow-y: auto;
     padding: 24px 0;
     padding-bottom: 150px;
   }
-  .menu-expanded {
+  .navbar-menu-expanded {
     box-sizing: border-box;
     flex-direction: column;
   }
@@ -332,14 +332,14 @@
   .intro-text a {
     font-size: var(--font-xl);
   }
-  #menu-expanded {
+  #navbar-menu-expanded {
     height: 100vh;
     left: 0;
     overflow-y: auto;
     padding: 24px 0;
     padding-bottom: 150px;
   }
-  .menu-expanded {
+  .navbar-menu-expanded {
     box-sizing: border-box;
     flex-direction: column;
   }

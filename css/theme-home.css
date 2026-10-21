@@ -323,6 +323,9 @@ body.dark-mode .category {
 body.dark-mode .category-excerpt p {
   color: var(--color-grey-3);
 }
+body.dark-mode .category-sub-excerpt p {
+  color: var(--color-grey-2);
+}
 body.dark-mode .contact p,
 body.dark-mode .contact ul {
   color: var(--color-grey-1);
@@ -362,9 +365,6 @@ body.dark-mode .neon-blue {
 }
 body.dark-mode .project-title h1 {
   text-shadow: inherit;
-}
-body.dark-mode .category-sub-excerpt p {
-  color: var(--color-grey-2);
 }
 body.dark-mode .stat {
   background-color: #2F313D;
