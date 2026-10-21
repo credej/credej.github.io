@@ -71,6 +71,24 @@ body .category-sub {
 body .category-sub:hover {
   opacity: 1 !important;
 }
+body .category-sub:hover .blue-hover h2 {
+  color: var(--color-blue-2) !important;
+}
+body .category-sub:hover .green-hover h2 {
+  color: var(--color-green) !important;
+}
+body .category-sub:hover .red-hover h2 {
+  color: var(--color-red) !important;
+}
+body .category-sub:hover .orange-hover h2 {
+  color: var(--color-orange) !important;
+}
+body .category-sub:hover .yellow-hover h2 {
+  color: var(--color-yellow) !important;
+}
+body .category-sub:hover .purple-hover h2 {
+  color: var(--color-purple) !important;
+}
 body .category-sub:active {
   opacity: 0.9 !important;
 }
@@ -395,20 +413,10 @@ body.dark-mode .stats h1 {
 @media screen and (min-width: 201px) and (max-width: 755px) {
   body .category {
     border: none;
+    border-radius: 0;
     padding: 48px;
   }
-  body .category-links {
-    padding: 0 36px;
-    text-align: center;
-  }
-  body .category-links a {
-    display: block;
-    font-size: var(--font-l);
-    line-height: 1.6rem;
-    padding: 6px 0;
-  }
   body .category-excerpt {
-    padding: 0 0 24px;
     text-align: center;
   }
   body .category-excerpt p {
@@ -418,26 +426,41 @@ body.dark-mode .stats h1 {
   }
   body .category-links {
     padding: 24px 0;
+    text-align: center;
   }
   body .category-links a {
+    display: block;
+    font-family: "Courier Prime", monospace;
+    font-size: var(--font-xl);
+    line-height: 1.6rem;
     opacity: 1;
-    white-space: nowrap;
-  }
-  body .category-excerpt p {
-    line-height: 1.5rem;
-  }
-  body .category-excerpt,
-  body .category-sub-title,
-  body .category-sub-excerpt p {
-    padding: 0 48px;
-    word-break: normal;
-    overflow-wrap: normal;
-    hyphens: none;
+    padding: 12px 0;
+    text-decoration: underline;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
   }
   body .category-sub {
     filter: grayscale(0);
-    opacity: 1;
+    opacity: 1 !important;
     padding: 48px 0;
+  }
+  body .category-sub .blue-hover h2 {
+    color: var(--color-blue-2);
+  }
+  body .category-sub .green-hover h2 {
+    color: var(--color-green);
+  }
+  body .category-sub .red-hover h2 {
+    color: var(--color-red);
+  }
+  body .category-sub .orange-hover h2 {
+    color: var(--color-orange);
+  }
+  body .category-sub .yellow-hover h2 {
+    color: var(--color-yellow);
+  }
+  body .category-sub .purple-hover h2 {
+    color: var(--color-purple);
   }
   body .category-sub-banner img {
     margin: 12px 0 4px;
@@ -445,11 +468,7 @@ body.dark-mode .stats h1 {
   body .category-sub-container {
     margin: 48px 0 0;
   }
-  body .category-sub-excerpt {
-    padding: 12px 0;
-  }
   body .category-sub-title {
-    padding: 8px 0;
     justify-content: center;
     text-align: center;
   }
@@ -470,7 +489,6 @@ body.dark-mode .stats h1 {
     flex-direction: column;
     max-width: fit-content;
     margin-inline: auto;
-    padding: 0 36px;
   }
   body .category-title h1 {
     display: flex;
@@ -478,7 +496,7 @@ body.dark-mode .stats h1 {
     line-height: 2.6rem;
     letter-spacing: 0.52rem;
     overflow: wrap;
-    padding: 8px 0 8px 24px;
+    padding: 12px 0;
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -491,7 +509,7 @@ body.dark-mode .stats h1 {
   }
   body .category-title i {
     font-size: var(--font-xxxl);
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     padding: 0;
   }
   body .footer-text-thanks {

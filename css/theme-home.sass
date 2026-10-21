@@ -60,6 +60,24 @@ body
     opacity: 0.71 !important
     &:hover
       opacity: 1 !important
+      .blue-hover
+        h2
+          color: var(--color-blue-2) !important
+      .green-hover
+        h2
+          color: var(--color-green) !important
+      .red-hover
+        h2
+          color: var(--color-red) !important
+      .orange-hover
+        h2
+          color: var(--color-orange) !important
+      .yellow-hover
+        h2
+          color: var(--color-yellow) !important
+      .purple-hover
+        h2
+          color: var(--color-purple) !important
     &:active
       opacity: 0.9 !important
 
@@ -286,6 +304,10 @@ body
 
 
 
+
+
+
+
 /* HOME PAGE - DARK THEME */
 
 body.dark-mode 
@@ -372,47 +394,61 @@ body.dark-mode
     .category
       // border-radius: 0
       border: none
+      border-radius: 0
       padding: 48px
-    
-    .category-links
-      padding: 0 36px
-      text-align: center
-      a
-        display: block
-        font-size: var(--font-l)
-        line-height: 1.6rem
-        padding: 6px 0
-    
+
     .category-excerpt
-      padding: 0 0 24px
       text-align: center
       p
         font-size: var(--font-l)
         letter-spacing: -0.1rem
         line-height: 1.6rem
-
-    .category-links 
+    
+    .category-links
       padding: 24px 0 
-      a 
+      text-align: center
+      a
+        display: block
+        font-family: "Courier Prime", monospace
+        font-size: var(--font-xl)
+        line-height: 1.6rem
         opacity: 1 
-        white-space: nowrap
+        padding: 12px 0
+        text-decoration: underline
+        -moz-hyphens: none
+        -webkit-hyphens: none
 
-    .category-excerpt
-      p
-        line-height: 1.5rem 
+    // .category-excerpt,
+    // .category-sub-title,
+    // .category-sub-excerpt p
+    //   padding: 0 48px
+    //   word-break: normal     /* Prevent breaking words anywhere */
+    //   overflow-wrap: normal    /* Prevent breaking long strings or URLs */
+    //   hyphens: none
 
-    .category-excerpt,
-    .category-sub-title,
-    .category-sub-excerpt p
-      padding: 0 48px
-      word-break: normal     /* Prevent breaking words anywhere */
-      overflow-wrap: normal    /* Prevent breaking long strings or URLs */
-      hyphens: none
 
     .category-sub
       filter: grayscale(0.0)
-      opacity: 1.0 
+      opacity: 1.0 !important
       padding: 48px 0
+      .blue-hover
+        h2
+          color: var(--color-blue-2)
+      .green-hover
+        h2
+          color: var(--color-green)
+      .red-hover
+        h2
+          color: var(--color-red)
+      .orange-hover
+        h2
+          color: var(--color-orange)
+      .yellow-hover
+        h2
+          color: var(--color-yellow)
+      .purple-hover
+        h2
+          color: var(--color-purple)
 
     .category-sub-banner
       img
@@ -421,11 +457,7 @@ body.dark-mode
     .category-sub-container
       margin: 48px 0 0
 
-    .category-sub-excerpt
-      padding: 12px 0
-
     .category-sub-title
-      padding: 8px 0
       justify-content: center
       text-align: center
       h2
@@ -444,14 +476,13 @@ body.dark-mode
       flex-direction: column
       max-width: fit-content
       margin-inline: auto
-      padding: 0 36px
       h1
         display: flex 
         font-size: var(--font-5xl)
         line-height: 2.6rem
         letter-spacing: 0.52rem
         overflow: wrap
-        padding: 8px 0 8px 24px
+        padding: 12px 0
         hyphens: auto /* Automatically hyphenates words based on language rules */
         -webkit-hyphens: auto
         -moz-hyphens: auto
@@ -462,7 +493,7 @@ body.dark-mode
           display: none
       i
         font-size: var(--font-xxxl)
-        margin-bottom: 12px
+        margin-bottom: 4px
         padding: 0
 
     .footer-text-thanks

@@ -47,7 +47,6 @@ table
 a
   cursor: pointer !important
 
-.menu-category-title,
 .project-section,
 .project-title,
 .stat li,
@@ -100,16 +99,15 @@ p, h1, h2, h3, h4, h5
   transform: translateY(-2px)
   opacity: 0.7
 
-.banner-full
-  background-color: #1A1B26
+.line-full-width
   width: 100vw
   position: relative
   left: 50%
   right: 50%
   margin-left: -50vw
   margin-right: -50vw
-  h1
-    padding: 200px
+  border: none
+  border-top: 1px solid #ccc
 
 .footer-quick-links
   padding: 8px 0 !important
@@ -202,7 +200,7 @@ p, h1, h2, h3, h4, h5
   position: fixed
   bottom: 15px
 
-#menu-button
+#navbar-menu
   i
     font-size: var(--font-xxxl)
   // // styling for a text-based menu button
@@ -220,13 +218,13 @@ p, h1, h2, h3, h4, h5
   //   &:active
   //     opacity: 0.9
 
-.menu-category
+.navbar-menu-category
   display: flex
   flex: 1
   flex-direction: column
   justify-content: flex-start !important
 
-.menu-category-container
+.navbar-menu-category-container
   display: flex
   align-items: flex-start
   flex: 1
@@ -234,7 +232,7 @@ p, h1, h2, h3, h4, h5
   text-align: center
   padding: 96px 0 0
 
-.menu-category-title
+.navbar-menu-category-title
   display: flex
   flex-direction: row
   justify-content: center
@@ -264,7 +262,7 @@ p, h1, h2, h3, h4, h5
   scrollbar-width: none
   -ms-overflow-style: none 
 
-.menu-list
+.navbar-menu-list
   display: flex
   flex-direction: column
   padding: 12px 0
@@ -778,5 +776,5 @@ $c_1: #353540
   .navbar-menu
     i
       &:hover
-        color: var(--color-green)
+        color: var(--color-blue-light)
   

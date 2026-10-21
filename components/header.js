@@ -12,102 +12,119 @@ class Header extends HTMLElement {
                </a>
             </div>
 
-            <div class="navbar-menu">
-               <button id="menu-button" class="">
+            <button id="navbar-menu">
+               <div class="navbar-menu">
                   <i class="iconoir-menu"></i>
-               </button>
-            </div>
+               </div>
+            </button>
 
          </div>
          
          <div id="navbar-menu-expanded" class="hidden fade-in">
 
             <div class="navbar-menu-expanded">
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+
+                     <div class="navbar-menu-category-title">
                         <i class="iconoir-laptop-dev-mode blue"></i>
                         <h2>Software UI/UX</h2>
                      </div>
-                     <div class="menu-list blue">
+
+                     <div class="navbar-menu-list blue">
                         <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
                         <a href="/pages/software/redteam/index.html" target=_self>Red Team Operation Management</a>
                         <a href="/pages/software/collectibles/index.html" target=_self>Online Collectibles Store</a>
                         <a href="/pages/software/inventory/index.html" target=_self>Inventory Tracking</a>
                         <a href="/pages/software/counterfeit/index.html" target=_self>Counterfeit Detection</a>
                      </div>
+
                   </div>
                </div>
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
+
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+                     <div class="navbar-menu-category-title">
                         <i class="iconoir-edit-pencil green"></i>
                         <h2>Design</em></h2>
                      </div>
-                     <div class="menu-list green">
+                     <div class="navbar-menu-list green">
                         <a href="/pages/design/arch/index.html" target=_self>Art & Architecture</a>
                         <a href="/pages/design/graphicsweb/index.html" target=_self>Graphics & Web</a>
                      </div>
                   </div>
                </div>
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
+
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+
+                     <div class="navbar-menu-category-title">
                         <i class="iconoir-cpu red"></i>
                         <h2>Gadgets</h2>
                      </div>
-                     <div class="menu-list red">
+
+                     <div class="navbar-menu-list red">
                         <a href="" target=_self>Computers</a>
                         <a href="" target=_self>Keyboards & Mice</a>
                         <a href="" target=_self>Gaming Rigs</a>
                         <a href="" target=_self>Other Devices</a>
                         <a href="" target=_self>Everyday Carry</a>
                      </div>
+
                   </div>
                </div>
-            </div>
 
-            <div class="navbar-menu-expanded">
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
-                        <i class="iconoir-tools orange"></i>
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+
+                     <div class="navbar-menu-category-title">
+                        <i class="iconoir-cpu orange"></i>
                         <h2>DIY</h2>
                      </div>
-                     <div class="menu-list orange">
+
+                     <div class="navbar-menu-list orange">
                         <a href="/pages/diy/cli/index.html" target=_self>Command Line Interface</a>
                         <a href="/pages/diy/freedomtech/index.html" target=_self>Decentralized Tech</a>
                      </div>
+                     
                   </div>
                </div>
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
-                        <i class="iconoir-telegram yellow"></i>
-                        <h2>Good Eats</h2>
+
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+
+                     <div class="navbar-menu-category-title">
+                        <i class="iconoir-leaf yellow"></i>
+                        <h2>Recipes & Remedies</h2>
                      </div>
-                     <div class="menu-list yellow">
+
+                     <div class="navbar-menu-list yellow">
                        <a href="/pages/health/recipes/index.html" target=_self>Recipe Book</a>
                        <a href="/pages/health/remedies/index.html" target=_self>Home Remedies</a>
                        <a style="opacity: 0.01;' href="/pages/otherstuff/fooddeals/index.html" target=_self>Food Deals</a>
                      </div>
+                     
                   </div>
                </div>
-               <div class="menu-category-container">
-                  <div class="menu-category">
-                     <div class="menu-category-title">
-                        <i class="iconoir-bookmark-book purple"></i>
+
+               <div class="navbar-menu-category-container">
+                  <div class="navbar-menu-category">
+
+                     <div class="navbar-menu-category-title">
+                        <i class="iconoir-leaf purple"></i>
                         <h2>Other Stuff</h2>
                      </div>
-                     <div class="menu-list purple">
+
+                     <div class="navbar-menu-list purple">
                        <a href="/pages/otherstuff/bookmarks/index.html" target=_self>Bookmarks</a>
                        <a href="/pages/otherstuff/quotes/index.html" target=_self>Quotes</a>
                        <a style="opacity: 0.01;" href="/pages/otherstuff/test/index.html" target=_self>Test 1</a>
                        <a style="opacity: 0.01;" href="/pages/otherstuff/test/index-2.html" target=_self>Test 2</a>
                      </div>
+                     
                   </div>
                </div>
-            </div>
+            </div>   
          </div>
       </nav>
 
@@ -144,7 +161,7 @@ class Header extends HTMLElement {
       document.addEventListener('DOMContentLoaded', function() {
 
          // Mobile Menu Toggle
-         const menuBtn = document.getElementById("menu-button");
+         const menuBtn = document.getElementById("navbar-menu");
          const mobileMenu = document.getElementById("navbar-menu-expanded");
 
          menuBtn.addEventListener("click", () => {
