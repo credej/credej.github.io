@@ -46,7 +46,6 @@ body
       font-size: var(--font-l)
       font-style: italic
       opacity: 0.6
-      text-decoration-style: dotted
       &:hover
         opacity: 1
         text-decoration: underline
@@ -392,9 +391,9 @@ body.dark-mode
   
   body
     .category
-      // border-radius: 0
       border: none
       border-radius: 0
+      box-shadow: none !important
       padding: 48px
 
     .category-excerpt
@@ -414,7 +413,7 @@ body.dark-mode
         line-height: 1.6rem
         opacity: 1 
         padding: 12px 0
-        text-decoration: underline
+        text-decoration: underline dotted
         -moz-hyphens: none
         -webkit-hyphens: none
 
@@ -462,7 +461,7 @@ body.dark-mode
       text-align: center
       h2
         line-height: 1.4em
-        font-size: var(--font-xxl)
+        font-size: var(--font-xxxl)
 
     .category-sub-excerpt
       text-align: center
@@ -481,12 +480,11 @@ body.dark-mode
         font-size: var(--font-5xl)
         line-height: 2.6rem
         letter-spacing: 0.52rem
-        overflow: wrap
         padding: 12px 0
-        hyphens: auto /* Automatically hyphenates words based on language rules */
-        -webkit-hyphens: auto
-        -moz-hyphens: auto
-        -ms-hyphens: auto
+        hyphens: none 
+        -webkit-hyphens: none
+        -moz-hyphens: none
+        -ms-hyphens: none
         text-align: center
         min-width: 0
         &:after
@@ -494,6 +492,7 @@ body.dark-mode
       i
         font-size: var(--font-xxxl)
         margin-bottom: 4px
+        opacity: 0.71
         padding: 0
 
     .footer-text-thanks

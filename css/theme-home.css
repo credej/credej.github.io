@@ -52,7 +52,6 @@ body .category-links a {
   font-size: var(--font-l);
   font-style: italic;
   opacity: 0.6;
-  text-decoration-style: dotted;
 }
 body .category-links a:hover {
   opacity: 1;
@@ -414,6 +413,7 @@ body.dark-mode .stats h1 {
   body .category {
     border: none;
     border-radius: 0;
+    box-shadow: none !important;
     padding: 48px;
   }
   body .category-excerpt {
@@ -435,7 +435,7 @@ body.dark-mode .stats h1 {
     line-height: 1.6rem;
     opacity: 1;
     padding: 12px 0;
-    text-decoration: underline;
+    text-decoration: underline dotted;
     -moz-hyphens: none;
     -webkit-hyphens: none;
   }
@@ -474,7 +474,7 @@ body.dark-mode .stats h1 {
   }
   body .category-sub-title h2 {
     line-height: 1.4em;
-    font-size: var(--font-xxl);
+    font-size: var(--font-xxxl);
   }
   body .category-sub-excerpt {
     text-align: center;
@@ -495,12 +495,11 @@ body.dark-mode .stats h1 {
     font-size: var(--font-5xl);
     line-height: 2.6rem;
     letter-spacing: 0.52rem;
-    overflow: wrap;
     padding: 12px 0;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
     text-align: center;
     min-width: 0;
   }
@@ -510,6 +509,7 @@ body.dark-mode .stats h1 {
   body .category-title i {
     font-size: var(--font-xxxl);
     margin-bottom: 4px;
+    opacity: 0.71;
     padding: 0;
   }
   body .footer-text-thanks {
