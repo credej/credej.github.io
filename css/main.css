@@ -632,6 +632,7 @@ p, h1, h2, h3, h4, h5 {
   font-family: "Alfa Slab One", serif;
   font-family: "Courier Prime", monospace;
   letter-spacing: 1rem;
+  text-shadow: none;
 }
 
 .section-header {
@@ -641,38 +642,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .section-header h5 {
   color: white;
-}
-
-/* cannot move this to theme-home.sass without breaking layout */
-.category-sub {
-  font-size: var(--font-xxl);
-  opacity: 0.71;
-  padding: 48px 0;
-  transition: 0.1s ease-in-out;
-}
-.category-sub:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-.category-sub:active {
-  opacity: 0.9;
-}
-
-.category-sub-banner img {
-  box-shadow: var(--box-shadow-3);
-  margin: 18px 0;
-}
-
-.category-sub-container {
-  display: flex;
-  break-inside: avoid-column;
-}
-
-.category-sub-title {
-  color: var(--color-white);
-  display: flex;
-  align-items: flex-end;
-  font-family: "Reddit Mono", monospace;
 }
 
 /* EFFECTS */

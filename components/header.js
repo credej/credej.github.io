@@ -73,7 +73,9 @@ class Header extends HTMLElement {
 
                   </div>
                </div>
+            </div>
 
+            <div class="navbar-menu-expanded">
                <div class="navbar-menu-category-container">
                   <div class="navbar-menu-category">
 
@@ -125,6 +127,7 @@ class Header extends HTMLElement {
                   </div>
                </div>
             </div>   
+            
          </div>
       </nav>
 

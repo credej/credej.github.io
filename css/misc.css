@@ -1,6 +1,8 @@
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
 
+/*background: conic-gradient(from 45deg, #a5c8e4 0.000deg, #697BED 30.000deg, #6DFF9A 60.000deg, #a67451 90.000deg, #655cd0 120.000deg, #604b5e 150.000deg, #9c44c2 180.000deg, #FF345E 210.000deg, #e4ad47 240.000deg, #F97143 270.000deg, #6a80a1 300.000deg, #5d9d90 330.000deg, #a5c8e4 360.000deg)*/
+
 /* Enables smooth scrolling when the anchor link is clicked */
 html {
   scroll-behavior: smooth;

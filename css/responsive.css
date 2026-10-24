@@ -77,30 +77,6 @@
   .hide-mobile {
     display: none;
   }
-  .intro {
-    text-align: center;
-  }
-  .intro p {
-    font-size: var(--font-m);
-    line-height: 1.8rem;
-    text-align: center !important;
-  }
-  .intro-icons {
-    justify-content: center;
-  }
-  .intro-icons span {
-    padding: 0 8px;
-  }
-  .intro-icons i {
-    font-size: var(--font-xxxl);
-  }
-  .intro-text p {
-    font-size: var(--font-l);
-    line-height: 2rem;
-  }
-  .intro-text a {
-    font-size: var(--font-xl);
-  }
   #navbar-menu-expanded {
     height: 100vh;
     left: 0;
@@ -299,13 +275,6 @@
   .hide-mobile {
     display: none;
   }
-  .intro-icons i {
-    font-size: var(--font-xxxxl);
-  }
-  .intro-text p {
-    font-size: var(--font-xxl);
-    line-height: 2.4rem;
-  }
   .navbar-logo h1 {
     font-size: var(--font-l);
   }
@@ -392,12 +361,6 @@
   .bookmark-section h2 {
     font-size: var(--font-xxl);
   }
-  .intro-icons i {
-    font-size: var(--font-xxxxl) !important;
-  }
-  .intro-text p {
-    font-size: var(--font-xl);
-  }
   .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-xl) !important;
@@ -465,15 +428,6 @@
   .header-simple-title h1 {
     font-size: var(--font-9xl);
   }
-  .intro {
-    text-align: justify;
-  }
-  .intro a {
-    font-size: var(--font-xl);
-  }
-  .intro p {
-    font-size: var(--font-l);
-  }
   .footer-main {
     display: flex;
     justify-content: center;
@@ -528,7 +482,7 @@
   .site-main {
     margin: 144px 0 0;
   }
-  .stats-container {
+  .stat-container {
     flex-direction: row;
   }
 }
@@ -558,15 +512,6 @@
   }
   .header-simple-title h1 {
     font-size: var(--font-9xl);
-  }
-  .intro {
-    text-align: justify;
-  }
-  .intro p {
-    font-size: var(--font-xl);
-  }
-  .intro-icons i {
-    font-size: var(--font-xxxl) !important;
   }
   .navbar-menu-category-title h2 {
     color: #fff;
@@ -622,7 +567,7 @@
     margin: 144px 0 0;
     width: 100% !important;
   }
-  .stats-container {
+  .stat-container {
     flex-direction: row;
   }
 }
@@ -652,15 +597,6 @@
   }
   .header-simple-title h1 {
     font-size: var(--font-9xl);
-  }
-  .intro {
-    text-align: justify;
-  }
-  .intro p {
-    font-size: var(--font-xl);
-  }
-  .intro-icons i {
-    font-size: var(--font-xxxl) !important;
   }
   .navbar-menu-category-title h2 {
     color: #fff;
@@ -716,7 +652,7 @@
     margin: 144px 0 0;
     width: 100% !important;
   }
-  .stats-container {
+  .stat-container {
     flex-direction: row;
   }
 }
