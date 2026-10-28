@@ -1236,6 +1236,16 @@
       "oAP" : "\/img\/Resume-J.pdf",
       "oF" : 0
     },
+    "\/img\/ribbon-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/ribbon-grid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/windows-icon-email.png" : {
       "ft" : 32768,
       "iS" : 55060,
@@ -3134,6 +3144,66 @@
       "oAP" : "\/pages\/gadgets\/otherdevices\/index.html",
       "oF" : 0
     },
+    "\/pages\/health\/fooddeals\/img\/bg-dark.jpg" : {
+      "ft" : 16384,
+      "iS" : 1218704,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/fooddeals\/img\/bg-dark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/fooddeals\/img\/bg-light.jpg" : {
+      "ft" : 16384,
+      "iS" : 517952,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/fooddeals\/img\/bg-light.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/fooddeals\/img\/bg-money.jpg" : {
+      "ft" : 16384,
+      "iS" : 86595,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/fooddeals\/img\/bg-money.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/fooddeals\/img\/fooddeals-logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 2347,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/fooddeals\/img\/fooddeals-logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/pages\/health\/fooddeals\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/pages\/health\/fooddeals\/index.html",
+      "oF" : 0
+    },
     "\/pages\/health\/recipes\/img\/goodeats-banner.jpg" : {
       "ft" : 16384,
       "iS" : 343498,
@@ -3271,66 +3341,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/otherstuff\/bookmarks\/index.html",
-      "oF" : 0
-    },
-    "\/pages\/otherstuff\/fooddeals\/img\/bg-dark.jpg" : {
-      "ft" : 16384,
-      "iS" : 1218704,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/fooddeals\/img\/bg-dark.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/fooddeals\/img\/bg-light.jpg" : {
-      "ft" : 16384,
-      "iS" : 517952,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/fooddeals\/img\/bg-light.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/fooddeals\/img\/bg-money.jpg" : {
-      "ft" : 16384,
-      "iS" : 86595,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/fooddeals\/img\/bg-money.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/fooddeals\/img\/fooddeals-logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 2347,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/fooddeals\/img\/fooddeals-logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/pages\/otherstuff\/fooddeals\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pages\/otherstuff\/fooddeals\/index.html",
       "oF" : 0
     },
     "\/pages\/otherstuff\/quotes\/img\/bookmarks-banner.jpg" : {

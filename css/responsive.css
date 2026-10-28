@@ -123,11 +123,17 @@
   .page-header h5 {
     text-align: center;
   }
-  .page-header-image img {
-    border-radius: 0.75rem 0.75rem 0 0;
-  }
   .page-header-excerpt {
-    border-radius: 0 0 0.75rem 0.75rem;
+    background: none !important;
+  }
+  .page-header-excerpt p {
+    font-size: var(--font-s);
+    padding: 16px 24px;
+    text-align: center;
+  }
+  .page-header-image img,
+  .page-header-excerpt {
+    border-radius: 0;
   }
   .page-header-image,
   .page-header-excerpt {
@@ -135,10 +141,18 @@
   }
   .page-header-title {
     justify-content: flex-start;
+    flex-direction: column;
+    padding: 12px 0;
   }
   .page-header-title h1 {
     font-size: var(--font-5xl);
     letter-spacing: 0.3rem;
+    line-height: 2.4rem;
+    padding: 0 36px;
+    text-align: center;
+  }
+  .page-header-title i {
+    padding: 12px 0;
   }
   .page-title {
     font-size: var(--font-l);
@@ -198,6 +212,7 @@
     margin: 12px 0;
   }
   .project-title i {
+    font-size: var(--font-xxxxl);
     margin: 0 0 12px;
   }
   .project-title h1 {
@@ -209,7 +224,7 @@
     display: none;
   }
   .site {
-    margin-top: 120px;
+    margin-top: 96px;
   }
   .section-header {
     text-align: center;

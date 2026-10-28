@@ -1,7 +1,12 @@
 /* THEME - LIGHT */
 
 .cli-command
+  background-color: #013D27 
+  border: 1px solid var(--color-white)
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.15)
+  border-radius: 6px
   padding: 24px
+  position: relative
 
 .cli-section
   font-family: "Courier Prime", monospace
@@ -15,6 +20,20 @@
     padding: 96px 0 48px 
   p
     padding: 24px
+    line-height: 2.2rem
+  a
+    background: #0d251f
+    color: var(--color-green)
+    padding: 6px 16px
+    font-weight: bold
+    cursor: pointer
+    text-align: center
+    border-radius: 4px
+    transition: all 0.2s
+    &:hover
+      background: var(--color-green)
+      color: #071412
+      box-shadow: 0 0 10px var(--color-green)
 
 .header-simple-title
   i
@@ -74,8 +93,10 @@ body.dark-mode
   background-color: #000C09      
   display: grid
   .cli-command
-    background-color: #013D27
-    border-radius: 12px
+    background-color: #013D27 
+    border: 1px solid var(--color-green)
+    border-radius: 3px
+    box-shadow: 0 0 30px rgba(0, 255, 102, 0.15)
     p
       color: var(--color-green)
   #menu-button
