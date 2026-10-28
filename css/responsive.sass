@@ -168,16 +168,20 @@
     h2
       font-size: var(--font-m)
       line-height: 1.4rem
+      margin: 24px 0 12px
       text-align: center
     h5
       font-size: var(--font-s)
 
   .project-links 
-    margin: 48px 0
-    padding: 0
+    padding: 36px 0
     a
       font-size: var(--font-l)
+      text-decoration-style: underline dotted
+      -webkit-text-decoration: underline dotted
       text-shadow: var(--text-shadow-1)
+      &:active
+        opacity: 0.9
 
   .project-overview  
     p
@@ -213,7 +217,7 @@
     h1
       font-size: var(--font-xxxxl)
       letter-spacing: 0.5rem
-      line-height: 2rem
+      line-height: 2.4rem
       &:after
         display: none
 
@@ -225,7 +229,7 @@
   .stat
     margin: 48px 0
 
-@media screen and (min-width: 540px) and (max-width: 755px)
+@media screen and (min-width: 400px) and (max-width: 755px)
   .badges
     margin: 144px 0 !important  
   
@@ -256,9 +260,14 @@
       text-align: center
 
   .project-links 
-    margin: 0 0 72px
+    padding: 24px 0
     a
-      font-size: var(--font-xl)
+      font-size: var(--font-l)
+      text-decoration-style: underline dotted !important
+      -webkit-text-decoration: underline dotted !important
+      text-shadow: var(--text-shadow-1)
+      &:active
+        opacity: 0.9
 
   .project-tags
     font-size: var(--font-xxxs)
@@ -307,6 +316,8 @@
     text-align: center
     a
       font-size: var(--font-xl)
+      text-decoration-style: underline dotted !important
+      -webkit-text-decoration: underline dotted !important
 
   .project-overview
     p
@@ -407,6 +418,8 @@
     margin: 24px 0 96px
     a
       font-size: var(--font-xl)
+      text-decoration-style: underline dotted !important
+      -webkit-text-decoration: underline dotted !important
 
   .project-section
     padding: 72px

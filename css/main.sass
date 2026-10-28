@@ -497,15 +497,23 @@ p, h1, h2, h3, h4, h5
     color: var(--color-title)
     margin-right: 24px
 
-.project-section-title
-  h3
-    font-family: "Courier Prime", monospace
-    font-size: var(--font-5xl) !important
-    line-height: 2.4rem
+.project-section-tags
+  color: var(--color-grey-3)
+  font-size: var(--font-xl) !important
+  font-family: "Courier Prime", monospace
 
 /* this should be .project-section-subtitle */
 .project-section-title
-  h4
+  h1
+    color: var(--color-white)
+    font-family: "Alfa Slab One", serif
+    font-family: "JetBrains Mono", monospace
+    font-size: var(--font-xxxxl) !important
+    font-weight: 500 !important
+    letter-spacing: 0.5rem
+    line-height: 2.4rem
+    text-transform: capitalize
+  h2
     color: var(--color-grey-3)
     font-family: "JetBrains Mono", monospace
     padding: 12px 0
@@ -513,11 +521,6 @@ p, h1, h2, h3, h4, h5
     color: var(--color-white)
     font-family: "Yellowtail", monospace
     font-size: var(--font-l) 
-
-.project-section-tags
-  color: var(--color-grey-3)
-  font-size: var(--font-xl) !important
-  font-family: "Courier Prime", monospace
 
 .project-tag
   background-color: var(--color-grey-4)
@@ -551,8 +554,13 @@ p, h1, h2, h3, h4, h5
     font-family: "Courier Prime", monospace
     font-family: "Alfa Slab One", serif
     letter-spacing: 0.05rem
+    line-height: 2.4rem
     text-transform: uppercase
-    text-shadow: none
+    text-shadow: none 
+    word-break: break-word
+    hyphens: auto
+    -webkit-hyphens: auto
+    -ms-hyphens: auto
 
 .section-header
   font-family: "Courier Prime", monospace

@@ -170,18 +170,23 @@
   .project-header h2 {
     font-size: var(--font-m);
     line-height: 1.4rem;
+    margin: 24px 0 12px;
     text-align: center;
   }
   .project-header h5 {
     font-size: var(--font-s);
   }
   .project-links {
-    margin: 48px 0;
-    padding: 0;
+    padding: 36px 0;
   }
   .project-links a {
     font-size: var(--font-l);
+    text-decoration-style: underline dotted;
+    -webkit-text-decoration: underline dotted;
     text-shadow: var(--text-shadow-1);
+  }
+  .project-links a:active {
+    opacity: 0.9;
   }
   .project-overview p {
     font-size: var(--font-m);
@@ -218,7 +223,7 @@
   .project-title h1 {
     font-size: var(--font-xxxxl);
     letter-spacing: 0.5rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
   }
   .project-title h1:after {
     display: none;
@@ -233,7 +238,7 @@
     margin: 48px 0;
   }
 }
-@media screen and (min-width: 540px) and (max-width: 755px) {
+@media screen and (min-width: 400px) and (max-width: 755px) {
   .badges {
     margin: 144px 0 !important;
   }
@@ -261,10 +266,16 @@
     text-align: center;
   }
   .project-links {
-    margin: 0 0 72px;
+    padding: 24px 0;
   }
   .project-links a {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
+    text-decoration-style: underline dotted !important;
+    -webkit-text-decoration: underline dotted !important;
+    text-shadow: var(--text-shadow-1);
+  }
+  .project-links a:active {
+    opacity: 0.9;
   }
   .project-tags {
     font-size: var(--font-xxxs);
@@ -312,6 +323,8 @@
   }
   .project-links a {
     font-size: var(--font-xl);
+    text-decoration-style: underline dotted !important;
+    -webkit-text-decoration: underline dotted !important;
   }
   .project-overview p {
     text-align: justify;
@@ -407,6 +420,8 @@
   }
   .project-links a {
     font-size: var(--font-xl);
+    text-decoration-style: underline dotted !important;
+    -webkit-text-decoration: underline dotted !important;
   }
   .project-section {
     padding: 72px;

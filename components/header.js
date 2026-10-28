@@ -127,7 +127,7 @@ class Header extends HTMLElement {
                   </div>
                </div>
             </div>   
-            
+
          </div>
       </nav>
 
@@ -152,9 +152,9 @@ class Header extends HTMLElement {
          </button>
       </div>
 
-      <!-- <div class="footer-construction">
+      <div class="footer-construction">
          <p>Site Under Construction!</p>
-      </div> -->
+      </div>
 
     `
   }

@@ -1,6 +1,6 @@
 /* LIGHT */
 body {
-  background-color: var(--color-turqoise-medium);
+  background-color: var(--color-cybergrad-blue-light);
 }
 body .badges {
   margin: 96px 0;
@@ -92,12 +92,12 @@ body .project-section {
 body .project-section p {
   color: var(--color-grey-2);
 }
-body .project-section-title h3 {
-  color: var(--color-white);
+body .project-section-title h1 {
+  color: var(--color-cybergrad-blue-light);
   font-weight: 900;
   text-shadow: var(--text-shadow-3);
 }
-body .project-section-title h4 {
+body .project-section-title h2 {
   color: var(--color-grey-1);
 }
 body .project-subtitle h2 {
@@ -112,7 +112,7 @@ body .project-title h1 {
   text-shadow: var(--text-shadow-1);
 }
 body .project-title i {
-  color: #1AFFDB;
+  color: var(--color-cybergrad-blue-light);
 }
 
 /* DARK */
@@ -151,10 +151,7 @@ body.dark-mode .project-overview p {
   color: var(--color-grey-1);
 }
 body.dark-mode .project-links a {
-  color: var(--color-turqoise-medium);
-}
-body.dark-mode .project-links a:hover {
-  color: #1AFFDB;
+  color: var(--color-cybergrad-blue);
 }
 body.dark-mode .project-section {
   background-color: var(--color-cyber-bg);
@@ -165,7 +162,7 @@ body.dark-mode .project-section-desc p {
 body.dark-mode .project-section-desc a {
   color: var(--color-grey-1);
 }
-body.dark-mode .project-section-title h3 {
+body.dark-mode .project-section-title h1 {
   color: var(--color-white);
 }
 body.dark-mode .project-tag {
@@ -176,5 +173,5 @@ body.dark-mode .project-title h1 {
   color: var(--color-white);
 }
 body.dark-mode .project-title i {
-  color: var(--color-turqoise-medium);
+  color: var(--color-cybergrad-blue-light);
 }
