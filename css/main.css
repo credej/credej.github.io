@@ -529,7 +529,7 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-header h2 {
   color: var(--color-white);
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
 .project-links {
@@ -687,6 +687,25 @@ p, h1, h2, h3, h4, h5 {
   color: #fff;
   font-family: "Tiny5", monospace;
   text-transform: uppercase;
+}
+
+.footer-status {
+  align-items: center;
+  color: #6DFF9A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-status .circle {
+  width: 12px;
+  height: 12px;
+  background-color: #6DFF9A;
+  border-radius: 12px;
+}
+.footer-status p {
+  font-family: "Reddit Mono", monospace;
+  font-size: var(--font-xs);
+  padding: 0 12px;
 }
 
 .hidden {

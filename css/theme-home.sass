@@ -31,8 +31,6 @@
 body
   background-color: #5456F7
 
-  body
-    ribbon-grid.svg
   .category
     background-image: radial-gradient(circle at -229% -377%, #0000000b 55%, transparent 67.05%),radial-gradient(circle at -37% -54%, #00000007 59%, transparent 59.05%),radial-gradient(circle at -6% 48%, #00000005 51%, transparent 51.05%),linear-gradient(-11deg, #00000011 56%, transparent 56.05%);
     border-radius: 12px
@@ -41,6 +39,7 @@ body
     font-size: var(--font-m)
     // padding: 72px !important
     a
+      color: var(--color-white) 
       font-size: var(--font-xl)
       font-weight: 900
       overflow-wrap: break-word
@@ -66,7 +65,7 @@ body
       word-break: break-all
       
   .category-excerpt
-    color: var(--color-blue-light) !important
+    color: var(--color-grey-1)
     font-family: "Yellowtail", monospace
     font-style: italic
     margin: 0 0 10px
@@ -257,11 +256,11 @@ body
     flex: 1
     margin: 120px 0 0 
     h1
-      color: var(--color-green)
+      color: var(--color-white)
       display: flex
       font-family: "Doto", serif
       justify-content: center
-      font-size: var(--font-7xl)
+      font-size: var(--font-5xl) !important
       font-weight: 700
       margin: 24px 0
 
@@ -270,11 +269,9 @@ body
     flex: 1
     border-radius: 12px
     box-shadow: var(--box-shadow-3)
-    color: var(--color-purple)
     margin: 15px 8px
     padding: 24px
     a 
-      background: var(--color-purple)
       background-image: linear-gradient(161.15deg, #6974DC 12.73%, #9679DD 72.95%)
       border-radius: 12px
       box-shadow: var(--box-shadow-3)
@@ -289,12 +286,12 @@ body
       text-decoration: none
       text-transform: uppercase
       &:hover
-
         color: var(--color-green) !important
         opacity: 1
       &:active
         opacity: 0.9
     h2 
+      color: var(--color-purple)
       margin-top: 0
       border-bottom: 1px solid rgba(105, 123, 237, 0.8)
       text-transform: uppercase
@@ -305,7 +302,7 @@ body
       font-size: var(--font-xl)
       margin: 24px 0 12px 
     p
-      color: var(--color-purple)
+      color: var(--color-grey-5)
       font-family: "Doto", serif 
       font-weight: 900
       margin: 12px 0 36px
@@ -319,6 +316,11 @@ body
     h1
       text-align: center
 
+  .stat-number
+    font-family: "Geostar Fill", serif
+    span
+      color: var(--color-grey-5)
+      font-size: var(--font-xxxl)
 
 
 
@@ -333,10 +335,6 @@ body.dark-mode
   .category
     box-shadow: var(--box-shadow-2)
 
-  .category-excerpt
-    p
-      color: var(--color-grey-3)
-
   .category-sub-excerpt
     p
       color: var(--color-grey-2)
@@ -344,9 +342,9 @@ body.dark-mode
   .contact
     .category-excerpt
       p
-        color: var(--color-grey-1)
+        color: var(--color-grey-3)
       a
-        color: var(--color-blue-light)
+        color: var(--color-white)
 
   .contact-bullets ul
     color: var(--color-grey-3)
@@ -388,19 +386,17 @@ body.dark-mode
     a 
       color: var(--color-grey-1) !important
       background: #000
-
       &:hover
         color: var(--color-green) !important
         text-shadow: var(--text-shadow-3)
-    .stat-number
-      font-family: "Geostar Fill", serif
-      span 
-        color: var(--color-grey-2)
+
+  .stat-number
+    span 
+      color: var(--color-grey-2)
 
   .stats
     background-color: none
     h1
-      font-size: var(--font-xxxl) !important
       padding: 0 24px
 
 

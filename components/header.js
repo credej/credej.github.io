@@ -151,10 +151,9 @@ class Header extends HTMLElement {
             </a>
          </button>
       </div>
-
-      <div class="footer-construction">
+      <!-- <div class="footer-construction">
          <p>Site Under Construction!</p>
-      </div>
+      </div> -->
 
     `
   }
