@@ -58,12 +58,3 @@ body.dark-mode .project-tag {
   background-color: var(--color-cyber-bg);
   color: var(--color-grey-3);
 }
-
-@media screen and (min-width: 201px) and (max-width: 755px) {
-  .navbar-menu i {
-    color: var(--color-blue-light);
-  }
-  .navbar-menu i:active {
-    opacity: 0.9;
-  }
-}

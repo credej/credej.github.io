@@ -235,7 +235,7 @@ body.dark-mode .bg-glass-black {
 }
 
 .border-white {
-  border: 2px solid #ececec;
+  border: 1px solid #ececec;
   border-image: linear-gradient(to bottom, #5456F7 0%, #ececec 40%, #5456F7 100%) 1;
 }
 

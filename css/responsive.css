@@ -3,16 +3,12 @@
     display: none !important;
   }
 }
-@media screen and (min-width: 201px) and (max-width: 500px) {
-  .navbar-logo h1 {
-    font-size: 1.15rem !important;
-    font-weight: 700;
-    letter-spacing: -0.05rem;
-  }
-}
-@media screen and (min-width: 201px) and (max-width: 755px) {
+@media screen and (min-width: 201px) and (max-width: 768px) {
   .back-to-top-desktop {
     display: none;
+  }
+  .badges {
+    margin: 144px 0 !important;
   }
   .badge {
     height: auto !important;
@@ -92,8 +88,14 @@
     padding: 0 8.5vw;
     overflow: hidden;
   }
+  #navbar,
+  .site-main {
+    padding: 0 7.5vw;
+  }
   .navbar-logo h1 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.05rem;
   }
   .navbar-menu i {
     font-size: 1.6rem !important;
@@ -125,6 +127,7 @@
   }
   .page-header-excerpt {
     background: none !important;
+    border-radius: 0 0 0.75rem 0.75rem;
   }
   .page-header-excerpt p {
     font-size: var(--font-s);
@@ -138,6 +141,9 @@
   .page-header-image,
   .page-header-excerpt {
     flex-basis: 100%;
+  }
+  .page-header-image img {
+    border-radius: 0.75rem 0.75rem 0 0;
   }
   .page-header-title {
     justify-content: flex-start;
@@ -177,7 +183,7 @@
     font-size: var(--font-s);
   }
   .project-links {
-    padding: 36px 0;
+    padding: 24px 0;
   }
   .project-links a {
     font-size: var(--font-l);
@@ -193,18 +199,18 @@
     line-height: 1.6rem;
   }
   .project-section {
-    padding: 48px;
+    padding: 72px;
   }
   .project-section-desc p {
     font-size: var(--font-m);
     line-height: 1.4rem;
     text-align: center;
   }
-  .project-section-title {
-    text-align: center;
-  }
   .project-section-title h4 {
     text-align: center;
+  }
+  .project-tags {
+    font-size: var(--font-xxxs);
   }
   .project-tag {
     font-size: var(--font-m);
@@ -228,63 +234,17 @@
   .project-title h1:after {
     display: none;
   }
-  .site {
-    margin-top: 96px;
-  }
   .section-header {
     text-align: center;
+  }
+  .site {
+    margin-top: 96px;
   }
   .stat {
     margin: 48px 0;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 755px) {
-  .badges {
-    margin: 144px 0 !important;
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxl);
-  }
-  #navbar,
-  .site-main {
-    padding: 0 7.5vw;
-  }
-  .page-header-image img {
-    border-radius: 0.75rem 0.75rem 0 0;
-  }
-  .page-header-excerpt {
-    border-radius: 0 0 0.75rem 0.75rem;
-  }
-  .page-header-image,
-  .page-header-excerpt {
-    flex-basis: 100%;
-  }
-  .project-section {
-    padding: 72px;
-  }
-  .project-section-title h4 {
-    text-align: center;
-  }
-  .project-links {
-    padding: 24px 0;
-  }
-  .project-links a {
-    font-size: var(--font-l);
-    text-decoration-style: underline dotted !important;
-    -webkit-text-decoration: underline dotted !important;
-    text-shadow: var(--text-shadow-1);
-  }
-  .project-links a:active {
-    opacity: 0.9;
-  }
-  .project-tags {
-    font-size: var(--font-xxxs);
-  }
-  .project-title h1 {
-    font-size: var(--font-5xl);
-  }
-}
-@media screen and (min-width: 756px) and (max-width: 1079px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
@@ -378,7 +338,7 @@
     padding: 0 7.5vw !important;
   }
 }
-@media screen and (min-width: 1080px) and (max-width: 1365px) {
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
@@ -441,7 +401,7 @@
     margin: 144px 0 0;
   }
 }
-@media screen and (min-width: 1366px) and (max-width: 1979px) {
+@media screen and (min-width: 1367px) and (max-width: 1980px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
@@ -519,7 +479,7 @@
     flex-direction: row;
   }
 }
-@media (min-width: 1980px) and (max-width: 2559px) {
+@media screen and (min-width: 1981px) and (max-width: 2160px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
@@ -605,7 +565,11 @@
     flex-direction: row;
   }
 }
-@media (min-width: 2560px) {
+@media screen and (min-width: 2161px) {
+  #navbar,
+  .site-main {
+    padding: 0 25vw !important;
+  }
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
@@ -689,14 +653,5 @@
   }
   .stat-container {
     flex-direction: row;
-  }
-}
-@media (min-width: 3200px) {
-  #navbar,
-  .site-main {
-    padding: 0 25vw !important;
-  }
-  .project-title i {
-    font-size: var(--font-xxxl);
   }
 }

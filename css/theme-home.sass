@@ -67,7 +67,9 @@ body
   .category-excerpt
     color: var(--color-grey-1)
     font-family: "Yellowtail", monospace
+    font-family: "Courier Prime", monospace
     font-style: italic
+    line-height: 1.8rem
     margin: 0 0 10px
     text-shadow: var(--text-shadow-1)
 
@@ -107,7 +109,7 @@ body
           color: var(--color-yellow) !important
       .purple-hover
         h2
-          color: var(--color-purple) !important
+          color: #9697FF !important
     &:active
       opacity: 0.9 !important
 
@@ -254,15 +256,14 @@ body
 
   .stats
     flex: 1
-    margin: 120px 0 0 
     h1
-      color: var(--color-white)
+      color: var(--color-green)
       display: flex
       font-family: "Doto", serif
       justify-content: center
       font-size: var(--font-5xl) !important
       font-weight: 700
-      margin: 24px 0
+      margin: 0 0 24px
 
   .stat 
     background: var(--color-white)
@@ -291,7 +292,7 @@ body
       &:active
         opacity: 0.9
     h2 
-      color: var(--color-purple)
+      color: var(--color-green)
       margin-top: 0
       border-bottom: 1px solid rgba(105, 123, 237, 0.8)
       text-transform: uppercase
@@ -396,8 +397,6 @@ body.dark-mode
 
   .stats
     background-color: none
-    h1
-      padding: 0 24px
 
 
 
@@ -407,7 +406,7 @@ body.dark-mode
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 201px) and (max-width: 755px)
+@media screen and (min-width: 201px) and (max-width: 768px)
   body
     .category
       border: none
@@ -418,9 +417,8 @@ body.dark-mode
     .category-excerpt
       text-align: center
       p
-        font-size: var(--font-m)
+        font-size: var(--font-l)
         letter-spacing: -0.1rem
-        line-height: 1.6rem
       a
         font-size: var(--font-l)
     
@@ -430,7 +428,7 @@ body.dark-mode
       a
         display: block
         font-family: "Courier Prime", monospace
-        font-size: var(--font-xl)
+        font-size: var(--font-xxl)
         line-height: 1.6rem
         opacity: 1 
         padding: 12px 0
@@ -556,10 +554,8 @@ body.dark-mode
     .site-main
       padding: 120px 0 0 
 
-    .stat-number
-      font-size: var(--font-7xl) !important
-      span
-        font-size: var(--font-xxl) !important
+    .stat
+      padding: 48px !important
 
     .stats
       h1
@@ -573,20 +569,12 @@ body.dark-mode
     .stat-container
       flex-direction: column !important
 
-@media screen and (min-width: 540px) and (max-width: 755px)
+    .stat-number
+      font-size: var(--font-7xl) !important
+      span
+        font-size: var(--font-xxl) !important
 
-  .category-links
-    a
-      font-size: var(--font-l)
-
-  .category-sub-title
-    h2
-      font-size: var(--font-xxxl)
-
-  .category-title h1
-    font-size: var(--font-6xl)
-
-@media screen and (min-width: 756px) and (max-width: 1079px)
+@media screen and (min-width: 769px) and (max-width: 1024px)
   
   body
 
@@ -627,6 +615,7 @@ body.dark-mode
     .category-sub
       filter: grayscale(0)
       opacity: 1.0
+      padding: 96px 0 !important
 
     .category-sub-excerpt
       text-align: center
@@ -661,10 +650,13 @@ body.dark-mode
         font-size: var(--font-xxl)
         line-height: 2.4rem
 
+    .stat
+      padding: 48px 96px !important
+
     .stat-container
       flex-direction: column !important
 
-@media screen and (min-width: 1080px) and (max-width: 1365px)
+@media screen and (min-width: 1025px) and (max-width: 1366px)
 
   .category
     margin: 48px 0
@@ -703,7 +695,7 @@ body.dark-mode
 
   .category-sub-title
     h2
-      font-size: var(--font-xxxl) !important 
+      font-size: var(--font-5xl) !important 
 
   .category-title 
     h1
@@ -720,12 +712,15 @@ body.dark-mode
     p
       font-size: var(--font-xl)
 
+  .stat
+    padding: 48px !important
+
   .stat-container
     flex-direction: column !important
 
 /* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
 
-@media screen and (min-width: 1366px) and (max-width: 1979px)
+@media screen and (min-width: 1367px) and (max-width: 1980px)
 
   body
 
@@ -749,7 +744,7 @@ body.dark-mode
 
     .category-sub-title
       h2
-        font-size: var(--font-xxxl) !important
+        font-size: var(--font-5xl) !important
         line-height: 3rem 
 
     .category-title
@@ -769,8 +764,10 @@ body.dark-mode
     .intro-icons
       i
         font-size: var(--font-xxxl)
+    .stat
+      padding: 36px
 
-@media screen and (min-width: 1980px) and (max-width: 2559px)
+@media screen and (min-width: 1981px) and (max-width: 2160px)
 
   .category
     margin: 72px 0
@@ -793,7 +790,7 @@ body.dark-mode
 
   .category-sub-title
     h2
-      font-size: var(--font-5xl) !important
+      font-size: var(--font-7xl) !important
 
   .category-title 
     i
@@ -819,8 +816,7 @@ body.dark-mode
   .site-main
     padding: 0 12vw
 
-
-@media screen and (min-width: 2560px)
+@media screen and (min-width: 2161px)
 
   .category
     margin: 72px 0
