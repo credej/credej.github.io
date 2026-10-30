@@ -178,3 +178,63 @@ body.dark-mode .project-title h1 {
 body.dark-mode .project-title i {
   color: var(--color-cybergrad-blue-light);
 }
+
+@media screen and (min-width: 201px) and (max-width: 768px) {
+  .badges {
+    margin: 144px 0 !important;
+  }
+  .badge {
+    height: auto !important;
+    padding: 48px 0;
+  }
+  .badge h3 {
+    font-size: var(--font-xxxl);
+  }
+  .badge p {
+    font-size: var(--font-l);
+  }
+  .badges-container {
+    padding: 12px 36px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .badge h3 {
+    font-size: var(--font-xxxxl);
+  }
+  .badge p {
+    font-size: var(--font-xl);
+    padding: 0 48px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .badge h3 {
+    font-size: var(--font-xxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
+}
+@media screen and (min-width: 1367px) and (max-width: 1980px) {
+  .badge h3 {
+    font-size: var(--font-xxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
+}
+@media screen and (min-width: 1981px) and (max-width: 2160px) {
+  .badge h3 {
+    font-size: var(--font-xxxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
+}
+@media screen and (min-width: 2161px) {
+  .badge h3 {
+    font-size: var(--font-xxxl);
+  }
+  .badge p {
+    font-size: var(--font-m);
+  }
+}

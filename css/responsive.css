@@ -7,38 +7,6 @@
   .back-to-top-desktop {
     display: none;
   }
-  .badges {
-    margin: 144px 0 !important;
-  }
-  .badge {
-    height: auto !important;
-    padding: 48px 0;
-  }
-  .badge h3 {
-    font-size: var(--font-xxxl);
-  }
-  .badge p {
-    font-size: var(--font-l);
-  }
-  .badges-container {
-    padding: 12px 36px;
-  }
-  .bookmark {
-    padding: 0 !important;
-  }
-  .bookmark-glossary {
-    justify-content: center;
-    padding: 0 0 96px !important;
-  }
-  .bookmark-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxl);
-  }
   .footer {
     padding: 24px 48px 0;
   }
@@ -248,16 +216,6 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .badge h3 {
-    font-size: var(--font-xxxxl);
-  }
-  .badge p {
-    font-size: var(--font-xl);
-    padding: 0 48px;
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxl);
-  }
   .hide-mobile {
     display: none;
   }
@@ -342,15 +300,6 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .badge h3 {
-    font-size: var(--font-xxl);
-  }
-  .badge p {
-    font-size: var(--font-m);
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxl);
-  }
   .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-xl) !important;
@@ -404,18 +353,6 @@
 @media screen and (min-width: 1367px) and (max-width: 1980px) {
   a > .blue > :first-child {
     padding: 0 12px 0 0;
-  }
-  .badge h3 {
-    font-size: var(--font-xxl);
-  }
-  .badge p {
-    font-size: var(--font-m);
-  }
-  .bookmark-glossary a {
-    font-size: var(--font-l);
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxl);
   }
   .header-simple-title h1 {
     font-size: var(--font-9xl);
@@ -483,28 +420,11 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .badge h3 {
-    font-size: var(--font-xxxl);
-  }
-  .badge p {
-    font-size: var(--font-m);
-  }
-  .bookmark a {
-    font-size: var(--font-xxl);
-    line-height: 1.6rem;
-  }
-  .bookmark-glossary a {
-    font-size: var(--font-xl);
-    padding: 12px 24px;
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxl);
-  }
-  .bookmark-section li {
-    line-height: 1.4rem;
-  }
   .header-simple-title h1 {
     font-size: var(--font-9xl);
+  }
+  #navbar {
+    padding: 0 12vw;
   }
   .navbar-menu-category-title h2 {
     color: #fff;
@@ -553,12 +473,9 @@
   .project-title i {
     font-size: var(--font-xxxl);
   }
-  #navbar,
-  .site-main {
-    padding: 0 12vw;
-  }
   .site-main {
     margin: 144px 0 0;
+    padding: 0 12vw;
     width: 100% !important;
   }
   .stat-container {
@@ -573,28 +490,11 @@
   a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .badge h3 {
-    font-size: var(--font-xxxl);
-  }
-  .badge p {
-    font-size: var(--font-m);
-  }
-  .bookmark a {
-    font-size: var(--font-xxl);
-    line-height: 1.6rem;
-  }
-  .bookmark-glossary a {
-    font-size: var(--font-xl);
-    padding: 12px 24px;
-  }
-  .bookmark-section h2 {
-    font-size: var(--font-xxxl);
-  }
-  .bookmark-section li {
-    line-height: 1.4rem;
-  }
   .header-simple-title h1 {
     font-size: var(--font-9xl);
+  }
+  #navbar {
+    padding: 0 15vw;
   }
   .navbar-menu-category-title h2 {
     color: #fff;
@@ -643,12 +543,9 @@
   .project-title i {
     font-size: var(--font-xxxl);
   }
-  #navbar,
-  .site-main {
-    padding: 0 15vw;
-  }
   .site-main {
     margin: 144px 0 0;
+    padding: 0 15vw;
     width: 100% !important;
   }
   .stat-container {

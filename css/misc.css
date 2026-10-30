@@ -1,5 +1,12 @@
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
+/* MEDIA QUERY WIDTH TEMPLATE */
+@media screen and (min-width: 201px) and (max-width: 768px)
+@media screen and (min-width: 769px) and (max-width: 1024px)
+@media screen and (min-width: 1025px) and (max-width: 1366px)
+@media screen and (min-width: 1367px) and (max-width: 1980px)
+@media screen and (min-width: 1981px) and (max-width: 2160px)
+@media screen and (min-width: 2161px)
 
 /*background: conic-gradient(from 45deg, #a5c8e4 0.000deg, #697BED 30.000deg, #6DFF9A 60.000deg, #a67451 90.000deg, #655cd0 120.000deg, #604b5e 150.000deg, #9c44c2 180.000deg, #FF345E 210.000deg, #e4ad47 240.000deg, #F97143 270.000deg, #6a80a1 300.000deg, #5d9d90 330.000deg, #a5c8e4 360.000deg)*/
 

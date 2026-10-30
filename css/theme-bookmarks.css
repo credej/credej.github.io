@@ -165,3 +165,72 @@ body.dark-mode .header-simple-title i {
 body.dark-mode .header-simple-title .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }
+
+@media screen and (min-width: 201px) and (max-width: 768px) {
+  .bookmark {
+    padding: 0 !important;
+  }
+  .bookmark-glossary {
+    justify-content: center;
+    padding: 0 0 96px !important;
+  }
+  .bookmark-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .bookmark-section h2 {
+    font-size: var(--font-xxl);
+  }
+}
+@media screen and (min-width: 1367px) and (max-width: 1980px) {
+  .bookmark-glossary a {
+    font-size: var(--font-l);
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxl);
+  }
+}
+@media screen and (min-width: 1981px) and (max-width: 2160px) {
+  .bookmark a {
+    font-size: var(--font-xxl);
+    line-height: 1.6rem;
+  }
+  .bookmark-glossary a {
+    font-size: var(--font-xl);
+    padding: 12px 24px;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
+  .bookmark-section li {
+    line-height: 1.4rem;
+  }
+}
+@media screen and (min-width: 2161px) {
+  .bookmark a {
+    font-size: var(--font-xxl);
+    line-height: 1.6rem;
+  }
+  .bookmark-glossary a {
+    font-size: var(--font-xl);
+    padding: 12px 24px;
+  }
+  .bookmark-section h2 {
+    font-size: var(--font-xxxl);
+  }
+  .bookmark-section li {
+    line-height: 1.4rem;
+  }
+}
