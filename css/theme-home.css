@@ -1,4 +1,8 @@
 /* figure out why this breaks layout if placed anywhere else */
+.bg-circles {
+  background-image: radial-gradient(circle at -229% -377%, rgba(0, 0, 0, 0.0431372549) 55%, transparent 67.05%), radial-gradient(circle at -37% -54%, rgba(0, 0, 0, 0.0274509804) 59%, transparent 59.05%), radial-gradient(circle at -6% 48%, rgba(0, 0, 0, 0.0196078431) 51%, transparent 51.05%), linear-gradient(-11deg, rgba(0, 0, 0, 0.0666666667) 56%, transparent 56.05%) !important;
+}
+
 .category-sub {
   font-size: var(--font-xxl);
   opacity: 0.71;
@@ -34,14 +38,12 @@ body {
   background-color: #5456F7;
 }
 body .category {
-  background-image: radial-gradient(circle at -229% -377%, rgba(0, 0, 0, 0.0431372549) 55%, transparent 67.05%), radial-gradient(circle at -37% -54%, rgba(0, 0, 0, 0.0274509804) 59%, transparent 59.05%), radial-gradient(circle at -6% 48%, rgba(0, 0, 0, 0.0196078431) 51%, transparent 51.05%), linear-gradient(-11deg, rgba(0, 0, 0, 0.0666666667) 56%, transparent 56.05%);
   border-radius: 12px;
   box-shadow: var(--box-shadow-3);
   font-family: "Yellowtail", monospace;
   font-size: var(--font-m);
 }
 body .category a {
-  color: var(--color-white);
   font-size: var(--font-xl);
   font-weight: 900;
   overflow-wrap: break-word;
@@ -98,6 +100,9 @@ body .category-links a:active {
 body .category-links span {
   opacity: 0.4;
   padding: 0 8px;
+}
+body .category-links i {
+  font-size: var(--font-l);
 }
 body .category-sub {
   opacity: 0.71 !important;
@@ -794,8 +799,11 @@ body.dark-mode .stats {
     margin: 72px 0;
     padding: 80px 120px;
   }
+  .category a {
+    font-size: var(--font-xxxl) !important;
+  }
   .category-excerpt p {
-    font-size: var(--font-xl);
+    font-size: var(--font-xxl);
     margin-top: -8px;
   }
   .category-links {
@@ -838,7 +846,7 @@ body.dark-mode .stats {
 @media screen and (min-width: 2161px) {
   .category {
     margin: 72px 0;
-    padding: 120px 160px;
+    padding: 120px;
   }
   .category-excerpt p {
     font-size: var(--font-xl);

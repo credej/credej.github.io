@@ -90,7 +90,7 @@
 }
 
 .bg-glass-green {
-  background: rgba(109, 255, 154, 0.35);
+  background: rgba(109, 255, 154, 0.55);
 }
 
 .bg-glass-red {
@@ -110,7 +110,7 @@
 }
 
 .bg-glass-white {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .bg-glass-black {
