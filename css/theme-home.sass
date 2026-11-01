@@ -75,7 +75,12 @@ body
     text-shadow: var(--text-shadow-1)
 
   .category-links
-    line-height: 2rem
+    align-items: center
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: flex-start
+    line-height: 2.4rem
     a
       font-size: var(--font-l)
       font-style: italic
@@ -89,7 +94,9 @@ body
       opacity: 0.4
       padding: 0 8px
     i
-      font-size: var(--font-l)
+      color: var(--color-grey-5)
+      font-size: var(--font-xl)
+      margin-right: 12px
 
   .category-sub
     opacity: 0.71 !important
@@ -429,6 +436,7 @@ body.dark-mode
     .category-links
       padding: 24px 0 
       text-align: center
+      justify-content: center
       a
         display: block
         font-family: "Courier Prime", monospace
@@ -595,6 +603,7 @@ body.dark-mode
         text-align: center 
 
     .category-links
+      justify-content: center
       line-height: 2.4rem
       text-indent: 0
       text-align: center
@@ -603,8 +612,6 @@ body.dark-mode
         display: block
         opacity: 1 
         padding: 4px 0
-      .category-links-slash
-        display: none
 
     .category-links,
     .category-title,
@@ -748,12 +755,12 @@ body.dark-mode
 
     .category-sub-title
       h2
-        font-size: var(--font-5xl) !important
+        font-size: var(--font-xxxxl) !important
         line-height: 3rem 
 
     .category-title
       h1
-        font-size: var(--font-9xl)  
+        font-size: var(--font-8xl)  
       i
         font-size: var(--font-xxxxl) 
         padding: 0 24px 4px 0
@@ -823,45 +830,46 @@ body.dark-mode
     padding: 0 12vw
 
 @media screen and (min-width: 2161px)
+  body
+    .category
+      margin: 72px 0
+      padding: 120px
 
-  .category
-    margin: 72px 0
-    padding: 120px
+    .category-excerpt
+      p
+        font-size: var(--font-xl)
+        margin-top: -8px
 
-  .category-excerpt
-    p
-      font-size: var(--font-xl)
-      margin-top: -8px
+    .category-links
+      line-height: 2.8rem
+      padding: 8px 0 48px
+      a
+        font-size: var(--font-xxl)
 
-  .category-links
-    padding: 8px 0 48px
-    a
-      font-size: var(--font-xxl) !important
+    .category-sub-title
+      h2
+        font-size: var(--font-5xl) 
 
-  .category-sub-title
-    h2
-      font-size: var(--font-5xl) !important
+    .category-title 
+      i
+        font-size: var(--font-xxxxl) 
+        padding: 0 24px 4px 0
+      h1
+        font-size: var(--font-10xl) 
 
-  .category-title 
-    i
-      font-size: var(--font-xxxxl) 
-      padding: 0 24px 4px 0
-    h1
-      font-size: var(--font-10xl) 
+    .intro
+      text-align: justify
+      p
+        font-size: var(--font-xl)
 
-  .intro
-    text-align: justify
-    p
-      font-size: var(--font-xl)
+    .intro-icons 
+      i
+        font-size: var(--font-xxxl) !important
 
-  .intro-icons 
-    i
-      font-size: var(--font-xxxl) !important
+    .intro-text
+      p
+        font-size: var(--font-xxl) !important
+        line-height: 2.4rem !important
 
-  .intro-text
-    p
-      font-size: var(--font-xxl) !important
-      line-height: 2.4rem !important
-
-  .site-main
-    padding: 0 15vw
+    .site-main
+      padding: 0 15vw

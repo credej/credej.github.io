@@ -83,7 +83,12 @@ body .category-excerpt {
   text-shadow: var(--text-shadow-1);
 }
 body .category-links {
-  line-height: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  line-height: 2.4rem;
 }
 body .category-links a {
   font-size: var(--font-l);
@@ -102,7 +107,9 @@ body .category-links span {
   padding: 0 8px;
 }
 body .category-links i {
-  font-size: var(--font-l);
+  color: var(--color-grey-5);
+  font-size: var(--font-xl);
+  margin-right: 12px;
 }
 body .category-sub {
   opacity: 0.71 !important;
@@ -456,6 +463,7 @@ body.dark-mode .stats {
   body .category-links {
     padding: 24px 0;
     text-align: center;
+    justify-content: center;
   }
   body .category-links a {
     display: block;
@@ -617,6 +625,7 @@ body.dark-mode .stats {
     text-align: center;
   }
   body .category-links {
+    justify-content: center;
     line-height: 2.4rem;
     text-indent: 0;
     text-align: center;
@@ -626,9 +635,6 @@ body.dark-mode .stats {
     display: block;
     opacity: 1;
     padding: 4px 0;
-  }
-  body .category-links .category-links-slash {
-    display: none;
   }
   body .category-links,
   body .category-title,
@@ -768,11 +774,11 @@ body.dark-mode .stats {
     font-size: var(--font-xxxl);
   }
   body .category-sub-title h2 {
-    font-size: var(--font-5xl) !important;
+    font-size: var(--font-xxxxl) !important;
     line-height: 3rem;
   }
   body .category-title h1 {
-    font-size: var(--font-9xl);
+    font-size: var(--font-8xl);
   }
   body .category-title i {
     font-size: var(--font-xxxxl);
@@ -844,44 +850,45 @@ body.dark-mode .stats {
   }
 }
 @media screen and (min-width: 2161px) {
-  .category {
+  body .category {
     margin: 72px 0;
     padding: 120px;
   }
-  .category-excerpt p {
+  body .category-excerpt p {
     font-size: var(--font-xl);
     margin-top: -8px;
   }
-  .category-links {
+  body .category-links {
+    line-height: 2.8rem;
     padding: 8px 0 48px;
   }
-  .category-links a {
-    font-size: var(--font-xxl) !important;
+  body .category-links a {
+    font-size: var(--font-xxl);
   }
-  .category-sub-title h2 {
-    font-size: var(--font-5xl) !important;
+  body .category-sub-title h2 {
+    font-size: var(--font-5xl);
   }
-  .category-title i {
+  body .category-title i {
     font-size: var(--font-xxxxl);
     padding: 0 24px 4px 0;
   }
-  .category-title h1 {
+  body .category-title h1 {
     font-size: var(--font-10xl);
   }
-  .intro {
+  body .intro {
     text-align: justify;
   }
-  .intro p {
+  body .intro p {
     font-size: var(--font-xl);
   }
-  .intro-icons i {
+  body .intro-icons i {
     font-size: var(--font-xxxl) !important;
   }
-  .intro-text p {
+  body .intro-text p {
     font-size: var(--font-xxl) !important;
     line-height: 2.4rem !important;
   }
-  .site-main {
+  body .site-main {
     padding: 0 15vw;
   }
 }
