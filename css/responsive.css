@@ -390,13 +390,6 @@
   .project-section-title h3 {
     font-size: var(--font-xxxl);
   }
-  .project-subtitle {
-    font-size: var(--font-l);
-  }
-  .project-subtitle h2 {
-    margin: 0;
-    padding: 12px 0;
-  }
   .project-tags {
     margin: 8px 0;
   }
@@ -453,13 +446,6 @@
   }
   .project-section-title h3 {
     font-size: var(--font-xxxxl);
-  }
-  .project-subtitle {
-    font-size: var(--font-xl);
-  }
-  .project-subtitle h2 {
-    margin: 0;
-    padding: 12px 0;
   }
   .project-tags {
     margin: 8px 0;
@@ -519,13 +505,6 @@
   }
   .project-section-title h3 {
     font-size: var(--font-xxxxl);
-  }
-  .project-subtitle {
-    font-size: var(--font-xl);
-  }
-  .project-subtitle h2 {
-    margin: 0;
-    padding: 12px 0;
   }
   .project-tags {
     margin: 8px 0;

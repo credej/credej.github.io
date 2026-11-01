@@ -96,6 +96,7 @@ body .category-links a {
   opacity: 0.6;
 }
 body .category-links a:hover {
+  animation: blinker 1s linear infinite;
   opacity: 1;
   text-decoration: underline;
 }
@@ -112,10 +113,13 @@ body .category-links i {
   margin-right: 12px;
 }
 body .category-sub {
-  opacity: 0.71 !important;
+  opacity: 0.71;
+  filter: grayscale(0.25);
 }
 body .category-sub:hover {
-  opacity: 1 !important;
+  animation: blinker 1s linear infinite;
+  filter: grayscale(0);
+  opacity: 1;
 }
 body .category-sub:hover .blue-hover h2 {
   color: var(--color-blue-2) !important;
@@ -202,13 +206,6 @@ body .intro-icons {
 body .intro-icons h1 {
   font-size: var(--font-xl);
   padding: 0;
-}
-body .intro-icons h1:after {
-  animation: blink-animation 0.9s infinite;
-  -webkit-animation: blink-animation 0.9s infinite;
-  -moz-animation: blink-animation 0.9s infinite;
-  -o-animation: blink-animation 0.9s infinite;
-  content: "_";
 }
 body .intro-icons span {
   font-family: "Yellowtail", monospace;
@@ -863,7 +860,7 @@ body.dark-mode .stats {
     padding: 8px 0 48px;
   }
   body .category-links a {
-    font-size: var(--font-xxl);
+    font-size: var(--font-xxxl);
   }
   body .category-sub-title h2 {
     font-size: var(--font-5xl);

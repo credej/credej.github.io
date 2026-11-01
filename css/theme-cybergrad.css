@@ -1,6 +1,6 @@
 /* LIGHT */
 body {
-  background-color: var(--color-cybergrad-blue-light);
+  background-color: #0ED7B8;
 }
 body .badges {
   margin: 96px 0;
@@ -81,38 +81,37 @@ body .project-header {
 }
 body .project-links a {
   color: #fff;
-  text-shadow: var(--text-shadow-2);
+  color: #7EF9E5;
+  font-size: var(--font-xxxl);
+  text-shadow: var(--text-shadow-3);
 }
 body .project-overview p {
-  color: var(--color-grey-2);
+  color: var(--color-grey-5);
 }
 body .project-section {
-  background-color: #7EF9E5;
+  background-color: var(--color-cybergrad-blue);
 }
 body .project-section p {
   color: var(--color-grey-2);
 }
 body .project-section-title h1 {
-  color: var(--color-cybergrad-blue-light);
+  color: var(--color-white);
   font-weight: 900;
   text-shadow: var(--text-shadow-3);
 }
 body .project-section-title h2 {
   color: var(--color-grey-1);
 }
-body .project-subtitle h2 {
-  color: var(--color-grey-2);
-}
 body .project-tag {
-  background-color: #AEF4E9;
-  color: var(--color-grey-3);
+  background-color: var(--color-cybergrad-blue);
+  color: #0ED7B8;
 }
 body .project-title h1 {
   color: var(--color-white);
   text-shadow: var(--text-shadow-1);
 }
 body .project-title i {
-  color: var(--color-cybergrad-blue-light);
+  color: var(--color-grey-3);
 }
 
 /* DARK */
@@ -163,7 +162,7 @@ body.dark-mode .project-section-desc a {
   color: var(--color-grey-1);
 }
 body.dark-mode .project-section-title h1 {
-  color: var(--color-grey-1);
+  color: var(--color-blue-2);
 }
 body.dark-mode .project-tag {
   background-color: var(--color-cyber-bg);

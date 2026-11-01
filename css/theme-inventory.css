@@ -65,10 +65,6 @@ body .project-links a {
 body .project-links a:hover {
   color: var(--color-white);
 }
-body .project-subtitle {
-  color: #fff;
-  text-shadow: var(--text-shadow-3);
-}
 body .project-title i {
   color: var(--color-blue-light);
 }
@@ -87,9 +83,6 @@ body.dark-mode .project-section-desc a {
 body.dark-mode .project-section-desc,
 body.dark-mode .project-section p {
   color: var(--color-blue-light);
-}
-body.dark-mode .project-subtitle {
-  color: var(--color-grey-1);
 }
 body.dark-mode .project-links a {
   color: var(--color-blue-light);

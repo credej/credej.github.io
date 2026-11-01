@@ -1,5 +1,20 @@
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
 
+
+
+/* FULL WIDTH SPACER LINE */
+.line-full-width
+  width: 100vw
+  position: relative
+  left: 50%
+  right: 50%
+  margin-left: -50vw
+  margin-right: -50vw
+  border: none
+  border-top: 1px solid #ccc
+
+
+
 /* MEDIA QUERY WIDTH TEMPLATE */
 @media screen and (min-width: 201px) and (max-width: 768px)
 @media screen and (min-width: 769px) and (max-width: 1024px)

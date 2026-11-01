@@ -116,23 +116,22 @@ p, h1, h2, h3, h4, h5 {
   opacity: 0.7;
 }
 
-.line-full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
 .footer-quick-links {
   padding: 8px 0 !important;
 }
+.footer-quick-links a {
+  font-weight: 900 !important;
+  font-size: var(--font-xl);
+  opacity: 0.7;
+}
+.footer-quick-links a:hover {
+  opacity: 1;
+}
+.footer-quick-links i {
+  text-decoration: underline;
+}
 
 .footer {
-  border-top: 2px solid var(--color-grey-5);
   margin: 120px 0 24px;
 }
 
@@ -206,7 +205,6 @@ p, h1, h2, h3, h4, h5 {
 .img-gallery img {
   max-height: 100%;
   min-width: 100%;
-  margin: 36px 0;
   width: 100%;
 }
 
@@ -579,10 +577,8 @@ p, h1, h2, h3, h4, h5 {
 
 /* this should be .project-section-subtitle */
 .project-section-title h1 {
-  color: var(--color-white);
   font-family: "Alfa Slab One", serif;
-  font-family: "JetBrains Mono", monospace;
-  font-size: var(--font-xxxxl) !important;
+  font-size: var(--font-5xl) !important;
   font-weight: 500 !important;
   letter-spacing: 0.5rem;
   line-height: 2.4rem;
@@ -626,12 +622,14 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .project-title {
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .project-title i {
   font-size: var(--font-xxl);
-  margin: 0 24px 6px 0;
+  margin: 0 16px 6px 0;
 }
 .project-title h1 {
   font-family: "Courier Prime", monospace;
@@ -644,6 +642,13 @@ p, h1, h2, h3, h4, h5 {
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+}
+
+.project-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-header {

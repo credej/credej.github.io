@@ -1909,13 +1909,13 @@
     },
     "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-lg.jpg" : {
       "ft" : 16384,
-      "iS" : 317467,
+      "iS" : 190253,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/pages\/design\/graphicsweb\/img\/graphicsweb-banner-lg.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

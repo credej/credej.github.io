@@ -86,6 +86,7 @@ body
       font-style: italic
       opacity: 0.6
       &:hover
+        animation: blinker 1s linear infinite
         opacity: 1
         text-decoration: underline
       &:active 
@@ -99,9 +100,12 @@ body
       margin-right: 12px
 
   .category-sub
-    opacity: 0.71 !important
+    opacity: 0.71 
+    filter: grayscale(0.25)
     &:hover
-      opacity: 1 !important
+      animation: blinker 1s linear infinite
+      filter: grayscale(0)
+      opacity: 1
       .blue-hover
         h2
           color: var(--color-blue-2) !important
@@ -184,12 +188,6 @@ body
     h1
       font-size: var(--font-xl)
       padding: 0
-      &:after
-        animation: blink-animation .9s infinite
-        -webkit-animation: blink-animation .9s infinite
-        -moz-animation: blink-animation .9s infinite
-        -o-animation: blink-animation .9s infinite
-        content: "_"    
     span
       font-family: "Yellowtail", monospace
       padding: 0 8px
@@ -844,7 +842,7 @@ body.dark-mode
       line-height: 2.8rem
       padding: 8px 0 48px
       a
-        font-size: var(--font-xxl)
+        font-size: var(--font-xxxl)
 
     .category-sub-title
       h2

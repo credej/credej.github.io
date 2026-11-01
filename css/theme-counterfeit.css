@@ -50,10 +50,6 @@ body .project-section p {
 body .project-section-desc {
   color: var(--color-grey-1);
 }
-body .project-subtitle h2 {
-  color: #6595CC;
-  text-shadow: var(--text-shadow-1);
-}
 body .project-tag {
   background-color: #6595CC;
   color: var(--color-blue-dtek);
@@ -82,9 +78,6 @@ body.dark-mode .project-overview p {
 }
 body.dark-mode .project-tag {
   background-color: var(--color-grey-5);
-  color: var(--color-grey-3);
-}
-body.dark-mode .project-subtitle h2 {
   color: var(--color-grey-3);
 }
 body.dark-mode .project-title h1 {
