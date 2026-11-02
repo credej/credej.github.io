@@ -9,9 +9,6 @@ p {
   font-size: var(--font-m);
 }
 
-body {
-  display: flex;
-}
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -578,11 +575,15 @@ p, h1, h2, h3, h4, h5 {
 /* this should be .project-section-subtitle */
 .project-section-title h1 {
   font-family: "Alfa Slab One", serif;
-  font-size: var(--font-5xl) !important;
+  font-size: var(--font-5xl);
   font-weight: 500 !important;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   letter-spacing: 0.5rem;
   line-height: 2.4rem;
   text-transform: capitalize;
+  word-break: break-word;
 }
 .project-section-title h2 {
   color: var(--color-grey-3);

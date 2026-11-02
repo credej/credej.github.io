@@ -82,7 +82,6 @@ body .project-header {
 body .project-links a {
   color: #fff;
   color: #7EF9E5;
-  font-size: var(--font-xxxl);
   text-shadow: var(--text-shadow-3);
 }
 body .project-overview p {
