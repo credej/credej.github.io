@@ -1,6 +1,11 @@
 /* UNUSED BUT POTENTIALLY NEEDED LATER */
-
-
+.bg-gradient-blue {
+  background: hsla(207, 70%, 70%, 1);
+  background: linear-gradient(180deg, hsla(207, 70%, 70%, 1) 0%, hsla(212, 67%, 36%, 1) 100%);
+  background: -moz-linear-gradient(180deg, hsla(207, 70%, 70%, 1) 0%, hsla(212, 67%, 36%, 1) 100%);
+  background: -webkit-linear-gradient(180deg, hsla(207, 70%, 70%, 1) 0%, hsla(212, 67%, 36%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7CB8E8", endColorstr="#1E5799", GradientType=1 );
+}
 
 /* FULL WIDTH SPACER LINE */
 .line-full-width

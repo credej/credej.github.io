@@ -202,6 +202,7 @@ body.dark-mode .bg-glass-black {
   background: #5433FF;
   background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
   background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+  background: linear-gradient(180deg, rgb(124, 184, 231) 35%, rgb(60, 148, 218) 57%, rgb(39, 129, 206) 69%, rgb(33, 104, 174) 83%, rgb(30, 87, 153) 91%, rgb(30, 87, 150) 95%);
 }
 
 .border-blue {

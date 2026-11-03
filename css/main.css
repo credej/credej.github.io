@@ -517,9 +517,6 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-m);
   mix-blend-mode: normal;
 }
-.project-header a:hover {
-  animation: blinker 1s linear infinite;
-}
 .project-header h1 {
   color: white;
 }
@@ -528,7 +525,8 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-header h2 {
   color: var(--color-white);
-  margin: 8px 0;
+  font-size: var(--font-xl);
+  margin: 12px 0;
 }
 
 .project-links {
@@ -539,6 +537,9 @@ p, h1, h2, h3, h4, h5 {
 .project-links a {
   font-weight: 900;
   margin: 6px 0;
+}
+.project-links a:hover {
+  animation: blinker 1s linear infinite;
 }
 
 .project-overview {
@@ -573,23 +574,24 @@ p, h1, h2, h3, h4, h5 {
   font-family: "Courier Prime", monospace;
 }
 
-/* this should be .project-section-subtitle */
 .project-section-title h1 {
   font-family: "Alfa Slab One", serif;
+  font-family: "Courier Prime", monospace;
   font-size: var(--font-5xl);
-  font-weight: 500 !important;
+  font-weight: 900;
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  letter-spacing: 0.5rem;
   line-height: 2.4rem;
+  text-shadow: var(--text-shadow-5) !important;
+  text-transform: uppercase;
   text-transform: capitalize;
   word-break: break-word;
 }
 .project-section-title h2 {
   color: var(--color-grey-3);
   font-family: "JetBrains Mono", monospace;
-  padding: 12px 0;
+  padding: 8px 0;
 }
 .project-section-title p {
   color: var(--color-white);
@@ -644,6 +646,12 @@ p, h1, h2, h3, h4, h5 {
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+}
+.project-title h2 {
+  color: var(--color-grey-4);
+}
+.project-title h2 span {
+  opacity: 0.29;
 }
 
 .project-title-container {
@@ -758,8 +766,6 @@ p, h1, h2, h3, h4, h5 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   width: 100%;
-  max-width: 1200px;
-  padding: 30px;
 }
 @media screen and (max-width: 760px) {
   .l-container {
@@ -772,7 +778,13 @@ p, h1, h2, h3, h4, h5 {
   z-index: 1;
   width: 100%;
   padding-bottom: 150%;
-  perspective: 1000px;
+}
+.b-game-card p {
+  color: var(--color-grey-3);
+  font-size: var(--font-xl);
+  opacity: 0.29;
+  padding: 8px 16px;
+  display: none;
 }
 .b-game-card__cover {
   position: absolute;
