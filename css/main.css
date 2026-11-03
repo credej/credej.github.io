@@ -497,6 +497,10 @@ p, h1, h2, h3, h4, h5 {
   font-size: var(--font-5xl);
 }
 
+.page-section {
+  margin: 48px 0;
+}
+
 .page-title {
   display: flex;
   flex-direction: row;
@@ -552,9 +556,6 @@ p, h1, h2, h3, h4, h5 {
 }
 .project-section a {
   mix-blend-mode: normal !important;
-}
-.project-section a:hover {
-  animation: blinker 1s linear infinite;
 }
 .project-section .img {
   display: flex;
