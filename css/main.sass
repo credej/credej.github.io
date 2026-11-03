@@ -41,650 +41,15 @@ table
     width: 0 !important
     display: none
 
-/* FONTS & CURSOR */
 
-a
-  cursor: pointer !important
 
-.project-section,
-.project-title,
-.stat li,
-p, h1, h2, h3, h4, h5
-  cursor: default
 
-/* MAIN STYLES */
 
-.anchor
-  scroll-margin-top: 28px 
 
-/* BACK TO TOP BUTTON */
 
-.back-to-top
-  position: fixed
-  display: inline-flex
-  align-items: center
-  justify-content: center
-  width: 2.71rem
-  height: 2.71rem
-  border-radius: 50%
-  text-decoration: none
-  transition: transform 0.2s ease, background-color 0.2s ease
-  z-index: 9998
-
-.back-to-top-theme
-  bottom: 8.8rem
-  opacity: 0.5
-  left: 0.5rem
-  font-size: 1.2rem
-
-.back-to-top-arrow
-  // background-color: #000
-  bottom: 2.3rem
-  color: #fff
-  opacity: 0.3
-  left: 2rem
-  font-size: 1.8rem
-
-.back-to-top-home
-  // background-color: #000
-  bottom: 6.3rem
-  color: #fff
-  opacity: 0.3
-  left: 2rem
-  span
-    font-size: 1.8rem
-
-.back-to-top:active 
-  transform: translateY(-2px)
-  opacity: 0.7
-
-.footer-quick-links
-  padding: 8px 0 !important
-  a
-    font-weight: 900 !important
-    font-size: var(--font-xl)
-    opacity: 0.7
-    &:hover
-      opacity: 1
-  i
-    text-decoration: underline
-
-.footer
-  margin: 120px 0 24px
-
-.footer-categories
-  font-family: "Yellowtail", monospace
-  font-size: var(--font-m)
-  margin: 72px 0
-  padding: 72px
-  text-align: center
-
-.footer-caution
-  align-items: center
-  display: flex
-  justify-content: center
-  a
-    color: var(--color-orange)
-
-.footer-text-flashing
-  animation: blink-animation 0.87s infinite
-  -webkit-animation: blink-animation 0.87s infinite
-  padding: 0 24px
-
-.header-simple
-  padding: 172px 0 0
-  text-align: center
-
-.header-simple-excerpt
-  margin: 0 25vw
-  padding: 24px 0
-
-.header-simple-title
-  color: var(--color-grey-1)
-  font-size: var(--font-8xl)
-  i
-    font-size: var(--font-xxl)
-  h1
-    font-family: "Reddit Mono", monospace 
-    letter-spacing: 0.29rem
-    line-height: 3rem
-    text-shadow: var(--text-shadow-3)
-    text-transform: uppercase
-
-.img-fullsize
-  break-inside: avoid
-  figcaption
-    padding: 18px 0
-    text-align: center
-  p
-    margin: 24px 0 48px 
-
-.img-gallery
-  ul
-    display: flex
-    flex-wrap: wrap 
-  li
-    height: 100vh
-    flex-grow: 1
-  img
-    max-height: 100%
-    min-width: 100%
-    width: 100%
-
-.img-gallery-small
-  img
-    padding: 24px 0
-
-.img-gallery-full
-  color: var(--color-grey-5)
-  padding: 48px 0
-  font-family: "Reddit Mono", monospace
-  figcaption
-    font-size: var(--font-s)
-    padding: 16px 0 128px
-    text-align: center
-  img
-    box-shadow: 0 0 24px hsla(0, 0%, 0%, 0.2) 
-
-#info 
-  text-align: center
-  
-#info a 
-  color: #fff
-  text-transform: uppercase
-  position: fixed
-  bottom: 15px
-
-#navbar-menu
-  i
-    font-size: var(--font-xxxl)
-  // // styling for a text-based menu button
-  // p
-  //   cursor: pointer
-  //   filter: grayscale(0.5)
-  //   font-family: "Noto Color Emoji", sans-serif
-  //   font-weight: 400
-  //   font-size: var(--font-xxl)
-  //   font-style: normal
-  //   opacity: 0.7
-  //   &:hover
-  //     filter: grayscale(0.0)
-  //     opacity: 1
-  //   &:active
-  //     opacity: 0.9
-
-.navbar-menu-category
-  display: flex
-  flex: 1
-  flex-direction: column
-  justify-content: flex-start !important
-
-.navbar-menu-category-container
-  display: flex
-  align-items: flex-start
-  flex: 1
-  justify-content: center
-  text-align: center
-  padding: 96px 0 0
-
-.navbar-menu-category-title
-  display: flex
-  flex-direction: row
-  justify-content: center
-  align-items: center
-  padding: 4px 0
-  i
-    font-size: var(--font-xl)
-    padding: 0 14px 0 0 
-  h2
-    font-family: "Yellowtail", monospace
-    font-family: "Courier Prime", monospace
-    font-family: "JetBrains Mono", monospace !important
-    font-size: var(--font-l)
-    line-height: 1.1rem
-    text-align: center
-
-#navbar-menu-expanded
-  height: 100vh
-  -ms-overflow-style: none  /* IE and Edge */
-  scrollbar-width: none
-  z-index: 9999
-
-.navbar-menu-expanded
-  display: flex
-  overflow-y: auto
-  overflow-y: scroll
-  scrollbar-width: none
-  -ms-overflow-style: none 
-
-.navbar-menu-list
-  display: flex
-  flex-direction: column
-  padding: 12px 0
-  a 
-    font-family: "Yellowtail", monospace
-    font-family: "Jetbrains Mono", monospace
-    font-size: var(--font-m)
-    line-height: 1.4rem
-    padding: 6px 0
-    text-shadow: var(--text-shadow-1)
-    &:hover 
-      animation: blinker 1s linear infinite
-      color: var(--color-white) !important
-
-#navbar
-  left: 0
-  right: 0
-  z-index: 10000
-  overflow: hidden
-  width: 100%
-  max-height: 100vh 
-  position: fixed
-  backdrop-filter: blur(187px)
-  -webkit-backdrop-filter: blur(187px)
-  overflow-y: none
-  // border-bottom: 0.01px solid black !important
-  // box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
-  // -webkit-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
-  // -moz-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
-
-#navbar-theme-toggle
-  background: transparent
-  border: none
-  bottom: 2rem
-  display: block
-  fill: var(--color-yellow) 
-  height: 2rem
-  left: 1.8rem
-  position: absolute
-  width: 2rem
-  -webkit-animation: fadein 1s linear 1 normal forwards
-  z-index: 9999
-  img, svg
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
-    width: 1.6rem
-    height: 1.6rem
-    pointer-events: none
-  &:hover
-    opacity: 1.0
-  &:active
-    opacity: 0.9
-
-.navbar-logo 
-  h1
-    color: var(--color-grey-1)  
-    &:after
-      background-color: var(--color-grey-1)
-    &:hover
-      color: var(--color-blue-light)    
-      &:after
-        background-color: var(--color-blue)
-  
-.navbar-menu
-  i
-    color: var(--color-grey-1)
-    &:hover
-      color: var(--color-blue)
-
-.navbar
-  display: flex
-  justify-content: space-between
-  align-items: center
-  margin: 16px 0
-
-.navbar-logo
-  align-items: center
-  display: flex
-  margin: 12px 0
-  a
-    font-family: "JetBrains Mono", monospace
-    font-family: "Reddit Mono", monospace 
-  h1
-    cursor: pointer
-    font-size: var(--font-xxxl)
-    font-weight: 500
-    &:after
-      background-color: #ececec
-      border-radius: 1px
-      content: ""
-      display: inline-block
-      height: 1.2em
-      margin-left: 4px
-      opacity: 0.3
-      vertical-align: text-bottom
-      width: 0.67em
-      @extend .blinker
-
-.navbar-logo-spacer
-  font-family: "Yellowtail", monospace
-  margin: 0 3px
-
-.navbar-menu
-  align-items: center
-  cursor: pointer
-  display: flex
-  justify-content: center
-
-.page-header
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
-  font-family: "Yellowtail", monospace
-  padding: 0 0 48px
-  width: 100%
-  p
-    font-size: var(--font-m)
-  a
-    font-size: var(--font-m) 
-    mix-blend-mode: normal 
-  a:hover
-    animation: blinker 1s linear infinite
-  h1
-    font-family: "Courier Prime", monospace
-    letter-spacing: 0.8rem
-    white-space: pre-wrap 
-    word-break: break-word 
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
-    font-size: var(--font-xxl)
-
-.page-header-image
-  border-radius: 0 0.75rem 0.75rem 0 
-  display: flex
-  flex-direction: column
-  flex: 1
-  p
-    display: flex
-    justify-content: flex-end /* Centers horizontally (optional) */
-
-.page-header-image
-  flex-basis: 25%
-  img
-    border-radius: 0.75rem 0 0 0.75rem
-
-.page-header-image-invert
-  img
-    &:hover
-      transition: filter 6.5s ease-in-out
-      transition-duration: 7s
-      filter: invert(100%)
-      -webkit-transition: 1.5s
-
-.page-header-excerpt
-  flex-basis: 70%
-  border: none
-  border-radius: 0 0.75rem 0.75rem 0 
-  img
-    border-radius: 24px 0 0 0
-  p
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-l)
-    padding: 36px 48px
-
-.page-header-title
-  display: flex
-  align-items: center
-  margin: 12px 0
-  width: 100%
-  i
-    font-size: var(--font-xxxl)
-    margin: 0 24px 0 0
-    opacity: 0.71
-  h1
-    font-size: var(--font-5xl) 
-
-.project-section-container
-  margin: 48px 0
-
-.page-title
-  display: flex 
-  flex-direction: row
-
-.project-header
-  padding: 24px 0 12px
-  font-family: "Yellowtail", monospace
-  p
-    font-size: var(--font-m)
-  a
-    font-size: var(--font-m) 
-    mix-blend-mode: normal
-  h1
-    color: white
-    &:after
-      padding: 24px
-      @extend .blinker
-  h2
-    color: var(--color-white)
-    font-size: var(--font-xl)
-    margin: 12px 0
-
-.project-links
-  padding: 24px 72px 24px
-  display: flex
-  flex-direction: column
-  a
-    font-weight: 900
-    margin: 6px 0
-  a:hover
-    animation: blinker 1s linear infinite
-
-.project-overview
-  padding: 36px 0
-  p
-    font-size: var(--font-l)
-    font-family: "Yellowtail", monospace
-
-.project-section
-  p
-    font-family: "Yellowtail", monospace
-    line-height: 1.8rem
-    margin: 18px 0
-    // text-indent: 48px
-  a
-    mix-blend-mode: normal !important
-  .img
-    display: flex
-    justify-content: center
-    padding: 72px 0 0
-  span
-    color: var(--color-title)
-    margin-right: 24px
-
-.project-section-tags
-  color: var(--color-grey-3)
-  font-size: var(--font-xl) !important
-  font-family: "Courier Prime", monospace
-
-.project-section-title
-  h1
-    font-family: "Alfa Slab One", serif
-    font-family: "Courier Prime", monospace
-    font-size: var(--font-5xl)
-    font-weight: 900 
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
-    // letter-spacing: 0.1rem
-    line-height: 2.4rem
-    // padding: 0 48px 0 0
-    text-shadow: var(--text-shadow-5) !important
-    text-transform: uppercase
-    text-transform: capitalize
-    word-break: break-word
-  h2
-    color: var(--color-grey-3)
-    font-family: "JetBrains Mono", monospace
-    padding: 8px 0
-  p
-    color: var(--color-white)
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-l) 
-
-.project-tag
-  background-color: var(--color-grey-4)
-  border-radius: 3px
-  color: var(--color-grey-3)
-  cursor: default
-  display: inline-block
-  font-weight: 500
-  letter-spacing: 0
-  margin: 8px 8px 8px 0
-  padding: 4px 12px
-
-.project-tags
-  cursor: default
-  display: block
-  font-size: 1em
-  h1
-    color: var(--color-grey-1)
-    font-family: "Yellowtail", monospace
-    font-size: var(--font-l) 
-  span
-    color: var(--color-grey-4)
-
-.project-title
-  align-items: center
-  display: flex
-  flex-direction: column
-  align-items: flex-start
-  i
-    font-size: var(--font-xxl)
-    margin: 0 16px 6px 0
-  h1
-    font-family: "Courier Prime", monospace
-    font-family: "Alfa Slab One", serif
-    letter-spacing: 0.05rem
-    line-height: 2.4rem
-    text-transform: uppercase
-    text-shadow: none 
-    word-break: break-word
-    hyphens: auto
-    -webkit-hyphens: auto
-    -ms-hyphens: auto
-  h2
-    color: var(--color-grey-4)
-    span
-      opacity: 0.29
-
-.project-title-container
-  display: flex
-  flex-direction: row
-  justify-content: center
-  align-items: center
-
-.section-header
-  font-family: "Courier Prime", monospace
-  font-size: var(--font-l)
-  margin: 72px 0 24px
-  h5
-    color: white
-
-
-
-
-
-
-/* EFFECTS */
-
-.blinker
-  animation: blink-animation 1s infinite
-  -webkit-animation: blink-animation 1s infinite
-  -moz-animation: blink-animation 1s infinite
-  -o-animation: blink-animation 1s infinite
-
-.fade-in
-  opacity: 1
-  animation-name: fadeInOpacity
-  animation-iteration-count: 1
-  animation-timing-function: ease-in
-  animation-duration: 0.25s
-
-/* MISC. */
-
-.footer-construction
-  background-color: #D9044C
-  display: flex
-  justify-content: center
-  left: 0
-  right: 0
-  bottom: 0
-  padding: 12px 0
-  position: fixed
-  z-index: 9999
-  p
-    color: #fff
-    font-family: "Tiny5", monospace
-    text-transform: uppercase
-
-.footer-status    
-  align-items: center
-  color: #6DFF9A
-  display: flex
-  flex-direction: row
-  justify-content: center
-  .circle
-    width: 12px
-    height: 12px
-    background-color: #6DFF9A
-    border-radius: 12px
-  p
-    font-family: "Reddit Mono", monospace
-    font-size: var(--font-xs)
-    padding: 0 12px
-
-.hidden
-  display: none
-
-
-
-
-
-
-/* SHIMS */
-
-.spacer
-  height: 121px
-  text-align: center
-  width: 100%
-
-.spacer-line
-  border-bottom: 1px solid var(--color-blue-storm)
-  margin: 0 96px
-
-.spacer-s
-  height: 60px
-
-.spacer-m
-  height: 120px
-
-.spacer-l
-  height: 180p
-
-.line-height-1
-  line-height: 1.8rem
-
-
-
-
-
-
-
-// Settings
 
 $c_0: #000000
 $c_1: #353540
-
-
-
-
-
-
-
-// Basic reset
 
 *
   margin: 0
@@ -752,12 +117,6 @@ $c_1: #353540
     &::after
       transform: translateY(0%)
 
-
-
-
-
-
-
   // Shadows
 
   &::before
@@ -784,19 +143,668 @@ $c_1: #353540
 
 
 
-/* HOVER STYLING*/
 
-/* base style (mobile touch) */
 
-.back-to-top-arrow,
-.back-to-top-home,
-.back-to-top-theme
-  opacity: 0.71
 
-.navbar-menu
-  i
+
+body
+  a
+    cursor: pointer !important
+
+  .project-section,
+  .project-title,
+  .stat li,
+  p, h1, h2, h3, h4, h5
+    cursor: default
+
+  /* MAIN STYLES */
+
+  .anchor
+    scroll-margin-top: 28px 
+
+  /* BACK TO TOP BUTTON */
+
+  .back-to-top
+    position: fixed
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 2.71rem
+    height: 2.71rem
+    border-radius: 50%
+    text-decoration: none
+    transition: transform 0.2s ease, background-color 0.2s ease
+    z-index: 9998
+
+  .back-to-top-theme
+    bottom: 8.8rem
+    opacity: 0.5
+    left: 0.5rem
+    font-size: 1.2rem
+
+  .back-to-top-arrow
+    // background-color: #000
+    bottom: 2.3rem
+    color: #fff
+    opacity: 0.3
+    left: 2rem
+    font-size: 1.8rem
+
+  .back-to-top-home
+    // background-color: #000
+    bottom: 6.3rem
+    color: #fff
+    opacity: 0.3
+    left: 2rem
+    span
+      font-size: 1.8rem
+
+  .back-to-top:active 
+    transform: translateY(-2px)
+    opacity: 0.7
+
+  .footer
+    margin: 120px 0 24px
+
+  .footer-categories
+    font-family: "Yellowtail", monospace
+    font-size: var(--font-m)
+    margin: 96px 0
+    padding: 36px 72px
+    text-align: center
+
+  .footer-caution
+    align-items: center
+    display: flex
+    justify-content: center
+    a
+      color: var(--color-orange)
+
+  .footer-quick-links
+    line-height: 2.4rem
+    padding: 8px 0 
+    a
+      color: var(--color-blue-2)
+      font-weight: 900
+      font-size: var(--font-xl)
+      opacity: 0.71
+      &:hover
+        opacity: 1
+    i
+      opacity: 1
+      text-decoration-style: underline dotted
+      -webkit-text-decoration: underline dotted 
+    span
+      cursor: default
+      opacity: 0.5
+      padding: 0 8px
+    .hover-nostyle
+      &:hover
+        opacity: 0.8
+
+  .footer-text-flashing
+    animation: blink-animation 0.87s infinite
+    -webkit-animation: blink-animation 0.87s infinite
+    padding: 0 24px
+
+  .header-simple
+    padding: 172px 0 0
+    text-align: center
+
+  .header-simple-excerpt
+    margin: 0 25vw
+    padding: 24px 0
+
+  .header-simple-title
+    color: var(--color-grey-1)
+    font-size: var(--font-8xl)
+    i
+      font-size: var(--font-xxl)
+    h1
+      font-family: "Reddit Mono", monospace 
+      letter-spacing: 0.29rem
+      line-height: 3rem
+      text-shadow: var(--text-shadow-3)
+      text-transform: uppercase
+
+  .img-fullsize
+    break-inside: avoid
+    figcaption
+      padding: 18px 0
+      text-align: center
+    p
+      margin: 24px 0 48px 
+
+  .img-gallery
+    ul
+      display: flex
+      flex-wrap: wrap 
+    li
+      height: 100vh
+      flex-grow: 1
+    img
+      max-height: 100%
+      min-width: 100%
+      width: 100%
+
+  .img-gallery-small
+    img
+      padding: 24px 0
+
+  .img-gallery-full
+    color: var(--color-grey-3)
+    padding: 48px 0
+    font-family: "Reddit Mono", monospace
+    figcaption
+      font-size: var(--font-s)
+      padding: 16px 0 128px
+      text-align: center
+    img
+      box-shadow: 0 0 24px hsla(0, 0%, 0%, 0.2) 
+
+  #info 
+    text-align: center
+    
+  #info a 
+    color: #fff
+    text-transform: uppercase
+    position: fixed
+    bottom: 15px
+
+  #navbar-menu
+    i
+      font-size: var(--font-xxxl)
+    // // styling for a text-based menu button
+    // p
+    //   cursor: pointer
+    //   filter: grayscale(0.5)
+    //   font-family: "Noto Color Emoji", sans-serif
+    //   font-weight: 400
+    //   font-size: var(--font-xxl)
+    //   font-style: normal
+    //   opacity: 0.7
+    //   &:hover
+    //     filter: grayscale(0.0)
+    //     opacity: 1
+    //   &:active
+    //     opacity: 0.9
+
+  .navbar-menu-category
+    display: flex
+    flex: 1
+    flex-direction: column
+    justify-content: flex-start !important
+
+  .navbar-menu-category-container
+    display: flex
+    align-items: flex-start
+    flex: 1
+    justify-content: center
+    text-align: center
+    padding: 96px 0 0
+
+  .navbar-menu-category-title
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 4px 0
+    i
+      font-size: var(--font-xl)
+      padding: 0 14px 0 0 
+    h2
+      font-family: "Yellowtail", monospace
+      font-family: "Courier Prime", monospace
+      font-family: "JetBrains Mono", monospace !important
+      font-size: var(--font-l)
+      line-height: 1.1rem
+      text-align: center
+
+  #navbar-menu-expanded
+    height: 100vh
+    -ms-overflow-style: none  /* IE and Edge */
+    scrollbar-width: none
+    z-index: 9999
+
+  .navbar-menu-expanded
+    display: flex
+    overflow-y: auto
+    overflow-y: scroll
+    scrollbar-width: none
+    -ms-overflow-style: none 
+
+  .navbar-menu-list
+    display: flex
+    flex-direction: column
+    padding: 12px 0
+    a 
+      font-family: "Yellowtail", monospace
+      font-family: "Jetbrains Mono", monospace
+      font-size: var(--font-m)
+      line-height: 1.4rem
+      padding: 6px 0
+      text-shadow: var(--text-shadow-1)
+      &:hover 
+        animation: blinker 1s linear infinite
+        color: var(--color-white) !important
+
+  #navbar
+    left: 0
+    right: 0
+    z-index: 10000
+    overflow: hidden
+    width: 100%
+    max-height: 100vh 
+    position: fixed
+    backdrop-filter: blur(187px)
+    -webkit-backdrop-filter: blur(187px)
+    overflow-y: none
+    // border-bottom: 0.01px solid black !important
+    // box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
+    // -webkit-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
+    // -moz-box-shadow: 10px -10px 54px -4px rgba(0,0,0,0.77)
+
+  #navbar-theme-toggle
+    background: transparent
+    border: none
+    bottom: 2rem
+    display: block
+    fill: var(--color-yellow) 
+    height: 2rem
+    left: 1.8rem
+    position: absolute
+    width: 2rem
+    -webkit-animation: fadein 1s linear 1 normal forwards
+    z-index: 9999
+    img, svg
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      width: 1.6rem
+      height: 1.6rem
+      pointer-events: none
     &:hover
+      opacity: 1.0
+    &:active
+      opacity: 0.9
+
+  .navbar-logo 
+    h1
+      color: var(--color-grey-1)  
+      &:after
+        background-color: var(--color-grey-1)
+      &:hover
+        color: var(--color-blue-light)    
+        &:after
+          background-color: var(--color-blue)
+    
+  .navbar-menu
+    i
       color: var(--color-grey-1)
+      &:hover
+        color: var(--color-blue)
+
+  .navbar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 16px 0
+
+  .navbar-logo
+    align-items: center
+    display: flex
+    margin: 12px 0
+    a
+      font-family: "JetBrains Mono", monospace
+      font-family: "Reddit Mono", monospace 
+    h1
+      cursor: pointer
+      font-size: var(--font-xl)
+      font-weight: 500
+      &:after
+        background-color: #ececec
+        border-radius: 1px
+        content: ""
+        display: inline-block
+        height: 1.2em
+        margin-left: 4px
+        opacity: 0.3
+        vertical-align: text-bottom
+        width: 0.67em
+        @extend .blinker
+
+  .navbar-logo-spacer
+    font-family: "Yellowtail", monospace
+    margin: 0 3px
+
+  .navbar-menu
+    align-items: center
+    cursor: pointer
+    display: flex
+    justify-content: center
+
+  .page-header
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    font-family: "Yellowtail", monospace
+    padding: 0 0 48px
+    width: 100%
+    p
+      font-size: var(--font-m)
+    a
+      font-size: var(--font-m) 
+      mix-blend-mode: normal 
+    a:hover
+      animation: blinker 1s linear infinite
+    h1
+      font-family: "Courier Prime", monospace
+      letter-spacing: 0.8rem
+      white-space: pre-wrap 
+      word-break: break-word 
+      hyphens: auto
+      -webkit-hyphens: auto
+      -ms-hyphens: auto
+      font-size: var(--font-xxl)
+
+  .page-header-image
+    border-radius: 0 0.75rem 0.75rem 0 
+    display: flex
+    flex-direction: column
+    flex: 1
+    p
+      display: flex
+      justify-content: flex-end /* Centers horizontally (optional) */
+
+  .page-header-image
+    flex-basis: 25%
+    img
+      border-radius: 0.75rem 0 0 0.75rem
+
+  .page-header-image-invert
+    img
+      &:hover
+        transition: filter 6.5s ease-in-out
+        transition-duration: 7s
+        filter: invert(100%)
+        -webkit-transition: 1.5s
+
+  .page-header-excerpt
+    flex-basis: 70%
+    border: none
+    border-radius: 0 0.75rem 0.75rem 0 
+    img
+      border-radius: 24px 0 0 0
+    p
+      font-family: "Yellowtail", monospace
+      font-size: var(--font-l)
+      padding: 36px 48px
+
+  .page-header-title
+    display: flex
+    align-items: center
+    margin: 12px 0
+    width: 100%
+    i
+      font-size: var(--font-xxxl)
+      margin: 0 24px 0 0
+      opacity: 0.71
+    h1
+      font-size: var(--font-5xl) 
+
+  .project-section-container
+    margin: 48px 0
+
+  .page-title
+    display: flex 
+    flex-direction: row
+
+  .project-header
+    padding: 24px 0 96px
+    font-family: "Yellowtail", monospace
+    p
+      font-size: var(--font-m)
+    a
+      font-size: var(--font-m) 
+      mix-blend-mode: normal
+    h1
+      color: white
+      &:after
+        padding: 24px
+        @extend .blinker
+    h2
+      color: var(--color-white)
+      font-size: var(--font-xl)
+      margin: 12px 0
+
+  .project-links
+    padding: 24px 72px 24px
+    display: flex
+    flex-direction: column
+    a
+      font-weight: 900
+      margin: 6px 0
+    a:hover
+      animation: blinker 1s linear infinite
+
+  .project-overview
+    padding: 36px 0
+    p
+      font-size: var(--font-l)
+      font-family: "Yellowtail", monospace
+
+  .project-section
+    p
+      font-family: "Yellowtail", monospace
+      line-height: 1.8rem
+      margin: 18px 0
+      // text-indent: 48px
+    a
+      mix-blend-mode: normal !important
+    .img
+      display: flex
+      justify-content: center
+      padding: 72px 0 0
+    span
+      color: var(--color-title)
+      margin-right: 24px
+
+  .project-section-tags
+    color: var(--color-grey-3)
+    font-size: var(--font-xl) !important
+    font-family: "Courier Prime", monospace
+
+  .project-section-title
+    h1
+      font-family: "Alfa Slab One", serif
+      font-family: "Courier Prime", monospace
+      font-size: var(--font-5xl)
+      font-weight: 900 
+      hyphens: auto
+      -webkit-hyphens: auto
+      -ms-hyphens: auto
+      // letter-spacing: 0.1rem
+      line-height: 2.4rem
+      // padding: 0 48px 0 0
+      text-shadow: var(--text-shadow-5) !important
+      text-transform: uppercase
+      text-transform: capitalize
+      word-break: break-word
+    h2
+      color: var(--color-grey-3)
+      font-family: "JetBrains Mono", monospace
+      padding: 8px 0
+    p
+      color: var(--color-white)
+      font-family: "Yellowtail", monospace
+      font-size: var(--font-l) 
+
+  .project-tag
+    background-color: var(--color-grey-4)
+    border-radius: 3px
+    color: var(--color-grey-3)
+    cursor: default
+    display: inline-block
+    font-weight: 500
+    letter-spacing: 0
+    margin: 8px 8px 8px 0
+    padding: 4px 12px
+
+  .project-tags
+    cursor: default
+    display: block
+    font-size: 1em
+    h1
+      color: var(--color-grey-1)
+      font-family: "Yellowtail", monospace
+      font-size: var(--font-l) 
+    span
+      color: var(--color-grey-4)
+
+  .project-title
+    align-items: center
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    i
+      font-size: var(--font-xxl)
+      margin: 0 16px 6px 0
+    h1
+      font-family: "Courier Prime", monospace
+      font-family: "Alfa Slab One", serif
+      letter-spacing: 0.05rem
+      line-height: 2.4rem
+      text-transform: uppercase
+      text-shadow: none 
+      word-break: break-word
+      hyphens: auto
+      -webkit-hyphens: auto
+      -ms-hyphens: auto
+    h2
+      color: var(--color-grey-4)
+      span
+        opacity: 0.29
+
+  .project-title-container
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+  .section-header
+    font-family: "Courier Prime", monospace
+    font-size: var(--font-l)
+    margin: 72px 0 24px
+    h5
+      color: white
+
+
+
+
+
+
+  /* EFFECTS */
+
+  .blinker
+    animation: blink-animation 1s infinite
+    -webkit-animation: blink-animation 1s infinite
+    -moz-animation: blink-animation 1s infinite
+    -o-animation: blink-animation 1s infinite
+
+  .fade-in
+    opacity: 1
+    animation-name: fadeInOpacity
+    animation-iteration-count: 1
+    animation-timing-function: ease-in
+    animation-duration: 0.25s
+
+  /* MISC. */
+
+  .footer-construction
+    background-color: #D9044C
+    display: flex
+    justify-content: center
+    left: 0
+    right: 0
+    bottom: 0
+    padding: 12px 0
+    position: fixed
+    z-index: 9999
+    p
+      color: #fff
+      font-family: "Tiny5", monospace
+      text-transform: uppercase
+
+  .footer-status    
+    align-items: center
+    color: #6DFF9A
+    display: flex
+    flex-direction: row
+    justify-content: center
+    .circle
+      width: 12px
+      height: 12px
+      background-color: #6DFF9A
+      border-radius: 12px
+    p
+      font-family: "Reddit Mono", monospace
+      font-size: var(--font-xs)
+      padding: 0 12px
+
+  .hidden
+    display: none
+
+
+
+
+
+
+  /* SHIMS */
+
+  .spacer
+    height: 121px
+    text-align: center
+    width: 100%
+
+  .spacer-line
+    border-bottom: 1px solid var(--color-blue-storm)
+    margin: 0 96px
+
+  .spacer-s
+    height: 60px
+
+  .spacer-m
+    height: 120px
+
+  .spacer-l
+    height: 180p
+
+  .line-height-1
+    line-height: 1.8rem
+
+
+
+
+
+
+
+
+
+
+  /* HOVER STYLING*/
+
+  /* base style (mobile touch) */
+
+  .back-to-top-arrow,
+  .back-to-top-home,
+  .back-to-top-theme
+    opacity: 0.71
+
+  .navbar-menu
+    i
+      &:hover
+        color: var(--color-grey-1)
 
 
 

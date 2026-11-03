@@ -1,6 +1,6 @@
 /* LIGHT */
 body {
-  background-color: var(--color-grey-3);
+  background-color: var(--color-grey-2);
 }
 body .badge {
   display: flex;
@@ -74,7 +74,7 @@ body .project-links a:hover {
   color: var(--color-white);
 }
 body .project-section p {
-  color: var(--color-grey-3);
+  color: var(--color-grey-2);
 }
 body .project-tag {
   color: var(--color-grey-5);
