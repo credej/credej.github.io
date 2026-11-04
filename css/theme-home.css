@@ -676,12 +676,16 @@ body.dark-mode .stats {
     font-size: var(--font-5xl);
     padding: 12px 0;
   }
+  body .intro-icons {
+    justify-content: center;
+  }
   body .intro-icons i {
     font-size: var(--font-xxxxl);
   }
   body .intro-text p {
     font-size: var(--font-xxl);
     line-height: 2.4rem;
+    text-align: center;
   }
   body .stat {
     padding: 48px 96px !important;
@@ -769,8 +773,12 @@ body.dark-mode .stats {
   body .category-sub i {
     font-size: var(--font-xxxl);
   }
+  body .category-sub-excerpt p {
+    font-size: var(--font-l);
+    line-height: 1.8rem;
+  }
   body .category-sub-title h2 {
-    font-size: var(--font-xxxxl) !important;
+    font-size: var(--font-xxxl) !important;
     line-height: 3rem;
   }
   body .category-title h1 {

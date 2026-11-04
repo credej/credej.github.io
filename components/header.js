@@ -34,7 +34,7 @@ class Header extends HTMLElement {
                      <div class="navbar-menu-list blue">
                         <a href="/pages/software/cybergrad/index.html" target=_self>Cybersecurity Training</a>
                         <a href="/pages/software/redteam/index.html" target=_self>Red Team Operation Management</a>
-                        <a href="/pages/software/collectibles/index.html" target=_self>Online Collectibles Store</a>
+                        <a href="/pages/software/collectibles/index.html" target=_self>Steel City Collectibles</a>
                         <a href="/pages/software/inventory/index.html" target=_self>Inventory Tracking</a>
                         <a href="/pages/software/counterfeit/index.html" target=_self>Counterfeit Detection</a>
                      </div>
