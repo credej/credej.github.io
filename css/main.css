@@ -592,6 +592,7 @@ body .project-links {
   flex-direction: column;
 }
 body .project-links a {
+  font-size: var(--font-xl);
   font-weight: 900;
   margin: 6px 0;
 }

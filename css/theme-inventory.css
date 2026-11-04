@@ -30,26 +30,32 @@ body .badge img:hover {
 body .effect-glitch {
   color: var(--color-blue);
 }
+body .footer-quick-links a {
+  text-shadow: var(--text-shadow-2);
+}
 body .img-fullsize figcaption {
   color: var(--color-grey-5);
 }
-body .project-header h2 {
-  color: var(--color-grey-5);
-}
 body .navbar-logo h1 {
-  color: var(--color-blue-light);
+  color: var(--color-grey-5);
 }
 body .navbar-logo h1:hover {
   color: var(--color-white);
 }
 body .navbar-logo h1:hover:after {
-  background-color: var(--color-white);
+  background-color: var(--color-grey-5);
 }
 body .navbar-menu i {
-  color: var(--color-blue-light);
+  color: var(--color-grey-5);
 }
 body .navbar-menu i:hover {
   color: var(--color-white);
+}
+body .project-header h2 {
+  color: var(--color-grey-5);
+}
+body .project-overview p {
+  color: var(--color-grey-5);
 }
 body .project-section-desc p {
   color: #fff;
@@ -68,10 +74,7 @@ body .project-links {
   margin: 0 48px 48px;
 }
 body .project-links a {
-  color: var(--color-blue-light);
-}
-body .project-links a:hover {
-  color: var(--color-white);
+  color: var(--color-blue);
 }
 body .project-section p {
   color: var(--color-grey-2);
@@ -79,11 +82,13 @@ body .project-section p {
 body .project-tag {
   color: var(--color-grey-5);
 }
+body .project-title h1 {
+  text-shadow: var(--text-shadow-4);
+}
 body .project-title i {
-  color: var(--color-blue-light);
+  color: var(--color-blue);
 }
 
-/* DARK */
 body.dark-mode {
   background-color: var(--color-blue-storm);
   color: var(--color-white);
@@ -91,16 +96,34 @@ body.dark-mode {
 body.dark-mode .img-fullsize figcaption {
   color: var(--color-grey-3);
 }
+body.dark-mode .navbar-logo h1 {
+  color: var(--color-blue);
+}
+body.dark-mode .navbar-logo h1:hover {
+  color: var(--color-white);
+}
+body.dark-mode .navbar-logo h1:hover:after {
+  background-color: var(--color-white);
+}
+body.dark-mode .navbar-menu i {
+  color: var(--color-blue);
+}
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-white);
+}
+body.dark-mode .project-overview p {
+  color: var(--color-grey-3);
+}
 body.dark-mode .project-section-desc a {
   color: var(--color-blue);
 }
 body.dark-mode .project-section-desc {
-  color: var(--color-blue-light);
+  color: var(--color-blue);
 }
 body.dark-mode .project-tag {
   background-color: #141720;
   color: var(--color-grey-6);
 }
 body.dark-mode .project-links a {
-  color: var(--color-blue-light);
+  color: var(--color-blue);
 }
