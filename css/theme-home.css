@@ -411,6 +411,9 @@ body.dark-mode .footer-text-thanks a:active {
 body.dark-mode .intro-text {
   color: var(--color-grey-2);
 }
+body.dark-mode .navbar-menu i:hover {
+  color: var(--color-blue-light);
+}
 body.dark-mode .neon-blue {
   animation: pulsate-blue 0.11s ease-in-out infinite alternate;
 }
