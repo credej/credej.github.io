@@ -269,6 +269,7 @@ body .header-simple-title h1 {
 }
 body .img-fullsize {
   break-inside: avoid;
+  padding: 48px 0;
 }
 body .img-fullsize figcaption {
   padding: 18px 0;
@@ -586,7 +587,7 @@ body .project-header h2 {
   margin: 12px 0;
 }
 body .project-links {
-  padding: 24px 72px 24px;
+  padding: 18px 60px 18px;
   display: flex;
   flex-direction: column;
 }

@@ -402,7 +402,7 @@
     display: flex;
   }
   .project-links {
-    margin: 24px 0 96px;
+    margin: 18px 0 72px;
   }
   .project-links a {
     font-size: var(--font-xl);
