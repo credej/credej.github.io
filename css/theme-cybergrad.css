@@ -74,7 +74,7 @@ body .neon-blue {
   animation: none;
 }
 body .project-section-container {
-  padding: 24px 0;
+  margin: 0;
 }
 body .project-header {
   color: var(--color-white);
@@ -83,6 +83,9 @@ body .project-links a {
   color: #fff;
   color: #7EF9E5;
   text-shadow: var(--text-shadow-3);
+}
+body .project-overview {
+  padding: 36px 0 72px;
 }
 body .project-overview p {
   color: var(--color-grey-5);

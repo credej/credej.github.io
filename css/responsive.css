@@ -69,7 +69,7 @@
     padding: 0 7.5vw;
   }
   .navbar-logo h1 {
-    font-size: var(--font-l);
+    font-size: var(--font-l) !important;
     font-weight: 700;
     letter-spacing: -0.05rem;
   }
@@ -203,7 +203,7 @@
   }
   .project-title i {
     font-size: var(--font-xxxxl);
-    margin: 0 0 12px;
+    margin: 0 0 12px !important;
   }
   .project-title h1 {
     font-size: var(--font-xxxxl);
@@ -212,6 +212,15 @@
   }
   .project-title h1:after {
     display: none;
+  }
+  .project-title h2 {
+    font-size: var(--font-xl);
+  }
+  .project-title-container {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
   }
   .section-header {
     text-align: center;
@@ -246,7 +255,7 @@
   }
   .project-links {
     margin: 12px 0 72px;
-    text-align: center;
+    text-align: left;
   }
   .project-links a {
     font-size: var(--font-xl);
@@ -263,6 +272,9 @@
   .project-section-desc,
   .project-section-title h4 {
     text-align: center;
+  }
+  .project-tags {
+    text-align: left;
   }
   .project-title {
     flex-direction: column;
