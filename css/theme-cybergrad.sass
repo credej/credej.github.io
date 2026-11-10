@@ -1,10 +1,14 @@
 /* LIGHT */
 
 body
-  background-color: #0ED7B8
+  background-color: #1AFFDB
   
+  .b-game-card
+    border: 1px solid #7FFFD4 
+    border-image: linear-gradient(to bottom, #0ED7B8 20%, #040D19 40%, #0ED7B8 80%) 1
+
   .badges
-    margin: 96px 0
+    margin: 48px 0 96px
 
   .badges-container
     display: flex
@@ -55,7 +59,9 @@ body
       color: #265E55
       font-size: var(--font-l)
       text-shadow: var(--text-shadow-1)
-
+    img
+      border: 2px solid var(--color-cyber-bg)
+      
   .menu-category-title
     h2
       text-shadow: var(--text-shadow-2)
@@ -92,7 +98,6 @@ body
   .project-links
     a
       color: #fff
-      color: #7EF9E5
       text-shadow: var(--text-shadow-3)
 
   .project-overview 
@@ -115,17 +120,17 @@ body
       color: var(--color-grey-1)
 
   .project-tag
-    background-color: var(--color-cybergrad-blue)
-    color: #0ED7B8
+    background-color: #0ED7B8
+    color: #1AFFDB
 
   .project-title
     h1
       color: var(--color-white)
       text-shadow: var(--text-shadow-1)
     h2
-      color: var(--color-white)
+      color: var(--color-grey-2)
     i
-      color: var(--color-grey-3)
+      color: var(--color-grey-2)
     span
       color: var(--color-white)
 
@@ -135,6 +140,10 @@ body
 
 body.dark-mode
   background-color: #040D19
+  
+  .b-game-card
+    border: 1px solid #7FFFD4 
+    border-image: linear-gradient(to bottom, #040D19 20%, #7FFFD4 40%, #040D19 80%) 1
 
   .badge
     h3
@@ -149,9 +158,12 @@ body.dark-mode
       color: var(--color-grey-5)
 
   .img-fullsize
+    img
+      border: 2px solid var(--color-cyber-bg)
     figcaption
-      color: var(--color-grey-3)
-
+      animation: pulsate-blue 0.11s ease-in-out infinite alternate
+      color: var(--color-white)
+      font-family: "Courier Prime", monospace
   .navbar-logo 
     h1
       color: var(--color-grey-3)

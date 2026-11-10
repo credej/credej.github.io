@@ -141,15 +141,15 @@ class Header extends HTMLElement {
             </button>
          </a>
 
-         <a href="#top" class="back-to-top back-to-top-arrow" aria-label="Back to top">
-            ▲
-         </a>
-
          <button id="navbar-theme-toggle">
             <a href="/index.html" class="back-to-top back-to-top-home" aria-label="Back to top">
                <span class="material-symbols-outlined">home</span>
             </a>
          </button>
+
+         <a href="#top" class="back-to-top back-to-top-arrow" aria-label="Back to top">
+            <i class="iconoir-arrow-up"></i>
+         </a>
       </div>
       <!-- <div class="footer-construction">
          <p>Site Under Construction!</p>
