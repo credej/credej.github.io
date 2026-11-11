@@ -513,6 +513,15 @@ body.dark-mode .stats {
   body .category-sub-container {
     margin: 48px 0 0;
   }
+  body .category-sub-excerpt {
+    text-align: center;
+  }
+  body .category-sub-excerpt p {
+    font-size: var(--font-m);
+    line-height: 1.4em;
+    padding: 12px;
+    text-align: center;
+  }
   body .category-sub-title {
     justify-content: center;
     text-align: center;
@@ -520,14 +529,6 @@ body.dark-mode .stats {
   body .category-sub-title h2 {
     line-height: 1.4em;
     font-size: var(--font-xxxl);
-  }
-  body .category-sub-excerpt {
-    text-align: center;
-  }
-  body .category-sub-excerpt p {
-    font-size: var(--font-m);
-    padding: 12px;
-    text-align: center;
   }
   body .category-title {
     display: flex;

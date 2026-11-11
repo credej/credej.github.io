@@ -160,7 +160,7 @@
     text-align: center !important;
   }
   body .project-links a {
-    font-size: var(--font-l);
+    font-size: var(--font-l) !important;
     text-decoration-style: underline dotted;
     -webkit-text-decoration: underline dotted;
     text-shadow: var(--text-shadow-1);

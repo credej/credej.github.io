@@ -276,6 +276,7 @@ body .img-fullsize-container img {
 }
 body .img-fullsize {
   break-inside: avoid;
+  cursor: default;
   padding: 48px 0;
 }
 body .img-fullsize figcaption {
