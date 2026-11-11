@@ -147,14 +147,21 @@ body
     display: flex
     align-items: center
     h1
-      clear: both
-      display: block
-      float: left
       color: white
       font-family: "Courier Prime", monospace
       letter-spacing: 0.8rem
       text-transform: uppercase
-      word-break: break-word
+      overflow-wrap: break-word
+      -webkit-hyphens: auto
+      -moz-hyphens: auto
+      -ms-hyphens: auto
+      hyphens: auto
+      /* Minimum word length (6), chars before break (3), chars after break (2) */
+      -webkit-hyphenate-limit-before: 3
+      -webkit-hyphenate-limit-after: 2
+      hyphenate-limit-chars: 6 3 2
+      /* Prevent more than 2 hyphenated lines in a row */
+      hyphenate-limit-lines: 2
     i
       text-align: center
 
@@ -337,6 +344,15 @@ body
 
 
 
+
+
+
+
+
+
+
+
+
 /* HOME PAGE - DARK THEME */
 
 body.dark-mode 
@@ -411,6 +427,17 @@ body.dark-mode
 
   .stats
     background-color: none
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -589,6 +616,19 @@ body.dark-mode
       span
         font-size: var(--font-xxl) !important
 
+
+
+
+@media screen and (min-width: 500px) and (max-width: 768px)
+  body
+    .intro-text
+      p
+        padding: 0 15vw
+
+
+
+
+
 @media screen and (min-width: 769px) and (max-width: 1024px)
   
   body
@@ -665,12 +705,21 @@ body.dark-mode
         font-size: var(--font-xxl)
         line-height: 2.4rem
         text-align: center
+        padding: 0 8.5vw
 
     .stat
       padding: 48px 96px !important
 
     .stat-container
       flex-direction: column !important
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1025px) and (max-width: 1366px)
 
@@ -734,6 +783,16 @@ body.dark-mode
   .stat-container
     flex-direction: column !important
 
+
+
+
+
+
+
+
+
+
+
 /* CONSIDER SPLITTING 1280-1979 MEDIA QUERY INTO TWO */
 
 @media screen and (min-width: 1367px) and (max-width: 1980px)
@@ -788,6 +847,16 @@ body.dark-mode
     .stat
       padding: 36px
 
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1981px) and (max-width: 2160px)
 
   .category
@@ -838,6 +907,16 @@ body.dark-mode
 
   .site-main
     padding: 0 12vw
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 2161px)
   body

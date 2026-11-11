@@ -4,37 +4,37 @@
   }
 }
 @media screen and (min-width: 201px) and (max-width: 768px) {
-  .back-to-top-desktop {
+  body .back-to-top-desktop {
     display: none;
   }
-  .footer {
-    padding: 24px 48px 0;
+  body .footer {
+    padding: 0 48px;
   }
-  .footer-categories {
+  body .footer-categories {
     padding: 24px;
   }
-  .footer-column {
+  body .footer-column {
     display: flex;
     align-items: center;
     width: 100%;
   }
-  .footer-quick-links a {
+  body .footer-quick-links a {
     display: inline-block;
     font-size: var(--font-l);
     margin: 12px;
   }
-  .header-simple {
+  body .header-simple {
     padding: 0;
   }
-  .header-simple-excerpt {
+  body .header-simple-excerpt {
     font-size: var(--font-xxxl);
     margin: 0 10vw;
     padding: 12px 0;
   }
-  .header-simple-excerpt p {
+  body .header-simple-excerpt p {
     font-size: var(--font-s);
   }
-  .header-simple-title h1 {
+  body .header-simple-title h1 {
     font-size: var(--font-9xl);
     hyphens: none;
     letter-spacing: -0.01rem;
@@ -43,508 +43,504 @@
     word-break: break-word;
     word-wrap: break-word;
   }
-  .header-simple-title i {
+  body .header-simple-title i {
     margin: 0 !important;
   }
-  .hide-mobile {
+  body .hide-mobile {
     display: none;
   }
-  #navbar-menu-expanded {
+  body #navbar-menu-expanded {
     height: 100vh;
     left: 0;
     overflow-y: auto;
     padding: 24px 0;
     padding-bottom: 150px;
   }
-  #navbar {
+  body #navbar {
     overflow: scroll;
   }
-  #navbar,
-  .project-header {
-    padding: 0 8.5vw;
+  body #navbar,
+  body .project-header,
+  body .site-main {
+    padding: 0 7.5vw !important;
     overflow: hidden;
   }
-  #navbar,
-  .site-main {
-    padding: 0 7.5vw;
-  }
-  .navbar-logo h1 {
+  body .navbar-logo h1 {
     font-size: var(--font-l) !important;
     font-weight: 700;
     letter-spacing: -0.05rem;
   }
-  .navbar-menu i {
+  body .navbar-menu i {
     font-size: 1.6rem !important;
   }
-  .navbar-menu-expanded {
+  body .navbar-menu-expanded {
     box-sizing: border-box;
     flex-direction: column;
   }
-  .navbar-menu-category-container {
+  body .navbar-menu-category-container {
     padding: 24px 0;
     text-align: right;
   }
-  .navbar-menu-category-title {
+  body .navbar-menu-category-title {
     justify-content: flex-end;
   }
-  .navbar-menu-category-title h2 {
+  body .navbar-menu-category-title h2 {
     color: #fff !important;
     font-size: var(--font-xxl);
   }
-  .navbar-menu-list a {
+  body .navbar-menu-list a {
     font-size: var(--font-m);
     padding: 4px 0;
   }
-  .page-header h1 {
+  body .page-header h1 {
     letter-spacing: 0.5rem;
   }
-  .page-header h5 {
+  body .page-header h5 {
     text-align: center;
   }
-  .page-header-excerpt {
+  body .page-header-excerpt {
     background: none !important;
     border-radius: 0 0 0.75rem 0.75rem;
   }
-  .page-header-excerpt p {
+  body .page-header-excerpt p {
     font-size: var(--font-s);
     padding: 16px 24px;
     text-align: center;
   }
-  .page-header-image img,
-  .page-header-excerpt {
+  body .page-header-image img,
+  body .page-header-excerpt {
     border-radius: 0;
   }
-  .page-header-image,
-  .page-header-excerpt {
+  body .page-header-image,
+  body .page-header-excerpt {
     flex-basis: 100%;
   }
-  .page-header-image img {
+  body .page-header-image img {
     border-radius: 0.75rem 0.75rem 0 0;
   }
-  .page-header-title {
+  body .page-header-title {
     justify-content: flex-start;
     flex-direction: column;
     padding: 12px 0;
   }
-  .page-header-title h1 {
+  body .page-header-title h1 {
     font-size: var(--font-5xl);
     letter-spacing: 0.3rem;
     line-height: 2.4rem;
     padding: 0 36px;
     text-align: center;
   }
-  .page-header-title i {
+  body .page-header-title i {
     padding: 12px 0;
   }
-  .page-title {
+  body .page-title {
     font-size: var(--font-l);
   }
-  .page-title h1 {
+  body .page-title h1 {
     letter-spacing: 0.6rem;
   }
-  .project-header {
-    padding: 24px;
+  body .project-header {
+    padding: 24px 0;
     text-align: center;
   }
-  .project-header a:hover {
+  body .project-header a:hover {
     animation: none;
   }
-  .project-header h2 {
-    font-size: var(--font-m);
+  body .project-header h2 {
+    font-size: var(--font-s);
     line-height: 1.4rem;
     margin: 24px 0 12px;
     text-align: center;
   }
-  .project-header h5 {
+  body .project-header h5 {
     font-size: var(--font-s);
   }
-  .project-links {
-    padding: 24px 0;
+  body .project-links {
+    padding: 0 0 48px !important;
+    text-align: center !important;
   }
-  .project-links a {
+  body .project-links a {
     font-size: var(--font-l);
     text-decoration-style: underline dotted;
     -webkit-text-decoration: underline dotted;
     text-shadow: var(--text-shadow-1);
   }
-  .project-links a:active {
+  body .project-links a:active {
     opacity: 0.9;
   }
-  .project-overview p {
-    font-size: var(--font-m);
+  body .project-overview p {
+    font-size: var(--font-l) !important;
     line-height: 1.6rem;
   }
-  .project-section {
+  body .project-section {
     padding: 36px;
   }
-  .project-section-desc p {
+  body .project-section-desc p {
     font-size: var(--font-m);
     line-height: 1.4rem;
     text-align: center;
   }
-  .project-section-title h1 {
+  body .project-section-title h1 {
     font-size: var(--font-xxxl);
   }
-  .project-section-title h4 {
+  body .project-section-title h4 {
     text-align: center;
   }
-  .project-tags {
-    font-size: var(--font-xxxs);
+  body .project-tags {
+    font-size: var(--font-l);
   }
-  .project-tag {
+  body .project-tag {
     font-size: var(--font-m);
     margin: 4px 4px 4px 0;
     padding: 2px 8px;
   }
-  .project-title {
+  body .project-title {
     align-items: center;
     flex-direction: column;
     margin: 12px 0;
   }
-  .project-title i {
+  body .project-title i {
     font-size: var(--font-xxxxl);
     margin: 0 0 12px !important;
   }
-  .project-title h1 {
+  body .project-title h1 {
     font-size: var(--font-xxxxl);
     letter-spacing: 0.5rem;
     line-height: 2.4rem;
   }
-  .project-title h1:after {
+  body .project-title h1:after {
     display: none;
   }
-  .project-title h2 {
-    font-size: var(--font-xl);
+  body .project-title h2 {
+    font-size: var(--font-m);
   }
-  .project-title-container {
+  body .project-title-container {
     display: flex;
     align-items: center !important;
     flex-direction: column !important;
     justify-content: center !important;
   }
-  .section-header {
+  body .section-header {
     text-align: center;
   }
-  .site {
+  body .site {
     margin-top: 96px;
   }
-  .stat {
+  body .stat {
     margin: 48px 0;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  a > .blue > :first-child {
+  body a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .navbar-logo h1 {
+  body .navbar-logo h1 {
     font-size: var(--font-l);
   }
-  .page-header-image img {
+  body .page-header-image img {
     border-radius: 0.75rem 0.75rem 0 0;
   }
-  .page-header-excerpt {
+  body .page-header-excerpt {
     border-radius: 0 0 0.75rem 0.75rem;
   }
-  .page-header-image,
-  .page-header-excerpt {
+  body .page-header-image,
+  body .page-header-excerpt {
     flex-basis: 100%;
   }
-  .project-header {
-    padding: 0 48px;
+  body .project-header {
     text-align: center;
   }
-  .project-links {
+  body .project-links {
     margin: 12px 0 72px;
     text-align: left;
   }
-  .project-links a {
+  body .project-links a {
     font-size: var(--font-xl);
     text-decoration-style: underline dotted !important;
     -webkit-text-decoration: underline dotted !important;
   }
-  .project-overview p {
+  body .project-overview p {
     text-align: center;
     text-align: justify;
   }
-  .project-section {
+  body .project-section {
     padding: 72px;
   }
-  .project-section-desc,
-  .project-section-title h4 {
+  body .project-section-desc,
+  body .project-section-title h4 {
     text-align: center;
   }
-  .project-tags {
-    text-align: left;
+  body .project-tags {
+    text-align: center;
   }
-  .project-title {
+  body .project-title {
     flex-direction: column;
   }
-  .project-title h1 {
+  body .project-title h1 {
     text-align: center;
   }
-  .navbar-menu-category-title h2 {
+  body .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-l) !important;
     font-weight: 900;
     text-shadow: var(--text-shadow-3);
   }
-  .navbar-menu-list a {
+  body .navbar-menu-list a {
     font-size: var(--font-m) !important;
   }
-  .project-header h2 {
+  body .project-header h2 {
     margin: 12px 0;
   }
-  .project-section-title h3 {
+  body .project-section-title h3 {
     font-size: var(--font-xxl);
     text-align: center;
   }
-  .project-title {
+  body .project-title {
     font-size: var(--font-6xl);
     justify-content: center;
   }
-  .project-title h1 {
+  body .project-title h1 {
     line-height: 2.8rem;
   }
-  .project-title i {
+  body .project-title i {
     margin: 0 0 12px;
   }
-  .site-main {
+  body .site-main {
     margin: 144px 0 0;
   }
-  #navbar,
-  .site-main {
+  body #navbar,
+  body .site-main {
     padding: 0 7.5vw !important;
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
-  a > .blue > :first-child {
-    padding: 0 12px 0 0;
-  }
-  .navbar-menu-category-title h2 {
-    color: #fff;
-    font-size: var(--font-xl) !important;
-    font-weight: 900;
-    text-shadow: var(--text-shadow-3);
-  }
-  .navbar-menu-list a {
-    font-size: var(--font-m) !important;
-  }
-  .navbar-logo h1 {
-    font-size: var(--font-l);
-  }
-  #navbar,
-  .site-main {
-    padding: 0 12.5vw;
-  }
-  .page-header-image img {
-    border-radius: 0.75rem 0.75rem 0 0;
-  }
-  .page-header-excerpt {
-    border-radius: 0 0 0.75rem 0.75rem;
-  }
-  .page-header-image,
-  .page-header-excerpt {
-    flex-basis: 100%;
-  }
-  .project-links {
-    margin: 24px 0;
-  }
-  .project-links a {
-    font-size: var(--font-xl);
-    text-decoration-style: underline dotted !important;
-    -webkit-text-decoration: underline dotted !important;
-  }
-  .project-section {
-    padding: 72px;
-  }
-  .project-section-title h3 {
-    font-size: var(--font-xxl);
-  }
-  .project-section-title h4 {
-    font-size: var(--font-l);
-  }
-  .project-title h1 {
-    font-size: var(--font-5xl);
-  }
-  .site-main {
-    margin: 144px 0 0;
-  }
+body a > .blue > :first-child {
+  padding: 0 12px 0 0;
 }
+body .navbar-menu-category-title h2 {
+  color: #fff;
+  font-size: var(--font-xl) !important;
+  font-weight: 900;
+  text-shadow: var(--text-shadow-3);
+}
+body .navbar-menu-list a {
+  font-size: var(--font-m) !important;
+}
+body .navbar-logo h1 {
+  font-size: var(--font-l);
+}
+body #navbar,
+body .site-main {
+  padding: 0 12.5vw;
+}
+body .page-header-image img {
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+body .page-header-excerpt {
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+body .page-header-image,
+body .page-header-excerpt {
+  flex-basis: 100%;
+}
+body .project-links {
+  margin: 24px 0;
+}
+body .project-links a {
+  font-size: var(--font-xl);
+  text-decoration-style: underline dotted !important;
+  -webkit-text-decoration: underline dotted !important;
+}
+body .project-section {
+  padding: 72px;
+}
+body .project-section-title h3 {
+  font-size: var(--font-xxl);
+}
+body .project-section-title h4 {
+  font-size: var(--font-l);
+}
+body .project-title h1 {
+  font-size: var(--font-5xl);
+}
+body .site-main {
+  margin: 144px 0 0;
+}
+
 @media screen and (min-width: 1367px) and (max-width: 1980px) {
-  a > .blue > :first-child {
+  body a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .header-simple-title h1 {
+  body .header-simple-title h1 {
     font-size: var(--font-9xl);
   }
-  .footer-main {
+  body .footer-main {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .navbar-menu-category-title h2 {
+  body .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-xxxl) !important;
     font-weight: 900;
     text-shadow: var(--text-shadow-3);
   }
-  .navbar-menu-list a {
+  body .navbar-menu-list a {
     font-size: var(--font-l) !important;
   }
-  .navbar-logo h1 {
+  body .navbar-logo h1 {
     font-size: var(--font-xl);
   }
-  #navbar,
-  .site-main {
+  body #navbar,
+  body .site-main {
     padding: 0 15vw;
   }
-  .page-header {
+  body .page-header {
     display: flex;
   }
-  .project-links {
+  body .project-links {
     margin: 18px 0 72px;
   }
-  .project-links a {
+  body .project-links a {
     font-size: var(--font-xl);
   }
-  .project-section {
+  body .project-section {
     padding: 72px;
   }
-  .project-section-title h3 {
+  body .project-section-title h3 {
     font-size: var(--font-xxxl);
   }
-  .project-title h1 {
+  body .project-title h1 {
     font-size: var(--font-7xl);
   }
-  .project-title i {
+  body .project-title i {
     font-size: var(--font-xxxl);
   }
-  .site-main {
+  body .site-main {
     margin: 144px 0 0;
   }
-  .stat-container {
+  body .stat-container {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 1981px) and (max-width: 2160px) {
-  a > .blue > :first-child {
+  body a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .header-simple-title h1 {
+  body .header-simple-title h1 {
     font-size: var(--font-9xl);
   }
-  #navbar {
+  body #navbar {
     padding: 0 12vw;
   }
-  .navbar-menu-category-title h2 {
+  body .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-xxl) !important;
     font-weight: 900;
     text-shadow: var(--text-shadow-3);
   }
-  .navbar-menu-list a {
+  body .navbar-menu-list a {
     font-size: var(--font-xl) !important;
   }
-  .navbar-logo h1 {
+  body .navbar-logo h1 {
     font-size: var(--font-xl);
   }
-  .page-header {
+  body .page-header {
     display: flex;
   }
-  .project-header h2 {
+  body .project-header h2 {
     margin: 12px 0 4px;
   }
-  .project-links {
+  body .project-links {
     margin: 24px 0 144px;
   }
-  .project-links a {
+  body .project-links a {
     font-size: var(--font-xl);
   }
-  .project-overview p,
-  .project-section-desc p {
+  body .project-overview p,
+  body .project-section-desc p {
     font-size: var(--font-xl);
   }
-  .project-section {
+  body .project-section {
     padding: 96px;
   }
-  .project-section-title h2 {
+  body .project-section-title h2 {
     padding: 0 !important;
     display: none !important;
   }
-  .project-section-title h2 {
+  body .project-section-title h2 {
     font-size: var(--font-xxxxl);
   }
-  .project-title h1 {
+  body .project-title h1 {
     font-size: var(--font-7xl);
   }
-  .project-title i {
+  body .project-title i {
     font-size: var(--font-xxxl);
   }
-  .site-main {
+  body .site-main {
     margin: 144px 0 0;
     padding: 0 12vw;
     width: 100% !important;
   }
-  .stat-container {
+  body .stat-container {
     flex-direction: row;
   }
 }
 @media screen and (min-width: 2161px) {
-  a > .blue > :first-child {
+  body a > .blue > :first-child {
     padding: 0 12px 0 0;
   }
-  .header-simple-title h1 {
+  body .header-simple-title h1 {
     font-size: var(--font-9xl);
   }
-  #navbar {
+  body #navbar {
     padding: 0 15vw;
   }
-  .navbar-menu-category-title h2 {
+  body .navbar-menu-category-title h2 {
     color: #fff;
     font-size: var(--font-xxl) !important;
     font-weight: 900;
     text-shadow: var(--text-shadow-3);
   }
-  .navbar-menu-list a {
+  body .navbar-menu-list a {
     font-size: var(--font-xl) !important;
   }
-  .navbar-logo h1 {
+  body .navbar-logo h1 {
     font-size: var(--font-xl);
   }
-  .project-header h2 {
+  body .project-header h2 {
     margin: 12px 0 0;
   }
-  .page-header {
+  body .page-header {
     display: flex;
   }
-  .project-links {
+  body .project-links {
     margin: 24px 0 144px;
   }
-  .project-links a {
+  body .project-links a {
     font-size: var(--font-xl);
   }
-  .project-overview p,
-  .project-section-desc p {
+  body .project-overview p,
+  body .project-section-desc p {
     font-size: var(--font-xl);
   }
-  .project-section {
+  body .project-section {
     padding: 96px;
   }
-  .project-section-title h2 {
+  body .project-section-title h2 {
     font-size: var(--font-xxxxl);
   }
-  .project-title h1 {
+  body .project-title h1 {
     font-size: var(--font-7xl);
   }
-  .project-title i {
+  body .project-title i {
     font-size: var(--font-xxxl);
   }
-  .site-main {
+  body .site-main {
     margin: 144px 0 0;
     padding: 0 15vw;
     width: 100% !important;
   }
-  .stat-container {
+  body .stat-container {
     flex-direction: row;
   }
 }
