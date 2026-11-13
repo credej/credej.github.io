@@ -26,7 +26,7 @@
          }
 
          // if there is no preference set, the default of light will be used. apply accordingly
-         theme === 'dark' ? enableDarkMode() : disableDarkMode();
+         theme === 'light' ? enableDarkMode() : disableDarkMode();
       }
 
       // run on page load
