@@ -223,7 +223,6 @@ body .footer-quick-links {
   padding: 8px 0;
 }
 body .footer-quick-links a {
-  color: var(--color-blue-2);
   font-weight: 900;
   font-size: var(--font-xl);
   opacity: 0.71;
@@ -250,10 +249,9 @@ body .footer-text-flashing {
   padding: 0 24px;
 }
 body .header-simple {
-  padding: 172px 0 0;
   text-align: center;
 }
-body .header-simple-excerpt {
+body .header-simple-title p {
   margin: 0 25vw;
   padding: 24px 0;
 }
@@ -715,6 +713,9 @@ body .section-header {
 }
 body .section-header h5 {
   color: white;
+}
+body .site-main {
+  margin: 144px 0 0;
 }
 body {
   /* EFFECTS */

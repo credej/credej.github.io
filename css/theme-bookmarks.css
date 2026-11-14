@@ -77,13 +77,13 @@ body .bookmark-section li {
   padding: 6px 12px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
-body .header-simple-excerpt {
-  color: #A2D9FE;
-}
 body .header-simple-title {
   color: var(--color-white);
 }
 body .header-simple-title i {
+  color: #A2D9FE;
+}
+body .header-simple-title p {
   color: #A2D9FE;
 }
 body .header-simple-title .neon-blue {
@@ -144,7 +144,7 @@ body.dark-mode .bookmark-glossary a:hover {
   color: var(--color-purple) !important;
   font-weight: 900;
 }
-body.dark-mode .header-simple-excerpt {
+body.dark-mode .header-simple-title p {
   color: var(--color-purple);
 }
 body.dark-mode .page-header-excerpt {

@@ -7,9 +7,6 @@
   body .back-to-top-desktop {
     display: none;
   }
-  body .footer {
-    padding: 0 48px;
-  }
   body .footer-categories {
     padding: 24px;
   }
@@ -21,18 +18,14 @@
   body .footer-quick-links a {
     display: inline-block;
     font-size: var(--font-l);
-    margin: 12px;
   }
   body .header-simple {
     padding: 0;
   }
-  body .header-simple-excerpt {
-    font-size: var(--font-xxxl);
+  body .header-simple-title p {
+    font-size: var(--font-s);
     margin: 0 10vw;
     padding: 12px 0;
-  }
-  body .header-simple-excerpt p {
-    font-size: var(--font-s);
   }
   body .header-simple-title h1 {
     font-size: var(--font-9xl);
@@ -305,9 +298,6 @@
   body .project-title i {
     margin: 0 0 12px;
   }
-  body .site-main {
-    margin: 144px 0 0;
-  }
   body #navbar,
   body .site-main {
     padding: 0 7.5vw !important;
@@ -362,9 +352,6 @@ body .project-section-title h4 {
 body .project-title h1 {
   font-size: var(--font-5xl);
 }
-body .site-main {
-  margin: 144px 0 0;
-}
 
 @media screen and (min-width: 1367px) and (max-width: 1980px) {
   body a > .blue > :first-child {
@@ -414,9 +401,6 @@ body .site-main {
   }
   body .project-title i {
     font-size: var(--font-xxxl);
-  }
-  body .site-main {
-    margin: 144px 0 0;
   }
   body .stat-container {
     flex-direction: row;
@@ -477,7 +461,6 @@ body .site-main {
     font-size: var(--font-xxxl);
   }
   body .site-main {
-    margin: 144px 0 0;
     padding: 0 12vw;
     width: 100% !important;
   }
@@ -536,7 +519,6 @@ body .site-main {
     font-size: var(--font-xxxl);
   }
   body .site-main {
-    margin: 144px 0 0;
     padding: 0 15vw;
     width: 100% !important;
   }

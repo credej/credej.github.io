@@ -221,8 +221,8 @@ body.dark-mode .bg-glass-black {
 }
 
 .border-orange {
-  border: 2px solid #FF6B63;
-  border-image: linear-gradient(to bottom, #5456F7 0%, #FF6B63 40%, #5456F7 100%) 1;
+  border: 2px solid #F97143;
+  border-image: linear-gradient(to bottom, #5456F7 0%, #F97143 40%, #5456F7 100%) 1;
 }
 
 .border-yellow {
@@ -260,7 +260,7 @@ body.dark-mode .border-red {
   border-image: linear-gradient(to bottom, #101010 0%, #FF005E 40%, #101010 100%) 1;
 }
 body.dark-mode .border-orange {
-  border-image: linear-gradient(to bottom, #101010 0%, #FF6B63 40%, #101010 100%) 1;
+  border-image: linear-gradient(to bottom, #101010 0%, #F97143 40%, #101010 100%) 1;
 }
 body.dark-mode .border-yellow {
   border-image: linear-gradient(to bottom, #101010 0%, #C8E501 40%, #101010 100%) 1;

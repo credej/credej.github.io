@@ -25,11 +25,8 @@
             <div class="header-simple">
                <div class="header-simple-title"> <!-- 
                   <i class="iconoir-bug"></i> -->
-                  <i class="iconoir-laptop"></i>
+                  <i class="iconoir-laptop-dev-mode"></i>
                   <h1>DIY: command line interface</h1>
-               </div>
-
-               <div class="header-simple-excerpt">
                   <p>Wake up, Neo...</p>
                </div>
             </div>
@@ -106,6 +103,7 @@
                   </div>
                </div>
             </div>
+
          </div>
       </div>
 
@@ -116,11 +114,11 @@
         var ctx = c.getContext("2d");
 
         // default 15.7, setting to 1 makes the canvas full screen
-        c.height = window.innerHeight/1;
+        c.height = window.innerHeight/11.7;
         c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
-        var matrix = "ッツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさざじすずせぜそぞただぢっつづてでとどなぬねのはびふへほみめスタヌフホabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+        var matrix = "ッツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさざじすずせぜそぞただぢっつづてでとどなぬねのはびふへほみめスタヌフホabcdefghijklmnopqrstuvwxyzABCDEFGHIJKツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 

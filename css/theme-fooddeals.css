@@ -120,13 +120,11 @@ body {
   font-size: var(--font-9xl);
 }
 
-.header-simple-excerpt {
-  padding: 0;
-}
-.header-simple-excerpt p {
+.header-simple-title p {
   color: var(--color-grey-3);
   font-size: var(--font-xl);
   font-family: "Playwrite NZ", cursive;
+  padding: 0;
   text-shadow: var(--text-shadow-3);
 }
 
