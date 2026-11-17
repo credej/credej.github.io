@@ -31,13 +31,21 @@
                </div>
             </div>
 
-            <!-- why does this make page get cut off? other 'project-section-container' does not -->
+            <div class="glossary justify-center">
+               <a href="#ytdlp">youtube dlp</a>
+               <a href="#wget">wget</a>
+               <a href="#searxng">Searxng</a>
+            </div>
+
+            <div id="ytdlp"></div>
             <div class="project-section-container">
                <div class="cli-section">
                   <h1 class="script-title neon-blue">// YOUTUBE DOWNLOAD PRO (YT-DLP)</h1>
+                  <!-- <h1 class="script-title neon-blue">// WGET</h1> -->
                   <!-- <h1 class="script-title neon-blue">// SET UP SEARXNG INSTANCE</h1> -->
                   <p class="script-subtitle">
-                     This guide will explain how to download your own copy of a song (or even an entire playlist) right from youtube giving you your own personal copy that can play offline??? Tired of paying Spotify to rent music? Youtube download pro has your back. This guide is for MacOS - please see additional <a href="https://www.spacebar.news/how-to-install-yt-dlp/" target="_blank">Linux and Windows instructions here</a> or <a class="source" href="https://github.com/yt-dlp/yt-dlp" target="_blank">view source code</a></p>
+                     CLI, terminal, shell, console, command prompt - This guide will explain how to download your own copy of a song, video, or playlist - giving you your own personal copy that can play offline anytime. Once you have downloaded some files you can learn how to host them on your own server and create a customized Netflix & Spotify server for yourself. Tired of paying to rent media? Youtube Download Pro (yt-dlp) has your back. This guide is for MacOS - please see additional <a href="https://www.spacebar.news/how-to-install-yt-dlp/" target="_blank">Linux and Windows instructions here</a> and <a class="source" href="https://github.com/yt-dlp/yt-dlp" target="_blank">view source code here</a>
+                  </p>
 
                   <h2>1. Download and add Homebrew to your path</h2>
                   <div class="cli-command">
@@ -69,13 +77,13 @@
                </div>
             </div>            
 
+            <div id="wget"></div>
             <div class="project-section-container">
                <div class="cli-section">
                   <h1 class="script-title neon-blue">// WGET </h1>
                   <p class="script-subtitle">copy any website's code</p>
 
                   <h2>1. Install wget, add to home path, restart terminal</h2>
-                  <p>
                   <div class="cli-command">
                      <p>$&nbsp; brew install wget</p>
                      <p>$&nbsp; ls -ld .?*</p>
@@ -94,6 +102,16 @@
                   <div class="cli-command">
                      <p>$&nbsp; wget -r https://credej.github.io</p>
                   </div>
+               </div>
+            </div>        
+
+            <div id="searxng"></div>
+            <div class="project-section-container">
+               <div class="cli-section">
+                  <h1 class="script-title neon-blue">// Searxng Metasearch Engine</h1>
+                  <p class="script-subtitle">aggregate results from hundreds of search engines (coming soon!)</p>
+               </div>
+            </div>
 
             <div class="footer">
                <div class="footer-categories bg-glass-orange border-orange">
@@ -114,11 +132,11 @@
         var ctx = c.getContext("2d");
 
         // default 15.7, setting to 1 makes the canvas full screen
-        c.height = window.innerHeight/11.7;
+        c.height = window.innerHeight/9.9;
         c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
-        var matrix = "ッツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさざじすずせぜそぞただぢっつづてでとどなぬねのはびふへほみめスタヌフホabcdefghijklmnopqrstuvwxyzABCDEFGHIJKツヅミテデトドナΩあぃいぅうぇえぉおがきぎけげこごさLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+        var matrix = "ッツヅミテ0デトドナΩあぃいぅうぇ101え1ぉ0おがきぎけげこごさ1ざじすずせ1ぜ0そぞただぢっつづて0でと01どなぬねのは1びふへほみめスタヌフホabcdefghijklmnopqrstu1vwxyzAB1CDEFGHIJKツヅミテデトドナΩあぃいぅう1ぇえ0ぉおがきぎけ0げこごさLMNOPQ1RSTUVWXYZ123456789@1#$%^&*()*&^%+-/~{[|`]}";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 

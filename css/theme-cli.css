@@ -1,5 +1,5 @@
 /* THEME - LIGHT */
-.cli-command {
+body .cli-command {
   background-color: #013D27;
   border: 1px solid var(--color-white);
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
@@ -12,24 +12,23 @@
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
 }
-
-.cli-section {
+body .cli-section {
   font-family: "Courier Prime", monospace;
 }
-
-.cli-section h1 {
+body .cli-section h1 {
   color: white;
+  font-size: var(--font-xxxxl);
 }
-.cli-section h2 {
+body .cli-section h2 {
   font-family: "JetBrains Mono", monospace;
   font-size: var(--font-l);
   padding: 96px 0 24px;
 }
-.cli-section p {
+body .cli-section p {
   padding: 0;
   line-height: 1.8rem;
 }
-.cli-section a {
+body .cli-section a {
   padding: 6px 16px;
   font-weight: bold;
   cursor: pointer;
@@ -37,26 +36,21 @@
   border-radius: 4px;
   transition: all 0.2s;
 }
-
-.header-simple-title i {
+body .header-simple-title i {
   color: var(--color-green);
-  margin: 0 36px 0 0;
 }
-
-.project-section-container {
+body .project-section-container {
   margin: 128px 0;
 }
-
-.script-subtitle {
+body .script-subtitle {
   color: var(--color-grey-1);
   font-family: "JetBrains Mono", monospace;
   font-size: var(--font-l);
 }
-.script-subtitle a {
+body .script-subtitle a {
   color: var(--color-green);
 }
-
-.script-title {
+body .script-title {
   letter-spacing: 0.5rem;
   font-family: "JetBrains Mono", monospace;
   font-family: "Satoshi", sans-serif;
@@ -66,13 +60,14 @@
 }
 
 body {
-  background-color: var(--color-terminal-bg-blue);
+  background-color: var(--color-msdos-blue);
 }
 body #menu-button i {
   color: var(--color-grey-1);
 }
 body .cli-command {
   background-color: #1818C4;
+  background-color: var(--color-black);
 }
 body .cli-command p {
   color: var(--color-white);
@@ -82,6 +77,9 @@ body .cli-section h1 {
 }
 body .cli-section h2 {
   color: var(--color-grey-1);
+}
+body .header-simple-title p {
+  color: var(--color-grey-5);
 }
 body .navbar-logo {
   color: var(--color-white);

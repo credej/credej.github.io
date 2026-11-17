@@ -36,7 +36,6 @@ table
   color: #696969 !important
 
 *
-  letter-spacing: -0.029rem
   &::-webkit-scrollbar 
     width: 0 !important
     display: none
@@ -241,7 +240,29 @@ body
   .footer-text-flashing
     animation: blink-animation 0.87s infinite
     -webkit-animation: blink-animation 0.87s infinite
-    padding: 0 24px
+    padding: 0 24px  
+
+  .glossary
+    display: flex
+    flex-wrap: wrap
+    margin: 12px 0 72px
+    a
+      background: none
+      border: 3px solid var(--color-white)   
+      border-radius: 8px 0 8px 0
+      color: var(--color-white)  
+      font-family: "JetBrains Mono", monospace
+      font-size: var(--font-l)
+      font-weight: 900
+      padding: 12px
+      margin: 4px
+      &:hover
+        animation: blinker 1s linear infinite
+        background: var(--color-white)      
+        border: 3px solid var(--color-white)
+        border-radius: 8px 0 8px 0
+        color: var(--color-remedy-green-light)
+
 
   .header-simple
     // padding: 172px 0 0
@@ -250,7 +271,7 @@ body
   .header-simple-title 
     p
       margin: 0 25vw
-      padding: 24px 0
+      padding: 12px 0
 
   .header-simple-title
     color: var(--color-grey-1)
