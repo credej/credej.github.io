@@ -6,6 +6,10 @@
 body {
   background-color: var(--color-purple);
 }
+body .bg-glass-purple {
+  background-color: #7787F0;
+  background-color: #4C61E9;
+}
 body .bookmark {
   flex-grow: 1;
   flex-shrink: 1;
@@ -77,6 +81,9 @@ body .bookmark-section li {
   padding: 6px 12px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.29);
 }
+body .footer-quick-links a {
+  color: var(--color-grey-1);
+}
 body .header-simple-title {
   color: var(--color-white);
 }
@@ -114,6 +121,9 @@ body .section-header h5 {
 /* BOOKMARKS - DARK */
 body.dark-mode {
   background-color: var(--color-blue-storm);
+}
+body.dark-mode .bg-glass-purple {
+  background-color: #161922;
 }
 body.dark-mode .bookmark {
   flex-grow: 1;
